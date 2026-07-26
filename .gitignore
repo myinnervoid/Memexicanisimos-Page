@@ -1,0 +1,7 @@
+# Evitar subir recursos extra de la empresa (análisis, PDF pesados, notas, código base antiguo)
+Recursos extra/
+# Evitar subir carpetas originales con fotos y biografías sin procesar
+Eduardo Fuentes/
+# Ignorar dependencias de entornos locales
+node_modules/
+.DS_Store

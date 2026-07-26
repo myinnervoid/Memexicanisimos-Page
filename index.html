@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memexicanisimos — Hub Profesional de Software, Consultoría y Código Abierto</title>
+  <meta name="description" content="Portal oficial y Hub de Ingeniería de Memexicanisimos. Soluciones soberanas, herramientas locales para Android/Linux y servicios de consultoría tecnológica en Cancún." />
+  
+  <!-- Tipografías de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  
+  <!-- Iconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Hojas de Estilos Locales -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER GLOBAL (ESTILO APPLE GLASS) -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <span class="logo-emoji">🇲🇽</span>
+        <span class="logo-text">Memexicanisimos<span>.com</span></span>
+      </a>
+      <nav class="header-nav">
+        <a href="https://github.com/myinnervoid/Memexicanisimos-Page" target="_blank" class="nav-github-link">
+          <i class="fab fa-github"></i>
+          <span>Página del Proyecto</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTOR -->
+  <section class="hero-section">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Soberanía Tecnológica · Hecho en Cancún</div>
+      <h1>Ingeniería de Software y <span>Soporte de Sistemas</span></h1>
+      <p class="hero-subtitle">
+        Desarrollamos soluciones locales eficaces, brindamos consultoría de infraestructura y ayudamos a profesionales y empresas a tomar el control absoluto de sus datos y flujos de trabajo.
+      </p>
+
+      <!-- TABS PRINCIPALES (THE NEW NOTBOOK - 5 PESTAÑAS) -->
+      <div class="tabs-container">
+        <button class="tab-button active" data-target="perfiles">
+          <span class="tab-icon">⚙️</span>
+          <div class="tab-info">
+            <span class="tab-title">Planos de Apps</span>
+            <span class="tab-desc">Código Abierto</span>
+          </div>
+        </button>
+        <button class="tab-button" data-target="consultoria">
+          <span class="tab-icon">💼</span>
+          <div class="tab-info">
+            <span class="tab-title">Consultoría</span>
+            <span class="tab-desc">Tech Sherpa</span>
+          </div>
+        </button>
+        <button class="tab-button" data-target="nosotros-apoyo">
+          <span class="tab-icon">🌮</span>
+          <div class="tab-info">
+            <span class="tab-title">Nosotros & Apoyo</span>
+            <span class="tab-desc">Misión & Tacos</span>
+          </div>
+        </button>
+        <button class="tab-button" data-target="creador-contacto">
+          <span class="tab-icon">🤠</span>
+          <div class="tab-info">
+            <span class="tab-title">Creador & Soporte</span>
+            <span class="tab-desc">Eduardo F.</span>
+          </div>
+        </button>
+        <button class="tab-button" data-target="redes-sociales">
+          <span class="tab-icon">📱</span>
+          <div class="tab-info">
+            <span class="tab-title">Redes & Live</span>
+            <span class="tab-desc">Vibe Coding</span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENEDOR PRINCIPAL DE SECCIONES -->
+  <main class="products-wrapper">
+
+    <!-- ================= SECCIÓN 1: PLANOS DE INGENIERÍA DE APPS ================= -->
+    <section id="perfiles" class="product-section active">
+      <div class="product-header">
+        <div class="badge-product">Ecosistema Open Source</div>
+        <h2>Nuestros Planos de Ingeniería de Software Libre</h2>
+        <p>Herramientas locales, utilitarias y directas diseñadas para resolver problemas del día a día, sin rastreadores ni telemetría opaca.</p>
+      </div>
+
+      <!-- Menú Secundario de Apps -->
+      <div class="sub-nav-container">
+        <a href="#masv-anchor" class="sub-nav-link"><i class="fas fa-desktop"></i> MASV</a>
+        <a href="#burner-anchor" class="sub-nav-link"><i class="fas fa-fire"></i> Burner</a>
+        <a href="#files-anchor" class="sub-nav-link"><i class="fas fa-folder-open"></i> Files</a>
+      </div>
+
+      <!-- APP 1: MASV -->
+      <div class="app-detail-block" id="masv-anchor">
+        <div class="app-detail-header">
+          <div class="app-title-wrapper">
+            <span class="app-icon-visual blue"><i class="fas fa-desktop"></i></span>
+            <div>
+              <h3>MASV (Android Screen Viewer)</h3>
+              <span class="app-subtitle-badge">v1.1 · GUI de Transmisión Activa</span>
+            </div>
+          </div>
+          <p class="app-description">
+            GUI avanzada para controlar y transmitir pantallas de dispositivos Android a tu PC con baja latencia. Incluye perfiles de resolución, WiFi automático, webcam virtual y controles rápidos de depuración.
+          </p>
+          <div class="actions-group">
+            <a href="https://github.com/myinnervoid/Memexicanisimos-Android-Screen-Viewer/releases/latest" target="_blank" class="btn btn-blue">
+              <i class="fas fa-download"></i> Descargar MASV
+            </a>
+            <a href="https://github.com/myinnervoid/Memexicanisimos-Android-Screen-Viewer" target="_blank" class="btn btn-outline">
+              <i class="fab fa-github"></i> Código en GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="app-visual-grid">
+          <!-- Guía y Teléfono -->
+          <div class="visual-card">
+            <h4>🔌 Configuración Rápida de Depuración USB</h4>
+            <p class="text-muted">Desbloquea el potencial de tu dispositivo con estos 3 pasos:</p>
+            
+            <div class="steps-minified">
+              <div class="minified-step">
+                <span class="num">1</span>
+                <div>
+                  <strong>Desbloquear Ajustes:</strong> Ajustes → Acerca del teléfono → Pulsa 7 veces el <em>Número de compilación</em>.
+                </div>
+              </div>
+              <div class="minified-step">
+                <span class="num">2</span>
+                <div>
+                  <strong>Depuración:</strong> Ajustes → Sistema → Opciones de desarrollador → Activa el interruptor <em>Depuración USB</em>.
+                </div>
+              </div>
+              <div class="minified-step">
+                <span class="num">3</span>
+                <div>
+                  <strong>Autorización:</strong> Conecta el cable USB a la computadora y acepta el cuadro de huella RSA.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mockup del Dispositivo Android -->
+          <div class="visual-card flex-center">
+            <div class="mock-ui phone">
+              <div class="phone-bar">
+                <span>09:41</span>
+                <span><i class="fas fa-wifi"></i> <i class="fas fa-battery-full"></i></span>
+              </div>
+              <div class="phone-screen">
+                <div class="screen-item">Opciones de desarrollador</div>
+                <div class="screen-item switch-row">
+                  <span>Depuración USB</span>
+                  <div class="switch active"></div>
+                </div>
+                <div class="mock-toast">✔ ¡MASV Conectado por ADB!</div>
+                
+                <div class="mockup-rsa-dialog">
+                  <h6>¿Permitir depuración USB?</h6>
+                  <p class="dialog-rsa-desc">La huella digital de la clave RSA del equipo es válida.</p>
+                  <div class="dialog-row">
+                    <input type="checkbox" checked id="allow-always" disabled />
+                    <label for="allow-always">Permitir siempre</label>
+                  </div>
+                  <div class="dialog-btns">
+                    <span>CANCELAR</span>
+                    <span class="allow-btn">PERMITIR</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shortcuts Grid para MASV -->
+        <div class="shortcuts-wrapper">
+          <h4>⌨️ Shortcuts directos (Atajos rápidos de scrcpy)</h4>
+          <div class="shortcuts-grid">
+            <div class="short-card"><kbd>Alt</kbd> + <kbd>↑</kbd> <span>Subir Volumen</span></div>
+            <div class="short-card"><kbd>Alt</kbd> + <kbd>↓</kbd> <span>Bajar Volumen</span></div>
+            <div class="short-card"><kbd>MOD</kbd> + <kbd>h</kbd> <span>Botón Inicio (Home)</span></div>
+            <div class="short-card"><kbd>MOD</kbd> + <kbd>b</kbd> <span>Botón Atrás (Back)</span></div>
+            <div class="short-card"><kbd>MOD</kbd> + <kbd>s</kbd> <span>Aplicaciones Recientes</span></div>
+            <div class="short-card"><kbd>MOD</kbd> + <kbd>v</kbd> <span>Pegar Portapapeles del PC</span></div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-divider" />
+
+      <!-- APP 2: BURNER -->
+      <div class="app-detail-block" id="burner-anchor">
+        <div class="app-detail-header">
+          <div class="app-title-wrapper">
+            <span class="app-icon-visual orange"><i class="fas fa-fire"></i></span>
+            <div>
+              <h3>Burner (Windows ISO USB Writer)</h3>
+              <span class="app-subtitle-badge color-orange">v2.0 · CLI Fastboot & ISO Flasher</span>
+            </div>
+          </div>
+          <p class="app-description">
+            La solución definitiva para quemar imágenes ISO de Windows desde entornos Linux. Resuelve el dolor de cabeza clásico de los archivos de más de 4GB en sistemas de archivos FAT32 dividiendo el archivo <code>install.wim</code> automáticamente en partes legibles por la BIOS/UEFI.
+          </p>
+          <div class="actions-group">
+            <a href="https://github.com/myinnervoid/Memexicanisimos-Burner-Windows/releases/latest" target="_blank" class="btn btn-orange">
+              <i class="fas fa-download"></i> Descargar Burner
+            </a>
+            <a href="https://github.com/myinnervoid/Memexicanisimos-Burner-Windows" target="_blank" class="btn btn-outline">
+              <i class="fab fa-github"></i> Código en GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Consola Virtual de Flasheo -->
+        <div class="console-wrapper">
+          <div class="console-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="console-title">Memexicanisimos Burner CLI - wimlib image splitter</span>
+          </div>
+          <div class="console-body">
+            <p class="console-line text-muted">[INFO] Analizando ISO de Windows 10/11...</p>
+            <p class="console-line text-warning">[WARN] Archivo 'sources/install.wim' excede los 4GB (Tamaño: 5.2 GB)</p>
+            <p class="console-line text-success">[PROCESS] Dividiendo install.wim usando wimlib en install.swm...</p>
+            <div class="console-progress">
+              <div class="progress-bar orange" style="width: 0%;">0%</div>
+            </div>
+            <p class="console-line text-muted">[INFO] Creando partición de arranque UEFI en USB /dev/sdb...</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-divider" />
+
+      <!-- APP 3: FILES -->
+      <div class="app-detail-block" id="files-anchor">
+        <div class="app-detail-header">
+          <div class="app-title-wrapper">
+            <span class="app-icon-visual green"><i class="fas fa-folder-open"></i></span>
+            <div>
+              <h3>Files (Cloner & File Organizer)</h3>
+              <span class="app-subtitle-badge color-green">v1.5 · Local File Organizer</span>
+            </div>
+          </div>
+          <p class="app-description">
+            Organizador local inteligente de archivos. Cuenta con un algoritmo de inspección que comprueba y analiza el tamaño, fecha y firma MD5 antes de iniciar la copia o movimiento, garantizando que no se generen copias duplicadas ni corrupción en el historial Undo.
+          </p>
+          <div class="actions-group">
+            <a href="https://github.com/myinnervoid/Memexicanisimos-Files/releases/latest" target="_blank" class="btn btn-green">
+              <i class="fas fa-download"></i> Descargar Files
+            </a>
+            <a href="https://github.com/myinnervoid/Memexicanisimos-Files" target="_blank" class="btn btn-outline">
+              <i class="fab fa-github"></i> Código en GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Explorador de Archivos Interactivo -->
+        <div class="file-explorer-mock">
+          <div class="explorer-sidebar">
+            <div class="sidebar-item active"><i class="fas fa-hdd"></i> Almacenamiento</div>
+            <div class="sidebar-item"><i class="fas fa-camera"></i> Fotos DCIM</div>
+            <div class="sidebar-item"><i class="fas fa-music"></i> Música</div>
+            <div class="sidebar-item"><i class="fas fa-undo"></i> Historial (Undo)</div>
+          </div>
+          <div class="explorer-main">
+            <div class="explorer-toolbar">
+              <span>Directorio: <code class="text-cyan">/sdcard/Download/</code></span>
+              <span class="transfer-btn"><i class="fas fa-bolt"></i> Ejecutar Copia limpia</span>
+            </div>
+            <div class="explorer-files-list">
+              <div class="file-row">
+                <span class="f-type">📄</span>
+                <span class="f-name">foto_backup_playa.jpg</span>
+                <span class="f-size">3.1 MB</span>
+                <span class="f-action">Descargar</span>
+              </div>
+              <div class="file-row">
+                <span class="f-type">📦</span>
+                <span class="f-name">ROM_Original_Redmi.zip</span>
+                <span class="f-size">2.1 GB</span>
+                <span class="f-action">Descargar</span>
+              </div>
+              <div class="file-row">
+                <span class="f-type">🎵</span>
+                <span class="f-name">audio_graba_sesion.mp3</span>
+                <span class="f-size">14.5 MB</span>
+                <span class="f-action">Descargar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECCIÓN 2: CONSULTORÍA Y ASISTENCIA ================= -->
+    <section id="consultoria" class="product-section">
+      <div class="product-header">
+        <div class="badge-product">Arquitectura Soberana</div>
+        <h2>Consultoría e Infraestructura Local</h2>
+        <p>Tu "Tech Sherpa" y especialista de confianza. Te ayudo a configurar flujos de trabajo locales seguros, soberanos y de alto rendimiento.</p>
+      </div>
+
+      <div class="consulting-grid">
+        <div class="service-card">
+          <span class="service-icon"><i class="fas fa-network-wired"></i></span>
+          <h3>Infraestructura y Redes Locales</h3>
+          <p>Instalación de servidores locales, almacenamiento masivo NAS, servidores multimedia y redes privadas auto-albergadas. Despídete de las suscripciones en la nube.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"><i class="fas fa-video"></i></span>
+          <h3>Estudios de Streaming y OBS</h3>
+          <p>Configuración a nivel de hardware y software para transmisiones profesionales en OBS Studio, enrutamiento virtual de audio, cámaras externas de celulares y codificación optimizada.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"><i class="fas fa-shield-alt"></i></span>
+          <h3>Políticas de Respaldo Soberano</h3>
+          <p>Diseño e implementación de sistemas de copias de seguridad incrementales automáticas e inmunes a ataques del exterior, almacenados localmente bajo tu custodia.</p>
+        </div>
+      </div>
+
+      <div class="cta-consulting-box">
+        <div class="cta-glow"></div>
+        <h3>¿Listo para optimizar tu flujo de trabajo?</h3>
+        <p>Hablemos sobre tus necesidades de sistemas, almacenamiento local o streaming profesional y diseñemos un plan a tu medida.</p>
+        <a href="https://calendly.com/memexicanisimos-ficticio" target="_blank" class="btn btn-blue btn-large">
+          <i class="far fa-calendar-alt"></i> Reservar Sesión de Diagnóstico Exprés
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= SECCIÓN 3: NOSOTROS Y APOYO (DONACIONES) ================= -->
+    <section id="nosotros-apoyo" class="product-section">
+      <div class="product-header">
+        <div class="badge-product">Soberanía de Código</div>
+        <h2>La Filosofía detrás de Memexicanisimos</h2>
+        <p>Creando herramientas que respetan al usuario final, con base en el caribe mexicano.</p>
+      </div>
+
+      <div class="about-flex-container">
+        <div class="about-text-content">
+          <h3>Nuestra Historia</h3>
+          <p>
+            Memexicanisimos nació originalmente en redes como un recopilador enfocado en documentar la cultura popular y el meme nacional. Con el paso del tiempo y motivado por resolver problemas personales del día a día usando software propio en entornos Linux y Android, el proyecto se reconvirtió. Nos convertimos en un Hub de herramientas útiles y robustas, priorizando el principio de <strong>Local-First</strong> (procesamiento local sin dependencia de servidores opacos ni de conexiones constantes a Internet).
+          </p>
+          <p style="margin-top: 16px;">
+            Nuestras raíces se asientan firmemente en <strong>Cancún, México</strong>, promoviendo el desarrollo tecnológico regional y demostrando que es posible escribir código de alta calidad desde cualquier rincón del país.
+          </p>
+        </div>
+        
+        <!-- Logotipo Oficial en el lugar de Honor -->
+        <div class="about-logo-card">
+          <div class="logo-display-wrapper">
+            <img src="assets/Logo.png" alt="Logo Memexicanisimos" class="about-logo-img" />
+            <div class="logo-text-box">
+              <h4>Logo Oficial</h4>
+              <p>El charro de mostacho revolucionario sosteniendo un disco óptico en llamas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección de Apoyo / Invítame un Taco -->
+      <div class="support-wrapper">
+        <div class="support-glow"></div>
+        <div class="support-header-box">
+          <span class="support-icon">🌮</span>
+          <h3>¡Invítame un Taco!</h3>
+          <p>Si alguna de nuestras herramientas te ahorró tiempo, dolores de cabeza o ayudó en tu trabajo diario, considera apoyar al desarrollo continuo del proyecto independiente.</p>
+        </div>
+        <div class="donation-buttons">
+          <a href="https://patreon.com/Memexicanisimos" target="_blank" class="btn-donate patreon">
+            <i class="fab fa-patreon"></i> Apoyar en Patreon
+          </a>
+          <a href="https://paypal.me/Memexicanisimos" target="_blank" class="btn-donate paypal">
+            <i class="fab fa-paypal"></i> Donar vía PayPal
+          </a>
+          <a href="https://mercadopago.com.mx/donar/memexicanisimos" target="_blank" class="btn-donate mercadopago">
+            <i class="fas fa-wallet"></i> Mercado Pago
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECCIÓN 4: CREADOR Y CONTACTO ================= -->
+    <section id="creador-contacto" class="product-section">
+      <div class="product-header">
+        <div class="badge-product" style="border-color: var(--blue); color: var(--blue); background: var(--blue-glow);">Creador del Proyecto</div>
+        <h2>Eduardo Fuentes</h2>
+        <p>Entusiasta de la tecnología y el Vibe Coding que utiliza Inteligencia Artificial y herramientas comunitarias para dar vida a las soluciones de Memexicanisimos.</p>
+      </div>
+
+      <div class="creator-portfolio-card">
+        <div class="creator-profile-header">
+          <img src="assets/Avatar.jpg" alt="Eduardo Fuentes" class="creator-avatar-img" />
+          <div class="creator-meta">
+            <h3>Eduardo Fuentes</h3>
+            <p class="creator-title">Creador de Ecosistemas · Vibe Coder</p>
+            <p class="creator-location"><i class="fas fa-map-marker-alt"></i> De Xalapa, Veracruz para Cancún, México</p>
+          </div>
+        </div>
+
+        <div class="creator-description-body">
+          <p>
+            Originario de Xalapa, Veracruz, emigré a Cancún para hacer mi vida. Tras varios trabajos en la ciudad experimentando en hotelería, aeropuerto y tours, decidí tomar mi tiempo para formar <strong>Memexicanisimos</strong> como mi proyecto estrella.
+          </p>
+          <p style="margin-top: 12px;">
+            A mis 36 años implanto todo mi conocimiento y curiosidad para resolver necesidades personales y comunitarias. No sé programar a nivel profesional y aún estoy estudiando, pero soy un apasionado de la lectura profunda y el uso de Inteligencia Artificial para el <em>vibe coding</em>, lo que me permite comprender los flujos de código de una manera que no todos logran hoy en día.
+          </p>
+          <p style="margin-top: 12px;">
+            Suelo estructurar ideas con música de fondo de bandas como Rammstein, Enjambre o Metric. Mi consola favorita de toda la vida es Nintendo y el Metroidvania es mi género predilecto. Encuéntrame de vez en cuando transmitiendo en vivo mientras coordino la creación de nuevas apps utilizando herramientas y asistentes de IA en tiempo real.
+          </p>
+        </div>
+
+        <div class="creator-interactive-links">
+          <!-- TikTok Personal del Creador -->
+          <a href="https://tiktok.com/@myinnervoid" target="_blank" class="creator-social-link">
+            <i class="fab fa-tiktok"></i>
+            <span>tiktok.com/myinnervoid</span>
+          </a>
+
+          <!-- GitHub del Creador -->
+          <a href="https://github.com/myinnervoid" target="_blank" class="creator-social-link">
+            <i class="fab fa-github"></i>
+            <span>github.com/myinnervoid</span>
+          </a>
+        </div>
+
+        <!-- Módulo interactivo de copiado de Correo Oficial -->
+        <div class="email-copy-module">
+          <h5>Contacto Profesional & Consultas</h5>
+          <p class="text-muted">¿Tienes alguna duda técnica o quieres colaborar en algún proyecto?</p>
+          <div class="email-copy-bar">
+            <span class="email-text">memexicanisimos@gmail.com</span>
+            <button id="copy-email-btn" class="btn btn-blue"><i class="far fa-copy"></i> Copiar Correo</button>
+          </div>
+          <div class="email-direct-link-box">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=memexicanisimos@gmail.com" target="_blank" class="gmail-direct-btn">
+              <i class="far fa-envelope"></i> Redactar directamente en Gmail
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECCIÓN 5: REDES SOCIALES Y CONTENIDO ================= -->
+    <section id="redes-sociales" class="product-section">
+      <div class="product-header">
+        <div class="badge-product">Sesiones de Vibe Coding</div>
+        <h2>Sigue Nuestra Actividad en Vivo</h2>
+        <p>Acompáñanos en nuestras sesiones de live coding, consejos de administración de sistemas y desarrollo rápido de herramientas.</p>
+      </div>
+
+      <div class="social-channels-grid">
+        <a href="https://tiktok.com/@Memexicanisimos" target="_blank" class="social-card-item tiktok">
+          <div class="icon-social-box"><i class="fab fa-tiktok"></i></div>
+          <div class="social-text-info">
+            <h4>TikTok Oficial</h4>
+            <p>Video tutoriales cortos, tips rápidos y humor de desarrollo de software de la marca.</p>
+          </div>
+          <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+        </a>
+
+        <a href="https://youtube.com/Memexicanisimos" target="_blank" class="social-card-item youtube">
+          <div class="icon-social-box"><i class="fab fa-youtube"></i></div>
+          <div class="social-text-info">
+            <h4>YouTube</h4>
+            <p>Videos largos explicativos, tutoriales paso a paso de servidores y streaming.</p>
+          </div>
+          <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+        </a>
+
+        <a href="https://facebook.com/Memexicanisimos" target="_blank" class="social-card-item facebook">
+          <div class="icon-social-box"><i class="fab fa-facebook"></i></div>
+          <div class="social-text-info">
+            <h4>Facebook</h4>
+            <p>La comunidad original, noticias y avisos de lanzamientos de versiones.</p>
+          </div>
+          <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+        </a>
+
+        <a href="https://twitch.tv/Memexicanisimos" target="_blank" class="social-card-item twitch">
+          <div class="icon-social-box"><i class="fab fa-twitch"></i></div>
+          <div class="social-text-info">
+            <h4>Twitch</h4>
+            <p>Transmisiones en vivo de Vibe Coding. Escribe código y resuelve bugs junto con nosotros.</p>
+          </div>
+          <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER GLOBAL -->
+  <footer class="footer-global">
+    <div class="footer-container">
+      <p>© 2026 Memexicanisimos. Todos los derechos reservados.</p>
+      <p class="footer-powered">
+        Hecho con pasión en el Caribe Mexicano. Priorizando software local e independiente.
+      </p>
+      <div class="footer-socials">
+        <a href="https://facebook.com/Memexicanisimos" target="_blank" class="social-link"><i class="fab fa-facebook"></i> fb.com/Memexicanisimos</a>
+        <span>·</span>
+        <a href="https://x.com/Memexicanisimos" target="_blank" class="social-link"><i class="fab fa-twitter"></i> x.com/Memexicanisimos</a>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/myinnervoid" target="_blank">Perfil GitHub del Creador</a>
+        <span>·</span>
+        <a href="https://github.com/myinnervoid/Memexicanisimos-Android-Screen-Viewer/issues" target="_blank">Reportar un error (MASV)</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
