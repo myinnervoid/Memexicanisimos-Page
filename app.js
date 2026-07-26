@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
           
           setTimeout(() => {
             copyEmailBtn.innerHTML = originalContent;
-            copyEmailBtn.style.backgroundColor = 'var(--blue)';
+            copyEmailBtn.style.backgroundColor = 'var(--rose)';
           }, 2000);
         } else {
           // Estado de error UX
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           setTimeout(() => {
             copyEmailBtn.innerHTML = originalContent;
-            copyEmailBtn.style.backgroundColor = 'var(--blue)';
+            copyEmailBtn.style.backgroundColor = 'var(--rose)';
             errorToast.remove();
           }, 3000);
         }
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Estado de carga interactivo (Spinner en botón de fila de archivo)
         actionBtn.innerHTML = '<span class="spinner"></span> Descargando...';
-        actionBtn.style.color = 'var(--purple)';
+        actionBtn.style.color = 'var(--gold)';
         actionBtn.style.textDecoration = 'none';
         
         // Simulación de descarga con contrato estructurado
