@@ -27,6 +27,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Listener dinámico para el botón "¡Invítame un Taco!" del Header
+  const headerTacoBtn = document.getElementById('header-taco-btn');
+  if (headerTacoBtn) {
+    headerTacoBtn.addEventListener('click', () => {
+      // Buscar el botón de la pestaña Nosotros & Apoyo y simular su clic
+      const supportTabButton = document.querySelector('.tab-button[data-target="nosotros-apoyo"]');
+      if (supportTabButton) {
+        supportTabButton.click();
+        
+        // Esperar un breve instante para que la sección se active y hacer scroll suave al módulo de donaciones
+        setTimeout(() => {
+          const supportWrapper = document.querySelector('.support-wrapper');
+          if (supportWrapper) {
+            window.scrollTo({
+              top: supportWrapper.offsetTop - 120,
+              behavior: 'smooth'
+            });
+          }
+        }, 150);
+      }
+    });
+  }
+
   // Funcionalidad interactiva de Copiado de Correo Oficial
   const copyEmailBtn = document.getElementById('copy-email-btn');
   const emailText = document.querySelector('.email-text');
