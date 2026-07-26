@@ -16,6 +16,83 @@
   
   <!-- Hojas de Estilos Locales -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Metatags OpenGraph / Redes Sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Memexicanisimos — Hub Profesional de Software, Consultoría y Código Abierto" />
+  <meta property="og:description" content="Portal oficial y Hub de Ingeniería de Memexicanisimos. Soluciones soberanas, herramientas locales para Android/Linux y servicios de consultoría tecnológica en Cancún." />
+  <meta property="og:url" content="https://memexicanisimos.com" />
+  <meta property="og:image" content="https://memexicanisimos.com/assets/Logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Memexicanisimos — Hub Profesional de Software, Consultoría y Código Abierto" />
+  <meta name="twitter:description" content="Portal oficial y Hub de Ingeniería de Memexicanisimos. Soluciones soberanas y herramientas locales." />
+  <meta name="twitter:image" content="https://memexicanisimos.com/assets/Logo.png" />
+
+  <!-- Datos Estructurados JSON-LD (Organización y Aplicaciones de Software) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://memexicanisimos.com/#organization",
+        "name": "Memexicanisimos",
+        "url": "https://memexicanisimos.com",
+        "logo": "https://memexicanisimos.com/assets/Logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "memexicanisimos@gmail.com",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://memexicanisimos.com/#website",
+        "url": "https://memexicanisimos.com",
+        "name": "Memexicanisimos",
+        "publisher": {
+          "@id": "https://memexicanisimos.com/#organization"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "MASV (Android Screen Viewer)",
+        "operatingSystem": "Windows, Linux, macOS",
+        "applicationCategory": "UtilitiesApplication",
+        "downloadUrl": "https://github.com/myinnervoid/Memexicanisimos-Android-Screen-Viewer/releases/latest",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Burner (Windows ISO USB Writer)",
+        "operatingSystem": "Linux, Windows",
+        "applicationCategory": "UtilitiesApplication",
+        "downloadUrl": "https://github.com/myinnervoid/Memexicanisimos-Burner-Windows/releases/latest",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Files (Cloner & File Organizer)",
+        "operatingSystem": "Windows, Linux",
+        "applicationCategory": "UtilitiesApplication",
+        "downloadUrl": "https://github.com/myinnervoid/Memexicanisimos-Files/releases/latest",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 

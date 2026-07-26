@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /Recursos extra/
+Disallow: /Eduardo Fuentes/
+Disallow: /assets/logo_burner.png
+Disallow: /assets/logo_files.png
+
+Sitemap: https://memexicanisimos.com/sitemap.xml

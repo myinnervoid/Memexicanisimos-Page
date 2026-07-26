@@ -31,20 +31,48 @@ document.addEventListener('DOMContentLoaded', () => {
   const copyEmailBtn = document.getElementById('copy-email-btn');
   const emailText = document.querySelector('.email-text');
 
+  // Contrato de respuestas asíncronas estándar: { success, data, error, error_code }
+  function handleAsyncOperation(promise) {
+    return promise
+      .then(data => ({ success: true, data, error: null, error_code: null }))
+      .catch(err => ({ success: false, data: null, error: err.message || err, error_code: 'CLIPBOARD_WRITE_FAILED' }));
+  }
+
   if (copyEmailBtn && emailText) {
     copyEmailBtn.addEventListener('click', () => {
       const email = emailText.textContent;
-      navigator.clipboard.writeText(email).then(() => {
-        const originalContent = copyEmailBtn.innerHTML;
-        copyEmailBtn.innerHTML = '<i class="fas fa-check"></i> ¡Copiado!';
-        copyEmailBtn.style.backgroundColor = 'var(--green)';
-        
-        setTimeout(() => {
-          copyEmailBtn.innerHTML = originalContent;
-          copyEmailBtn.style.backgroundColor = 'var(--blue)';
-        }, 2000);
-      }).catch(err => {
-        console.error('Error al copiar el texto: ', err);
+      const originalContent = copyEmailBtn.innerHTML;
+
+      // Estado de carga UX
+      copyEmailBtn.innerHTML = '<span class="spinner"></span> Copiando...';
+      copyEmailBtn.disabled = true;
+
+      handleAsyncOperation(navigator.clipboard.writeText(email)).then(response => {
+        copyEmailBtn.disabled = false;
+        if (response.success) {
+          copyEmailBtn.innerHTML = '<i class="fas fa-check"></i> ¡Copiado!';
+          copyEmailBtn.style.backgroundColor = 'var(--green)';
+          
+          setTimeout(() => {
+            copyEmailBtn.innerHTML = originalContent;
+            copyEmailBtn.style.backgroundColor = 'var(--blue)';
+          }, 2000);
+        } else {
+          // Estado de error UX
+          copyEmailBtn.innerHTML = '<i class="fas fa-times"></i> Error';
+          copyEmailBtn.style.backgroundColor = 'var(--red)';
+          
+          const errorToast = document.createElement('div');
+          errorToast.className = 'toast-error';
+          errorToast.textContent = `Error [${response.error_code}]: No se pudo escribir al portapapeles.`;
+          copyEmailBtn.parentNode.appendChild(errorToast);
+
+          setTimeout(() => {
+            copyEmailBtn.innerHTML = originalContent;
+            copyEmailBtn.style.backgroundColor = 'var(--blue)';
+            errorToast.remove();
+          }, 3000);
+        }
       });
     });
   }
@@ -104,14 +132,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const originalText = actionBtn.textContent;
         if (originalText === '✔ Guardado' || originalText === 'Descargando...') return;
 
-        actionBtn.textContent = 'Descargando...';
+        // Estado de carga interactivo (Spinner en botón de fila de archivo)
+        actionBtn.innerHTML = '<span class="spinner"></span> Descargando...';
         actionBtn.style.color = 'var(--purple)';
+        actionBtn.style.textDecoration = 'none';
         
-        setTimeout(() => {
+        // Simulación de descarga con contrato estructurado
+        const downloadPromise = new Promise((resolve) => setTimeout(resolve, 1500));
+        handleAsyncOperation(downloadPromise).then(() => {
           actionBtn.textContent = '✔ Guardado';
           actionBtn.style.color = 'var(--green)';
-          actionBtn.style.textDecoration = 'none';
-        }, 1500);
+        });
       });
     }
   });
