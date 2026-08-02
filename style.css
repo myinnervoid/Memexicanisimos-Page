@@ -1,14 +1,32 @@
 /* ==========================================================================
-   Memexicanisimos.com — Mexican Maximalism Design System & Stylesheet
+   Memexicanisimos.com — Mexican Maximalism & Brand Book Design System
    ========================================================================== */
 
 :root {
-  /* Colors (Mexican Maximalism & Altar de Muertos palette) */
+  /* Colors (Mexican Maximalism & Altar de Gala palette) */
   --bg-dark:         #1A002C; /* Morado místico profundo */
   --bg-card:         #2D0B4E; /* Morado de gala para tarjetas */
   --bg-card-hover:   #3E1268; 
   --bg-card-inner:   #4F1A82;
   --border-color:    rgba(255, 122, 0, 0.3); /* Naranja cempasúchil sutil para bordes */
+  
+  /* Bandera de México */
+  --bandera-verde:   #006847;
+  --bandera-blanco:  #FFFFFF;
+  --bandera-rojo:    #CE1126;
+
+  /* App Specific Colors (Definición Concreta) */
+  --masv-blue:       #0066FF; /* Azure Blue (Brand Book) */
+  --masv-green:      #10B981; /* Verde Bandera Acento */
+  --masv-glow:       rgba(0, 102, 255, 0.35);
+
+  --burner-orange:   #F97316; /* Neon Orange (Brand Book) */
+  --burner-red:      #CE1126; /* Rojo Fuego Bandera */
+  --burner-glow:     rgba(249, 115, 22, 0.35);
+
+  --files-green:     #10B981; /* Verde Cempasúchil / Esmeralda */
+  --files-orchid:    #A855F7; /* Wild Orchid (Brand Book) */
+  --files-glow:      rgba(16, 185, 129, 0.35);
   
   /* Brand Accents */
   --rose:            #E0115F; /* Rosa Mexicano */
@@ -25,8 +43,10 @@
   --cyan:            #64D2FF;
   --red:             #FF453A;
 
-  /* Typography & Layout Tokens */
-  --font-family:     'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  /* Typography Tokens (Brand Book Pomelli: Space Grotesk + Space Mono) */
+  --font-title:      'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:       'Space Mono', monospace;
+  --font-body:       'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --max-width:       1100px;
   --transition:      all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
@@ -43,13 +63,22 @@ html {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-body);
   background-color: var(--bg-dark);
   color: #F4F6FF; /* Blanco Veracruz */
   min-height: 100vh;
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .logo-text, .tab-title, .btn {
+  font-family: var(--font-title);
+  letter-spacing: -0.01em;
+}
+
+code, pre, .console-body, .badge-product, .app-subtitle-badge, .tab-desc, .email-text, .f-size {
+  font-family: var(--font-mono);
 }
 
 /* Custom Scrollbar (Mexican Neon Style) */
@@ -1683,3 +1712,397 @@ a:focus-visible {
     width: 100%;
   }
 }
+
+/* ==========================================================================
+   Nuevas Adiciones: Bandera de México, Folclor & Temas por App
+   ========================================================================== */
+
+/* ── Línea Tricolor Bandera de México ───────────────────────── */
+.bandera-tri-line {
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(to right, var(--bandera-verde) 33.3%, var(--bandera-blanco) 33.3%, var(--bandera-blanco) 66.6%, var(--bandera-rojo) 66.6%);
+  position: relative;
+  z-index: 102;
+}
+
+/* ── Badge de Estado Vibe Coding Activo ────────────────────── */
+.vibe-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid var(--masv-green);
+  color: #F4F6FF;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
+
+.pulse-dot {
+  width: 10px;
+  height: 10px;
+  background-color: var(--masv-green);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--masv-green);
+  animation: pulseGreen 1.6s infinite ease-in-out;
+}
+
+@keyframes pulseGreen {
+  0% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+  70% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+  100% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* ── Patrones Estilo Mantel de Cocina Económica (Mantel de Hule Retro) ───── */
+.mantel-card {
+  position: relative;
+  background-color: rgba(45, 11, 78, 0.85);
+  background-image: 
+    linear-gradient(90deg, rgba(255, 122, 0, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(255, 122, 0, 0.08) 1px, transparent 1px),
+    linear-gradient(45deg, rgba(224, 17, 95, 0.05) 25%, transparent 25%, transparent 75%, rgba(224, 17, 95, 0.05) 75%),
+    linear-gradient(45deg, rgba(224, 17, 95, 0.05) 25%, transparent 25%, transparent 75%, rgba(224, 17, 95, 0.05) 75%);
+  background-size: 28px 28px, 28px 28px, 56px 56px, 56px 56px;
+  background-position: 0 0, 0 0, 0 0, 28px 28px;
+  border: 2px solid rgba(255, 122, 0, 0.35);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: var(--transition);
+}
+
+.mantel-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 14px 35px rgba(255, 215, 0, 0.25);
+}
+
+/* ── Temas de Color Específicos por App ────────────────────── */
+
+/* MASV (Azul Azure + Verde Bandera) */
+.app-theme-masv {
+  border: 2px solid var(--masv-blue);
+  box-shadow: 0 10px 30px var(--masv-glow);
+}
+
+.badge-masv {
+  background: rgba(0, 102, 255, 0.15) !important;
+  border: 1px solid var(--masv-blue) !important;
+  color: var(--masv-blue) !important;
+}
+
+.sub-nav-link.masv-nav-item:hover {
+  border-color: var(--masv-blue);
+  color: var(--masv-blue);
+}
+
+/* Burner (Naranja Neón + Rojo Fuego) */
+.app-theme-burner {
+  border: 2px solid var(--burner-orange);
+  box-shadow: 0 10px 30px var(--burner-glow);
+}
+
+.badge-burner {
+  background: rgba(249, 115, 22, 0.15) !important;
+  border: 1px solid var(--burner-orange) !important;
+  color: var(--burner-orange) !important;
+}
+
+.sub-nav-link.burner-nav-item:hover {
+  border-color: var(--burner-orange);
+  color: var(--burner-orange);
+}
+
+/* Files (Verde Esmeralda + Wild Orchid) */
+.app-theme-files {
+  border: 2px solid var(--files-green);
+  box-shadow: 0 10px 30px var(--files-glow);
+}
+
+.badge-files {
+  background: rgba(16, 185, 129, 0.15) !important;
+  border: 1px solid var(--files-green) !important;
+  color: var(--files-green) !important;
+}
+
+.sub-nav-link.files-nav-item:hover {
+  border-color: var(--files-green);
+  color: var(--files-green);
+}
+
+/* ── Logotipos de Apps en Tarjetas ───────────────────────── */
+.brand-logo-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: rgba(26, 0, 44, 0.8);
+  border: 2px solid var(--border-color);
+  padding: 6px;
+  flex-shrink: 0;
+}
+
+.app-brand-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* ── Buscador de Shortcuts MASV ─────────────────────────── */
+.shortcuts-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.shortcuts-search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(26, 0, 44, 0.8);
+  border: 1px solid var(--masv-blue);
+  border-radius: 20px;
+  padding: 6px 14px;
+}
+
+.shortcuts-search-box i {
+  color: var(--masv-blue);
+  font-size: 0.85rem;
+}
+
+.shortcuts-search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #F4F6FF;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  width: 220px;
+}
+
+/* ── Controles de Consola Burner CLI ─────────────────────── */
+.console-action-btns {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.btn-console-mini {
+  background: rgba(249, 115, 22, 0.15);
+  border: 1px solid var(--burner-orange);
+  color: var(--burner-orange);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-console-mini:hover {
+  background: var(--burner-orange);
+  color: #FFFFFF;
+}
+
+/* ── Filtros del Explorador Files ─────────────────────────── */
+.explorer-filter-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-tag {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #A08BB5;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.filter-tag.active, .filter-tag:hover {
+  background: var(--files-green);
+  color: #000000;
+  font-weight: 700;
+  border-color: var(--files-green);
+}
+
+/* ── Fondos Mosaico Dinámicos por Pestaña ────────────────────── */
+.product-section#perfiles {
+  background-image: linear-gradient(rgba(26, 0, 44, 0.92), rgba(26, 0, 44, 0.92)), url('assets/mantel_cocina_pattern.jpg');
+  background-repeat: repeat;
+  background-size: 280px 280px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.product-section#consultoria {
+  background-image: linear-gradient(rgba(45, 11, 78, 0.88), rgba(45, 11, 78, 0.88)), url('assets/mantel_cocina_pattern.jpg');
+  background-repeat: repeat;
+  background-size: 240px 240px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.product-section#nosotros-apoyo {
+  background-image: linear-gradient(rgba(30, 0, 50, 0.9), rgba(30, 0, 50, 0.9)), url('assets/mantel_cocina_pattern.jpg');
+  background-repeat: repeat;
+  background-size: 300px 300px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.product-section#creador-contacto {
+  background-image: linear-gradient(rgba(20, 5, 40, 0.92), rgba(20, 5, 40, 0.92)), url('assets/mantel_cocina_pattern.jpg');
+  background-repeat: repeat;
+  background-size: 260px 260px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.product-section#redes-sociales {
+  background-image: linear-gradient(rgba(35, 10, 60, 0.9), rgba(35, 10, 60, 0.9)), url('assets/mantel_cocina_pattern.jpg');
+  background-repeat: repeat;
+  background-size: 250px 250px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+/* ── Cookie Consent Banner ────────────────────────────────── */
+.cookie-banner {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  width: 90%;
+  max-width: 800px;
+  background-color: var(--bg-card);
+  border: 2px solid var(--rose);
+  border-radius: 20px;
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1000;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6), 0 0 15px var(--rose-glow);
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.35s ease;
+}
+
+.cookie-banner.hidden {
+  transform: translateX(-50%) translateY(150px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cookie-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.cookie-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+}
+
+.cookie-banner-content p {
+  font-size: 0.85rem;
+  color: #F4F6FF;
+  line-height: 1.5;
+}
+
+.cookie-banner-content a {
+  color: var(--gold);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.btn-cookie-reject {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: #A08BB5;
+  padding: 8px 16px;
+  font-size: 0.8rem;
+}
+
+.btn-cookie-reject:hover {
+  background-color: rgba(255, 69, 58, 0.1);
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.btn-cookie-accept {
+  padding: 8px 20px;
+  font-size: 0.8rem;
+}
+
+/* ── Facebook Blocked Placeholder ────────────────────────── */
+.fb-blocked-placeholder {
+  width: 100%;
+  height: 564px;
+  background-color: rgba(26, 0, 44, 0.6);
+  border: 2px dashed var(--border-color);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  gap: 16px;
+  color: #A08BB5;
+}
+
+.fb-blocked-placeholder i {
+  font-size: 3rem;
+  color: var(--rose);
+  text-shadow: 0 0 10px var(--rose-glow);
+}
+
+.fb-blocked-placeholder p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  max-width: 320px;
+}
+
+@media (max-width: 768px) {
+  .cookie-banner {
+    flex-direction: column;
+    text-align: center;
+    bottom: 12px;
+    padding: 16px;
+  }
+  .cookie-banner-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cookie-banner-actions {
+    width: 100%;
+  }
+  .cookie-banner-actions .btn {
+    flex: 1;
+  }
+}
+
+
+

@@ -6,10 +6,10 @@
   <title>Memexicanisimos — Hub de Ingeniería de Software y Soluciones Soberanas</title>
   <meta name="description" content="Portal oficial y Hub de Ingeniería de Memexicanisimos. Herramientas locales para Android/Linux y soporte técnico en Cancún, México." />
   
-  <!-- Tipografías de Google Fonts -->
+  <!-- Tipografías de Google Fonts (Brand Book Space Grotesk & Space Mono) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   
   <!-- Iconos de FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -96,14 +96,17 @@
 </head>
 <body>
 
+  <!-- LÍNEA TRICOLOR BANDERA DE MÉXICO EN TOP -->
+  <div class="bandera-tri-line"></div>
+
   <!-- HEADER GLOBAL (ESTILO FOLCLÓRICO PICADO) -->
   <header class="main-header">
     <div class="header-container">
-      <a href="#" class="logo">
+      <a href="#" class="logo" aria-label="Memexicanisimos Inicio">
         <span class="logo-emoji">🇲🇽</span>
         <span class="logo-text">Memexicanisimos<span>.com</span></span>
       </a>
-      <nav class="header-nav">
+      <nav class="header-nav" aria-label="Navegación principal">
         <!-- Botón interactivo para desplazar a la pestaña de apoyo en app.js -->
         <button id="header-taco-btn" class="btn btn-primary btn-taco">
           <span class="taco-emoji">🌮</span> ¡Invítame un Taco!
@@ -124,43 +127,47 @@
         <img src="assets/Logo.png" alt="Logotipo Memexicanisimos" class="hero-logo-large" />
       </div>
 
-      <div class="hero-badge">Soberanía Tecnológica · Hecho en Cancún</div>
+      <!-- Badge de Estado Vibe Coding Activo -->
+      <div class="vibe-status-badge">
+        <span class="pulse-dot"></span> Status: Vibe Coding Activo · Soberanía Tecnológica desde Cancún
+      </div>
+
       <h1>Ingeniería de Software y <span>Soporte de Sistemas</span></h1>
       <p class="hero-subtitle">
         Desarrollamos soluciones locales eficaces, brindamos consultoría de infraestructura y ayudamos a profesionales y empresas a tomar el control absoluto de sus datos y flujos de trabajo de forma totalmente soberana.
       </p>
 
-      <!-- TABS PRINCIPALES (THE NEW NOTBOOK - 5 PESTAÑAS MEXICANAS) -->
-      <div class="tabs-container">
-        <button class="tab-button active" data-target="perfiles">
+      <!-- TABS PRINCIPALES CON ACCESIBILIDAD ARIA (5 PESTAÑAS MEXICANAS) -->
+      <div class="tabs-container" role="tablist" aria-label="Secciones del Hub Memexicanísimos">
+        <button class="tab-button active" id="tab-perfiles" data-target="perfiles" role="tab" aria-selected="true" aria-controls="perfiles" tabindex="0">
           <span class="tab-icon">⚙️</span>
           <div class="tab-info">
             <span class="tab-title">Planos de Apps</span>
             <span class="tab-desc">Código Abierto</span>
           </div>
         </button>
-        <button class="tab-button" data-target="consultoria">
+        <button class="tab-button" id="tab-consultoria" data-target="consultoria" role="tab" aria-selected="false" aria-controls="consultoria" tabindex="-1">
           <span class="tab-icon">💼</span>
           <div class="tab-info">
             <span class="tab-title">Consultoría</span>
             <span class="tab-desc">Tech Sherpa</span>
           </div>
         </button>
-        <button class="tab-button" data-target="nosotros-apoyo">
+        <button class="tab-button" id="tab-nosotros-apoyo" data-target="nosotros-apoyo" role="tab" aria-selected="false" aria-controls="nosotros-apoyo" tabindex="-1">
           <span class="tab-icon">🌮</span>
           <div class="tab-info">
             <span class="tab-title">Nosotros & Apoyo</span>
             <span class="tab-desc">Misión & Tacos</span>
           </div>
         </button>
-        <button class="tab-button" data-target="creador-contacto">
+        <button class="tab-button" id="tab-creador-contacto" data-target="creador-contacto" role="tab" aria-selected="false" aria-controls="creador-contacto" tabindex="-1">
           <span class="tab-icon">🤠</span>
           <div class="tab-info">
             <span class="tab-title">Creador & Soporte</span>
             <span class="tab-desc">Eduardo F.</span>
           </div>
         </button>
-        <button class="tab-button" data-target="redes-sociales">
+        <button class="tab-button" id="tab-redes-sociales" data-target="redes-sociales" role="tab" aria-selected="false" aria-controls="redes-sociales" tabindex="-1">
           <span class="tab-icon">📱</span>
           <div class="tab-info">
             <span class="tab-title">Redes & Live</span>
@@ -175,7 +182,7 @@
   <main class="products-wrapper">
 
     <!-- ================= SECCIÓN 1: PLANOS DE INGENIERÍA DE APPS ================= -->
-    <section id="perfiles" class="product-section active">
+    <section id="perfiles" class="product-section active" role="tabpanel" aria-labelledby="tab-perfiles" tabindex="0">
       <div class="product-header">
         <div class="badge-product">Ecosistema Open Source</div>
         <h2>Nuestros Planos de Ingeniería de Software Libre</h2>
@@ -184,19 +191,19 @@
 
       <!-- Menú Secundario de Apps -->
       <div class="sub-nav-container">
-        <a href="#masv-anchor" class="sub-nav-link"><i class="fas fa-desktop"></i> MASV</a>
-        <a href="#burner-anchor" class="sub-nav-link"><i class="fas fa-fire"></i> Burner</a>
-        <a href="#files-anchor" class="sub-nav-link"><i class="fas fa-folder-open"></i> Files</a>
+        <a href="#masv-anchor" class="sub-nav-link masv-nav-item"><i class="fas fa-desktop"></i> MASV (Android)</a>
+        <a href="#burner-anchor" class="sub-nav-link burner-nav-item"><i class="fas fa-fire"></i> Burner (ISO Flasher)</a>
+        <a href="#files-anchor" class="sub-nav-link files-nav-item"><i class="fas fa-folder-open"></i> Files (Organizador)</a>
       </div>
 
       <!-- APP 1: MASV -->
-      <div class="app-detail-block" id="masv-anchor">
+      <div class="app-detail-block app-theme-masv" id="masv-anchor">
         <div class="app-detail-header">
           <div class="app-title-wrapper">
             <span class="app-icon-visual blue"><i class="fas fa-desktop"></i></span>
             <div>
               <h3>MASV (Android Screen Viewer)</h3>
-              <span class="app-subtitle-badge">v1.1 · GUI de Transmisión Activa</span>
+              <span class="app-subtitle-badge badge-masv">v1.1 · GUI de Transmisión Activa</span>
             </div>
           </div>
           <p class="app-description">
@@ -275,16 +282,22 @@
           </div>
         </div>
 
-        <!-- Shortcuts Grid para MASV -->
+        <!-- Shortcuts Grid para MASV con Buscador en vivo -->
         <div class="shortcuts-wrapper">
-          <h4>⌨️ Shortcuts directos (Atajos rápidos de scrcpy)</h4>
-          <div class="shortcuts-grid">
-            <div class="short-card"><kbd>Alt</kbd> + <kbd>↑</kbd> <span>Subir Volumen</span></div>
-            <div class="short-card"><kbd>Alt</kbd> + <kbd>↓</kbd> <span>Bajar Volumen</span></div>
-            <div class="short-card"><kbd>MOD</kbd> + <kbd>h</kbd> <span>Botón Inicio (Home)</span></div>
-            <div class="short-card"><kbd>MOD</kbd> + <kbd>b</kbd> <span>Botón Atrás (Back)</span></div>
-            <div class="short-card"><kbd>MOD</kbd> + <kbd>s</kbd> <span>Aplicaciones Recientes</span></div>
-            <div class="short-card"><kbd>MOD</kbd> + <kbd>v</kbd> <span>Pegar Portapapeles del PC</span></div>
+          <div class="shortcuts-header-row">
+            <h4>⌨️ Shortcuts directos (Atajos rápidos de scrcpy)</h4>
+            <div class="shortcuts-search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" id="shortcut-search" placeholder="🔍 Filtrar atajo (ej. volumen, inicio, pegado)..." aria-label="Filtrar atajos de teclado de scrcpy" />
+            </div>
+          </div>
+          <div class="shortcuts-grid" id="shortcuts-grid">
+            <div class="short-card" data-shortcut="volumen subir"><kbd>Alt</kbd> + <kbd>↑</kbd> <span>Subir Volumen</span></div>
+            <div class="short-card" data-shortcut="volumen bajar"><kbd>Alt</kbd> + <kbd>↓</kbd> <span>Bajar Volumen</span></div>
+            <div class="short-card" data-shortcut="inicio home"><kbd>MOD</kbd> + <kbd>h</kbd> <span>Botón Inicio (Home)</span></div>
+            <div class="short-card" data-shortcut="atras back"><kbd>MOD</kbd> + <kbd>b</kbd> <span>Botón Atrás (Back)</span></div>
+            <div class="short-card" data-shortcut="recientes apps multitarea"><kbd>MOD</kbd> + <kbd>s</kbd> <span>Aplicaciones Recientes</span></div>
+            <div class="short-card" data-shortcut="pegar portapapeles clipboard"><kbd>MOD</kbd> + <kbd>v</kbd> <span>Pegar Portapapeles del PC</span></div>
           </div>
         </div>
       </div>
@@ -292,13 +305,15 @@
       <hr class="section-divider" />
 
       <!-- APP 2: BURNER -->
-      <div class="app-detail-block" id="burner-anchor">
+      <div class="app-detail-block app-theme-burner" id="burner-anchor">
         <div class="app-detail-header">
           <div class="app-title-wrapper">
-            <span class="app-icon-visual orange"><i class="fas fa-fire"></i></span>
+            <div class="brand-logo-badge">
+              <img src="assets/logo_burner.png" alt="Logo Memexicanisimos Burner" class="app-brand-logo-img" />
+            </div>
             <div>
               <h3>Burner (Windows ISO USB Writer)</h3>
-              <span class="app-subtitle-badge color-orange">v2.0 · CLI Fastboot & ISO Flasher</span>
+              <span class="app-subtitle-badge badge-burner">v2.0 · CLI Fastboot & ISO Flasher</span>
             </div>
           </div>
           <p class="app-description">
@@ -317,15 +332,21 @@
           </div>
         </div>
 
-        <!-- Consola Virtual de Flasheo con Fuego -->
+        <!-- Consola Virtual de Flasheo con Fuego y Controles Interactivos -->
         <div class="console-wrapper">
           <div class="console-header">
-            <span class="dot red"></span>
-            <span class="dot yellow"></span>
-            <span class="dot green"></span>
+            <div class="console-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
             <span class="console-title">Memexicanisimos Burner CLI - wimlib image splitter</span>
+            <div class="console-action-btns">
+              <button id="btn-run-console" class="btn-console-mini"><i class="fas fa-play"></i> Simular Flasheo</button>
+              <button id="btn-reset-console" class="btn-console-mini"><i class="fas fa-redo"></i> Reiniciar</button>
+            </div>
           </div>
-          <div class="console-body">
+          <div class="console-body" id="burner-console-body">
             <p class="console-line text-muted">[INFO] Analizando ISO de Windows 10/11...</p>
             <p class="console-line text-warning">[WARN] Archivo 'sources/install.wim' excede los 4GB (Tamaño: 5.2 GB)</p>
             <p class="console-line text-success">[PROCESS] Dividiendo install.wim usando wimlib en install.swm...</p>
@@ -340,13 +361,15 @@
       <hr class="section-divider" />
 
       <!-- APP 3: FILES -->
-      <div class="app-detail-block" id="files-anchor">
+      <div class="app-detail-block app-theme-files" id="files-anchor">
         <div class="app-detail-header">
           <div class="app-title-wrapper">
-            <span class="app-icon-visual green"><i class="fas fa-folder-open"></i></span>
+            <div class="brand-logo-badge">
+              <img src="assets/logo_files.png" alt="Logo Memexicanisimos Files" class="app-brand-logo-img" />
+            </div>
             <div>
               <h3>Files (Cloner & File Organizer)</h3>
-              <span class="app-subtitle-badge color-green">v1.5 · Local File Organizer</span>
+              <span class="app-subtitle-badge badge-files">v1.5 · Local File Organizer</span>
             </div>
           </div>
           <p class="app-description">
@@ -365,33 +388,38 @@
           </div>
         </div>
 
-        <!-- Explorador de Archivos Interactivo -->
+        <!-- Explorador de Archivos Interactivo con Filtro por Tipo -->
         <div class="file-explorer-mock">
           <div class="explorer-sidebar">
-            <div class="sidebar-item active"><i class="fas fa-hdd"></i> Almacenamiento</div>
-            <div class="sidebar-item"><i class="fas fa-camera"></i> Fotos DCIM</div>
-            <div class="sidebar-item"><i class="fas fa-music"></i> Música</div>
-            <div class="sidebar-item"><i class="fas fa-undo"></i> Historial (Undo)</div>
+            <div class="sidebar-item active" data-category="all"><i class="fas fa-hdd"></i> Almacenamiento</div>
+            <div class="sidebar-item" data-category="images"><i class="fas fa-camera"></i> Fotos DCIM</div>
+            <div class="sidebar-item" data-category="audio"><i class="fas fa-music"></i> Música</div>
+            <div class="sidebar-item" data-category="roms"><i class="fas fa-box"></i> Paquetes ROMs</div>
           </div>
           <div class="explorer-main">
             <div class="explorer-toolbar">
               <span>Directorio: <code class="text-cyan">/sdcard/Download/</code></span>
-              <span class="transfer-btn"><i class="fas fa-bolt"></i> Ejecutar Copia limpia</span>
+              <div class="explorer-filter-tags">
+                <button class="filter-tag active" data-filter="all">Todos</button>
+                <button class="filter-tag" data-filter="images">📷 Fotos</button>
+                <button class="filter-tag" data-filter="roms">📦 ROMs</button>
+                <button class="filter-tag" data-filter="audio">🎵 Audio</button>
+              </div>
             </div>
-            <div class="explorer-files-list">
-              <div class="file-row">
+            <div class="explorer-files-list" id="explorer-files-list">
+              <div class="file-row" data-type="images">
                 <span class="f-type">📄</span>
                 <span class="f-name">foto_backup_playa.jpg</span>
                 <span class="f-size">3.1 MB</span>
                 <span class="f-action">Descargar</span>
               </div>
-              <div class="file-row">
+              <div class="file-row" data-type="roms">
                 <span class="f-type">📦</span>
                 <span class="f-name">ROM_Original_Redmi.zip</span>
                 <span class="f-size">2.1 GB</span>
                 <span class="f-action">Descargar</span>
               </div>
-              <div class="file-row">
+              <div class="file-row" data-type="audio">
                 <span class="f-type">🎵</span>
                 <span class="f-name">audio_graba_sesion.mp3</span>
                 <span class="f-size">14.5 MB</span>
@@ -404,32 +432,34 @@
     </section>
 
     <!-- ================= SECCIÓN 2: CONSULTORÍA Y ASISTENCIA ================= -->
-    <section id="consultoria" class="product-section">
+    <section id="consultoria" class="product-section" role="tabpanel" aria-labelledby="tab-consultoria" tabindex="0">
       <div class="product-header">
         <div class="badge-product">Arquitectura Soberana</div>
         <h2>Consultoría e Infraestructura Local</h2>
         <p>Tu "Tech Sherpa" y especialista de confianza. Te asesoro para estructurar configuraciones de red, OBS o respaldos de forma local y soberana.</p>
       </div>
 
-      <div class="consulting-grid">
-        <div class="service-card">
-          <span class="service-icon"><i class="fas fa-network-wired"></i></span>
-          <h3>Infraestructura y Redes Locales</h3>
-          <p>Instalación de servidores locales, almacenamiento masivo NAS, servidores multimedia y redes privadas auto-albergadas. Despídete de las suscripciones en la nube.</p>
-        </div>
-        <div class="service-card">
-          <span class="service-icon"><i class="fas fa-video"></i></span>
-          <h3>Estudios de Streaming y OBS</h3>
-          <p>Configuración a nivel de hardware y software para transmisiones profesionales en OBS Studio, enrutamiento virtual de audio, cámaras externas de celulares y codificación optimizada.</p>
-        </div>
-        <div class="service-card">
-          <span class="service-icon"><i class="fas fa-shield-alt"></i></span>
-          <h3>Políticas de Respaldo Soberano</h3>
-          <p>Diseño e implementación de sistemas de copias de seguridad incrementales automáticas e inmunes a ataques del exterior, almacenados localmente bajo tu custodia.</p>
+      <div class="mantel-card-wrapper">
+        <div class="consulting-grid">
+          <div class="service-card mantel-card">
+            <span class="service-icon"><i class="fas fa-network-wired"></i></span>
+            <h3>Infraestructura y Redes Locales</h3>
+            <p>Instalación de servidores locales, almacenamiento masivo NAS, servidores multimedia y redes privadas auto-albergadas. Despídete de las suscripciones en la nube.</p>
+          </div>
+          <div class="service-card mantel-card">
+            <span class="service-icon"><i class="fas fa-video"></i></span>
+            <h3>Estudios de Streaming y OBS</h3>
+            <p>Configuración a nivel de hardware y software para transmisiones profesionales en OBS Studio, enrutamiento virtual de audio, cámaras externas de celulares y codificación optimizada.</p>
+          </div>
+          <div class="service-card mantel-card">
+            <span class="service-icon"><i class="fas fa-shield-alt"></i></span>
+            <h3>Políticas de Respaldo Soberano</h3>
+            <p>Diseño e implementación de sistemas de copias de seguridad incrementales automáticas e inmunes a ataques del exterior, almacenados localmente bajo tu custodia.</p>
+          </div>
         </div>
       </div>
 
-      <div class="cta-consulting-box">
+      <div class="cta-consulting-box mantel-card">
         <div class="cta-glow"></div>
         <h3>¿Quieres resolver un problema de sistemas o streaming?</h3>
         <p>Escríbeme un mensaje detallado a mi correo y busquemos la mejor arquitectura para tu infraestructura local.</p>
@@ -442,14 +472,14 @@
     </section>
 
     <!-- ================= SECCIÓN 3: NOSOTROS Y APOYO (DONACIONES) ================= -->
-    <section id="nosotros-apoyo" class="product-section">
+    <section id="nosotros-apoyo" class="product-section" role="tabpanel" aria-labelledby="tab-nosotros-apoyo" tabindex="0">
       <div class="product-header">
         <div class="badge-product">Soberanía de Código</div>
         <h2>La Filosofía detrás de Memexicanisimos</h2>
         <p>Creando herramientas que respetan al usuario final, con base en el caribe mexicano.</p>
       </div>
 
-      <div class="about-flex-container">
+      <div class="about-flex-container mantel-card-wrapper">
         <div class="about-text-content">
           <h3>Nuestra Historia</h3>
           <p>
@@ -461,19 +491,19 @@
         </div>
         
         <!-- Logotipo Oficial en el lugar de Honor -->
-        <div class="about-logo-card">
+        <div class="about-logo-card mantel-card">
           <div class="logo-display-wrapper">
             <img src="assets/Logo.png" alt="Logo Memexicanisimos" class="about-logo-img" />
             <div class="logo-text-box">
               <h4>Logo Oficial</h4>
-              <p>El charro de mostacho revolucionario sosteniendo un disco óptico en flames.</p>
+              <p>El charro de mostacho revolucionario sosteniendo un disco óptico en llamas.</p>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Sección de Apoyo / Invítame un Taco -->
-      <div class="support-wrapper">
+      <div class="support-wrapper mantel-card">
         <div class="support-glow"></div>
         <div class="support-header-box">
           <span class="support-icon">🌮</span>
@@ -489,14 +519,14 @@
     </section>
 
     <!-- ================= SECCIÓN 4: CREADOR Y CONTACTO ================= -->
-    <section id="creador-contacto" class="product-section">
+    <section id="creador-contacto" class="product-section" role="tabpanel" aria-labelledby="tab-creador-contacto" tabindex="0">
       <div class="product-header">
         <div class="badge-product" style="border-color: var(--blue); color: var(--blue); background: var(--blue-glow);">Creador del Proyecto</div>
         <h2>Eduardo Fuentes</h2>
         <p>Entusiasta de la tecnología y el Vibe Coding que utiliza Inteligencia Artificial y herramientas comunitarias para dar vida a las soluciones de Memexicanisimos.</p>
       </div>
 
-      <div class="creator-portfolio-card">
+      <div class="creator-portfolio-card mantel-card">
         <div class="creator-profile-header">
           <img src="assets/Avatar.jpg" alt="Eduardo Fuentes" class="creator-avatar-img" />
           <div class="creator-meta">
@@ -522,7 +552,7 @@
           <!-- TikTok Personal del Creador -->
           <a href="https://tiktok.com/@myinnervoid" target="_blank" class="creator-social-link">
             <i class="fab fa-tiktok"></i>
-            <span>tiktok.com/myinnervoid</span>
+            <span>tiktok.com/@myinnervoid</span>
           </a>
 
           <!-- GitHub del Creador -->
@@ -550,7 +580,7 @@
     </section>
 
     <!-- ================= SECCIÓN 5: REDES SOCIALES Y CONTENIDO ================= -->
-    <section id="redes-sociales" class="product-section">
+    <section id="redes-sociales" class="product-section" role="tabpanel" aria-labelledby="tab-redes-sociales" tabindex="0">
       <div class="product-header">
         <div class="badge-product">Canales Oficiales</div>
         <h2>Sigue Nuestra Actividad en Redes</h2>
@@ -558,8 +588,12 @@
       </div>
 
       <div class="social-channels-grid">
-        <div class="facebook-embed-wrapper">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D418773897038938%26set%3Da.418773850372276%26type%3D3&show_text=true&width=500" width="100%" height="564" style="border:none;overflow:hidden;border-radius:16px;box-shadow: 0 8px 24px rgba(0,0,0,0.4);" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <!-- Contenedor dinámico controlado por JS para respetar el consentimiento de cookies -->
+        <div class="facebook-embed-wrapper" id="fb-embed-container">
+          <div class="fb-blocked-placeholder">
+            <i class="fab fa-facebook-f"></i>
+            <p>Para ver este feed interactivo de Facebook, acepta el uso de cookies sociales en el banner inferior.</p>
+          </div>
         </div>
 
         <div class="social-links-column">
@@ -586,6 +620,20 @@
 
   </main>
 
+  <!-- BANNER DE COOKIES (LFPDPPP COMPLIANT) -->
+  <div id="cookie-consent-banner" class="cookie-banner hidden">
+    <div class="cookie-banner-content">
+      <span class="cookie-icon">🍪</span>
+      <p>
+        Utilizamos cookies propias y de terceros (Facebook) para mejorar tu experiencia en nuestro Hub. Al hacer clic en "Aceptar", consientes su uso. Puedes revisar los detalles en nuestro <a href="legal.html" target="_blank">Aviso de Privacidad y Términos</a>.
+      </p>
+    </div>
+    <div class="cookie-banner-actions">
+      <button id="cookie-btn-reject" class="btn btn-outline btn-cookie-reject">Rechazar</button>
+      <button id="cookie-btn-accept" class="btn btn-rose btn-cookie-accept">Aceptar</button>
+    </div>
+  </div>
+
   <!-- FOOTER GLOBAL -->
   <footer class="footer-global">
     <div class="footer-container">
@@ -602,6 +650,8 @@
         <a href="https://github.com/myinnervoid" target="_blank">Perfil GitHub del Creador</a>
         <span>·</span>
         <a href="https://github.com/myinnervoid/Memexicanisimos-Android-Screen-Viewer/issues" target="_blank">Reportar un error (MASV)</a>
+        <span>·</span>
+        <a href="legal.html" style="color: var(--gold); font-weight: 800;">Aviso de Privacidad y Términos</a>
       </div>
     </div>
   </footer>
