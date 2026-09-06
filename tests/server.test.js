@@ -9,9 +9,9 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const WORKSPACE_DIR = path.resolve(__dirname, '../');
-const EDITOR_DIR = path.join(WORKSPACE_DIR, 'Talachas y Modulos Web/editor');
-const BACKUPS_DIR = path.resolve(__dirname, '../Talachas y Modulos Web/backups');
+const WORKSPACE_DIR = path.resolve(__dirname, '../../');
+const EDITOR_DIR = path.join(WORKSPACE_DIR, 'Rotulos Web/editor');
+const BACKUPS_DIR = path.resolve(__dirname, '../backups');
 
 let passed = 0;
 let failed = 0;
@@ -95,8 +95,8 @@ assert(serverContent.includes('createApiResponse'), 'Contrato canónico ApiRespo
 assert(fs.existsSync(BACKUPS_DIR), 'Directorio de respaldos accesible');
 
 // ── SCRIPT UNIFICADO DE CONTROL (editor.sh) ──
-const editorShPath = path.join(WORKSPACE_DIR, 'Talachas y Modulos Web/editor.sh');
-assert(fs.existsSync(editorShPath), 'Script unificado editor.sh existe en Talachas y Modulos Web/');
+const editorShPath = path.join(WORKSPACE_DIR, 'Rotulos Web/editor.sh');
+assert(fs.existsSync(editorShPath), 'Script unificado editor.sh existe en Rotulos Web/');
 const editorShContent = fs.readFileSync(editorShPath, 'utf-8');
 assert(editorShContent.includes('restart)'), 'editor.sh implementa comando restart');
 assert(editorShContent.includes('status)'), 'editor.sh implementa comando status');
