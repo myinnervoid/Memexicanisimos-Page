@@ -1,5 +1,70 @@
+/**
+ * ==========================================================================
+ * Memexicanisimos.com — Plataforma Web y Ecosistema de Estudio (v3.1)
+ * Implementación de Autómata Finito de Estados (FSM) y Contrato Canónico ApiResponse<T>
+ * Compatible tanto con despliegue web HTTPS como con apertura local file:///
+ * ==========================================================================
+ */
+
+// ── CATÁLOGO CANÓNICO DE ERRORES & CONTRATO ESTÁNDAR ─────────────────────
+const ErrorCode = Object.freeze({
+  CLIPBOARD_WRITE_FAILED: 'CLIPBOARD_WRITE_FAILED',
+  CLIPBOARD_PERMISSION_DENIED: 'CLIPBOARD_PERMISSION_DENIED',
+  STORAGE_READ_FAILED: 'STORAGE_READ_FAILED',
+  STORAGE_WRITE_FAILED: 'STORAGE_WRITE_FAILED',
+  INVALID_STORAGE_VERSION: 'INVALID_STORAGE_VERSION',
+  FILTER_NO_MATCH: 'FILTER_NO_MATCH',
+  COMPONENT_STATE_INVALID: 'COMPONENT_STATE_INVALID',
+  EXTERNAL_FEED_BLOCKED: 'EXTERNAL_FEED_BLOCKED',
+  CONSENT_REQUIRED: 'CONSENT_REQUIRED',
+  NETWORK_UNAVAILABLE: 'NETWORK_UNAVAILABLE'
+});
+
+const ErrorCatalog = Object.freeze({
+  [ErrorCode.CLIPBOARD_WRITE_FAILED]: {
+    code: ErrorCode.CLIPBOARD_WRITE_FAILED,
+    userMessage: 'No fue posible copiar el texto al portapapeles. Intenta seleccionarlo manualmente.',
+    severity: 'Menor'
+  },
+  [ErrorCode.CLIPBOARD_PERMISSION_DENIED]: {
+    code: ErrorCode.CLIPBOARD_PERMISSION_DENIED,
+    userMessage: 'El navegador bloqueó el permiso para acceder al portapapeles.',
+    severity: 'Mayor'
+  },
+  [ErrorCode.STORAGE_WRITE_FAILED]: {
+    code: ErrorCode.STORAGE_WRITE_FAILED,
+    userMessage: 'No se pudieron guardar tus preferencias en el almacenamiento local.',
+    severity: 'Menor'
+  },
+  [ErrorCode.FILTER_NO_MATCH]: {
+    code: ErrorCode.FILTER_NO_MATCH,
+    userMessage: 'No se encontraron elementos que coincidan con tu búsqueda.',
+    severity: 'Menor'
+  },
+  [ErrorCode.EXTERNAL_FEED_BLOCKED]: {
+    code: ErrorCode.EXTERNAL_FEED_BLOCKED,
+    userMessage: 'El feed social fue bloqueado por tu navegador o extensión de privacidad.',
+    severity: 'Menor'
+  },
+  [ErrorCode.CONSENT_REQUIRED]: {
+    code: ErrorCode.CONSENT_REQUIRED,
+    userMessage: 'Se requiere consentimiento de cookies para cargar el contenido de terceros.',
+    severity: 'Menor'
+  }
+});
+
+function createApiResponse(success, data = null, errorCode = null, message = '') {
+  return {
+    success: Boolean(success),
+    data: data,
+    error_code: errorCode,
+    message: message || (errorCode && ErrorCatalog[errorCode] ? ErrorCatalog[errorCode].userMessage : (success ? 'Operación exitosa' : 'Error desconocido'))
+  };
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-  // Pestañas (Tabs) de navegación principal (5 Pestañas Mexicanas con WAI-ARIA)
+
+  // ── 1. NAVEGACIÓN POR PESTAÑAS (WAI-ARIA + View Transitions) ───────────
   const tabButtons = Array.from(document.querySelectorAll('.tab-button'));
   const productSections = document.querySelectorAll('.product-section');
   const tabsContainer = document.querySelector('.tabs-container');
@@ -22,26 +87,26 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     };
 
-    // Soporte para View Transitions API si el navegador lo admite
     if (document.startViewTransition) {
       document.startViewTransition(() => updateDOM());
     } else {
       updateDOM();
     }
 
-    // Scroll suave a los contenidos del Hub
-    const targetOffset = document.querySelector('.products-wrapper').offsetTop;
-    window.scrollTo({
-      top: targetOffset - 100,
-      behavior: 'smooth'
-    });
+    const targetSection = document.getElementById(target);
+    if (targetSection) {
+      const targetOffset = targetSection.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({
+        top: targetOffset,
+        behavior: 'smooth'
+      });
+    }
   }
 
   tabButtons.forEach(button => {
     button.addEventListener('click', () => activateTab(button));
   });
 
-  // Navegación por teclado WAI-ARIA para las pestañas (ArrowLeft, ArrowRight, Home, End)
   if (tabsContainer) {
     tabsContainer.addEventListener('keydown', (e) => {
       const currentIndex = tabButtons.indexOf(document.activeElement);
@@ -69,157 +134,212 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Listener dinámico para el botón "¡Invítame un Taco!" del Header
-  const headerTacoBtn = document.getElementById('header-taco-btn');
-  if (headerTacoBtn) {
-    headerTacoBtn.addEventListener('click', () => {
-      const supportTabButton = document.querySelector('.tab-button[data-target="nosotros-apoyo"]');
-      if (supportTabButton) {
-        supportTabButton.click();
+  // Enlace / Botón "Editar en Rótulos Web" del Header abre el editor visual en http://localhost:5050
+
+  // ── 2. AUTÓMATA FINITO (FSM): COPIADO DE CORREO OFICIAL ────────────────
+  // Estados: [IDLE] -> [PENDING] -> [SUCCESS] | [FAULT]
+  const copyEmailBtn = document.getElementById('copy-email-btn');
+  const emailText = document.querySelector('.email-text');
+
+  async function copyToClipboardSafe(text) {
+    if (!navigator.clipboard || !navigator.clipboard.writeText) {
+      return createApiResponse(false, null, ErrorCode.CLIPBOARD_PERMISSION_DENIED);
+    }
+    try {
+      await navigator.clipboard.writeText(text);
+      return createApiResponse(true, { copiedText: text });
+    } catch (err) {
+      return createApiResponse(false, null, ErrorCode.CLIPBOARD_WRITE_FAILED, err.message);
+    }
+  }
+
+  if (copyEmailBtn && emailText) {
+    const originalContent = copyEmailBtn.innerHTML;
+
+    copyEmailBtn.addEventListener('click', async () => {
+      // Estado: [PENDING]
+      copyEmailBtn.disabled = true;
+      copyEmailBtn.setAttribute('data-fsm-state', 'PENDING');
+      copyEmailBtn.innerHTML = '<span class="spinner-patrio"></span> Copiando...';
+
+      const response = await copyToClipboardSafe(emailText.textContent.trim());
+
+      if (response.success) {
+        // Estado: [SUCCESS]
+        copyEmailBtn.setAttribute('data-fsm-state', 'SUCCESS');
+        copyEmailBtn.innerHTML = '<i class="fas fa-check"></i> ¡Copiado con Éxito!';
+        copyEmailBtn.classList.add('btn-state-success');
+
         setTimeout(() => {
-          const supportWrapper = document.querySelector('.support-wrapper');
-          if (supportWrapper) {
-            window.scrollTo({
-              top: supportWrapper.offsetTop - 120,
-              behavior: 'smooth'
-            });
-          }
-        }, 150);
+          // Retorno a [IDLE]
+          copyEmailBtn.disabled = false;
+          copyEmailBtn.setAttribute('data-fsm-state', 'IDLE');
+          copyEmailBtn.innerHTML = originalContent;
+          copyEmailBtn.classList.remove('btn-state-success');
+        }, 2200);
+      } else {
+        // Estado: [FAULT]
+        copyEmailBtn.setAttribute('data-fsm-state', 'FAULT');
+        copyEmailBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Error al Copiar';
+        copyEmailBtn.classList.add('btn-state-fault');
+
+        const toast = document.createElement('div');
+        toast.className = 'toast-patrio-error';
+        toast.setAttribute('role', 'alert');
+        toast.textContent = `[${response.error_code}]: ${response.message}`;
+        copyEmailBtn.parentNode.appendChild(toast);
+
+        setTimeout(() => {
+          // Retorno a [IDLE]
+          copyEmailBtn.disabled = false;
+          copyEmailBtn.setAttribute('data-fsm-state', 'IDLE');
+          copyEmailBtn.innerHTML = originalContent;
+          copyEmailBtn.classList.remove('btn-state-fault');
+          toast.remove();
+        }, 3500);
       }
     });
   }
 
-  // Funcionalidad interactiva de Copiado de Correo Oficial
-  const copyEmailBtn = document.getElementById('copy-email-btn');
-  const emailText = document.querySelector('.email-text');
-
-  function handleAsyncOperation(promise) {
-    return promise
-      .then(data => ({ success: true, data, error: null, error_code: null }))
-      .catch(err => ({ success: false, data: null, error: err.message || err, error_code: 'CLIPBOARD_WRITE_FAILED' }));
-  }
-
-  if (copyEmailBtn && emailText) {
-    copyEmailBtn.addEventListener('click', () => {
-      const email = emailText.textContent;
-      const originalContent = copyEmailBtn.innerHTML;
-
-      copyEmailBtn.innerHTML = '<span class="spinner"></span> Copiando...';
-      copyEmailBtn.disabled = true;
-
-      handleAsyncOperation(navigator.clipboard.writeText(email)).then(response => {
-        copyEmailBtn.disabled = false;
-        if (response.success) {
-          copyEmailBtn.innerHTML = '<i class="fas fa-check"></i> ¡Copiado!';
-          copyEmailBtn.style.backgroundColor = 'var(--green)';
-          
-          setTimeout(() => {
-            copyEmailBtn.innerHTML = originalContent;
-            copyEmailBtn.style.backgroundColor = 'var(--rose)';
-          }, 2000);
-        } else {
-          copyEmailBtn.innerHTML = '<i class="fas fa-times"></i> Error';
-          copyEmailBtn.style.backgroundColor = 'var(--red)';
-          
-          const errorToast = document.createElement('div');
-          errorToast.className = 'toast-error';
-          errorToast.textContent = `Error [${response.error_code}]: No se pudo escribir al portapapeles.`;
-          copyEmailBtn.parentNode.appendChild(errorToast);
-
-          setTimeout(() => {
-            copyEmailBtn.innerHTML = originalContent;
-            copyEmailBtn.style.backgroundColor = 'var(--rose)';
-            errorToast.remove();
-          }, 3000);
-        }
-      });
-    });
-  }
-
-  // 🔍 Buscador interactivo de atajos de teclado para MASV
+  // ── 3. AUTÓMATA FINITO (FSM): BUSCADOR DE ATAJOS MASV ──────────────────
+  // Estados: [IDLE] -> [PENDING] -> [SUCCESS] (con resultados) | [EMPTY] (sin coincidencias)
   const shortcutSearch = document.getElementById('shortcut-search');
+  const shortcutsGrid = document.getElementById('shortcuts-grid');
   const shortcutCards = document.querySelectorAll('.short-card');
-  if (shortcutSearch) {
+
+  if (shortcutSearch && shortcutsGrid) {
+    let emptyStateBanner = document.getElementById('shortcuts-empty-state');
+    if (!emptyStateBanner) {
+      emptyStateBanner = document.createElement('div');
+      emptyStateBanner.id = 'shortcuts-empty-state';
+      emptyStateBanner.className = 'fsm-empty-state hidden';
+      emptyStateBanner.innerHTML = `
+        <div class="empty-icon">🔍</div>
+        <h4>Sin coincidencias</h4>
+        <p>No se encontraron atajos para el término ingresado. Intenta con "volumen", "inicio" o "atrás".</p>
+      `;
+      shortcutsGrid.parentNode.appendChild(emptyStateBanner);
+    }
+
     shortcutSearch.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
+      let matchCount = 0;
+
       shortcutCards.forEach(card => {
         const text = card.textContent.toLowerCase();
         const tags = card.getAttribute('data-shortcut') || '';
-        const match = text.includes(query) || tags.includes(query);
-        card.style.display = match ? 'flex' : 'none';
+        const isMatch = (query === '') || text.includes(query) || tags.includes(query);
+        card.style.display = isMatch ? 'flex' : 'none';
+        if (isMatch) matchCount++;
       });
+
+      if (matchCount === 0) {
+        // Estado: [EMPTY]
+        shortcutsGrid.style.display = 'none';
+        emptyStateBanner.classList.remove('hidden');
+      } else {
+        // Estado: [SUCCESS]
+        shortcutsGrid.style.display = 'grid';
+        emptyStateBanner.classList.add('hidden');
+      }
     });
   }
 
-  // 🔥 Efecto dinámico y controles interactivos en la consola de flasheo de Burner
+  // ── 4. AUTÓMATA FINITO (FSM): CONSOLA INTERACTIVA DE BURNER ───────────
+  // Estados: [IDLE] -> [PENDING] (simulando split wimlib) -> [SUCCESS]
   const consoleBody = document.getElementById('burner-console-body');
   const btnRunConsole = document.getElementById('btn-run-console');
   const btnResetConsole = document.getElementById('btn-reset-console');
 
-  if (consoleBody) {
+  if (consoleBody && btnRunConsole) {
     const originalConsoleLines = [
       '<p class="console-line text-muted">[INFO] Analizando ISO de Windows 10/11...</p>',
       '<p class="console-line text-warning">[WARN] Archivo \'sources/install.wim\' excede los 4GB (Tamaño: 5.2 GB)</p>',
-      '<p class="console-line text-success">[PROCESS] Dividiendo install.wim usando wimlib en install.swm...</p>',
-      '<div class="console-progress"><div class="progress-bar orange" style="width: 0%;">0%</div></div>',
+      '<p class="console-line text-patrio-green">[PROCESS] Dividiendo install.wim usando wimlib en install.swm...</p>',
+      '<div class="console-progress"><div class="progress-bar patrio-green" style="width: 0%;">0%</div></div>',
       '<p class="console-line text-muted">[INFO] Creando partición de arranque UEFI en USB /dev/sdb...</p>'
     ];
 
-    let loopInterval;
-    
-    function runConsoleMockupLoop() {
+    let loopInterval = null;
+
+    function resetConsole() {
+      if (loopInterval) clearInterval(loopInterval);
       consoleBody.innerHTML = originalConsoleLines.join('');
+      btnRunConsole.disabled = false;
+      btnRunConsole.innerHTML = '<i class="fas fa-play"></i> Simular Flasheo';
+    }
+
+    function runConsoleMockupLoop() {
+      resetConsole();
+      btnRunConsole.disabled = true;
+      btnRunConsole.innerHTML = '<span class="spinner-patrio"></span> Procesando...';
+
       const bar = consoleBody.querySelector('.progress-bar');
       let progress = 0;
-      
-      if (loopInterval) clearInterval(loopInterval);
-      
+
       loopInterval = setInterval(() => {
         progress += 5;
         if (bar) {
-          bar.style.width = progress + '%';
-          bar.textContent = progress + '%';
+          bar.style.width = `${progress}%`;
+          bar.textContent = `${progress}%`;
         }
-        
+
         if (progress >= 100) {
           clearInterval(loopInterval);
           const doneLine = document.createElement('p');
-          doneLine.className = 'console-line text-success';
-          doneLine.innerHTML = '[OK] install.wim dividido y copiado en install.swm (Parte 1 y Parte 2). USB Listo.';
+          doneLine.className = 'console-line text-success-bold';
+          doneLine.innerHTML = '[OK] install.wim dividido y copiado en install.swm (Parte 1 y Parte 2). USB Listo para instalar.';
           consoleBody.appendChild(doneLine);
+          btnRunConsole.disabled = false;
+          btnRunConsole.innerHTML = '<i class="fas fa-check"></i> Flasheo Completado';
         }
-      }, 150);
+      }, 120);
     }
 
-    if (btnRunConsole) {
-      btnRunConsole.addEventListener('click', runConsoleMockupLoop);
-    }
-
+    btnRunConsole.addEventListener('click', runConsoleMockupLoop);
     if (btnResetConsole) {
-      btnResetConsole.addEventListener('click', () => {
-        if (loopInterval) clearInterval(loopInterval);
-        consoleBody.innerHTML = originalConsoleLines.join('');
-      });
+      btnResetConsole.addEventListener('click', resetConsole);
     }
 
-    // Inicializar simulación al cargar
+    // Inicializar simulación visual
     runConsoleMockupLoop();
   }
 
-  // 📂 Filtro por categorías interactivo en el explorador de Files
+  // ── 5. AUTÓMATA FINITO (FSM): EXPLORADOR INTERACTIVO DE FILES ──────────
   const filterTags = document.querySelectorAll('.filter-tag');
   const sidebarItems = document.querySelectorAll('.sidebar-item');
   const fileRows = document.querySelectorAll('.file-row');
+  const filesListContainer = document.getElementById('explorer-files-list');
+
+  let emptyFilesState = document.getElementById('files-empty-state');
+  if (!emptyFilesState && filesListContainer) {
+    emptyFilesState = document.createElement('div');
+    emptyFilesState.id = 'files-empty-state';
+    emptyFilesState.className = 'fsm-empty-state hidden';
+    emptyFilesState.innerHTML = `
+      <div class="empty-icon">📁</div>
+      <h4>Directorio vacío</h4>
+      <p>No se encontraron archivos en esta categoría.</p>
+    `;
+    filesListContainer.parentNode.appendChild(emptyFilesState);
+  }
 
   function filterFiles(category) {
+    let visibleCount = 0;
     fileRows.forEach(row => {
       const rowType = row.getAttribute('data-type');
-      if (category === 'all' || rowType === category) {
-        row.style.display = 'flex';
-      } else {
-        row.style.display = 'none';
-      }
+      const isVisible = (category === 'all' || rowType === category);
+      row.style.display = isVisible ? 'flex' : 'none';
+      if (isVisible) visibleCount++;
     });
+
+    if (visibleCount === 0 && emptyFilesState) {
+      filesListContainer.style.display = 'none';
+      emptyFilesState.classList.remove('hidden');
+    } else if (emptyFilesState) {
+      filesListContainer.style.display = 'flex';
+      emptyFilesState.classList.add('hidden');
+    }
   }
 
   filterTags.forEach(tag => {
@@ -237,7 +357,6 @@ document.addEventListener('DOMContentLoaded', () => {
       item.classList.add('active');
       const category = item.getAttribute('data-category');
       if (category) {
-        // Sincronizar también los botones superiores
         filterTags.forEach(t => {
           t.classList.toggle('active', t.getAttribute('data-filter') === category);
         });
@@ -246,74 +365,126 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Interacción de descarga de archivos simulada en Files
-  fileRows.forEach(row => {
-    const actionBtn = row.querySelector('.f-action');
-    if (actionBtn) {
-      actionBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const originalText = actionBtn.textContent;
-        if (originalText === '✔ Guardado' || originalText === 'Descargando...') return;
-
-        actionBtn.innerHTML = '<span class="spinner"></span> Descargando...';
-        actionBtn.style.color = 'var(--gold)';
-        actionBtn.style.textDecoration = 'none';
-        
-        const downloadPromise = new Promise((resolve) => setTimeout(resolve, 1200));
-        handleAsyncOperation(downloadPromise).then(() => {
-          actionBtn.textContent = '✔ Guardado';
-          actionBtn.style.color = 'var(--green)';
-        });
-      });
-    }
-  });
-
-  // 🍪 LÓGICA DE CONSENTIMIENTO DE COOKIES & BANNER (LFPDPPP MÉXICO)
-  const cookieBanner = document.getElementById('cookie-consent-banner');
-  const btnAccept = document.getElementById('cookie-btn-accept');
-  const btnReject = document.getElementById('cookie-btn-reject');
+  // ── 6. GESTOR DE PRIVACIDAD LFPDPPP & MODAL ARTESANAL DE BIENVENIDA ───
+  const welcomeModal = document.getElementById('welcome-modal-overlay');
+  const btnWelcomeAccept = document.getElementById('welcome-btn-accept');
+  const btnWelcomeReject = document.getElementById('welcome-btn-reject');
+  const btnWelcomeClose = document.getElementById('welcome-modal-close');
   const fbContainer = document.getElementById('fb-embed-container');
 
-  const FB_IFRAME_HTML = `<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D418773897038938%26set%3Da.418773850372276%26type%3D3&show_text=true&width=500" width="100%" height="564" style="border:none;overflow:hidden;border-radius:16px;box-shadow: 0 8px 24px rgba(0,0,0,0.4);" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>`;
+  const STORAGE_KEY = 'memex_cookie_consent_v1';
 
-  function loadFacebookWidget() {
-    if (fbContainer) {
-      fbContainer.innerHTML = FB_IFRAME_HTML;
+  function closeWelcomeModal() {
+    if (welcomeModal) {
+      welcomeModal.style.opacity = '0';
+      welcomeModal.style.transition = 'opacity 0.25s ease-out';
+      setTimeout(() => {
+        welcomeModal.classList.add('hidden');
+        welcomeModal.style.opacity = '';
+        welcomeModal.style.transition = '';
+      }, 250);
     }
+  }
+
+  function openWelcomeModal() {
+    if (welcomeModal) {
+      welcomeModal.classList.remove('hidden');
+    }
+  }
+
+  function renderFacebookWidgetSecure() {
+    if (!fbContainer) return;
+    fbContainer.innerHTML = '';
+
+    const iframe = document.createElement('iframe');
+    iframe.src = 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMemexicanisimos&tabs=timeline&width=500&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true';
+    iframe.width = '100%';
+    iframe.height = '550';
+    iframe.style.border = 'none';
+    iframe.style.overflow = 'hidden';
+    iframe.style.borderRadius = '16px';
+    iframe.setAttribute('scrolling', 'no');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', 'true');
+    iframe.setAttribute('allow', 'autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share');
+    iframe.setAttribute('loading', 'lazy');
+
+    iframe.onerror = () => {
+      fbContainer.innerHTML = `
+        <div class="fb-blocked-placeholder">
+          <i class="fab fa-facebook-f"></i>
+          <h4>Conexión Segura con Facebook</h4>
+          <p>Tu navegador o bloqueador de rastreadores impidió la conexión directa con Meta.</p>
+          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green" style="margin-top: 12px;">
+            <i class="fas fa-external-link-alt"></i> Abrir Facebook Oficial
+          </a>
+        </div>
+      `;
+    };
+
+    fbContainer.appendChild(iframe);
   }
 
   function checkCookieConsent() {
-    const consent = localStorage.getItem('cookie-consent');
-    if (consent === 'accepted') {
-      loadFacebookWidget();
-    } else if (consent === 'rejected') {
-      // No cargar y mantener placeholder
-      if (cookieBanner) cookieBanner.classList.add('hidden');
-    } else {
-      // Mostrar banner si no hay decisión tomada
-      if (cookieBanner) {
-        setTimeout(() => {
-          cookieBanner.classList.remove('hidden');
-        }, 1000);
+    try {
+      const consent = localStorage.getItem(STORAGE_KEY);
+      if (consent === 'accepted') {
+        renderFacebookWidgetSecure();
+        if (welcomeModal) welcomeModal.classList.add('hidden');
+      } else if (consent === 'rejected') {
+        if (welcomeModal) welcomeModal.classList.add('hidden');
+      } else {
+        // Mostrar Modal de Bienvenida con Rótulo Mexicano si no hay decisión tomada
+        if (welcomeModal) {
+          setTimeout(() => openWelcomeModal(), 500);
+        }
       }
+    } catch (e) {
+      console.warn('[STORAGE] LocalStorage no disponible:', e);
     }
   }
 
-  if (btnAccept) {
-    btnAccept.addEventListener('click', () => {
-      localStorage.setItem('cookie-consent', 'accepted');
-      if (cookieBanner) cookieBanner.classList.add('hidden');
-      loadFacebookWidget();
+  if (btnWelcomeAccept) {
+    btnWelcomeAccept.addEventListener('click', () => {
+      try {
+        localStorage.setItem(STORAGE_KEY, 'accepted');
+      } catch (e) {}
+      closeWelcomeModal();
+      renderFacebookWidgetSecure();
     });
   }
 
-  if (btnReject) {
-    btnReject.addEventListener('click', () => {
-      localStorage.setItem('cookie-consent', 'rejected');
-      if (cookieBanner) cookieBanner.classList.add('hidden');
+  if (btnWelcomeReject) {
+    btnWelcomeReject.addEventListener('click', () => {
+      try {
+        localStorage.setItem(STORAGE_KEY, 'rejected');
+      } catch (e) {}
+      closeWelcomeModal();
     });
   }
 
-  // Inicializar verificación
+  if (btnWelcomeClose) {
+    btnWelcomeClose.addEventListener('click', () => {
+      closeWelcomeModal();
+    });
+  }
+
+  // Cerrar modal al tocar el fondo oscuro (overlay backdrop) para accesibilidad táctil móvil
+  if (welcomeModal) {
+    welcomeModal.addEventListener('click', (e) => {
+      if (e.target === welcomeModal) {
+        closeWelcomeModal();
+      }
+    });
+  }
+
+  // Cerrar modal al presionar tecla Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && welcomeModal && !welcomeModal.classList.contains('hidden')) {
+      closeWelcomeModal();
+    }
+  });
+
+  // Inicializar verificación de bienvenida
   checkCookieConsent();
 });

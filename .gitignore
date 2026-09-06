@@ -5,3 +5,14 @@ Eduardo Fuentes/
 # Ignorar dependencias de entornos locales
 node_modules/
 .DS_Store
+
+# Editor backups y entornos locales
+"Talachas y Modulos Web/backups/"
+"Talachas y Modulos Web/editor/.env"
+*.pem
+"Talachas y Modulos Web/editor/node_modules/"
+"Talachas y Modulos Web/editor/public/screenshots/"
+
+# Archivos minificados de build
+"Talachas y Modulos Web/editor/public/style.min.css"
+"Talachas y Modulos Web/editor/public/app.min.js"
