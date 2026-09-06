@@ -134,7 +134,55 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Enlace / Botón "Editar en Rótulos Web" del Header abre el editor visual en http://localhost:5050
+  // Manejo de enlaces y hash para activación automática de pestañas
+  function handleHashNavigation() {
+    const hash = window.location.hash;
+    if (!hash) return;
+    const cleanHash = hash.replace('#', '');
+    
+    let targetTab = cleanHash;
+    if (['rotulos-anchor', 'aetheria-anchor', 'masv-anchor', 'files-anchor'].includes(cleanHash)) {
+      targetTab = 'perfiles';
+    }
+    
+    const matchingBtn = tabButtons.find(btn => btn.getAttribute('data-target') === targetTab);
+    if (matchingBtn) {
+      activateTab(matchingBtn);
+      if (cleanHash !== targetTab) {
+        setTimeout(() => {
+          const el = document.getElementById(cleanHash);
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }, 350);
+      }
+    }
+  }
+
+  window.addEventListener('hashchange', handleHashNavigation);
+
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href');
+      if (href && href.length > 1) {
+        const cleanHash = href.replace('#', '');
+        let targetTab = cleanHash;
+        if (['rotulos-anchor', 'aetheria-anchor', 'masv-anchor', 'files-anchor'].includes(cleanHash)) {
+          targetTab = 'perfiles';
+        }
+        const matchingBtn = tabButtons.find(btn => btn.getAttribute('data-target') === targetTab);
+        if (matchingBtn) {
+          activateTab(matchingBtn);
+          if (cleanHash !== targetTab) {
+            setTimeout(() => {
+              const el = document.getElementById(cleanHash);
+              if (el) el.scrollIntoView({ behavior: 'smooth' });
+            }, 350);
+          }
+        }
+      }
+    });
+  });
+
+  handleHashNavigation();
 
   // ── 2. AUTÓMATA FINITO (FSM): COPIADO DE CORREO OFICIAL ────────────────
   // Estados: [IDLE] -> [PENDING] -> [SUCCESS] | [FAULT]

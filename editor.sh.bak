@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Redirigir al gestor ubicado en Talachas y Modulos Web
-DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-exec "$DIR/Talachas y Modulos Web/editor.sh" "$@"

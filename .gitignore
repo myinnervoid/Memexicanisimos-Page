@@ -5,11 +5,18 @@ Eduardo Fuentes/
 # Ignorar dependencias de entornos locales
 node_modules/
 .DS_Store
+*.log
+*.tmp
 
-# Editor backups y entornos locales
+# Editor backups y respaldos
+backups/
+backup_original/
+*.bak
+*.pem
+
+# Editor de Rótulos / Talachas y entornos locales
 "Talachas y Modulos Web/backups/"
 "Talachas y Modulos Web/editor/.env"
-*.pem
 "Talachas y Modulos Web/editor/node_modules/"
 "Talachas y Modulos Web/editor/public/screenshots/"
 
