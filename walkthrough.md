@@ -77,16 +77,24 @@ Se ha unificado y trasladado el control de procesos dentro de la carpeta especia
 
 ---
 
-## 6. Panel de Estilos: Widget de Color, Paleta Rápida Siempre Visible y Auto-traducción en Español (v3.8)
-Se resolvió la limitación en `Color Texto` y `Color Fondo` donde el usuario tenía que adivinar códigos o escribir en inglés:
-1. **Muestra Visual + Selector Cromático Nativo:** Botón interactivo con muestra de color que abre la rueda y el cuentagotas (*eyedropper*) del sistema operativo para capturar cualquier color en pantalla.
-2. **Paleta Rápida de 1 Clic Siempre Visible:**
-   * 🇲🇽 **Identidad Patria:** Verde Bandera (`#006847`), Verde Neón (`#55EBB2`), Oro Charro (`#D4AF37`), Oro Brillante (`#F5C542`), Rojo Bandera (`#CE1126`), Rojo Coral (`#FF4D4D`), Blanco Hueso (`#F8F9FA`), Negro Carbón (`#111111`).
-   * 🎨 **Web Esencial:** Azul Cielo (`#38BDF8`), Azul Rey (`#2563EB`), Morado (`#A855F7`), Naranja Pastor (`#F97316`), Transparente (`transparent`).
-   * Cada muestra incluye un tooltip en español para identificar el tono al pasar el ratón.
-3. **Diccionario Inteligente Español ➔ CSS:**
-   * El usuario puede escribir directamente `azul`, `rojo`, `verde bandera`, `dorado`, `oro`, `amarillo`, `morado`, `rosa`, `transparente`, etc., y el sistema traduce el término en tiempo real a su valor CSS válido sin errores.
-4. **Memoria de Colores Recientes:** Guarda automáticamente los últimos colores seleccionados en la sesión (estilo paleta de favoritos de Paint) para reutilizarlos con un solo clic.
+## 7. Restauración de Bloques, Dependencias y Enlaces Completos (v3.9)
 
-![Verificación de Paleta de Colores y Auto-traducción en Español](file:///home/myinnervoid/.gemini/antigravity-ide/brain/b1981eca-fdeb-444b-9b45-c137f374fd14/verified_color_palette.png)
+A partir de la inspección exhaustiva de los respaldos históricos (`backup_original/` y `backups/index_backup_*.html`), se realizaron las siguientes correcciones de estructura y dependencias:
+
+1. **Limpieza de Noticias (`#noticias-news`):**
+   * Se eliminaron los bloques de prueba residuales del editor visual (`ipxohj`, `i12y75`, `inwnrw` con enlaces ficticios `#`) que habían quedado anidados por error dentro del contenedor de medios de la segunda cápsula (*Mercado 23 Cancún*).
+   * Las 4 cápsulas de noticias populares ahora renderizan con diseño nítido y enlaces correctos.
+
+2. **Reintegración del Módulo de Apoyo (`#nosotros-apoyo`):**
+   * Se recuperó y reactivó la tarjeta auténtica de **¡Invítame un Taco!** con enlace directo a Mercado Pago (`https://link.mercadopago.com.mx/memexicanisimos`), conviviendo armónicamente con la tarjeta de destaque de **Rótulos Web**.
+
+3. **Cierre y Enlaces Completos del Pie de Página (`<footer>`):**
+   * Se corrigió la etiqueta cortada del enlace de GitHub del creador (`@myinnervoid`).
+   * Se restablecieron los enlaces al rastreador de incidencias de MASV y al documento oficial de **Aviso de Privacidad y Términos Legales** ([legal.html](file:///home/myinnervoid/Estudio%20Memexicanisimos/Pagina%20web%20memexicanisimos/legal.html)).
+   * Se cerraron correctamente todos los contenedores HTML (`<div>`, `<footer>`).
+
+4. **Suite de Pruebas Unitarias y Contratos al 100%:**
+   * Se actualizaron las rutas en [tests/server.test.js](file:///home/myinnervoid/Estudio%20Memexicanisimos/Pagina%20web%20memexicanisimos/tests/server.test.js) apuntando a la estructura de `Rotulos Web/`.
+   * Todas las 36 pruebas automatizadas de servidor y 9 pruebas de contratos de error pasaron con éxito (45/45 aserciones aprobadas).
+
 
