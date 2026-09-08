@@ -269,15 +269,22 @@ document.addEventListener('DOMContentLoaded', () => {
       shortcutsGrid.parentNode.appendChild(emptyStateBanner);
     }
 
+    // Cache text content and tags to avoid expensive DOM reads during input
+    const cachedShortcutData = Array.from(shortcutCards).map(card => {
+      return {
+        card: card,
+        text: card.textContent.toLowerCase(),
+        tags: card.getAttribute('data-shortcut') || ''
+      };
+    });
+
     shortcutSearch.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
       let matchCount = 0;
 
-      shortcutCards.forEach(card => {
-        const text = card.textContent.toLowerCase();
-        const tags = card.getAttribute('data-shortcut') || '';
-        const isMatch = (query === '') || text.includes(query) || tags.includes(query);
-        card.style.display = isMatch ? 'flex' : 'none';
+      cachedShortcutData.forEach(data => {
+        const isMatch = (query === '') || data.text.includes(query) || data.tags.includes(query);
+        data.card.style.display = isMatch ? 'flex' : 'none';
         if (isMatch) matchCount++;
       });
 
