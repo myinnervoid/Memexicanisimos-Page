@@ -8,9 +8,12 @@
 
 import { ErrorCode, ErrorCatalog, createApiResponse } from './contracts/errors.js';
 
-document.addEventListener('DOMContentLoaded', () => {
 
-  // ── 1. NAVEGACIÓN POR PESTAÑAS (WAI-ARIA + View Transitions) ───────────
+// ==========================================================================
+// ── INICIALIZADORES MODULARES ───────────────────────────────────────────────
+// ==========================================================================
+
+function initTabsNavigation() {
   const tabButtons = Array.from(document.querySelectorAll('.tab-button'));
   const productSections = document.querySelectorAll('.product-section');
   const tabsContainer = document.querySelector('.tabs-container');
@@ -80,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Manejo de enlaces y hash para activación automática de pestañas
   function navigateToHash(hashValue) {
     if (!hashValue || hashValue.length <= 1) return;
     const cleanHash = hashValue.replace('#', '');
@@ -116,9 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   handleHashNavigation();
+}
 
-  // ── 2. AUTÓMATA FINITO (FSM): COPIADO DE CORREO OFICIAL ────────────────
-  // Estados: [IDLE] -> [PENDING] -> [SUCCESS] | [FAULT]
+function initClipboardFSM() {
   const copyEmailBtn = document.getElementById('copy-email-btn');
   const emailText = document.querySelector('.email-text');
 
@@ -138,7 +140,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const originalContent = copyEmailBtn.innerHTML;
 
     copyEmailBtn.addEventListener('click', async () => {
-      // Estado: [PENDING]
       copyEmailBtn.disabled = true;
       copyEmailBtn.setAttribute('data-fsm-state', 'PENDING');
       copyEmailBtn.innerHTML = '<span class="spinner-patrio"></span> Copiando...';
@@ -146,20 +147,17 @@ document.addEventListener('DOMContentLoaded', () => {
       const response = await copyToClipboardSafe(emailText.textContent.trim());
 
       if (response.success) {
-        // Estado: [SUCCESS]
         copyEmailBtn.setAttribute('data-fsm-state', 'SUCCESS');
         copyEmailBtn.innerHTML = '<i class="fas fa-check"></i> ¡Copiado con Éxito!';
         copyEmailBtn.classList.add('btn-state-success');
 
         setTimeout(() => {
-          // Retorno a [IDLE]
           copyEmailBtn.disabled = false;
           copyEmailBtn.setAttribute('data-fsm-state', 'IDLE');
           copyEmailBtn.innerHTML = originalContent;
           copyEmailBtn.classList.remove('btn-state-success');
         }, 2200);
       } else {
-        // Estado: [FAULT]
         copyEmailBtn.setAttribute('data-fsm-state', 'FAULT');
         copyEmailBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Error al Copiar';
         copyEmailBtn.classList.add('btn-state-fault');
@@ -171,7 +169,6 @@ document.addEventListener('DOMContentLoaded', () => {
         copyEmailBtn.parentNode.appendChild(toast);
 
         setTimeout(() => {
-          // Retorno a [IDLE]
           copyEmailBtn.disabled = false;
           copyEmailBtn.setAttribute('data-fsm-state', 'IDLE');
           copyEmailBtn.innerHTML = originalContent;
@@ -181,9 +178,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+}
 
-  // ── 3. AUTÓMATA FINITO (FSM): BUSCADOR DE ATAJOS MASV ──────────────────
-  // Estados: [IDLE] -> [PENDING] -> [SUCCESS] (con resultados) | [EMPTY] (sin coincidencias)
+function initShortcutSearchFSM() {
   const shortcutSearch = document.getElementById('shortcut-search');
   const shortcutsGrid = document.getElementById('shortcuts-grid');
   const shortcutCards = document.querySelectorAll('.short-card');
@@ -212,7 +209,6 @@ document.addEventListener('DOMContentLoaded', () => {
       shortcutsGrid.parentNode.appendChild(emptyStateBanner);
     }
 
-    // Cache text content and tags to avoid expensive DOM reads during input
     const cachedShortcutData = Array.from(shortcutCards).map(card => {
       return {
         card: card,
@@ -232,19 +228,17 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (matchCount === 0) {
-        // Estado: [EMPTY]
         shortcutsGrid.style.display = 'none';
         emptyStateBanner.classList.remove('hidden');
       } else {
-        // Estado: [SUCCESS]
         shortcutsGrid.style.display = 'grid';
         emptyStateBanner.classList.add('hidden');
       }
     });
   }
+}
 
-  // ── 4. AUTÓMATA FINITO (FSM): CONSOLA INTERACTIVA DE BURNER ───────────
-  // Estados: [IDLE] -> [PENDING] (simulando split wimlib) -> [SUCCESS]
+function initBurnerConsoleFSM() {
   const consoleBody = document.getElementById('burner-console-body');
   const btnRunConsole = document.getElementById('btn-run-console');
   const btnResetConsole = document.getElementById('btn-reset-console');
@@ -254,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '<p class="console-line text-muted">[INFO] Analizando ISO de Windows 10/11...</p>',
       '<p class="console-line text-warning">[WARN] Archivo \'sources/install.wim\' excede los 4GB (Tamaño: 5.2 GB)</p>',
       '<p class="console-line text-patrio-green">[PROCESS] Dividiendo install.wim usando wimlib en install.swm...</p>',
-      '<div class="console-progress"><div class="progress-bar patrio-green" style="width: 0%;">0%</div></div>',
+      '<div class="console-progress"><div class="progress-bar patrio-green" data-progress="0">0%</div></div>',
       '<p class="console-line text-muted">[INFO] Creando partición de arranque UEFI en USB /dev/sdb...</p>'
     ];
 
@@ -278,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
       loopInterval = setInterval(() => {
         progress += 5;
         if (bar) {
-          bar.style.width = `${progress}%`;
+          bar.setAttribute('data-progress', progress);
           bar.textContent = `${progress}%`;
         }
 
@@ -299,11 +293,11 @@ document.addEventListener('DOMContentLoaded', () => {
       btnResetConsole.addEventListener('click', resetConsole);
     }
 
-    // Inicializar simulación visual
     runConsoleMockupLoop();
   }
+}
 
-  // ── 5. AUTÓMATA FINITO (FSM): EXPLORADOR INTERACTIVO DE FILES ──────────
+function initFileExplorerFSM() {
   const filterTags = document.querySelectorAll('.filter-tag');
   const sidebarItems = document.querySelectorAll('.sidebar-item');
   const fileRows = document.querySelectorAll('.file-row');
@@ -372,8 +366,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+}
 
-  // ── 6. GESTOR DE PRIVACIDAD LFPDPPP & MODAL ARTESANAL DE BIENVENIDA ───
+function initPrivacyConsent() {
   const welcomeModal = document.getElementById('welcome-modal-overlay');
   const btnWelcomeAccept = document.getElementById('welcome-btn-accept');
   const btnWelcomeReject = document.getElementById('welcome-btn-reject');
@@ -423,7 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <i class="fab fa-facebook-f"></i>
           <h4>Conexión Segura con Facebook</h4>
           <p>Tu navegador o bloqueador de rastreadores impidió la conexión directa con Meta.</p>
-          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green" style="margin-top: 12px;">
+          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green mt-12">
             <i class="fas fa-external-link-alt"></i> Abrir Facebook Oficial
           </a>
         </div>
@@ -442,7 +437,6 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (consent === 'rejected') {
         if (welcomeModal) welcomeModal.classList.add('hidden');
       } else {
-        // Mostrar Modal de Bienvenida con Rótulo Mexicano si no hay decisión tomada
         if (welcomeModal) {
           setTimeout(() => openWelcomeModal(), 500);
         }
@@ -481,7 +475,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Cerrar modal al tocar el fondo oscuro (overlay backdrop) para accesibilidad táctil móvil
   if (welcomeModal) {
     welcomeModal.addEventListener('click', (e) => {
       if (e.target === welcomeModal) {
@@ -490,13 +483,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Cerrar modal al presionar tecla Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && welcomeModal && !welcomeModal.classList.contains('hidden')) {
       closeWelcomeModal();
     }
   });
 
-  // Inicializar verificación de bienvenida
   checkCookieConsent();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initTabsNavigation();
+  initClipboardFSM();
+  initShortcutSearchFSM();
+  initBurnerConsoleFSM();
+  initFileExplorerFSM();
+  initPrivacyConsent();
 });
