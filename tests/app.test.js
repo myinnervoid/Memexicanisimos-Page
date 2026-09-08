@@ -94,7 +94,14 @@ let consoleWarns = [];
 console.warn = (...args) => { consoleWarns.push(args); };
 
 // Ejecutar app.js en este contexto para capturar global.triggerDOMContentLoaded
-eval(appJsCode);
+// Transformar static imports a dynamic imports top-level (en una función async IIFE)
+const modifiedCode = appJsCode.replace(
+  /import\s+{([^}]+)}\s+from\s+['"]([^'"]+)['"];?/g,
+  "const { $1 } = await import('../' + '$2');"
+);
+
+(async () => {
+  await eval(`(async () => { ${modifiedCode} })()`);
 
 function resetState() {
   elements = {};
@@ -156,3 +163,4 @@ if (failed > 0) {
 } else {
   console.log('✅ Todas las pruebas de app.js pasaron exitosamente.');
 }
+})();
