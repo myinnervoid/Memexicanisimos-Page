@@ -6,61 +6,7 @@
  * ==========================================================================
  */
 
-// ── CATÁLOGO CANÓNICO DE ERRORES & CONTRATO ESTÁNDAR ─────────────────────
-const ErrorCode = Object.freeze({
-  CLIPBOARD_WRITE_FAILED: 'CLIPBOARD_WRITE_FAILED',
-  CLIPBOARD_PERMISSION_DENIED: 'CLIPBOARD_PERMISSION_DENIED',
-  STORAGE_READ_FAILED: 'STORAGE_READ_FAILED',
-  STORAGE_WRITE_FAILED: 'STORAGE_WRITE_FAILED',
-  INVALID_STORAGE_VERSION: 'INVALID_STORAGE_VERSION',
-  FILTER_NO_MATCH: 'FILTER_NO_MATCH',
-  COMPONENT_STATE_INVALID: 'COMPONENT_STATE_INVALID',
-  EXTERNAL_FEED_BLOCKED: 'EXTERNAL_FEED_BLOCKED',
-  CONSENT_REQUIRED: 'CONSENT_REQUIRED',
-  NETWORK_UNAVAILABLE: 'NETWORK_UNAVAILABLE'
-});
-
-const ErrorCatalog = Object.freeze({
-  [ErrorCode.CLIPBOARD_WRITE_FAILED]: {
-    code: ErrorCode.CLIPBOARD_WRITE_FAILED,
-    userMessage: 'No fue posible copiar el texto al portapapeles. Intenta seleccionarlo manualmente.',
-    severity: 'Menor'
-  },
-  [ErrorCode.CLIPBOARD_PERMISSION_DENIED]: {
-    code: ErrorCode.CLIPBOARD_PERMISSION_DENIED,
-    userMessage: 'El navegador bloqueó el permiso para acceder al portapapeles.',
-    severity: 'Mayor'
-  },
-  [ErrorCode.STORAGE_WRITE_FAILED]: {
-    code: ErrorCode.STORAGE_WRITE_FAILED,
-    userMessage: 'No se pudieron guardar tus preferencias en el almacenamiento local.',
-    severity: 'Menor'
-  },
-  [ErrorCode.FILTER_NO_MATCH]: {
-    code: ErrorCode.FILTER_NO_MATCH,
-    userMessage: 'No se encontraron elementos que coincidan con tu búsqueda.',
-    severity: 'Menor'
-  },
-  [ErrorCode.EXTERNAL_FEED_BLOCKED]: {
-    code: ErrorCode.EXTERNAL_FEED_BLOCKED,
-    userMessage: 'El feed social fue bloqueado por tu navegador o extensión de privacidad.',
-    severity: 'Menor'
-  },
-  [ErrorCode.CONSENT_REQUIRED]: {
-    code: ErrorCode.CONSENT_REQUIRED,
-    userMessage: 'Se requiere consentimiento de cookies para cargar el contenido de terceros.',
-    severity: 'Menor'
-  }
-});
-
-function createApiResponse(success, data = null, errorCode = null, message = '') {
-  return {
-    success: Boolean(success),
-    data: data,
-    error_code: errorCode,
-    message: message || (errorCode && ErrorCatalog[errorCode] ? ErrorCatalog[errorCode].userMessage : (success ? 'Operación exitosa' : 'Error desconocido'))
-  };
-}
+import { ErrorCode, ErrorCatalog, createApiResponse } from './contracts/errors.js';
 
 document.addEventListener('DOMContentLoaded', () => {
 
