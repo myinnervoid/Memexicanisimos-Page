@@ -261,11 +261,21 @@ document.addEventListener('DOMContentLoaded', () => {
       emptyStateBanner = document.createElement('div');
       emptyStateBanner.id = 'shortcuts-empty-state';
       emptyStateBanner.className = 'fsm-empty-state hidden';
-      emptyStateBanner.innerHTML = `
-        <div class="empty-icon">🔍</div>
-        <h4>Sin coincidencias</h4>
-        <p>No se encontraron atajos para el término ingresado. Intenta con "volumen", "inicio" o "atrás".</p>
-      `;
+
+      const iconDiv = document.createElement('div');
+      iconDiv.className = 'empty-icon';
+      iconDiv.textContent = '🔍';
+
+      const title = document.createElement('h4');
+      title.textContent = 'Sin coincidencias';
+
+      const desc = document.createElement('p');
+      desc.textContent = 'No se encontraron atajos para el término ingresado. Intenta con "volumen", "inicio" o "atrás".';
+
+      emptyStateBanner.appendChild(iconDiv);
+      emptyStateBanner.appendChild(title);
+      emptyStateBanner.appendChild(desc);
+
       shortcutsGrid.parentNode.appendChild(emptyStateBanner);
     }
 
@@ -364,11 +374,21 @@ document.addEventListener('DOMContentLoaded', () => {
     emptyFilesState = document.createElement('div');
     emptyFilesState.id = 'files-empty-state';
     emptyFilesState.className = 'fsm-empty-state hidden';
-    emptyFilesState.innerHTML = `
-      <div class="empty-icon">📁</div>
-      <h4>Directorio vacío</h4>
-      <p>No se encontraron archivos en esta categoría.</p>
-    `;
+
+    const iconDiv = document.createElement('div');
+    iconDiv.className = 'empty-icon';
+    iconDiv.textContent = '📁';
+
+    const title = document.createElement('h4');
+    title.textContent = 'Directorio vacío';
+
+    const desc = document.createElement('p');
+    desc.textContent = 'No se encontraron archivos en esta categoría.';
+
+    emptyFilesState.appendChild(iconDiv);
+    emptyFilesState.appendChild(title);
+    emptyFilesState.appendChild(desc);
+
     filesListContainer.parentNode.appendChild(emptyFilesState);
   }
 
