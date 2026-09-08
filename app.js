@@ -81,10 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Manejo de enlaces y hash para activación automática de pestañas
-  function handleHashNavigation() {
-    const hash = window.location.hash;
-    if (!hash) return;
-    const cleanHash = hash.replace('#', '');
+  function navigateToHash(hashValue) {
+    if (!hashValue || hashValue.length <= 1) return;
+    const cleanHash = hashValue.replace('#', '');
     
     let targetTab = cleanHash;
     if (['rotulos-anchor', 'aetheria-anchor', 'masv-anchor', 'files-anchor'].includes(cleanHash)) {
@@ -103,28 +102,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function handleHashNavigation() {
+    navigateToHash(window.location.hash);
+  }
+
   window.addEventListener('hashchange', handleHashNavigation);
 
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', (e) => {
       const href = link.getAttribute('href');
-      if (href && href.length > 1) {
-        const cleanHash = href.replace('#', '');
-        let targetTab = cleanHash;
-        if (['rotulos-anchor', 'aetheria-anchor', 'masv-anchor', 'files-anchor'].includes(cleanHash)) {
-          targetTab = 'perfiles';
-        }
-        const matchingBtn = tabButtons.find(btn => btn.getAttribute('data-target') === targetTab);
-        if (matchingBtn) {
-          activateTab(matchingBtn);
-          if (cleanHash !== targetTab) {
-            setTimeout(() => {
-              const el = document.getElementById(cleanHash);
-              if (el) el.scrollIntoView({ behavior: 'smooth' });
-            }, 350);
-          }
-        }
-      }
+      navigateToHash(href);
     });
   });
 
