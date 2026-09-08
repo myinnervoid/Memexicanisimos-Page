@@ -523,7 +523,9 @@ document.addEventListener('DOMContentLoaded', () => {
     btnWelcomeAccept.addEventListener('click', () => {
       try {
         localStorage.setItem(STORAGE_KEY, 'accepted');
-      } catch (e) {}
+      } catch (e) {
+        console.warn('[STORAGE] Error guardando preferencia:', e);
+      }
       closeWelcomeModal();
       renderFacebookWidgetSecure();
     });
@@ -533,7 +535,9 @@ document.addEventListener('DOMContentLoaded', () => {
     btnWelcomeReject.addEventListener('click', () => {
       try {
         localStorage.setItem(STORAGE_KEY, 'rejected');
-      } catch (e) {}
+      } catch (e) {
+        console.warn('[STORAGE] Error guardando preferencia:', e);
+      }
       closeWelcomeModal();
     });
   }
