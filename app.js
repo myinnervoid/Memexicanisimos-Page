@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '<p class="console-line text-muted">[INFO] Analizando ISO de Windows 10/11...</p>',
       '<p class="console-line text-warning">[WARN] Archivo \'sources/install.wim\' excede los 4GB (Tamaño: 5.2 GB)</p>',
       '<p class="console-line text-patrio-green">[PROCESS] Dividiendo install.wim usando wimlib en install.swm...</p>',
-      '<div class="console-progress"><div class="progress-bar patrio-green" style="width: 0%;">0%</div></div>',
+      '<div class="console-progress"><div class="progress-bar patrio-green" data-progress="0">0%</div></div>',
       '<p class="console-line text-muted">[INFO] Creando partición de arranque UEFI en USB /dev/sdb...</p>'
     ];
 
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
       loopInterval = setInterval(() => {
         progress += 5;
         if (bar) {
-          bar.style.width = `${progress}%`;
+          bar.setAttribute('data-progress', progress);
           bar.textContent = `${progress}%`;
         }
 
@@ -423,7 +423,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <i class="fab fa-facebook-f"></i>
           <h4>Conexión Segura con Facebook</h4>
           <p>Tu navegador o bloqueador de rastreadores impidió la conexión directa con Meta.</p>
-          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green" style="margin-top: 12px;">
+          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green mt-12">
             <i class="fas fa-external-link-alt"></i> Abrir Facebook Oficial
           </a>
         </div>
