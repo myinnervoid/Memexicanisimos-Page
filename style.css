@@ -163,3 +163,12 @@
   color: var(--verde-claro, #10B981);
 }
 
+
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.footer-legal-link {
+  color: var(--oro-charro) !important;
+  font-weight: 700 !important;
+}
