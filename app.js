@@ -345,10 +345,16 @@ function initFileExplorerFSM() {
     }
   }
 
+  let activeTag = Array.from(filterTags).find(t => t.classList.contains('active')) || null;
+  let activeSidebarItem = Array.from(sidebarItems).find(s => s.classList.contains('active')) || null;
+
   filterTags.forEach(tag => {
     tag.addEventListener('click', () => {
-      filterTags.forEach(t => t.classList.remove('active'));
+      if (activeTag) {
+        activeTag.classList.remove('active');
+      }
       tag.classList.add('active');
+      activeTag = tag;
       const filter = tag.getAttribute('data-filter');
       filterFiles(filter);
     });
@@ -356,13 +362,20 @@ function initFileExplorerFSM() {
 
   sidebarItems.forEach(item => {
     item.addEventListener('click', () => {
-      sidebarItems.forEach(s => s.classList.remove('active'));
+      if (activeSidebarItem) {
+        activeSidebarItem.classList.remove('active');
+      }
       item.classList.add('active');
+      activeSidebarItem = item;
       const category = item.getAttribute('data-category');
       if (category) {
-        filterTags.forEach(t => {
-          t.classList.toggle('active', t.getAttribute('data-filter') === category);
-        });
+        if (activeTag) {
+          activeTag.classList.remove('active');
+        }
+        activeTag = Array.from(filterTags).find(t => t.getAttribute('data-filter') === category) || null;
+        if (activeTag) {
+          activeTag.classList.add('active');
+        }
         filterFiles(category);
       }
     });
