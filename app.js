@@ -252,11 +252,12 @@ function initBurnerConsoleFSM() {
       '<p class="console-line text-muted">[INFO] Creando partición de arranque UEFI en USB /dev/sdb...</p>'
     ];
 
+    const initialConsoleHTML = originalConsoleLines.join('');
     let loopInterval = null;
 
     function resetConsole() {
       if (loopInterval) clearInterval(loopInterval);
-      consoleBody.innerHTML = originalConsoleLines.join('');
+      consoleBody.innerHTML = initialConsoleHTML;
       btnRunConsole.disabled = false;
       btnRunConsole.innerHTML = '<i class="fas fa-play"></i> Simular Flasheo';
     }
