@@ -110,11 +110,12 @@ function initTabsNavigation() {
 
   window.addEventListener('hashchange', handleHashNavigation);
 
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', (e) => {
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a[href^="#"]');
+    if (link) {
       const href = link.getAttribute('href');
       navigateToHash(href);
-    });
+    }
   });
 
   handleHashNavigation();
