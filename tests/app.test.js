@@ -196,8 +196,56 @@ resetState();
 mockLocalStorage.getItem = () => { throw new Error('Simulated exception'); };
 global.triggerDOMContentLoaded();
 
+fbContainer = elements['fb-embed-container'];
+welcomeModal = elements['welcome-modal-overlay'];
 assert(consoleWarns.length > 0, 'Captura excepción y advierte sobre LocalStorage no disponible');
 assert(consoleWarns[0][0].includes('LocalStorage no disponible'), 'Mensaje de advertencia correcto emitido');
+assert((!fbContainer || fbContainer.children.length === 0), 'Widget de Facebook no se renderiza en caso de excepción de LocalStorage');
+assert(timeoutCallbacks.length === 0, 'Modal de bienvenida NO se encola en caso de excepción de LocalStorage');
+
+resetState();
+mockLocalStorage.getItem = () => 'unknown_string_value';
+global.triggerDOMContentLoaded();
+
+fbContainer = elements['fb-embed-container'];
+welcomeModal = elements['welcome-modal-overlay'];
+assert((!fbContainer || fbContainer.children.length === 0), 'Widget de Facebook no se renderiza con un string inesperado');
+assert(welcomeModal && !welcomeModal.classList.contains('hidden'), 'Modal de bienvenida NO se oculta inmediatamente con un string inesperado');
+assert(timeoutCallbacks.length > 0, 'Se encola la apertura del modal con setTimeout con un string inesperado');
+
+timeoutCallbacks[0]();
+assert(welcomeModal && !welcomeModal.classList.contains('hidden'), 'Modal de bienvenida se muestra tras el timeout con un string inesperado');
+
+resetState();
+// Simular falta de elementos del DOM eliminándolos del entorno simulado
+mockLocalStorage.getItem = () => null;
+const oldGetElementById = mockDocument.getElementById;
+mockDocument.getElementById = (id) => {
+  if (id === 'welcome-modal-overlay' || id === 'fb-embed-container') return null;
+  return oldGetElementById(id);
+};
+try {
+  global.triggerDOMContentLoaded();
+  assert(true, 'La función maneja la ausencia de welcomeModal y fbContainer sin lanzar excepciones en la ruta por defecto');
+} catch (e) {
+  assert(false, 'La función falló al faltar elementos del DOM: ' + e.message);
+}
+mockDocument.getElementById = oldGetElementById;
+
+resetState();
+mockLocalStorage.getItem = () => 'accepted';
+mockDocument.getElementById = (id) => {
+  if (id === 'welcome-modal-overlay' || id === 'fb-embed-container') return null;
+  return oldGetElementById(id);
+};
+try {
+  global.triggerDOMContentLoaded();
+  assert(true, 'La función maneja la ausencia de welcomeModal y fbContainer sin lanzar excepciones en la ruta "accepted"');
+} catch (e) {
+  assert(false, 'La función falló al faltar elementos del DOM en la ruta "accepted": ' + e.message);
+}
+mockDocument.getElementById = oldGetElementById;
+
 
 // ---------------------------------------------------------
 // initTabsNavigation tests
