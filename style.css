@@ -530,3 +530,25 @@
   border: 1px solid #ff007f;
 }
 
+
+@media (max-width: 600px) {
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    align-items: stretch;
+  }
+  .header-nav .btn {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .app-visual-grid {
+    grid-template-columns: 1fr;
+  }
+  .app-detail-block {
+    padding: 16px;
+  }
+}

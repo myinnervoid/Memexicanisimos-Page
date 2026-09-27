@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sonidero Memexicanisimos · Modo Barrio & Estudio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,9 +29,9 @@
       <select id="micSelect"></select>
     </div>
 
-    <div style="display: flex; gap: 0.6rem;">
-      <button id="powerBtn" class="power-btn" style="flex: 2;">🎤 Encender Micrófono</button>
-      <button id="monitorBtn" class="fx-btn" style="flex: 1; border-color: var(--verde); color: var(--verde); font-size: 0.82rem;" title="Silenciar bocinas locales para evitar acoples">🔊 Monitor: ON</button>
+    <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+      <button id="powerBtn" class="power-btn" style="flex: 2; min-width: 200px;" aria-label="Encender Micrófono">🎤 Encender Micrófono</button>
+      <button id="monitorBtn" class="fx-btn" style="flex: 1; border-color: var(--verde); color: var(--verde); font-size: 0.82rem; min-width: 120px;" title="Silenciar bocinas locales para evitar acoples" aria-label="Activar o desactivar monitor de bocinas">🔊 Monitor: ON</button>
     </div>
     <div id="status" class="status">Conecta tu micro y dale play al barrio</div>
 
@@ -40,35 +40,35 @@
     </div>
 
     <div class="fx-bar">
-      <button class="fx-btn" id="sirenBtn">🚨 Sirena Sonidera</button>
-      <button class="fx-btn" id="laserBtn">💥 Rayo Láser</button>
-      <button class="fx-btn" id="dropBtn">🎛️ Pitch Drop</button>
+      <button class="fx-btn" id="sirenBtn" aria-label="Efecto Sirena Sonidera">🚨 Sirena Sonidera</button>
+      <button class="fx-btn" id="laserBtn" aria-label="Efecto Rayo Láser">💥 Rayo Láser</button>
+      <button class="fx-btn" id="dropBtn" aria-label="Efecto Pitch Drop">🎛️ Pitch Drop</button>
     </div>
 
     <p class="section-label">Presets Sonideros</p>
-    <div class="presets" id="presets">
-      <button class="preset selected" data-preset="changa">
+    <div class="presets" id="presets" role="radiogroup" aria-label="Presets Sonideros">
+      <button class="preset selected" data-preset="changa" aria-pressed="true" role="radio">
         <span class="emoji">🎙️</span>La Changa<small>Locutor clásico (-3 st)</small>
       </button>
-      <button class="preset" data-preset="fantasma">
+      <button class="preset" data-preset="fantasma" aria-pressed="false" role="radio">
         <span class="emoji">👻</span>El Fantasma<small>Eco fantasmal (-5 st)</small>
       </button>
-      <button class="preset" data-preset="condor">
+      <button class="preset" data-preset="condor" aria-pressed="false" role="radio">
         <span class="emoji">🦅</span>El Cóndor<small>Grave profundo (-6 st)</small>
       </button>
-      <button class="preset" data-preset="saludo">
+      <button class="preset" data-preset="saludo" aria-pressed="false" role="radio">
         <span class="emoji">📢</span>Saludo Largo<small>Feedback 75%</small>
       </button>
-      <button class="preset" data-preset="robot">
+      <button class="preset" data-preset="robot" aria-pressed="false" role="radio">
         <span class="emoji">🤖</span>Robot Sonidero<small>Modulación cuadrada</small>
       </button>
-      <button class="preset" data-preset="cumbia">
+      <button class="preset" data-preset="cumbia" aria-pressed="false" role="radio">
         <span class="emoji">🌴</span>Cumbia Seca<small>Solo eco de cinta</small>
       </button>
-      <button class="preset" data-preset="ardilla">
+      <button class="preset" data-preset="ardilla" aria-pressed="false" role="radio">
         <span class="emoji">🐿️</span>Chamaco (+3.5 st)<small>Voz aguda</small>
       </button>
-      <button class="preset" data-preset="limpio">
+      <button class="preset" data-preset="limpio" aria-pressed="false" role="radio">
         <span class="emoji">🎤</span>Mic Limpio<small>Bypass de efectos</small>
       </button>
     </div>
@@ -79,7 +79,7 @@
         <span>↔ Arrastre del eco (Tape Sweep)</span>
         <span>↕ Tono de voz (Pitch Shifter)</span>
       </div>
-      <div class="xy-pad" id="pad">
+      <div class="xy-pad" id="pad" aria-label="Pad XY para controlar tono y eco" role="application">
         <div class="grid"></div>
         <div class="center-v"></div>
         <div class="xy-puck" id="puck"></div>
@@ -92,17 +92,17 @@
 
     <div class="record-card">
       <div class="record-row">
-        <button id="recBtn" class="rec-btn">⏺ Grabar Saludo</button>
-        <div class="rec-time" id="recTime">00:00</div>
+        <button id="recBtn" class="rec-btn" aria-label="Grabar Saludo">⏺ Grabar Saludo</button>
+        <div class="rec-time" id="recTime" aria-live="polite">00:00</div>
       </div>
 
       <div id="downloadZone" class="download-zone">
         <div class="audio-preview-row">
           <audio id="audioPreview" controls></audio>
         </div>
-        <div class="dl-buttons-row">
-          <a id="downloadWav" class="btn-dl btn-dl-wav">⬇ Descargar .WAV (Calidad Estudio)</a>
-          <a id="downloadWebm" class="btn-dl btn-dl-webm">⬇ .WebM</a>
+        <div class="dl-buttons-row" style="flex-wrap: wrap;">
+          <a id="downloadWav" class="btn-dl btn-dl-wav" aria-label="Descargar en formato WAV">⬇ Descargar .WAV (Calidad Estudio)</a>
+          <a id="downloadWebm" class="btn-dl btn-dl-webm" aria-label="Descargar en formato WebM">⬇ .WebM</a>
         </div>
       </div>
     </div>
