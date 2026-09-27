@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Sonidero Memexicanisimos · Modo Barrio & Estudio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Oswald:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/sonidero.css">
+</head>
+<body>
+
+  <header>
+    <div class="rays"></div>
+    <div class="logo-container">
+      <img src="assets/Logo.png" alt="Memexicanisimos Logo Oficial" class="brand-logo" onerror="this.style.display='none'">
+      <span class="brand-badge">Memexicanisimos Suite</span>
+    </div>
+    <h1>Sonidero Memexicanisimos</h1>
+    <div class="tagline">Modo Barrio · Grabador de Saludos & DSP en Vivo</div>
+    <span class="stars">★ ✦ ★ ✦ ★</span>
+  </header>
+
+  <div class="panel">
+
+    <div id="micSelectorWrap">
+      <label for="micSelect">🎙️ Micrófono de entrada</label>
+      <select id="micSelect"></select>
+    </div>
+
+    <div style="display: flex; gap: 0.6rem;">
+      <button id="powerBtn" class="power-btn" style="flex: 2;">🎤 Encender Micrófono</button>
+      <button id="monitorBtn" class="fx-btn" style="flex: 1; border-color: var(--verde); color: var(--verde); font-size: 0.82rem;" title="Silenciar bocinas locales para evitar acoples">🔊 Monitor: ON</button>
+    </div>
+    <div id="status" class="status">Conecta tu micro y dale play al barrio</div>
+
+    <div class="visualizer-box">
+      <canvas id="vuCanvas" width="560" height="38"></canvas>
+    </div>
+
+    <div class="fx-bar">
+      <button class="fx-btn" id="sirenBtn">🚨 Sirena Sonidera</button>
+      <button class="fx-btn" id="laserBtn">💥 Rayo Láser</button>
+      <button class="fx-btn" id="dropBtn">🎛️ Pitch Drop</button>
+    </div>
+
+    <p class="section-label">Presets Sonideros</p>
+    <div class="presets" id="presets">
+      <button class="preset selected" data-preset="changa">
+        <span class="emoji">🎙️</span>La Changa<small>Locutor clásico (-3 st)</small>
+      </button>
+      <button class="preset" data-preset="fantasma">
+        <span class="emoji">👻</span>El Fantasma<small>Eco fantasmal (-5 st)</small>
+      </button>
+      <button class="preset" data-preset="condor">
+        <span class="emoji">🦅</span>El Cóndor<small>Grave profundo (-6 st)</small>
+      </button>
+      <button class="preset" data-preset="saludo">
+        <span class="emoji">📢</span>Saludo Largo<small>Feedback 75%</small>
+      </button>
+      <button class="preset" data-preset="robot">
+        <span class="emoji">🤖</span>Robot Sonidero<small>Modulación cuadrada</small>
+      </button>
+      <button class="preset" data-preset="cumbia">
+        <span class="emoji">🌴</span>Cumbia Seca<small>Solo eco de cinta</small>
+      </button>
+      <button class="preset" data-preset="ardilla">
+        <span class="emoji">🐿️</span>Chamaco (+3.5 st)<small>Voz aguda</small>
+      </button>
+      <button class="preset" data-preset="limpio">
+        <span class="emoji">🎤</span>Mic Limpio<small>Bypass de efectos</small>
+      </button>
+    </div>
+
+    <p class="section-label">Modo en vivo (Pad XY Táctil)</p>
+    <div class="pad-wrap">
+      <div class="pad-hint">
+        <span>↔ Arrastre del eco (Tape Sweep)</span>
+        <span>↕ Tono de voz (Pitch Shifter)</span>
+      </div>
+      <div class="xy-pad" id="pad">
+        <div class="grid"></div>
+        <div class="center-v"></div>
+        <div class="xy-puck" id="puck"></div>
+      </div>
+      <div class="readout">
+        <div><span>TONO VOCAL:</span> <b id="pitchRead">-3.0 st</b></div>
+        <div><span>TIEMPO ECO:</span> <b id="timeRead">320 ms</b></div>
+      </div>
+    </div>
+
+    <div class="record-card">
+      <div class="record-row">
+        <button id="recBtn" class="rec-btn">⏺ Grabar Saludo</button>
+        <div class="rec-time" id="recTime">00:00</div>
+      </div>
+
+      <div id="downloadZone" class="download-zone">
+        <div class="audio-preview-row">
+          <audio id="audioPreview" controls></audio>
+        </div>
+        <div class="dl-buttons-row">
+          <a id="downloadWav" class="btn-dl btn-dl-wav">⬇ Descargar .WAV (Calidad Estudio)</a>
+          <a id="downloadWebm" class="btn-dl btn-dl-webm">⬇ .WebM</a>
+        </div>
+      </div>
+    </div>
+
+    <details class="advanced">
+      <summary>Ajustes finos & Optimización Linux</summary>
+      <div class="controls">
+        <div class="ctrl">
+          <label>Pitch Semitonos</label>
+          <input type="range" id="pitchSlider" min="-12" max="12" step="0.2" value="-3">
+          <span class="val" id="pitchVal">-3.0 st</span>
+        </div>
+        <div class="ctrl">
+          <label>Echo Time</label>
+          <input type="range" id="timeSlider" min="0.05" max="0.9" step="0.01" value="0.32">
+          <span class="val" id="timeVal">320 ms</span>
+        </div>
+        <div class="ctrl">
+          <label>Feedback (Tope 85%)</label>
+          <input type="range" id="feedbackSlider" min="0" max="0.85" step="0.01" value="0.55">
+          <span class="val" id="feedbackVal">55%</span>
+        </div>
+        <div class="ctrl">
+          <label>Noise Gate</label>
+          <input type="range" id="gateSlider" min="-80" max="-20" step="1" value="-48">
+          <span class="val" id="gateVal">-48 dB</span>
+        </div>
+        <div class="ctrl">
+          <label>Mezcla Dry / Wet</label>
+          <input type="range" id="mixSlider" min="0" max="1" step="0.01" value="0.5">
+          <span class="val" id="mixVal">50%</span>
+        </div>
+      </div>
+
+      <div class="pipewire-box">
+        <b>💡 Tip de Baja Latencia en PipeWire:</b><br>
+        Fuerza 128 muestras en vivo: <code>pw-metadata -n settings 0 clock.force-quantum 128</code><br>
+        Restaurar automático: <code>pw-metadata -n settings 0 clock.force-quantum 0</code>
+      </div>
+    </details>
+
+  </div>
+
+  <footer>
+    <p><b>Sonidero Memexicanisimos</b> — Software soberano de Estudio Memexicanisimos.<br>
+    Inspirado en la cultura popular de los sonideros de México y en el hardware de <a href="https://neutrinolabsmx.com" target="_blank" rel="noopener">Neutrino Labs MX</a>.</p>
+    <details style="margin-top: 0.6rem; font-size: 0.66rem; opacity: 0.85; text-align: left; background: rgba(0,0,0,0.3); border: 1px dashed var(--border); border-radius: 8px; padding: 0.5rem 0.8rem;">
+      <summary style="cursor: pointer; font-weight: 700; color: var(--cyan); text-align: center;">📜 Aviso Legal, Privacidad Soberana & Salud Auditiva</summary>
+      <div style="margin-top: 0.5rem; line-height: 1.45;">
+        <p><strong>🔒 Privacidad Total (Client-Side Only):</strong> Tu voz y tus grabaciones nunca salen de tu dispositivo. Todo el procesamiento de audio (DSP), pitch shift y codificación WAV se ejecuta 100% de forma local en la memoria de tu navegador mediante la Web Audio API. Cero telemetría y cero almacenamiento en la nube.</p>
+        <p><strong>🇲🇽 Homenaje Cultural y Marcas:</strong> Este proyecto es una herramienta comunitaria y pedagógica de código abierto en homenaje a la Cultura Sonidera (declarada Patrimonio Cultural Inmaterial). "Neutrino Labs" y cualquier otra marca pertenecen a sus respectivos titulares y se citan únicamente con propósitos descriptivos e históricos, sin implicar relación comercial ni patrocinio.</p>
+        <p><strong>⚠️ Salud Auditiva:</strong> La herramienta cuenta con un limitador brickwall (-1.0 dBFS) para prevenir saturaciones. Modula el volumen de tus auriculares/altavoces con responsabilidad al manipular retroalimentaciones intensas.</p>
+      </div>
+    </details>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
