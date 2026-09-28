@@ -187,4 +187,11 @@ setupMicSelector({
     space:    s
   });
   movePuck(puck, p, t);
-})();
+})();document.addEventListener('DOMContentLoaded', () => {
+  const brandLogo = document.querySelector('.brand-logo');
+  if (brandLogo) {
+    brandLogo.addEventListener('error', () => {
+      brandLogo.style.display = 'none';
+    });
+  }
+});

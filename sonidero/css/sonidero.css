@@ -804,3 +804,20 @@ button:focus:not(:focus-visible),
 summary:focus:not(:focus-visible) {
   outline: none;
 }
+.btn-patrio-green-outline {
+  border-color: var(--verde) !important;
+  color: var(--verde) !important;
+}
+
+.pad-subtitle {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+.code-badge {
+  background: #130828;
+  color: #38ef7d;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+}
