@@ -26,7 +26,7 @@
            alt="Memexicanisimos Logo Oficial"
            class="brand-logo"
            width="72" height="72"
-           onerror="this.style.display='none'">
+           >
       <span class="brand-badge">Memexicanisimos Suite</span>
     </div>
     <h1>Sonidero Memexicanisimos</h1>
@@ -51,7 +51,7 @@
       <button id="monitorBtn" class="fx-btn"
               title="Silenciar bocinas locales para evitar retroalimentación"
               aria-label="Activar o desactivar monitoreo local"
-              style="border-color: var(--verde); color: var(--verde);">
+              class="btn-patrio-green-outline">
         🔊 Monitor: ON
       </button>
     </div>
@@ -69,13 +69,13 @@
     <p class="section-label">FX Clásicos</p>
     <div class="fx-bar" role="group" aria-label="Efectos de sonido clásicos">
       <button class="fx-btn" id="sirenBtn" aria-label="Reproducir sirena sonidera">
-        🚨 Sirena<br><small style="font-size:0.6rem;font-weight:400">Sonidera</small>
+        🚨 Sirena<br><small class="pad-subtitle">Sonidera</small>
       </button>
       <button class="fx-btn" id="laserBtn" aria-label="Reproducir rayo láser">
-        💥 Rayo<br><small style="font-size:0.6rem;font-weight:400">Láser</small>
+        💥 Rayo<br><small class="pad-subtitle">Láser</small>
       </button>
       <button class="fx-btn" id="dropBtn" aria-label="Reproducir pitch drop de tocadiscos">
-        🎛️ Disco<br><small style="font-size:0.6rem;font-weight:400">Drop</small>
+        🎛️ Disco<br><small class="pad-subtitle">Drop</small>
       </button>
     </div>
 
@@ -83,19 +83,19 @@
     <p class="section-label">Alarmas &amp; Bocinas</p>
     <div class="fx-bar-ext" role="group" aria-label="Alarmas y bocinas reales">
       <button class="fx-btn alarm" id="hornBtn" aria-label="Cuerno de aire sonidero">
-        📯 Cuerno<br><small style="font-size:0.6rem;font-weight:400">Air Horn</small>
+        📯 Cuerno<br><small class="pad-subtitle">Air Horn</small>
       </button>
       <button class="fx-btn alarm" id="policeBtn" aria-label="Sirena policial hi-lo">
-        🚓 Patrulla<br><small style="font-size:0.6rem;font-weight:400">Hi-Lo</small>
+        🚓 Patrulla<br><small class="pad-subtitle">Hi-Lo</small>
       </button>
       <button class="fx-btn alarm" id="backupBtn" aria-label="Alarma de retroceso">
-        🚧 Reversa<br><small style="font-size:0.6rem;font-weight:400">Bip-Bip</small>
+        🚧 Reversa<br><small class="pad-subtitle">Bip-Bip</small>
       </button>
       <button class="fx-btn alarm" id="emergencyBtn" aria-label="Alarma de emergencia">
-        🔴 Emergencia<br><small style="font-size:0.6rem;font-weight:400">Pulsante</small>
+        🔴 Emergencia<br><small class="pad-subtitle">Pulsante</small>
       </button>
       <button class="fx-btn alarm" id="scratchBtn" aria-label="Scratch de tocadiscos">
-        💿 Scratch<br><small style="font-size:0.6rem;font-weight:400">Vinyl</small>
+        💿 Scratch<br><small class="pad-subtitle">Vinyl</small>
       </button>
     </div>
 
@@ -417,11 +417,11 @@
           <div class="faq-a">
             Si usas <strong>PipeWire</strong>, puedes forzar un buffer más pequeño para reducir la latencia:
             abre una terminal y ejecuta:<br>
-            <code style="background:#130828;color:#38ef7d;padding:2px 6px;border-radius:4px;font-size:0.65rem;">
+            <code class="code-badge">
               pw-metadata -n settings 0 clock.force-quantum 128
             </code><br>
             Esto reduce la latencia a ~3 ms a 44.1 kHz. Para restaurar el valor automático:<br>
-            <code style="background:#130828;color:#38ef7d;padding:2px 6px;border-radius:4px;font-size:0.65rem;">
+            <code class="code-badge">
               pw-metadata -n settings 0 clock.force-quantum 0
             </code>
           </div>

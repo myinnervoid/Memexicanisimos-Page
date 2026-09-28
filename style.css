@@ -552,3 +552,8 @@
     padding: 16px;
   }
 }
+
+.app-icon-visual.icon-sonidero {
+  background: linear-gradient(135deg, #ff007f, #8400ff);
+  color: #fff;
+}

@@ -22,12 +22,13 @@ class GranularPitchShifter extends AudioWorkletProcessor {
 
     const pitchParam = parameters.pitch;
     const isARate = pitchParam.length > 1;
+    const staticPitchFactor = !isARate ? Math.pow(2, pitchParam[0] / 12) : 1;
 
     for (let i = 0; i < input.length; i++) {
       this.buffer[this.writeIndex] = input[i];
 
       const semitones = isARate ? pitchParam[i] : pitchParam[0];
-      const pitchFactor = Math.pow(2, semitones / 12);
+      const pitchFactor = isARate ? Math.pow(2, semitones / 12) : staticPitchFactor;
 
       const phase1 = this.phase;
       const phase2 = (this.phase + 0.5) % 1.0;
