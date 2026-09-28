@@ -23,3 +23,8 @@ backup_original/
 # Archivos minificados de build
 "Talachas y Modulos Web/editor/public/style.min.css"
 "Talachas y Modulos Web/editor/public/app.min.js"
+
+# Ignorar documentacion, bitacoras y reportes Markdown
+*.md
+.Jules/
+
