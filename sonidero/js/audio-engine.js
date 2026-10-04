@@ -292,7 +292,7 @@ export class SonideroEngine {
 
     // Transferir caché al nuevo contexto
     if (this._fxCtx && this._fxCtx.state !== 'closed') {
-      try { await this._fxCtx.close(); } catch {}
+      try { await this._fxCtx.close(); } catch (err) { /* ignore */ }
       this._fxCtx = null;
       this._fxOut = null;
     }
@@ -307,7 +307,13 @@ export class SonideroEngine {
   async suspend() { if (this.ctx) await this.ctx.suspend(); }
   async dispose() {
     this.micStream?.getTracks().forEach(t => t.stop());
-    if (this.ctx) await this.ctx.close();
+    if (this.ctx && this.ctx.state !== 'closed') {
+      try {
+        await this.ctx.close();
+      } catch (err) {
+        // Ignorar posibles errores si el contexto ya cerró por otras vías
+      }
+    }
     this.ctx = this.micStream = null;
   }
 

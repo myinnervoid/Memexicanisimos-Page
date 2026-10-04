@@ -6,7 +6,7 @@
  * ==========================================================================
  */
 
-import { ErrorCode, ErrorCatalog, createApiResponse } from './contracts/errors.js';
+import { ErrorCode, createApiResponse } from './contracts/errors.js';
 
 
 // ==========================================================================
