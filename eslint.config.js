@@ -21,11 +21,25 @@ export default [
                 "ArrayBuffer": "readonly",
                 "DataView": "readonly",
                 "MediaRecorder": "readonly",
-                "AudioContext": "readonly"
+                "AudioContext": "readonly",
+                "fetch": "readonly",
+                "AudioWorkletNode": "readonly",
+                "AudioWorkletProcessor": "readonly",
+                "registerProcessor": "readonly",
+                "self": "readonly",
+                "caches": "readonly",
+                "global": "readonly",
+                "process": "readonly",
+                "module": "readonly",
+                "requestAnimationFrame": "readonly",
+                "cancelAnimationFrame": "readonly",
+                "describe": "readonly",
+                "test": "readonly",
+                "expect": "readonly"
             }
         },
         rules: {
-            "no-unused-vars": "warn",
+            "no-unused-vars": ["warn", { "caughtErrors": "none", "argsIgnorePattern": "^_" }],
             "no-undef": "warn"
         }
     }

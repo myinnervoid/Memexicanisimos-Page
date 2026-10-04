@@ -10,7 +10,7 @@
     "jest-environment-jsdom": "^30.5.2"
   },
   "scripts": {
-    "test": "node tests/app.test.js && node tests/contracts.test.js && node tests/sonidero/audio-engine.test.js"
+    "test": "NODE_OPTIONS=\"--experimental-vm-modules\" jest"
   },
   "type": "module"
 }
