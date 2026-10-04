@@ -3,7 +3,7 @@
  * @description Pruebas automatizadas de validación de contratos canónicos de Memexicanisimos.
  */
 
-import { ErrorCode, ErrorCatalog, createApiResponse } from '../contracts/errors.js';
+import { ErrorCode, createApiResponse } from '../contracts/errors.js';
 
 let passed = 0;
 let failed = 0;

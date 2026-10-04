@@ -197,7 +197,6 @@ mockLocalStorage.getItem = () => { throw new Error('Simulated exception'); };
 global.triggerDOMContentLoaded();
 
 fbContainer = elements['fb-embed-container'];
-welcomeModal = elements['welcome-modal-overlay'];
 assert(consoleWarns.length > 0, 'Captura excepción y advierte sobre LocalStorage no disponible');
 assert(consoleWarns[0][0].includes('LocalStorage no disponible'), 'Mensaje de advertencia correcto emitido');
 assert((!fbContainer || fbContainer.children.length === 0), 'Widget de Facebook no se renderiza en caso de excepción de LocalStorage');
@@ -298,7 +297,7 @@ resetState();
 
 let consoleBody = createElementMock('burner-console-body', '');
 let btnRunConsole = createElementMock('btn-run-console', '');
-let btnResetConsole = createElementMock('btn-reset-console', '');
+createElementMock('btn-reset-console', '');
 
 let progressBarMock = {
     setAttribute: (k, v) => { progressBarMock[k] = v; },
@@ -341,7 +340,7 @@ queries['.filter-tag'] = [tag1];
 queries['.file-row'] = [row1, row2];
 queries['.sidebar-item'] = [];
 
-let explorerFilesList = createElementMock('explorer-files-list', '');
+createElementMock('explorer-files-list', '');
 
 global.triggerDOMContentLoaded();
 
@@ -359,8 +358,8 @@ assert(row2.style.display === 'none', 'Non-matching row is hidden');
 console.log('\n--- initShortcutSearchFSM ---');
 resetState();
 
-let shortcutSearch = createElementMock('shortcut-search', '');
-let shortcutsGrid = createElementMock('shortcuts-grid', '');
+createElementMock('shortcut-search', '');
+createElementMock('shortcuts-grid', '');
 let card1 = createElementMock('card1', 'short-card');
 card1.textContent = 'Copiar';
 card1.setAttribute('data-shortcut', 'ctrl c');
