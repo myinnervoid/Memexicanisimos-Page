@@ -3,6 +3,7 @@
  * @description Pruebas automatizadas de la lógica frontend de app.js
  */
 import fs from 'fs';
+
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -10,18 +11,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const appJsCode = fs.readFileSync(path.join(__dirname, '../app.js'), 'utf-8');
 
-let passed = 0;
-let failed = 0;
+// let passed = 0;
+// let failed = 0;
 
-function assert(condition, message) {
-  if (condition) {
-    passed++;
-    console.log(`  ✔ PASS: ${message}`);
-  } else {
-    failed++;
-    console.error(`  ✖ FAIL: ${message}`);
-  }
-}
+function assert(condition, message) { expect(condition).toBeTruthy(); if (!condition) console.error(message); }
 
 console.log('🧪 Ejecutando Pruebas de App:');
 
@@ -117,9 +110,9 @@ Object.defineProperty(global, 'navigator', {
 });
 
 let timeoutCallbacks = [];
-global.setTimeout = (cb, time) => { timeoutCallbacks.push(cb); };
+global.setTimeout = (cb, _time) => { timeoutCallbacks.push(cb); };
 let intervalCallbacks = [];
-global.setInterval = (cb, time) => { intervalCallbacks.push(cb); return 1; }; // dummy interval id
+global.setInterval = (cb, _time) => { intervalCallbacks.push(cb); return 1; }; // dummy interval id
 global.clearInterval = () => {};
 
 let consoleWarns = [];
@@ -132,7 +125,8 @@ const modifiedCode = appJsCode.replace(
   "const { $1 } = await import('../' + '$2');"
 );
 
-(async () => {
+describe('App Tests', () => {
+  test('should execute all assertions correctly', async () => {
   await eval(`(async () => { ${modifiedCode} })()`);
 
 function resetState() {
@@ -379,10 +373,6 @@ assert(card1.style.display === 'flex', 'Card 1 is visible on matching search');
 assert(card2.style.display === 'none', 'Card 2 is hidden on non-matching search');
 
 
-console.log(`\n📊 Resumen de pruebas (app.js): ${passed} pasadas, ${failed} falladas.`);
-if (failed > 0) {
-  process.exit(1);
-} else {
-  console.log('✅ Todas las pruebas de app.js pasaron exitosamente.');
-}
-})();
+
+  });
+});
