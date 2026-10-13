@@ -602,3 +602,50 @@
   background: linear-gradient(135deg, #ff007f, #8400ff);
   color: #fff;
 }
+
+/* Restauración de Fondos y Contrastes de Botones Patrios / Día de Muertos */
+.btn-patrio-gold {
+  background: linear-gradient(135deg, #FFD700, #F5A623) !important;
+  color: #111111 !important;
+  border: 1px solid #FFE600 !important;
+  box-shadow: 0 4px 14px rgba(255, 215, 0, 0.35) !important;
+}
+
+.btn-patrio-gold:hover {
+  background: linear-gradient(135deg, #FFE600, #FF7518) !important;
+  color: #111111 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.55) !important;
+}
+
+.btn-patrio-green {
+  background: linear-gradient(135deg, #FF7518, #D95300) !important;
+  color: #FFFFFF !important;
+  border: 1px solid #FFA000 !important;
+  box-shadow: 0 4px 14px rgba(255, 117, 24, 0.35) !important;
+}
+
+.btn-patrio-green:hover {
+  background: linear-gradient(135deg, #FFA000, #FF7518) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px) !important;
+}
+
+.btn-hero-primary {
+  background: linear-gradient(135deg, #FF7518, #E0115F) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 160, 0, 0.6) !important;
+  box-shadow: 0 6px 18px rgba(255, 117, 24, 0.4) !important;
+}
+
+.btn-hero-primary:hover {
+  background: linear-gradient(135deg, #FFA000, #FF7518) !important;
+  transform: translateY(-2px) !important;
+}
+
+.filter-tag.active {
+  background-color: #FF7518 !important;
+  border-color: #FFD700 !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+}
