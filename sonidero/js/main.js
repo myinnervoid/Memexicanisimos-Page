@@ -1,15 +1,16 @@
-// Punto de entrada v3: orquesta UI, motor de audio DSP, presets, pad, grabadora, FX y PWA.
-import { SonideroEngine }    from './audio-engine.js';
+// Punto de entrada v6.0: orquesta UI, motor de audio DSP, presets, pad, grabadora, FX y PWA.
+import { SonideroEngine } from './audio-engine.js';
 import { enumerateMics, getSelectedMicId, setupMicSelector } from './mic-selector.js';
-import { applyPreset }       from './presets.js';
-import { setupPad }          from './pad.js';
-import { setupRecorder }     from './recorder.js';
-import { setupFxButtons }    from './fx.js';
-import { startVisualizer }   from './visualizer.js';
+import { applyPreset } from './presets.js';
+import { setupPad } from './pad.js';
+import { setupRecorder } from './recorder.js';
+import { setupFxButtons } from './fx.js';
+import { startVisualizer } from './visualizer.js';
 import { $, setStatus, updateReadouts, updateSliderLabels, movePuck } from './ui.js';
 
 const engine = new SonideroEngine();
 let isRunning = false;
+let currentVisAnalyser = null;
 
 const powerBtn       = $('powerBtn');
 const statusEl       = $('status');
@@ -25,8 +26,16 @@ const pad            = $('pad');
 const puck           = $('puck');
 const vuCanvas       = $('vuCanvas');
 
-// ── PWA: Registro de Service Worker ────────────────────────────────────────
-if ('serviceWorker' in navigator) {
+function ensureVisualizerRunning() {
+  const activeAnalyser = engine.getActiveAnalyser();
+  if (activeAnalyser && vuCanvas && activeAnalyser !== currentVisAnalyser) {
+    currentVisAnalyser = activeAnalyser;
+    startVisualizer({ analyser: activeAnalyser, canvas: vuCanvas });
+  }
+}
+
+// ── PWA: Registro de Service Worker (solo en HTTP/HTTPS) ───────────────────
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js')
       .then((reg) => console.log('[PWA] Service Worker activo:', reg.scope))
@@ -38,66 +47,108 @@ if ('serviceWorker' in navigator) {
 powerBtn.addEventListener('click', async () => {
   if (!isRunning) {
     if (!engine.ctx) {
-      setStatus(statusEl, 'Pidiendo permiso pal micrófono...');
-      await enumerateMics();
+      setStatus(statusEl, 'Conectando micrófono...');
+      try {
+        await enumerateMics();
+      } catch (e) {
+        console.warn('enumerateMics notice:', e);
+      }
       try {
         const ok = await engine.init(getSelectedMicId());
-        if (!ok) throw new Error('initAudio falló');
+        if (!ok && !engine.ctx) {
+          throw new Error('No se pudo conectar el micrófono');
+        }
       } catch (err) {
         console.error(err);
-        setStatus(statusEl, `Error: ${err.message || 'No se pudo acceder al micrófono'}`, 'error');
+        setStatus(
+          statusEl,
+          `Micrófono: ${err.message || 'Sin permiso o no detectado'}. ¡Presets, sliders y efectos sí funcionan!`,
+          'warn'
+        );
         return;
       }
-      // Aplicar el preset seleccionado visualmente al iniciar
       const current = document.querySelector('.preset.selected');
-      if (current) applyPreset(current.dataset.preset, { onApply: handlePresetApplied });
-
-      startVisualizer({ analyser: engine.analyser, canvas: vuCanvas });
+      if (current) {
+        applyPreset(current.dataset.preset, { onApply: handlePresetApplied });
+      }
+      ensureVisualizerRunning();
     }
     await engine.resume();
     powerBtn.textContent = '⏹ Apagar Micrófono';
     powerBtn.classList.add('on');
-    setStatus(statusEl, '¡En vivo! Échate un saludo con estilo 🎙️🔥', 'active');
+    setStatus(statusEl, '¡En vivo! Manda tu saludo desde la cabina 🎙️🔥', 'active');
     isRunning = true;
   } else {
     await engine.suspend();
     powerBtn.textContent = '🎤 Encender Micrófono';
     powerBtn.classList.remove('on');
-    setStatus(statusEl, 'En pausa — presiona para reanudar');
+    setStatus(statusEl, 'Micrófono en pausa — presiona para reanudar');
     isRunning = false;
   }
 });
 
 // ── Presets ────────────────────────────────────────────────────────────────
+const padController = setupPad({
+  padEl: pad,
+  puckEl: puck,
+  engine,
+  onUpdate: ({ pitch, time }) => {
+    pitchSlider.value = pitch;
+    timeSlider.value  = time;
+    updateReadouts(pitch, time);
+  }
+});
+
 function handlePresetApplied(p) {
   pitchSlider.value    = p.pitch;
   timeSlider.value     = p.time;
   feedbackSlider.value = p.feedback;
   gateSlider.value     = p.gate;
   mixSlider.value      = p.mix;
-  if (driveSlider && p.drive !== undefined) driveSlider.value = p.drive;
-  if (spaceSlider && p.space !== undefined) spaceSlider.value = p.space;
+
+  if (driveSlider && p.drive !== undefined) {
+    driveSlider.value = p.drive;
+  }
+  if (spaceSlider && p.space !== undefined) {
+    spaceSlider.value = p.space;
+  }
 
   updateReadouts(p.pitch, p.time);
   updateSliderLabels(p);
-  movePuck(puck, p.pitch, p.time);
 
-  if (engine.ctx) engine.applyAll(p);
+  if (padController) {
+    padController.movePuck(p.pitch, p.time);
+  } else {
+    movePuck(puck, p.pitch, p.time);
+  }
+
+  if (engine.ctx) {
+    engine.applyAll(p);
+  }
 }
 
 document.querySelectorAll('.preset').forEach((btn) => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.preset').forEach((b) => b.setAttribute('aria-pressed', 'false'));
+    document.querySelectorAll('.preset').forEach((b) => {
+      b.setAttribute('aria-pressed', 'false');
+    });
     btn.setAttribute('aria-pressed', 'true');
 
-    applyPreset(btn.dataset.preset, { onApply: handlePresetApplied });
+    const applied = applyPreset(btn.dataset.preset, { onApply: handlePresetApplied });
+    if (applied && !isRunning) {
+      setStatus(statusEl, `Preset cargado: ${applied.label} (${applied.desc})`, 'active');
+    }
   });
 });
 
 // ── Sliders ────────────────────────────────────────────────────────────────
 const allSliders = [pitchSlider, timeSlider, feedbackSlider, gateSlider, mixSlider];
-if (driveSlider) allSliders.push(driveSlider);
-if (spaceSlider) allSliders.push(spaceSlider);
+if (driveSlider) {
+  allSliders.push(driveSlider);
+}
+if (spaceSlider) {
+  allSliders.push(spaceSlider);
+}
 
 allSliders.forEach((sl) => {
   sl.addEventListener('input', () => {
@@ -111,24 +162,17 @@ allSliders.forEach((sl) => {
 
     updateReadouts(p, t);
     updateSliderLabels({ feedback: f, gate: g, mix: m, drive: d, space: s });
-    movePuck(puck, p, t);
+
+    if (padController) {
+      padController.movePuck(p, t);
+    } else {
+      movePuck(puck, p, t);
+    }
 
     if (engine.ctx) {
       engine.applyAll({ pitch: p, time: t, feedback: f, gate: g, mix: m, drive: d, space: s });
     }
   });
-});
-
-// ── Pad XY ────────────────────────────────────────────────────────────────
-setupPad({
-  padEl: pad,
-  puckEl: puck,
-  engine,
-  onUpdate: ({ pitch, time }) => {
-    pitchSlider.value = pitch;
-    timeSlider.value  = time;
-    updateReadouts(pitch, time);
-  }
 });
 
 // ── Monitor ───────────────────────────────────────────────────────────────
@@ -137,19 +181,31 @@ monitorBtn.addEventListener('click', () => {
   engine.setMonitor(next);
   if (next) {
     monitorBtn.textContent = '🔊 Monitor: ON';
-    monitorBtn.style.borderColor = 'var(--verde)';
-    monitorBtn.style.color       = 'var(--verde)';
+    monitorBtn.classList.add('btn-patrio-green-outline');
+    monitorBtn.classList.remove('btn-monitor-muted');
+    monitorBtn.style.borderColor = 'var(--color-benzol-green)';
+    monitorBtn.style.color       = 'var(--color-benzol-green)';
     monitorBtn.setAttribute('aria-label', 'Monitor activo — pulsa para silenciar');
   } else {
     monitorBtn.textContent = '🔇 Monitor: MUTE';
-    monitorBtn.style.borderColor = 'var(--rosa)';
-    monitorBtn.style.color       = 'var(--rosa)';
+    monitorBtn.classList.remove('btn-patrio-green-outline');
+    monitorBtn.classList.add('btn-monitor-muted');
+    monitorBtn.style.borderColor = 'var(--color-carmine)';
+    monitorBtn.style.color       = 'var(--color-carmine)';
     monitorBtn.setAttribute('aria-label', 'Monitor silenciado — pulsa para activar');
   }
 });
 
 // ── FX ────────────────────────────────────────────────────────────────────
-setupFxButtons({ engine });
+setupFxButtons({
+  engine,
+  onFxPlay: (label) => {
+    ensureVisualizerRunning();
+    if (!isRunning) {
+      setStatus(statusEl, `Disparo en cabina: ${label}`, 'active');
+    }
+  }
+});
 
 // ── Grabación ─────────────────────────────────────────────────────────────
 setupRecorder({
@@ -160,38 +216,44 @@ setupRecorder({
 // ── Selector de micrófono ─────────────────────────────────────────────────
 setupMicSelector({
   onMicChange: async () => {
-    if (isRunning && engine.ctx) {
+    const wasRunning = isRunning;
+    if (engine.ctx) {
       await engine.suspend();
       await engine.dispose();
       isRunning = false;
-      powerBtn.textContent = '🎤 Encender Micrófono';
-      powerBtn.classList.remove('on');
+      currentVisAnalyser = null;
+    }
+
+    if (wasRunning) {
       setStatus(statusEl, 'Cambiando micrófono...');
+      try {
+        const ok = await engine.init(getSelectedMicId());
+        if (!ok) {
+          throw new Error('No se pudo inicializar el nuevo micrófono');
+        }
+
+        const current = document.querySelector('.preset.selected');
+        if (current) {
+          applyPreset(current.dataset.preset, { onApply: handlePresetApplied });
+        }
+        ensureVisualizerRunning();
+        await engine.resume();
+        isRunning = true;
+        powerBtn.textContent = '⏹ Apagar Micrófono';
+        powerBtn.classList.add('on');
+        setStatus(statusEl, '¡Micrófono actualizado en vivo! 🎙️', 'active');
+      } catch (err) {
+        console.error(err);
+        powerBtn.textContent = '🎤 Encender Micrófono';
+        powerBtn.classList.remove('on');
+        setStatus(statusEl, `Error al cambiar micrófono: ${err.message}`, 'error');
+      }
     }
   }
 });
 
 // ── Estado inicial de la UI ───────────────────────────────────────────────
 (function initUI() {
-  const p = parseFloat(pitchSlider.value);
-  const t = parseFloat(timeSlider.value);
-  const d = driveSlider ? parseFloat(driveSlider.value) : 0;
-  const s = spaceSlider ? parseFloat(spaceSlider.value) : 0.2;
-
-  updateReadouts(p, t);
-  updateSliderLabels({
-    feedback: parseFloat(feedbackSlider.value),
-    gate:     parseFloat(gateSlider.value),
-    mix:      parseFloat(mixSlider.value),
-    drive:    d,
-    space:    s
-  });
-  movePuck(puck, p, t);
-})();document.addEventListener('DOMContentLoaded', () => {
-  const brandLogo = document.querySelector('.brand-logo');
-  if (brandLogo) {
-    brandLogo.addEventListener('error', () => {
-      brandLogo.style.display = 'none';
-    });
-  }
-});
+  const defaultPreset = document.querySelector('.preset.selected')?.dataset.preset || 'changa';
+  applyPreset(defaultPreset, { onApply: handlePresetApplied });
+})();

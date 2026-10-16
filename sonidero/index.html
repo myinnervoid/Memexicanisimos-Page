@@ -2,456 +2,465 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <!-- viewport: NUNCA deshabilitar zoom (accesibilidad) -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sonidero Memexicanisimos — Procesador de voz DSP en tiempo real. Pitch Shift, eco de cinta, grabador WAV y FX sonideros. 100% local, sin nube.">
-  <meta name="theme-color" content="#050208">
-  <title>Sonidero Memexicanisimos · Modo Barrio &amp; Estudio</title>
+  <meta name="theme-color" content="#111314">
+  <title>Sonidero Memexicanisimos · Cabina &amp; DSP en Vivo</title>
 
-  <!-- Fuentes con font-display:swap para evitar FOIT -->
+  <!-- Fuentes: Oswald (display de consola), Inter/system-ui (lectura y FAQ), Space Mono (vúmetros y código) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Oswald:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/sonidero.css">
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
 </head>
 <body>
 
-  <!-- ── HEADER ─────────────────────────────────────────── -->
-  <header>
-    <div class="rays" aria-hidden="true"></div>
-    <div class="logo-container">
-      <img src="assets/Logo.png"
-           alt="Memexicanisimos Logo Oficial"
-           class="brand-logo"
-           width="72" height="72"
-           >
-      <span class="brand-badge">Memexicanisimos Suite</span>
+  <!-- ── BARRA SUPERIOR FIJA (STICKY TOP NAVBAR) ────────── -->
+  <nav class="top-nav-bar" id="topNav" aria-label="Navegación general de Memexicanísimos">
+    <div class="nav-left">
+      <a href="../index.html" class="nav-btn nav-btn-portal" title="Volver al portal principal de Memexicanisimos.com">
+        <span class="nav-arrow" aria-hidden="true">⬅</span>
+        <span class="nav-portal-label">Memexicanisimos.com</span>
+      </a>
     </div>
-    <h1>Sonidero Memexicanisimos</h1>
-    <div class="tagline">Modo Barrio · Grabador de Saludos &amp; DSP en Vivo</div>
-    <span class="stars" aria-hidden="true">★ ✦ ★ ✦ ★</span>
+
+    <div class="nav-center">
+      <span class="nav-brand-title">SONIDERO</span>
+      <span class="nav-brand-sub">MEMEXICANÍSIMOS</span>
+      <span class="nav-brand-badge">CABINA &amp; DSP EN VIVO</span>
+    </div>
+
+    <div class="nav-right">
+      <a href="https://myinnervoid.github.io/RotulosWEB" target="_blank" rel="noopener noreferrer" class="nav-btn nav-btn-rotulos" title="Ir a Rótulos Web (Generador de rótulos sonideros)">
+        <span aria-hidden="true">🎨</span>
+        <span>Rótulos Web</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ── BANNER COMPACTO (RENGLÓN ÚNICO HORIZONTAL) ───────── -->
+  <header class="header-strip-wrap">
+    <div class="banner-strip-container">
+      <img src="assets/banner_sonidero_rotulo_horizontal.jpg"
+           alt="Sonidero Memexicanisimos — Modo Barrio · DSP en Vivo"
+           class="sonidero-strip-banner"
+           width="1376" height="360">
+      <h1 class="visually-hidden">Sonidero Memexicanisimos · Modo Barrio &amp; DSP en Vivo</h1>
+    </div>
   </header>
 
-  <!-- ── PANEL PRINCIPAL ────────────────────────────────── -->
-  <main class="panel" role="main">
+  <!-- ── CONSOLA PRINCIPAL: 25% | 50% | 25% (DAW EN PC / STACK EN MÓVIL) ── -->
+  <main class="studio-workspace" role="main">
 
-    <!-- Selector de micrófono (visible cuando se activa) -->
-    <div id="micSelectorWrap" aria-label="Selección de micrófono">
-      <label for="micSelect">🎙️ Micrófono de entrada</label>
-      <select id="micSelect" aria-label="Selecciona tu micrófono"></select>
-    </div>
-
-    <!-- Fila de botones: Encender + Monitor -->
-    <div class="btn-row">
-      <button id="powerBtn" class="power-btn" aria-label="Encender o apagar el micrófono">
-        🎤 Encender Micrófono
-      </button>
-      <button id="monitorBtn" class="fx-btn"
-              title="Silenciar bocinas locales para evitar retroalimentación"
-              aria-label="Activar o desactivar monitoreo local"
-              class="btn-patrio-green-outline">
-        🔊 Monitor: ON
-      </button>
-    </div>
-
-    <div id="status" class="status" aria-live="polite" aria-atomic="true">
-      Conecta tu micro y dale play al barrio
-    </div>
-
-    <!-- VU Meter -->
-    <div class="visualizer-box" role="img" aria-label="Medidor de nivel de audio (VU meter)">
-      <canvas id="vuCanvas" width="560" height="38" aria-hidden="true"></canvas>
-    </div>
-
-    <!-- ── Barra FX clásicos ──────────────────────────── -->
-    <p class="section-label">FX Clásicos</p>
-    <div class="fx-bar" role="group" aria-label="Efectos de sonido clásicos">
-      <button class="fx-btn" id="sirenBtn" aria-label="Reproducir sirena sonidera">
-        🚨 Sirena<br><small class="pad-subtitle">Sonidera</small>
-      </button>
-      <button class="fx-btn" id="laserBtn" aria-label="Reproducir rayo láser">
-        💥 Rayo<br><small class="pad-subtitle">Láser</small>
-      </button>
-      <button class="fx-btn" id="dropBtn" aria-label="Reproducir pitch drop de tocadiscos">
-        🎛️ Disco<br><small class="pad-subtitle">Drop</small>
-      </button>
-    </div>
-
-    <!-- ── Barra FX Alarmas Reales ────────────────────── -->
-    <p class="section-label">Alarmas &amp; Bocinas</p>
-    <div class="fx-bar-ext" role="group" aria-label="Alarmas y bocinas reales">
-      <button class="fx-btn alarm" id="hornBtn" aria-label="Cuerno de aire sonidero">
-        📯 Cuerno<br><small class="pad-subtitle">Air Horn</small>
-      </button>
-      <button class="fx-btn alarm" id="policeBtn" aria-label="Sirena policial hi-lo">
-        🚓 Patrulla<br><small class="pad-subtitle">Hi-Lo</small>
-      </button>
-      <button class="fx-btn alarm" id="backupBtn" aria-label="Alarma de retroceso">
-        🚧 Reversa<br><small class="pad-subtitle">Bip-Bip</small>
-      </button>
-      <button class="fx-btn alarm" id="emergencyBtn" aria-label="Alarma de emergencia">
-        🔴 Emergencia<br><small class="pad-subtitle">Pulsante</small>
-      </button>
-      <button class="fx-btn alarm" id="scratchBtn" aria-label="Scratch de tocadiscos">
-        💿 Scratch<br><small class="pad-subtitle">Vinyl</small>
-      </button>
-    </div>
-
-    <!-- ── Presets Sonideros (12 presets) ────────────── -->
-    <p class="section-label">Presets Sonideros</p>
-    <div class="presets" id="presets" role="group" aria-label="Presets de voz sonidera">
-
-      <!-- Clásicos -->
-      <button class="preset selected" data-preset="changa" aria-pressed="true">
-        <span class="emoji" aria-hidden="true">🎙️</span>La Changa<small>Locutor clásico (-3 st)</small>
-      </button>
-      <button class="preset" data-preset="fantasma" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">👻</span>El Fantasma<small>Eco fantasmal (-5 st)</small>
-      </button>
-      <button class="preset" data-preset="condor" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🦅</span>El Cóndor<small>Grave profundo (-6 st)</small>
-      </button>
-      <button class="preset" data-preset="saludo" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">📢</span>Saludo Largo<small>Feedback 75%</small>
-      </button>
-
-      <!-- Efectos creativos -->
-      <button class="preset" data-preset="robot" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🤖</span>Robot Sonidero<small>Modulación cuadrada</small>
-      </button>
-      <button class="preset" data-preset="cumbia" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🌴</span>Cumbia Seca<small>Solo eco de cinta</small>
-      </button>
-      <button class="preset" data-preset="ardilla" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🐿️</span>El Chamaco<small>Voz aguda (+3.5 st)</small>
-      </button>
-      <button class="preset" data-preset="limpio" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🎤</span>Mic Limpio<small>Bypass de efectos</small>
-      </button>
-
-      <!-- Nuevos v2 -->
-      <button class="preset" data-preset="chido" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🔥</span>El Chido<small>Barrio con grit</small>
-      </button>
-      <button class="preset" data-preset="salon2000" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🎪</span>Salón 2000<small>Reverb &amp; eco largo</small>
-      </button>
-      <button class="preset" data-preset="narrador" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">📻</span>El Narrador<small>Grave anunciador</small>
-      </button>
-      <button class="preset" data-preset="trompeta" aria-pressed="false">
-        <span class="emoji" aria-hidden="true">🎺</span>La Trompa<small>Modulación AM</small>
-      </button>
-    </div>
-
-    <!-- ── Pad XY Táctil ─────────────────────────────── -->
-    <p class="section-label">Modo en Vivo · Pad XY Táctil</p>
-    <div class="pad-wrap">
-      <div class="pad-hint" aria-hidden="true">
-        <span>↔ Arrastre del eco (Tape Sweep)</span>
-        <span>↕ Tono de voz (Pitch Shifter)</span>
+    <!-- ── BAHÍA 1: ENTRADA & GRABACIÓN (25%) ─────────────── -->
+    <section class="bay-card bay-record" aria-label="Módulo de entrada, monitoreo y grabación">
+      <div class="bay-header">
+        <span class="bay-num">01</span>
+        <h2>Voz &amp; Grabador</h2>
       </div>
-      <div class="xy-pad" id="pad"
-           role="slider"
-           aria-label="Pad XY táctil — arrastra para ajustar tono y eco en vivo"
-           tabindex="0">
-        <div class="grid" aria-hidden="true"></div>
-        <div class="center-v" aria-hidden="true"></div>
-        <div class="xy-puck" id="puck" aria-hidden="true"></div>
-      </div>
-      <div class="readout" aria-live="polite">
-        <div><span>TONO VOCAL:</span> <b id="pitchRead">-3.0 st</b></div>
-        <div><span>TIEMPO ECO:</span> <b id="timeRead">320 ms</b></div>
-      </div>
-    </div>
 
-    <!-- ── Grabación ─────────────────────────────────── -->
-    <div class="record-card">
-      <div class="record-row">
-        <button id="recBtn" class="rec-btn" aria-label="Iniciar o detener grabación de saludo">
-          ⏺ Grabar Saludo
+      <!-- Guía Rápida 1-2-3 en la bahía de acción -->
+      <div class="bay-quick-steps">
+        <div class="step-badge">
+          <b>1</b> Enciende micro
+        </div>
+        <div class="step-badge">
+          <b>2</b> Elige preset al centro
+        </div>
+        <div class="step-badge">
+          <b>3</b> Graba tu saludo
+        </div>
+      </div>
+
+      <!-- Botón Principal: Encender Micrófono -->
+      <div class="control-group">
+        <button id="powerBtn" class="power-btn" aria-label="Encender o apagar el micrófono">
+          🎤 Encender Micrófono
         </button>
-        <div class="rec-time" id="recTime" aria-live="off" aria-label="Tiempo de grabación">00:00</div>
       </div>
 
-      <div id="downloadZone" class="download-zone" aria-label="Zona de descarga de grabación">
-        <div class="audio-preview-row">
-          <audio id="audioPreview" controls aria-label="Vista previa de tu grabación"></audio>
+      <!-- Fila de Monitor y Selector -->
+      <div class="control-group-row">
+        <button id="monitorBtn" class="fx-btn btn-patrio-green-outline"
+                title="Silenciar bocinas locales para evitar retroalimentación"
+                aria-label="Activar o desactivar monitoreo local">
+          🔊 Monitor: ON
+        </button>
+      </div>
+
+      <!-- Selector de micrófono (oculto si hay 1 solo, visible si hay múltiples) -->
+      <div id="micSelectorWrap" class="mic-selector-box" aria-label="Selección de micrófono">
+        <label for="micSelect">🎙️ Dispositivo de Entrada</label>
+        <select id="micSelect" aria-label="Selecciona tu micrófono"></select>
+      </div>
+
+      <!-- VU Meter en Vivo -->
+      <div class="vu-wrapper">
+        <div class="vu-label-row">
+          <span>NIVEL DE ENTRADA (VU)</span>
+          <span class="vu-db-scale">-48 &nbsp; -24 &nbsp; -12 &nbsp; -6 &nbsp; 0 dB</span>
         </div>
-        <div class="dl-buttons-row">
-          <a id="downloadWav"  class="btn-dl btn-dl-wav"  role="button" aria-label="Descargar grabación en formato WAV calidad estudio">
-            ⬇ Descargar .WAV (Calidad Estudio)
-          </a>
-          <a id="downloadWebm" class="btn-dl btn-dl-webm" role="button" aria-label="Descargar grabación en formato WebM">
-            ⬇ .WebM
-          </a>
+        <div class="visualizer-box" role="img" aria-label="Medidor de nivel de audio (VU meter)">
+          <canvas id="vuCanvas" width="400" height="32" aria-hidden="true"></canvas>
         </div>
+      </div>
+
+      <div id="status" class="status" aria-live="polite" aria-atomic="true">
+        Conecta tu micro y dale play al barrio
+      </div>
+
+      <!-- MÓDULO DE GRABACIÓN DIRECTO (¡Bien visible arriba!) -->
+      <div class="record-station">
+        <div class="record-row">
+          <button id="recBtn" class="rec-btn" aria-label="Iniciar o detener grabación de saludo">
+            ⏺ Grabar Saludo
+          </button>
+          <div class="rec-time" id="recTime" aria-live="off" aria-label="Tiempo de grabación">00:00</div>
+        </div>
+
+        <!-- Zona de descarga y vista previa -->
+        <div id="downloadZone" class="download-zone" aria-label="Zona de descarga de grabación">
+          <div class="audio-preview-row">
+            <audio id="audioPreview" controls aria-label="Vista previa de tu grabación"></audio>
+          </div>
+          <div class="dl-buttons-row">
+            <a id="downloadWav" class="btn-dl btn-dl-wav" role="button" aria-label="Descargar grabación en formato WAV calidad estudio">
+              ⬇ Descargar .WAV (Calidad Estudio)
+            </a>
+            <a id="downloadWebm" class="btn-dl btn-dl-webm" role="button" aria-label="Descargar grabación en formato WebM">
+              ⬇ .WebM
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── BAHÍA 2: PRESETS & PAD XY (50%) ────────────────── -->
+    <section class="bay-card bay-presets-pad" aria-label="Presets sonideros y control táctil XY">
+      <div class="bay-header">
+        <span class="bay-num">02</span>
+        <h2>Presets Sonideros &amp; Pad XY</h2>
+      </div>
+
+      <!-- Presets Sonideros (12 presets) -->
+      <div class="presets-section">
+        <p class="section-label">Estilos Sonideros Calibrados (v3.2 / v5.1)</p>
+        <div class="presets" id="presets" role="group" aria-label="Presets de voz sonidera">
+          <!-- Clásicos barrio -->
+          <button class="preset selected" data-preset="changa" aria-pressed="true">
+            <span class="emoji" aria-hidden="true">🎙️</span>La Changa<small>Locutor clásico (-3 st)</small>
+          </button>
+          <button class="preset" data-preset="fantasma" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">👻</span>El Fantasma<small>Eco fantasmal (-4.5 st)</small>
+          </button>
+          <button class="preset" data-preset="condor" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🦅</span>El Cóndor<small>Grave profundo (-5 st)</small>
+          </button>
+          <button class="preset" data-preset="saludo" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">📢</span>Saludo Largo<small>Feedback 60% — eco limpio</small>
+          </button>
+
+          <!-- Efectos creativos -->
+          <button class="preset" data-preset="robot" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🤖</span>Robot Sonidero<small>Voz robótica inteligible</small>
+          </button>
+          <button class="preset" data-preset="cumbia" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🌴</span>Cumbia Seca<small>Solo eco de cinta sutil</small>
+          </button>
+          <button class="preset" data-preset="ardilla" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🐿️</span>El Chamaco<small>Voz aguda (+3 st)</small>
+          </button>
+          <button class="preset" data-preset="limpio" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🎤</span>Mic Limpio<small>Bypass total de efectos</small>
+          </button>
+
+          <!-- Variantes de sala y presencia -->
+          <button class="preset" data-preset="chido" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🔥</span>El Chido<small>Barrio con presencia y grit</small>
+          </button>
+          <button class="preset" data-preset="salon2000" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🎪</span>Salón 2000<small>Reverb &amp; eco de salón</small>
+          </button>
+          <button class="preset" data-preset="narrador" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">📻</span>El Narrador<small>Voz grave anunciador AM</small>
+          </button>
+          <button class="preset" data-preset="trompeta" aria-pressed="false">
+            <span class="emoji" aria-hidden="true">🎺</span>La Trompa<small>Slapback sonidero metálico</small>
+          </button>
+        </div>
+      </div>
+
+      <!-- Pad XY Táctil -->
+      <div class="pad-section">
+        <p class="section-label">Modulación en Vivo · Pad XY Táctil</p>
+        <div class="pad-wrap">
+          <div class="pad-hint" aria-hidden="true">
+            <span>↔ Arrastre del eco (Tape Sweep)</span>
+            <span>↕ Tono de voz (Pitch Shifter)</span>
+          </div>
+          <div class="xy-pad" id="pad"
+               role="slider"
+               aria-label="Pad XY táctil — arrastra para ajustar tono y eco en vivo"
+               tabindex="0">
+            <div class="grid" aria-hidden="true"></div>
+            <div class="center-v" aria-hidden="true"></div>
+            <div class="xy-puck" id="puck" aria-hidden="true"></div>
+          </div>
+          <div class="readout" aria-live="polite">
+            <div><span>TONO VOCAL:</span> <b id="pitchRead">-3.0 st</b></div>
+            <div><span>TIEMPO ECO:</span> <b id="timeRead">300 ms</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── BAHÍA 3: FX & CALIBRACIÓN ANALÓGICA (25%) ──────── -->
+    <section class="bay-card bay-fx-dsp" aria-label="Efectos de sonido y calibración analógica">
+      <div class="bay-header">
+        <span class="bay-num">03</span>
+        <h2>FX &amp; Controles DSP</h2>
+      </div>
+
+      <!-- FX Clásicos -->
+      <div class="fx-section">
+        <p class="section-label">Disparos &amp; Sirenas Sonideras</p>
+        <div class="fx-bar" role="group" aria-label="Efectos de sonido clásicos">
+          <button class="fx-btn" id="sirenBtn" aria-label="Reproducir sirena sonidera">
+            🚨 Sirena<br><small class="pad-subtitle">Sonidera</small>
+          </button>
+          <button class="fx-btn" id="laserBtn" aria-label="Reproducir rayo láser">
+            💥 Rayo<br><small class="pad-subtitle">Láser</small>
+          </button>
+          <button class="fx-btn" id="dropBtn" aria-label="Reproducir pitch drop de tocadiscos">
+            🎛️ Disco<br><small class="pad-subtitle">Drop</small>
+          </button>
+        </div>
+
+        <p class="section-label" style="margin-top: 10px;">Alarmas &amp; Bocinas</p>
+        <div class="fx-bar-ext" role="group" aria-label="Alarmas y bocinas reales">
+          <button class="fx-btn alarm" id="hornBtn" aria-label="Cuerno de aire sonidero">
+            📯 Cuerno
+          </button>
+          <button class="fx-btn alarm" id="policeBtn" aria-label="Sirena policial hi-lo">
+            🚓 Patrulla
+          </button>
+          <button class="fx-btn alarm" id="backupBtn" aria-label="Alarma de retroceso">
+            🚧 Reversa
+          </button>
+          <button class="fx-btn alarm" id="emergencyBtn" aria-label="Alarma de emergencia">
+            🔴 Alarma
+          </button>
+          <button class="fx-btn alarm" id="scratchBtn" aria-label="Scratch de tocadiscos">
+            💿 Scratch
+          </button>
+        </div>
+      </div>
+
+      <!-- Calibración Analógica (Sliders visibles sin detalles escondidos en PC) -->
+      <div class="dsp-controls-section">
+        <p class="section-label">Calibración de Consola</p>
+        <div class="controls-grid">
+          <div class="ctrl">
+            <div class="ctrl-header">
+              <label for="driveSlider">Drive (Saturación)</label>
+              <span class="val" id="driveVal" aria-live="off">20%</span>
+            </div>
+            <input type="range" id="driveSlider" min="0" max="1" step="0.01" value="0.20"
+                   aria-label="Saturación analógica estilo locutor de barrio">
+          </div>
+
+          <div class="ctrl">
+            <div class="ctrl-header">
+              <label for="timeSlider">Echo Time (Eco)</label>
+              <span class="val" id="timeVal" aria-live="off">300 ms</span>
+            </div>
+            <input type="range" id="timeSlider" min="0.05" max="0.9" step="0.01" value="0.30"
+                   aria-label="Tiempo de eco en milisegundos">
+          </div>
+
+          <div class="ctrl">
+            <div class="ctrl-header">
+              <label for="feedbackSlider">Feedback (Repetición)</label>
+              <span class="val" id="feedbackVal" aria-live="off">52%</span>
+            </div>
+            <input type="range" id="feedbackSlider" min="0" max="0.85" step="0.01" value="0.52"
+                   aria-label="Nivel de retroalimentación del eco">
+          </div>
+
+          <div class="ctrl">
+            <div class="ctrl-header">
+              <label for="spaceSlider">Space (Reverb Salón)</label>
+              <span class="val" id="spaceVal" aria-live="off">20%</span>
+            </div>
+            <input type="range" id="spaceSlider" min="0" max="1" step="0.01" value="0.20"
+                   aria-label="Reverberación de salón sonidero">
+          </div>
+
+          <div class="ctrl">
+            <div class="ctrl-header">
+              <label for="pitchSlider">Pitch Semitonos</label>
+              <span class="val" id="pitchVal" aria-live="off">-3.0 st</span>
+            </div>
+            <input type="range" id="pitchSlider" min="-12" max="12" step="0.2" value="-3"
+                   aria-label="Ajuste de pitch en semitonos">
+          </div>
+
+          <div class="ctrl">
+            <div class="ctrl-header">
+              <label for="gateSlider">Noise Gate (Umbral)</label>
+              <span class="val" id="gateVal" aria-live="off">-48 dB</span>
+            </div>
+            <input type="range" id="gateSlider" min="-70" max="-20" step="1" value="-48"
+                   aria-label="Umbral del noise gate en dB">
+          </div>
+
+          <div class="ctrl">
+            <div class="ctrl-header">
+              <label for="mixSlider">Mezcla Dry / Wet</label>
+              <span class="val" id="mixVal" aria-live="off">45%</span>
+            </div>
+            <input type="range" id="mixSlider" min="0" max="1" step="0.01" value="0.45"
+                   aria-label="Mezcla entre señal seca y señal procesada">
+          </div>
+        </div>
+
+        <div class="pipewire-box">
+          <b>⚡ Baja latencia en Linux (PipeWire):</b><br>
+          <code>pw-metadata -n settings 0 clock.force-quantum 128</code>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── SECCIÓN INFERIOR: GUÍA DE USO & PREGUNTAS FRECUENTES (FAQ LEGIBLE) ── -->
+  <footer class="studio-footer-wrap">
+    <div class="faq-container">
+      <div class="faq-headline">
+        <h3>❓ Guía de Cabina &amp; Preguntas Frecuentes</h3>
+        <p>Aprende a sacarle el máximo partido a tu voz, los efectos y el procesador DSP.</p>
+      </div>
+
+      <div class="faq-grid">
+        <article class="faq-card">
+          <h4>¿Qué es el Sonidero Memexicanisimos?</h4>
+          <p>
+            Es un procesador de voz DSP profesional en tiempo real inspirado en la cultura sonidera de México.
+            Transforma tu voz con <strong>pitch shift analógico</strong>, <strong>eco de cinta magnética</strong>,
+            <strong>saturación de bulbos</strong> y <strong>reverberación de salón</strong>, permitiéndote mandar saludos
+            y exportar grabaciones en calidad estudio sin instalar nada en tu equipo.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Cómo grabo mi primer saludo?</h4>
+          <p>
+            1. En la bahía izquierda, presiona <strong>🎤 Encender Micrófono</strong> y autoriza el permiso.<br>
+            2. Elige un estilo sonidero en los <strong>Presets</strong> (o mueve el <strong>Pad XY</strong>).<br>
+            3. Pulsa <strong>⏺ Grabar Saludo</strong>. Habla frente a tu micrófono. Al terminar, presiona de nuevo para detener.<br>
+            4. Tu audio aparecerá en el reproductor integrado para que descargues el archivo <strong>.WAV</strong> o <strong>.WebM</strong>.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿El audio o mi voz viaja a internet?</h4>
+          <p>
+            <strong>No, 100% privado y local.</strong> Todo el procesamiento DSP y la codificación de audio ocurre dentro de la memoria de tu navegador mediante <em>Web Audio API</em> y <em>AudioWorklets</em>. Ningún dato de voz se envía a servidores externos ni a la nube.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Para qué sirve el botón "Monitor"?</h4>
+          <p>
+            El <strong>Monitor</strong> reproduce en tiempo real tu voz con los efectos a través de tus audífonos o bocinas.
+            Si utilizas <strong>bocinas abiertas</strong>, siléncialo (<strong>MUTE</strong>) para evitar acoples (feedback);
+            tus efectos, alarmas y la grabación seguirán funcionando con normalidad.
+            Con <strong>audífonos</strong>, déjalo encendido para escucharte en vivo como locutor de cabina.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Cómo funcionan los FX y alarmas?</h4>
+          <p>
+            Operan con un <strong>motor híbrido autónomo</strong>: reproducen muestras locales en formato
+            <code>.ogg</code> de alta calidad y, si algún archivo no está disponible, generan el efecto
+            al instante mediante <strong>síntesis analógica en tiempo real</strong> con osciladores y filtros de Web Audio API.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Qué hace la Cadena Analógica DSP (Pitch, Cinta, Drive y Salón)?</h4>
+          <p>
+            Combina un <strong>Pitch Shifter granular</strong> con ventana de Hann al 50% (−12 a +12 semitonos),
+            un <strong>Eco de Cinta (Tape Delay)</strong> con filtros pasa-bajos (3.4 kHz) y pasa-altos (130 Hz) que emulan las grabadoras de carrete de los años 70-90,
+            <strong>Drive de bulbo</strong> (<code>tanh</code> con oversampling 4x), <strong>Reverb de Salón</strong> (950 Hz) y <strong>Noise Gate</strong>.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Qué diferencia hay entre descargar .WAV y .WebM?</h4>
+          <p>
+            <strong>.WAV:</strong> Audio sin compresión (PCM 16-bit a 44.1 kHz), con máxima fidelidad acústica para edición profesional en DAW o producción de video.<br>
+            <strong>.WebM:</strong> Audio comprimido con códec Opus de alto rendimiento. Tamaño muy ligero, ideal para compartir rápido en mensajería o redes.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Cómo funciona el Pad XY táctil?</h4>
+          <p>
+            Es un controlador gestual bidimensional que responde al mouse, pantalla táctil o flechas del teclado: el <strong>eje horizontal (↔)</strong> modula el tiempo de eco (de 50 ms a 900 ms con arrastre de cinta), y el <strong>eje vertical (↕)</strong> altera el tono de tu voz en tiempo real (de −8 semitonos graves a +4 agudos).
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Funciona en celular, tablet o como app instalable (PWA)?</h4>
+          <p>
+            Sí. La consola es responsive y se adapta automáticamente desde pantallas móviles hasta monitores de escritorio. En teléfono o tablet el Pad XY responde al toque táctil, y desde el menú de tu navegador puedes instalar la herramienta como <strong>Aplicación Web Progresiva (PWA)</strong> para abrirla directo desde tu pantalla de inicio.
+          </p>
+        </article>
+      </div>
+
+      <details class="footer-accordion">
+        <summary>📜 Aviso Legal, Privacidad, Uso Web (PWA) &amp; Salud Auditiva</summary>
+        <div class="footer-accordion-body">
+          <p>
+            <strong>🔒 Privacidad Total (Client-Side Only):</strong>
+            Tu voz y tus grabaciones nunca salen de tu dispositivo. Todo el procesamiento de audio (DSP, pitch shift, eco de cinta, codificación WAV/WebM) se ejecuta al 100% de forma local en la memoria de tu navegador mediante la Web Audio API. Cero telemetría, cero almacenamiento en la nube y cero recopilación de datos personales.
+          </p>
+          <p>
+            <strong>🎙️ Permiso de Micrófono:</strong>
+            Esta herramienta solicita acceso a tu micrófono únicamente para procesar tu voz en tiempo real. El flujo de audio permanece en tu navegador y no se transmite a ningún servidor. Puedes revocar el permiso en cualquier momento desde la configuración de la barra de dirección de tu navegador.
+          </p>
+          <p>
+            <strong>🍪 Sin Cookies ni Rastreo:</strong>
+            No se utilizan cookies de seguimiento, almacenamiento de datos personales, sesiones ni analítica de terceros. La única preferencia local en tu navegador (si aplica) es la selección de tu micrófono de entrada, que puedes borrar limpiando la caché del sitio.
+          </p>
+          <p>
+            <strong>🇲🇽 Homenaje Cultural y Marcas:</strong>
+            Proyecto en homenaje a la <strong>Cultura Sonidera</strong> (declarada Patrimonio Cultural Inmaterial de la Humanidad) y a la gráfica popular de México. "Neutrino Labs" y cualquier otra marca mencionada pertenecen a sus respectivos titulares y se citan únicamente con propósitos descriptivos e históricos, sin implicar relación comercial ni patrocinio.
+          </p>
+          <p>
+            <strong>📱 Uso Web, Aplicación Instalable (PWA) y Licencia:</strong>
+            Código abierto bajo licencia <strong>MIT</strong> con atribución a Estudio Memexicanísimos, integrado para su uso directo desde el navegador web. Cuenta con soporte como <strong>Aplicación Web Progresiva (PWA)</strong> para que, si alguien tiene interés en conservarla en su equipo o teléfono, pueda instalarla desde su propio navegador.
+          </p>
+          <p>
+            <strong>⚠️ Salud Auditiva:</strong>
+            Incluye un <strong>limitador brickwall (−1.0 dBFS)</strong> para prevenir saturaciones bruscas. Modula el volumen de tus auriculares y altavoces con responsabilidad, especialmente al manipular retroalimentaciones (feedback) intensas. La exposición prolongada a sonidos fuertes puede causar daño auditivo permanente.
+          </p>
+        </div>
+      </details>
+
+      <div class="footer-legal-bar">
+        <p>
+          <strong>Sonidero Memexicanísimos</strong> · Procesador de Voz DSP en Vivo · Estudio Memexicanísimos · Visita memexicanisimos.com
+        </p>
       </div>
     </div>
-
-    <!-- ── Ajustes finos ─────────────────────────────── -->
-    <details class="advanced">
-      <summary>⚙️ Ajustes Finos &amp; Optimización Linux</summary>
-      <div class="controls">
-        <div class="ctrl">
-          <label for="pitchSlider">Pitch Semitonos</label>
-          <input type="range" id="pitchSlider" min="-12" max="12" step="0.2" value="-3"
-                 aria-label="Ajuste de pitch en semitonos">
-          <span class="val" id="pitchVal" aria-live="off">-3.0 st</span>
-        </div>
-        <div class="ctrl">
-          <label for="timeSlider">Echo Time</label>
-          <input type="range" id="timeSlider" min="0.05" max="0.9" step="0.01" value="0.32"
-                 aria-label="Tiempo de eco en milisegundos">
-          <span class="val" id="timeVal" aria-live="off">320 ms</span>
-        </div>
-        <div class="ctrl">
-          <label for="feedbackSlider">Feedback (Tope 85%)</label>
-          <input type="range" id="feedbackSlider" min="0" max="0.85" step="0.01" value="0.55"
-                 aria-label="Nivel de retroalimentación del eco">
-          <span class="val" id="feedbackVal" aria-live="off">55%</span>
-        </div>
-        <div class="ctrl">
-          <label for="gateSlider">Noise Gate</label>
-          <input type="range" id="gateSlider" min="-80" max="-20" step="1" value="-48"
-                 aria-label="Umbral del gate de ruido en decibelios">
-          <span class="val" id="gateVal" aria-live="off">-48 dB</span>
-        </div>
-        <div class="ctrl">
-          <label for="mixSlider">Mezcla Dry / Wet</label>
-          <input type="range" id="mixSlider" min="0" max="1" step="0.01" value="0.5"
-                 aria-label="Mezcla entre señal seca y señal procesada">
-          <span class="val" id="mixVal" aria-live="off">50%</span>
-        </div>
-        <div class="ctrl">
-          <label for="driveSlider">Drive (Saturación)</label>
-          <input type="range" id="driveSlider" min="0" max="1" step="0.01" value="0"
-                 aria-label="Saturación analógica estilo locutor de barrio">
-          <span class="val" id="driveVal" aria-live="off">0%</span>
-        </div>
-        <div class="ctrl">
-          <label for="spaceSlider">Space (Reverb Salón)</label>
-          <input type="range" id="spaceSlider" min="0" max="1" step="0.01" value="0.2"
-                 aria-label="Reverberación de salón sonidero">
-          <span class="val" id="spaceVal" aria-live="off">20%</span>
-        </div>
-      </div>
-
-      <div class="pipewire-box">
-        <b>💡 Tip de Baja Latencia en PipeWire:</b><br>
-        Fuerza 128 muestras en vivo:
-        <code>pw-metadata -n settings 0 clock.force-quantum 128</code><br>
-        Restaurar automático:
-        <code>pw-metadata -n settings 0 clock.force-quantum 0</code>
-      </div>
-    </details>
-
-  </main><!-- /panel -->
-
-  <!-- ── FOOTER ─────────────────────────────────────────── -->
-  <footer>
-    <p>
-      <b>Sonidero Memexicanisimos</b> — Software soberano de Estudio Memexicanisimos.<br>
-      Inspirado en la cultura popular de los sonideros de México y en el hardware de
-      <a href="https://neutrinolabsmx.com" target="_blank" rel="noopener noreferrer">Neutrino Labs MX</a>.
-    </p>
-
-    <!-- ── Aviso Legal &amp; Privacidad ──────────────────── -->
-    <details class="footer-accordion">
-      <summary>📜 Aviso Legal, Privacidad Soberana &amp; Salud Auditiva</summary>
-      <div>
-        <p>
-          <strong>🔒 Privacidad Total (Client-Side Only):</strong>
-          Tu voz y tus grabaciones <strong>nunca salen de tu dispositivo</strong>. Todo el procesamiento
-          de audio (DSP, pitch shift, eco de cinta, codificación WAV/WebM) se ejecuta 100% de forma local
-          en la memoria de tu navegador mediante la <strong>Web Audio API</strong>.
-          <strong>Cero telemetría, cero cookies, cero almacenamiento en la nube.</strong>
-          No se recopilan datos de ningún tipo.
-        </p>
-        <p>
-          <strong>🎙️ Permiso de Micrófono:</strong>
-          Esta herramienta solicita acceso a tu micrófono <em>únicamente</em> para procesar audio en tiempo real.
-          El flujo de audio permanece en tu navegador; no se transmite a ningún servidor. Puedes revocar
-          el permiso en cualquier momento desde la configuración de tu navegador. Sin permiso, la aplicación
-          no puede funcionar.
-        </p>
-        <p>
-          <strong>🍪 Sin Cookies ni Rastreo:</strong>
-          No se utilizan cookies, localStorage de datos personales, sesiones, ni ningún
-          mecanismo de seguimiento o analítica. La única preferencia almacenada localmente (si aplica)
-          es la selección de dispositivo de micrófono, que permanece en tu navegador y puedes borrar
-          en cualquier momento limpiando el caché del sitio.
-        </p>
-        <p>
-          <strong>🇲🇽 Homenaje Cultural y Marcas:</strong>
-          Este proyecto es una herramienta comunitaria y pedagógica de código abierto en homenaje a
-          la <strong>Cultura Sonidera</strong> (declarada Patrimonio Cultural Inmaterial de la Humanidad).
-          "Neutrino Labs" y cualquier otra marca mencionada pertenecen a sus respectivos titulares
-          y se citan únicamente con propósitos descriptivos e históricos, sin implicar relación
-          comercial ni patrocinio.
-        </p>
-        <p>
-          <strong>📄 Licencia:</strong>
-          Código fuente disponible bajo licencia <strong>MIT</strong>. Úsalo, compártelo y modifícalo
-          libremente con atribución a Estudio Memexicanisimos.
-        </p>
-        <p>
-          <strong>⚠️ Salud Auditiva:</strong>
-          La herramienta incluye un <strong>limitador brickwall (−1.0 dBFS)</strong> para prevenir
-          saturaciones. Modula el volumen de tus auriculares y altavoces con responsabilidad,
-          especialmente al manipular retroalimentaciones (feedback) intensas. La exposición prolongada
-          a sonidos fuertes puede causar daño auditivo permanente.
-        </p>
-      </div>
-    </details>
-
-    <!-- ── FAQ ────────────────────────────────────────── -->
-    <details class="footer-accordion">
-      <summary>❓ FAQ — Guía de Uso del Sonidero</summary>
-      <div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Qué es el Sonidero Memexicanisimos?</div>
-          <div class="faq-a">
-            Es un procesador de voz DSP en tiempo real inspirado en la cultura sonidera de México.
-            Permite transformar tu voz con pitch shift, eco de cinta, presets sonideros, grabar saludos
-            en formato WAV de calidad estudio y disparar efectos de sonido, todo desde tu navegador
-            sin instalar nada.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Necesito instalar algo?</div>
-          <div class="faq-a">
-            No. Funciona directamente en cualquier navegador moderno (Chrome, Firefox, Edge, Safari 14+).
-            Solo necesitas un micrófono conectado. No hay app que descargar, ni servidor externo.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Por qué me pide permiso de micrófono?</div>
-          <div class="faq-a">
-            Es indispensable para capturar y procesar tu voz en tiempo real.
-            El audio <strong>nunca sale de tu dispositivo</strong>: se procesa localmente con Web Audio API
-            y no se envía a ningún servidor. Puedes revocar el permiso en cualquier momento desde
-            la barra de dirección de tu navegador (ícono de candado).
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Cómo funciona el Pitch Shift (cambio de tono)?</div>
-          <div class="faq-a">
-            Usa un <strong>pitch shifter granular</strong> con ventana de Hann y 50% de solapamiento,
-            implementado como Audio Worklet de Web Audio API. Puedes ajustar el tono de −12 a +12 semitonos
-            con el slider, el Pad XY o eligiendo un preset. Los valores negativos bajan la voz (efecto sonidero),
-            los positivos la suben.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Qué es el eco de cinta?</div>
-          <div class="faq-a">
-            El eco de cinta (tape delay) simula el efecto de las grabadoras de carrete magnético usadas
-            en los sonideros de los años 70-90. Un filtro pasa-bajos (3.4 kHz) y pasa-altos (130 Hz)
-            en el loop de retroalimentación imitan la degradación del sonido en la cinta magnética,
-            dando ese color cálido y oscuro característico.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Qué hace el Pad XY?</div>
-          <div class="faq-a">
-            Es un controlador táctil bidimensional: el <strong>eje horizontal (↔)</strong> controla
-            el tiempo de eco (de 50 ms a 900 ms), y el <strong>eje vertical (↕)</strong> controla
-            el tono de voz (de −4 a +8 semitonos). Ideal para mezclar en vivo con los dedos
-            en smartphone o tablet.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Qué es el Noise Gate?</div>
-          <div class="faq-a">
-            El Noise Gate corta automáticamente el audio cuando el volumen baja del umbral ajustado
-            (en dB). Sirve para eliminar el ruido de fondo del micrófono (ventiladores, tráfico, etc.)
-            cuando no estás hablando. Ajústalo más alto (menos negativo) si tu micrófono tiene mucho
-            ruido ambiente.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Cómo grabo un saludo?</div>
-          <div class="faq-a">
-            1. Enciende el micrófono con el botón "Encender Micrófono". <br>
-            2. Elige un preset o ajusta los efectos a tu gusto. <br>
-            3. Presiona "⏺ Grabar Saludo" para iniciar — el timer empieza a correr. <br>
-            4. Presiona de nuevo para detener la grabación. <br>
-            5. Aparecerá una vista previa de audio y los botones de descarga en <strong>.WAV</strong>
-               (calidad estudio, sin compresión) o <strong>.WebM</strong> (más ligero para compartir).
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Qué diferencia hay entre WAV y WebM?</div>
-          <div class="faq-a">
-            <strong>.WAV</strong> es audio sin compresión (PCM 16-bit, 44.1 kHz), ideal para edición
-            de audio profesional o retransmisión de alta calidad. Archivos más pesados. <br>
-            <strong>.WebM</strong> usa codec Opus con compresión eficiente. Archivos mucho más pequeños,
-            perfectos para compartir por WhatsApp, Telegram o subir a redes sociales.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Qué es el Monitor y cuándo debo apagarlo?</div>
-          <div class="faq-a">
-            El Monitor reproduce tu voz procesada en tus bocinas o audífonos en tiempo real.
-            Si tienes <strong>bocinas abiertas</strong>, apágalo (MUTE) para evitar la retroalimentación
-            (feedback/acople). Con <strong>audífonos</strong> puedes dejarlo encendido para escuchar
-            el efecto en tiempo real mientras hablas.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Cómo reduzco la latencia en Linux?</div>
-          <div class="faq-a">
-            Si usas <strong>PipeWire</strong>, puedes forzar un buffer más pequeño para reducir la latencia:
-            abre una terminal y ejecuta:<br>
-            <code class="code-badge">
-              pw-metadata -n settings 0 clock.force-quantum 128
-            </code><br>
-            Esto reduce la latencia a ~3 ms a 44.1 kHz. Para restaurar el valor automático:<br>
-            <code class="code-badge">
-              pw-metadata -n settings 0 clock.force-quantum 0
-            </code>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Los nuevos FX de alarma usan archivos de audio?</div>
-          <div class="faq-a">
-            No. Todos los efectos (sirena, cuerno de aire, sirena policial, alarma de retroceso,
-            alarma de emergencia, scratch de vinyl) son <strong>100% sintetizados en tiempo real</strong>
-            con osciladores y filtros de Web Audio API. No hay archivos .mp3 ni .wav externos:
-            todo se genera en la memoria de tu navegador.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-q">¿Funciona en teléfono o tablet?</div>
-          <div class="faq-a">
-            Sí. La interfaz es responsive y está optimizada para pantallas desde 320px (smartphones)
-            hasta monitores de escritorio. En móvil, el Pad XY responde al toque multitáctil.
-            En iOS/Safari puede haber restricciones de AudioContext que requieren un toque previo
-            del usuario — el botón "Encender Micrófono" activa el contexto correctamente.
-          </div>
-        </div>
-
-      </div>
-    </details>
-
   </footer>
 
-  <script type="module" src="js/main.js"></script>
+  <script src="js/sounds-b64.js"></script>
+  <script src="js/sonidero-bundle.js"></script>
 </body>
 </html>

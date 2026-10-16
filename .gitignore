@@ -24,7 +24,12 @@ backup_original/
 "Talachas y Modulos Web/editor/public/style.min.css"
 "Talachas y Modulos Web/editor/public/app.min.js"
 
-# Ignorar documentacion, bitacoras y reportes Markdown
+# Ignorar documentacion, bitacoras, investigacion interna y reportes Markdown
 *.md
 .Jules/
-
+argon code/
+"argon code/"
+assets/capturas/
+assets/personajes/
+assets/data/
+blog/

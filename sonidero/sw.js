@@ -1,11 +1,13 @@
-// Service Worker — Sonidero Memexicanisimos PWA v5.0
-const CACHE_NAME = 'sonidero-memexicanisimos-v5';
+// Service Worker — Sonidero Memexicanisimos PWA v6
+const CACHE_NAME = 'sonidero-memexicanisimos-v6';
 
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
   './css/sonidero.css',
+  './js/sounds-b64.js',
+  './js/sonidero-bundle.js',
   './js/main.js',
   './js/audio-engine.js',
   './js/ui.js',
@@ -18,7 +20,7 @@ const ASSETS_TO_CACHE = [
   './js/wav-encoder.js',
   './worklets/noise-gate.js',
   './worklets/pitch-shifter.js',
-  './assets/Logo.png',
+  './assets/banner_sonidero_rotulo_horizontal.jpg',
   './assets/icon-192.png',
   './assets/icon-512.png',
   './assets/sounds/airhorn.ogg',

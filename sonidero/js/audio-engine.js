@@ -1,5 +1,5 @@
 // ======================================================================
-// audio-engine.js v3.2 — Analog Preamp Emulation (Plan 3.2 Oficial)
+// audio-engine.js — Analog Preamp Emulation & Hybrid FX
 //
 // ARQUITECTURA:
 //   1. Preamplificador Analógico con Zero-Click Drive:
@@ -8,21 +8,115 @@
 //      - Modulación suave en preDriveGain: drive 0.0 (1x) a 1.0 (6x).
 //   2. Espacio (Reverb de Salón): Feedback Delay Network filtrado a 950 Hz,
 //      calibrado con retroalimentación controlada para evitar desbordes.
-//   3. Grabación Directa: recDest conectado directamente a la salida del limitador.
-//   4. FX Híbridos: archivos reales .ogg con fallback a síntesis analógica,
-//      con reproducción independiente sin requerir micrófono activo.
+//   3. Buses Independientes (Voz vs FX):
+//      - Monitor: MUTE silencia únicamente el retorno local de voz para
+//        evitar acoples (feedback) en bocinas, permitiendo que los FX y
+//        alarmas sigan sonando y que tanto voz como FX se graben en recDest.
+//   4. FX Híbridos:
+//      - Decodifica los 6 sonidos desde respaldo de audio integrado
+//        (window.SONIDERO_SOUNDS_B64) o fetch HTTP, con fallback a síntesis
+//        analógica avanzada en Web Audio API.
 // ======================================================================
+
+const NOISE_GATE_WORKLET_CODE = `
+class NoiseGateProcessor extends AudioWorkletProcessor {
+  static get parameterDescriptors() {
+    return [{ name: 'threshold', defaultValue: -48, minValue: -80, maxValue: -10 }];
+  }
+  constructor() {
+    super();
+    this.gain = 0.0;
+    this.attackCoeff = 0.15;
+    this.releaseCoeff = 0.003;
+  }
+  process(inputs, outputs, parameters) {
+    const input = inputs[0][0];
+    const output = outputs[0][0];
+    if (!input) return true;
+    const threshLin = Math.pow(10, parameters.threshold[0] / 20);
+    for (let i = 0; i < input.length; i++) {
+      const env = Math.abs(input[i]);
+      const targetGain = env > threshLin ? 1.0 : 0.0;
+      const coeff = targetGain > this.gain ? this.attackCoeff : this.releaseCoeff;
+      this.gain += (targetGain - this.gain) * coeff;
+      output[i] = input[i] * this.gain;
+    }
+    return true;
+  }
+}
+registerProcessor('noise-gate', NoiseGateProcessor);
+`;
+
+const PITCH_SHIFTER_WORKLET_CODE = `
+class GranularPitchShifter extends AudioWorkletProcessor {
+  static get parameterDescriptors() {
+    return [{ name: 'pitch', defaultValue: -3, minValue: -12, maxValue: 12 }];
+  }
+  constructor() {
+    super();
+    this.bufferSize = 4096;
+    this.buffer = new Float32Array(this.bufferSize);
+    this.writeIndex = 0;
+    this.windowSize = 2048;
+    this.phase = 0;
+  }
+  process(inputs, outputs, parameters) {
+    const input = inputs[0][0];
+    const output = outputs[0][0];
+    if (!input) return true;
+    const pitchParam = parameters.pitch;
+    const isARate = pitchParam.length > 1;
+    const staticPitchFactor = !isARate ? Math.pow(2, pitchParam[0] / 12) : 1;
+    for (let i = 0; i < input.length; i++) {
+      this.buffer[this.writeIndex] = input[i];
+      const semitones = isARate ? pitchParam[i] : pitchParam[0];
+      const pitchFactor = isARate ? Math.pow(2, semitones / 12) : staticPitchFactor;
+      const phase1 = this.phase;
+      const phase2 = (this.phase + 0.5) % 1.0;
+      const readPos1 = (this.writeIndex - phase1 * this.windowSize + this.bufferSize) % this.bufferSize;
+      const readPos2 = (this.writeIndex - phase2 * this.windowSize + this.bufferSize) % this.bufferSize;
+      const idx1 = Math.floor(readPos1);
+      const frac1 = readPos1 - idx1;
+      const s1 = this.buffer[idx1] * (1 - frac1) + this.buffer[(idx1 + 1) % this.bufferSize] * frac1;
+      const idx2 = Math.floor(readPos2);
+      const frac2 = readPos2 - idx2;
+      const s2 = this.buffer[idx2] * (1 - frac2) + this.buffer[(idx2 + 1) % this.bufferSize] * frac2;
+      const w1 = 0.5 * (1 - Math.cos(2 * Math.PI * phase1));
+      const w2 = 0.5 * (1 - Math.cos(2 * Math.PI * phase2));
+      output[i] = s1 * w1 + s2 * w2;
+      this.writeIndex = (this.writeIndex + 1) % this.bufferSize;
+      const delta = (1.0 - pitchFactor) / this.windowSize;
+      this.phase = (this.phase + delta + 1.0) % 1.0;
+    }
+    return true;
+  }
+}
+registerProcessor('granular-pitch-shifter', GranularPitchShifter);
+`;
+
+function base64ToArrayBuffer(b64) {
+  const clean = b64.replace(/\s+/g, '');
+  const binary = atob(clean);
+  const len = binary.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    bytes[i] = binary.charCodeAt(i);
+  }
+  return bytes.buffer;
+}
 
 export class SonideroEngine {
   constructor() {
     this.ctx            = null;
     this.micStream      = null;
+    this.micInputGain   = null;
+    this.isMicActive    = false;
     this.gateNode       = null;
     this.pitchNode      = null;
 
-    // Saturación analógica Plan 3.2
-    this.preDriveGain   = null; // Preamplificador interpolado (el "Drive")
-    this.driveNode      = null; // Circuito analógico con curva fija
+    // Saturación analógica
+    this.preDriveGain   = null;
+    this.driveNode      = null;
 
     // Delay de cinta y Reverb de salón
     this.delayNode      = null;
@@ -35,32 +129,35 @@ export class SonideroEngine {
     this.reverbFeedback = null;
     this.reverbGain     = null;
 
-    // Limitador, medidor y salidas
+    // Buses, limitadores, medidor y salidas
+    this.voiceBus       = null;
+    this.fxBus          = null;
     this.limiter        = null;
+    this.speakerLimiter = null;
     this.analyser       = null;
     this.recDest        = null;
     this.monitorGain    = null;
     this.isMonitorOn    = true;
 
-    // Parámetros oficiales Plan 3.2
+    // Parámetros iniciales calibrados (La Changa)
     this.params = {
-      pitch: -3,
-      time: 0.32,
-      feedback: 0.55,
+      pitch: -3.0,
+      time: 0.30,
+      feedback: 0.52,
       gate: -48,
-      mix: 0.5,
-      drive: 0.0,   // 0.0 (Limpio) a 1.0 (Saturación analógica musical)
-      space: 0.20   // 0.0 a 1.0 (Reverb de salón)
+      mix: 0.45,
+      drive: 0.20,
+      space: 0.20
     };
 
-    // Motor autónomo de FX
+    // Motor autónomo de FX (cuando el micrófono aún no se ha encendido)
     this._fxCtx      = null;
     this._fxOut      = null;
+    this._fxAnalyser = null;
     this._soundCache = {};
     this._loading    = {};
   }
 
-  // Curva de saturación maestra fija generada una sola vez (4096 muestras)
   _generateMasterDistortionCurve() {
     const n_samples = 4096;
     const curve = new Float32Array(n_samples);
@@ -72,48 +169,101 @@ export class SonideroEngine {
   }
 
   // ════════════════════════════════════════════════════════════════════
-  // HELPERS FX AUTÓNOMO (funciona sin mic)
+  // HELPERS FX AUTÓNOMO (funciona con o sin micrófono)
   // ════════════════════════════════════════════════════════════════════
 
   async _ensureFx() {
     if (this.ctx && this.ctx.state !== 'closed') {
-      if (this.ctx.state === 'suspended') await this.ctx.resume();
-      return { ctx: this.ctx, out: this.limiter };
+      if (this.ctx.state === 'suspended') {
+        await this.ctx.resume();
+      }
+      return {
+        ctx: this.ctx,
+        out: this.fxBus || this.limiter,
+        analyser: this.analyser
+      };
     }
 
     if (!this._fxCtx || this._fxCtx.state === 'closed') {
-      this._fxCtx = new (window.AudioContext || window.webkitAudioContext)({ latencyHint: 'interactive' });
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
+      this._fxCtx = new AudioCtx({ latencyHint: 'interactive' });
       this._fxOut = this._fxCtx.createDynamicsCompressor();
       this._fxOut.threshold.value = -3.0;
       this._fxOut.knee.value      = 4;
       this._fxOut.ratio.value     = 12;
       this._fxOut.attack.value    = 0.001;
       this._fxOut.release.value   = 0.06;
-      this._fxOut.connect(this._fxCtx.destination);
+
+      this._fxAnalyser = this._fxCtx.createAnalyser();
+      this._fxAnalyser.fftSize = 64;
+
+      this._fxOut.connect(this._fxAnalyser);
+      this._fxAnalyser.connect(this._fxCtx.destination);
 
       this._preloadAll(this._fxCtx);
     }
 
-    if (this._fxCtx.state === 'suspended') await this._fxCtx.resume();
-    return { ctx: this._fxCtx, out: this._fxOut };
+    if (this._fxCtx.state === 'suspended') {
+      await this._fxCtx.resume();
+    }
+
+    return {
+      ctx: this._fxCtx,
+      out: this._fxOut,
+      analyser: this._fxAnalyser
+    };
+  }
+
+  getActiveAnalyser() {
+    return this.analyser || this._fxAnalyser || null;
   }
 
   _preloadAll(ctx) {
-    const names = ['airhorn', 'police', 'backup', 'emergency', 'scratch', 'siren_sonidera'];
-    names.forEach(n => this._loadSound(ctx, n));
+    const names = [
+      'airhorn',
+      'police',
+      'backup',
+      'emergency',
+      'scratch',
+      'siren_sonidera'
+    ];
+    names.forEach((n) => {
+      this._loadSound(ctx, n);
+    });
   }
 
   async _loadSound(ctx, name) {
-    if (this._soundCache[name]) return this._soundCache[name];
-    if (this._loading[name])    return this._loading[name];
+    if (this._soundCache[name]) {
+      return this._soundCache[name];
+    }
+    if (this._loading[name]) {
+      return this._loading[name];
+    }
 
     this._loading[name] = (async () => {
       try {
-        const url = new URL(`../assets/sounds/${name}.ogg`, import.meta.url).href;
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const buf = await res.arrayBuffer();
-        const decoded = await ctx.decodeAudioData(buf);
+        let arrayBuf = null;
+
+        // 1. Priorizar respaldo binario integrado
+        if (
+          typeof window !== 'undefined' &&
+          window.SONIDERO_SOUNDS_B64 &&
+          window.SONIDERO_SOUNDS_B64[name]
+        ) {
+          arrayBuf = base64ToArrayBuffer(window.SONIDERO_SOUNDS_B64[name]);
+        } else if (typeof location !== 'undefined' && location.protocol !== 'file:') {
+          const url = `assets/sounds/${name}.ogg`;
+          const res = await fetch(url);
+          if (res.ok) {
+            arrayBuf = await res.arrayBuffer();
+          }
+        }
+
+        if (!arrayBuf) {
+          return null;
+        }
+
+        const decoded = await ctx.decodeAudioData(arrayBuf.slice(0));
         this._soundCache[name] = decoded;
         return decoded;
       } catch (e) {
@@ -128,8 +278,10 @@ export class SonideroEngine {
 
   async _playFile(name, volume = 1.0) {
     const { ctx, out } = await this._ensureFx();
-    const buffer = this._soundCache[name] ?? await this._loadSound(ctx, name);
-    if (!buffer) return false;
+    const buffer = this._soundCache[name] ?? (await this._loadSound(ctx, name));
+    if (!buffer) {
+      return false;
+    }
 
     const src  = ctx.createBufferSource();
     const gain = ctx.createGain();
@@ -156,15 +308,15 @@ export class SonideroEngine {
   }
 
   _makeReverb(ctx, duration = 0.25, decay = 0.6) {
-    const rate   = ctx.sampleRate;
-    const len    = Math.floor(rate * duration);
-    const buf    = ctx.createBuffer(1, len, rate);
-    const data   = buf.getChannelData(0);
+    const rate = ctx.sampleRate;
+    const len  = Math.floor(rate * duration);
+    const buf  = ctx.createBuffer(1, len, rate);
+    const data = buf.getChannelData(0);
     for (let i = 0; i < len; i++) {
       data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / len, decay * 6);
     }
-    const conv   = ctx.createConvolver();
-    conv.buffer  = buf;
+    const conv  = ctx.createConvolver();
+    conv.buffer = buf;
     return conv;
   }
 
@@ -172,7 +324,9 @@ export class SonideroEngine {
     const len  = Math.floor(ctx.sampleRate * duration);
     const buf  = ctx.createBuffer(1, len, ctx.sampleRate);
     const data = buf.getChannelData(0);
-    for (let i = 0; i < len; i++) data[i] = Math.random() * 2 - 1;
+    for (let i = 0; i < len; i++) {
+      data[i] = Math.random() * 2 - 1;
+    }
     return buf;
   }
 
@@ -181,10 +335,31 @@ export class SonideroEngine {
   // ════════════════════════════════════════════════════════════════════
 
   async init(deviceId) {
-    this.ctx = new (window.AudioContext || window.webkitAudioContext)({ latencyHint: 'interactive' });
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    this.ctx = new AudioCtx({ latencyHint: 'interactive' });
 
-    await this.ctx.audioWorklet.addModule(new URL('../worklets/noise-gate.js',    import.meta.url));
-    await this.ctx.audioWorklet.addModule(new URL('../worklets/pitch-shifter.js', import.meta.url));
+    let hasGate = false;
+    let hasPitch = false;
+
+    if (this.ctx.audioWorklet) {
+      try {
+        const gateBlob = new Blob([NOISE_GATE_WORKLET_CODE], { type: 'application/javascript' });
+        const gateUrl = URL.createObjectURL(gateBlob);
+        await this.ctx.audioWorklet.addModule(gateUrl);
+        hasGate = true;
+      } catch (workletErr) {
+        console.warn('AudioWorklet noise-gate no disponible, aplicando bypass:', workletErr);
+      }
+
+      try {
+        const pitchBlob = new Blob([PITCH_SHIFTER_WORKLET_CODE], { type: 'application/javascript' });
+        const pitchUrl = URL.createObjectURL(pitchBlob);
+        await this.ctx.audioWorklet.addModule(pitchUrl);
+        hasPitch = true;
+      } catch (workletErr) {
+        console.warn('AudioWorklet pitch-shifter no disponible, aplicando bypass:', workletErr);
+      }
+    }
 
     const constraints = {
       echoCancellation: false,
@@ -194,11 +369,28 @@ export class SonideroEngine {
       ...(deviceId ? { deviceId: { exact: deviceId } } : {})
     };
 
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      throw new Error('Navegador sin soporte de getUserMedia en este entorno');
+    }
+
     this.micStream  = await navigator.mediaDevices.getUserMedia({ audio: constraints });
     const micSource = this.ctx.createMediaStreamSource(this.micStream);
 
-    // 1. Gate de ruido
-    this.gateNode = new AudioWorkletNode(this.ctx, 'noise-gate');
+    // Control de corte de entrada del micrófono (permite pausar el mic sin congelar los FX)
+    this.micInputGain = this.ctx.createGain();
+    this.micInputGain.gain.value = 1.0;
+    this.isMicActive = true;
+
+    // 1. Gate de ruido (resiliente)
+    if (hasGate) {
+      try {
+        this.gateNode = new AudioWorkletNode(this.ctx, 'noise-gate');
+      } catch (e) {
+        this.gateNode = null;
+      }
+    } else {
+      this.gateNode = null;
+    }
 
     // 2. Compresor de entrada
     const comp = this.ctx.createDynamicsCompressor();
@@ -208,8 +400,16 @@ export class SonideroEngine {
     comp.attack.value    = 0.005;
     comp.release.value   = 0.10;
 
-    // 3. Pitch shifter granular
-    this.pitchNode = new AudioWorkletNode(this.ctx, 'granular-pitch-shifter');
+    // 3. Pitch shifter granular (resiliente)
+    if (hasPitch) {
+      try {
+        this.pitchNode = new AudioWorkletNode(this.ctx, 'granular-pitch-shifter');
+      } catch (e) {
+        this.pitchNode = null;
+      }
+    } else {
+      this.pitchNode = null;
+    }
 
     // 4. PRE-DRIVE GAIN + DRIVE (Curva Maestra Analógica Fija)
     this.preDriveGain = this.ctx.createGain();
@@ -240,10 +440,14 @@ export class SonideroEngine {
     this.reverbFeedback = this.ctx.createGain();
     this.reverbGain     = this.ctx.createGain();
 
-    // 7. Salida y Limitador brickwall (-1.0 dBFS)
+    // 7. Buses separados (Voz vs FX) y Limitadores brickwall (-1.0 dBFS)
+    this.voiceBus = this.ctx.createGain();
+    this.fxBus    = this.ctx.createGain();
+
     this.monitorGain = this.ctx.createGain();
     this.monitorGain.gain.value = this.isMonitorOn ? 1.0 : 0.0;
 
+    // Limitador de grabación y análisis (recDest + analyser)
     this.limiter = this.ctx.createDynamicsCompressor();
     this.limiter.threshold.value = -1.0;
     this.limiter.knee.value      = 0;
@@ -251,50 +455,89 @@ export class SonideroEngine {
     this.limiter.attack.value    = 0.001;
     this.limiter.release.value   = 0.04;
 
+    // Limitador de monitoreo hacia bocinas/audífonos (destination)
+    this.speakerLimiter = this.ctx.createDynamicsCompressor();
+    this.speakerLimiter.threshold.value = -1.0;
+    this.speakerLimiter.knee.value      = 0;
+    this.speakerLimiter.ratio.value     = 20;
+    this.speakerLimiter.attack.value    = 0.001;
+    this.speakerLimiter.release.value   = 0.04;
+
     this.analyser = this.ctx.createAnalyser();
     this.analyser.fftSize = 64;
     this.recDest = this.ctx.createMediaStreamDestination();
 
-    // ── Ruteo (Signal Flow Plan 3.2) ──────────────────────────────────
-    // Mic -> Gate -> Comp -> Pitch -> PRE-DRIVE -> DRIVE
-    micSource.connect(this.gateNode);
-    this.gateNode.connect(comp);
-    comp.connect(this.pitchNode);
-    this.pitchNode.connect(this.preDriveGain);
+    // ── Ruteo Resistente a Fallos en Cadena ───────────────────────────
+    micSource.connect(this.micInputGain);
+    let signalHead = this.micInputGain;
+
+    if (this.gateNode) {
+      try {
+        signalHead.connect(this.gateNode);
+        signalHead = this.gateNode;
+      } catch (e) {
+        this.gateNode = null;
+      }
+    }
+
+    signalHead.connect(comp);
+    signalHead = comp;
+
+    if (this.pitchNode) {
+      try {
+        signalHead.connect(this.pitchNode);
+        signalHead = this.pitchNode;
+      } catch (e) {
+        this.pitchNode = null;
+      }
+    }
+
+    signalHead.connect(this.preDriveGain);
     this.preDriveGain.connect(this.driveNode);
 
-    // Rama Dry: Drive -> DryGain -> Limiter
+    // Rama Dry: Drive -> DryGain -> VoiceBus
     this.driveNode.connect(this.dryGain);
-    this.dryGain.connect(this.limiter);
+    this.dryGain.connect(this.voiceBus);
 
-    // Rama Wet: Drive -> Tape Delay Loop -> WetGain -> Limiter
+    // Rama Wet: Drive -> Tape Delay Loop -> WetGain -> VoiceBus
     this.driveNode.connect(this.delayNode);
     this.delayNode.connect(tapeHP);
     tapeHP.connect(tapeLP);
     tapeLP.connect(this.feedbackGain);
     this.feedbackGain.connect(this.delayNode);
     this.delayNode.connect(this.wetGain);
-    this.wetGain.connect(this.limiter);
+    this.wetGain.connect(this.voiceBus);
 
-    // Rama Espacio (Reverb Loop): Wet -> Reverb -> Filter -> Feedback
+    // Rama Espacio (Reverb Loop): Wet -> Reverb -> Filter -> Feedback -> VoiceBus
     this.wetGain.connect(this.reverbNode);
     this.reverbNode.connect(this.reverbFilter);
     this.reverbFilter.connect(this.reverbFeedback);
     this.reverbFeedback.connect(this.reverbNode);
     this.reverbFilter.connect(this.reverbGain);
-    this.reverbGain.connect(this.limiter);
+    this.reverbGain.connect(this.voiceBus);
 
-    // Salidas finales
+    // Salida de Grabación y Vúmetro (recibe tanto Voz como FX siempre)
+    this.voiceBus.connect(this.limiter);
+    this.fxBus.connect(this.limiter);
     this.limiter.connect(this.recDest);
     this.limiter.connect(this.analyser);
-    this.analyser.connect(this.monitorGain);
-    this.monitorGain.connect(this.ctx.destination);
+
+    // Salida de Altavoces / Audífonos (Monitor controla Voz; FX siempre suenan)
+    this.voiceBus.connect(this.monitorGain);
+    this.monitorGain.connect(this.speakerLimiter);
+    this.fxBus.connect(this.speakerLimiter);
+    this.speakerLimiter.connect(this.ctx.destination);
 
     // Transferir caché al nuevo contexto
     if (this._fxCtx && this._fxCtx.state !== 'closed') {
-      try { await this._fxCtx.close(); } catch (err) { /* ignore */ }
+      try {
+        await this._fxCtx.close();
+      } catch (err) {
+        // Ignorar si ya cerró
+      }
       this._fxCtx = null;
       this._fxOut = null;
+      this._fxAnalyser = null;
     }
     this._soundCache = {};
     this._preloadAll(this.ctx);
@@ -303,10 +546,29 @@ export class SonideroEngine {
     return true;
   }
 
-  async resume()  { if (this.ctx?.state === 'suspended') await this.ctx.resume(); }
-  async suspend() { if (this.ctx) await this.ctx.suspend(); }
+  async resume() {
+    if (this.ctx?.state === 'suspended') {
+      await this.ctx.resume();
+    }
+    if (this.micInputGain && this.ctx) {
+      this.micInputGain.gain.setTargetAtTime(1.0, this.ctx.currentTime, 0.015);
+    }
+    this.isMicActive = true;
+  }
+
+  async suspend() {
+    if (this.micInputGain && this.ctx) {
+      this.micInputGain.gain.setTargetAtTime(0.0, this.ctx.currentTime, 0.015);
+    }
+    this.isMicActive = false;
+  }
+
   async dispose() {
-    this.micStream?.getTracks().forEach(t => t.stop());
+    if (this.micStream) {
+      this.micStream.getTracks().forEach((t) => {
+        t.stop();
+      });
+    }
     if (this.ctx && this.ctx.state !== 'closed') {
       try {
         await this.ctx.close();
@@ -314,7 +576,9 @@ export class SonideroEngine {
         // Ignorar posibles errores si el contexto ya cerró por otras vías
       }
     }
-    this.ctx = this.micStream = null;
+    this.ctx = null;
+    this.micStream = null;
+    this.isMicActive = false;
   }
 
   applyAll(params) {
@@ -354,13 +618,33 @@ export class SonideroEngine {
     this.wetGain.gain.setTargetAtTime(this.params.mix,     t, 0.02);
   }
 
-  setDrive(v)    { this.applyAll({ drive: v }); }
-  setSpace(v)    { this.applyAll({ space: v }); }
-  setPitch(v)    { this.applyAll({ pitch: v }); }
-  setTime(v)     { this.applyAll({ time: v }); }
-  setFeedback(v) { this.applyAll({ feedback: v }); }
-  setGate(v)     { this.applyAll({ gate: v }); }
-  setMix(v)      { this.applyAll({ mix: v }); }
+  setDrive(v) {
+    this.applyAll({ drive: v });
+  }
+
+  setSpace(v) {
+    this.applyAll({ space: v });
+  }
+
+  setPitch(v) {
+    this.applyAll({ pitch: v });
+  }
+
+  setTime(v) {
+    this.applyAll({ time: v });
+  }
+
+  setFeedback(v) {
+    this.applyAll({ feedback: v });
+  }
+
+  setGate(v) {
+    this.applyAll({ gate: v });
+  }
+
+  setMix(v) {
+    this.applyAll({ mix: v });
+  }
 
   setMonitor(on) {
     this.isMonitorOn = on;
@@ -368,9 +652,13 @@ export class SonideroEngine {
       this.monitorGain.gain.setTargetAtTime(on ? 1.0 : 0.0, this.ctx.currentTime, 0.02);
     }
   }
+
   muteMonitorTemporarily() {
-    this.monitorGain?.gain.setTargetAtTime(0, this.ctx.currentTime, 0.02);
+    if (this.monitorGain && this.ctx) {
+      this.monitorGain.gain.setTargetAtTime(0, this.ctx.currentTime, 0.02);
+    }
   }
+
   restoreMonitor() {
     if (this.monitorGain && this.ctx && this.isMonitorOn) {
       this.monitorGain.gain.setTargetAtTime(1.0, this.ctx.currentTime, 0.02);
@@ -378,11 +666,13 @@ export class SonideroEngine {
   }
 
   // ════════════════════════════════════════════════════════════════════
-  // FX CLÁSICOS & ALARMAS (Híbridos: archivo real o síntesis avanzada)
+  // FX CLÁSICOS & ALARMAS (Híbridos: archivo real .ogg o síntesis avanzada)
   // ════════════════════════════════════════════════════════════════════
 
   async playSiren() {
-    if (await this._playFile('siren_sonidera', 0.85)) return;
+    if (await this._playFile('siren_sonidera', 0.85)) {
+      return;
+    }
 
     const { ctx, out } = await this._ensureFx();
     const now = ctx.currentTime;
@@ -397,7 +687,7 @@ export class SonideroEngine {
     const freqSweeps = [
       [380, 650, 380, 700, 260],
       [760, 1300, 760, 1400, 520],
-      [190, 325, 190, 350, 130],
+      [190, 325, 190, 350, 130]
     ];
     const times = [0, 0.40, 0.80, 1.20, 1.65];
     const vols  = [0.55, 0.22, 0.40];
@@ -408,13 +698,15 @@ export class SonideroEngine {
       osc.type   = 'sawtooth';
       osc.frequency.setValueAtTime(sweepFreqs[0], now);
       times.forEach((t, i) => {
-        if (sweepFreqs[i] !== undefined)
+        if (sweepFreqs[i] !== undefined) {
           osc.frequency.linearRampToValueAtTime(sweepFreqs[i], now + t);
+        }
       });
       gain.gain.setValueAtTime(vols[idx], now);
       osc.connect(gain);
       gain.connect(masterGain);
-      osc.start(now); osc.stop(now + 1.8);
+      osc.start(now);
+      osc.stop(now + 1.8);
     });
 
     const lfo     = ctx.createOscillator();
@@ -424,7 +716,8 @@ export class SonideroEngine {
     lfoGain.gain.setValueAtTime(0.25, now);
     lfo.connect(lfoGain);
     lfoGain.connect(masterGain.gain);
-    lfo.start(now); lfo.stop(now + 1.8);
+    lfo.start(now);
+    lfo.stop(now + 1.8);
 
     masterGain.connect(ws);
     ws.connect(rev);
@@ -442,11 +735,15 @@ export class SonideroEngine {
     const noiseHP  = ctx.createBiquadFilter();
     const noiseG   = ctx.createGain();
     noiseSrc.buffer = noiseBuf;
-    noiseHP.type  = 'highpass'; noiseHP.frequency.value = 4000;
+    noiseHP.type = 'highpass';
+    noiseHP.frequency.value = 4000;
     noiseG.gain.setValueAtTime(0.6, now);
     noiseG.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
-    noiseSrc.connect(noiseHP); noiseHP.connect(noiseG); noiseG.connect(out);
-    noiseSrc.start(now); noiseSrc.stop(now + 0.07);
+    noiseSrc.connect(noiseHP);
+    noiseHP.connect(noiseG);
+    noiseG.connect(out);
+    noiseSrc.start(now);
+    noiseSrc.stop(now + 0.07);
 
     const osc  = ctx.createOscillator();
     const gain = ctx.createGain();
@@ -455,8 +752,11 @@ export class SonideroEngine {
     osc.frequency.exponentialRampToValueAtTime(55, now + 0.35);
     gain.gain.setValueAtTime(0.70, now);
     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
-    osc.connect(ws); ws.connect(gain); gain.connect(out);
-    osc.start(now); osc.stop(now + 0.38);
+    osc.connect(ws);
+    ws.connect(gain);
+    gain.connect(out);
+    osc.start(now);
+    osc.stop(now + 0.38);
   }
 
   async playPitchDrop() {
@@ -469,12 +769,17 @@ export class SonideroEngine {
     const noiseLP  = ctx.createBiquadFilter();
     const noiseG   = ctx.createGain();
     noiseSrc.buffer = noiseBuf;
-    noiseLP.type  = 'bandpass'; noiseLP.frequency.value = 800; noiseLP.Q.value = 0.5;
+    noiseLP.type = 'bandpass';
+    noiseLP.frequency.value = 800;
+    noiseLP.Q.value = 0.5;
     noiseG.gain.setValueAtTime(0.08, now);
     noiseG.gain.setValueAtTime(0.08, now + 1.0);
     noiseG.gain.exponentialRampToValueAtTime(0.001, now + 1.4);
-    noiseSrc.connect(noiseLP); noiseLP.connect(noiseG); noiseG.connect(out);
-    noiseSrc.start(now); noiseSrc.stop(now + 1.5);
+    noiseSrc.connect(noiseLP);
+    noiseLP.connect(noiseG);
+    noiseG.connect(out);
+    noiseSrc.start(now);
+    noiseSrc.stop(now + 1.5);
 
     [440, 442.5, 437.5].forEach((startFreq) => {
       const osc  = ctx.createOscillator();
@@ -490,18 +795,25 @@ export class SonideroEngine {
       lfo.frequency.exponentialRampToValueAtTime(0.5, now + 1.2);
       lfoGain.gain.setValueAtTime(20, now);
       lfoGain.gain.exponentialRampToValueAtTime(0.1, now + 1.2);
-      lfo.connect(lfoGain); lfoGain.connect(osc.frequency);
-      lfo.start(now); lfo.stop(now + 1.3);
+      lfo.connect(lfoGain);
+      lfoGain.connect(osc.frequency);
+      lfo.start(now);
+      lfo.stop(now + 1.3);
 
       gain.gain.setValueAtTime(0.45, now);
       gain.gain.exponentialRampToValueAtTime(0.001, now + 1.25);
-      osc.connect(ws); ws.connect(gain); gain.connect(out);
-      osc.start(now); osc.stop(now + 1.28);
+      osc.connect(ws);
+      ws.connect(gain);
+      gain.connect(out);
+      osc.start(now);
+      osc.stop(now + 1.28);
     });
   }
 
   async playAirHorn() {
-    if (await this._playFile('airhorn', 0.9)) return;
+    if (await this._playFile('airhorn', 0.9)) {
+      return;
+    }
 
     const { ctx, out } = await this._ensureFx();
     const now = ctx.currentTime;
@@ -519,7 +831,7 @@ export class SonideroEngine {
       { freq: 210, detune: 2,   vol: 0.35 },
       { freq: 245, detune: -2,  vol: 0.28 },
       { freq: 280, detune: 1,   vol: 0.20 },
-      { freq: 350, detune: -1,  vol: 0.15 },
+      { freq: 350, detune: -1,  vol: 0.15 }
     ];
 
     harmonics.forEach(({ freq, detune, vol }) => {
@@ -529,13 +841,17 @@ export class SonideroEngine {
       osc.frequency.setValueAtTime(freq, now);
       osc.detune.setValueAtTime(detune, now);
       g.gain.setValueAtTime(vol, now);
-      osc.connect(g); g.connect(masterGain);
-      osc.start(now); osc.stop(now + dur + 0.05);
+      osc.connect(g);
+      g.connect(masterGain);
+      osc.start(now);
+      osc.stop(now + dur + 0.05);
     });
 
     const bpf = ctx.createBiquadFilter();
     bpf.type  = 'peaking';
-    bpf.frequency.value = 600; bpf.Q.value = 0.8; bpf.gain.value = 8;
+    bpf.frequency.value = 600;
+    bpf.Q.value = 0.8;
+    bpf.gain.value = 8;
 
     masterGain.connect(bpf);
     bpf.connect(ws);
@@ -543,14 +859,16 @@ export class SonideroEngine {
   }
 
   async playPoliceSiren() {
-    if (await this._playFile('police', 0.85)) return;
+    if (await this._playFile('police', 0.85)) {
+      return;
+    }
 
     const { ctx, out } = await this._ensureFx();
     const now = ctx.currentTime;
     const ws  = this._makeWaveshaper(ctx, 25);
     const rev = this._makeReverb(ctx, 0.20, 0.5);
 
-    [0, 2].forEach(detuneCents => {
+    [0, 2].forEach((detuneCents) => {
       const osc  = ctx.createOscillator();
       const gain = ctx.createGain();
       osc.type   = 'sawtooth';
@@ -570,20 +888,27 @@ export class SonideroEngine {
       gain.gain.setValueAtTime(0.5, now + total - 0.12);
       gain.gain.exponentialRampToValueAtTime(0.001, now + total);
 
-      osc.connect(gain); gain.connect(ws);
-      osc.start(now); osc.stop(now + total + 0.08);
+      osc.connect(gain);
+      gain.connect(ws);
+      osc.start(now);
+      osc.stop(now + total + 0.08);
     });
 
-    ws.connect(rev); rev.connect(out); ws.connect(out);
+    ws.connect(rev);
+    rev.connect(out);
+    ws.connect(out);
   }
 
   async playBackupAlarm() {
-    if (await this._playFile('backup', 0.85)) return;
+    if (await this._playFile('backup', 0.85)) {
+      return;
+    }
 
     const { ctx, out } = await this._ensureFx();
     const now    = ctx.currentTime;
     const ws     = this._makeWaveshaper(ctx, 15);
-    const bipDur = 0.16, gap = 0.16;
+    const bipDur = 0.16;
+    const gap    = 0.16;
 
     for (let i = 0; i < 7; i++) {
       const osc  = ctx.createOscillator();
@@ -592,7 +917,8 @@ export class SonideroEngine {
       osc.frequency.setValueAtTime(1080, now);
 
       const lp = ctx.createBiquadFilter();
-      lp.type  = 'lowpass'; lp.frequency.value = 2200;
+      lp.type  = 'lowpass';
+      lp.frequency.value = 2200;
 
       const t0 = now + i * (bipDur + gap);
       gain.gain.setValueAtTime(0, t0);
@@ -600,13 +926,19 @@ export class SonideroEngine {
       gain.gain.setValueAtTime(0.55, t0 + bipDur - 0.015);
       gain.gain.exponentialRampToValueAtTime(0.001, t0 + bipDur);
 
-      osc.connect(lp); lp.connect(gain); gain.connect(ws); ws.connect(out);
-      osc.start(t0); osc.stop(t0 + bipDur + 0.02);
+      osc.connect(lp);
+      lp.connect(gain);
+      gain.connect(ws);
+      ws.connect(out);
+      osc.start(t0);
+      osc.stop(t0 + bipDur + 0.02);
     }
   }
 
   async playEmergencyAlarm() {
-    if (await this._playFile('emergency', 0.88)) return;
+    if (await this._playFile('emergency', 0.88)) {
+      return;
+    }
 
     const { ctx, out } = await this._ensureFx();
     const now = ctx.currentTime;
@@ -628,23 +960,32 @@ export class SonideroEngine {
       osc2.frequency.setValueAtTime(750, t0);
       osc2.frequency.linearRampToValueAtTime(425, t0 + 0.48);
 
-      [gain, gain2].forEach(g => {
+      [gain, gain2].forEach((g) => {
         g.gain.setValueAtTime(0, t0);
         g.gain.linearRampToValueAtTime(0.5, t0 + 0.02);
         g.gain.setValueAtTime(0.5, t0 + 0.42);
         g.gain.exponentialRampToValueAtTime(0.001, t0 + 0.55);
       });
 
-      osc.connect(gain);   gain.connect(ws);
-      osc2.connect(gain2); gain2.connect(ws);
-      ws.connect(rev); rev.connect(out); ws.connect(out);
+      osc.connect(gain);
+      gain.connect(ws);
+      osc2.connect(gain2);
+      gain2.connect(ws);
+      ws.connect(rev);
+      rev.connect(out);
+      ws.connect(out);
 
-      [osc, osc2].forEach(o => { o.start(t0); o.stop(t0 + 0.58); });
+      [osc, osc2].forEach((o) => {
+        o.start(t0);
+        o.stop(t0 + 0.58);
+      });
     }
   }
 
   async playScratch() {
-    if (await this._playFile('scratch', 0.9)) return;
+    if (await this._playFile('scratch', 0.9)) {
+      return;
+    }
 
     const { ctx, out } = await this._ensureFx();
     const now = ctx.currentTime;
@@ -668,7 +1009,11 @@ export class SonideroEngine {
     gain.gain.setValueAtTime(1.8, now + dur - 0.1);
     gain.gain.exponentialRampToValueAtTime(0.001, now + dur);
 
-    src.connect(bp); bp.connect(ws); ws.connect(gain); gain.connect(out);
-    src.start(now); src.stop(now + dur + 0.05);
+    src.connect(bp);
+    bp.connect(ws);
+    ws.connect(gain);
+    gain.connect(out);
+    src.start(now);
+    src.stop(now + dur + 0.05);
   }
 }
