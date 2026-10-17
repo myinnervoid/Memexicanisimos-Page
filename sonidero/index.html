@@ -40,18 +40,18 @@
     <!-- Selector de micrófono (visible cuando se activa) -->
     <div id="micSelectorWrap" aria-label="Selección de micrófono">
       <label for="micSelect">🎙️ Micrófono de entrada</label>
-      <select id="micSelect" aria-label="Selecciona tu micrófono"></select>
+      <select id="micSelect" aria-label="Selecciona tu micrófono" role="combobox"></select>
     </div>
 
     <!-- Fila de botones: Encender + Monitor -->
     <div class="btn-row">
-      <button id="powerBtn" class="power-btn" aria-label="Encender o apagar el micrófono">
+      <button id="powerBtn" class="power-btn" aria-label="Encender o apagar el micrófono" role="button">
         🎤 Encender Micrófono
       </button>
       <button id="monitorBtn" class="fx-btn"
               title="Silenciar bocinas locales para evitar retroalimentación"
               aria-label="Activar o desactivar monitoreo local"
-              class="btn-patrio-green-outline">
+              class="btn-patrio-green-outline" role="button">
         🔊 Monitor: ON
       </button>
     </div>
@@ -68,13 +68,13 @@
     <!-- ── Barra FX clásicos ──────────────────────────── -->
     <p class="section-label">FX Clásicos</p>
     <div class="fx-bar" role="group" aria-label="Efectos de sonido clásicos">
-      <button class="fx-btn" id="sirenBtn" aria-label="Reproducir sirena sonidera">
+      <button class="fx-btn" id="sirenBtn" aria-label="Reproducir sirena sonidera" role="button">
         🚨 Sirena<br><small class="pad-subtitle">Sonidera</small>
       </button>
-      <button class="fx-btn" id="laserBtn" aria-label="Reproducir rayo láser">
+      <button class="fx-btn" id="laserBtn" aria-label="Reproducir rayo láser" role="button">
         💥 Rayo<br><small class="pad-subtitle">Láser</small>
       </button>
-      <button class="fx-btn" id="dropBtn" aria-label="Reproducir pitch drop de tocadiscos">
+      <button class="fx-btn" id="dropBtn" aria-label="Reproducir pitch drop de tocadiscos" role="button">
         🎛️ Disco<br><small class="pad-subtitle">Drop</small>
       </button>
     </div>
@@ -82,19 +82,19 @@
     <!-- ── Barra FX Alarmas Reales ────────────────────── -->
     <p class="section-label">Alarmas &amp; Bocinas</p>
     <div class="fx-bar-ext" role="group" aria-label="Alarmas y bocinas reales">
-      <button class="fx-btn alarm" id="hornBtn" aria-label="Cuerno de aire sonidero">
+      <button class="fx-btn alarm" id="hornBtn" aria-label="Cuerno de aire sonidero" role="button">
         📯 Cuerno<br><small class="pad-subtitle">Air Horn</small>
       </button>
-      <button class="fx-btn alarm" id="policeBtn" aria-label="Sirena policial hi-lo">
+      <button class="fx-btn alarm" id="policeBtn" aria-label="Sirena policial hi-lo" role="button">
         🚓 Patrulla<br><small class="pad-subtitle">Hi-Lo</small>
       </button>
-      <button class="fx-btn alarm" id="backupBtn" aria-label="Alarma de retroceso">
+      <button class="fx-btn alarm" id="backupBtn" aria-label="Alarma de retroceso" role="button">
         🚧 Reversa<br><small class="pad-subtitle">Bip-Bip</small>
       </button>
-      <button class="fx-btn alarm" id="emergencyBtn" aria-label="Alarma de emergencia">
+      <button class="fx-btn alarm" id="emergencyBtn" aria-label="Alarma de emergencia" role="button">
         🔴 Emergencia<br><small class="pad-subtitle">Pulsante</small>
       </button>
-      <button class="fx-btn alarm" id="scratchBtn" aria-label="Scratch de tocadiscos">
+      <button class="fx-btn alarm" id="scratchBtn" aria-label="Scratch de tocadiscos" role="button">
         💿 Scratch<br><small class="pad-subtitle">Vinyl</small>
       </button>
     </div>
@@ -104,44 +104,44 @@
     <div class="presets" id="presets" role="group" aria-label="Presets de voz sonidera">
 
       <!-- Clásicos -->
-      <button class="preset selected" data-preset="changa" aria-pressed="true">
+      <button class="preset selected" data-preset="changa" aria-pressed="true" role="button" aria-label="🎙️La ChangaLocutor clásico (-3 st)">
         <span class="emoji" aria-hidden="true">🎙️</span>La Changa<small>Locutor clásico (-3 st)</small>
       </button>
-      <button class="preset" data-preset="fantasma" aria-pressed="false">
+      <button class="preset" data-preset="fantasma" aria-pressed="false" role="button" aria-label="👻El FantasmaEco fantasmal (-5 st)">
         <span class="emoji" aria-hidden="true">👻</span>El Fantasma<small>Eco fantasmal (-5 st)</small>
       </button>
-      <button class="preset" data-preset="condor" aria-pressed="false">
+      <button class="preset" data-preset="condor" aria-pressed="false" role="button" aria-label="🦅El CóndorGrave profundo (-6 st)">
         <span class="emoji" aria-hidden="true">🦅</span>El Cóndor<small>Grave profundo (-6 st)</small>
       </button>
-      <button class="preset" data-preset="saludo" aria-pressed="false">
+      <button class="preset" data-preset="saludo" aria-pressed="false" role="button" aria-label="📢Saludo LargoFeedback 75%">
         <span class="emoji" aria-hidden="true">📢</span>Saludo Largo<small>Feedback 75%</small>
       </button>
 
       <!-- Efectos creativos -->
-      <button class="preset" data-preset="robot" aria-pressed="false">
+      <button class="preset" data-preset="robot" aria-pressed="false" role="button" aria-label="🤖Robot SonideroModulación cuadrada">
         <span class="emoji" aria-hidden="true">🤖</span>Robot Sonidero<small>Modulación cuadrada</small>
       </button>
-      <button class="preset" data-preset="cumbia" aria-pressed="false">
+      <button class="preset" data-preset="cumbia" aria-pressed="false" role="button" aria-label="🌴Cumbia SecaSolo eco de cinta">
         <span class="emoji" aria-hidden="true">🌴</span>Cumbia Seca<small>Solo eco de cinta</small>
       </button>
-      <button class="preset" data-preset="ardilla" aria-pressed="false">
+      <button class="preset" data-preset="ardilla" aria-pressed="false" role="button" aria-label="🐿️El ChamacoVoz aguda (+3.5 st)">
         <span class="emoji" aria-hidden="true">🐿️</span>El Chamaco<small>Voz aguda (+3.5 st)</small>
       </button>
-      <button class="preset" data-preset="limpio" aria-pressed="false">
+      <button class="preset" data-preset="limpio" aria-pressed="false" role="button" aria-label="🎤Mic LimpioBypass de efectos">
         <span class="emoji" aria-hidden="true">🎤</span>Mic Limpio<small>Bypass de efectos</small>
       </button>
 
       <!-- Nuevos v2 -->
-      <button class="preset" data-preset="chido" aria-pressed="false">
+      <button class="preset" data-preset="chido" aria-pressed="false" role="button" aria-label="🔥El ChidoBarrio con grit">
         <span class="emoji" aria-hidden="true">🔥</span>El Chido<small>Barrio con grit</small>
       </button>
-      <button class="preset" data-preset="salon2000" aria-pressed="false">
+      <button class="preset" data-preset="salon2000" aria-pressed="false" role="button" aria-label="🎪Salón 2000Reverb &amp; eco largo">
         <span class="emoji" aria-hidden="true">🎪</span>Salón 2000<small>Reverb &amp; eco largo</small>
       </button>
-      <button class="preset" data-preset="narrador" aria-pressed="false">
+      <button class="preset" data-preset="narrador" aria-pressed="false" role="button" aria-label="📻El NarradorGrave anunciador">
         <span class="emoji" aria-hidden="true">📻</span>El Narrador<small>Grave anunciador</small>
       </button>
-      <button class="preset" data-preset="trompeta" aria-pressed="false">
+      <button class="preset" data-preset="trompeta" aria-pressed="false" role="button" aria-label="🎺La TrompaModulación AM">
         <span class="emoji" aria-hidden="true">🎺</span>La Trompa<small>Modulación AM</small>
       </button>
     </div>
@@ -170,7 +170,7 @@
     <!-- ── Grabación ─────────────────────────────────── -->
     <div class="record-card">
       <div class="record-row">
-        <button id="recBtn" class="rec-btn" aria-label="Iniciar o detener grabación de saludo">
+        <button id="recBtn" class="rec-btn" aria-label="Iniciar o detener grabación de saludo" role="button">
           ⏺ Grabar Saludo
         </button>
         <div class="rec-time" id="recTime" aria-live="off" aria-label="Tiempo de grabación">00:00</div>
@@ -178,7 +178,7 @@
 
       <div id="downloadZone" class="download-zone" aria-label="Zona de descarga de grabación">
         <div class="audio-preview-row">
-          <audio id="audioPreview" controls aria-label="Vista previa de tu grabación"></audio>
+          <audio id="audioPreview" controls aria-label="Vista previa de tu grabación" role="application"></audio>
         </div>
         <div class="dl-buttons-row">
           <a id="downloadWav"  class="btn-dl btn-dl-wav"  role="button" aria-label="Descargar grabación en formato WAV calidad estudio">
@@ -197,43 +197,43 @@
       <div class="controls">
         <div class="ctrl">
           <label for="pitchSlider">Pitch Semitonos</label>
-          <input type="range" id="pitchSlider" min="-12" max="12" step="0.2" value="-3"
+          <input role="slider" type="range" id="pitchSlider" min="-12" max="12" step="0.2" value="-3"
                  aria-label="Ajuste de pitch en semitonos">
           <span class="val" id="pitchVal" aria-live="off">-3.0 st</span>
         </div>
         <div class="ctrl">
           <label for="timeSlider">Echo Time</label>
-          <input type="range" id="timeSlider" min="0.05" max="0.9" step="0.01" value="0.32"
+          <input role="slider" type="range" id="timeSlider" min="0.05" max="0.9" step="0.01" value="0.32"
                  aria-label="Tiempo de eco en milisegundos">
           <span class="val" id="timeVal" aria-live="off">320 ms</span>
         </div>
         <div class="ctrl">
           <label for="feedbackSlider">Feedback (Tope 85%)</label>
-          <input type="range" id="feedbackSlider" min="0" max="0.85" step="0.01" value="0.55"
+          <input role="slider" type="range" id="feedbackSlider" min="0" max="0.85" step="0.01" value="0.55"
                  aria-label="Nivel de retroalimentación del eco">
           <span class="val" id="feedbackVal" aria-live="off">55%</span>
         </div>
         <div class="ctrl">
           <label for="gateSlider">Noise Gate</label>
-          <input type="range" id="gateSlider" min="-80" max="-20" step="1" value="-48"
+          <input role="slider" type="range" id="gateSlider" min="-80" max="-20" step="1" value="-48"
                  aria-label="Umbral del gate de ruido en decibelios">
           <span class="val" id="gateVal" aria-live="off">-48 dB</span>
         </div>
         <div class="ctrl">
           <label for="mixSlider">Mezcla Dry / Wet</label>
-          <input type="range" id="mixSlider" min="0" max="1" step="0.01" value="0.5"
+          <input role="slider" type="range" id="mixSlider" min="0" max="1" step="0.01" value="0.5"
                  aria-label="Mezcla entre señal seca y señal procesada">
           <span class="val" id="mixVal" aria-live="off">50%</span>
         </div>
         <div class="ctrl">
           <label for="driveSlider">Drive (Saturación)</label>
-          <input type="range" id="driveSlider" min="0" max="1" step="0.01" value="0"
+          <input role="slider" type="range" id="driveSlider" min="0" max="1" step="0.01" value="0"
                  aria-label="Saturación analógica estilo locutor de barrio">
           <span class="val" id="driveVal" aria-live="off">0%</span>
         </div>
         <div class="ctrl">
           <label for="spaceSlider">Space (Reverb Salón)</label>
-          <input type="range" id="spaceSlider" min="0" max="1" step="0.01" value="0.2"
+          <input role="slider" type="range" id="spaceSlider" min="0" max="1" step="0.01" value="0.2"
                  aria-label="Reverberación de salón sonidero">
           <span class="val" id="spaceVal" aria-live="off">20%</span>
         </div>
@@ -255,7 +255,7 @@
     <p>
       <b>Sonidero Memexicanisimos</b> — Software soberano de Estudio Memexicanisimos.<br>
       Inspirado en la cultura popular de los sonideros de México y en el hardware de
-      <a href="https://neutrinolabsmx.com" target="_blank" rel="noopener noreferrer">Neutrino Labs MX</a>.
+      <a href="https://neutrinolabsmx.com" target="_blank" rel="noopener noreferrer" role="link" aria-label="Neutrino Labs MX">Neutrino Labs MX</a>.
     </p>
 
     <!-- ── Aviso Legal &amp; Privacidad ──────────────────── -->
