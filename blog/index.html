@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaceta &amp; Blog Oficial — Memexicanisimos News</title>
+  <meta name="description" content="La crónica del día con la información sobre Farándula, Tecnología, Gaming y los 5 puntos clave del día. Gaceta oficial de Memexicanísimos News.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:;">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600&amp;family=Space+Grotesk:wght@500;600;700;800&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+  <div class="bandera-tri-line"></div>
+
+  <!-- ENCABEZADO DE LA GACETA -->
+  <header class="blog-header">
+    <div class="blog-header-inner">
+      <a href="../index.html" class="blog-brand-title" aria-label="Volver a la portada principal">
+        <span>🇲🇽</span>
+        <span>Memexicanisimos News</span>
+      </a>
+      <nav aria-label="Navegación de retorno">
+        <a href="../index.html" class="btn-volver-portada">
+          <i class="fas fa-arrow-left"></i> Volver a Portada
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="newspaper-container">
+    <!-- CABECERA DEL PERIÓDICO DIGITAL: RÓTULO ÍNTEGRO + PLACA EDITORIAL -->
+    <section class="rotulo-banner-frame" aria-label="Cabecera rotulada de la gaceta">
+      <div class="rotulo-banner-showcase">
+        <img src="assets/banners/rotulo_cabecera_noticiero.jpg" alt="Rótulo Tradicional de Memexicanísimos con El Mashukita y el Ángel de la Independencia" class="rotulo-banner-img" width="996" height="521" loading="eager">
+      </div>
+      <div class="rotulo-banner-editorial">
+        <span class="rotulo-cintillo">El equipo de Memexicanisimos presenta:</span>
+        <h1 class="rotulo-title-main">Memexicanisimos News</h1>
+        <p class="rotulo-subtitle">
+          La crónica del día con la información sobre Farándula, Tecnología, Gaming y los 5 puntos clave del día.
+        </p>
+        <div class="rotulo-cast-strip" aria-label="Mesas editoriales de la barra">
+          <button type="button" class="cast-medallion" data-cat-jump="farandula" title="Filtrar por #Farándula">
+            <img src="assets/personajes/plantilla_farandula_dora.jpg" alt="Dora el Axolote — Farándula" width="46" height="46">
+            <div class="cast-medallion-meta">
+              <strong>Farándula</strong>
+              <span>Dora el Axolote</span>
+            </div>
+          </button>
+          <button type="button" class="cast-medallion" data-cat-jump="tecnologia" title="Filtrar por #Tecnología">
+            <img src="assets/personajes/plantilla_tecnologia_hacker.jpg" alt="El Mashukita Hacker — Tecnología" width="46" height="46">
+            <div class="cast-medallion-meta">
+              <strong>Tecnología</strong>
+              <span>Mashukita Hacker</span>
+            </div>
+          </button>
+          <button type="button" class="cast-medallion" data-cat-jump="gaming" title="Filtrar por #Gaming">
+            <img src="assets/personajes/plantilla_gaming_mashukita.jpg" alt="El Mashukita Gaming — Gaming" width="46" height="46">
+            <div class="cast-medallion-meta">
+              <strong>Gaming</strong>
+              <span>Mashukita Gaming</span>
+            </div>
+          </button>
+          <button type="button" class="cast-medallion" data-cat-jump="noticias" title="Filtrar por #Noticias">
+            <img src="assets/personajes/plantilla_noticias_mashukita.jpg" alt="El Mashukita — 5 Puntos Clave" width="46" height="46">
+            <div class="cast-medallion-meta">
+              <strong>5 Puntos Clave</strong>
+              <span>El Mashukita</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CINTILLO MASTHEAD DE PRENSA -->
+    <div class="press-masthead-meta">
+      <span>GACETA OFICIAL DE MEMEXICANÍSIMOS</span>
+      <span id="press-meta-date">CANCÚN, Q. ROO · 15 DE OCTUBRE DE 2026</span>
+      <span>EDICIÓN DIGITAL ARCHIVADA</span>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN DIARIA Y FILTROS POR HASHTAG -->
+    <div class="press-toolbar">
+      <div class="date-stepper">
+        <button id="btn-prev-day" class="btn-step" aria-label="Edición anterior">
+          <i class="fas fa-chevron-left"></i> Anterior
+        </button>
+        <div id="current-date-pill" class="current-edition-pill">
+          📅 Cargando edición...
+        </div>
+        <button id="btn-next-day" class="btn-step" aria-label="Edición siguiente">
+          Siguiente <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- FILTRADO POR HASHTAGS (#) -->
+      <div class="hashtag-filters" aria-label="Filtrar por sección del periódico">
+        <button data-cat="all" class="hashtag-pill active">#TodasLasNotas</button>
+        <button data-cat="noticias" class="hashtag-pill">#Noticias</button>
+        <button data-cat="tecnologia" class="hashtag-pill">#Tecnología</button>
+        <button data-cat="gaming" class="hashtag-pill">#Gaming</button>
+        <button data-cat="farandula" class="hashtag-pill">#Farándula</button>
+        <button data-cat="cultura" class="hashtag-pill">#Cultura</button>
+      </div>
+    </div>
+
+    <!-- SECCIÓN EDITORIAL PRINCIPAL: MODULACIÓN 3x2 TIPO PERIÓDICO -->
+    <section class="press-fullwidth-section" aria-label="Plana del día con modulación 3x2">
+      <div id="press-grid-3x2" class="modular-grid-3x2">
+        <!-- Tarjetas renderizadas dinámicamente vía blog.js -->
+      </div>
+      <div id="press-empty-state" class="fsm-empty-state hidden">
+        <div class="empty-state-icon">🗞️</div>
+        <h3 class="empty-state-title">Sin notas en esta categoría para la fecha seleccionada</h3>
+        <p class="empty-state-desc">Selecciona <strong>#TodasLasNotas</strong> o explora otra edición diaria en la hemeroteca inferior.</p>
+      </div>
+    </section>
+
+    <!-- HEMEROTECA / CALENDARIO HISTÓRICO AL PIE DE LA CUADRÍCULA -->
+    <section class="hemeroteca-bottom-section" aria-label="Hemeroteca y archivo de ediciones diarias">
+      <div class="hemeroteca-header">
+        <h3 class="hemeroteca-title"><i class="fas fa-archive"></i> Hemeroteca de Ediciones Diarias (Desde el 1 de Octubre)</h3>
+        <p>Selecciona cualquier fecha para consultar su plana completa:</p>
+      </div>
+      <div id="hemeroteca-dates-grid" class="hemeroteca-dates-grid">
+        <!-- Botones de fecha renderizados dinámicamente vía blog.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL DE LECTURA DE CRÓNICA COMPLETA (SIN VIDEOS INCRUSTADOS) -->
+  <div id="press-reader-modal" class="reader-modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+    <div class="reader-modal-card">
+      <button id="press-modal-close" class="reader-modal-close" aria-label="Cerrar crónica">✕</button>
+      <div class="reader-modal-header">
+        <div class="reader-modal-badges">
+          <span id="modal-cat-pill" class="article-category-tag tag-noticias">#NOTICIAS</span>
+          <span id="modal-edition-pill" class="article-edition-label">Noticiero Central</span>
+        </div>
+        <h2 id="modal-headline" class="reader-modal-headline">
+          Título de la Crónica Periodística
+        </h2>
+        <div class="reader-correspondent-bar">
+          <img id="modal-char-img" src="assets/personajes/plantilla_noticias_mashukita.jpg" alt="Corresponsal" class="reader-char-avatar" width="48" height="48">
+          <div class="reader-char-meta">
+            <strong id="modal-char-name">El Mashukita</strong>
+            <span id="modal-byline">Fecha y Mesa Editorial</span>
+          </div>
+        </div>
+      </div>
+
+      <p id="modal-lead-summary" class="reader-lead-summary"></p>
+
+      <div id="modal-content-text" class="reader-body-columns">
+        Contenido completo de la crónica periodística.
+      </div>
+
+      <div id="modal-sources-container" class="reader-sources-box">
+        <!-- Referencias editoriales y fuentes de consulta -->
+      </div>
+    </div>
+  </div>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="blog-footer">
+    <p>© 2026 Memexicanisimos News · Periódico Digital y Hemeroteca Oficial.</p>
+    <p class="blog-footer-sub">
+      <a href="../index.html">← Volver a la Portada Principal</a> · Cancún, Quintana Roo, México.
+    </p>
+  </footer>
+
+  <script src="data/notas-data.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

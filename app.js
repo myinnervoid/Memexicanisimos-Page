@@ -6,8 +6,40 @@
  * ==========================================================================
  */
 
-import { ErrorCode, createApiResponse } from './contracts/errors.js';
+const ErrorCode = Object.freeze({
+  CLIPBOARD_WRITE_FAILED: 'CLIPBOARD_WRITE_FAILED',
+  CLIPBOARD_PERMISSION_DENIED: 'CLIPBOARD_PERMISSION_DENIED',
+  STORAGE_READ_FAILED: 'STORAGE_READ_FAILED',
+  STORAGE_WRITE_FAILED: 'STORAGE_WRITE_FAILED',
+  INVALID_STORAGE_VERSION: 'INVALID_STORAGE_VERSION',
+  FILTER_NO_MATCH: 'FILTER_NO_MATCH',
+  COMPONENT_STATE_INVALID: 'COMPONENT_STATE_INVALID',
+  EXTERNAL_FEED_BLOCKED: 'EXTERNAL_FEED_BLOCKED',
+  CONSENT_REQUIRED: 'CONSENT_REQUIRED',
+  NETWORK_UNAVAILABLE: 'NETWORK_UNAVAILABLE'
+});
 
+const ErrorCatalog = Object.freeze({
+  [ErrorCode.CLIPBOARD_WRITE_FAILED]: {
+    code: ErrorCode.CLIPBOARD_WRITE_FAILED,
+    userMessage: 'No fue posible copiar el texto al portapapeles. Intenta seleccionarlo manualmente.',
+    severity: 'Menor'
+  },
+  [ErrorCode.CLIPBOARD_PERMISSION_DENIED]: {
+    code: ErrorCode.CLIPBOARD_PERMISSION_DENIED,
+    userMessage: 'El navegador bloqueó el permiso para acceder al portapapeles.',
+    severity: 'Mayor'
+  }
+});
+
+function createApiResponse(success, data = null, errorCode = null, message = '') {
+  return {
+    success: Boolean(success),
+    data: data,
+    error_code: errorCode,
+    message: message || (errorCode && ErrorCatalog[errorCode] ? ErrorCatalog[errorCode].userMessage : (success ? 'Operación exitosa' : 'Error desconocido'))
+  };
+}
 
 // ==========================================================================
 // ── INICIALIZADORES MODULARES ───────────────────────────────────────────────
@@ -506,6 +538,84 @@ function initPrivacyConsent() {
   checkCookieConsent();
 }
 
+/**
+ * Automatización de las 4 tarjetas canónicas de noticias en el Frontpage.
+ * Carga dinámicamente las notas más recientes desde publicaciones.json
+ * enlazando directamente hacia /blog para no sobrecargar la portada.
+ */
+function initFrontpageNewsAutomation() {
+  const cardFarandula = document.getElementById('frontpage-card-farandula');
+  const cardTecnologia = document.getElementById('frontpage-card-tecnologia');
+  const cardGaming = document.getElementById('frontpage-card-gaming');
+  const cardNoticias = document.getElementById('frontpage-card-noticias');
+
+  if (!cardFarandula && !cardTecnologia && !cardGaming && !cardNoticias) return;
+
+  const updateDOMWithPosts = (posts) => {
+    if (!Array.isArray(posts) || posts.length === 0) return;
+
+    const norm = str => (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+    const findLatest = filterFn => posts.find(p => p.titulo && filterFn(norm(p.categoria)));
+
+    const latestFarandula = findLatest(cat => cat.includes('farandula'));
+    const latestTecnologia = findLatest(cat => cat.includes('tecnolog'));
+    const latestGaming = findLatest(cat => cat.includes('gaming'));
+    const latestNoticias = findLatest(cat => cat.includes('noticia') || cat.includes('resumen'));
+
+    const updateCard = (cardEl, post, catSlug) => {
+      if (!cardEl || !post) return;
+      const linkEl = cardEl.querySelector('.news-card-inner-link');
+      const imgEl = cardEl.querySelector('.frontpage-card-img');
+      const titleEl = cardEl.querySelector('.news-card-title');
+      const descEl = cardEl.querySelector('.news-card-desc');
+      const dateEl = cardEl.querySelector('.frontpage-card-date');
+
+      if (linkEl) {
+        linkEl.href = `blog/index.html?id=${post.id}&cat=${catSlug}`;
+      }
+      if (imgEl && post.imagen_plantilla) {
+        imgEl.src = post.imagen_plantilla;
+      }
+      if (titleEl && post.titulo) {
+        titleEl.textContent = post.titulo;
+      }
+      if (descEl) {
+        const rawNarration = post.narracion || post.descripcion || '';
+        const cleanNarration = rawNarration.replace(/\s+/g, ' ').trim();
+        descEl.textContent = cleanNarration.length > 260 ? cleanNarration.slice(0, 257) + '...' : cleanNarration;
+      }
+      if (dateEl && post.fecha) {
+        const parts = post.fecha.split('-');
+        if (parts.length === 3) {
+          const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+          const mesIdx = parseInt(parts[1], 10) - 1;
+          dateEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${parts[2]} ${meses[mesIdx] || 'Oct'} ${parts[0]}`;
+        }
+      }
+    };
+
+    updateCard(cardFarandula, latestFarandula, 'farandula');
+    updateCard(cardTecnologia, latestTecnologia, 'tecnologia');
+    updateCard(cardGaming, latestGaming, 'gaming');
+    updateCard(cardNoticias, latestNoticias, 'noticias');
+  };
+
+  if (window.MEMEX_PUBLICACIONES && Array.isArray(window.MEMEX_PUBLICACIONES)) {
+    updateDOMWithPosts(window.MEMEX_PUBLICACIONES);
+  } else {
+    fetch('assets/data/publicaciones.json')
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then(posts => updateDOMWithPosts(posts))
+      .catch(err => {
+        console.info('[FRONTPAGE] Usando plantilla canónica de respaldo:', err.message);
+      });
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initTabsNavigation();
   initClipboardFSM();
@@ -513,4 +623,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initBurnerConsoleFSM();
   initFileExplorerFSM();
   initPrivacyConsent();
+  initFrontpageNewsAutomation();
 });

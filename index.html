@@ -48,10 +48,13 @@
         </a>
       </div>
       <nav aria-label="Navegación principal" class="header-nav">
+        <a href="blog/index.html" id="header-blog-btn" aria-label="Gaceta y Blog Oficial" class="btn btn-patrio-gold">
+          <span class="blog-emoji">📰</span> Gaceta / Blog
+        </a>
         <a href="https://myinnervoid.github.io/RotulosWEB" target="_blank" rel="noopener noreferrer" id="header-rotulos-btn" aria-label="Editar esta página en Rótulos Web" class="btn btn-rotulos-web">
           <span class="rotulos-emoji">🎨</span> Editar en Rótulos Web
         </a>
-        <a href="/sonidero/" id="header-sonidero-btn" aria-label="Lanzar Sonidero Web" class="btn btn-sonidero-web">
+        <a href="sonidero/index.html" id="header-sonidero-btn" aria-label="Lanzar Sonidero Web" class="btn btn-sonidero-web">
           <span class="sonidero-emoji">🎙️</span> Sonidero
         </a>
       </nav>
@@ -134,84 +137,104 @@
     <!-- ================= SECCIÓN 1: NOTICIAS & CRÓNICAS POPULARES (REGIÓN CENTRO) ================= -->
     <section id="noticias-news" role="tabpanel" aria-labelledby="tab-noticias-news" tabindex="0" class="product-section region-centro active">
       <div class="product-header">
-        <div class="badge-product badge-centro">🏵️💀 Tradición &amp; Crónica · Altar de Muertos &amp; Todos Santos</div>
-        <h2>Memexicanisimos News: Crónicas de Todos Santos</h2>
+        <div class="badge-product badge-centro">🇲🇽🗞️ Barra Diaria de Programación · Noticias Populares &amp; Gaceta</div>
+        <h2>Memexicanisimos News: Resumen y Tendencias</h2>
         <p>
-          Historias del más acá y del más allá, pan de muerto recién horneado, ofrendas florales y visitas a los panteones más representativos de México.
+          Las notas con la información más relevante del día en Farándula, Tecnología, Gaming y los temas clave de México con nuestros anfitriones oficiales.
         </p>
       </div>
       <div class="news-capsules-grid">
-        <!-- Cápsula 1: Panadería La Chona -->
-        <article class="news-card">
-          <div class="news-card-media">
-            <span class="news-card-tag tag-panaderia">PANADERIA LA CHONA</span>
-            <img src="assets/Dia de muertos/panaderia.png" alt="Especial de Todos Santos: Pan de Muerto en Panadería La Chona" loading="lazy" width="922" height="1152">
-          </div>
-          <div class="news-card-content">
-            <h3 class="news-card-title">Especial de Todos Santos: Pan de Muerto</h3>
-            <p class="news-card-desc">
-              Desde la panaderia probando los panes para ser juez en la competencia de la mejor panaderia, deseenme suerte en no engordar.
-            </p>
-            <div class="news-card-footer">
-              <span><i class="far fa-calendar-alt"></i> Octubre 2026</span>
-              <span><i class="fas fa-bread-slice"></i> Panaderia Don Nono</span>
+        <!-- Cápsula 1: Farándula (Dora el Axolote) -->
+        <article class="news-card" id="frontpage-card-farandula" data-category="farandula">
+          <a href="blog/index.html?cat=farandula" class="news-card-inner-link" aria-label="Leer nota de Farándula en el Blog">
+            <div class="news-card-media">
+              <span class="news-card-tag tag-farandula">DORA EL AXOLOTE · FARÁNDULA</span>
+              <img src="assets/personajes/plantilla_farandula_dora.jpg" alt="Dora el Axolote — Crónica de Farándula" loading="lazy" width="720" height="1280" class="frontpage-card-img">
             </div>
-          </div>
+            <div class="news-card-content">
+              <h3 class="news-card-title">⚖️ Juicios y Reestructuras en el Espectáculo 🎬</h3>
+              <p class="news-card-desc">
+                Te lo resumo: mientras los reflectores apuntan a la alfombra roja, en los tribunales y consejos de administración se redefine el control de catálogos, contratos de exclusividad y taquilla en México.
+              </p>
+              <div class="news-card-footer">
+                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 15 Oct 2026</span>
+                <span class="news-card-readmore">Leer en Blog <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </a>
         </article>
 
-        <!-- Cápsula 2: Mercado 23 Cancún -->
-        <article class="news-card">
-          <div class="news-card-media">
-            <span class="news-card-tag tag-mercado">MERCADO 23 · CANCÚN</span>
-            <img src="assets/Dia de muertos/Mercado.png" alt="Ruta Gastronómica: Antojitos Benito y Tortillas" loading="lazy" width="1024" height="1024">
-          </div>
-          <div class="news-card-content">
-            <h3 class="news-card-title">Ruta Gastronómica: Antojitos Benito y Tortillas</h3>
-            <p class="news-card-desc">
-              Nos trasladamos al emblemático Mercado 23 de Cancún. Reportando el olor a nixtamal recién salido, los tacos de cochinita pibil y panuchos con cebolla morada.
-            </p>
-            <div class="news-card-footer">
-              <span><i class="fas fa-utensils"></i> Gastronomia Local</span>
-              <span><i class="fas fa-pepper-hot"></i> Tradiciones</span>
+        <!-- Cápsula 2: Tecnología (El Mashukita Hacker) -->
+        <article class="news-card" id="frontpage-card-tecnologia" data-category="tecnologia">
+          <a href="blog/index.html?cat=tecnologia" class="news-card-inner-link" aria-label="Leer nota de Tecnología en el Blog">
+            <div class="news-card-media">
+              <span class="news-card-tag tag-tecnologia">EL MASHUKITA HACKER · TECNOLOGÍA</span>
+              <img src="assets/personajes/plantilla_tecnologia_hacker.jpg" alt="El Mashukita Hacker — Búnker Tecnológico" loading="lazy" width="720" height="1280" class="frontpage-card-img">
             </div>
-          </div>
+            <div class="news-card-content">
+              <h3 class="news-card-title">Robo masivo de criptos 🚨 y anteojos inteligentes de Alibaba</h3>
+              <p class="news-card-desc">
+                Te lo resumo: un ataque coordinado drena millones en activos digitales por vulnerabilidades de custodia, mientras Alibaba lanza hardware óptico con inteligencia artificial integrada para competir en el mercado asiático y global.
+              </p>
+              <div class="news-card-footer">
+                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 15 Oct 2026</span>
+                <span class="news-card-readmore">Leer en Blog <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </a>
         </article>
 
-        <!-- Cápsula 3: Panteón y Mariachis -->
-        <article class="news-card">
-          <div class="news-card-media">
-            <span class="news-card-tag tag-panteon">PANTEÓN</span>
-            <img src="assets/Dia de muertos/mariachi.png" alt="Crónica Popular: Entre el muerto y los Mariachis" loading="lazy" width="1024" height="1024">
-          </div>
-          <div class="news-card-content">
-            <h3 class="news-card-title">Crónica Popular: Entre el muerto y los Mariachis</h3>
-            <p class="news-card-desc">
-              Desde donde todos entraron con los pies por delante y dejaron llorando a sus seres queridos, no los olvidamos.
-            </p>
-            <div class="news-card-footer">
-              <span><i class="fas fa-skull"></i> Vida Cotidiana</span>
-              <span><i class="fas fa-guitar"></i> Crónica Urbana</span>
+        <!-- Cápsula 3: Gaming (El Mashukita Gaming) -->
+        <article class="news-card" id="frontpage-card-gaming" data-category="gaming">
+          <a href="blog/index.html?cat=gaming" class="news-card-inner-link" aria-label="Leer nota de Gaming en el Blog">
+            <div class="news-card-media">
+              <span class="news-card-tag tag-gaming">EL MASHUKITA GAMING · VIDEOJUEGOS</span>
+              <img src="assets/personajes/plantilla_gaming_mashukita.jpg" alt="El Mashukita Gaming — Reporte de Videojuegos" loading="lazy" width="720" height="1280" class="frontpage-card-img">
             </div>
-          </div>
+            <div class="news-card-content">
+              <h3 class="news-card-title">🎮 Cae exploit en PS5 y la industria se sacude</h3>
+              <p class="news-card-desc">
+                Te lo resumo: investigadores de seguridad revelan una vulnerabilidad crítica en el kernel de PlayStation 5 que obliga a parches de emergencia, mientras los estudios ajustan calendarios y precios en la recta final del año.
+              </p>
+              <div class="news-card-footer">
+                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 15 Oct 2026</span>
+                <span class="news-card-readmore">Leer en Blog <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </a>
         </article>
 
-        <!-- Cápsula 4: Ofrendas y Familia -->
-        <article class="news-card">
-          <div class="news-card-media">
-            <span class="news-card-tag tag-ofrendas">OFRENDAS Y FAMILIA</span>
-            <img src="assets/Dia de muertos/Panteon.png" alt="La Mística Nocturna: Paseos por el panteón" loading="lazy" width="922" height="1152">
-          </div>
-          <div class="news-card-content">
-            <h3 class="news-card-title">La Mística Nocturna: Paseos por el panteón</h3>
-            <p class="news-card-desc">
-              Investigación a altas horas de la noche con los visitantes de los familiares que residen en el panteón y disfrutando del ambiente.
-            </p>
-            <div class="news-card-footer">
-              <span><i class="fas fa-moon"></i> Turno Nocturno</span>
-              <span><i class="fas fa-monument"></i> Al Panteón</span>
+        <!-- Cápsula 4: Noticiero Nacional (El Mashukita) -->
+        <article class="news-card" id="frontpage-card-noticias" data-category="noticias">
+          <a href="blog/index.html?cat=noticias" class="news-card-inner-link" aria-label="Leer nota del Noticiero Nacional en el Blog">
+            <div class="news-card-media">
+              <span class="news-card-tag tag-noticias">EL MASHUKITA · 5 PUNTOS CLAVE</span>
+              <img src="assets/personajes/plantilla_noticias_mashukita.jpg" alt="El Mashukita — Canal 9 Noticias" loading="lazy" width="720" height="1280" class="frontpage-card-img">
             </div>
-          </div>
+            <div class="news-card-content">
+              <h3 class="news-card-title">NOTICIERO MASTER: Cárteles, Tensiones y Operativos en México</h3>
+              <p class="news-card-desc">
+                Te lo resumo: análisis de los cinco temas determinantes de la jornada nacional en seguridad federal, despliegues en Sinaloa, indicadores económicos y resoluciones legislativas con impacto directo en el país.
+              </p>
+              <div class="news-card-footer">
+                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 15 Oct 2026</span>
+                <span class="news-card-readmore">Leer en Blog <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </a>
         </article>
+      </div>
+
+      <!-- Banner de llamado a la acción para no sobrecargar el Frontpage -->
+      <div class="news-blog-cta-banner">
+        <div class="blog-cta-info">
+          <div class="blog-cta-badge">🗞️ PERIÓDICO DIGITAL &amp; HEMEROTECA</div>
+          <h3>¿Quieres leer las crónicas completas desde el 1 de Octubre?</h3>
+          <p>Consulta la edición diaria en cuadrícula periodística 3×2, filtra por sección con hashtags y revisa las fuentes oficiales de cada nota.</p>
+        </div>
+        <a href="blog/index.html" class="btn btn-hero-primary blog-cta-btn">
+          <i class="fas fa-newspaper"></i> Abrir Periódico Digital
+        </a>
       </div>
     </section>
 
@@ -475,10 +498,10 @@
             Procesador de voz sonidero en vivo ejecutado al 100% en tu navegador con Web Audio API y AudioWorklets. Transposición tonal en tiempo real (Pitch Shifter de Hann), eco analógico con arrastre de cinta (Tape Delay Sweep), compuerta de ruido, sirenas sonideras y exportación directa a WAV de 16-bit sin pérdida para mandar saludos con estilo.
           </p>
           <div class="actions-group">
-            <a href="/sonidero/" class="btn btn-patrio-gold">
+            <a href="sonidero/index.html" class="btn btn-patrio-gold">
               <i class="fas fa-play"></i> Abrir Sonidero Web
             </a>
-            <a href="/sonidero/" class="btn btn-outline">
+            <a href="sonidero/index.html" class="btn btn-outline">
               <i class="fas fa-sliders"></i> Probar en Cabina
             </a>
           </div>
@@ -497,10 +520,71 @@
       </div>
     </section>
 
-    <!-- ================= SECCIÓN 3: REDES SOCIALES & FEED (REGIÓN SUR / CARIBE) ================= --><section id="redes-sociales" role="tabpanel" aria-labelledby="tab-redes-sociales" tabindex="0" class="product-section region-sur"><div class="product-header"><div class="badge-product badge-sur">🌴 Región Sur &amp; Caribe · Comunidad Viva (28k seguidores)</div><h2>Sigue la Actividad de Memexicanisimos</h2><p>Conéctate a la comunidad de más de 28,000 seguidores en Facebook y nuestros canales reactivados de contenido
-          diario.</p></div><div class="social-channels-grid"><!-- Feed de Facebook con Consentimiento Seguro LFPDPPP --><div id="fb-embed-container" class="facebook-embed-wrapper"><div class="fb-blocked-placeholder"><i class="fab fa-facebook-f"></i><h4>Feed Oficial de Facebook</h4><p>Para cargar las publicaciones interactivas de Facebook, acepta el uso de cookies sociales en el banner
-              inferior o accede de forma directa.</p><a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green"><i class="fab fa-facebook"></i> Ir a Facebook Directo
-            </a></div></div><!-- Muro de Canales Oficiales --><div class="social-links-column"><a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item facebook"><div class="icon-social-box"><i class="fab fa-facebook-f"></i></div><div class="social-text-info"><h4>Facebook Oficial (28k seguidores)</h4><p>Comunidad histórica, noticias de actualidad y memes de la nación.</p></div><span class="arrow-go"><i class="fas fa-chevron-right"></i></span></a><a href="https://x.com/memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item twitter-box"><div class="icon-social-box"><i class="fab fa-x-twitter"></i></div><div class="social-text-info"><h4>X (Twitter) · @memexicanisimos</h4><p>Hilos de desarrollo, opiniones y cápsulas en vivo.</p></div><span class="arrow-go"><i class="fas fa-chevron-right"></i></span></a><a href="https://tiktok.com/@memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item tiktok"><div class="icon-social-box"><i class="fab fa-tiktok"></i></div><div class="social-text-info"><h4>TikTok Oficial de la Marca · @memexicanisimos</h4><p>Videos oficiales de la página, humor patrio, animaciones y monito reportero.</p></div><span class="arrow-go"><i class="fas fa-chevron-right"></i></span></a><a href="https://youtube.com/@memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item youtube"><div class="icon-social-box"><i class="fab fa-youtube"></i></div><div class="social-text-info"><h4>Canal de YouTube Oficial</h4><p>Transmisiones en vivo, tutoriales de software libre y crónicas.</p></div><span class="arrow-go"><i class="fas fa-chevron-right"></i></span></a><!-- Reddit: Espacio Comunitario en Preparación --><div class="social-card-item reddit-box"><div class="icon-social-box"><i class="fab fa-reddit-alien"></i></div><div class="social-text-info"><h4>Comunidad Reddit · r/memexicanisimos</h4><p>Espacio en preparación para debates libres, memes comunitarios y código.</p></div><span class="badge-product">Próximamente</span></div></div></div></section>
+    <!-- ================= SECCIÓN 3: REDES SOCIALES & FEED (REGIÓN SUR / CARIBE) ================= -->
+    <section id="redes-sociales" role="tabpanel" aria-labelledby="tab-redes-sociales" tabindex="0" class="product-section region-sur">
+      <div class="product-header">
+        <div class="badge-product badge-sur">🌴 Región Sur &amp; Caribe · Comunidad Viva (28k seguidores)</div>
+        <h2>Sigue la Actividad de Memexicanisimos</h2>
+        <p>Conéctate a la comunidad de más de 28,000 seguidores en Facebook y nuestros canales reactivados de contenido diario.</p>
+      </div>
+      <div class="social-channels-grid">
+        <!-- Feed de Facebook con Consentimiento Seguro LFPDPPP -->
+        <div id="fb-embed-container" class="facebook-embed-wrapper">
+          <div class="fb-blocked-placeholder">
+            <i class="fab fa-facebook-f"></i>
+            <h4>Feed Oficial de Facebook</h4>
+            <p>Para cargar las publicaciones interactivas de Facebook, acepta el uso de cookies sociales en el banner inferior o accede de forma directa.</p>
+            <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green">
+              <i class="fab fa-facebook"></i> Ir a Facebook Directo
+            </a>
+          </div>
+        </div>
+        <!-- Muro de Canales Oficiales -->
+        <div class="social-links-column">
+          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item facebook">
+            <div class="icon-social-box"><i class="fab fa-facebook-f"></i></div>
+            <div class="social-text-info">
+              <h4>Facebook Oficial (28k seguidores)</h4>
+              <p>Comunidad histórica, noticias de actualidad y memes de la nación.</p>
+            </div>
+            <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+          </a>
+          <a href="https://x.com/memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item twitter-box">
+            <div class="icon-social-box"><i class="fab fa-x-twitter"></i></div>
+            <div class="social-text-info">
+              <h4>X (Twitter) · @memexicanisimos</h4>
+              <p>Hilos de desarrollo, opiniones y cápsulas en vivo.</p>
+            </div>
+            <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+          </a>
+          <a href="https://tiktok.com/@memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item tiktok">
+            <div class="icon-social-box"><i class="fab fa-tiktok"></i></div>
+            <div class="social-text-info">
+              <h4>TikTok Oficial de la Marca · @memexicanisimos</h4>
+              <p>Videos oficiales de la página, humor patrio, animaciones y monito reportero.</p>
+            </div>
+            <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+          </a>
+          <a href="https://youtube.com/@memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-card-item youtube">
+            <div class="icon-social-box"><i class="fab fa-youtube"></i></div>
+            <div class="social-text-info">
+              <h4>Canal de YouTube Oficial</h4>
+              <p>Transmisiones en vivo, tutoriales de software libre y crónicas.</p>
+            </div>
+            <span class="arrow-go"><i class="fas fa-chevron-right"></i></span>
+          </a>
+          <!-- Reddit: Espacio Comunitario en Preparación -->
+          <div class="social-card-item reddit-box">
+            <div class="icon-social-box"><i class="fab fa-reddit-alien"></i></div>
+            <div class="social-text-info">
+              <h4>Comunidad Reddit · r/memexicanisimos</h4>
+              <p>Espacio en preparación para debates libres, memes comunitarios y código.</p>
+            </div>
+            <span class="badge-product">Próximamente</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ================= SECCIÓN 4: NOSOTROS Y APOYO (CARIBE MEXICANO) ================= -->
     <section id="nosotros-apoyo" role="tabpanel" aria-labelledby="tab-nosotros-apoyo" tabindex="0" class="product-section region-sur">
@@ -651,12 +735,13 @@
         <span>·</span>
         <a href="https://github.com/myinnervoid/Memexicanisimos-Android-Screen-Viewer/issues" target="_blank" rel="noopener noreferrer">Reportar un error (MASV)</a>
         <span>·</span>
-        <a href="/legal.html" class="legal-link-footer">Aviso de Privacidad y Términos</a>
+        <a href="legal.html" class="legal-link-footer">Aviso de Privacidad y Términos</a>
       </div>
     </div>
   </footer>
 
   <!-- Scripts de la plataforma -->
-  <script type="module" src="app.js"></script>
+  <script src="assets/data/publicaciones-data.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
