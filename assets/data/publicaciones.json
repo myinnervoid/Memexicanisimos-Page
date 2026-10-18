@@ -24,12 +24,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-18T23:10:54.433Z"
+    "estado": "publicado"
   },
   {
     "id": 168,
@@ -52,12 +47,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-18T21:10:56.439Z"
+    "estado": "publicado"
   },
   {
     "id": 167,
@@ -88,12 +78,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-18T19:10:55.442Z"
+    "estado": "publicado"
   },
   {
     "id": 166,
@@ -120,12 +105,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-18T18:10:55.987Z"
+    "estado": "publicado"
   },
   {
     "id": 163,
@@ -156,12 +136,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-18T02:00:54.089Z"
+    "estado": "publicado"
   },
   {
     "id": 164,
@@ -188,12 +163,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "https://www.instagram.com/reel/Denk_PLDOs6/",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-18T02:20:52.719Z"
+    "estado": "publicado"
   },
   {
     "id": 165,
@@ -216,12 +186,7 @@
         "tipo": "Pulso Informativo"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-18T02:40:52.939Z"
+    "estado": "publicado"
   },
   {
     "id": 162,
@@ -248,12 +213,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-17T23:10:55.549Z"
+    "estado": "publicado"
   },
   {
     "id": 161,
@@ -276,12 +236,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-17T21:10:55.422Z"
+    "estado": "publicado"
   },
   {
     "id": 160,
@@ -312,12 +267,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/Demz1xPiWKy/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-17T19:10:52.793Z"
+    "estado": "publicado"
   },
   {
     "id": 159,
@@ -340,12 +290,7 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-17T19:03:01.284Z"
+    "estado": "publicado"
   },
   {
     "id": 156,
@@ -376,12 +321,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "error",
-    "instagram": "omitido",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697451035257736466",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-17T02:00:56.950Z"
+    "estado": "publicado"
   },
   {
     "id": 157,
@@ -408,12 +348,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "https://www.instagram.com/reel/DelAMj7DkKR/",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-17T02:20:52.458Z"
+    "estado": "publicado"
   },
   {
     "id": 158,
@@ -440,12 +375,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "pendiente",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-17T02:40:52.773Z"
+    "estado": "publicado"
   },
   {
     "id": 155,
@@ -472,12 +402,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697407141241572616",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T23:10:54.725Z"
+    "estado": "publicado"
   },
   {
     "id": 154,
@@ -500,12 +425,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697376433362029840",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T21:10:53.784Z"
+    "estado": "publicado"
   },
   {
     "id": 153,
@@ -532,12 +452,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697345340290239751",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T19:10:55.877Z"
+    "estado": "publicado"
   },
   {
     "id": 152,
@@ -564,12 +479,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "pendiente",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697329864994589970",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T18:10:58.683Z"
+    "estado": "publicado"
   },
   {
     "id": 149,
@@ -604,12 +514,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697079824506047752",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T02:01:03.560Z"
+    "estado": "publicado"
   },
   {
     "id": 150,
@@ -636,12 +541,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "https://www.instagram.com/reel/DeibZYKCfaX/",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T02:20:54.408Z"
+    "estado": "publicado"
   },
   {
     "id": 151,
@@ -672,12 +572,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "https://www.instagram.com/reel/Deidr3REaET/",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T02:40:52.419Z"
+    "estado": "publicado"
   },
   {
     "id": 148,
@@ -704,12 +599,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeiFumRjRN3/",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697064255819943186",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T01:00:25.000Z"
+    "estado": "publicado"
   },
   {
     "id": 147,
@@ -732,12 +622,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697066839758785799",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T00:59:23.304Z"
+    "estado": "publicado"
   },
   {
     "id": 146,
@@ -768,12 +653,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T00:58:20.620Z"
+    "estado": "publicado"
   },
   {
     "id": 145,
@@ -800,12 +680,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7697063397539499280",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-16T00:56:57.174Z"
+    "estado": "publicado"
   },
   {
     "id": 142,
@@ -840,12 +715,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "error",
-    "instagram": "omitido",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7696713953958825223",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-15T02:01:13.596Z"
+    "estado": "publicado"
   },
   {
     "id": 143,
@@ -872,12 +742,7 @@
         "tipo": "Fuente Institucional"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "https://www.instagram.com/reel/Def2m_Qj7RW/",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-15T02:20:52.930Z"
+    "estado": "publicado"
   },
   {
     "id": 144,
@@ -904,12 +769,7 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-15T02:40:52.374Z"
+    "estado": "publicado"
   },
   {
     "id": 140,
@@ -936,12 +796,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/Defg6UHj_QE/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-14T23:10:54.781Z"
+    "estado": "publicado"
   },
   {
     "id": 139,
@@ -964,12 +819,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-14T21:10:55.485Z"
+    "estado": "publicado"
   },
   {
     "id": 138,
@@ -1000,12 +850,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-14T19:10:54.636Z"
+    "estado": "publicado"
   },
   {
     "id": 137,
@@ -1028,12 +873,7 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-14T18:10:59.966Z"
+    "estado": "publicado"
   },
   {
     "id": 134,
@@ -1072,12 +912,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "error",
-    "instagram": "omitido",
-    "tiktok": "publicado",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-14T02:00:56.852Z"
+    "estado": "publicado"
   },
   {
     "id": 135,
@@ -1104,12 +939,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "https://www.instagram.com/reel/DedR40Gjjfw/",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-14T02:20:52.806Z"
+    "estado": "publicado"
   },
   {
     "id": 136,
@@ -1136,12 +966,7 @@
         "tipo": "Fuente Institucional"
       }
     ],
-    "facebook": "omitido",
-    "instagram": "https://www.instagram.com/reel/DedUGJYjp_a/",
-    "tiktok": "publicado",
-    "youtube": "omitido",
-    "estado": "publicado",
-    "timestamp": "2026-10-14T02:40:53.796Z"
+    "estado": "publicado"
   },
   {
     "id": 132,
@@ -1168,12 +993,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/Dec8IUOjo5Z/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-13T23:10:54.643Z"
+    "estado": "publicado"
   },
   {
     "id": 131,
@@ -1196,12 +1016,65 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-13T21:10:55.398Z"
+    "estado": "publicado"
+  },
+  {
+    "id": 130,
+    "fecha": "2026-10-13",
+    "categoria": "Tecnología",
+    "edicion": "Despacho de Ciencia y Tecnología",
+    "titulo": "🚀 Ciberataques a Refrigeración y Megacentros de Datos en la Mira",
+    "descripcion": "",
+    "narracion": "Te lo resumo: La infraestructura crítica global sufre embates simultáneos entre sabotajes digitales y una masiva expansión física de centros de datos. En Francia, un ciberataque coordinado contra los sistemas de refrigeración y congeladores de cientos de supermercados provocó pérdidas económicas millonarias, evidenciando las severas vulnerabilidades en las redes de cadena de frío y los sistemas de automatización industrial. Este incidente expone cómo la interconexión operativa sin protocolos estrictos de ciberseguridad compromete el suministro básico de alimentos en zonas urbanas densas. Paralelamente, la industria tecnológica acelera su huella inmobiliaria. En la frontera norte, las inversiones corporativas continúan sumando megacentros de datos para satisfacer la demanda masiva de procesamiento de inteligencia artificial y computación en la nube. Sin embargo, esta fiebre de infraestructura genera fricciones sociales agudas en comunidades locales de Estados Unidos, donde la escasez de recursos hídricos y las altas demandas energéticas polarizan el debate sobre el verdadero costo de la digitalización moderna. La tensión entre la expansión de hardware y la resistencia civil redefine los límites de la economía digital. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Mesa de Tecnología y Sistemas",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Ciencia y Tecnología",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Google Trends México · Búsquedas Tecnológicas",
+        "tipo": "Monitor de Tendencias"
+      },
+      {
+        "nombre": "Instituto Federal de Telecomunicaciones (IFT)",
+        "tipo": "Datos Oficiales"
+      },
+      {
+        "nombre": "Reportes Técnicos de Fabricantes y Semiconductores",
+        "tipo": "Ficha Técnica"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 129,
+    "fecha": "2026-10-13",
+    "categoria": "Farándula",
+    "edicion": "Crónica de Espectáculos",
+    "titulo": "Litigios, contratos y crisis de imagen en la industria del espectáculo en México ⚖️📉",
+    "descripcion": "Análisis con datos verificados en Farándula.",
+    "narracion": "Te lo resumo: Aleks Syntek frena sus giras internacionales ante litigios por daño moral y severas pérdidas millonarias. Las cancelaciones de presentaciones masivas no sólo responden a la controversia pública, sino a la aplicación estricta de cláusulas de rescisión contenidas en las pólizas de seguros de cobertura y a penalizaciones contractuales directas impuestas por promotores de recintos comerciales en México y el extranjero. Estas medidas corporativas buscan mitigar el riesgo financiero ante demandas cruzadas en tribunales civiles mexicanos, donde se evalúa el lucro cesante y la afectación directa al valor patrimonial de la marca artística en el mercado formal. Paralelamente, la industria del entretenimiento enfrenta severas tensiones por derechos de explotación comercial. En el centro de la controversia figuran las disputas por licencias de catálogo musical gestionadas ante el Instituto Nacional del Derecho de Autor, INDAUTOR. Estos conflictos legales frenan la producción de bioseries de alta demanda como el proyecto de Timbiriche, donde las normativas de la Asociación Nacional de Actores y las plataformas de streaming exigen una titularidad plenamente blindada para evitar litigios millonarios por uso no autorizado de fonogramas y marcas registradas. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Espectáculos",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Espectáculos",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Google Trends México · Tendencias Entretenimiento",
+        "tipo": "Monitor de Audiencia"
+      },
+      {
+        "nombre": "Boletines de Medios y Plataformas Audiovisuales MX",
+        "tipo": "Comunicado Oficial"
+      }
+    ],
+    "estado": "publicado"
   },
   {
     "id": 126,
@@ -1228,12 +1101,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "error",
-    "instagram": "omitido",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695966696678362375",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-13T02:01:04.744Z"
+    "estado": "publicado"
   },
   {
     "id": 124,
@@ -1260,12 +1128,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695922643647630593",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-12T23:10:54.389Z"
+    "estado": "publicado"
   },
   {
     "id": 123,
@@ -1288,12 +1151,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeaJnwzDv21/",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695891912087145748",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-12T21:10:56.684Z"
+    "estado": "publicado"
   },
   {
     "id": 122,
@@ -1320,12 +1178,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695861027556117778",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-12T19:10:56.917Z"
+    "estado": "publicado"
   },
   {
     "id": 120,
@@ -1360,12 +1213,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695595619280407816",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-12 04:16:39"
+    "estado": "publicado"
   },
   {
     "id": 115,
@@ -1392,12 +1240,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeXyg1pDr14/",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695551716581854482",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-12T04:14:56.271Z"
+    "estado": "publicado"
   },
   {
     "id": 114,
@@ -1420,12 +1263,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695611178671705351",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-11T21:10:04.169Z"
+    "estado": "publicado"
   },
   {
     "id": 113,
@@ -1456,12 +1294,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695489863260425480",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-11T19:10:53.885Z"
+    "estado": "publicado"
   },
   {
     "id": 112,
@@ -1488,12 +1321,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695474432617237778",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-11T18:10:53.930Z"
+    "estado": "publicado"
   },
   {
     "id": 109,
@@ -1524,12 +1352,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7695224457312406792",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-11T02:00:54.925Z"
+    "estado": "publicado"
   },
   {
     "id": 107,
@@ -1556,12 +1379,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeVNt27gWBb/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-10T23:10:55.515Z"
+    "estado": "publicado"
   },
   {
     "id": 106,
@@ -1584,12 +1402,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": null,
-    "instagram": null,
-    "tiktok": "error",
-    "youtube": null,
-    "estado": "publicado",
-    "timestamp": "2026-10-10T21:10:03.955Z"
+    "estado": "publicado"
   },
   {
     "id": 105,
@@ -1616,12 +1429,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeUyPuIkQHr/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-10T19:10:53.278Z"
+    "estado": "publicado"
   },
   {
     "id": 104,
@@ -1644,12 +1452,7 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeUrYrxkYHZ/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-10T18:10:58.612Z"
+    "estado": "publicado"
   },
   {
     "id": 101,
@@ -1680,12 +1483,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-10T02:00:55.258Z"
+    "estado": "publicado"
   },
   {
     "id": 99,
@@ -1712,12 +1510,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeSo61HkQUJ/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-09T23:10:53.117Z"
+    "estado": "publicado"
   },
   {
     "id": 98,
@@ -1740,12 +1533,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-09T22:27:47.822Z"
+    "estado": "publicado"
   },
   {
     "id": 97,
@@ -1772,12 +1560,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeSNeUWj44a/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-09T19:10:53.645Z"
+    "estado": "publicado"
   },
   {
     "id": 96,
@@ -1804,12 +1587,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeSGmqaD_kn/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-09T18:10:55.165Z"
+    "estado": "publicado"
   },
   {
     "id": 93,
@@ -1840,12 +1618,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-09T02:00:55.929Z"
+    "estado": "publicado"
   },
   {
     "id": 91,
@@ -1872,12 +1645,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeQEIY7Dwso/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-08T23:10:54.238Z"
+    "estado": "publicado"
   },
   {
     "id": 90,
@@ -1900,12 +1668,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "error",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-08T21:27:25.347Z"
+    "estado": "publicado"
   },
   {
     "id": 89,
@@ -1932,12 +1695,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DePor_Okxzl/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-08T19:10:55.436Z"
+    "estado": "publicado"
   },
   {
     "id": 88,
@@ -1960,12 +1718,7 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DePh0Uej0o-/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-08T18:10:59.642Z"
+    "estado": "publicado"
   },
   {
     "id": 85,
@@ -2004,12 +1757,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-08T02:00:59.854Z"
+    "estado": "publicado"
   },
   {
     "id": 83,
@@ -2036,12 +1784,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeNfXANjwmR/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-07T23:10:54.874Z"
+    "estado": "publicado"
   },
   {
     "id": 82,
@@ -2064,12 +1807,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "error",
-    "instagram": "error",
-    "tiktok": "error",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-07T21:45:20.091Z"
+    "estado": "publicado"
   },
   {
     "id": 81,
@@ -2096,12 +1834,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeND3jCkXtn/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-07T19:10:52.644Z"
+    "estado": "publicado"
   },
   {
     "id": 80,
@@ -2128,12 +1861,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeM_0_yERVa/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-07T18:28:16.831Z"
+    "estado": "publicado"
   },
   {
     "id": 77,
@@ -2172,12 +1900,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-07T02:01:31.198Z"
+    "estado": "publicado"
   },
   {
     "id": 76,
@@ -2204,12 +1927,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeK6jKIEV8f/",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-06T23:10:54.927Z"
+    "estado": "publicado"
   },
   {
     "id": 75,
@@ -2232,12 +1950,7 @@
         "tipo": "Referencia Cultural"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "https://www.instagram.com/reel/DeKs40LkW_Q/",
-    "tiktok": "error",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-06T21:10:04.571Z"
+    "estado": "publicado"
   },
   {
     "id": 74,
@@ -2268,12 +1981,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-06T19:10:54.590Z"
+    "estado": "publicado"
   },
   {
     "id": 73,
@@ -2300,12 +2008,7 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-06T18:10:56.827Z"
+    "estado": "publicado"
   },
   {
     "id": 70,
@@ -2332,12 +2035,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "omitido",
-    "tiktok": null,
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-06T05:02:00.000Z"
+    "estado": "publicado"
   },
   {
     "id": 69,
@@ -2364,12 +2062,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-05T23:23:25.884Z"
+    "estado": "publicado"
   },
   {
     "id": 68,
@@ -2396,12 +2089,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-05T22:15:39.029Z"
+    "estado": "publicado"
   },
   {
     "id": 67,
@@ -2428,12 +2116,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-05T22:35:43.732Z"
+    "estado": "publicado"
   },
   {
     "id": 64,
@@ -2464,12 +2147,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "no_aplica",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-05T01:10:47.734Z"
+    "estado": "publicado"
   },
   {
     "id": 65,
@@ -2492,12 +2170,7 @@
         "tipo": "Pulso Informativo"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-05T01:30:38.727Z"
+    "estado": "publicado"
   },
   {
     "id": 66,
@@ -2528,12 +2201,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-05T01:55:41.076Z"
+    "estado": "publicado"
   },
   {
     "id": 63,
@@ -2560,12 +2228,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-04T23:10:42.362Z"
+    "estado": "publicado"
   },
   {
     "id": 62,
@@ -2592,12 +2255,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-04T20:35:40.128476Z"
+    "estado": "publicado"
   },
   {
     "id": 61,
@@ -2624,12 +2282,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-04T20:35:40.128476Z"
+    "estado": "publicado"
   },
   {
     "id": 58,
@@ -2664,12 +2317,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "no_aplica",
-    "tiktok": "publicado",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-04T01:10:47.658Z"
+    "estado": "publicado"
   },
   {
     "id": 54,
@@ -2696,12 +2344,7 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": null,
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T17:42:20.118Z"
+    "estado": "publicado"
   },
   {
     "id": 59,
@@ -2728,12 +2371,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-04T01:30:40.276Z"
+    "estado": "publicado"
   },
   {
     "id": 60,
@@ -2764,12 +2402,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-04T01:55:38.227Z"
+    "estado": "publicado"
   },
   {
     "id": 57,
@@ -2796,12 +2429,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "error",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T23:10:42.661Z"
+    "estado": "publicado"
   },
   {
     "id": 56,
@@ -2828,12 +2456,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "error",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T19:10:40.800Z"
+    "estado": "publicado"
   },
   {
     "id": 55,
@@ -2856,12 +2479,7 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T18:10:51.271Z"
+    "estado": "publicado"
   },
   {
     "id": 53,
@@ -2884,12 +2502,7 @@
         "tipo": "Pulso Informativo"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": null,
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T05:02:05.782Z"
+    "estado": "publicado"
   },
   {
     "id": 50,
@@ -2924,12 +2537,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "no_aplica",
-    "tiktok": "https://www.tiktok.com/@memexicanisimos/video/7692302257718709511",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T01:10:44.521Z"
+    "estado": "publicado"
   },
   {
     "id": 51,
@@ -2956,12 +2564,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T01:30:39.178Z"
+    "estado": "publicado"
   },
   {
     "id": 52,
@@ -2988,12 +2591,7 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-03T01:55:39.562Z"
+    "estado": "publicado"
   },
   {
     "id": 49,
@@ -3016,12 +2614,7 @@
         "tipo": "Pulso Comunitario"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-02T23:10:40.766Z"
+    "estado": "publicado"
   },
   {
     "id": 48,
@@ -3048,12 +2641,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-02T19:10:40.262Z"
+    "estado": "publicado"
   },
   {
     "id": 47,
@@ -3080,12 +2668,7 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-02T18:10:54.642Z"
+    "estado": "publicado"
   },
   {
     "id": 44,
@@ -3116,12 +2699,7 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "no_aplica",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-02T01:10:40.332Z"
+    "estado": "publicado"
   },
   {
     "id": 45,
@@ -3148,12 +2726,7 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-02T01:30:30.487Z"
+    "estado": "publicado"
   },
   {
     "id": 46,
@@ -3180,12 +2753,7 @@
         "tipo": "Fuente Institucional"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-02T01:55:30.989Z"
+    "estado": "publicado"
   },
   {
     "id": 43,
@@ -3208,12 +2776,7 @@
         "tipo": "Pulso Comunitario"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-01T23:10:34.061Z"
+    "estado": "publicado"
   },
   {
     "id": 42,
@@ -3244,12 +2807,7 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-01T19:10:32.861Z"
+    "estado": "publicado"
   },
   {
     "id": 41,
@@ -3276,11 +2834,6 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "facebook": "publicado",
-    "instagram": "publicado",
-    "tiktok": "publicado",
-    "youtube": "publicado",
-    "estado": "publicado",
-    "timestamp": "2026-10-01T18:10:41.922Z"
+    "estado": "publicado"
   }
 ]
