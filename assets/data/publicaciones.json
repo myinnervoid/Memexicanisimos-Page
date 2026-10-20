@@ -1,5 +1,225 @@
 [
   {
+    "id": 9003,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "🔴 NOTICIERO MASTER: Chihuahua, Gabinete y Seguridad Nacional 🇲🇽",
+    "descripcion": "Análisis riguroso de los cinco eventos de mayor impacto institucional y social en el país, abarcando el ingreso al Altiplano del exfiscal César Jáuregui, la reestructuración en la Secretaría de Agricultura tras la salida de Leonel Cota, las aclaraciones sobre la continuidad de Zoé Robledo en el IMSS, el cateo en una vivienda en Puerto Morelos y el colapso vial en la autopista México-Puebla.",
+    "narracion": "Te lo resumo: así se mueve el tablero nacional en los 5 puntos clave de México. En el primer punto, el sistema de procuración de justicia registra un movimiento crítico con el ingreso formal de César Jáuregui, exfiscal de Chihuahua, al Centro Federal de Readaptación Social número uno, conocido como El Altiplano, en el Estado de México. La dependencia judicial federal cumplimentó la orden de reclusión bajo acusaciones graves que incluyen presunta traición a la patria y desvío de recursos públicos durante su gestión estatal. Este hecho reconfigura las investigaciones por corrupción política en el norte del país, evidenciando los mecanismos de colaboración entre fiscalías locales y federales para procesar a exfuncionarios de alto nivel señalados por abuso de poder y daño patrimonial al erario público. Pasando al segundo tema, la administración federal ejecuta ajustes de primer orden en su estructura institucional tras confirmarse la salida de Leonel Cota como subsecretario de Agricultura y Desarrollo Rural. La decisión se deriva de un conflicto de interés institucional luego de que su hijo fuera designado coordinador territorial de movimientos políticos en Baja California Sur. Esta remoción subraya el cumplimiento de los criterios de neutralidad política exigidos a los servidores públicos federales, obligando a la Secretaría de Agricultura a reasignar mandos operativos en un momento estratégico para la producción agrícola nacional y el control de precios en la canasta básica mexicana. En tercer lugar, la estabilidad operativa del Instituto Mexicano del Seguro Social enfrenta escrutinio público ante las recientes protestas gremiales y administrativas que cimbraron diversas delegaciones estatales. Ante los cuestionamientos sobre la continuidad de Zoé Robledo al frente de la institución, la administración central aclaró que la prioridad actual es garantizar la basificación de personal médico y la unificación del sistema de salud pública bajo el modelo IMSS-Bienestar. Los datos operativos indican que la presión sindical y las demandas de insumos hospitalarios continúan siendo los principales desafíos presupuestales para evitar paros laborales que afecten la atención a millones de derechohabientes en todo el territorio nacional. Como cuarto punto, las corporaciones de seguridad y procuración de justicia ejecutaron un cateo de alto impacto en una vivienda ubicada en el municipio de Puerto Morelos, en el estado de Quintana Roo, inmueble habitado por la alcaldesa en funciones. La diligencia ministerial, encabezada por fuerzas federales y ministeriales estatales, responde a una carpeta de investigación en curso relacionada con presuntas irregularidades administrativas y posibles vínculos con redes de corrupción inmobiliaria en la zona costera. Este operativo marca un precedente en la fiscalización de autoridades municipales en destinos turísticos de alta prioridad económica, donde la rendición de cuentas institucional es exigida tanto por auditorías superiores como por la ciudadanía local. Finalmente, en el quinto punto, la infraestructura vial del centro del país experimentó una parálisis operativa total tras un fuerte accidente automovilístico registrado en la autopista México-Puebla, específicamente a la altura del kilómetro cuarenta y seis. El percance, que involucró a unidades de carga pesada y vehículos particulares, provocó el cierre indefinido de la circulación en ambos sentidos, generando filas kilométricas de transporte comercial y automovilistas varados por horas. Caminos y Puentes Federales desplegó operativos de emergencia para el retiro de escombros y la atención médica de los heridos, evidenciando nuevamente la vulnerabilidad logística de este corredor industrial clave para el abastecimiento de la zona metropolitana del Valle de México. Es el avance al momento. Recuerda que Memexicanísimos tiene su barra de noticias en farándula, tecnología, gaming y los 5 temas más relevantes del día en México. Con su anfitrión El Mashukita.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Gaceta Oficial de la Ciudad de México",
+        "tipo": "Comunicado Oficial"
+      },
+      {
+        "nombre": "Diario Oficial de la Federación (DOF) / Conferencia Matutina",
+        "tipo": "Fuente Federal"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 173,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "El Sabotaje con Diésel en Pozo Alfonso XIII: Colapso Inducido",
+    "descripcion": "Te lo resumo: La investigación pericial sobre el Pozo Alfonso Trece en la Ciudad de México confirmó oficialmente lo que durante meses intentaron encubrir como una falla técnica: el agente químico que contaminó la red fue diésel puro vertido de forma deliberada en el acuífero. No estamos ante un desc",
+    "narracion": "Te lo resumo: La investigación pericial sobre el Pozo Alfonso Trece en la Ciudad de México confirmó oficialmente lo que durante meses intentaron encubrir como una falla técnica: el agente químico que contaminó la red fue diésel puro vertido de forma deliberada en el acuífero. No estamos ante un descuido operativo, sino ante la ejecución material de una táctica conocida como colapso inducido o ahogar a la bestia. En la alcaldía Benito Juárez, diez colonias padecieron agua aceitosa y vapores tóxicos, obligando a la clausura definitiva de la fuente de abasto. Las denuncias penales en la Fiscalía capitalina apuntan directamente a mandos del programa local Blindar Benito Juárez por haber orquestado la contaminación para detonar pánico social en pleno proceso electoral y justificar el discurso de que el servicio público no sirve y debe privatizarse. El agua potable es un derecho humano tutelado por la Constitución, no un ariete de desestabilización política. Es el avance al momento. Visita memexicanisimos.com.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Gaceta Oficial de la Ciudad de México",
+        "tipo": "Comunicado Oficial"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 9001,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias · Punto 1",
+    "edicion": "Edición Nocturna · Punto 1",
+    "titulo": "🚨 César Jáuregui ingresa al penal del Altiplano bajo graves cargos 🏛️",
+    "descripcion": "Análisis del traslado y reclusión del exfiscal de Chihuahua al penal federal de máxima seguridad, enfrentando cargos por traición a la patria y corrupción.",
+    "narracion": "Te lo resumo: César Jáuregui, exfiscal de Chihuahua, fue ingresado de urgencia al Centro Federal de Readaptación Social número uno, conocido como El Altiplano, en el Estado de México. La medida cautelar dictada por autoridades federales responde a una causa penal donde se le imputan delitos de alta gravedad, incluyendo presunta traición a la patria y ejercicio abusivo de funciones públicas durante su administración en el norte del país. Este mecanismo judicial refleja la intervención de fiscalías federales en casos de corrupción institucional que rebasan el fuero local, buscando asegurar la integridad del proceso penal y evitar riesgos de sustracción de la justicia. Las autoridades penitenciarias implementaron un protocolo especial de vigilancia debido al perfil de los expedientes y las implicaciones políticas derivadas de las investigaciones contra la red de exfuncionarios estatales. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Diario Oficial de la Federación (DOF) / Conferencia Matutina",
+        "tipo": "Fuente Federal"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 9002,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias · Punto 2",
+    "edicion": "Edición Nocturna · Punto 2",
+    "titulo": "⚡ Salida de Leonel Cota de Agricultura tras conflicto político 🚜",
+    "descripcion": "Reestructuración en la Secretaría de Agricultura y Desarrollo Rural tras la solicitud de renuncia a Leonel Cota por motivos de conflicto de interés.",
+    "narracion": "Te lo resumo: Leonel Cota dejó su cargo como subsecretario de Agricultura y Desarrollo Rural tras una solicitud directa de separación del puesto, derivada de procesos de incompatibilidad política. La decisión institucional se concretó luego de que un familiar directo fuera seleccionado para coordinar estructuras partidistas en Baja California Sur, contraviniendo los lineamientos de imparcialidad exigidos en la administración pública federal. Esta reconfiguración obligó a la dependencia a nombrar mandos interinos para garantizar la continuidad en los programas de precios de garantía y apoyo al campo mexicano, sectores que resienten presiones inflacionarias y problemas de distribución. La medida busca blindar los recursos operativos de la secretaría frente a cuestionamientos sobre el uso de la estructura gubernamental en procesos políticos regionales. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Diario Oficial de la Federación (DOF) / Conferencia Matutina",
+        "tipo": "Fuente Federal"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 177,
+    "fecha": "2026-10-19",
+    "categoria": "Gaming",
+    "edicion": "Reporte de Industria y Videojuegos",
+    "titulo": "Nintendo Switch 2 y el Mercado Global de Hardware 🎮",
+    "descripcion": "Análisis de los movimientos en la industria de consolas, especificaciones técnicas de Nintendo Switch 2 y la estrategia de Microsoft en el formato físico.",
+    "narracion": "Te lo resumo: Nintendo y Microsoft mueven fichas críticas con ajustes técnicos y financieros en consolas. La estrategia comercial de la próxima generación redibuja el tablero. La filtración de la cuponera de Costco revela un descuento de dos mil quinientos pesos para la esperada Nintendo Switch 2, cuyo diseño térmico confirma un nuevo ventilador manteniendo la pantalla original. Este ajuste responde a la necesidad de disipar mayor calor ante la presión de la computación en nube y la inteligencia artificial sobre el hardware tradicional. Paralelamente, la división de Xbox en Microsoft reafirma mediante ofertas de empleo que el formato físico seguirá presente en todas sus plataformas, buscando capitalizar los tropiezos logísticos de la competencia directa en Europa y Norteamérica. En el terreno de licencias, Nintendo admitió haber subestimado la demanda global del catálogo de The Legend of Zelda, generando escasez de productos físicos en la tienda europea. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Mesa de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Videojuegos",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Comunidad r/videojuegos y Tendencias Gaming MX",
+        "tipo": "Pulso Comunitario"
+      },
+      {
+        "nombre": "Boletines Oficiales de Publishers y Plataformas",
+        "tipo": "Registro de Industria"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 176,
+    "fecha": "2026-10-19",
+    "categoria": "Historia y Cultura",
+    "edicion": "Crónica Patrimonial · 32 Estados",
+    "titulo": "Día 14: San Luis Potosí — Forma de perrito, enchiladas y los XV de Rubí",
+    "descripcion": "¿El mapa de San Luis Potosí es un perro Schnauzer? 🐶🇲🇽 #cultura #memexicanisimos #sanluispotosi #xilitla #short",
+    "narracion": "Puesto catorce para la encrucijada del centro y la Huasteca: San Luis Potosí, con dos millones ochocientos veintidós mil habitantes. Su gente son los potosinos, también llamados tuneros por sus pencas desérticas.\n\nEn la cocina tienen dos joyas de campeonato: las enchiladas potosinas con masa teñida de chile cascabel rellenas de queso y cebolla, y en la Huasteca el colosal zacahuil, tamal de metro y medio horneado en leña.\n\nEl meme más tierno y viral de la geografía mexicana es innegable: miras el mapa del estado y tiene la silueta exacta y perfecta de un perrito Schnauzer parado en cuatro patas mirando al norte.\n\nY la madre de todos los eventos virales ocurrió aquí: cuando una invitación en video para los quince años de Rubí en La Joya se descontroló y llegaron treinta mil personas de varios países.\n\nEl dato de ensueño está en Xilitla: el millonario excéntrico Edward James construyó un laberinto surrealista con escaleras al cielo y cascadas vivas entre la selva espesa.\n\nCascadas turquesas de Tamul, Real de Catorce y magia pura. Para conocer más historias de los estados de México, visita memexicanisimos.com.",
+    "personaje": "Alex y Dora",
+    "personaje_rol": "Crónica Histórica y Cultural",
+    "imagen_plantilla": "assets/personajes/plantilla_cultura_axolotes.jpg",
+    "fuentes": [
+      {
+        "nombre": "Acervo Histórico y Cronistas Estatales de México",
+        "tipo": "Documentación Patrimonial"
+      },
+      {
+        "nombre": "Catálogo Nacional de Monumentos e Historia Regional (INAH)",
+        "tipo": "Referencia Cultural"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 175,
+    "fecha": "2026-10-19",
+    "categoria": "Tecnología",
+    "edicion": "Despacho de Ciencia y Tecnología",
+    "titulo": "Fraudes Bancarios y Ciberseguridad Global",
+    "descripcion": "Análisis de fraudes bancarios y el impacto energético en la inteligencia artificial con datos duros.",
+    "narracion": "Te lo resumo: las autoridades detuvieron a una red criminal dedicada al robo sistemático de datos bancarios para realizar compras ilícitas por internet. Esta vulnerabilidad expone los riesgos críticos en la seguridad de las aplicaciones financieras y la infraestructura digital de los usuarios. En paralelo, la industria tecnológica enfrenta un panorama financiero adverso ante el encarecimiento de los hidrocarburos y las altas tasas de interés. Estos factores macroeconómicos limitan el desarrollo y escalamiento de los centros de datos necesarios para sostener los complejos modelos de inteligencia artificial actuales. Por otra parte, la infraestructura urbana global continúa adaptándose mediante contratos internacionales. En México, una empresa de origen chino participa activamente en la modernización de la Línea Tres del Metro en la Ciudad de México, un proyecto estratégico que requiere estrictas auditorías técnicas y financieras para garantizar su correcta ejecución operativa. La convergencia entre ciberdelito, restricciones energéticas y grandes contratos de infraestructura exige un monitoreo constante basado estrictamente en cifras y normativas vigentes. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Mesa de Tecnología y Sistemas",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Ciencia y Tecnología",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Google Trends México · Búsquedas Tecnológicas",
+        "tipo": "Monitor de Tendencias"
+      },
+      {
+        "nombre": "Instituto Federal de Telecomunicaciones (IFT)",
+        "tipo": "Datos Oficiales"
+      },
+      {
+        "nombre": "Reportes Técnicos de Fabricantes y Semiconductores",
+        "tipo": "Ficha Técnica"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 174,
+    "fecha": "2026-10-19",
+    "categoria": "Farándula",
+    "edicion": "Crónica de Espectáculos",
+    "titulo": "🎸 Los Tigres del Norte hacen historia en Tiny Desk y la industria cultural se sacude 🇲🇽",
+    "descripcion": "Análisis profundo sobre el impacto comercial de Los Tigres del Norte en la exportación cultural y la polémica en medios.",
+    "narracion": "Te lo resumo: Los Tigres del Norte replican la excepcionalidad migratoria en formato global. La agrupación norteña llevó su icónico repertorio a la plataforma Tiny Desk de NPR, reafirmando el peso del corrido como crónica sociopolítica y activo comercial de exportación masiva. Lejos de la nostalgia barata, el fenómeno analiza cómo la música de raíces mexicanas sostiene contratos millonarios de streaming y giras internacionales ininterrumpidas en Estados Unidos. Como en una maquinaria industrial bien aceitada, donde cada engranaje responde a una demanda de identidad y consumo, la agrupación monetiza la memoria colectiva de millones de migrantes. En otra latitud del entretenimiento nacional, la tensión entre la industria televisiva y los creadores escaló tras las declaraciones públicas del compositor Aleks Syntek, quien señaló directamente a directivos de espectáculos por prácticas editoriales destructivas contra núcleos familiares. Este choque abre un debate urgente en el periodismo de farándula sobre los límites legales de la cobertura mediática y la protección jurídica de la vida privada frente al rating comercial. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Espectáculos",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Espectáculos",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Google Trends México · Tendencias Entretenimiento",
+        "tipo": "Monitor de Audiencia"
+      },
+      {
+        "nombre": "Boletines de Medios y Plataformas Audiovisuales MX",
+        "tipo": "Comunicado Oficial"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 170,
     "fecha": "2026-10-18",
     "categoria": "Noticias",

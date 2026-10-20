@@ -206,7 +206,10 @@ function renderModularGrid() {
           </div>
         </div>
         <div class="article-footer">
-          <span><i class="far fa-calendar-alt"></i> ${escapeHtml(formatShortDate(post.fecha))}</span>
+          <span>
+            <i class="far fa-calendar-alt"></i> ${escapeHtml(formatShortDate(post.fecha))}
+            ${post.youtube_url ? `<a href="${escapeHtml(post.youtube_url)}" target="_blank" rel="noopener noreferrer" class="card-yt-badge" title="Ver / Escuchar en YouTube" onclick="event.stopPropagation()"><i class="fab fa-youtube"></i></a>` : ''}
+          </span>
           <button type="button" class="btn-open-note" data-id="${escapeHtml(post.id)}">
             <i class="fas fa-newspaper"></i> Leer Crónica
           </button>
@@ -306,7 +309,10 @@ function openReaderModal(post) {
     charNameEl.textContent = `${post.personaje || meta.defaultChar} · ${post.personaje_rol || meta.defaultRole}`;
   }
   if (metaEl) {
-    metaEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${escapeHtml(formatDateDisplay(post.fecha))} · Cancún, Q. Roo`;
+    const ytModalBtn = post.youtube_url
+      ? ` · <a href="${escapeHtml(post.youtube_url)}" target="_blank" rel="noopener noreferrer" class="modal-yt-btn" title="Ver / Escuchar video en YouTube"><i class="fab fa-youtube"></i></a>`
+      : '';
+    metaEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${escapeHtml(formatDateDisplay(post.fecha))} · Cancún, Q. Roo${ytModalBtn}`;
   }
   if (leadEl) {
     const desc = (post.descripcion || '').replace(/#[a-zA-Z0-9_áéíóúÁÉÍÓÚñÑ]+/g, '').trim();
@@ -322,32 +328,43 @@ function openReaderModal(post) {
   }
 
   if (sourcesContainer) {
-    const cleanTopic = (post.titulo || '')
-      .replace(/[^\w\sáéíóúÁÉÍÓÚñÑüÜ-]/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-    const query = encodeURIComponent(`${cleanTopic} México`);
     const fuentesList = Array.isArray(post.fuentes) && post.fuentes.length > 0
       ? post.fuentes
-      : [{ nombre: 'Google News México · Cobertura Nacional', tipo: 'Agencia / RSS' }];
+      : [{ nombre: 'Google News México · Cobertura Nacional', tipo: 'Agencia / RSS', medio: 'Prensa Nacional' }];
 
-    const itemsHtml = fuentesList.map(f =>
-      `<li><strong>${escapeHtml(f.nombre)}</strong> <span>(${escapeHtml(f.tipo || 'Referencia Editorial')})</span></li>`
-    ).join('');
+    const itemsHtml = fuentesList.map(f => {
+      const url = f.url || (f.link || '');
+      const medio = f.medio || f.nombre || 'Prensa Nacional';
+      const titular = f.titular || (f.nombre && f.nombre !== medio ? f.nombre : '');
+      const tipo = f.tipo || 'Referencia Editorial';
+
+      if (url && url !== '#' && !url.includes('news.google.com/search?q=')) {
+        return `
+          <li class="reader-source-item">
+            <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="source-link">
+              <i class="fas fa-external-link-alt"></i> <strong>${escapeHtml(medio)}</strong>
+            </a>
+            ${titular ? `<div class="source-headline">“${escapeHtml(titular)}”</div>` : ''}
+            <span class="source-type">(${escapeHtml(tipo)})</span>
+          </li>
+        `;
+      }
+      return `
+        <li class="reader-source-item">
+          <strong>${escapeHtml(medio)}</strong>
+          ${titular ? `<div class="source-headline">“${escapeHtml(titular)}”</div>` : ''}
+          <span class="source-type">(${escapeHtml(tipo)})</span>
+        </li>
+      `;
+    }).join('');
 
     sourcesContainer.innerHTML = `
       <div class="reader-sources-title">
-        <i class="fas fa-landmark"></i> Referencias Editoriales y Fuentes de Información
+        <i class="fas fa-landmark"></i> Referencias Documentales y Fuentes Verificables
       </div>
       <ul class="reader-sources-list">
         ${itemsHtml}
       </ul>
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding-top: 8px; border-top: 1px dashed rgba(245, 236, 194, 0.2); font-family: var(--font-mono); font-size: 0.78rem;">
-        <span>Verificación hemerográfica abierta:</span>
-        <a href="https://news.google.com/search?q=${query}&hl=es-419&gl=MX&ceid=MX:es-419" target="_blank" rel="noopener noreferrer" style="font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">
-          <span>Consultar cobertura en Google News México</span> <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
     `;
   }
 

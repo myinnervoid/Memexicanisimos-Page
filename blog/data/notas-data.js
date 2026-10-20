@@ -1,5 +1,445 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1792497905748,
+    "fecha": "2026-10-20",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Panorama Nacional: Conflictos políticos, crisis ambiental y presión bilateral",
+    "descripcion": "Análisis de los eventos más destacados en seguridad nacional, finanzas públicas, infraestructura, programas sociales y estado de derecho en México.",
+    "narracion": "El escenario nacional registra diversos acontecimientos críticos en materia de seguridad, finanzas públicas, infraestructura y gobernabilidad. En el frente de la seguridad nacional y la procuración de justicia histórica, *EL PAÍS* documenta que la DEA acusa presuntos actos de corrupción en México vinculados directamente con la muerte y tortura del agente de la DEA, Enrique 'Kiki' Camarena, ocurrida en 1985. Este señalamiento reabre un expediente diplomático y judicial de alta sensibilidad para el Estado mexicano, impactando la cooperación bilateral en inteligencia. \n\nPor otro lado, en el ámbito de la política interior y la procuración de justicia estatal, *La Jornada* reporta la postura de la gobernadora de Chihuahua, Maru Campos, quien aclaró que la detención de César Jáuregui no corresponde a una investigación directa de la Fiscalía General del Estado (FGE) de Chihuahua. Esta divergencia institucional evidencia tensiones en los mecanismos de persecución de delitos a nivel local.\n\nEn cuanto a infraestructura estratégica y finanzas públicas, *El Financiero* informó sobre el incendio registrado en una plataforma no tripulada de Petróleos Mexicanos (Pemex) ubicada en las inmediaciones de Ciudad del Carmen, Campeche. Este siniestro activa nuevamente los protocolos de revisión sobre la seguridad operativa, el mantenimiento de instalaciones prioritarias y los riesgos financieros asociados a la infraestructura de hidrocarburos.\n\nEn el rubro de servicios públicos y gobernanza estatal, la crisis hídrica escala en Jalisco. De acuerdo con *La Jornada*, una nueva marcha integrada por aproximadamente 10 mil personas se manifestó en Guadalajara en protesta por la persistencia de agua sucia en la red de suministro, reflejando una demanda social insatisfecha en materia de derechos básicos y gestión ambiental.\n\nParalelamente, en materia social y laboral, *El Universal* y *Milenio* confirman que la presidenta Claudia Sheinbaum descartó la salida de Zoé Robledo al frente del Instituto Mexicano del Seguro Social (IMSS), pese a las protestas y presiones recientes por parte de agrupaciones de trabajadores del sector salud. La permanencia del funcionario busca estabilizar la operación institucional de la seguridad social, en un contexto donde también se evalúan las reglas de operación de los programas prioritarios, como las becas del Bienestar.\n\nFinalmente, en el plano macroeconómico y la relación bilateral con Estados Unidos, el diario *Reforma* dio a conocer la declaración del presidente electo Donald Trump, quien señaló que se encuentra cerca un acuerdo con México para reducir el déficit comercial, un factor determinante para las proyecciones financieras de la hacienda pública mexicana de cara al cierre fiscal.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Maru Campos sostiene que detención de César Jáuregui no corresponde a investigación de FGE de Chihuahua",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPemhPQTlCR3p2WXFpTzFKNWFySXBLa2N1ZnlaNTY4cXRoNk9WZlJKODVYbC14clFpQl90YjdnZDl4VjloTzMyaFplNlVIdWRyQU9adkFMRE1JMlMwY2ZqX3oxMkpaQ1ExUjduQUJDRGo1OGlLRDFnRC1kZ0ZZLUZLcktWeTc0RjlTdUxDVE5IZjlZaV9OQjRQTEdVNk1xa0g1VDAtTWJaYll4WC1GSVdoME44emZESDFQUTNhekh1VEpwRkJxMU10TEFmWVpSWlhwNDQzN21Bbmt4OUxnRTJUM0tCLXJCaDUxRDBqS3hB?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: La DEA acusa que hubo corrupción de México en la muerte y tortura del agente Kiki Camarena en 1985",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZExQbHdBUDRLanU2Q2IxTE1xczdjeGxpcGNSempZZUt6bmdCZzN6QVgySFgyOFFxWXZrYmh1RWJocVRwQmlkQVp5TmZNME5hN2V4bXFJMmRIb2RUTXN5NmhTNGotM25hZlZfMDVidGZEZHJaMkpLZVgwOHJVSWZqMm9OX2xDWjRPY2Nya29aamZEU3BvYndkRENoaUJVNWs4TG9JbU1vNWF5bDBCRTFnSEhzd3JMbk5YeUZoRFFUa2xERXNhOXlWRDRaVnprOUQyUXR2UXNUTQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Plataforma no tripulada de Pemex en Ciudad del Carmen se incendia: ¿Qué pasó?",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSnJUN2Q3NElWQlRSOER6LXAtTy1saHdiT1VvaDZLaDdsdnVOUUFhazJ4VjRnVENvWldUbHFfblV5STZtc2lNV1Jwc1BFOEI5RFBtb2VYU2hvZmVBZ2pXdTNGQWZ1ekFMWE5zOEc5Z1dXNGI0T3VVNnNoWDM5QUZ1UC1fZzh6U1dBTXUwejdxRmdKa0R4SmlONy0yajRtUm9yb1BhalM2TXg2NHlSR0Z2YURTOUd5WXpYNEFIZTdPZ09SZ3h2dkE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Nueva marcha contra agua sucia en Guadalajara reúne a 10 mil personas",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90U084dVBPM1ZtSGJ5bU9uWmdfMm9VUWJkd0RJcDNRRk9NVkNxcTRuZ0JLVDZmMm04eTBIVUdjaXNxcEJjanNLdXQ0ZkJVUWNjU1lXWUhVZ3RkcEFySDBpQWMyNlI?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Está cerca un acuerdo con México para bajar déficit.- Trump",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYm45WVh1WnQtOG42VVlKTlV6QzVTanMzTFdRWDF0MFkxOUJkZnZyS05BMFVWMXNFM1VLem0zTHVRWi1rck5hTkxJTm1IYU5fMWNoMXlpZEo2cF9ZWDdVZ3Nyd1VsdklUNG90czhaQXlrdEJ3b3RnQy1sSUNacGlPU2U5M3hmT201cEtnMUM5Y2JfT0JEMXc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum descarta salida de Zoé Robledo del IMSS tras protestas de trabajadores",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdVh2b0s4TGhfdWFnX3loaUp4UDBlWUo5RkMzbEtwZzdtQlg4c0dJN09sdGZQODZIOUNRU1JmU0R3VmRfRGJPV0RSR1BjZG1qVXNOcDcwQjYyQTlwUFdsLWFURWJBdjQ0TmhpTDRVWkUyY1NrSzZ5UW01OWVCblNRQUFLV205ZzZHSjFCX05uS3kzanhyc0s1em9mQTItTUlaTVQ2MHEzMEVNbnFvQTY3YVcwMm5aeVpUQU11R3R1QVJzRkVmZFhNN2JheUZCUEN3aUNFTXBPQnczeDUzSWdzcmlTX0ZkT3g4REpN0gH_AUFVX3lxTFA0cmVMdk5QWkFfREtYa3ptOE1Md3I3OHBYOEJjOV9KcHR4WkhrYmhaLVBXRTRmVlRPTGR2TTFTaTRWVXkxRkJyemlzWExPX1N4c24tb2sySmJhQnNMQzBqUDZGVUV0WFFqR3R4Y29GVEEwdS0yWXQ4MTZjeFFObUpoRFVsV1h1LWd2M2VIQ1o3N0R0TTNneUFxWDVkN0xKVXpyak9iLU12dWlhTi1teFBQc3ZCLUtmUXk0c1FQeTlBU3lBMV8wMmVwdHNuR0taYlYtalNSQVlkd3lxc0Y5bE4xMkEyU0RKRmY0eVlHZnhCcVhjQUZGWldsNndNN08zQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Milenio: Permanencia de Zoé Robledo, becas del Bienestar y caso agentes de la CIA, los temas de La Mañanera de Sheinbau",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTkhDZl9SNTFhRXZrelhBbTl4Nm1zemVyOV9SbjlObENSNVZVTnoyVFNxWWJzLS1NTXZ1RGx4dGxjdHlZMGF6YmlZbXl2cmd0RWM0Y2ZYdUd5TlVsTVREMENXZUM5WkhhdjVZcmRxelIwLVRITlFlWW9HZkRTclgwS2pFV21DM1dPaUc5cGxmVEVSekFfTGlWcUQ5SFhoQdIBngFBVV95cUxQc2UyWWtLeWZ3bG42SmhDTWZ4dW9lcEd0bXYxbTV3bXJTN1dRQnZQcDVEVm1ZcDJPV2hrdGpYbHV4dXRMTWlwTDJvaE5ZYldEYm9PNkp4Z204c0Z6VEppYlM5V3Ywc0VPcHRsMVhXc3NUTGMwR3B2aC10UDBRdE94Nk4xbVZueWh0Tjk1eVdJeTNhVVd0U3FvUWZPX0VRdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Lluvias en Veracruz: Coatzacoalcos y Nanchital, los más afectados; suspenden clases en 10 municipios",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMU05NWxRUnVXUnZScktoX2pHaUtVNDFLcTNqQ0dLaVAxQjBVYUdCbW1HTkdGRXc5X2FtdEFHYTRDMDQtLURfbEJIc0dXQVR2QWVWcUh1Zk5ibmJZb2VQV0MwRVNMNTFBb0hfZkdWcTlDblZYbUxvVjlJX2hxckJ2X00zWk5NQnJ1Slo5Q0oya2VyMWpmUU4tdUtNMTEyRmd3WmN2OThfUDVTdVBoTzhNWmxGSmRUQXd1VFlCQW1sMVVnZFpTTWNNQTVPbTVSSG5oNXBBeXJKQW55cnNkZmdEdnlCR0JfNzZDR2k2RFNMTEZjRmst?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1792497886046,
+    "fecha": "2026-10-20",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Crisis de stock en Nintendo y el futuro del hardware ante la inteligencia artificial",
+    "descripcion": "Análisis de la crisis global por las reservas de Zelda Ocarina of Time, los movimientos comerciales del Nintendo Switch 2 y el debate tecnológico sobre el declive de las consolas.",
+    "narracion": "El ecosistema de los videojuegos atraviesa por un periodo de profunda transformación estructural y logística que afecta tanto la economía de los consumidores como la planificación corporativa de los gigantes tecnológicos. Por un lado, la industria se enfrenta a errores de cálculo operativo de proporciones globales. Tal como reporta [3DJuegos], Nintendo ha tenido que salir a pedir disculpas públicas tras admitir que subestimó drásticamente el interés internacional por las reservas de *The Legend of Zelda: Ocarina of Time*. Este fallo en la cadena de distribución ha provocado un problema de escasez masiva que afecta directamente a los coleccionistas y entusiastas que esperaban asegurar su copia física, evidenciando una desconexión entre las proyecciones de inventario de la compañía nipona y la demanda real del mercado. \n\nParalelamente, el panorama comercial en torno al hardware de nueva generación continúa ajustándose mediante ofertas y estrategias de penetración regional. Sitios especializados como [Jointly News] han documentado la aparición de cuponeras en grandes superficies como Costco para el periodo del 19 de octubre al 15 de noviembre, las cuales contemplan un descuento de hasta 2,500 pesos en el anticipado Nintendo Switch 2. Esta clase de incentivos económicos busca mitigar el impacto inflacionario en los bolsillos de los consumidores latinoamericanos, facilitando la transición tecnológica hacia plataformas que, como ha detallado la propia [Nintendo], expandirán gradualmente sus catálogos con adaptaciones de franquicias robustas, incluyendo la serie completa de *Resident Evil* tanto para el nuevo hardware como para su predecesor. \n\nA este escenario de transiciones generacionales se suman los análisis de largo plazo sobre la viabilidad del modelo tradicional de consolas de sobremesa. Según informes de [Xataka], el avance acelerado de la inteligencia artificial y el procesamiento en la nube ponen fecha al declive conceptual de las cajas de hardware dedicadas, augurando un cambio drástico en la forma en que consumiremos entretenimiento digital en la próxima década. Para el mercado en México, estas dinámicas se traducen en un entorno complejo donde conviven la nostalgia por los lanzamientos físicos limitados, la presión sobre el costo de vida y la adaptación a nuevos formatos de distribución digital y periféricos especializados, como el nuevo control Nano de Xbox reseñado por [XBOX Wire]. La industria exige hoy más que nunca un escrutinio financiero riguroso, alejándose de las promesas vacías del marketing para enfocarse en los derechos del consumidor, la estabilidad de los precios y la disponibilidad real de los productos en tienda.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: La Nintendo Store europea añade todos estos artículos de The Legend of Zelda",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGJybXNJTmZuWllFZkdqUmdDWWNFTUYxazc5bl95Zk1RdGxnbUVnZ21YbDJaM3p5bHBJYWxRbUE5VFVkS1JObTBOdTRuWFljelJVcWlhVnpNeWdhWlNENjVaUjJfS0ZuTUNHYk1aMUJmOEpTWDJFM2EydFMzcGxGSnR2U191WkxqZEpxYUZVX045SkgxWjc0alZrT2FqTXdpazB1ejNScEM2dVJ5YnA0eE1GWQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Jointly News: Cuponera Costco del 19 de octubre al 15 de noviembre: Nintendo Switch 2 con $2,500 de descuento",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVUdCQW5haGNqTmprcTZ5enpEcGlfTWE4SlpEVFBEZUJfaEJJN0lNWHl5alA4OXBtVXBrMHc4NzMxamN0anc4dFhERU1kNE8wSHgwenpsbTFmVmR0UW1vS1VrZHBIaTdQNXRsVDg5OUZVUXF5bFJHTzA5aU9qZFlpUVV4bmtDWTZlRmZVdlVnMA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: La IA pone fecha al declive de las consolas de videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlBXcFBlakRiLUQxczA0OUU5U3E3VEhkWkpkTFF5UTlwdXk4NUljazR6QVNYdDNyZUdCTVlQLVM5VmNSNnpGQ3pDRmUwNHFlMVljQkpIY3pvTkRyTklPek9mNXNtYkdjajdHZFVqblNtMTZUcWxCdTlSZWhMUXJLTkpFbFZmVFnSAYwBQVVfeXFMT3BDMDU0ZDNlbUhTSUpoU3V4R3l6aXlCU1ZrSlRyRlBnbmE0ZEdLeENUNnFTWnBfZTNaZEpqSGpaU2NPTDBvVXZUTE85THJYSVhUNGNPYkNuTzU4RlFZb1NPOTg1N1MxRy1BNVNsX3BKcktaei05bXJKcExmWHhnT09IOV8ycUtycHNDazI?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: ¡Estos son todos los juegos de la serie Resident Evil disponibles para Nintendo Switch 2 o Nintendo Switch!",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMzQ5SklVV2dnbE11Zlg3dlNvVktHQ1hJRXlaSEtJOGsxYk5zZ3JHbTJET21aOE80bTZTOV9leWVxVEh3RmtpR3doTGdwRko2dEptUFE0MTBkMEpOY3B2Vl9za0tlMGZGSjFCME9kVTJrRnpyeU1jX0dOTGpRZTc1MkluRFFSeVREZ3pNd0N4eXRkd1NPVlVsQUNCTl95OWdOSnRPWUphU3BmMVN0bWxBRWQ0V2F4ZVN4djNhUVNNNTlVTDFFMko5TDhqeTQ3eVdCeG5PeThZclVZV05mSGsw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: Nintendo está rebajando las reservas de Zelda Ocarina of Time por error",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSFdmZkVfeGdEM2RnR3FmVUhUTldaNGxnTGJmU0xRLU9DWG1uX0MwQzhCZXVGc01kbGdQVFQtdS1PREViWmdLZkJuVGhMSmJSakhTZmlHVzhxM3h1YlFxODI5WjMtcHFXVm5welpQeVV1M3RGNDFvZUJWNzQ3LVFheg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "XBOX Wire: Conoce el Control Nano de XBOX",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12TGVGZXltVWg0OGNKSEpWVDBjQkVReTFFaEFJV21XaEZNOXhoQ00tU2JBVHZxZHJQUmVwSGMzQlZYa1JzQmZFdVllQ3BwY3FoTnZFVTJkVUtSc21Rc0RuN3BvOFNaRGdyMVg3OUZpWFVOX19Oc0J4Nkg2d0hYQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: \"Pedimos disculpas\". Nintendo \"subestimó\" el interés por Zelda: Ocarina of Time y ahora se enfrenta a un problema \"global\"",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOU051RHQzazFxWmdLQ0NyaUtsVmhkT1NGTXRpX0g1ZE5ickJqcEJFRVVzUmFLT2JqR3RrZjFTZC1oSXpnX3RiVzByNUwtQ3BGSVE5YnV3bm1TMmZXN3lmY1RIU1hGV3VoREN0SzFsdXliclVRNFI0ZF92eXhITFdmblIwMjRGRDNVVU40MEVScUV5SzFqV1Jpc3pjODBLQjg5aldYWkxXNVdzMjRSRUFfZ19nR05WYWcyUmhBWkJaa1dHTlRRUnN3OThZY2NJbnJJSGJvR1FxcGtUUFRyYkRnZTYtVDZCZEZFNTlUMEhZb0xld3RiaFM1SWVXZy1BSmRQR18tRWdmU1lzVEXSAZACQVVfeXFMTmx4TU45RngwM1ZjbE5sMUJUX0lnRjNTV1F0NGMzTFNTOFNXRVhlZW1CMlRCcjc3WlNQeXRuOUlzVDRBM1RNcUJyUE1idXBBTnVxbFZXbjAzZ29JVjQ3S2ViaXRpbENNeDF6cW5EMVd5cWhabmZrbTVRRF9hYUk1ZWJ0OGhJQjhvWkRIYmtVdnhpWmdRUTR5YzNRMHJQdGFwR2k3Q2FMUVl3Y2tNc25UNm9hQjdGSVBaNlk2U3lXTWJ5UnQyNzV4WVpCdXVKU1lpR2Fla0FkYUQtN2VhZG8zSUVtZVNhRFFra0JpbGt0c2ZuWVZkSEhBekNUblVXMkdSbS1UR0JENW1hdUZsbXRVY3g?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Sol de México: La Sauceda celebrará una jornada en torno al anime y los videojuegos, con Humberto Solórzano como invitado",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSmRyNTRGX28tNXc5dEwyREhsRzlYSTVpYmhEaHBiWWtma29DOGRLZjRvdk53Z2JEVllJVEJwN2N4NDdPd2xRcFV6elBOdEZPcE9MT1VMdkJiN3g1V0hWOW1xUDBhaUlqNXNvTDFFdTVFamFWR1d0ckk3dmp5OWRXUkNGelFRN3Y5RGltM2xmX3lWLWlYRWxzamdmN3ptdUloTHdZTS1YYTR6Rl9EckY0X3ZTZmlzT1FFS1MzdzJNMkdEcjNDRE1Xb1QzdWotLV9UMy1JdjFUVXpwYldoQkRuemxRU3BXQ0tGZndhSVV6bw?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1792497857604,
+    "fecha": "2026-10-20",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Deuda técnica y ciberseguridad: Radiografía de la infraestructura digital y financiera",
+    "descripcion": "Análisis riguroso sobre la adopción de IA en PyMEs, la expansión de activos tokenizados en Solana, los riesgos latentes en apps bancarias y la infraestructura de transporte en CDMX.",
+    "narracion": "El ecosistema tecnológico y financiero atraviesa un momento crítico donde la optimización de procesos choca frontalmente con la persistencia de vulnerabilidades estructurales. En el plano de la infraestructura pública, La Jornada reporta la participación de una empresa china en la modernización de la Línea 3 del Metro de la Ciudad de México, un movimiento que vuelve a poner sobre la mesa el debate en torno a la soberanía tecnológica, la trazabilidad de contratos de obra pública y la seguridad de los sistemas críticos de transporte metropolitano. La dependencia de proveedores extranjeros en proyectos de alta criticidad requiere auditorías rigurosas para evitar puntos únicos de fallo en la red de movilidad de la capital. Paralelamente, el sector financiero nacional enfrenta alertas de seguridad. Según El Financiero [F4], nuevos esquemas de fraude digital amenazan la integridad de las aplicaciones bancarias en México. Esta problemática evidencia que la banca móvil y las pasarelas de pago operan frecuentemente bajo una delgada línea de seguridad, donde los vectores de ataque aprovechan tanto la ingeniería social como las debilidades en la autenticación de usuarios. A nivel comercial, UnoTV informa [F1] que la plataforma T1 introduce inteligencia artificial para que pequeños negocios puedan vender, cobrar y facturar desde cero pesos. Si bien esto democratiza el acceso a herramientas de comercio electrónico, también traslada la responsabilidad de la ciberseguridad a microempresarios que carecen de infraestructura para mitigar filtraciones de datos o asegurar transacciones. En los mercados globales y descentralizados, Cointribune documenta que los activos tokenizados en la red Solana experimentaron un crecimiento exponencial al pasar de 700 a 4,300 millones de dólares en un año [F3], reflejando una adopción institucional acelerada, aunque persistente volatilidad regulatoria. Asimismo, en el ámbito educativo e institucional, El País señala que Harvard ha comenzado a clonar a sus docentes mediante avatares de inteligencia artificial [F6], un parteaguas que redefine la pedagogía pero plantea dilemas éticos sobre la propiedad intelectual y la deshumanización de la academia. Finalmente, los mercados de criptoactivos siguen registrando movimientos agresivos, como la quema de 1,200 millones de dólares en tokens BNB reportada por Binance [F8]. En conjunto, estos eventos demuestran que la digitalización acelerada no viene acompañada de un fortalecimiento proporcional de la ciberseguridad y la soberanía de datos, exponiendo tanto a instituciones públicas como a usuarios finales a riesgos sistémicos de gran escala.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "UnoTV: ¿Tienes un negocio? T1 lanza inteligencia artificial para vender por internet, cobrar y facturar desde cero pesos",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdVJPRlpLV0tyRVh3RlpWcHo4MktvWFdNNmIyYUJfQ0xHbVV2Y1VhdlFiSzY0cU42eWVhRXV0UEpkM0dsQmktbEdBQ0R2am5vM3FOUFJpQXpWNXo3aHMtU0E3VDhlT3BHd3g1Ty1iUWc1MHRaR2V4OGpBX19jZzRwaXVrYnVWTVJ5Wk9uMHNMSVJZbmJRTjVBd0NKbFhwRDFqdEdIYTRKd2tWdnViTDVndFdyc213eXJod3hET0NtcFdNUjFEem5YOG5RMmZkZ2M0SFd2ZmdjQjcyUnctTGRfTjZYdGJITFBvdHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Elon Musk promete regalar en 2027 una acción de SpaceX a cada niño en EU: ‘Será la primera de muchas’",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWWJEb29wUzdRSndsMWtXU3ZTTllSeVhNY0FnR0FzZFVGN2RXYkV5Tk9KVTNudTBGRE5sWUhVc0tLOUgtcEdGOFJFdWdmclpHWlhJWlh0enUxN3o3QTlnV0tDSGowTjgyVjV6bFJfRGtTZW1FcW9mODc1bHpiMlZ6MjAtOGJ4V1dPRTlnUmVqVWZrWUdBWUh4SXlOS1ptZnFwUlBDLURPckZ2bk9EY1U1RFVWS1J2WTk5amRQNTBmb1Z3ZGgtYl9lSzY4WnFWcFY0Ni1rMjNUNFhVelFZOUhnc1hn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Cointribune: Activos tokenizados de Solana: de 700 a 4.300 millones de dólares en un año",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb3ZuZ0dON2Uwdlp3UkRIVFNzeldnRmVsQm5pQ292MDY4cEhrbXpJd08weGtnZG5qZTljMXQzUk5Tb09yQjlyZnNoZ2xyYWxCNjBQZUM1WEF0NVNDM2RweFdOeFNYUjhIOTFTZTZCbzlBbWRqSVBESUVjYktIN0puaXNFekNBNnV4RXlXX1hCQnlFbWF5ZllfTDRfQjBwVmFBYklCQ3UxVHd0dw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¡Cuidado con tu app bancaria! Esto sabemos del fraude con el que pueden robar tu dinero",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQkpoQ1g1c1BPUWQ1TWg4ZUt0d2RUSTQtdWVNM0RuTFFyQ2s0VG01MXpuN3F5ZUdxQUlZalFaX1I2bGJDTXNsZkJ3WEwwdXVBZm01OVEtYWFQN2VrV3pMajRKbWZieGlMMUp1SmUtQnJ3RzdPanNpUlB2dWlFTzY3dkpuNGlZQ2ZyWm0yQm84S3dRNTZtSGdhd0tLU1dLX2p0Vks0UVNJR3RwQXh2dXhOcnlZUDBQUzIwZ09hYS1Xc2Vxa0J0b3JEN1lfMFdjNXF0b0tuaXB1bzFtUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Empresa china, presente en la remodelación de la L-3 del Metro de CDMX",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYzg4T0xVbTZQSEZXRkVkXzRjTlhmWXdNamcyNllMS3FhZmpjZjNTaVYzUFR4VVNZMUd0aU15Vm1TemhLc1Z5ZWVadTU2ME12ZVprOTZndUo0V2Y5NUt6blFiQVRmOUtmWV9hdEVTRzlpQnUwSzBkUG4yNnp0amh1X2pRNlZNSWVDRUdUYlR3eEJQNkljcC0wbHdTR0Y0SzJvcWQ4el9xSWc5YnBKM05aanBjQm9nUWdQQnYyaVEyWHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Llegó la hora de los avatares en las aulas: Harvard clona a sus docentes",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUEtKV3o1ZnpEZVNSZkcxeUJXRGVBYUZ1MHhMemw2Z0twT1RPVWxhMmI0M1JLaWVZUTJ0WWd0UFZJUHpMTVNaYlhOSENhUUFkYURUSjdhSzJiUmJ4TE9UNWx5bExhYTZVUFNwdFcxSEM4bmZOMGNMR3c2WTc5TGF2OXRyb0FiTWYtUklzek5UVG5QWk9wMWVNT1VpYkZvZTNIYk1nTDUzSm5QOEhxZHl4Sg?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: Unicorn Overlord recibe Port Nativo de PC para Windows y Linux con 4K, FSR 1, Teclado y Mouse - Guía de Instalación",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aVXJTcVkwYVZTeFUybFJoTmlDbDFpSkI2ZGRmMElaUUxsQUh6QlV6NlYyMGlnUS1MQ05tcFFmZFVxVDJxbTAyb1hOLWhEekV2aWRwTGdueUltWkE2dXB6YjNWZE96a1VNRkJ1cDVmQUhlWGhEcHoyUjJVcHpfTXM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Cointribune: Cripto: Binance revela su IA de trading y quema 1,2 mil millones $ de BNB",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOamJjdElzck00RFVRV2dRRnBZekdEZ210UnJZOG5rVjFIMGxfb1JmaFpiWDBWWEZKbGlOYU1STHg4V1N2akRTdUwtRHNmdnlTSHpxbEgyTm9FVlBXZ2xKbC1JY2hGcnhBLXRJVUkyMVd5d2VEdDFoMW1BX3lXYVhjQmFHX3BJMFdJV19IeXp4VUcxYkFmNm5aWWpHS0RGbldRSV9N?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1792497713129,
+    "fecha": "2026-10-20",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Crisis en la industria: Riesgos sanitarios y colapsos en el espectáculo nacional",
+    "descripcion": "Análisis de las recientes complicaciones médicas de figuras públicas en México, el impacto de los formatos de telerrealidad y los eventos internacionales del sector.",
+    "narracion": "El ecosistema del entretenimiento y la cultura en México atraviesa un periodo de escrutinio marcado por la vulnerabilidad en la salud de figuras públicas y las dinámicas contractuales de la industria audiovisual. Informes recientes de medios como TV Azteca y El País han documentado emergencias médicas críticas que ponen sobre la mesa las condiciones de trabajo, el desgaste físico y la exposición prolongada en los medios de comunicación masiva. Por un lado, el actor César Bono enfrenta un procedimiento médico complejo tras la detección de un tumor que derivó en la pérdida de un ojo, un hecho que trasciende el ámbito estrictamente privado para visibilizar los retos de la salud en la tercera edad dentro del medio artístico. Paralelamente, la hospitalización de la conductora Laura Bozzo con un pronóstico delicado en la Ciudad de México reaviva el debate sobre la presión mediática y las exigencias físicas a las que se someten los talentos televisivos de alta rotación. Estos eventos obligan a repensar los protocolos de seguridad social, los seguros de gastos médicos mayores y las cláusulas de responsabilidad civil que las grandes televisoras y productoras están obligadas a garantizar a sus talentos. A este panorama se suman los decesos que enlutan al gremio, como el recuerdo de Lua Blanco, actriz de 'Rebelde' recordada por Dulce María, lo que subraya la fragilidad humana en una industria habitualmente enfocada en la efímera comercialización de la imagen. En el frente de los formatos televisivos, la emisión de 'La Granja VIP' (reportada por Puente Libre) continúa generando cuestionamientos sobre la ética de los contenidos de telerrealidad, las reglas de eliminación y el impacto psicológico en los participantes, quienes operan bajo contratos de aislamiento y alta competencia regidos por normativas de entretenimiento poco reguladas en términos de salud mental. Mientras tanto, el sector cultural institucional muestra contrastes positivos con eventos de alta convocatoria internacional como la llegada del Grupo Niche al Festival Cervantino 2026, consolidando el intercambio artístico transnacional, y la presencia del EZLN en la Ciudad de México en un diálogo necesario con madres buscadoras, demostrando que la agenda cultural no puede disociarse de las demandas sociales más urgentes del país. La confluencia de estas noticias exige un periodismo riguroso que no trivialice el sufrimiento humano ni reduzca las crisis sanitarias y contractuales al simple sensacionalismo, exigiendo transparencia y garantías laborales reales para quienes sostienen la industria del espectáculo en México.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "TV Azteca: ÚLTIMA HORA: César Bono pierde un ojo tras encontrarle un tumor; esto se sabe sobre la salud del actor",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ0N3LUZDcmt0dmdPYV9RSkFVeEdrRTV2ZXZaMXdpTzZpMkZxcmtCeGQ0cHIyZGZ1aDI3ekZJd3ptNE12TUo0YWtzNmRlZElPRDZ4aDFXenNIcFhsV2lpcGd4NFBsNlBmLWRKNTlaRFJRX2J0VEZkYTRWbmNxMHkyTVBzNU5uNGNzcGpVa0xRYlpxQdIBnwFBVV95cUxQT1NkQllvOU1MQzlHYjdiQjl3aXUxU0thUDREM01pSjhUZ3I2cFhmT2hneEVEU0tYTmNrVUxtVmlJbDFlZnhRRFhKVzRnMG40Rk0ydVAtUnJHdXZQUHIxNnRkNkItbGVXa2kwZHJhUHh1WVcxcmFNTEthZjc4dVQ5bVhTMTVPdXpzSFpPQ0RGa2RLa1ZmUWljMG9mXzdLUEk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Dulce María recuerda con cariño a Lua Blanco, actriz de ‘Rebelde’ fallecida a los 39 años",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjJ0WDF4ejlxcll4eDdBa1RvY21QLVJqaDk0MWtkaDZDbjVoQWsyeksybGhXSUp3NUFEVDJDeGNuZTlRdXZQTmVTc1Nzb1ZKNzNSV2QxWGFoVnB4b1ktSlVvQzJTOFd0Zm95LXZ6Y2VDZkVIaV9MVGxKYnpmbWh2VVdsR0xLWUh0ZHA1SkprWFBoZklOd05CMjhtRmZTdTVkamJj?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Laura Bozzo es hospitalizada en Ciudad de México con un pronóstico delicado sobre su salud",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3R3NXFQUExNY1hmUjVyVk1TeWhkOVJyLWdKVm95RXpOUXBkV0dOWDBVN05qNDlxcGpXd0MyUVVQbk9feWVveXctYUdLN24yVmFDR2xabFAwZjlMU0liU08zenJCVGV3YkEzbWZWZk9CVno5QkcydEJ2dG1rWmNQWjZZbmJhank0UU5hRkJsX2VFQlY3bmdvWnJpUXg5S1E4MDYtUnVSZmZNX0FsS19MZkVUYjVsMVEzSVl4Z3BZME9jZ1RVZTMxWXpKT0jSAeABQVVfeXFMTVhmNXZUaHVPOVFUWVlPR05mU3REcTNpQS04S2NSclBPc1NSS1NOYXFUZURGMDE1dVM3Zkl2TEVzdzdUdE0wb21LNlAyRHp0bjByd2tzZ2dldkZNT0lSZThTdkhjNUh3OGIwTmpycERoNUllcWJxcU9YcEQ4TERYeHNUX2VkMW54NFN0WkhiUGVaZjg2X25GdW5QY1NFVE80LTJCSXhnRWZWWjNOeElwRjlodEY4STJjeU8yUTNjNHJ5Zmh5eWQ0dUlGcVNjT1pSVTZIOXhLeWhpMGw0VXYtY3k?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Vogue México: Todas las celebridades en el Victoria’s Secret Fashion Show 2026",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEdFNkRLc1hKdGcyMVNhN2p4MWEtWHBudGdYenJHV2oyM1UzcE1hSXVaU0I1UVY2eWoxQWlCd2xTU3NCNjdZTW5haGJ2a05vdjh0RzZCZTNXeVBYLXQxLTNmYjlmLXE1b19XMHdhX2hyMzBURGt2VGd5Z0wwTklPWVd5YzIzSV9ZRHhsZzliUVd1bUFy?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Puente Libre: ¿Dos eliminados? Esto pasó en La Granja VIP",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0c3TnJ4VzY4ajc0SG9SQWhfWVozajkzYjluWEgtSm9OT0MwSHdHdF9oTGdpX2FwaWk0TTk3X1lwcUFVTjJQOE9VOXpGZ0lMeGRaRWtYMkwzTEVBQ2g5clRfWXNPRHg2V1ZjaW13U3lZbEQ2by1pc0VrSUx2U09QUFctRW9Ta25qQ2JxUXlyY1AwaEZlQXFkaXZ3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Suman mil 530 delegados del EZLN al encuentro con madres buscadoras en CDMX en diciembre",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS3ZKQlNsUlF2aFBvdDJxM2ZWX3M0LWhaNFF4UjZzT3hiZmoxOGhPeWpOeUVZTkg3R1BRMDFMeW9WOUNKYjBQMEl1cE1VQ2haang5QVRRT2cwSVEtTGRheVR5bE5JZWx0REItZDJ5OVBCUGExZ0FVY0JqLWttWWJKMkRPSTBZLUI5Y0stV3JMR2RJY3V0Sm9iUDY5ZExhYWVhVmtHVDdyVlY4aXdHbkNidG5uUjV1ZGRGZnEwRm5ZLXVjY0JqTVY3RnM5VjJiYjYyOUNpZ3dQbVFIdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Grupo Niche llena de salsa colombiana el Cervantino 2026",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2d4emN3WW1MVlpZSHU2UDJpVVYtLV9tQ0phaDBvLUpaaU11eEV1UzJRM3ljZ1h3ZU1wU3RYQkdrXzNldS1uMU1rbkVxbEhVUDZlY3JYb3VaeDRfalU2NE4zWlNoUlBfN2dDb1BPS1lxSUh6U1lob1NrMTVHWFR2Zl9ENlJaMHJ6YmI3U3R6VlNxM3E1NldYbVJ3RHA1X0ZWVDE4TV8wMXQyUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: La Lucha Libre mexicana conquista a la banda británica Travis y Tom Cruise - La Prensa",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZW44OFVkcEg1VHd3Rks0ZmdFd3BlMWVaUDA5dHJBYWdSWUR5dFhQN1BoaWdQdWR3cG1mcC1vMElMLXQwcTJ1VWZuWHhfbm1wM214WF9KOUZpS0VuRkxrTEdhNVVjempwdjdpdDlibXBjM0ItenFkU3BIN0tUMnNCc2JKSHc3ZXNIV0YtQ2pRYXBZQ01QRkhEeERQMjVTR0s0N040dHJPbjNlRUFlTUJJM0psMnlZZXlqd1FtRmxn?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 9003,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "🔴 NOTICIERO MASTER: Chihuahua, Gabinete y Seguridad Nacional 🇲🇽",
+    "descripcion": "Análisis riguroso de los cinco eventos de mayor impacto institucional y social en el país, abarcando el ingreso al Altiplano del exfiscal César Jáuregui, la reestructuración en la Secretaría de Agricultura tras la salida de Leonel Cota, las aclaraciones sobre la continuidad de Zoé Robledo en el IMSS, el cateo en una vivienda en Puerto Morelos y el colapso vial en la autopista México-Puebla.",
+    "narracion": "Te lo resumo: así se mueve el tablero nacional en los 5 puntos clave de México. En el primer punto, el sistema de procuración de justicia registra un movimiento crítico con el ingreso formal de César Jáuregui, exfiscal de Chihuahua, al Centro Federal de Readaptación Social número uno, conocido como El Altiplano, en el Estado de México. La dependencia judicial federal cumplimentó la orden de reclusión bajo acusaciones graves que incluyen presunta traición a la patria y desvío de recursos públicos durante su gestión estatal. Este hecho reconfigura las investigaciones por corrupción política en el norte del país, evidenciando los mecanismos de colaboración entre fiscalías locales y federales para procesar a exfuncionarios de alto nivel señalados por abuso de poder y daño patrimonial al erario público. Pasando al segundo tema, la administración federal ejecuta ajustes de primer orden en su estructura institucional tras confirmarse la salida de Leonel Cota como subsecretario de Agricultura y Desarrollo Rural. La decisión se deriva de un conflicto de interés institucional luego de que su hijo fuera designado coordinador territorial de movimientos políticos en Baja California Sur. Esta remoción subraya el cumplimiento de los criterios de neutralidad política exigidos a los servidores públicos federales, obligando a la Secretaría de Agricultura a reasignar mandos operativos en un momento estratégico para la producción agrícola nacional y el control de precios en la canasta básica mexicana. En tercer lugar, la estabilidad operativa del Instituto Mexicano del Seguro Social enfrenta escrutinio público ante las recientes protestas gremiales y administrativas que cimbraron diversas delegaciones estatales. Ante los cuestionamientos sobre la continuidad de Zoé Robledo al frente de la institución, la administración central aclaró que la prioridad actual es garantizar la basificación de personal médico y la unificación del sistema de salud pública bajo el modelo IMSS-Bienestar. Los datos operativos indican que la presión sindical y las demandas de insumos hospitalarios continúan siendo los principales desafíos presupuestales para evitar paros laborales que afecten la atención a millones de derechohabientes en todo el territorio nacional. Como cuarto punto, las corporaciones de seguridad y procuración de justicia ejecutaron un cateo de alto impacto en una vivienda ubicada en el municipio de Puerto Morelos, en el estado de Quintana Roo, inmueble habitado por la alcaldesa en funciones. La diligencia ministerial, encabezada por fuerzas federales y ministeriales estatales, responde a una carpeta de investigación en curso relacionada con presuntas irregularidades administrativas y posibles vínculos con redes de corrupción inmobiliaria en la zona costera. Este operativo marca un precedente en la fiscalización de autoridades municipales en destinos turísticos de alta prioridad económica, donde la rendición de cuentas institucional es exigida tanto por auditorías superiores como por la ciudadanía local. Finalmente, en el quinto punto, la infraestructura vial del centro del país experimentó una parálisis operativa total tras un fuerte accidente automovilístico registrado en la autopista México-Puebla, específicamente a la altura del kilómetro cuarenta y seis. El percance, que involucró a unidades de carga pesada y vehículos particulares, provocó el cierre indefinido de la circulación en ambos sentidos, generando filas kilométricas de transporte comercial y automovilistas varados por horas. Caminos y Puentes Federales desplegó operativos de emergencia para el retiro de escombros y la atención médica de los heridos, evidenciando nuevamente la vulnerabilidad logística de este corredor industrial clave para el abastecimiento de la zona metropolitana del Valle de México. Es el avance al momento. Recuerda que Memexicanísimos tiene su barra de noticias en farándula, tecnología, gaming y los 5 temas más relevantes del día en México. Con su anfitrión El Mashukita.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Gaceta Oficial de la Ciudad de México",
+        "tipo": "Comunicado Oficial"
+      },
+      {
+        "nombre": "Diario Oficial de la Federación (DOF) / Conferencia Matutina",
+        "tipo": "Fuente Federal"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 173,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "El Sabotaje con Diésel en Pozo Alfonso XIII: Colapso Inducido",
+    "descripcion": "Te lo resumo: La investigación pericial sobre el Pozo Alfonso Trece en la Ciudad de México confirmó oficialmente lo que durante meses intentaron encubrir como una falla técnica: el agente químico que contaminó la red fue diésel puro vertido de forma deliberada en el acuífero. No estamos ante un desc",
+    "narracion": "Te lo resumo: La investigación pericial sobre el Pozo Alfonso Trece en la Ciudad de México confirmó oficialmente lo que durante meses intentaron encubrir como una falla técnica: el agente químico que contaminó la red fue diésel puro vertido de forma deliberada en el acuífero. No estamos ante un descuido operativo, sino ante la ejecución material de una táctica conocida como colapso inducido o ahogar a la bestia. En la alcaldía Benito Juárez, diez colonias padecieron agua aceitosa y vapores tóxicos, obligando a la clausura definitiva de la fuente de abasto. Las denuncias penales en la Fiscalía capitalina apuntan directamente a mandos del programa local Blindar Benito Juárez por haber orquestado la contaminación para detonar pánico social en pleno proceso electoral y justificar el discurso de que el servicio público no sirve y debe privatizarse. El agua potable es un derecho humano tutelado por la Constitución, no un ariete de desestabilización política. Es el avance al momento. Visita memexicanisimos.com.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Gaceta Oficial de la Ciudad de México",
+        "tipo": "Comunicado Oficial"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 9001,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias · Punto 1",
+    "edicion": "Edición Nocturna · Punto 1",
+    "titulo": "🚨 César Jáuregui ingresa al penal del Altiplano bajo graves cargos 🏛️",
+    "descripcion": "Análisis del traslado y reclusión del exfiscal de Chihuahua al penal federal de máxima seguridad, enfrentando cargos por traición a la patria y corrupción.",
+    "narracion": "Te lo resumo: César Jáuregui, exfiscal de Chihuahua, fue ingresado de urgencia al Centro Federal de Readaptación Social número uno, conocido como El Altiplano, en el Estado de México. La medida cautelar dictada por autoridades federales responde a una causa penal donde se le imputan delitos de alta gravedad, incluyendo presunta traición a la patria y ejercicio abusivo de funciones públicas durante su administración en el norte del país. Este mecanismo judicial refleja la intervención de fiscalías federales en casos de corrupción institucional que rebasan el fuero local, buscando asegurar la integridad del proceso penal y evitar riesgos de sustracción de la justicia. Las autoridades penitenciarias implementaron un protocolo especial de vigilancia debido al perfil de los expedientes y las implicaciones políticas derivadas de las investigaciones contra la red de exfuncionarios estatales. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Diario Oficial de la Federación (DOF) / Conferencia Matutina",
+        "tipo": "Fuente Federal"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 9002,
+    "fecha": "2026-10-19",
+    "categoria": "Noticias · Punto 2",
+    "edicion": "Edición Nocturna · Punto 2",
+    "titulo": "⚡ Salida de Leonel Cota de Agricultura tras conflicto político 🚜",
+    "descripcion": "Reestructuración en la Secretaría de Agricultura y Desarrollo Rural tras la solicitud de renuncia a Leonel Cota por motivos de conflicto de interés.",
+    "narracion": "Te lo resumo: Leonel Cota dejó su cargo como subsecretario de Agricultura y Desarrollo Rural tras una solicitud directa de separación del puesto, derivada de procesos de incompatibilidad política. La decisión institucional se concretó luego de que un familiar directo fuera seleccionado para coordinar estructuras partidistas en Baja California Sur, contraviniendo los lineamientos de imparcialidad exigidos en la administración pública federal. Esta reconfiguración obligó a la dependencia a nombrar mandos interinos para garantizar la continuidad en los programas de precios de garantía y apoyo al campo mexicano, sectores que resienten presiones inflacionarias y problemas de distribución. La medida busca blindar los recursos operativos de la secretaría frente a cuestionamientos sobre el uso de la estructura gubernamental en procesos políticos regionales. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Portada Nacional",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Monitor de Tendencias Nacionales (Geo MX)",
+        "tipo": "Pulso Informativo"
+      },
+      {
+        "nombre": "Diario Oficial de la Federación (DOF) / Conferencia Matutina",
+        "tipo": "Fuente Federal"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 177,
+    "fecha": "2026-10-19",
+    "categoria": "Gaming",
+    "edicion": "Reporte de Industria y Videojuegos",
+    "titulo": "Nintendo Switch 2 y el Mercado Global de Hardware 🎮",
+    "descripcion": "Análisis de los movimientos en la industria de consolas, especificaciones técnicas de Nintendo Switch 2 y la estrategia de Microsoft en el formato físico.",
+    "narracion": "Te lo resumo: Nintendo y Microsoft mueven fichas críticas con ajustes técnicos y financieros en consolas. La estrategia comercial de la próxima generación redibuja el tablero. La filtración de la cuponera de Costco revela un descuento de dos mil quinientos pesos para la esperada Nintendo Switch 2, cuyo diseño térmico confirma un nuevo ventilador manteniendo la pantalla original. Este ajuste responde a la necesidad de disipar mayor calor ante la presión de la computación en nube y la inteligencia artificial sobre el hardware tradicional. Paralelamente, la división de Xbox en Microsoft reafirma mediante ofertas de empleo que el formato físico seguirá presente en todas sus plataformas, buscando capitalizar los tropiezos logísticos de la competencia directa en Europa y Norteamérica. En el terreno de licencias, Nintendo admitió haber subestimado la demanda global del catálogo de The Legend of Zelda, generando escasez de productos físicos en la tienda europea. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Mesa de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Videojuegos",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Comunidad r/videojuegos y Tendencias Gaming MX",
+        "tipo": "Pulso Comunitario"
+      },
+      {
+        "nombre": "Boletines Oficiales de Publishers y Plataformas",
+        "tipo": "Registro de Industria"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 176,
+    "fecha": "2026-10-19",
+    "categoria": "Historia y Cultura",
+    "edicion": "Crónica Patrimonial · 32 Estados",
+    "titulo": "Día 14: San Luis Potosí — Forma de perrito, enchiladas y los XV de Rubí",
+    "descripcion": "¿El mapa de San Luis Potosí es un perro Schnauzer? 🐶🇲🇽 #cultura #memexicanisimos #sanluispotosi #xilitla #short",
+    "narracion": "Puesto catorce para la encrucijada del centro y la Huasteca: San Luis Potosí, con dos millones ochocientos veintidós mil habitantes. Su gente son los potosinos, también llamados tuneros por sus pencas desérticas.\n\nEn la cocina tienen dos joyas de campeonato: las enchiladas potosinas con masa teñida de chile cascabel rellenas de queso y cebolla, y en la Huasteca el colosal zacahuil, tamal de metro y medio horneado en leña.\n\nEl meme más tierno y viral de la geografía mexicana es innegable: miras el mapa del estado y tiene la silueta exacta y perfecta de un perrito Schnauzer parado en cuatro patas mirando al norte.\n\nY la madre de todos los eventos virales ocurrió aquí: cuando una invitación en video para los quince años de Rubí en La Joya se descontroló y llegaron treinta mil personas de varios países.\n\nEl dato de ensueño está en Xilitla: el millonario excéntrico Edward James construyó un laberinto surrealista con escaleras al cielo y cascadas vivas entre la selva espesa.\n\nCascadas turquesas de Tamul, Real de Catorce y magia pura. Para conocer más historias de los estados de México, visita memexicanisimos.com.",
+    "personaje": "Alex y Dora",
+    "personaje_rol": "Crónica Histórica y Cultural",
+    "imagen_plantilla": "assets/personajes/plantilla_cultura_axolotes.jpg",
+    "fuentes": [
+      {
+        "nombre": "Acervo Histórico y Cronistas Estatales de México",
+        "tipo": "Documentación Patrimonial"
+      },
+      {
+        "nombre": "Catálogo Nacional de Monumentos e Historia Regional (INAH)",
+        "tipo": "Referencia Cultural"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 175,
+    "fecha": "2026-10-19",
+    "categoria": "Tecnología",
+    "edicion": "Despacho de Ciencia y Tecnología",
+    "titulo": "Fraudes Bancarios y Ciberseguridad Global",
+    "descripcion": "Análisis de fraudes bancarios y el impacto energético en la inteligencia artificial con datos duros.",
+    "narracion": "Te lo resumo: las autoridades detuvieron a una red criminal dedicada al robo sistemático de datos bancarios para realizar compras ilícitas por internet. Esta vulnerabilidad expone los riesgos críticos en la seguridad de las aplicaciones financieras y la infraestructura digital de los usuarios. En paralelo, la industria tecnológica enfrenta un panorama financiero adverso ante el encarecimiento de los hidrocarburos y las altas tasas de interés. Estos factores macroeconómicos limitan el desarrollo y escalamiento de los centros de datos necesarios para sostener los complejos modelos de inteligencia artificial actuales. Por otra parte, la infraestructura urbana global continúa adaptándose mediante contratos internacionales. En México, una empresa de origen chino participa activamente en la modernización de la Línea Tres del Metro en la Ciudad de México, un proyecto estratégico que requiere estrictas auditorías técnicas y financieras para garantizar su correcta ejecución operativa. La convergencia entre ciberdelito, restricciones energéticas y grandes contratos de infraestructura exige un monitoreo constante basado estrictamente en cifras y normativas vigentes. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Mesa de Tecnología y Sistemas",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Ciencia y Tecnología",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Google Trends México · Búsquedas Tecnológicas",
+        "tipo": "Monitor de Tendencias"
+      },
+      {
+        "nombre": "Instituto Federal de Telecomunicaciones (IFT)",
+        "tipo": "Datos Oficiales"
+      },
+      {
+        "nombre": "Reportes Técnicos de Fabricantes y Semiconductores",
+        "tipo": "Ficha Técnica"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 174,
+    "fecha": "2026-10-19",
+    "categoria": "Farándula",
+    "edicion": "Crónica de Espectáculos",
+    "titulo": "🎸 Los Tigres del Norte hacen historia en Tiny Desk y la industria cultural se sacude 🇲🇽",
+    "descripcion": "Análisis profundo sobre el impacto comercial de Los Tigres del Norte en la exportación cultural y la polémica en medios.",
+    "narracion": "Te lo resumo: Los Tigres del Norte replican la excepcionalidad migratoria en formato global. La agrupación norteña llevó su icónico repertorio a la plataforma Tiny Desk de NPR, reafirmando el peso del corrido como crónica sociopolítica y activo comercial de exportación masiva. Lejos de la nostalgia barata, el fenómeno analiza cómo la música de raíces mexicanas sostiene contratos millonarios de streaming y giras internacionales ininterrumpidas en Estados Unidos. Como en una maquinaria industrial bien aceitada, donde cada engranaje responde a una demanda de identidad y consumo, la agrupación monetiza la memoria colectiva de millones de migrantes. En otra latitud del entretenimiento nacional, la tensión entre la industria televisiva y los creadores escaló tras las declaraciones públicas del compositor Aleks Syntek, quien señaló directamente a directivos de espectáculos por prácticas editoriales destructivas contra núcleos familiares. Este choque abre un debate urgente en el periodismo de farándula sobre los límites legales de la cobertura mediática y la protección jurídica de la vida privada frente al rating comercial. Es el avance al momento. Visita memexicanisimos.com",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Espectáculos",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Google News México · Espectáculos",
+        "tipo": "Agencia / RSS"
+      },
+      {
+        "nombre": "Google Trends México · Tendencias Entretenimiento",
+        "tipo": "Monitor de Audiencia"
+      },
+      {
+        "nombre": "Boletines de Medios y Plataformas Audiovisuales MX",
+        "tipo": "Comunicado Oficial"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 170,
     "fecha": "2026-10-18",
     "categoria": "Noticias",
