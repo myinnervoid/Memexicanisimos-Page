@@ -581,7 +581,7 @@ function initFrontpageNewsAutomation() {
         titleEl.textContent = post.titulo;
       }
       if (descEl) {
-        const rawNarration = post.narracion || post.descripcion || '';
+        const rawNarration = post.narracion_corta || post.narracion || post.descripcion || '';
         const cleanNarration = rawNarration.replace(/\s+/g, ' ').trim();
         descEl.textContent = cleanNarration.length > 260 ? cleanNarration.slice(0, 257) + '...' : cleanNarration;
       }
@@ -601,12 +601,16 @@ function initFrontpageNewsAutomation() {
     updateCard(cardNoticias, latestNoticias, 'noticias');
   };
 
-  if (window.MEMEX_PUBLICACIONES && Array.isArray(window.MEMEX_PUBLICACIONES)) {
-    updateDOMWithPosts(window.MEMEX_PUBLICACIONES);
+  const candidatePosts = (window.MEMEX_NOTAS && Array.isArray(window.MEMEX_NOTAS) && window.MEMEX_NOTAS.length > 0)
+    ? window.MEMEX_NOTAS
+    : ((window.MEMEX_PUBLICACIONES && Array.isArray(window.MEMEX_PUBLICACIONES)) ? window.MEMEX_PUBLICACIONES : null);
+
+  if (candidatePosts) {
+    updateDOMWithPosts(candidatePosts);
   } else {
-    fetch('assets/data/publicaciones.json')
+    fetch('blog/data/notas.json')
       .then(res => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        if (!res.ok) return fetch('assets/data/publicaciones.json').then(r => r.json());
         return res.json();
       })
       .then(posts => updateDOMWithPosts(posts))

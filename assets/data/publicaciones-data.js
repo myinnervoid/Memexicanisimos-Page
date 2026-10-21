@@ -1,5 +1,228 @@
 window.MEMEX_PUBLICACIONES = [
   {
+    "id": 1792497905748,
+    "fecha": "2026-10-20",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Panorama Nacional: Seguridad, Diplomacia Comercial y Litigio Político",
+    "descripcion": "Análisis de la integración de inteligencia militar, la presión internacional por desaparecidos, negociaciones comerciales con EE.UU. y tensiones en el poder judicial y legislativo.",
+    "narracion": "El acontecer nacional registra movimientos estratégicos de alta relevancia institucional. En materia de seguridad nacional, la Guardia Nacional quedará formalmente conectada al Centro Nacional Inteligencia tras la firma de un convenio con la Secretaría de la Defensa Nacional, centralizando la arquitectura de recopilación de datos tácticos [El Sol de México]. No obstante, el Estado mexicano enfrenta presión multilateral: el Comité de la ONU lleva hoy la crisis de desaparecidos en México ante la Asamblea General, exponiendo la urgencia de resultados verificables en procuración de justicia y localización de víctimas [El Universal]. En el ámbito de finanzas públicas y estabilidad macroeconómica, la presidenta Claudia Sheinbaum y el mandatario estadounidense Donald Trump aseguraron que ambos países están 'muy cerca' de un acuerdo comercial, mitigando temporalmente la incertidumbre arancelaria bilateral [CNN en Español]. Paralelamente, el Senado de la República aprobó el Pleno la Ley de Economía Digital, enviándola al Ejecutivo para su promulgación y regulación formal de este sector [El Economista]. En el frente de infraestructura laboral y administración pública, trabajadores del IMSS entregaron a Presidencia un pliego petitorio donde refrendan su demanda de un incremento salarial del 10%, condicionando la paz gremial a la suficiencia presupuestal [La Jornada]. Asimismo, en los órganos autónomos, investigaciones periodísticas revelan irregularidades administrativas al documentarse un chofer 'fantasma' asignado a la consejera presidenta del INE, Guadalupe Taddei, cuestionando los controles de fiscalización interna [El Norte]. En el estado de derecho y el tablero político, la presidenta Sheinbaum negó categóricamente haber operado un acuerdo político con la gobernadora de Chihuahua, Maru Campos, para inculpar a Francisco Jáuregui, sentenciando que 'no hacemos pactos políticos con la justicia' [EL PAÍS]. Finalmente, las tensiones legislativas escalaron a la confrontación física durante un zafarrancho en San Lázaro, donde el diputado priista Gutiérrez Mancilla arrojó agua sucia al legislador Jorge Álvarez Máynez, evidenciando la degradación del debate parlamentario [La Jornada]. Estos hechos configuran un escenario donde la coordinación de seguridad y las exigencias de transparencia colisionan con disputas políticas y presiones presupuestales de impacto directo en la ciudadanía.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "EL PAÍS: Sheinbaum niega un acuerdo con Maru Campos para inculpar Jáuregui: “No hacemos pactos políticos con la justicia”",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVVNMYzRLLVNmY3RJbmFDTGl0eDVUc2dGTzRNTkZXaElxYWMtcS1Ic19aOGlUSHZSR3BKVXhpaWo2Z2lsVmoyblFDVGItTGlyOGcxQU9wbUxDMlRaZWJzb1JPTktnQkZEMU4zVlRybnlhT0txczhyVDRmYkJSdkFDS0xjRUJqMUQ3SDVwd19jM1RyUEdWYnN4ZHJyOTctR0gwVnZ3endlcUNUU0RGdEkxUGF0Y2t6ZTFwODRmRE5VdmNpb0dTZmhkUERDSUYzN0tHQkVncG83c3Q5UmFzOEc5VHNta2Z5VXMweFQtbg?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: Pleno del Senado aprueba la Ley de Economía Digital; la envían al Ejecutivo",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPejRZZ3hvRE53eTVGOENMS1N2TkxsblpuUUtMdXdkd3NjNzNkYWYxNFdjb0JVYkRHdmtra1V0NmFrQ0xDYkVQcV9wUkdqdVhKXy1wRDhsXzR0a01vTmdMSXp4TVZwbjJxQXpWZHZPRUFIMnk2TXMzaFhNcUU4a0ZhVTh5WlFqMTRDM1lvTldYM0E5X0RtOUJyWUtaY0R5a3p3ZGRod0pDY00tU1RNdVlyUWN5SXZEd1hpQlRKcHd5VHZlRGNjaUxV0gHMAUFVX3lxTE9xamFmQUNnWWZldkRyYTBNc0QybDBFbW9VbmRDdmRwWjRjUl9xVXdUQ2QwSzI5N215M3RVUDNyMTNvNXRadkJyYUpaQUs3dXdjLTl2eDl5NlRweDRTRkl5XzNLbkR2SWRNVEU0LVFPV28yWmdZdGZSNW8tejYxQ3Vvd0tTbUo3OEQzdktHRG8ySXVCZFAzakJ0YlY1WG82cHZhUXA2WDF4T09zQTJtQzBsUHl1UlJ2aC05NEVTQTZfODdhYmJjRl9oOTRYTg?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Comité de la ONU lleva hoy crisis de desaparecidos en México ante la Asamblea General",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcmd1OFItRU14LTlDdExDcjBiSEFaUmU3VC03RFMxV2lYMW03WWVOLVJhNVUxanFxMC1aNDk2TVZNVGFBcU54TzJrcGtLdFREYTVpZmttTTNLTGFJRFZLS3VLUXg2UHhDR0NCRlc5bk1lY2FZNFZrOGFReVJOdTRhYXFsSlhtNXJ3Tl9yV050OWp4WXNPR3ZpeGlPS3ZMcTBNLTUwYlo1V2RPR3NrOWlDclBES0VYSkp6Wnl4aFpyTGtxbFZvbXZrSm10TnAyMG5iT0JmOWxTd3JhLUNaUFFmNkJDTVBTbWQy0gH8AUFVX3lxTE1ha1hMOHczckVjVDlFS3pabVdXVVVRTWFkZXhvRi12UFR4cnA3UHZnR01MVGF1NDZvd3lXZ1htRHVzQXdocTZRdlpfOXRmTnRYLWpva2NaaVp1OWQ5OUF5dGs0WkZ6TTc4d1RhLWljWXRxV1NpMk9sbmJicUNjWnkwSUJ3dDFma2dFQXBTRFEweWJ6cGloY2JNZFRoQjdicjJjSTFOY202cnB6Z2xzcXFYX2tvbVlrZ2Z4cGQzWVVKNlctbTROLUg0V1pxQll6N2w3QzJReExhNnFzdzdBWjREdzZWSnlRWHc4bmpfb1JYT2d2bEtlcGFnQnR2aw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Sheinbaum y Trump aseguran que México y EE.UU. están \"muy cerca\" de un acuerdo comercial",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeU5hTldJZFJUSFB1ZFByV2MxVk4xQUp5RGhmbXVBamZnWkV0WkFaaGJwRWRNZnpoNlJuN1d5SlhiVWtBWkJmdzRDZWhramg5MTd0ck1yS0xTWWYyMGU5VFk0TW1tWmdGN2xYYlphYW41cjBJRlFndnB5VjNsdXZSMV9QcnJMRjdGcnY0QzRZQ1l3MFF0bDEyUg?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Trabajadores del IMSS entregan a Presidencia pliego petitorio; refrendan demanda de alza salarial del 10%",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUXRkZW5VVkJEWURRT1NvdHF1djNCdUh6cTVGaEZqZWU0SWZ0dFVRMEtUSElQbWZiMUlMLTRkTElMa0RsQWhOQXFUa1UtWm8wQ2pPeTNhYV81ME55Y2dmdl9qYXQxT1BZR2lBR3BUcGR2NlFITS1seDR3cHI0NFRMNERIdzQycVZTNFZaMXhOaFlBakl6MFgzVUhxcGZaa0ozbjZvZG9BaERkeXVmbnZQZlVPLXkzUlUzbHIwSHB2b2lwNXhuaXVqa2JpeFJfdVc3WFJqTExOdkZvNDNhdjV3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Guardia Nacional tendrá conexión al Centro Nacional de Inteligencia tras firma de convenio con la Defensa",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQanBWN0UyYTRUalVoS3FaQkZia2tzZHFyanpLend2ekdablFKUVkxZTVkLXFHWHY0STdMMWZwdjJRcTZKbG5uOTF2WGlfUjl3VmI0M0IzNVduVVRvZ2d1cEp5NXJPVVlGYlZZUFpaN0FRWGk4S1h5d2hNSlN6aWtaR3BkRFdtUUpsemh6UkFTRjV4alpTd0pYbTNJNW9RaDM4S2t4WWI0OTR3bGJFWnFkUXcwVmVnOGxUMHN0c2JYcU9VSmdVcjZQMzh2Z29qSWliaFpaU1hoYlU5OGpnSF8tRDFXZmhHSm54cVE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Zafarrancho en San Lázaro: priista Gutiérrez Mancilla arroja agua sucia a Máynez",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZGEwSFhxMk9UNDF1dWtMZ3RfTFFuNmx5c2ZTQVRZekdUU1hnVjdldFgxckVqcWx4dlM0REFfNmY3VzZpcWt6LTVlX0tVY2JzSW93SUQwSDZ4M3pVNzdWbDZJNmFrcVlHaDlEbkJvS2NfRGY3WHNsS2JHdnJubnhYN05JOVJhNENsM0hhSEFiN2cyVkNXV1RDZjVyb0t5aS11VHM5eVdkUmFmWVV1LXVtdUVaSEkxd2s2TzNwZklOYTRIdmJzMi1XZjZCYw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Resulta 'fantasma' chofer de Taddei",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jTE5ZUzhBOEc0akZQYlBiNnRwR19DOGI0QTlXQkl6SFRLTzZDZFZlNmdRaUhUNmU0UXJqTVgwRGJLU3FiLUN6cWpIbjdtSGktQ3hOX1NDQVR6b29vMkdRZWIzNHdyVkhrNTNRenNjdnlOd3IyN0E?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1792497886046,
+    "fecha": "2026-10-20",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Crisis de stock y errores de preventa golpean a Nintendo globalmente",
+    "descripcion": "Nintendo enfrenta problemas logísticos globales tras subestimar la demanda por las reservas de Zelda: Ocarina of Time, mientras el ecosistema de hardware anticipa cambios profundos.",
+    "narracion": "El mercado de los videojuegos atraviesa una etapa de fricción económica y logística que pone a prueba la capacidad de respuesta de los gigantes de la industria. Por un lado, la infraestructura de distribución global de Nintendo ha colapsado parcialmente tras admitir un error de cálculo masivo. Según reportes de 3DJuegos [F7], la compañía japonesa ha tenido que pedir disculpas públicas y reconocer que «subestimó» el interés desmedido por las reservas de *The Legend of Zelda: Ocarina of Time*, un fenómeno que ha derivado en una crisis de abasto a escala internacional. A esto se sumaron fallos operativos adicionales detectados por Nintendúo [F5], donde la tienda digital y de preventas comenzó a aplicar descuentos erróneos en dichos artículos, evidenciando fallas en sus sistemas de gestión comercial y control de inventarios.\n\nEste tropiezo comercial contrasta con la agresiva estrategia de penetración de mercado para el ecosistema venidero. De acuerdo con datos filtrados en la cuponera de Costco [F2], ya se proyectan descuentos directos de hasta 2,500 pesos mexicanos para la inminente sucesora de la consola híbrida en el periodo comprendido entre el 19 de octubre y el 15 de noviembre, lo que confirma que las cadenas minoristas buscan asegurar flujo de efectivo ante la transición generacional. Paralelamente, el catálogo se robustece con la integración histórica de franquicias pesadas; Nintendo ha ratificado la disponibilidad de todo el catálogo de *Resident Evil* [F4] para sus plataformas actualizadas, garantizando soporte multiplataforma de alto rendimiento.\n\nNo obstante, el panorama macroeconómico de la industria no está exento de turbulencias tecnológicas. Un análisis de Xataka [F3] pone sobre la mesa un debate incómodo pero inminente: la integración acelerada de la Inteligencia Artificial está redefiniendo el ciclo de vida del hardware tradicional, poniendo fecha tentativa al declive del modelo de consolas físicas tal como lo conocemos. La automatización del desarrollo y la nube erosionan la necesidad de silicios dedicados costosos.\n\nPara el consumidor en México y Latinoamérica, estas coyunturas se traducen en una pinza económica compleja. Por un lado, los coleccionistas y entusiastas sufren las consecuencias directas de la escasez artificial y los errores de preventa internacional, encareciendo el acceso a productos de alta demanda por culpa de la especulación. Por otro lado, la desaceleración del mercado tradicional obliga a las tiendas departamentales en territorio nacional a implementar esquemas de descuentos agresivos para mover inventarios rezagados. La industria avanza hacia un punto de inflexión donde la escasez logística y la presión digital chocan frontalmente con los derechos y la economía del consumidor.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: La Nintendo Store europea añade todos estos artículos de The Legend of Zelda",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGJybXNJTmZuWllFZkdqUmdDWWNFTUYxazc5bl95Zk1RdGxnbUVnZ21YbDJaM3p5bHBJYWxRbUE5VFVkS1JObTBOdTRuWFljelJVcWlhVnpNeWdhWlNENjVaUjJfS0ZuTUNHYk1aMUJmOEpTWDJFM2EydFMzcGxGSnR2U191WkxqZEpxYUZVX045SkgxWjc0alZrT2FqTXdpazB1ejNScEM2dVJ5YnA0eE1GWQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Jointly News: Cuponera Costco del 19 de octubre al 15 de noviembre: Nintendo Switch 2 con $2,500 de descuento",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVUdCQW5haGNqTmprcTZ5enpEcGlfTWE4SlpEVFBEZUJfaEJJN0lNWHl5alA4OXBtVXBrMHc4NzMxamN0anc4dFhERU1kNE8wSHgwenpsbTFmVmR0UW1vS1VrZHBIaTdQNXRsVDg5OUZVUXF5bFJHTzA5aU9qZFlpUVV4bmtDWTZlRmZVdlVnMA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: La IA pone fecha al declive de las consolas de videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlBXcFBlakRiLUQxczA0OUU5U3E3VEhkWkpkTFF5UTlwdXk4NUljazR6QVNYdDNyZUdCTVlQLVM5VmNSNnpGQ3pDRmUwNHFlMVljQkpIY3pvTkRyTklPek9mNXNtYkdjajdHZFVqblNtMTZUcWxCdTlSZWhMUXJLTkpFbFZmVFnSAYwBQVVfeXFMT3BDMDU0ZDNlbUhTSUpoU3V4R3l6aXlCU1ZrSlRyRlBnbmE0ZEdLeENUNnFTWnBfZTNaZEpqSGpaU2NPTDBvVXZUTE85THJYSVhUNGNPYkNuTzU4RlFZb1NPOTg1N1MxRy1BNVNsX3BKcktaei05bXJKcExmWHhnT09IOV8ycUtycHNDazI?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: ¡Estos son todos los juegos de la serie Resident Evil disponibles para Nintendo Switch 2 o Nintendo Switch!",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMzQ5SklVV2dnbE11Zlg3dlNvVktHQ1hJRXlaSEtJOGsxYk5zZ3JHbTJET21aOE80bTZTOV9leWVxVEh3RmtpR3doTGdwRko2dEptUFE0MTBkMEpOY3B2Vl9za0tlMGZGSjFCME9kVTJrRnpyeU1jX0dOTGpRZTc1MkluRFFSeVREZ3pNd0N4eXRkd1NPVlVsQUNCTl95OWdOSnRPWUphU3BmMVN0bWxBRWQ0V2F4ZVN4djNhUVNNNTlVTDFFMko5TDhqeTQ3eVdCeG5PeThZclVZV05mSGsw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: Nintendo está rebajando las reservas de Zelda Ocarina of Time por error",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSFdmZkVfeGdEM2RnR3FmVUhUTldaNGxnTGJmU0xRLU9DWG1uX0MwQzhCZXVGc01kbGdQVFQtdS1PREViWmdLZkJuVGhMSmJSakhTZmlHVzhxM3h1YlFxODI5WjMtcHFXVm5welpQeVV1M3RGNDFvZUJWNzQ3LVFheg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "XBOX Wire: Conoce el Control Nano de XBOX",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12TGVGZXltVWg0OGNKSEpWVDBjQkVReTFFaEFJV21XaEZNOXhoQ00tU2JBVHZxZHJQUmVwSGMzQlZYa1JzQmZFdVllQ3BwY3FoTnZFVTJkVUtSc21Rc0RuN3BvOFNaRGdyMVg3OUZpWFVOX19Oc0J4Nkg2d0hYQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: \"Pedimos disculpas\". Nintendo \"subestimó\" el interés por Zelda: Ocarina of Time y ahora se enfrenta a un problema \"global\"",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOU051RHQzazFxWmdLQ0NyaUtsVmhkT1NGTXRpX0g1ZE5ickJqcEJFRVVzUmFLT2JqR3RrZjFTZC1oSXpnX3RiVzByNUwtQ3BGSVE5YnV3bm1TMmZXN3lmY1RIU1hGV3VoREN0SzFsdXliclVRNFI0ZF92eXhITFdmblIwMjRGRDNVVU40MEVScUV5SzFqV1Jpc3pjODBLQjg5aldYWkxXNVdzMjRSRUFfZ19nR05WYWcyUmhBWkJaa1dHTlRRUnN3OThZY2NJbnJJSGJvR1FxcGtUUFRyYkRnZTYtVDZCZEZFNTlUMEhZb0xld3RiaFM1SWVXZy1BSmRQR18tRWdmU1lzVEXSAZACQVVfeXFMTmx4TU45RngwM1ZjbE5sMUJUX0lnRjNTV1F0NGMzTFNTOFNXRVhlZW1CMlRCcjc3WlNQeXRuOUlzVDRBM1RNcUJyUE1idXBBTnVxbFZXbjAzZ29JVjQ3S2ViaXRpbENNeDF6cW5EMVd5cWhabmZrbTVRRF9hYUk1ZWJ0OGhJQjhvWkRIYmtVdnhpWmdRUTR5YzNRMHJQdGFwR2k3Q2FMUVl3Y2tNc25UNm9hQjdGSVBaNlk2U3lXTWJ5UnQyNzV4WVpCdXVKU1lpR2Fla0FkYUQtN2VhZG8zSUVtZVNhRFFra0JpbGt0c2ZuWVZkSEhBekNUblVXMkdSbS1UR0JENW1hdUZsbXRVY3g?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Sol de México: La Sauceda celebrará una jornada en torno al anime y los videojuegos, con Humberto Solórzano como invitado",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSmRyNTRGX28tNXc5dEwyREhsRzlYSTVpYmhEaHBiWWtma29DOGRLZjRvdk53Z2JEVllJVEJwN2N4NDdPd2xRcFV6elBOdEZPcE9MT1VMdkJiN3g1V0hWOW1xUDBhaUlqNXNvTDFFdTVFamFWR1d0ckk3dmp5OWRXUkNGelFRN3Y5RGltM2xmX3lWLWlYRWxzamdmN3ptdUloTHdZTS1YYTR6Rl9EckY0X3ZTZmlzT1FFS1MzdzJNMkdEcjNDRE1Xb1QzdWotLV9UMy1JdjFUVXpwYldoQkRuemxRU3BXQ0tGZndhSVV6bw?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=89E24zXH9uI"
+  },
+  {
+    "id": 1792497857604,
+    "fecha": "2026-10-20",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Deuda técnica y ciberseguridad: Radiografía de la infraestructura digital y financiera",
+    "descripcion": "Análisis riguroso sobre la adopción de IA en PyMEs, la expansión de activos tokenizados en Solana, los riesgos latentes en apps bancarias y la infraestructura de transporte en CDMX.",
+    "narracion": "El ecosistema tecnológico y financiero atraviesa un momento crítico donde la optimización de procesos choca frontalmente con la persistencia de vulnerabilidades estructurales. En el plano de la infraestructura pública, La Jornada reporta la participación de una empresa china en la modernización de la Línea 3 del Metro de la Ciudad de México, un movimiento que vuelve a poner sobre la mesa el debate en torno a la soberanía tecnológica, la trazabilidad de contratos de obra pública y la seguridad de los sistemas críticos de transporte metropolitano. La dependencia de proveedores extranjeros en proyectos de alta criticidad requiere auditorías rigurosas para evitar puntos únicos de fallo en la red de movilidad de la capital. Paralelamente, el sector financiero nacional enfrenta alertas de seguridad. Según El Financiero [F4], nuevos esquemas de fraude digital amenazan la integridad de las aplicaciones bancarias en México. Esta problemática evidencia que la banca móvil y las pasarelas de pago operan frecuentemente bajo una delgada línea de seguridad, donde los vectores de ataque aprovechan tanto la ingeniería social como las debilidades en la autenticación de usuarios. A nivel comercial, UnoTV informa [F1] que la plataforma T1 introduce inteligencia artificial para que pequeños negocios puedan vender, cobrar y facturar desde cero pesos. Si bien esto democratiza el acceso a herramientas de comercio electrónico, también traslada la responsabilidad de la ciberseguridad a microempresarios que carecen de infraestructura para mitigar filtraciones de datos o asegurar transacciones. En los mercados globales y descentralizados, Cointribune documenta que los activos tokenizados en la red Solana experimentaron un crecimiento exponencial al pasar de 700 a 4,300 millones de dólares en un año [F3], reflejando una adopción institucional acelerada, aunque persistente volatilidad regulatoria. Asimismo, en el ámbito educativo e institucional, El País señala que Harvard ha comenzado a clonar a sus docentes mediante avatares de inteligencia artificial [F6], un parteaguas que redefine la pedagogía pero plantea dilemas éticos sobre la propiedad intelectual y la deshumanización de la academia. Finalmente, los mercados de criptoactivos siguen registrando movimientos agresivos, como la quema de 1,200 millones de dólares en tokens BNB reportada por Binance [F8]. En conjunto, estos eventos demuestran que la digitalización acelerada no viene acompañada de un fortalecimiento proporcional de la ciberseguridad y la soberanía de datos, exponiendo tanto a instituciones públicas como a usuarios finales a riesgos sistémicos de gran escala.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "UnoTV: ¿Tienes un negocio? T1 lanza inteligencia artificial para vender por internet, cobrar y facturar desde cero pesos",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdVJPRlpLV0tyRVh3RlpWcHo4MktvWFdNNmIyYUJfQ0xHbVV2Y1VhdlFiSzY0cU42eWVhRXV0UEpkM0dsQmktbEdBQ0R2am5vM3FOUFJpQXpWNXo3aHMtU0E3VDhlT3BHd3g1Ty1iUWc1MHRaR2V4OGpBX19jZzRwaXVrYnVWTVJ5Wk9uMHNMSVJZbmJRTjVBd0NKbFhwRDFqdEdIYTRKd2tWdnViTDVndFdyc213eXJod3hET0NtcFdNUjFEem5YOG5RMmZkZ2M0SFd2ZmdjQjcyUnctTGRfTjZYdGJITFBvdHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Elon Musk promete regalar en 2027 una acción de SpaceX a cada niño en EU: ‘Será la primera de muchas’",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWWJEb29wUzdRSndsMWtXU3ZTTllSeVhNY0FnR0FzZFVGN2RXYkV5Tk9KVTNudTBGRE5sWUhVc0tLOUgtcEdGOFJFdWdmclpHWlhJWlh0enUxN3o3QTlnV0tDSGowTjgyVjV6bFJfRGtTZW1FcW9mODc1bHpiMlZ6MjAtOGJ4V1dPRTlnUmVqVWZrWUdBWUh4SXlOS1ptZnFwUlBDLURPckZ2bk9EY1U1RFVWS1J2WTk5amRQNTBmb1Z3ZGgtYl9lSzY4WnFWcFY0Ni1rMjNUNFhVelFZOUhnc1hn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Cointribune: Activos tokenizados de Solana: de 700 a 4.300 millones de dólares en un año",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb3ZuZ0dON2Uwdlp3UkRIVFNzeldnRmVsQm5pQ292MDY4cEhrbXpJd08weGtnZG5qZTljMXQzUk5Tb09yQjlyZnNoZ2xyYWxCNjBQZUM1WEF0NVNDM2RweFdOeFNYUjhIOTFTZTZCbzlBbWRqSVBESUVjYktIN0puaXNFekNBNnV4RXlXX1hCQnlFbWF5ZllfTDRfQjBwVmFBYklCQ3UxVHd0dw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¡Cuidado con tu app bancaria! Esto sabemos del fraude con el que pueden robar tu dinero",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQkpoQ1g1c1BPUWQ1TWg4ZUt0d2RUSTQtdWVNM0RuTFFyQ2s0VG01MXpuN3F5ZUdxQUlZalFaX1I2bGJDTXNsZkJ3WEwwdXVBZm01OVEtYWFQN2VrV3pMajRKbWZieGlMMUp1SmUtQnJ3RzdPanNpUlB2dWlFTzY3dkpuNGlZQ2ZyWm0yQm84S3dRNTZtSGdhd0tLU1dLX2p0Vks0UVNJR3RwQXh2dXhOcnlZUDBQUzIwZ09hYS1Xc2Vxa0J0b3JEN1lfMFdjNXF0b0tuaXB1bzFtUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Empresa china, presente en la remodelación de la L-3 del Metro de CDMX",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYzg4T0xVbTZQSEZXRkVkXzRjTlhmWXdNamcyNllMS3FhZmpjZjNTaVYzUFR4VVNZMUd0aU15Vm1TemhLc1Z5ZWVadTU2ME12ZVprOTZndUo0V2Y5NUt6blFiQVRmOUtmWV9hdEVTRzlpQnUwSzBkUG4yNnp0amh1X2pRNlZNSWVDRUdUYlR3eEJQNkljcC0wbHdTR0Y0SzJvcWQ4el9xSWc5YnBKM05aanBjQm9nUWdQQnYyaVEyWHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Llegó la hora de los avatares en las aulas: Harvard clona a sus docentes",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUEtKV3o1ZnpEZVNSZkcxeUJXRGVBYUZ1MHhMemw2Z0twT1RPVWxhMmI0M1JLaWVZUTJ0WWd0UFZJUHpMTVNaYlhOSENhUUFkYURUSjdhSzJiUmJ4TE9UNWx5bExhYTZVUFNwdFcxSEM4bmZOMGNMR3c2WTc5TGF2OXRyb0FiTWYtUklzek5UVG5QWk9wMWVNT1VpYkZvZTNIYk1nTDUzSm5QOEhxZHl4Sg?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: Unicorn Overlord recibe Port Nativo de PC para Windows y Linux con 4K, FSR 1, Teclado y Mouse - Guía de Instalación",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aVXJTcVkwYVZTeFUybFJoTmlDbDFpSkI2ZGRmMElaUUxsQUh6QlV6NlYyMGlnUS1MQ05tcFFmZFVxVDJxbTAyb1hOLWhEekV2aWRwTGdueUltWkE2dXB6YjNWZE96a1VNRkJ1cDVmQUhlWGhEcHoyUjJVcHpfTXM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Cointribune: Cripto: Binance revela su IA de trading y quema 1,2 mil millones $ de BNB",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOamJjdElzck00RFVRV2dRRnBZekdEZ210UnJZOG5rVjFIMGxfb1JmaFpiWDBWWEZKbGlOYU1STHg4V1N2akRTdUwtRHNmdnlTSHpxbEgyTm9FVlBXZ2xKbC1JY2hGcnhBLXRJVUkyMVd5d2VEdDFoMW1BX3lXYVhjQmFHX3BJMFdJV19IeXp4VUcxYkFmNm5aWWpHS0RGbldRSV9N?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=8vS0hawCdZ0"
+  },
+  {
+    "id": 1792497713129,
+    "fecha": "2026-10-20",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Crisis en la industria: Riesgos sanitarios y colapsos en el espectáculo nacional",
+    "descripcion": "Análisis de las recientes complicaciones médicas de figuras públicas en México, el impacto de los formatos de telerrealidad y los eventos internacionales del sector.",
+    "narracion": "El ecosistema del entretenimiento y la cultura en México atraviesa un periodo de escrutinio marcado por la vulnerabilidad en la salud de figuras públicas y las dinámicas contractuales de la industria audiovisual. Informes recientes de medios como TV Azteca y El País han documentado emergencias médicas críticas que ponen sobre la mesa las condiciones de trabajo, el desgaste físico y la exposición prolongada en los medios de comunicación masiva. Por un lado, el actor César Bono enfrenta un procedimiento médico complejo tras la detección de un tumor que derivó en la pérdida de un ojo, un hecho que trasciende el ámbito estrictamente privado para visibilizar los retos de la salud en la tercera edad dentro del medio artístico. Paralelamente, la hospitalización de la conductora Laura Bozzo con un pronóstico delicado en la Ciudad de México reaviva el debate sobre la presión mediática y las exigencias físicas a las que se someten los talentos televisivos de alta rotación. Estos eventos obligan a repensar los protocolos de seguridad social, los seguros de gastos médicos mayores y las cláusulas de responsabilidad civil que las grandes televisoras y productoras están obligadas a garantizar a sus talentos. A este panorama se suman los decesos que enlutan al gremio, como el recuerdo de Lua Blanco, actriz de 'Rebelde' recordada por Dulce María, lo que subraya la fragilidad humana en una industria habitualmente enfocada en la efímera comercialización de la imagen. En el frente de los formatos televisivos, la emisión de 'La Granja VIP' (reportada por Puente Libre) continúa generando cuestionamientos sobre la ética de los contenidos de telerrealidad, las reglas de eliminación y el impacto psicológico en los participantes, quienes operan bajo contratos de aislamiento y alta competencia regidos por normativas de entretenimiento poco reguladas en términos de salud mental. Mientras tanto, el sector cultural institucional muestra contrastes positivos con eventos de alta convocatoria internacional como la llegada del Grupo Niche al Festival Cervantino 2026, consolidando el intercambio artístico transnacional, y la presencia del EZLN en la Ciudad de México en un diálogo necesario con madres buscadoras, demostrando que la agenda cultural no puede disociarse de las demandas sociales más urgentes del país. La confluencia de estas noticias exige un periodismo riguroso que no trivialice el sufrimiento humano ni reduzca las crisis sanitarias y contractuales al simple sensacionalismo, exigiendo transparencia y garantías laborales reales para quienes sostienen la industria del espectáculo en México.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "TV Azteca: ÚLTIMA HORA: César Bono pierde un ojo tras encontrarle un tumor; esto se sabe sobre la salud del actor",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ0N3LUZDcmt0dmdPYV9RSkFVeEdrRTV2ZXZaMXdpTzZpMkZxcmtCeGQ0cHIyZGZ1aDI3ekZJd3ptNE12TUo0YWtzNmRlZElPRDZ4aDFXenNIcFhsV2lpcGd4NFBsNlBmLWRKNTlaRFJRX2J0VEZkYTRWbmNxMHkyTVBzNU5uNGNzcGpVa0xRYlpxQdIBnwFBVV95cUxQT1NkQllvOU1MQzlHYjdiQjl3aXUxU0thUDREM01pSjhUZ3I2cFhmT2hneEVEU0tYTmNrVUxtVmlJbDFlZnhRRFhKVzRnMG40Rk0ydVAtUnJHdXZQUHIxNnRkNkItbGVXa2kwZHJhUHh1WVcxcmFNTEthZjc4dVQ5bVhTMTVPdXpzSFpPQ0RGa2RLa1ZmUWljMG9mXzdLUEk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Dulce María recuerda con cariño a Lua Blanco, actriz de ‘Rebelde’ fallecida a los 39 años",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjJ0WDF4ejlxcll4eDdBa1RvY21QLVJqaDk0MWtkaDZDbjVoQWsyeksybGhXSUp3NUFEVDJDeGNuZTlRdXZQTmVTc1Nzb1ZKNzNSV2QxWGFoVnB4b1ktSlVvQzJTOFd0Zm95LXZ6Y2VDZkVIaV9MVGxKYnpmbWh2VVdsR0xLWUh0ZHA1SkprWFBoZklOd05CMjhtRmZTdTVkamJj?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Laura Bozzo es hospitalizada en Ciudad de México con un pronóstico delicado sobre su salud",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3R3NXFQUExNY1hmUjVyVk1TeWhkOVJyLWdKVm95RXpOUXBkV0dOWDBVN05qNDlxcGpXd0MyUVVQbk9feWVveXctYUdLN24yVmFDR2xabFAwZjlMU0liU08zenJCVGV3YkEzbWZWZk9CVno5QkcydEJ2dG1rWmNQWjZZbmJhank0UU5hRkJsX2VFQlY3bmdvWnJpUXg5S1E4MDYtUnVSZmZNX0FsS19MZkVUYjVsMVEzSVl4Z3BZME9jZ1RVZTMxWXpKT0jSAeABQVVfeXFMTVhmNXZUaHVPOVFUWVlPR05mU3REcTNpQS04S2NSclBPc1NSS1NOYXFUZURGMDE1dVM3Zkl2TEVzdzdUdE0wb21LNlAyRHp0bjByd2tzZ2dldkZNT0lSZThTdkhjNUh3OGIwTmpycERoNUllcWJxcU9YcEQ4TERYeHNUX2VkMW54NFN0WkhiUGVaZjg2X25GdW5QY1NFVE80LTJCSXhnRWZWWjNOeElwRjlodEY4STJjeU8yUTNjNHJ5Zmh5eWQ0dUlGcVNjT1pSVTZIOXhLeWhpMGw0VXYtY3k?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Vogue México: Todas las celebridades en el Victoria’s Secret Fashion Show 2026",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEdFNkRLc1hKdGcyMVNhN2p4MWEtWHBudGdYenJHV2oyM1UzcE1hSXVaU0I1UVY2eWoxQWlCd2xTU3NCNjdZTW5haGJ2a05vdjh0RzZCZTNXeVBYLXQxLTNmYjlmLXE1b19XMHdhX2hyMzBURGt2VGd5Z0wwTklPWVd5YzIzSV9ZRHhsZzliUVd1bUFy?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Puente Libre: ¿Dos eliminados? Esto pasó en La Granja VIP",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0c3TnJ4VzY4ajc0SG9SQWhfWVozajkzYjluWEgtSm9OT0MwSHdHdF9oTGdpX2FwaWk0TTk3X1lwcUFVTjJQOE9VOXpGZ0lMeGRaRWtYMkwzTEVBQ2g5clRfWXNPRHg2V1ZjaW13U3lZbEQ2by1pc0VrSUx2U09QUFctRW9Ta25qQ2JxUXlyY1AwaEZlQXFkaXZ3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Suman mil 530 delegados del EZLN al encuentro con madres buscadoras en CDMX en diciembre",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS3ZKQlNsUlF2aFBvdDJxM2ZWX3M0LWhaNFF4UjZzT3hiZmoxOGhPeWpOeUVZTkg3R1BRMDFMeW9WOUNKYjBQMEl1cE1VQ2haang5QVRRT2cwSVEtTGRheVR5bE5JZWx0REItZDJ5OVBCUGExZ0FVY0JqLWttWWJKMkRPSTBZLUI5Y0stV3JMR2RJY3V0Sm9iUDY5ZExhYWVhVmtHVDdyVlY4aXdHbkNidG5uUjV1ZGRGZnEwRm5ZLXVjY0JqTVY3RnM5VjJiYjYyOUNpZ3dQbVFIdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Grupo Niche llena de salsa colombiana el Cervantino 2026",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV2d4emN3WW1MVlpZSHU2UDJpVVYtLV9tQ0phaDBvLUpaaU11eEV1UzJRM3ljZ1h3ZU1wU3RYQkdrXzNldS1uMU1rbkVxbEhVUDZlY3JYb3VaeDRfalU2NE4zWlNoUlBfN2dDb1BPS1lxSUh6U1lob1NrMTVHWFR2Zl9ENlJaMHJ6YmI3U3R6VlNxM3E1NldYbVJ3RHA1X0ZWVDE4TV8wMXQyUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: La Lucha Libre mexicana conquista a la banda británica Travis y Tom Cruise - La Prensa",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZW44OFVkcEg1VHd3Rks0ZmdFd3BlMWVaUDA5dHJBYWdSWUR5dFhQN1BoaWdQdWR3cG1mcC1vMElMLXQwcTJ1VWZuWHhfbm1wM214WF9KOUZpS0VuRkxrTEdhNVVjempwdjdpdDlibXBjM0ItenFkU3BIN0tUMnNCc2JKSHc3ZXNIV0YtQ2pRYXBZQ01QRkhEeERQMjVTR0s0N040dHJPbjNlRUFlTUJJM0psMnlZZXlqd1FtRmxn?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=vZ2dCp9KS7A"
+  },
+  {
     "id": 9003,
     "fecha": "2026-10-19",
     "categoria": "Noticias",
