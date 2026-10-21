@@ -1,5 +1,116 @@
 [
   {
+    "id": 1792616234946,
+    "fecha": "2026-10-21",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Soberanía digital en juego: La paradoja de la IA en México y la vulnerabilidad en PHP",
+    "descripcion": "Análisis sobre la paradoja productiva de la Inteligencia Artificial en México según El Financiero, sumado al impacto del fallo crítico en PHP que pone en riesgo infraestructura global.",
+    "narracion": "El ecosistema tecnológico global y nacional enfrenta esta jornada una compleja intersección entre brechas productivas, arquitectura de software vulnerable y la dinámica geopolítica del código. Por un lado, la infraestructura digital que soporta a millones de servidores a nivel mundial ha recibido una advertencia severa tras reportarse un fallo crítico en PHP, un lenguaje que constituye la columna vertebral de gran parte de la web actual, poniendo en jaque la estabilidad de sistemas corporativos y gubernamentales que dependen de despliegues desactualizados [Xataka]. Esta vulnerabilidad subraya la fragilidad sistémica de la pila tecnológica sobre la cual operan tanto corporativos como entidades públicas, donde un parche tardío puede comprometer la integridad de millones de transacciones y datos sensibles.\n\nEn el plano regional, el análisis presentado por *El Financiero* expone una cruda realidad estructural: México produce componentes y condiciones para la Inteligencia Artificial, pero su adopción y aprovechamiento interno siguen siendo marginales [El Financiero]. Esta desconexión entre la capacidad de manufactura o ensamble tecnológico y la implementación real de modelos avanzados en los sectores productivos nacionales limita la tan anhelada soberanía tecnológica. Mientras corporaciones globales despliegan soluciones automatizadas —como las recientes herramientas orientadas a PyMEs para cobro y facturación impulsadas por terminales comerciales [UnoTV]—, el tejido industrial mexicano corre el riesgo de convertirse en un mero proveedor de infraestructura de bajo valor agregado, carente de una estrategia nacional de integración de IA.\n\nAdicionalmente, el panorama técnico internacional se complica con movimientos en la órbita de infraestructura crítica y hardware. La Agencia Espacial y los reportes de seguridad en órbita registran maniobras inusuales de satélites sin autorización previa [CNN en Español], mientras que el ecosistema de desarrollo de software y entretenimiento digital avanza con la adopción masiva de estándares de escalado como FSR 4.1 en múltiples plataformas de hardware [PC Master Race Latinoamérica]. Para México, la lección es contundente: la dependencia de software heredado vulnerable, combinada con la falta de adopción endógena de inteligencia artificial en las cadenas de valor locales, profundiza una dependencia tecnológica estructural que ningún despliegue comercial superficial puede resolver. La verdadera transformación requiere auditar contratos públicos de TI, blindar los servidores nacionales contra fallas críticas de lenguaje y transicionar de ser simples espectadores de la IA a desarrolladores soberanos de nuestra propia infraestructura de datos.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "UnoTV: ¿Tienes un negocio? T1 lanza inteligencia artificial para vender por internet, cobrar y facturar desde cero pesos",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdVJPRlpLV0tyRVh3RlpWcHo4MktvWFdNNmIyYUJfQ0xHbVV2Y1VhdlFiSzY0cU42eWVhRXV0UEpkM0dsQmktbEdBQ0R2am5vM3FOUFJpQXpWNXo3aHMtU0E3VDhlT3BHd3g1Ty1iUWc1MHRaR2V4OGpBX19jZzRwaXVrYnVWTVJ5Wk9uMHNMSVJZbmJRTjVBd0NKbFhwRDFqdEdIYTRKd2tWdnViTDVndFdyc213eXJod3hET0NtcFdNUjFEem5YOG5RMmZkZ2M0SFd2ZmdjQjcyUnctTGRfTjZYdGJITFBvdHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: Un fallo crítico en PHP pone en jaque a medio Internet en todo el mundo",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV244cnRZdUNybGtURXRHNnpQMUdwQy1ncmpjMC1LM20waEI1UVV3dTdpVl83X3J2S0RMLUtEQ2lxXzNueU5ZYUJCekJnMVNtSl9od2VTTVlBM2hpajlUV2Z6eW1FY3d4N0p3d09nMnN0NFROOFRlTnY0Wm53TTBTemVDSVlVbm9LeWw5VDJOOFV3ak5WV3hVazhPbmFpOTlicUJ5WmhFanl5Mnl0ajRlYWtkSnBpNGsxN1dvTzRHTUl3RzB4QTVNc3Y1M2xVX1V6VVA1VWNyV09NY0Q50gHiAUFVX3lxTE56YXMyVEhUZjlRSmlFNEF4c0xJb1hlZFVtV3NSQ082NzVjdTBfSmVFVG5yZXlvZWEySHJIa0FydC04LXRybi1EV2diVFBILVN5TEZnbC1LOTlCYW5leWlzRVhlaGo0VHpFbTBhSzVDMVFyNzJRUl9DZFRweERTNFpqYjRNclVLcDk0cDJCNnJETUlVaDJuMkM2QnlablhHaE1Oc3BCVUowelJ4QXRBRWVDRlBUN1RiRlNLR0ZFOUdhaTVXVXl6aWZyVmx4UERSVGVvMHJuNGVmUWhLS0lwcnJpZXc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Verdad Noticias: One UI 9 inicia su despliegue global: qué hacer si no te aparece",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMXN0RGVGUjVqTWd6MzlVc2ZyWURGbVp3SmFMM05KMldSQ3hQdjJXM3pZeHN3MGdUUGFxWC1jN21qekJ3MnRDRGVjOTN3dk9PbTFDME90NllkZnktMHRZdnNvRUota3FkT2hmd2gtX1RseVBSaW9DYnN0MmV0ckFSSVYyNnF2UzNHZmg3NGVhTFZLTzTSAZsBQVVfeXFMTnVScWVVdW5iMWZUa05hZDRHYTZPOHJjY3pPcDJ3YVFXUDV0TFU2NmoxcWo3MzFBeEM5OHUxNkNPM2FPdTg4MkxBMUlRSjNDSjdJY0xMa2EtUXliLTJLcWlUZUU0djRBZk00T0dJOWFRUlJtRzVJUzRNOEIyeU1IN19jVHM4QlNFSF9kWktTc1NFaFczeWNDbVF6MU0?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Hola Telcel: Cómo tomar fotos a la Luna con tu celular Android",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1SW10UG0tVEYtbFl4V2hkWlR4bUNmLTRzR0Q4OHp1Q0xIbHRQZTF4VkVIaHdTU0xhYWhCMTB6ZE9oc1lmTFZsUnFXZ1RIUWtMQmNzWmhibFdVWWt2RHVZV0pzNEF2WXZFXy1HU2FIVzNKd28?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: México: produce para la IA… y apenas la usa",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVDJickF5cVFRV05pQVVtSTlpT29NbExGb0dVRW9kWVFOcTBRVGNFdmVtLXdBQ3ZuUWpWNzh3WjJjOE9JUjM1MlZvSC1YMGRGNU9BZFlYeFdIeVJEdC05dGFlR3d1b0FEcnFWY2h1d2Vjd1ZrVm1GMlpUQlBkRWFDbnlJTlVMOExVUlhvZ2NzdzQ0Szk3ZEk4Zzh3WXktTDVOMkZlaGtwV2V4TlYwZVVn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: \"Todavía no sabemos la magnitud real del daño\": el joven que diseñó un software para buscar a desaparecidos en los terremotos en Venezuela",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxX1hzX08xUU5HVjdBUDZGN21PbFhXSWo4eTJnUHp4d0UyUnZYMFF1a2xxTDhsbTI5Nk8ya2pnMTU1QVV4aGNRaGJheUQzaHJYRXQ1MDNrZVZUODR60gFiQVVfeXFMTmIwMW04elByVUZadWRRRExHZmZBRFBQbkpmRDQyRE1Yb0JTMTlLZzFlMG1KcmpQZ1Z1N3d5S1pMUU5Rd2lEWWpTd3ZUZWMtMVlhWHg1NDdmbXhQWS0wdDVHeGc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: Un satélite ruso realiza una aproximación, posiblemente sin precedentes, a otra nave espacial sin permiso",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0Fnb01mWEZLenAza1pqb3VLVC14LWpUTHF2dWhqeERuSmVoRHBXQnJiMlRURUU1NFBqekZ6dDI1SVl5Y1FjUEdBZDRYQ2Y2dl9jU2E4WGlOYTUxNG1renZxaDZtTS1jc2tDYXduVEdVSExUNTB4NW1WZUZFWmpGY1hFckc4RTRkTkV3b0NuSkNfQm8?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: AMD lanza drivers Adrenalin 26.10.1 con FSR 4.1 para RX 6000 y anuncia FSR 4.1 para Vulkan y Xbox Series X|S",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNUFhamxYM1ZqaTl5MHZHLW5aV1dGY3FZM3BBYnlxTjdiU3ZpZl9rc2VlT3c5dkF3YlRMRUZ2TVVQb2xjRlFlTktsTDk3d3JkZGd1cVhKUTJ1VlRGVWowbGl0c2xxSV9FWTB4RlJUaG42bXZ1WERCU2lNVWZKTXBUSw?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1792616203896,
+    "fecha": "2026-10-21",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Deudas gremiales y batallas legales: El pulso del entretenimiento nacional",
+    "descripcion": "Análisis riguroso sobre el deceso del actor Carlos Miguel Suárez, los conflictos legales familiares en torno a Maribel Guardia y el reconocimiento institucional a Alfonso Cuarón.",
+    "narracion": "El ecosistema del espectáculo y la industria cultural en México atraviesa un periodo de reconfiguración marcado por la pérdida de talento histórico, disputas legales en el ámbito familiar y el reconocimiento institucional a creadores de trayectoria internacional. En primer lugar, la comunidad artística lamenta el fallecimiento de Carlos Miguel Suárez, reconocido actor y emblemático villano de las telenovelas producidas por Televisa [F5]. Su partida no solo enluta a los foros de televisión, sino que reabre el debate sobre la seguridad social, las condiciones laborales y la estabilidad financiera de los actores de reparto en la industria audiovisual mexicana, un sector históricamente vulnerable ante la falta de esquemas de previsión a largo plazo. Por otro lado, la esfera mediática registra un incremento en los conflictos de carácter legal y familiar con repercusión pública. Tal es el caso de Maribel Guardia, quien recientemente ha declinado la convivencia con su nieto tras señalar públicamente presuntas situaciones de riesgo institucionalizadas bajo el término de 'trampa mortal' por parte de Ime Tuñón [F3]. Este tipo de disputas trascienden el mero escándalo de la prensa rosa para instalarse en los tribunales de lo familiar, evidenciando las complejidades jurídicas de la custodia y el interés superior del menor en escenarios de alta exposición mediática. Paralelamente, la salud mental y la gestión de la presión pública continúan siendo factores críticos para las figuras públicas. Alejandro Fernández, respaldado por su pareja Karla Laveaga, enfrenta los retos asociados al escrutinio masivo y las batallas de salud mental [F4], una problemática que exige cada vez mayor atención profesional dentro de la industria musical para evitar el colapso emocional de los artistas. En contraparte, la excelencia cinematográfica nacional recibió un espaldarazo institucional con la entrega de la Medalla Filmoteca UNAM a Alfonso Cuarón, galardón acompañado por el reconocimiento de la Academia de Cine Española a través de un Goya [F6]. Este hito destaca la importancia de la financiación cultural y la preservación del patrimonio fílmico, elementos indispensables para sostener la industria frente a los vaivenes comerciales. Finalmente, la cartelera nacional anticipa el estreno de producciones animadas como 'La Venganza del Charro Negro', perteneciente a la saga 'Las Leyendas' [F7], lo que demuestra la resiliencia y viabilidad económica de la animación mexicana en un mercado altamente competitivo frente a los grandes estudios extranjeros. Cada uno de estos acontecimientos configura un mapa complejo donde la ley, la salud, la economía y el arte convergen de manera inexorable.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Puente Libre: Rindieron homenaje a Heath Ledger en \"Dancing with the Stars\"🎦",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZTF2QjZYeXlxZTNfT0dSNGRLWEdPNmpEYm93V0dGcTN0Y3dHaFp5U2NrQV9LeDMyU0ltLXZqTWZGUFo5TFU0dGVPNk0wcE9LajdReFViY3l2UkFXVzJ1TVU4dlBLWFJRYkxzLTNhbWticU54cndjWXJjbDZQRXQxVW0tNk15QW9JSmRSb2dtWjVwa0psS0E?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: El príncipe Harry confiesa sobre su reconciliación con el príncipe William: ‘Hay gente que no quiere que funcione’",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcEh4cG5lVEttUDQ5MnhkTHVaNVdzQVJtNi1FWThUMDNPMnJzU2dLR2tNV1lwV01TVEhkMlAtR1RBX3k0blhqaHNJYWJPbFRSQUtBeDh4QjFLb3lVNllKd1JmMUJZWkpNdWFyYzVKUG9ycDN4M29pNkZOc3loUmk1dThrUm5PbG1qb1pZWWZEdEVxMm0wOTFBSlJsZnE1MjdkY19sTnFRbkRkUldCRUx2dzdVMC0?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: Maribel Guardia \"declina\" convivir con su nieto: acusa que Ime Tuñón planea \"trampa mortal\"",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMXdlSktXX3MtaFd0ZkxHXzdTaW5OTzZUWEtoYU03N29NNGFMSXBJeUtCdkN4SXdOZFFxT1FmNGM1MG1IbXVKNV9YMm12dzhOcm14a0puMmt3WkZiTUpEWjFGM0F0WGtFTHM0TGhnbWx1UEZnak82enpiR1Z3Qmg4TDhXRW5tcHh1SGxXa1JhZVpFOUVZeFFQQUk4QVFhTzlfZUVwRFZNSU1Sa2h6eW5td2ZMbkVqZTdfZmRJN2VBY0J2Sjky?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Karla Laveaga revela cómo apoya a Alejandro Fernández en sus batallas de salud mental",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWVQ3NU43VVdJSF9FYVZFZTI2Q0laY0pHMWpBanJlRlJWQkhPaXJ6QTJGd2FVNGxubV83TlEweEtULUhUWTExNlRKYWFxVmxWblRFM0l1YV9RbGFSdTJaUWJZRzVoNEZLcG5KbTVCUEVKODdQM2Y2T0NYaVNXN0tFNmE1blpQXzQ2NG1vd25XVEwySnBad3Q0a0VOYjAzMXR0UmxfWHc5SjMwSmxKSy1zR3lrTEtHRzlMdkE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "López-Dóriga Digital: Murió el actor Carlos Miguel Suárez, famoso villano de telenovelas en Televisa",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbkI3dXJhUmJHM2RYbUFWTUE3UEJhWUlMRzJoMkNnOVE1dFFBN2pvTEY4VFFNMkl4WVpSdUVCcERYMERGZEpvd1R4MXR4ZVRDMUtIaEV1eEg5aWVHQ3AxOHloaFVMMW9pX0ZhUkJsT1o2ekhFM3lLck9ESGtZZTUtVDZXb3h2UTJzNlBZYmcwODhqNlVpOWhHWUdodHdHMDdtNjhvTy1IbmdsOGNaakE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Universal: Alfonso Cuarón recibe la Medalla Filmoteca UNAM entre aplausos y un Goya",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYTk5R0p0cllrREdiVUtQLUpPWlU1QThabUpTZzdCMjF1aFV0RDNzbEducWRVTjdoY0s1WFJ5VVlyVDRjNEc0UllLTXNjSFlzeDJ0LXRjNXZPQ0lLWW9wM0lZeXlTbWh3U2h5R3hNT0pVUW5jVzlha2dRRWtlbmN2eVowYngyekhZYm5fWGV1TU9memJKYWRramZrdFRYQ2FyTnM5WWIxcDBUX01fUFJmQXRaTW5ZdFJDcTZyTlRRSU1HdG1wRFV1dm5kNkR5RGVkUUgzdURlWEQ0VXh6aURFczdXQ3Q2cllEV2JGdWRjNVdpNlJsakhBYW1vejQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "SensaCine.com.mx: ‘La Venganza del Charro Negro’: Todo lo que debes saber sobre la nueva película de animación mexicana de ‘Las Leyendas’",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ELUhJbVFYNEZIZlZGUG1MYmIxWTBfY3AtbTQ2RkxBNUliQVJHNlVwaGZrczlHMklIcUZTQkczMHkwSzd0QW51cXNJX3FDN3Y3empIMlE0LU81TGRrWmg3ZFJPdllEVk160gFuQVVfeXFMTkttWVZPSkRyNk1aV1NFQ3RGX2Vua2lkOUNiTW5wbTBjcnAtQjBKbWV0VTV5LXZ6ZmFscTV0LTcxaDgzTjJkTmV6OF8zSDFFWF9NaGx2S2lkQVl5dE10elNpaDEyVDR0V1ROZnI4NkE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sociedad y Justicia",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rM0Z0THVVMHBVRXh5YjlKREd6WlhKdzNLSGQtcE5fTjItQS1SejZuMVhyaEEzbWpHMHJmRldwcUI0OGEwcWlha05zZ05udzd6cVJiYjRRdUE1dw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=OfpXY1mNhN8"
+  },
+  {
     "id": 1792497905748,
     "fecha": "2026-10-20",
     "categoria": "Noticias México",
