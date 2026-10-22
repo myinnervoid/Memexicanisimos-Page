@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1792692006158,
+    "fecha": "2026-10-22",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Crisis en la industria cultural: Inteligencia artificial, salud y declive gremial",
+    "descripcion": "Análisis de las repercusiones contractuales, éticas y de salud pública que sacuden al sector del entretenimiento y las artes escénicas a nivel global.",
+    "narracion": "El ecosistema cultural contemporáneo atraviesa un periodo de profunda transformación estructural, marcado por tensiones éticas, dilemas de salud pública y la precarización laboral que impactan directamente a creadores y figuras históricas del espectáculo. En el plano internacional, la irrupción de herramientas tecnológicas no reguladas ha comenzado a fracturar la confianza en las editoriales y los sellos literarios. Un ejemplo contundente se registró en Canadá, donde una casa editorial decidió romper de manera definitiva con un novelista tras confirmarse el uso de inteligencia artificial en su proceso creativo [DW.com]. Esta decisión no representa un caso aislado, sino un precedente legal y comercial ineludible sobre la propiedad intelectual, la autoría y los derechos de remuneración en la cadena de valor literaria. Paralelamente, la salud de los grandes referentes de la interpretación vuelve a poner sobre la mesa la fragilidad de las carreras artísticas. La legendaria actriz británica Judi Denclh confirmó públicamente que las afecciones degenerativas que padece han frenado de forma definitiva su participación en producciones de teatro, cine e incluso en sus hábitos de lectura, evidenciando la falta de redes de seguridad institucional prolongadas para los veteranos de los escenarios [BBC]. En el ámbito nacional, la industria del entretenimiento mexicano lamenta decesos que exponen la vulnerabilidad económica de actores con trayectorias consolidadas. La reciente revelación sobre la causa de muerte de Carlos Miguel, recordado por su participación en 'Dos Mujeres un Camino' y quien en sus últimos años debió dedicarse a la venta de alimentos en la vía pública, reactiva el debate sobre la ausencia de esquemas de previsión social, seguridad médica y contratos justos en la televisión abierta [Univision]. Asimismo, la televisión comercial continúa apostando por formatos de telerrealidad de alta exposición y fricción controlada, tal como lo reportan las coberturas de cadenas como TV Azteca en torno a sus transmisiones de 'La Granja VIP' [TV Azteca], un modelo de negocio que prioriza el rating inmediato frente al desgaste psicológico de los participantes. En otro frente, la industria de la animación nacional, representada por franquicias consolidadas como 'Las Leyendas' con su próxima entrega 'La Venganza del Charro Negro' [SensaCine], demuestra que la viabilidad comercial subsiste mediante la propiedad industrial sostenida, aunque contrasta fuertemente con la agitación social y política anunciada para finales de año, como la caravana zapatista hacia la Ciudad de México prevista para noviembre de 2026 [El Sol de México]. Estos acontecimientos configuran un escenario donde la tecnología amenaza la autoría humana, la salud pública limita el legado escénico y la economía precaria devora a sus propios talentos, exigiendo una revisión urgente de los marcos regulatorios y contractuales que rigen el arte contemporáneo.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "TV Azteca: La Granja VIP nominados: Ver GRATIS, EN VIVO y ONLINE La Asamblea de HOY, miércoles 21 de octubre; transmisión",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQU1dpUFlSZ1JBT0loYUp5V2hLdG5Wd0Jid3BfMG5YdXVkMFR0WFFhNWNVY2RRX0RfOGsxalNXYmZZeWZubnZiOXBYUTBEYTlvT196c1BKcmY1WURubFFnODBSX0ZxUUpXRkV4QmUwZEEwNTNWSzh5anpWVWJQWkZ0YTV3ZjhjMGJlbEVjYUxjQjhGb0pZY21IdTZJZmh6NGN6WHg4OURBNUJuVjNodnZlZDJtN1ZqZy01ekdZZ3lScVNhd3ZoTXRGQnVGX0Z2Ykxyb1JFeDlqdGl3Z003YlVDazl4eXdCQjBEYWRaSUJ0Q1g1ZnFrRzlWTGhwTVBrMUMtSU1sd3NUWE4yM2PSAZgCQVVfeXFMT2hjN0JNU1JjVjl3dTRWcHZnM3FTeEJ6eVdNNlpTSUcyNEhIZ0NuT3BaQ2dPUEdGdTAwVkJ0eDJ0d2d6NkcyUnpjSGUtb2hZVGhUR1BiSkxRZ3QxNzB5U2hKMlB5a2VFTFRDSlMxcGJhNlJyRktZT3RYNUpsaGJlX1R5dXNjMzdIbWtIcDV0bU1FdDJ1cXdGSE5CSDNRRzcxN2FpQUNpY09oSzBJVDByS1pFMTMxLUw3SDEtUXhnWVRrUFRZSlJJRElmOW1jNjZGbG9HamF2dGVqRE85b2dJNUxtN0ZaLWpmS1dYRUhQSEhiV0hHWkRxakVjSU5QaWF3bXl5eGpGVnpDcUgxY1owaVZUZlAxRVJsZQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: \"Ya no puedo hacer teatro, ni cine, ni leer\": la enfermedad que ha frenado la carrera de la legendaria actriz británica Judi Dench",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55TFlHemlMRnJuMGcwcTJwOUdlLXVBT3FDdmljenlNNzI2aHR0UDAyQWY5TXZzMy0tM1UzbU1pM0VNTVVYemtBU2wteE1nU1JXUGc5b1RXRnNXNWVi?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: EZLN prepara caravana a la Ciudad de México en noviembre de 2026 - El Heraldo de Chiapas",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWVRzUFdya1pCM0pfWEduUXlHMUMweGpNd2QzLTFKOFFyS0ZWcThlQ1AxUXZ4MEQycGZBbWFFRkM2RG5KQU41VU5aSXJPbHNxUzJMMm9qR0Nyam03dWpqZkw0LWh4VTI3eEwwN3RCMXFYWTZ5VGhNbF82UWo1NnRpU2JiTmlPN011QXlhWkNvRnBxMFczY2s4cG9rSGlGRTJMR0UwWVN1RjduVm5EbC02Z1MxOEdJc1gt?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: Revelan supuesta causa de muerte de Carlos Miguel, actor de 'Dos Mujeres un Camino' que vendía tacos",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVFZ2bVhZdUJvQ0R6Z2RyRDVIdTRoeElaSnhVQldQVkpwYkQ4TlNNbGFOVTJDWVVGVUV2c3FWbzcwZlV3bnF5cEJKLXAxU1dXeVpFOVlQV2txRnRhY3BoMmtxQTNmNDhhQV9weEl3dEloSWtfYlBpUmtTaWw3YXR2N3R6ZnhIaGh5QVpnSjRpMGRRZw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Cultura",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55R0VMRDVVYkhmR3lWWnB6eFNmU0VKX2x3S0kzWnRRdFNUN3hKNFQ2cGk4b1dWNFo2UXhHbnhIcDdrNndicXNESTczMGFON3VXQ3BrbWNKamc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "DW.com: Editorial canadiense rompe con novelista acusado de usar IA",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVG5pajBNa3VNTnJsMXA3VFVIeWxiMlNTazdLWFUtOEJ1UTBnV2FGcFp0c1hHVmVIUjdFTlJEYXZGRi1lei1HTW5WcldKekhJcDVhQThkemU4aXFXRnhlYm1zb0YyX3o4Ti1UeTViZk43SkFQSEs5N21RVkZhMzVsMG1aUGpqeFdjOGZBQVpSaHpOZGs4bDRZ0gGXAUFVX3lxTE5wbGNJZDEtNmV0cngwMnFrY2EySlJVenltRUNuNnk0Zl96MTRxOFZnZHdLeDlMUlpfUmNqU2tSZ0d6a1ZsT09DMzBGUVNZV1NPa3RCcjRzRHp3Q1BQam84QmpsUTdQMzNKU3FNTTk0elNGSzYyeVJRRWNjZmFsZHFHdmhmUTNqYU1sVGNFSEgyaF9UUTZTNnc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "SensaCine.com.mx: ‘La Venganza del Charro Negro’: Todo lo que debes saber sobre la nueva película de animación mexicana de ‘Las Leyendas’",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ELUhJbVFYNEZIZlZGUG1MYmIxWTBfY3AtbTQ2RkxBNUliQVJHNlVwaGZrczlHMklIcUZTQkczMHkwSzd0QW51cXNJX3FDN3Y3empIMlE0LU81TGRrWmg3ZFJPdllEVk160gFuQVVfeXFMTkttWVZPSkRyNk1aV1NFQ3RGX2Vua2lkOUNiTW5wbTBjcnAtQjBKbWV0VTV5LXZ6ZmFscTV0LTcxaDgzTjJkTmV6OF8zSDFFWF9NaGx2S2lkQVl5dE10elNpaDEyVDR0V1ROZnI4NkE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: LEMUS LO HIZO-El Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNGVmUFRLNEdPSVFMU2N5Y0F1NVRhZ3d4M0Z5dWJhemdpTThyYzlneE91UVE0Nk9JNDlUREtEeGhYUnJsdG1lRzVHRU1ieG53SFYxNkx1aG9VQzNXTjlmeGFLeXhJWjlzUTNfLU80VjFvSHRnaGs4Ym01aWg1ckFVc2ZhTQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=1TbqOhdyzSk"
+  },
+  {
     "id": 1792623604235,
     "fecha": "2026-10-21",
     "categoria": "Gaming",
