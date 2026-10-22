@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1792695603897,
+    "fecha": "2026-10-22",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Colapso global por falla crítica y la urgencia de la soberanía tecnológica",
+    "descripcion": "Una falla de seguridad global paraliza sitios web mientras expertos exigen no subordinar el desarrollo humano a corporaciones tecnológicas.",
+    "narracion": "El ecosistema digital global experimentó un nuevo recordatorio de su extrema fragilidad estructural. De acuerdo con reportes de la BBC [F1], diversos sitios web a nivel internacional quedaron inhabilitados tras detectarse una falla de seguridad crítica en internet. Este incidente pone nuevamente sobre la mesa la vulnerabilidad de las arquitecturas centralizadas de red, donde un fallo puntual en la infraestructura base o en protocolos de validación puede desencadenar una parálisis sistémica en cadena, afectando tanto a corporaciones como a servicios esenciales.\n\nParalelamente, el debate sobre el control corporativo de la tecnología alcanzó dimensiones éticas y políticas profundas. En un pronunciamiento recogido por La Jornada [F8], se advirtió con claridad sobre los riesgos de permitir que sean las grandes empresas tecnológicas —las llamadas Big Tech— las que dicten unilateralmente el camino de la humanidad. La mercantilización desmedida de la innovación, centrada en la extracción de datos y la optimización de algoritmos comerciales, desplaza el bienestar social y la soberanía de las naciones frente a intereses privados opacos.\n\nEste panorama no es ajeno a la realidad latinoamericana y mexicana. Las PyMEs y las instituciones públicas en México dependen abrumadoramente de una pila tecnológica extranjera, expuestas tanto a caídas globales de servidores como a decisiones unilaterales de licenciamiento y seguridad dictadas desde el extranjero. La falta de infraestructura propia y de marcos regulatorios estrictos en materia de ciberseguridad convierte al tejido empresarial nacional en un actor pasivo frente a crisis que escapan de su control operativo.\n\nPara mitigar este riesgo sistémico, es imperativo transitar hacia políticas de soberanía tecnológica real. Esto implica fomentar el uso de estándares abiertos, auditar constantemente el software heredado y desarrollar capacidades nacionales de respuesta a incidentes críticos. La dependencia ciega de ecosistemas cerrados y nubes centralizadas ya no representa una opción viable para la estabilidad económica. La arquitectura del futuro exige descentralización, transparencia en el código y una gobernanza pública estricta que subordine la tecnología a los derechos fundamentales de los ciudadanos, no a los márgenes de ganancia de un puñado de corporaciones globales.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "BBC: Sitios web de todo el mundo quedan desactivados tras detectarse una falla de seguridad crítica en internet",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHZ2M4OTZrR2RrTG96emdZNkJSeVMwTzEzTWxVOUhfR2E1d2daQlV5RWpDbkJqZDQ2cC1WLW0xei1Hb0xDNzh1MHE1cG5FS2J3cW5ia2IzamtmNE1k0gFiQVVfeXFMTUhtaVlOdGVpS3FtdHZwSS15TWRiNjhYZHJGSWl0TlJtS082NGJWXzFfSVlfZHFuRVlsaVJMUXZxTk5td0J1YW5nVlhjalRXX1Q3d0dkRlJNMDZjNDdPQmdCT3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Verdad Noticias: One UI 9 inicia su despliegue global: qué hacer si no te aparece",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMXN0RGVGUjVqTWd6MzlVc2ZyWURGbVp3SmFMM05KMldSQ3hQdjJXM3pZeHN3MGdUUGFxWC1jN21qekJ3MnRDRGVjOTN3dk9PbTFDME90NllkZnktMHRZdnNvRUota3FkT2hmd2gtX1RseVBSaW9DYnN0MmV0ckFSSVYyNnF2UzNHZmg3NGVhTFZLTzTSAZsBQVVfeXFMTnVScWVVdW5iMWZUa05hZDRHYTZPOHJjY3pPcDJ3YVFXUDV0TFU2NmoxcWo3MzFBeEM5OHUxNkNPM2FPdTg4MkxBMUlRSjNDSjdJY0xMa2EtUXliLTJLcWlUZUU0djRBZk00T0dJOWFRUlJtRzVJUzRNOEIyeU1IN19jVHM4QlNFSF9kWktTc1NFaFczeWNDbVF6MU0?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: \"Todavía no sabemos la magnitud real del daño\": el joven que diseñó un software para buscar a desaparecidos en los terremotos en Venezuela",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxX1hzX08xUU5HVjdBUDZGN21PbFhXSWo4eTJnUHp4d0UyUnZYMFF1a2xxTDhsbTI5Nk8ya2pnMTU1QVV4aGNRaGJheUQzaHJYRXQ1MDNrZVZUODR6?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Twitch Blog: Suscripción para Apple TV y emblemas del chat de Ted Lasso",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWWFpcldqZ1liZ3V1aDEzMm5aV0hOZXRiZm9VMVMyUWV4R0RHVlAyalhXc0U0RENRdjU0aTJ1dTZKWGg0S1JLc1RNb3ZFdDRjeGF5WDQxWW0yd19UU3p6LXpNakw0cHJpUXppaTNnUGRuMXl2SWYtelRjVWhUdjZjU0lpd1ZmNHlTcnV3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Agentes de la CIA eran fantasmas andantes en Chihuahua",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZVg0MGhjM29admwwOFJFeVNNMjVRcnRkems1Ymg3MmhBMG1hXzdiRGZtX3FzbllkUFBGQ3FmcHoteXlZNWhETy1MUEVjN3pLV3d1ZVVTb1A1aXVUQ0JaczJsZHU0ZVF5eHhlMGxGOENacmJzcUpwZGhGa3I0M01rSkRUNWxMejNpYWt5UUZIaVNKek1TbGE4btIBrAFBVV95cUxNN2lBY2x2NVlsbUpvSHRnMW5LUHNVa0hob21ZM042bUppRzhnZnFNSWNDXzFpN1lnOVlDSXJaX2JYdjVmSHpwbHFWejJFQjB2U00tZUNHaU9OeVM3ZEhRUFRvRHRZeFRxS1BNNGM0dGNpVVJNUWd4b3pOYXhSY1lGUnlxUVBZaVRmV1RDc0RmMm9tU2FRdzNVb3Fic2hlbzVXVThHRjlLWnp2X3Bj?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Hola Telcel: Cómo tomar fotos a la Luna con tu celular Android",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1SW10UG0tVEYtbFl4V2hkWlR4bUNmLTRzR0Q4OHp1Q0xIbHRQZTF4VkVIaHdTU0xhYWhCMTB6ZE9oc1lmTFZsUnFXZ1RIUWtMQmNzWmhibFdVWWt2RHVZV0pzNEF2WXZFXy1HU2FIVzNKd28?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: El iPhone Duo es el teléfono más genial de Apple en años. Solo hay un problema",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV2tiaEhCcloyZjNnOFNlcjZFZGdqeENzSTRBUUFNRmFTMFVZeXJOUUZON0xqeEpFYUw0Vk1fdHhtcmF5bFk2VXRyVE5NMWV3MzdmVzJpSVJZb29CekR3aERxYV9oT3AxQ0xoMDM2bWgyZWZuQmRxQXdxclI4R2tLM0p3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: No dejemos que las grandes tecnologías dicten el camino de la humanidad",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWVN6dTRibmd4SDJhejFkcVpUYVFFdm54Q2ZxS2NUSUp1YmxtM1o2UHNQdDVkZ1FkUEF4eDNUYnlfMGlzS2xIOURmM2l3Wmt0MHlkMVk2U3pXb1pSaU96bEJ1eGVSNldMQXdGbUlTZU5CeU8tQUFyNFVZVWJJdVRzdDJUS2hXMTZmQzBBcEQtSHRFNVk0M1NhRWxQbW9qdzFBbXFIQjVidjJFQ0U3LWJfOVA5UzJUdHk1V3lnLWRaUjY3czg?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=8sv-HnS0WT8"
+  },
+  {
     "id": 1792692006158,
     "fecha": "2026-10-22",
     "categoria": "Farándula",
