@@ -1,5 +1,61 @@
 [
   {
+    "id": 1792710003796,
+    "fecha": "2026-10-22",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "El modelo de suscripción en la nube y la vulnerabilidad de hardware dominan la industria",
+    "descripcion": "Microsoft reestructura su oferta en la nube mientras la seguridad de Nintendo Switch 2 es vulnerada con inteligencia artificial y el mercado de consolas experimenta una agresiva campaña de descuentos digitales.",
+    "narracion": "El ecosistema de videojuegos atraviesa una semana de contrastes económicos y tecnológicos significativos que impactan directamente el bolsillo del consumidor y la estabilidad de las plataformas. En primer lugar, la división de entretenimiento de Microsoft ha implementado un movimiento estratégico agresivo en su división de juego en la nube. Según reportes de [Vandal] y [Vida Extra], Xbox ha lanzado un nuevo plan para acceder a la nube sin necesidad de consola ni suscripción previa a Game Pass, estructurando un esquema que incluye niveles de precio escalonados e incluso una opción gratuita soportada por anuncios publicitarios. Analistas de la industria comparan este modelo con la dinámica de los tradicionales cibercafés, democratizando el acceso al catálogo de streaming de la compañía pero redefiniendo el valor de la propiedad digital y la permanencia de las suscripciones tradicionales frente a modelos híbridos de monetización publicitaria. Paralelamente, el mercado digital experimenta una contracción de precios orientada a estimular el consumo estacional. Tanto la eShop de Nintendo Europa, de acuerdo con [Nintenderos], como la tienda digital de Xbox, documentada por [3DJuegos México] con un total de 27 ofertas destacadas, junto a la iniciativa 'Planeta de Ofertas' en la PlayStation Store reseñada por [PlayStation.Blog LATAM], han desplegado rebajas masivas en catálogos completos. Estas promociones buscan mitigar la desaceleración en la adquisición de títulos a precio completo, ofreciendo un respiro a los usuarios en México y Latinoamérica que enfrentan presiones inflacionarias en hardware y software. Sin embargo, no todo son estrategias comerciales legítimas en el ecosistema actual de hardware. Un hito preocupante para la seguridad informática y la propiedad intelectual se registró esta semana: un hacker logró vulnerar la seguridad de la recién llegada Nintendo Switch 2 por primera vez en su ciclo de vida, utilizando herramientas de inteligencia artificial para acelerar el proceso de ingeniería inversa, según la información difundida por [Infobae]. Este hecho abre un flanco crítico sobre la robustez de los sistemas operativos de nueva generación y plantea serios desafíos para las desarrolladoras y fabricantes en cuanto a la protección antipiratería en dispositivos modernos. Por otro lado, la intersección entre la cultura pop y la industria del hardware sigue generando estrategias de mercadotecnia de alta gama, evidenciado por el anuncio del control de edición especial de PlayStation en colaboración con LISA de BLACKPINK, con fecha de venta y distribución confirmada para el mercado mexicano según [TV Azteca]. Este cúmulo de eventos demuestra que la industria se mueve en dos vías paralelas: la flexibilización absoluta de los accesos mediante la nube y la publicidad, y la persistente vulnerabilidad técnica frente a la sofisticación del software malicioso y las modificaciones no autorizadas de hardware.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: Nintendo Europa también rebaja numerosos juegos de Switch 2 y Switch con la nueva Promoción Halloween de la eShop",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbjhiSHdtQ2JYZUZfWTgxSUVjWkFQeHBsbWp5bFJ5a1pmUHhPazlPMk5IRFliVXF2Q0x4eXl3WG8ybWVqT0hhaldLaV9YQkc2OVVuU0RJY2JLMmRLbFRRMDlmSjByemVjQVB2dURvWk84dTQ3bGpMQ3pJam0yVEdaLUtGUzRRODlOTmhJR3lHZXdUMm1oTnhVVlRQOTJkbFluR1plOWpVanhBSXJvWjNwWUQ4UkdCRnBLVElHX0R6QWlndDZzSUZxWlRSZDdGN1UwdHFESnpGN3M4T1NWbFhCTF9uZ0dWNHZMR3FZc2JTcE1sdw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos México: Xbox se vuelve loco con las ofertas de otoño: 27 descuentazos en juegos imperdibles para hacer tu biblioteca más grande",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOa0d5eUFxOWI5SURKMlk3bVlvaFBZVjRHN3RlNXF2dkVUU2RmWV9nbDZoLVlXTkw5NFBvRk50cjhqU2dDZERfdXBXTEI2TnRtcUwtZXZfc0hMcS1SQUpsWnNLOHdhSGJSZVozcXRsc1Y0bmI3bV9lVWdJZ0VpUHRMWDFLNGhYR0ZiMXNpRXVNVUE2M25Tc3gzcGM4aWxvX0RsZG16Ty1tb3loLXNLVzFOYjE3d3pLQlZOR0dGd3YzdV9LcnZDRHViMFRMR2Q4d9IB0wFBVV95cUxNTnp5Z2ZJUG0tVTdSRWVnd2hjWkdZdTQ4UXJDVXpZZDdxbVBtZmI2Uk5GeUNqNDY1cEZDXzhFNjU3ZjBzNFBGeXZGczFqLWZKTjRrQWRJRHRjeDJudHdVZllwUHJxb0dpTV9SNldwa0NzcEN4UlFveXgwNjUzMHl6SEtiT3Y3YUVWcmxGeTRPNTBNTHJucXdJN0hNeGZFZV9ISTV4T3E5al9QbjVpQm9LN2l2YmowZDhmQVpqMVM1aTk2T2RMSUdnWklsem5jZVpDSTFF?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: Un hacker desbloqueó la Nintendo Switch 2 por primera vez con la ayuda de una inteligencia artificial",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMlcyUGNZY24zVHpFNkd1ZXN3MnFBaVE1cV81bVlSTXR4OElhU05aRmFqVHRsUFU0elg2NHFOdkZ5R3pJN2tnaE5tRTNMemZzSnF3NVBBeDAwSV92NV9IQ3JBek43WDlfcG8wQTN3dHh4ZVVxUThDQUlVQng0RXo2WUxCTmlVMHdiRTVzeTBqVEVvVlMtR01waHVlRElaUXlyTnhmN0V3OFBpZTRid0dnN1RUOE5GUHNpOGd0TW1HMVBnOEVpZXpVT3B2Z2Zaa2Y4QzJLQnc2OTktaEnSAfYBQVVfeXFMTlpOSlR2YzZJRzFmS29JRmJtQl9fa0NSU25FdUIwVW9vR2dzVkpIdm5pS290SW1QdF80R0IzeUhSREk5ay1IMTRWdFd4WWpaaVlSSGdaTHpGRFB3b0MySEs5el9vem8xUTB1NXJpWmtUTWNZZUMyWVJCdTRoc3JLSmtvYlYyR3dqOW9kWUZmcnljcFB0eFdST0M1WE8tV1hfOHZpQmRXcFUzUGlqQ0ZRUzg1S3hxUlE2OGl4OXNEeVo1NTIwY1NnWjdZVlJpTDRraXVtdzc5dVN3REpiekQxQTI3angzb1JycExWc3B0ZEJXRTExSWFB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vida Extra: El futuro del juego en la nube de Xbox será como ir al cibercafé",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZmxVbkJQa1dSQXNzQ3N1dHJBSGxkZ3UzZG45cWNnRS1SVk9KdDFDczdTTDEyMENfUXA3cW9fZ2Y0LUIyTmIyQUdPdzBmcG1RMVFLQ3pWdWVWZTdxRmY5bUx6cDd0cWNldFdNRHJWbzdpMUdnWV9lSzBGLVVwQm9QVWx2OWVwNVA4T2hfUW9jbw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: Xbox lanza un plan para jugar en la nube sin consola ni Game Pass: estos son sus precios, incluyendo opción gratis con anuncios",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNckJHVDlnbWFhYnlPU2E5aFVwZUNZY0hGWlVDS1RHaEFQTGNYYlY5V0wtSmZGdnI1U3B0cmoyNUdwSUZVb1Bmc0M0WE1xNy1Pa1M0SWsxSlI0QjJ6SWZSNUhIOC1VYUwtNnpadTZGbmVNVllpaFZ5Tm9GaFVoZ1F6NkFqaVhvTlJaMVRCYlZldzVvYl9Uc2lnNmFNT0ZDTTVFa1VsVW96REU3SWtlYnh5djE2bDluUTlPZ0g0QlBqU1dZY0Q4Z0d6NENHZXpGRm5NcjJXVW5IM2RqZkpHV2pZSmduRjE2T0NFdjh6anN1VXk4UdIB9wFBVV95cUxNQUViTzFYVFlfNHNGa3RBR01welJjbEJjRVVrTG9Eb1Y2U0lGTmlZN1RYeVk2R0tzSEZTTGgxdVJPN3ZqWEtpeVdVRnVCcWtkUEUwRWQ4TThqZ290dFIxdXFSSUljLTRXeDNwTjRYbGtWUTF5Mm5aQWdVYU5hMnJTY2dha0dDMFpGdEhjWGpuRExMcHRQTkRnd3gwZ1lwNWREZ0tJOUJqbUJFd3BjeTc1ZnB5MnZOUHVoLU5vTkVDMUVvUW5pNTlLLUJINTc0VjZlUFRzcTlYV2FZRThJTE82TFNHZlZYRWx2VzZxYVJweWQwbFFWYUNz?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "TV Azteca: PlayStation x LISA de BLACKPINK: fecha de venta, precio y dónde comprar el control en México",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObGl5emdnLXV2Z2J2S0FSRWt0aWM2dl94cE5wdUFfdDBrLWl6VXREeUhHMnVxck5hMFJoVWE4anJGakttMWQ4bmxOYUZnaDBWQVRsMXhHSURFTVFBMmpfQWtHYW1WaDAwSlVXaVl6OU5CLXgzUlZhRTJuTG1Vem5qQnZNWTN5bUtXT2NYM1JyTmNvOXBpZGpNdUZ0aWlzUEJ1U3MzcnRTZGNtcEI4UnlVTFpEWmFOZlZFN3fSAccBQVVfeXFMTU0tdE82TUpwWDc1X0U2ajhIZ3ZwQjlmT0EtT0pyWXc5cDRRTnBHemZETjRyQ0J2U3d5eXdNaUpGZlBiODZwM25MNEhQX3hkazlhbkVwVE1MNWthUTZnbF9GSnRRNVlXZlZnNG04Y2V5Uk1SQkhxWERxZk9QZEpBamUzOFdNcnItTFZoQURDNlVRSm9JN3E5OHk2dGsyb1NwRjZMbG5nZWUtc3NnWmFTQzd4YmZCXzdEdDQzQkFXZGFySWZQckVZUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: La promoción de PlayStation Store, Planeta de Ofertas, ya está disponible",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUkhEa0tNMzFVU0Q1TWJiSllqbjdrQlRKVG10TEFjT01xZjgwa2FaazJDVlRZdlFTNWRXRmhYdmdkbF9uc3M1VnhYNGZPb2oyQ0JjVzFsWFhZNTlleW56b0RSZWVnUWNWMDNQMDYzbVAwS0N6NWFTRzhXZ2dYcUU5dDd4RTlqWGczaXRZOXJ1eDFNUUxueWpwYUc5QUdMal9Yc19YUXhITUF0cVViY2N5dmFCc0tMMG1qb0E?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Hace 18 años, PlayStation introdujo una de sus funciones más populares: este fue el primer juego que permitió",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPN1ZoUVE1a1RiUDJQY1RrUkJ2cFNXdVdXNjdhRExueG5lc093UWFVLTB2WDFzdlBLT1JPWVFkVV9JXzgtZ04tZm9hV1NCTUN5WUR5NlZwTk91eldEQVpuVWJ2VHdmVFc5MjJSeFlzblgtQ2V0RXNQVUFsOWFmUldrRm9sY3IxUUlkT3hMZXI5TE5pd3VUNzB1eXBQYW9pbDRLb3ZxRVVkSnF1TmV1aE5qV0NFWGs2QkFtYzExLXJramVZcl9tVEh3YjZZTXotVm8tQms2U2p1STdEUHRaRUtPdGxYbTNJdzJfcGtpVW82bjhhWWYwdWIzVmI4X1UwQ292emfSAZYCQVVfeXFMT0k2eWVwSDdzNmJBWktJaW9SQ2pacXYyT3YxM1p5d2x2OXg1RTJzQmU1eERGamxOTzNuTk5FNWVpQVJkaG1IWTRySUltSk5lOVNiUU8tbjljM0dVNU4xZmV5aVhFeHlLeXN3b2VIZ0ZnQ3AxRFZaSVlPVVBQaUVGLVdrSTlQWHBGdlhFdlhBRWY0QjI0MUdfWG1qeUhtcWl2dk9jbkdVSmUxSVkxaXhmdFNvdUxSaG55dGJiWnZzYzM5SkROdnJIV0NEYVdkVnRQSkZ0WDlJN3FlYS1XR2xicmp3UHlRN3pWdlBGMFNPM2ZTY1lMYlNGaHcyMk5yRmcxQ0Q5WWI4WWtjMVVheEtuSGhrZ3poU0E?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=S86eg6mMDYM"
+  },
+  {
     "id": 1792695603897,
     "fecha": "2026-10-22",
     "categoria": "Tecnología",
