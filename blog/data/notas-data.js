@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1792782003904,
+    "fecha": "2026-10-23",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Fallas críticas en PHP, reacomodos de telecom y ciberseguridad: Crónica técnica",
+    "descripcion": "Análisis de las vulnerabilidades globales en PHP, los movimientos de concentración en telecomunicaciones mexicanas y la irrupción de la IA en la literatura.",
+    "narracion": "El ecosistema tecnológico global y nacional enfrenta semanas de tensión estructural. En el plano del desarrollo de software, la BBC ha documentado una falla de seguridad masiva originada en PHP, uno de los lenguajes de programación más utilizados en la infraestructura web mundial. Este fallo, que desató alertas globales, demuestra la fragilidad intrínseca de los entornos de código abierto legados, donde una vulnerabilidad mal gestionada puede comprometer millones de servidores corporativos y gubernamentales en cuestión de horas. La causa radica en fallas lógicas de validación y manejo de memoria, obligando a los administradores de sistemas a aplicar parches de emergencia bajo un escenario de alta criticidad para evitar escalamientos de privilegios y ataques de ejecución remota de código.\n\nParalelamente, en el mercado de telecomunicaciones de México, el tablero regulatorio e infraestructural experimenta movimientos sísmicos. Según reportes de El Financiero, Megacable busca concretar acuerdos estratégicos con América Móvil, todo ello mientras se mantiene a la expectativa de la eventual venta de AT&T a Televisa. Este reacomodo corporativo no es menor: redefine la concentración de las redes de fibra óptica, el espectro y la última milla en el país. Para las PyMEs mexicanas y los usuarios finales, esta consolidación de mercado plantea un escenario dual: por un lado, posibles eficiencias en infraestructura robusta; por el otro, el riesgo latente de una menor competencia tarifaria y un control oligopólico sobre el tránsito de datos, impactando directamente la soberanía digital y los costos operativos de la digitalización empresarial.\n\nEn el terreno de la inteligencia artificial y la propiedad intelectual, un hito ha encendido los debates técnicos más agudos: una novela premiada titulada ‘Donde el agua trabaja’ fue identificada por el detector Pangram como escrita en un 99% por IA, según consigna El País. Este suceso trasciende la anécdota literaria; pone sobre la mesa la obsolescencia de los marcos regulatorios actuales para auditar la autoría, la opacidad de los modelos de lenguaje de gran escala (LLM) y la urgencia de desarrollar marcas de agua criptográficas y detectores heurísticos infalibles para proteger la cadena de valor creativa. La causa y efecto son claras: la automatización generativa avanza más rápido que la capacidad legal y técnica de los estados para clasificarla.\n\nFinalmente, la intersección entre tecnología y resiliencia humana se manifiesta en proyectos como el software desarrollado por un joven venezolano para la localización de desaparecidos tras terremotos, una muestra de que el código con propósito social sigue siendo la herramienta más potente ante la ineficacia institucional, aunque la magnitud real del daño técnico y social siga siendo incalculable.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Twitch Blog: Suscripción para Apple TV y emblemas de chat de Ted Lasso",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX3B5U2l6RDdQcGRnSnhfWDA2NmN4YkhRSGtjcVB2b2RjN0lDbFdTTEUzcHFaNFBOMFN5dkJuYWowaGJOUl92aFNYbTZ5TEF4WERPVzBPSHQ5OUNmVnhSelVkc2k3TWJBNm1nMjlqczZiUXE1NUttZV9EZldQRW44NWFlVkpUV0VTSWgw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: ¿Qué es PHP y por qué generó una falla de seguridad en internet que desató una alerta global?",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwTnVNRTNqZ2s2NTRUWUtYTlZzS3ZxMW1KTnMxQzNxNHhKYm14WFZtaTdDQ0tCdTZOVXNCM0dUMWRCMXlLUmdnSkJFQk0zVE81NFpZV2V4dWdJaHVw0gFiQVVfeXFMT2RIR084U20wdUxLZlR5N2c5Y21mZWNGVjUtQ2QtSHpFYmljVXdJQzM5b19oNkcweTlZcENOMlF3ZFlKMUlkYmtLQk5ob2VESTBnamRxYXFzZ3lDbUdhVkIyMmc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: La novela premiada ‘Donde el agua trabaja’ está escrita por IA al 99%, según el detector Pangram",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeTV4UmVkTEVfVWctd0dYdmxJR0FOTDBRZFEzTjZaOWM5bE5CbzZPT1dHZWVmN2FjWE1oNFhlcVl0SVBVaXFOSG9kaU51Z2VVVVdCYm1BX1hINE9yeFNtMm1lUm5STkRSeG8xTjFScWxNcFdiTmVRV09mdTFIZkppQzdSNm55OVdOTjV0djFYSjNTTU5HR3FoaGFRVTFHd0ZDYnRIR2xzZVhZcG03RUYtbzVadWxmRDlPeFlveEFZdFh0Mm1xNXhhUTdkZURYTktCaVFlNnlOMDRqNEwyQzFXdE9vT1ZpYlRVRWdYdWdYd1M?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: \"Todavía no sabemos la magnitud real del daño\": el joven que diseñó un software para buscar a desaparecidos en los terremotos en Venezuela",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxX1hzX08xUU5HVjdBUDZGN21PbFhXSWo4eTJnUHp4d0UyUnZYMFF1a2xxTDhsbTI5Nk8ya2pnMTU1QVV4aGNRaGJheUQzaHJYRXQ1MDNrZVZUODR6?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Agentes de la CIA eran fantasmas andantes en Chihuahua",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZVg0MGhjM29admwwOFJFeVNNMjVRcnRkems1Ymg3MmhBMG1hXzdiRGZtX3FzbllkUFBGQ3FmcHoteXlZNWhETy1MUEVjN3pLV3d1ZVVTb1A1aXVUQ0JaczJsZHU0ZVF5eHhlMGxGOENacmJzcUpwZGhGa3I0M01rSkRUNWxMejNpYWt5UUZIaVNKek1TbGE4btIBrAFBVV95cUxNN2lBY2x2NVlsbUpvSHRnMW5LUHNVa0hob21ZM042bUppRzhnZnFNSWNDXzFpN1lnOVlDSXJaX2JYdjVmSHpwbHFWejJFQjB2U00tZUNHaU9OeVM3ZEhRUFRvRHRZeFRxS1BNNGM0dGNpVVJNUWd4b3pOYXhSY1lGUnlxUVBZaVRmV1RDc0RmMm9tU2FRdzNVb3Fic2hlbzVXVThHRjlLWnp2X3Bj?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Megacable quiere acuerdos con América Móvil a la espera de venta de AT&amp;T a Televisa",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ09vZ3hUblRhR0hteGVuUDlRbkpMMFp0ZkR6YnVQWHJ5b01kZTBuYUd0VkxHR1pveW5pVGhRZmNEazBMZ1ZIUHhYQUNvbFNudDR3aTNub1J5Q09mT1RmU0RGcUhHc2xyTGtqY2xZQTJlZzdVZUVuQXI3SVNQQWMwUmlCMHJ6SlM5YWc5R0xUbllIREJZU0NQS3oxVXNzOVdTZ0RicUJQZWtxR1J3dHg2SFlEWDNfc2Z2aDRfeDMwb0pQd0ZhWmx2cGFNQ04xSUJZ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka México: Los expertos tecnológicos dictan sentencia sobre el iPhone Duo",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUE5naU1JLXRrU1BqWUdRZlVxNUhmSXBtbG9GNXN2TDRldTBaemhIUnFBdVg5Z3oxcGlrMzJYcFRYejFHQVhZRTY1R3FWYm1EcjdnSWlKaWp5TWtsOEl6SjdzZ0N0dExWRWtJeG44T0lHd3lyWE1DS3RvYVN0MElMelBlUzFxWmd5VzAydTNGVFhSVEJfa3o1WUtCVHYzNWJO0gGmAUFVX3lxTFBLRUtCUmh4NWRuUFpvNlJWdmM2TVMwQk9vN3Y3VWp3VVRPWEpXVzREQjVod0F5UzZJT0NHcTVkbDBvMEp5cnp0Sk9DSVY5Q2dyb0dfNWhkRUZmUUVkVjl1b2l3eDNUWmFNOVU2TnUtWnNJSzZPVjhUbUxKMkl5THh3ZmlMa19SaDdxcXRCQkF0RWFsNG5NdEVwS3d6aUNLaW1RZDJ4Q2c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Clausura FGR siete gasolineras por huachicol",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV3hNN01uRzFFamUzUGp5MWJYWjRDc2tLUDRYTWE3d2F0VElXQ1daWTBzaXAtZkJWQ3BLbnFLVjFYLW9VNmhmdm9sajhBOWVHdzNoMzlCMVhFdk1oQmlxb2JiaHBXOXJta3hmZFZxRGhZdy1ibDZYaHhOTUNQaV9kekU0dkR0bmE2OVE?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=PLuwFxqLAfc"
+  },
+  {
     "id": 1792778404260,
     "fecha": "2026-10-23",
     "categoria": "Farándula",
