@@ -1,5 +1,116 @@
 [
   {
+    "id": 1792778404260,
+    "fecha": "2026-10-23",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Crisis, Industria y Legado: Radiografía de la Farándula Contemporánea",
+    "descripcion": "Análisis de las tensiones contractuales, de salud mental y patrimoniales que sacuden a la industria del espectáculo internacional y nacional.",
+    "narracion": "El ecosistema del entretenimiento y la farándula opera bajo dinámicas donde la salud mental, los compromisos contractuales y las crisis legales convergen de manera implacable. En el panorama internacional, la industria musical y los conglomerados de medios enfrentan escrutinios severos que trascienden el mero entretenimiento para adentrarse en terrenos legales y éticos de alto impacto. Un claro ejemplo de las repercusiones a largo plazo en los vínculos filiales y mediáticos se evidencia en el reporte de la BBC [F1], donde se informa que Meghan Markle fue notificada en 2018 sobre inquietantes acusaciones legales contra su padre por presunta posesión de imágenes de abuso infantil. Este tipo de revelaciones reconfiguran la narrativa pública de figuras de alto perfil, demostrando cómo los pasivos familiares impactan la reputación institucional y corporativa. Paralelamente, la presión inherente a las giras y la exposición pública pasa factura a los artistas consolidados. Según reportes de HOLA [F2], Jesse Huerta, integrante del reconocido dueto Jesse & Joy, reveló haber enfrentado una severa crisis nerviosa que lo llevó a replantearse su permanencia en el proyecto musical. Este testimonio pone sobre la mesa una discusión largamente postergada en la industria: la salud mental de los intérpretes frente a las exigencias de la industria del disco y las giras masivas. En el ámbito regional y de la música mexicana, las dinámicas de mercado continúan mostrando transformaciones profundas. De acuerdo con Billboard [F7], exponentes del género como Fuerza Regida dominaron las listas de premiación, consolidando la hegemonía comercial de la música regional en los mercados globales. Sin embargo, el éxito comercial no exime a los herederos de dinastías musicales de enfrentar la cruda realidad de las taquillas. Tal como señaló Pepe Aguilar en declaraciones rescatadas por HOLA [F8], al salir en defensa de su hijo Leonardo tras registrar bajas entradas en un concierto: 'El apellido no canta'. Esta declaración desmitifica el nepotismo absoluto, recordando que la sostenibilidad económica en la música depende del rigor comercial y la conexión directa con las audiencias, más allá del legado familiar. Asimismo, el sector del espectáculo lamenta pérdidas irreparables que golpean el patrimonio artístico nacional. Medios como López-Dóriga Digital [F5] confirmaron el fallecimiento de Carlos Miguel Suárez, emblemático villano de las telenovelas de Televisa, cuya trayectoria marcó una época dorada en la producción audiovisual mexicana. Su partida obliga a revisar la necesidad de preservar la memoria de los actores de reparto que cimentaron la industria televisiva. Finalmente, fenómenos culturales como el posicionamiento de la música en español en escenarios internacionales, ensalzado por figuras como Rosalía en los Billboard Latinos según Efe [F3], demuestran la madurez de un mercado hispanohablante que compite de tú a tú en las grandes ligas de la recaudación global. La industria cultural exige hoy mayor transparencia, resiliencia psicológica y un respeto irrestricto a los marcos legales que la sostienen.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "BBC: Meghan Markle dice que fue informada en 2018 de las \"inquietantes acusaciones\" contra su padre por presunta posesión de imágenes de abuso infantil",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15X2VNSm1QYUU0aEtJX2pYalNTMWtia0pGekNzZndBMk9zSTRlUUMyZWRrZ3Z4U0dHZEdwRFVDdUM2c3E2ZTdnS2I3R0daMnRKYnVDNWRtQTZNLWxM?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Jesse Huerta revela qué lo llevó a replantearse seguir en el dueto con su hermana Joy: ‘Tuve una crisis nerviosa’",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYTNpMEJ1SlFJcVVKQ016M1JlS1dpZTZPdTBTWnc4QmtwNURnaUJ0S1Z5S1B4My1BVjl5cjVLRXVtQ1JhdHZZTXRmR05KdDFXSVoxNHF2LUI0MzFTOWJyamxkN3Fwb1d6Q3djNExXZTZRUFdkRGxmZkNjck9CcTZuUXBkMWZRVGZaZGFXalBBZ1BsRWdOZWFNTmZSQ3VwZjdkSm5pci1tdVU1N1h5N2pTal94V0xtak5sYUUtTg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EFE - Agencia de noticias: Rosalía agradece a Latinoamérica y ensalza la música en español en los Billboard Latinos",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV19Zd2FzS3pQVGdlcEgyNzRoV09ib2xVZDRqSEY4OHdRTDlmWWVDTVdlSTExM1JkUEpYU0hwNkhUMVQ4bWJzVGFoUGlucUUwUDRWd3BRS1ExempiR20waG5LOWgxUUxjWTZGUnNsNHcxa25mdXhsaTB3d0VaZ3FaaC1EeHVsWEtsWXkxeE5jZG4?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Cristian Castro presenta a su novia en una alfombra roja y revela: 'Gracias a ella me estoy poniendo bien con Dios'",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaDhGNHFIR0xCdTJDXzFvNXZuX0pMTGJHZzdQWWJTekgtY1poZ3A1OG03WXdnS1FqWF9PRFgzbVExR3RiYUdyRHFSTld6OVZ4YWQ2cU45a1pyVjNiSVBUTUtPSXB5M21iM05sdkt1d055eXlhRGRuVEE1T19BZWF1MWJNaGhfdnVwNUhCQjF2RUlTZkxURXFFMGpEN1Y2czBOM0k0ZVlTbHF0c0FzeTZoV1hHWXNxRW5YdTJrOWtIX0ZleW13UHc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "López-Dóriga Digital: Murió Carlos Miguel Suárez, famoso villano de telenovelas en Televisa",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbDdJOGZZZTFVQ2dUdHhlNnpqVWlFVi15LXRLQTl6TWtid2Q1RXJzc3BHQnRKanpkbEd0dlQ4bmNtRmJ2UVZHamRWWTAyemt3aWZ0Sy1EM3NyODJkVldNR1djajN0RF9tMTZjcmF3SEFrdnk4dFlObE9YMDktd3JrSTMzUG41WHg2N3BsNi1MVEc2LTVlOHk0cm9ZQU9VVV96YlJ6eUZB?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Horóscopo de hoy viernes 23 de octubre: estas son las predicciones de Mhoni Vidente",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWmFBUklpd3g5VWVxbm80MWxYUjIyazJSUDdOYUpNTXRTNlM0bUxRbHN0UEdPbkxkQ3hCZ1p5YWFYcDVYUEZJNC04ZE5rRTgzVEdCOEQySzJLSC1VZ29UQVU4MHJGbW9TZ3g4NGNhUzBRNTRlTmZpT2JVdDlJSm9uX05yQ3h6aFljajgzUk5qalVqMW5XQm14UjV0ZHB0WUp0UU54RW4wX03SAbYBQVVfeXFMTVJiWGo2a0hkN0FtNjRQMzE4Rk1RckNmeXlPZGdqS3pQMG1UX0w3QnZQOEh5QUZWb292ckplUDFGblZpMWJyWE1odHNhYzJYcXJFemE0NFlzOWhmWTMxaVZqaVpyVjc1cFdvbkwxajB3ZEZWSjlqX1NDeVRsY1RvaXNnUWtZdVpwWU1URUlVdERveC01WWt6YV9acWNRYXBMWjItZXpCZlJydGJWR1AzMjhDTFVMWkE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Billboard: Fuerza Regida arrasa en los Premios Billboard de la Música Latina 2026: Lista completa de ganadores",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPT2RXNkZDcXdpRmNKSnVkUVFqQ1JlLXFyQkFWWXBFNS14U0F3UGtzellSNGh0Q0FVakV3OEdUWXNWY2V5djdtZ015U2ZPVGFWR2cxaUpUNkJ6UkstQ1NobjNpQVprUVc4OVRjX3RwakpEb2V0cDROSUEyUlkzQnBWcEFZRVk2Q3p4V1ROM0V5X3FQdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Pepe Aguilar sale en defensa de su hijo Leonardo tras no llenar su concierto: 'El apellido no canta'",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONWZJRHpPSUc4c25HbW9QcGVrQzJiYUJLV1NReFNHOHI5emc1NWJVSVNTV3JndzQ4ZDhacURjdVh1bkc2OXV2dHdES0pnV0kyVGg2dGQ4MGVXbXhqRTFaQk8zUVJPVTFjRG5zcU5scDZRbjdqSDhnc0E3Tm5jaWFBOEgtRmxFRzk3Rm5mWUJTVmptcmRoSXRHdjdUU3VZRTJCTFE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=5h7WCrkcx64"
+  },
+  {
+    "id": 1792717203563,
+    "fecha": "2026-10-22",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Finanzas públicas, seguridad y tensiones políticas marcan la agenda nacional",
+    "descripcion": "Análisis riguroso de la recaudación mediante Modalidad 40, el comportamiento inflacionario, crisis de seguridad en Sinaloa y movimientos en el espectro político institucional.",
+    "narracion": "El panorama nacional de este periodo presenta convergencias críticas en materia económica, de seguridad pública y de procuración de justicia que impactan de manera directa el tejido social y la estabilidad institucional del país. En el rubro de finanzas públicas, datos publicados por [La Jornada] indican que la Modalidad 40 del Instituto Mexicano del Seguro Social (IMSS) generó más de 27 mil millones de pesos en un lapso de un año. Este instrumento de continuación voluntaria en el régimen obligatorio permite a los trabajadores asegurar un retiro con mejores condiciones financieras, lo que demuestra un incentivo contributivo relevante pero también presiones estructurales futuras sobre el gasto previsional. Paralelamente, el Instituto Nacional de Estadística y Geografía (Inegi), citado por [La Jornada], reportó que la inflación general se ubicó en 3.62% durante la primera quincena de octubre, impulsada principalmente por el incremento en los precios de los energéticos. Este fenómeno erosiona de forma directa el poder adquisitivo de los hogares mexicanos, alterando la capacidad de consumo básico y afectando la estabilidad microeconómica. En el ámbito de la seguridad nacional, la vulnerabilidad del Estado de derecho quedó expuesta en Sinaloa, donde un autobús que transportaba a estudiantes sobrevivió a un ataque armado, según documentó [EL PAÍS]. Este evento se suma a las recurrentes fallas en el control territorial por parte de las autoridades civiles y de seguridad, poniendo en riesgo inminente a la población civil y a las nuevas generaciones. Asimismo, en el plano judicial y político, la audiencia de César Jáuregui para definir su vinculación a proceso —reportada por [El Universal]— movilizó a familiares y allegados en exigencia de su libertad, evidenciando las tensiones persistentes entre los procesos de rendición de cuentas y la percepción de justicia selectiva. Por otro lado, la arena política registra reconfiguraciones partidistas con la oficialización de la afiliación de Jasmin Bugarín a Morena, tras su salida del Partido Verde, un movimiento formalizado por Ariadna Montiel y consignado por [El Financiero], el cual refleja la continua recomposición de fuerzas legislativas rumbo a los próximos procesos electorales. Finalmente, en el terreno de la administración institucional, partidos políticos como el PRI y Somos han solicitado formalmente la renuncia de Guadalupe Taddei a la presidencia del Consejo General del INE en caso de no comprobar su inocencia ante un probable conflicto de interés por asignación a proveedores, según informó [La Jornada]. Este cúmulo de sucesos subraya la urgencia de fortalecer la transparencia, la seguridad y la certidumbre jurídica en México.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Modalidad 40 generó más de 27 mil millones de pesos al IMSS en un año",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcEpaZFF1OUVVME5hRDQtVTkzSlpMbzRSWTI3SUpySDdQcjNwc1JwR1E1VU52Q0NKQU10aklFa01rMjZYRzZwUFdRNzB1d1dQbUhGWVFVZjVHb3U4UnRmRk5pbnZ4MlRjdDUyZ2haZDVibzBvVEE2R003SzluRzhrVnFKVW9sYXc2dXFGcm9Ub25yZzJJQWhNd01RWFJyYVBXeFlDNzB2bTlwYnRFcWQzbTM4LXI2MVZRYWZndW5BbGhFUQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: PRI y Somos piden la renuncia de Taddei al INE si no comprueba inocencia frente a probable conflicto por proveedores",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNYVNLOFJUNWNDYVlQSndtWlNBSDMtRmVNTjM2WklYWVhDWTFseDVqcHNmVnQ4Tnd2ZllHR2ZSY3l1bTlKZS1MbWNSOThIMEJVenY1NmpLdWwyYXpXdUk5cHdPOVhrYndLdEdrOEEyVWxHa1JvYkFYLW01c3piOFNmZDJaR1RTa0VYYWMwZU13aEVpNGpLLWZCWE1LWEo2Sjd6VUFIWXZKQkVuOXZaVzRPSk5BZGs4LWRqYnNXOUt5TnVuU2U4NnBHbXhrT3RmRVhIRmpOd1UtQWRkWW1udy12Sl9aaXlFcjFBcVRhVHlDSVNPZmhHcTVBUVFYdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ¿Quién es Ángela Karime, mexicana que ganó medalla de oro en Indonesia por crear un extintor acústico?",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdndFa2RIYzk4SUtGbHVaOTRpSFh1M2Q0RjVFQnJ6SURaTUFmdzNQVDdqOUtCQjl2Zm5Bc3dyeDktZmFoWjE2VEtPWDhKMlFLcEJwaEtBUGVud1ZHYTUwcDRLaDQxcllFLWc1YmZMZXhVcGZNVmlCMl9LZTNoaEIzczJmYzFEX3dTcHJSOG9kMGZGTjRtWXRfX1B2bWpiOURkdzE2b2hmc0xseVU4OTZnRzdaTzlGSEN4RjJlYlBDMFZ6V3lFSmxvNFFRZnJQdG1HTVJVR180YWF2SkNCakpxVGhZaU5oZDA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Arranca audiencia de César Jáuregui para definir su vinculación a proceso; familiares y amigos exigen su libertad",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORG9jUDZsRi00MjNhSXlwZ3U0djVncTdQckxjWFA0YzZFcTBwcl9raHZPTjBINWM4bUFUaHpLT0lwbUlQSlZRRXhqTFZqb2ROcWNDaVMxWXkzYTExU0NSeDNKMVQ3aUtiM2RpM2lkVXN3S2dzNER4ZUtjWTFrbXBNX1VtTVRCZjNCQ19zV3lTVjk4REoxZGNaeE1kckhVbUZRVGUtMms2UzhNc0VkcDdUSlp2LUJiZnpHTjNqVHQxdnEtb0RFNzl0T3pGQWc4el9iTFNLTlY1RV9ZbUZLNzZaMzJ4dzRzODA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Un autobús lleno de estudiantes sobrevive a un ataque armado en Sinaloa",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2FPbkxPVkdlNGN1dlZrSk1VdmYwMUVCSE5oYXkzeUVZSUtoVmJtVzYtOE5VUEJ0NTRmZDNGTndXdUNEemlqSEk5YWhEb2lkeHFnSmxXSERxT0p3bHlxV3Q5RGFoRWJKQ0MyazlrSDlCd2g5bDlXUHRRZEVpdGlUVl9GdDJHdUd6LTVUdXhuLWYyWTdNXzNFOWpNc1JDQWZadWF6dWl1WU5GQ1ZzLVdlWkhkYw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Jasmin Bugarín ‘salta’ del Verde a Morena: Ariadna Montiel oficializa su afiliación",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUXM2cDhUd3BZaUYtNmlocVgzaVVGVXFmUGpFRGphZnhyRmp5NXJ0US1JUEhpSUpyRG1WLVBqajFwRlBxclhWU2JDYnVpMGR6T2thcm9Nb3gxdXM0aFc3bkwxYi1kRG5ETEZjS0RXMHc0TVRzRURadzJQUVl3SDczajZ3WnVDZk53SGp0N25XQTdGVi1zVjRUN1UxZUFwS3dscUVUTGtyYkFlUVVzQVFpaTU1UmFaSkRuOFRMZ3lKODkzaDdiUXVaalVDeVE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Excélsior: Activan Alerta Amrilla por frío en CDMX; pegará fuerte en algunas zonas",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSFQ5UHctcU1fTFU4YndDcHhfZ2V2ZWx2T2VmQTZCWUd5cXBhN05LRzRONFIxUkF2V3BNejlQZTRWS1Mtd01EZ29rQjFuYS11WXNqdjlNUGtpcUt5Rm1lNlp0TWVwOE01Y2dDdm5MQVBvZWpVX2RkY296N1dPSnRObl9WZ0MxdlJON1dWVkRNbXpfLV9VR1A2V2hiTHhPSldJb2NVdtIBqgFBVV95cUxObW1xR2RzQ0FSaWtPckQ2MXpIeTNZczdyRURfaHpKOUQxc1MwelpReXdRZTNVa0dSUWJJU010TnhMb2hEMHJ4MXV6akw0VkRraHhiQU9JZVR4RUFhcDhfM3c3eVdOR0c4NXpSdnFLYUxSQmUtYlBFRUJBN0NhT1NGV3gxbDdUTmxqMmQ1X0U5cTA5LV9pT0ZxVWJkQ0VDRmNNNmtlX3QyX3JaQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Inflación subió a 3.62% en la primera quincena de octubre, afectada por alza de energéticos",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQjU4SFhOQTdIRWVTLVlLMGRPbDJYRnZuSXFZRlR5X1B5SG41VF90R3NaNUktZUVTbi02MDBzUTFYeHV2TUNpTFJCVzFLcWRHTlVzWVM4ejVKRW5mMU9uZ0V3M0dSN3RBa0pDVmFHeFNtTmVuOFZpdVFzejM1VDdVNmZPZVQyQnZ3enFzUnhWdkdpMGx2QUtGZ0Y0a0lZWTlyVW1CWGFLM0xVMjhaYjR6Qkx4ZDVOUlJfTF9RTjRUN1ZxSlktYXhoeFZOQkJDaW1IcGFrUTVQdDdwakU?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1792710003796,
     "fecha": "2026-10-22",
     "categoria": "Gaming",
