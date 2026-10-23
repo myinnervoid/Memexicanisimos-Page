@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1792796403496,
+    "fecha": "2026-10-23",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Crisis de Xbox, nuevos precios de hardware y el futuro incierto de la industria",
+    "descripcion": "Microsoft registra mínimos históricos en su mercado principal mientras la industria avanza hacia modelos de hardware más costosos y restricciones de propiedad.",
+    "narracion": "El ecosistema de los videojuegos atraviesa una fase de profunda transformación económica y tecnológica. En el análisis de hoy para Memexicanísimos, examinamos una serie de eventos que marcan un rumbo complejo para los jugadores y la industria global, destacando la crisis sostenida que enfrenta la división de consolas de Microsoft en su mercado más importante, según reporta [3DJuegos]. Este nuevo récord negativo pone de relieve las dificultades del modelo de suscripción masiva frente a la fatiga del consumidor y la falta de exclusivas de peso que impulsen la venta de hardware tradicional.\n\nPor otro lado, la transición generacional y comercial sigue su curso con movimientos agresivos por parte de los fabricantes. [LEVELUP] ha confirmado que Sony lanzará un nuevo hardware para PlayStation 5 precisamente el mismo día que el anticipado estreno de GTA VI, un movimiento estratégico milimétrico que busca capitalizar el mayor evento de la cultura pop digital de la década, asegurando preventas con precios ya oficiales. Mientras tanto, en el terreno de la distribución local, [Xataka México] señala que cadenas como Walmart México y Bodega Aurrera ya comercializan el control conmemorativo de Xbox por su 25 aniversario, facilitando su adquisición a tres meses sin intereses en un mercado nacional donde el poder adquisitivo se encuentra bajo presión.\n\nEn el frente de Nintendo, la actualidad se mueve entre la nostalgia y la seguridad. [Nintenderos] confirma la llegada de nuevos títulos clásicos de Game Boy para los suscriptores de Nintendo Switch Online, mientras que [Nintendúo] anticipa la llegada del aclamado juego de terror cósmico 'Look Outside' a la sucesora de la consola híbrida este mismo mes. Sin embargo, no todo son buenas noticias en el ecosistema de la gran N; reportes de [Jointly News] indican que la seguridad de la Nintendo Switch 2 ya ha sido vulnerada, abriendo un debate técnico sobre la piratería y la protección de software en el inicio de su ciclo de vida.\n\nFinalmente, el análisis macroeconómico de [Xataka] advierte sobre un horizonte preocupante para los derechos del consumidor: el costo proyectado de alquilar o jugar en consolas y servicios que ya no nos pertenecen plantea un cambio de paradigma hacia la renta permanente de la diversión digital. Para los gamers en México y Latinoamérica, estos factores se traducen en una ecuación cada vez más costosa: hardware fragmentado, coleccionables de precio elevado y un modelo de propiedad digital que erosiona los derechos del comprador tradicional. La industria exige cautela y análisis financiero antes de invertir en la siguiente gran plataforma.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos: Bajón histórico de XBOX en su mercado más importante: Microsoft vuelve a batir un récord negativo que ya había registrado en 2025",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQclpYZUZYOHJwUkZkTWpxYWlhajhlMlpWdWlJMVdFdWF5SFdLb0Y5U2NyYVVWQkwxZTFCMFd1ZFFfWmVSSnhPSkdXYjExWEVOelBNcGpoQVhZZ2VyemtQZ2ExdFZSVlNtY0JxbXlpS29jQlF1Qm1yemF2TkVfNXVnTWRrNVp5YmhIT0xtYy1WSW15OWZPc2R0NzBScE5Vekk4RWltYnJ4TU1rQnlsTkJReHRERjRwTFBsYXlxTnVDY1lhMXRKNW1RYS1jU2NqYmZjbFNMLXF3Zm1wNWZ3WmEzN0ZPc1R1dlhOZHRiV2RfTdIB9AFBVV95cUxNSnAxQ3NpbTNsVElSclI4Y1hKWVY0NVF5M3IyQW5aNS1ydG90Qkd1WHB1SUgwcndZNzZEZmhxYWU1bEZKY2pQazN3WG50TkJ6OXIwenNKR2lfay16SWd4UUhPZXd3dG85Q0U0NWVpam9wcEVCUjBxaVNQMEREVW0wdzVXUG10QUJPMTRSWk5WaWNHOHMtX0lCUWd4SjVJUUNaT0xnaTRkZWZFOHRHeTFxTTJHOGp5Z1hUWXBEMEp4T3I3dWVUekE2UURhWm9JMXYyN2NjSTFncW04RW1jUlFGY3I5Rnp4Zk8xTDZpYVRvLTJaUDdx?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: Sony lanzará un nuevo hardware para PlayStation 5 el mismo día que GTA VI, y ya tiene precio oficial y pronto iniciará su preventa",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPaFN5OFRSUHVaSDZaNEM5U1RSMkZ1QWdSTFBaMUNTUHpMbmVnclU2WEJhLXFDNWpfT1lkNTlVVHNGYUQ0MVVZU21JLTVHX1VsZWRYS1l6dlN1VE9zNHlqMExqY3I1bncyNWNYMlhmaWVlV0Y1YmxrWEptcHdIVDIwNGV3cXZMQUNQQkF2MTBra3pDTnQ1eEZjVHMxY21xNVBJaUlJREctc013a2FsanRSaUpkdFdIUlNzS2pkempBcUJWOTg5ZXg5cUlNLXdxMV9YY0dPeTd6bXRaMHdOYmdaaTJvUlhBaUlBSHBleExLazN4OE9sM3c?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Walmart México y Bodega Aurrera ya tienen el hermoso control de XBOX edición especial por sus 25 años: se puede comprar a 3 MSI",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQajRSdnpTenREUk4wQjNnaXlHZUZLeG9DQnRpMHh5Y3VEQmpNSUFiR2ZWRGIyaGY5VnQ2bVYzUFlXbUt3N2pXX0dYYTVORk1NVHBTWi1PdXhsdzVDaERrWVRUYkZNLXhFYXRLYVd4bXVoMEVPMFVYUmxlS3VzcXNHbFI3V0xCU090UjFFN3p3dFNITjNWY0l2dEpGdDBfeEg4WmJ5T2tIQy0wcXllUmhSNFhJNmltU3BoeVh4S00xeDBIUzBfd21GN1E2Y9IB0AFBVV95cUxQNkdxVnNzNzRodDJSSmEtOFRzRmNHQXNKMk1rZkwyUzBDX0Z2RUx4bGRyZG9iQkpJd093RTdyLUNONlZoT3V1ZWU1M1dBOXppRE9IY0d1Z0VCeEtMZjVpdnFFTnRFTlItVjQ3Z1ZNdHJjZnB1aF90eFhlNEM3VHhnZ092WU1faGo4S1RJNHlER0gzMk1hOWN6OTVqdnZmcElyZmtZRzlXMEt6Wi1CNTV0QkgyOUF4cmhWV0FhZE5MYzg4eUp3aFpzV3pzMDNWTGJi?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo Switch Online suma otros tres juegos de Game Boy gratis para sus usuarios",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTTJyR2duU1JlaDhNM1p0aVlUSFRlS01rTU1ndzcxMFNpdGJQYTRDenJucURfdjdNQzY2RV9BbDBlNDNYNXRub014WXpLanhLcGVTWUt1SnhOX2N2Z3M2M2ZkczRHbloyVHNhYlV0STdlWkdwM0RGZ2pfZkk2VGFwOVlHMl9sMF9TeTd3NG9KQ2ZCS1ZGSG5zdm1fNHdCMWhhQWNLWnNuSC1lX1lUYXVHM0NsMWpDMVFvVXZPMGFoUmV3bHlxTUZnYw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: El juego de terror cósmico que arrasa en Steam llega a Nintendo Switch 2 este mes: fecha de Look Outside",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PVU5CZWM2dC1EZFN0Mkh3cVVzWWdEdTlVRzBHeWJIeTJLbldqLUx5Y19uRV9XbGJoUlZSRnZYWXBCTWlvS0pnWmVJNjlSazFiYkhjdi02Tkh2Uzg5VTJlZEU0WHZnVEhqdHROSmRmc1l3Rk5oTzdZcFFR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Ya sabemos lo que costará en el futuro jugar a una consola que no nos pertenece. Y no es alentador",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOWZjekZPOHBQTjMzalA5UUlqeUVfWjdIZjl0ODlOVGs3MXMwY01UU2dEM05YU2VyT1Z5WFd3SXlBSlR1OFpuY2JhR0QzcElQaVg5WWc1OUN2ZURKRkxNOVp1SHkwZWE1WlhjUzIyVkVoVmJaRXZza00ybk93UmF0dFdfTk5DYUNzRHZwS0h4OTVkTFlIQzZCblBpZjZvRzY4X01rVW8wTUhNNXBUSllreHVLSdIBuAFBVV95cUxPWVZYeWxVeEtzZUhUUXBzU0pBVzVUMlliNjg5N2FaUEVhMEdDYi1DY0gzbXp3c0R2T1o4UXB0aUt2Y25WSmNabGpuUWpWaW5JMXpqd2JKVnJZV0N3dktubkxGMGRsSUllUWdTdnlMdG9vLW1fTXI1SENIeXpjbEp0UnBfX1pWMkZ0Ym5FZDBEeFFmalFKa1Z4eXFWcnZTV3VrY1ZteWgtazN5ZDFWNUJfY0JsUFFQdGZz?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Jointly News: Hackean la Nintendo Switch 2: qué se sabe",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5GWjRnUGlNMENaTmYwVnUwRmExZmNDWGt1SFJIanBrQzdRM3JZX2l2TDI5UlBPbjFwV3NiRGpvMmtNM1RSR0tHQ002VXd5MDlHMklnSXo3bHg2MzU0THhKb1gzZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Eurogamer.es: Las mejores demos del Steam Next Fest de octubre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkJMcWtHbUVPN2E5T0VHS292NHFuS0hNUFFpVzMzMFRDYno5dUttZVJ4b2E2TVNxVlVLRGVVR0pyWE9qV1NRdFVvTGxwdGhVSGpBdTJKOVB3eVBoS192bFJ4YlViUURDN1ptQUhtVWJIS2VVeGdIbHlXNnhGXzRVcm5WQmZOVFlz?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=8C7AxCk36OU"
+  },
+  {
     "id": 1792782003904,
     "fecha": "2026-10-23",
     "categoria": "Tecnología",
