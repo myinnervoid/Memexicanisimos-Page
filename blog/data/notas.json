@@ -1,5 +1,60 @@
 [
   {
+    "id": 1792803603337,
+    "fecha": "2026-10-23",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Crisis en seguridad, tensión política y finanzas públicas desafían al Estado mexicano",
+    "descripcion": "El panorama nacional concentra tensiones institucionales por contratos en el INE, un paro nacional de transporte, presiones fiscales en pensiones y fricciones políticas entre la Federación y Chihuahua.",
+    "narracion": "El escenario político, económico y de seguridad en México enfrenta múltiples frentes críticos que ponen a prueba la estabilidad institucional y el Estado de derecho. En el ámbito de las finanzas públicas, datos de [El Economista] revelan que existen 798,000 pensiones asociadas a la Modalidad 40 del IMSS, un esquema que representa un costo fiscal anual de 246,000 millones de pesos, evidenciando los retos presupuestales a mediano plazo para el sistema de seguridad social. \n\nParalelamente, la infraestructura logística del país se encuentra amenazada. La Cámara Nacional del Autotransporte de Carga (Canacar), reportada por [Milenio], advirtió sobre un paro nacional indefinido ante las condiciones críticas de seguridad y operación, bajo la premisa de que “si el transporte se detiene, la economía de México se detiene”. Este sector sostiene cadenas de suministro vitales, por lo que una inmovilización prolongada generaría efectos colaterales severos en el producto interno bruto y el abastecimiento nacional.\n\nEn el plano político e institucional, se registran roces de alta intensidad entre el Poder Ejecutivo federal y administraciones estatales. De acuerdo con [EL PAÍS] y [El Universal], la presidenta Claudia Sheinbaum y la gobernadora de Chihuahua, Maru Campos, admitieron tensiones abiertas tras declaraciones en las que la mandataria estatal y la secretaria de Bienestar, Ariadna Montiel, intercambiaron descalificaciones públicas, reflejando fracturas en la coordinación intergubernamental.\n\nPor otro lado, los órganos autónomos y electorales enfrentan escrutinio. Según [La Jornada], la consejera presidenta del Instituto Nacional Electoral (INE), Guadalupe Taddei, fue convocada por la Secretaría de Gobernación y la Auditoría Superior de la Federación (ASF) debido a señalamientos sobre presuntas irregularidades en contratos del organismo. Este proceso incide directamente en la rendición de cuentas y la fiscalización de recursos públicos.\n\nFinalmente, en materia de seguridad nacional, [Reforma] confirmó la captura del presunto responsable del ataque con coche bomba registrado en Michoacán, un hecho que subraya la persistencia de violencia atribuida a grupos del crimen organizado. Asimismo, en el ámbito meteorológico, [El Financiero] reportó la intensificación del huracán Vance, el cual amenaza con elevarse a categoría 3, generando alertas preventivas por lluvias intensas en diversas entidades federativas. Cada uno de estos eventos exige respuestas puntuales del Estado basadas en la legalidad y la eficacia institucional.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Guadalupe Taddei tiene cita en la Segob y en la ASF; hay señalamientos de presuntas irregularidades en contratos del INE",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYThCeUNMdkZSQmZzOXkwdUxYZHFUQzRPVUJkZnY2YnZCajVscnVwc0ZRcXh6OXQ5WWR1V3NyZkhSeXpvLTNNd1RkRDhEMkpQMEhvRDlOdDdKYzQtV0ktR3hKUi1saFRQdERxOTZaRXRFbVhMVXVvVDdoNGN2U0g1dXhJSHlXM1hwNzBSZUlWcElnOFNpaXAyd09scVNYT3BnbmltRW9YeFc4OWl6Z3YteU5ubVpPMV96bXROQk1mVVUtay1rdzRYUUVmNUNLckh3SEdFVzF1WnZDSXZJUlU1ekNJbTVsSzRwZTRLQ25B?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ‘Vance’ se intensifica a huracán y amenaza con subir a categoría 3: ¿Qué estados esperan lluvias HOY?",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVHVESGlkZmM3Rjk1X2h4TFQ2VXA5WVlEN1ZEX2Q3QncyckVmbS1UTnRQMzdxMWttTHd4bG0yU1JVbEZHQlhhR1RPd1pKY1N4RXJrV20zbGdJS0dUX0EzRHVEeEQ0LS03c0R4aTlIVDJqQzQ4dDVqMXhPU1JncWZzdFJTeWppVUVFUVk1R0NXalpLekRYSUhxM21zUnhJVENEN0I0QkF6ZXp0XzhfR1NVandkTkxjbWN4cHNIdjlsUWJpT25McHN6OE11TUx6Zjdla3dRNU9uTTlwelEwaXZuQndR?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: La presidenta Sheinbaum y Maru Campos admiten la tensión entre ellas: “Las dos levantamos la voz”",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOFczNzY3RFNwVHB6UVFla3dEYmFtT3pFZGtMOGxnMlcteVBDWWg0dkJINnlMeEExSWlndVJiVE0yeVBVTlV4QV9tVWNVNGhMbkpxelc0TjJBSWdQLXlYQm1WdVpLbHZjNDhVTlV1MWdQbzFBVTE3NG5vYllGZjVwWWE0N1Z6Y3NSdjBmSEUwMTNaeFhBXzZXWFBMVUp4SVZfbXZfT0tEYXhSVXFxTkxVTkg0QWRBT1JnenpKdGdrazVJT3plOHVCRkVZZmlCTEl5Nl9YRWR1Q2R5dk1B?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: Hay 798,000 pensiones asociadas a la Modalidad 40; cuestan 246,000 millones de pesos al año",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMXZFNHh3QjgzS0VhVWM0NWlqbTFqM0dNX3NuYWRoYkItLUt5U01HQUljRHp3NWY1MTRTa3kxM0p1NnAzWndzNmN4Vi1xblpxQjZXUk9YN1VURG40dGJBZXlXWkdseW13RDEyaDhISGJJbUJBcjhtNWNwZlZmbFVvamh4UzR1dTZaRlpheGpyUDU0Uy1VdVIxVHV6WTRTTmpRaEt6dFlQalViQVJxaWdyd2tqYWo5SkV3MXNkSi1KdlJScFVrN3BteTJQU3MtM09uYUo2eUY5Nm9tUlYxQlh3bVhqTdIB6AFBVV95cUxPbkd4X0FyT3E1OGc2bldIMXhsWjlSd0xnMngxaFQyRjU0X1c4R2t4QkUySU1xNlFfNndkak1uYU1tcXhNTmN5My1oZWxpZFJKcXYzeEhBalkzX2czc2xUTnBoWldxZEFpdkdFeFFOZFBtUE0xYXYzSnF5SzdjUkpWWk8xRGlyTkQtc293dWM5bTJWMjR6SzRuc3g0cEdhUzNUOEYxWUM1TFo0LU9lb29zTVZvekw1TG5henRLZml5QnJqOE1PTTNyS2lFSktEd255VmJLNjg5S2JORVJxMGhpMldLZ3NXdUNr?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Milenio: “Si el transporte se detiene, la economía de México se detiene”: Canacar anuncia paro nacional indefinido",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZHY0elVleHpqdVRlNThuN0dXR0VlM29FQjB6NGNLRktBbm5HcXhXdkZzelByYlVZeWhuUzUtZTJZdm5WUmhCRkdDS1c1SENfZnl5NS1VV183RDdMaHNRNm1CS2V1U1Q0VkpKOFI1NFlDZHRrY0ktdVc0WWtLSjN6QTdSN3JEXzU20gGIAUFVX3lxTE9NNlZkaUVaRk1IMzZYenZyVVVzNWFSdGxiRGRpT3JXRkU1d1BDTHFEUFpXdWN6aThHczZ2Nnpod2g1V2FDOXBTZ05MTUo5N281d2pJVzZWZmtMX2VyUHA4NUtkUXVpVzd0QXhzR3A5VkNaVF9ZalhEMnlkVXpyV1NYYlRSYTRyTnQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Ariadna Montiel responde a acusaciones de Maru Campos; la gobernadora es una \"mitómana\", dice",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ1hXUlNSbjI1T1o1QjZjRWI3RlZ3cDV2cDhYTkg3UFRxMlhPSW5za1JtcWhHM0NPRHlyMVhKR0Vwai01VjhfeUZ2SlZIZ2xEYW56Y0Ezc2N3RzFqMGlnWUxISFozSzZPcVVmX3g2UXpUb2VNaW1xajBUdFJFRVYtZTZQeUxQTTlmUXZLZ2U1R0ctY0h6UzMyckg5RjdPMnpobHZ4bnVTYUhCZEdMX3ktUThmRTJJUjBpTGltWFp5c3pUUmFFVXdF?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Cae responsable de ataque con coche bomba en Michoacán",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRWpxRzRGLTl3bnNXMDR0OC1GenVabEJCd3lWbU5iemloc3RJaEpidVVHRUJzLWROcFRWN1pDWUctUW4wQjFHNnl4bTZ6c3dFQWhsUjZ4LVJDMEY3MGxjc25uX2pndkVWV3pHSGFCdWkyX2ZUN0E1VnhVbE1kYnpNUEIyRnM0c0VFQmVydVNRbjBPQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Periodismo digital: Sheinbaum le incumple a la prensa, dice RSF",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nLXREeEdyN01vM0UtZGFITml3Y0JnaEdxcEF2WExyOEk4Y0lxQnR2TFdwR2lUUzB5ZDRvVzNLSS1fSVpoNTZQRGlNcnpyZXlhN1ZheF9EWW1zaEpvc3N1YlpYQ1FtTjR2SDNkQVNqcEE5YnIwWk5PbTA1MW53UkU?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1792796403496,
     "fecha": "2026-10-23",
     "categoria": "Gaming",
