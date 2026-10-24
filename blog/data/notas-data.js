@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1792882803586,
+    "fecha": "2026-10-24",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Crisis en Xbox y el impacto generacional de las consolas actuales",
+    "descripcion": "El mercado de consolas atraviesa un momento crítico con caídas históricas para Xbox, estrategias de recompra ante el inminente estreno de GTA VI y la evolución del hardware de nueva generación.",
+    "narracion": "El ecosistema de los videojuegos atraviesa por una transformación estructural impulsada por la urgencia económica, los movimientos de inventario y los inevitables cambios generacionales. En este escenario, la división de videojuegos de Microsoft vuelve a acaparar los titulares debido a un nuevo bache comercial. De acuerdo con reportes de [3DJuegos], la marca registra un bajón histórico en su mercado más importante, repitiendo e incluso profundizando los récords negativos que ya se habían documentado previamente. Esta contracción en las ventas de hardware pone en evidencia la urgencia de la compañía por revitalizar su parque de consolas activas de cara a lanzamientos colosales e inevitables para la industria, como lo es 'Grand Theft Auto VI'. Como prueba de esta estrategia desesperada por mantener a su base de usuarios conectada y consumiendo dentro de su ecosistema, [Xataka] documenta cómo la propia marca ha comenzado a tantear el terreno preguntando directamente a los consumidores si están dispuestos a vender sus consolas actuales, buscando maniobrar ante un parque instalado que no crece al ritmo esperado.\n\nParalelamente, la competencia se mueve en el tablero tecnológico con la vista puesta en el futuro. [LEVELUP] informa sobre los avances de Sony con una patente para la futura PlayStation 6, buscando diferenciarse directamente de lo que será la propuesta de hardware de la competencia y de las iteraciones de la familia Nintendo. La carrera por la potencia, los formatos de distribución digital y la retrocompatibilidad continúan definiendo las agendas corporativas, mientras que en el terreno comercial inmediato, plataformas como la eShop de Nintendo muestran tendencias claras de consumo donde títulos clásicos adaptados y promociones agresivas dominan la preferencia de los usuarios, tal como reportan portales especializados como [Nintenderos] y [PlayStation.Blog LATAM] con sus respectivas campañas de rebajas.\n\nPara el consumidor en México y Latinoamérica, esta radiografía de la industria se traduce en un panorama complejo. La devaluación constante y los precios elevados del hardware de nueva generación hacen que cada movimiento de las grandes marcas sea analizado con lupa. La estrategia de Microsoft de sondear la reventa de consolas usadas refleja un mercado secundario que cobrará aún mayor relevancia ante la llegada de títulos demandantes técnicamente. Los jugadores latinoamericanos enfrentan costos prohibitivos, por lo que la optimización de los ciclos de vida de sus equipos actuales y la búsqueda de ofertas en tiendas digitales se han vuelto indispensables. La industria avanza sin tregua, priorizando la retención de usuarios sobre la innovación de hardware puro, mientras los datos fríos demuestran que el modelo tradicional de venta de consolas vive su transición más desafiante en años.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka: Xbox necesita consolas de cara a 'GTA VI', así que está preguntando si vendes la tuya",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenVnNlhkMzF5RzYtWERjZEtWOEJRMzZNWkhZWks5cFltUHZ3X2xDZmszd3VFNlRxWFJUNUVsa0xGOFBjY0lLVHZVOERDMlo0T2UxbzFCcXdNSThPb3hrb1NnQUw5b3NubldSbGRlVm4yWFBOV2ZmOTAzTDBzT0oxQXlzZWI2NDlwcFFnUzI1S3EzOGRvZmxFU0xlRzJzQnVaYzVwcndBX0NSNnotbDBoWdIBtgFBVV95cUxObU1QTWRQRXpoelVxQ1duUGs5RE0zVnR0M0k0THZKSVVPTm1HOFBFYk1jdnV0RkNJbWZIR1dqYm9QVVBTTTYxempTU1RGbmd6RGUtSWxFNnV3cHdhQWpPVEZ4cWR0amZRbDJTdFJfX2VTWHQwUDJlRjh4QmRCLWdxdVd6ZUFUMVB0Rk5uNVJ2eXktb0JQUERxS0lKMDFpNlhXSDdBd1c0clp2SnFDdDl6b1BfWllmQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Bajón histórico de XBOX en su mercado más importante: Microsoft vuelve a batir un récord negativo que ya había registrado en 2025",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQclpYZUZYOHJwUkZkTWpxYWlhajhlMlpWdWlJMVdFdWF5SFdLb0Y5U2NyYVVWQkwxZTFCMFd1ZFFfWmVSSnhPSkdXYjExWEVOelBNcGpoQVhZZ2VyemtQZ2ExdFZSVlNtY0JxbXlpS29jQlF1Qm1yemF2TkVfNXVnTWRrNVp5YmhIT0xtYy1WSW15OWZPc2R0NzBScE5Vekk4RWltYnJ4TU1rQnlsTkJReHRERjRwTFBsYXlxTnVDY1lhMXRKNW1RYS1jU2NqYmZjbFNMLXF3Zm1wNWZ3WmEzN0ZPc1R1dlhOZHRiV2RfTdIB9AFBVV95cUxNSnAxQ3NpbTNsVElSclI4Y1hKWVY0NVF5M3IyQW5aNS1ydG90Qkd1WHB1SUgwcndZNzZEZmhxYWU1bEZKY2pQazN3WG50TkJ6OXIwenNKR2lfay16SWd4UUhPZXd3dG85Q0U0NWVpam9wcEVCUjBxaVNQMEREVW0wdzVXUG10QUJPMTRSWk5WaWNHOHMtX0lCUWd4SjVJUUNaT0xnaTRkZWZFOHRHeTFxTTJHOGp5Z1hUWXBEMEp4T3I3dWVUekE2UURhWm9JMXYyN2NjSTFncW04RW1jUlFGY3I5Rnp4Zk8xTDZpYVRvLTJaUDdx?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Así era Dragon King, el prototipo para Nintendo 64 que se acabó convirtiendo en Super Smash Bros",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVk0zUnE4MnZoVE14ZU8yNTRxTEdzWF9fYjlERWNOMFRsUG96SUpxQzdRQktHOE5Dd3JzVDR2bnIxd2FSbFNWR2JtU2l6QmhSUzUxb3pjcjFWMmhYTVQzZ2xvSURWRXEydGtXVzIwTGlfZ2Y2X2NCLXhmM3pyQW4tSVVKN09Yak5LZ2xsVjRCMURGOURaRUpEdGlaWDFIUGhHYnE5b1JQOFNOOHl3WnFZbHNOek5WdlJYNEdKSXBmTkpsUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo Switch Sports Resort y este descuento en GTA: The Trilogy lideran las ventas en la eShop de Nintendo Switch 2 y Nintendo Switch actualmente (24/10/26)",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPUlVtM2owbHVOcmVXWWFtNXRpZ3lZMWZmbFBueUFHc0JDdU1teXZOUTF1Z2JFa2l2QVgtWGhjclI2TnNEal9KX3M5WTRmc3U3eEZENWtQQk5ZcVExZVR5Snh3c1NwSEUzWVNQeWZoOFFRU1BoanE2cVVsSzZWSWtrcEJrdTJLV2ZaYW01VlZvUmQtNURoenRBZU5nRWMxNmpLc1RBWWU4RkJtd1B4TzZsckV4Zm5FQXdQSVFTcnBjbUZaSWUtWE9tdmY5NHRNdWtKSGxMVWtxeDlPNW5mNElHQXVkUHhvSXlIU2hLNUZmOVJ1dlFZNzZNOV9pRFlKWHAwYzMxUVhmTWRVU1E0d093S3cyYTE4TUpnM1RoR1FLejdYVGx4c3VnV043aw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: PlayStation 6: patente de Sony revela una de las posibles novedades de la consola que la harían única frente a XBOX Project Helix y Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNGJ4bVpENGV0cDZBdW44S1lna3RZTkxXcXN0d2pyUDlqMmh2cjhmNFRnalBIQ04yNlAtM3RpeE5wUlJvaDYwcU81TkwwaVZ5ZDNNSGwtQUVINGVhQVZQVzhRUUlSTFVDcG96SG9VZmJueXNqUDNxWXRUaEJJcFE1aFFkN0prcHE5SjhqdWZFdkRPTkkwWmNpN0NRYnJrenVLXzhwU21ucjd0eUtKeDhJLVg3THBSVUJhVTFnNGROZlZEVVVMVzNWZWdWajE1VUIxUnBER2wwT0FMY21aQTg1cDRtOG9adXFybkctYmdITmplZUh3YXIzc1FwX1RETllsOW9B?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Una exempleada de Nintendo rescata de la basura un dibujo de Mario y ahora puede valer 150.000 dólares",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVF9DazEwOVFDekpVN3pVaDRpVTBNMXZMV25NY2FLNlpTaHFlcHFUakotQjN4TkpiODF5RFZOR3h1SHFhTlEzd2pqVXE2SUIwZDNNVzlJU01yalotU3gzWV9zYWFwMWFLT3RhUmNweEZLWHBGSVVVN2NiclZRZmFMTHVUSGZYNUI2RjhmNloxZFZRZlBZampHQmMtSHphWE5zLTNnVm9UTE1idll5V19yY01ESk1Kd3RHTWhybzJHOGxKT1ZnUGJCcjFmb2FzMWw2UGphUUhhcGZDRjNicEp4X3V30gH2AUFVX3lxTE0xMUROWGVrTXcwOHhwblRGa2RmaGJwT3g4Z2daaEI5eThaUWk3RnM2S2htaEk5bFFITUFYQ21XcDRPcWJoVnJ3a1BGUFFSTEpUd05TOVR2V2syT3VmRmJuS2l4X05wdnVXMktKb1hwZUxMTUZjVXQ0YWVOZTktX3JzZ1ZmbnVRTUpxdGFKYlVXbGRNelI1Zm92Mjc1QTh3UTAtbFZTWkxKYXhZdTNlV3B6a0U5SmFOVEdUeWNLWVJnWFB2WUNMVkVEZ0FFSlZQamVzRlptT0xOZDllbFBvV3VjMFBndFRnZ0xsNFN1OUVmTTdydGtydw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: La promoción de PlayStation Store, Planeta de Ofertas, ya está disponible",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUkhEa0tNMzFVU0Q1TWJiSllqbjdrQlRKVG10TEFjT01xZjgwa2FaazJDVlRZdlFTNWRXRmhYdmdkbF9uc3M1VnhYNGZPb2oyQ0JjVzFsWFhZNTlleW56b0RSZWVnUWNWMDNQMDYzbVAwS0N6NWFTRzhXZ2dYcUU5dDd4RTlqWGczaXRZOXJ1eDFNUUxueWpwYUc5QUdMal9Yc19YUXhITUF0cVViY2N5dmFCc0tMMG1qb0E?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos México: Nintendo miniaturizó una de sus consolas más icónicas y creó una maravilla: tenía una tecnología impresionante, pero terminó siendo un fracaso comercial",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVDJSbjRuQWxCbGlJcTgtM1ZiNXhPcWV2QmNybG55MUFaS3BCR1JNd3BhQTEtd1hGNVhXcjVRQzdudk5lS0E2SnpDbWNRRTdUVm9CYWJpakJVSFhrdlp5UmhNVnlqTjRRaHk4bmpxRk53Y0tOaGVxRWZsd0NveDBKVWJzek13OVIyYlNPUEprRVZrTzRLRElJaHZaSU1uSVdkNXRHWkh3WEFzdktVYTZVRDBOZi1aZ2lxM1RpSGdORm1oa2ZOdF9MaVhjc0JTb3ozUmI2WFJ5Rl9kc2xkeHNFM3FOSkQwR0I2dW1Sc25JZ9IB9AFBVV95cUxPQUtTOVJkeE9ZYU9zTUF6R0RseWNjMHRFVU81U2liNlNSOEVpRFpOR0Y5VVpoV2NOUy1NdzVYaDZjdEV6R1hGVEs1RElZV2FFQ0ZhVnlYREJLNy1lOGpLMU5RdHVIRWkteVFZcVZzelJ6ajUzTXhDY19vS2x2d1JHT0lmWmR1dUtTMFI0cTVUaFEtTnlhTlhaSHk1S0hBYzlSTEdkNzNFMjJNYkhhaVdLTlJRYm1ndEZUa21aRnNLVnBLMGRRcW5zQUl6blB5UmRGZ056Q1FnU2RCU2laaGFLeVJPUC1PZmNHZEdvSi13cGtwdFBZ?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=AR5zbWOt0ck"
+  },
+  {
     "id": 1792803603337,
     "fecha": "2026-10-23",
     "categoria": "Noticias México",
