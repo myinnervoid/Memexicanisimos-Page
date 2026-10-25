@@ -1,5 +1,61 @@
 [
   {
+    "id": 1792969204011,
+    "fecha": "2026-10-25",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Crisis en Xbox, ofertas masivas en consolas y el impacto global de la industria",
+    "descripcion": "El sector de los videojuegos enfrenta una turbulencia económica con mínimos históricos para Microsoft, rebajas agresivas en tiendas digitales y operaciones internacionales de contrabando detectadas en México.",
+    "narracion": "El ecosistema de los videojuegos atraviesa una fase de profunda transformación económica, marcada por desequilibrios en el mercado de hardware, estrategias comerciales agresivas y anomalías logísticas que trascienden el entretenimiento. La noticia más alarmante del sector proviene del análisis publicado por [3DJuegos], que documenta un nuevo bajón histórico de Xbox en su mercado principal, repitiendo y profundizando métricas negativas que Microsoft ya había registrado previamente. Este desplome en la adopción de hardware pone contra las cuerdas la estrategia de la marca de cara a lanzamientos colosales inminentes como 'GTA VI'. De hecho, la urgencia por colocar consolas en los hogares ha escalado a dinámicas inusuales, con plataformas y medios como [Xataka] reportando sondeos directos sobre la reventa y retención de equipos por parte de los usuarios ante la inminencia del título estrella de Rockstar Games.\n\nEn paralelo, los modelos de negocio digitales continúan su carrera hacia la liquidación de inventarios. Tanto la eShop de Nintendo (con estímulos para plataformas actuales y de próxima generación, según detalla [Nintenderos]) como la PlayStation Store —que ha desplegado tres frentes de rebajas simultáneos analizados por [VidaExtra]— intentan mantener el flujo de caja mediante descuentos agresivos en títulos AAA e independientes. Estas ofertas, aunque atractivas para el consumidor final, evidencian la saturación del formato digital y la necesidad imperiosa de los gigantes tecnológicos por mantener altas sus métricas de usuarios activos mensuales.\n\nPor otro lado, la cultura digital y la infraestructura logística mexicana se han visto envueltas en un preocupante episodio de crimen transnacional. Fuentes concordantes de [El Sol de México] y [López-Dóriga Digital] confirmaron un operativo en el Aeropuerto Internacional de la Ciudad de México (AICM) donde se detectó el envío de metanfetamina oculta al interior de accesorios y controles de videojuegos con destino al Reino Unido. Este hecho subraya cómo las cadenas de suministro de la industria tecnológica son vulnerables a ser utilizadas por redes de narcotráfico internacional.\n\nFinalmente, la planeación a largo plazo de los fabricantes sigue su curso en los despachos de ingeniería. Mientras analistas revisan patentes preliminares de hardware futuro como la supuesta PlayStation 6 reportada por [La Verdad Noticias], el debate sobre la salud física del jugador resurge con enfoques como el analizado por [GQ México y Latinoamérica] sobre la ludificación de la actividad física mediante periféricos de movimiento. La industria se encuentra en una encrucijada donde la salud financiera de sus actores tradicionales choca con un mercado cada vez más polarizado, exigente y vigilado tanto por reguladores económicos como por autoridades de seguridad.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: Estos juegos están rebajados a menos de 15€ y triunfan ahora mismo en la eShop de Nintendo Switch 2 y Nintendo Switch",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTmpiUkhLVjJCOHFPOUxZbk1TMktUWVEtVkhMMTh3UFpPWWNOZUVNWmZxNDBVZmwxc2wxa29YSnhQZUJGQ3ZIQnlDTWR1VkZLWGFjSUlfLXRDaHNual9VczYwTFZKSWR5dDlCZmRMQTFRTTRWXzQ3TE5MSWZnUW5PUm9Oc0RUbjV4aWNmcnhHcGpjWjhYM2V4UU9YRUV6MGUzSUNpemxOWnFFMDBET2t6Y000VnpNTGJHWmF1M2JfQlIwWWRaMVNkSDZPd09ub1RoQ2k5ZnItTXhqNENWb0VGQ2RmaVpBaWc0OGw5QURHQzhrUXdpMnZr?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: PlayStation Store arranca hasta tres promociones de rebajas: aquí tienes una selección de los mejores juegazos en oferta para PS5 y PS4",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNczFhSXBUSXlZV2xKUzE5SG5Wd0FMZnJTa0dHSEY3Wm10VmU4UGh3dVFzRHIwS1pXdGdXUWhvS1otNUNJSzhXSnlvNjFqa2VsVkxmZG9HRk4wdWpkczVOc3BhekZCd0U4U01xTlVpOUtuVG1nME5fVk1UT0VVMVFfenZlLVNsOVZnZGlrbG9IbVpTZF9RaGNFQmtRTk12VDlnYkpFcFI3bjllR01xcXdOdzdWODJQU3VGdUtPV2NiRF9OMlZCTWc3QzNxUUtzaU5QRU1IQ1VR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Xbox necesita consolas de cara a 'GTA VI', así que está preguntando si vendes la tuya",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenVnNlhkMzF5RzYtWERjZEtWOEJRMzZNWkhZWks5cFltUHZ3X2xDZmszd3VFNlRxWFJUNUVsa0xGOFBjY0lLVHZVOERDMlo0T2UxbzFCcXdNSThPb3hrb1NnQUw5b3NubldSbGRlVm4yWFBOV2ZmOTAzTDBzT0oxQXlzZWI2NDlwcFFnUzI1S3EzOGRvZmxFU0xlRzJzQnVaYzVwcndBX0NSNnotbDBoWdIBtgFBVV95cUxObU1QTWRQRXpoelVxQ1duUGs5RE0zVnR0M0k0THZKSVVPTm1HOFBFYk1jdnV0RkNJbWZIR1dqYm9QVVBTTTYxempTU1RGbmd6RGUtSWxFNnV3cHdhQWpPVEZ4cWR0amZRbDJTdFJfX2VTWHQwUDJlRjh4QmRCLWdxdVd6ZUFUMVB0Rk5uNVJ2eXktb0JQUERxS0lKMDFpNlhXSDdBd1c0clp2SnFDdDl6b1BfWllmQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "GQ México y Latinoamérica: Nintendo Switch Sports Resort: ¿puede un videojuego ayudarte a tener una vida más activa?",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04TFV2bXE5MUIydjZGbTBmTnFxSS1uWkVSY2NPbmdKN1U3SmMzcGRRek9ZdmU4TGR2TEEzQUdSdXVweDhSU0tSc0l4a0s1SV9VRF9VNkYwWnJEYnlsY3BNaE50Q295czhIdE1WN2ZMMkJCeDMtUzRDRQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Bajón histórico de XBOX en su mercado más importante: Microsoft vuelve a batir un récord negativo que ya había registrado en 2025",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQclpYZUZYOHJwUkZkTWpxYWlhajhlMlpWdWlJMVdFdWF5SFdLb0Y5U2NyYVVWQkwxZTFCMFd1ZFFfWmVSSnhPSkdXYjExWEVOelBNcGpoQVhZZ2VyemtQZ2ExdFZSVlNtY0JxbXlpS29jQlF1Qm1yemF2TkVfNXVnTWRrNVp5YmhIT0xtYy1WSW15OWZPc2R0NzBScE5Vekk4RWltYnJ4TU1rQnlsTkJReHRERjRwTFBsYXlxTnVDY1lhMXRKNW1RYS1jU2NqYmZjbFNMLXF3Zm1wNWZ3WmEzN0ZPc1R1dlhOZHRiV2RfTdIB9AFBVV95cUxNSnAxQ3NpbTNsVElSclI4Y1hKWVY0NVF5M3IyQW5aNS1ydG90Qkd1WHB1SUgwcndZNzZEZmhxYWU1bEZKY2pQazN3WG50TkJ6OXIwenNKR2lfay16SWd4UUhPZXd3dG85Q0U0NWVpam9wcEVCUjBxaVNQMEREVW0wdzVXUG10QUJPMTRSWk5WaWNHOHMtX0lCUWd4SjVJUUNaT0xnaTRkZWZFOHRHeTFxTTJHOGp5Z1hUWXBEMEp4T3I3dWVUekE2UURhWm9JMXYyN2NjSTFncW04RW1jUlFGY3I5Rnp4Zk8xTDZpYVRvLTJaUDdx?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "La Verdad Noticias: PlayStation 6: la patente de Sony anticipa una nueva forma de jugar",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRmtESDlXMEl3UEpmU3RyRDBIalN6dElURnBlRGNlS1JYRGYxXzE2TTVOU1I4Z2NoMzk2SG1GMmZlVnZpMFJMeEQxU0J1a1hpeUlUeUEyTDV5SmRySC1jRHFPNXA0VFZaMjk5QjR1N05kZE5TYTg0Z1E0akJrTERjTHZPZzdOWVdmOHo5eWgxWkJKb2UtNHhj0gGfAUFVX3lxTE5FUXNsVUxvbHYxTmg4YjhYRTZaclYxSGFWekdadldZdm5KMkdlbGhYcld0VmJfTTVCWHlJMXRQaUZteGpDdHdRZkV5REF5dGZ6QkVFTUU3NzJUamZqcGpDa2lidWRxOVhsN29yZ1AyY1N6UlhvNE9hTHdNUTZuV2hmaFlaRUFqVzcyTUdQN044WFdleHBfOTFMWDNNZ3Y3TQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Sol de México: Detecta metanfetamina escondida en accesorios para videojuegos enviados al Reino Unido",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcjRoWkNWZjlWWGxBWjZjaVhXaEItX3VvdXlkS055RnZTTHBIa1FuNHRYeHFzVUpBYWhCajRjYU1Mb0xWM3RrUkdSWGJPSmlRbDBZQmN1a0kzamUtZmdZMGVsaklRUnNOQlcyZ0NlYTN2aEUyajhzeGd4WGdQaUxwREhTc3pPM1Y4WnFja1NlVi1NeHhIQklxMndmZ1ktYm1JVnZ5NUoyZDBYZlY1TlhvWm5wd0V1ZTBQQ2hQRWxKRUVLMFVrU01mc1lDUWExRFhxUGc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "López-Dóriga Digital: Hallan metanfetamina oculta en controles de videojuegos en el AICM",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcmtXcFByM1M2bzk1dlJVejJHd2lpcVNoYUFoM3FkZmg1cDBBN3VVZWhPQk1VdHVuUnlhY0NLNXZiWjRfMDBwaWpWTTFUNEhiVXRha3VZVUE5SURhbkRjbE9PRU95SzNHU3phcVhmU2d6THFFNktTU1dmeXQ2eUVWaXB6YnVWNko3OE1MNTlmZlVidw?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=ufLp_1ksp34"
+  },
+  {
     "id": 1792954803904,
     "fecha": "2026-10-25",
     "categoria": "Tecnología",
