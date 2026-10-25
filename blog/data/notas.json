@@ -1,5 +1,60 @@
 [
   {
+    "id": 1792954803904,
+    "fecha": "2026-10-25",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Vulnerabilidades críticas en PHP y el auge del fraude digital en México",
+    "descripcion": "Análisis de las fallas sistémicas en lenguajes de servidores web, el impacto de las estafas en mensajería instantánea y los desafíos de la ciberseguridad nacional.",
+    "narracion": "El ecosistema tecnológico global y la infraestructura digital mexicana enfrentan paralelamente desafíos estructurales de seguridad y regulación, evidenciados por recientes reportes técnicos y advertencias de agencias de ciberseguridad. En el plano del desarrollo de software backend, la BBC documentó recientemente cómo fallas críticas en PHP han desatado alertas globales en internet, poniendo de manifiesto la fragilidad sistémica de arquitecturas heredadas que soportan una porción masiva de los servidores web a nivel mundial. Estas vulnerabilidades no solo exponen la ejecución remota de código, sino que subrayan la urgencia de auditar dependencias y acelerar la migración hacia paradigmas de código más robustos y seguros.\n\nSimultáneamente, a nivel local, la Policía Cibernética (citada por UnoTV) emitió alertas específicas sobre la persistencia de campañas de ingeniería social y estafas basadas en el envío de archivos maliciosos ocultos como supuestas fotografías a través de WhatsApp. Este tipo de vectores de ataque explotan la confianza del usuario final mediante la suplantación de identidad y la manipulación psicológica, evidenciando una brecha crítica en la alfabetización digital de la población mexicana y en la capacidad de respuesta de las plataformas de mensajería para mitigar abusos automatizados a escala masiva.\n\nPor otro lado, el mercado de telecomunicaciones nacional experimenta movimientos comerciales significativos, con operadores como Telcel introduciendo paquetes de datos incrementados (hasta 50% más de gigas por dos años en planes específicos, según reporta Merca2.0). Si bien esto responde a la demanda de conectividad móvil, plantea interrogantes sobre la neutralidad de la red y la concentración de infraestructura en el duopolio nacional, limitando el desarrollo de alternativas descentralizadas.\n\nEn el terreno de la soberanía tecnológica y la propiedad intelectual, debates recientes reseñados por La Jornada sobre el uso de Inteligencia Artificial en la creación literaria y los modelos económicos de desarrollo algorítmico demuestran que la industria carece de marcos regulatorios claros frente a la automatización del conocimiento. La integración de sistemas generativos sin trazabilidad transparente degrada la autenticidad de la producción cultural y desplaza el valor económico hacia las grandes corporaciones tecnológicas propietarias de los modelos.\n\nEl impacto acumulado de estas dinámicas sobre las PyMEs y los usuarios mexicanos es directo: mayor exposición a fraudes financieros, dependencia de infraestructuras extranjeras propietarias y vulnerabilidad ante incidentes de ciberseguridad a nivel de servidor. La causa raíz radica en una combinación de deuda técnica acumulada en la web, falta de gobernanza en el uso ético de la IA y una insuficiente inversión pública en ciberseguridad defensiva y educación digital ciudadana, lo que perpetúa la asimetría tecnológica en el país.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "UnoTV: ¡No las abras! Siguen estafas con fotos en WhatsApp: Policía Cibernética da recomendaciones",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTEN2UlRYdmFsTV9sU2NsNlVlN0tyUWE1SGUzX3lxVUEzVDNfb2FaT194TnlpN01uY3ZxNTQ4VUplZWdEVFNZQ01Hcllsbnlsejh0ZFdUYUtJN1F1UVBzVUtPS2dkMGFucVRnTlIyNzZyMEJMMExhLTczY3ZqeEZCMG0zbHlPY0F2aVljTW1xMHBWeG9ma2VYeEdZdkdxajZjeUgxWFB5d2hVTWtRZXBCTVFkSXlwcHhFUWNDUU1BRmRLSXpDTzl4MjFXekM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Twitch Blog: Suscripción para Apple TV y emblemas de chat de Ted Lasso",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX3B5U2l6RDdQcGRnSnhfWDA2NmN4YkhRSGtjcVB2b2RjN0lDbFdTTEUzcHFaNFBOMFN5dkJuYWowaGJOUl92aFNYbTZ5TEF4WERPVzBPSHQ5OUNmVnhSelVkc2k3TWJBNm1nMjlqczZiUXE1NUttZV9EZldQRW44NWFlVkpUV0VTSWgw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Acusan al ganador del Premio de Novela Almadía-Arrufat de escribir con IA la obra laureada",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTFVuMXhCTnRvcGJiRFZDVDlSVVk4UndQS0U0N3BEX0p4NWtBdzJZQjJGMDE0MjEtN2I4dW1WWGpaRjBaLUtZd1dEcGpWekEyRk9xdk0yM2RVc1BhRkVWRjVPd0YwYVF1Um52NUxWbFZjTlVYSkJralREdGVuRW1mendTei04X2lSQU5fV1hhSWFRYklwVjcxUTBIekVVekZpSFBtSElTbjA4ZnpTVzU3ekxUTm1xVW5BaENCeUhqSTV6ZzJrWUFNTll2N1JMSGJScXNGY2xHQkJKT2M?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Filantropía y fordismo en la IA",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWFRqNDJiQ0dXekJqdktuWHdneG40YzQyN0R3aS1YcXdjS0c0R3R5dFptRHcySTUtVk9uai1YMXZiZkhQVG5RZzZManZ5QXZFdm5laDE0MzdfSHE2NnBwSUV0dWJBVExmemhjODhmYkNhU1hZc2xJWnpQYkZQbVBQREJyR3NmYzR2ZnFLeTl3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Caen 3 mujeres por agredir policías en San Pedro",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdkcxU19hNTFlcVZ3ZnNzTkVKYkJXR0RrTlNSZFVyU2JVR01FU3ZWOW1hUTdUYVU1eXhybHV6N1RCd3JhSWd6V3c3d19YdGl5a01FU01uZm4wOEk0aE85dEVSTEV2T2hwQWhfWHlscWMxbi1xMEVSMmp1YUdEQWc1dmFNOHJuY3dGbkE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: ¿Qué es PHP y por qué generó una falla de seguridad en internet que desató una alerta global?",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwTnVNRTNqZ2s2NTRUWUtYTlZzS3ZxMW1KTnMxQzNxNHhKYm14WFZtaTdDQ0tCdTZOVXNCM0dUMWRCMXlLUmdnSkJFQk0zVE81NFpZV2V4dWdJaHVw0gFiQVVfeXFMT2RIR084U20wdUxLZlR5N2c5Y21mZWNGVjUtQ2QtSHpFYmljVXdJQzM5b19oNkcweTlZcENOMlF3ZFlKMUlkYmtLQk5ob2VESTBnamRxYXFzZ3lDbUdhVkIyMmc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Revista Merca2.0: Telcel dará 50% más de gigas para navegar durante 2 años en México, con planes de hasta 82.5 GB mensuales y estos requisitos",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaFZOc0lhVUZxUWxjRGRDRHAtWVlaS3VGTHJVVmdQZWJiaVdIdkxwdnlXZkl2WUdNOTZBSkF4cnNKcUhsWm1rdlJGOFJwMlp3Yk8zbk9VTVk1ZldrUXZQenUzNlRJdGlvdjMtSVhzUEdaTk4yQTZXQVV4NXJmbzdMQTltODJxSkl6RVBUcERweGxoMDl5YmFuUjJiSFlwYW1wbDUxeW1vZkFvQ2lnb0tWRXRSX0pKVE1lNk1odGU1M0hkUm92dlRRR05OZll0OTV6WHNmdG13VGpCNW02V0tXcQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Estrena el Galaxy Z Flip8 de 512 GB con un 41% de descuento; el plegable más delgado del mundo",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNS1FON3ZuTFNiZUh6NUZ4MkdBSWFhdE14UTJ3MWpwVGw3MXNsV1k3ZEJSSzZJTEFjdW1oa1hsRzR0THhxNXZmLWtTUnIwVjBZWFNwMnVsWDhfV0Z5a1k1Xzk1Y1RhMm5mcUx0SEIyWUpDR2NQV1RMdVVMRVpzTy13bS1rZVFqcVM1SnIyQWxXWlVJeFNjMzNKSzFxaFg0Slc3NzU2Qnhfc01jemp3NHJLQ1VxdzhJZ21vZENuRWM0aGtxcXFnRHI2dFl2TFM3VmVMOEZTVENNOV84cTdaOFdwUV95eW1aazU5dVEtRVA2Z1R3YlBNclBXSUFTeGJ6NG9JSFY1MUlscHI?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1792951203896,
     "fecha": "2026-10-25",
     "categoria": "Farándula",
