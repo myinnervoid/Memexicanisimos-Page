@@ -1,5 +1,60 @@
 [
   {
+    "id": 1792951203896,
+    "fecha": "2026-10-25",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Salud mental y tensiones de la industria: el balance del espectáculo",
+    "descripcion": "Análisis profundo sobre el impacto emocional, las disputas contractuales y la longevidad en la industria cultural y el entretenimiento contemporáneo.",
+    "narracion": "El ecosistema del entretenimiento y la industria cultural operan bajo estructuras de alta exigencia donde convergen la salud pública, la gestión patrimonial y los vínculos contractuales. Lejos de la superficie del glamour, los recientes acontecimientos evidencian que el costo humano y legal de mantener en pie a la maquinaria del espectáculo requiere un análisis riguroso y desprovisto de frivolidad. Un ejemplo determinante se registra en el ámbito internacional, donde la salud mental y la prevención de crisis ocupan un lugar central tras las recientes declaraciones del actor Bryan Cranston en torno al fallecimiento de RJ Mitte, subrayando la urgencia de buscar asistencia profesional ante trastornos y vulnerabilidades emocionales en foros y producciones de alta presión. Este llamado resuena con fuerza en una industria históricamente caracterizada por normalizar el agotamiento crónico y la falta de redes de contención institucional para sus talentos. Por otro lado, en el terreno de los derechos de autor y las disputas legales sobre el legado artístico, el conflicto que envuelve a figuras como José Andrëa, Rafa Blas e Ix Valieri frente a Mägo de Oz ilustra las complejidades contractuales y los litigios por la autoría y comercialización de proyectos audiovisuales y discográficos. Estas fricciones legales ponen de relieve la fragilidad de los acuerdos entre creadores y sellos, afectando directamente la estabilidad económica y patrimonial de los artistas. Paralelamente, la persistencia en los escenarios de referentes con más de ocho décadas de trayectoria, tal como documenta la prensa cultural respecto a la continuidad de la función a los 85 años, demuestra que la longevidad artística convive con la precarización laboral en la vejez, un tema que los gremios y las leyes de seguridad social aún no logran resolver de manera integral. Asimismo, dinámicas intergeneracionales y de cohesión social se manifiestan en espacios masivos de convivencia, desde el Festival Tecate Península en Tijuana hasta momentos de camaradería viralizados entre exponentes de distintas épocas, como Pedro Fernández junto a su nieto, o Cristian Castro compartiendo micrófono con figuras del deporte. Sin embargo, el análisis crítico nos obliga a mirar más allá de la anécdota festiva y examinar cómo se estructuran las plataformas de consumo cultural y las normativas que regulan los derechos laborales y de salud en el sector. La sostenibilidad de la industria cultural contemporánea depende inexorablemente de la implementación de políticas de bienestar laboral, contratos transparentes y marcos jurídicos que protejan tanto el patrimonio intelectual como la integridad física y psicológica de quienes la sostienen todos los días.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "BBC: \"Es necesario buscar ayuda\": Cranston sobre la muerte de RJ Mitte",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04SXZPZ1V5d05BcGFjRGZOX0lMeDB3anYtakZVdWVIVHlPUFFGTmlvQ1BFRm9WYmFWUmU0aVBTa2x6ekVHTFduN3BNTmZkTTVMVlRWcERtNXJORzNZ0gFiQVVfeXFMTWFpaHZOdGNWQi1tQUZ5ZW5zNTVvMG1aanNEbTVKZXlCZFpla2dFZTdTUTlPZ0dFc2hfR0lvcHlMRzlDM1ZUSnoyaU1QTF80NGU4ZzRFV2dSalM0N3p3TGY3dHc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "MariskalRock.com: Mägo de Oz lanza un mensaje a Rafa Blas e Ix Valieri junto a una foto en la que aparecen con José Andrëa: \"Suerte a los dos con \"vuestra\" película",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQd3ZsRTJYVjVhUG1zT0hxdThPVk5XVFY0SkdmbHVlR0lyOTZjWG44YzF2R1hmc1E4c3g1S1M1VTNkZGhtVXpKYmtEaDJrX3c4T2RvLTlndEd2Zl9EaDVnOTVxcjhrU19wUzVyMlRwTFVZT0x3QU5QX0tBUFdocjBTUXNZS3k5WDd5NGotMU5zN3dFOFVJZ01ZSGczZlRxTVJTWW1vR1piRmlQb19wY01vSjZ4dk9WYlNmOVhEVG9Lc1NNTFVEOFJYVThKajFvLVZDTjhBb2xIRjZIZENDM0xtajZqd21XdHhkVFQ0emRUZVdBZmhvVERYLU5ieUpwdWd3cVNmdjNTcw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: BANDERA BOLSONARISTA-JERGE",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOFhmZ0ZkVUpJbDVvd1dxWlhQU1I4N3pJMTYxREEwWkFQWThkeEpydjlKelg4WlBzUjBXZHJaTW9xdTlGQ1JzSEhMMk1SVzhQa2dpRVJsZHNxTEU5NExVelpUUmMyWUhjanpYcDFTODlpakZFc2l5V2lHbHF4TmpVTE1URkRsWUU?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Tecate Península reúne a grandes figuras de la música en Tijuana",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdktwWHFUT0dETF9PcWFSN2Rza0hSeXRLSmF5Wm10dDExT01TMUdWWlVnbldwd0htMVlyOVdUTGlMVGNpV2hKWGRRSGp6X2RvT0xyeXcwcmlzekhHY0hpODRUdnRTOVk1dHZaRkZlcnVTcTRDalpCTTBkeW5kVU4yZGMybFZnQ2JHcHpSMXFWWU81ME1nN3F4b3h6elJ1QWF2X2FsNGJ4TlNqdlZUSGktRkFvQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: La función sigue a sus 85 años",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ILXB3N2JFREtjNzhfYXJpSE13OWF3NVplbnhTNFFjWVBiQjBKLVJ2Sk9RV2szTnBvNzNTa2xTZG5YNkxwcjR3NGtlRGVYT2UwSDQ3RE03bFBiNEd6UlgzYmNRVGJ1UmVQQXQ5d1I0bk56UQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: Pedro Fernández vive emotivo momento junto a su nieto, ¡cantaron ‘La de la Mochila Azul’!",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVW1yUkt1VTBfc3ZHWW8welR0bjE5QWdjQk5MLVk4aGlnZElsTWpTeG92clFTWWRTaXVyeEtWaUZQb2x0TmJYZzJFRUxIamlfMWk5S0t5SW14c0RaSTFhVEU1Q3ZVWkdobHdzNTZ4UGlTUlF0b2k1MmlCellhdWNkMTlmcVNLTUV0M00yOGloTGo0czJMdUdzRmlaNDM5eXQtcE9QV0NXMnhENkhyMER3YkY3NGtvOXdoallvbnJKVTBBZw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: Cristian Castro y \"Chicharito\" se avientan un palomazo al ritmo de \"Volcán\", de José José",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX0t2SjJDNG9uY2F3MWFxQXY1dEhJV3VBTEE3eXp1cDE4dGkxNThTX1NsVTFGcmwtN2hBbHBOdkhoOWJLMWZ5UlhHdDh2dzN3VTFJbTl3eU9KblVMV0FnRzZsZnR0bTZQTklaREdackdOYTFmLXlBZmFCaFFzSkVfak1jRkEzUlhiM1psQzFMb0E4YldJOFYxdmpaNDFlcS1Nc1F2alI1N1o3STlLYTVsUFJwMnE3WFFqdEx3cE5zTVg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Vogue México: Todas las celebridades en la alfombra roja de la Gala Vogue de Día de Muertos 2026: Vota por tu look favorito",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwOVNnX3JtdTlXc25IZFY2SjN1OEhmUkpfS1FpT2RnbkhDYm1WM2JwMjZVZE9Wamx5b1owblFaMmgxNVZMUG5MRTl1Z0RfZm96dXIzR3VIM094Nlo4cDZ6Qlh2djNJWXpYa0E?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1792882803586,
     "fecha": "2026-10-24",
     "categoria": "Gaming",
