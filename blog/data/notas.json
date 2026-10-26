@@ -1,5 +1,61 @@
 [
   {
+    "id": 1793041210124,
+    "fecha": "2026-10-26",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Soberanía de datos, fugas en WhatsApp y el dilema energético de la IA",
+    "descripcion": "El ecosistema tecnológico mexicano enfrenta simultáneamente brechas de ciberseguridad en mensajería, restructuración de líneas móviles y los desafíos energéticos globales de la inteligencia artificial.",
+    "narracion": "El ecosistema tecnológico en México y el panorama global atraviesan un punto de inflexión donde la ciberseguridad, la regulación de telecomunicaciones y la infraestructura de inteligencia artificial convergen en una crisis de gobernanza. Por un lado, la Policía Cibernética ha emitido nuevas alertas críticas sobre una persistente campaña de estafas en WhatsApp mediante el envío malicioso de archivos de imagen, una vulnerabilidad de ingeniería social que explota la confianza del usuario final en las plataformas de mensajería instantánea más populares del país [UnoTV]. Este vector de ataque demuestra que las brechas de seguridad no solo provienen de fallas en el código base, sino de la falta de alfabetización digital y protocolos de validación en los terminales móviles de los ciudadanos.\n\nEn paralelo, el mercado de telecomunicaciones nacional experimenta una reconfiguración estructural. De acuerdo con reportes financieros recientes, el operador dominante Telcel ha perdido 2.9 millones de líneas móviles como consecuencia directa de la implementación de políticas de registro obligatorio, aunque ha logrado mitigar el impacto mediante un incremento en el ingreso promedio por usuario (ARPU) [El Sol de México]. Este fenómeno subraya cómo las regulaciones gubernamentales de trazabilidad de identidad impactan directamente en las métricas operativas de las grandes corporaciones de infraestructura y en la accesibilidad de las comunicaciones para la población.\n\nA escala global, la infraestructura que sustenta la revolución tecnológica actual enfrenta límites físicos insostenibles. Según análisis de la BBC sobre el desarrollo de la fotónica, los centros de datos dedicados al procesamiento de inteligencia artificial demandan cantidades críticas de agua y energía, impulsando la búsqueda urgente de arquitecturas basadas en luz en lugar de electrones para reducir la huella térmica y operativa [BBC]. Esta necesidad de eficiencia coincide con las recientes declaraciones de Anthropic, que advierten formalmente sobre los riesgos catastróficos o existenciales que los sistemas de IA avanzados podrían plantear para la humanidad de no establecerse marcos regulatorios y de contención robustos [EL PAÍS]. \n\nPara México y sus PyMEs, estos movimientos globales se traducen en vulnerabilidades locales tangibles. La dependencia de infraestructura extranjera para el procesamiento masivo de datos, sumada a la falta de contención en ciberseguridad cotidiana, evidencia la urgencia de fortalecer la soberanía tecnológica nacional. Las empresas mexicanas no solo deben auditar sus redes contra fraudes cotidianos, sino prepararse para regular el impacto de tecnologías disruptivas que ya están redefiniendo los mercados financieros y la seguridad de la información.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "UnoTV: ¡No las abras! Siguen estafas con fotos en WhatsApp: Policía Cibernética da recomendaciones",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTEN2UlRYdmFsTV9sU2NsNlVlN0tyUWE1SGUzX3lxVUEzVDNfb2FaT194TnlpN01uY3ZxNTQ4VUplZWdEVFNZQ01Hcllsbnlsejh0ZFdUYUtJN1F1UVBzVUtPS2dkMGFucVRnTlIyNzZyMEJMMExhLTczY3ZqeEZCMG0zbHlPY0F2aVljTW1xMHBWeG9ma2VYeEdZdkdxajZjeUgxWFB5d2hVTWtRZXBCTVFkSXlwcHhFUWNDUU1BRmRLSXpDTzl4MjFXekM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Sol de México: Telcel pierde 2.9 millones de líneas por registro obligatorio, pero gana más por usuario",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSjUtTjFJeE16ZHRVTWtQTHVfMllLU0NyY3hGcFRLQUVzd2duaWdZcERrenZXTTFyRHR5aHdreDBWWjBoUnlHZXhmRVpzR3BhaTJiRU1qVDM4MXh1WUkxMkVTUTRkc1JkN05faGRKVmVscjQyV1hlNDJYa2JwWGoxQkFYSHM4RzZjQ1dqQk0zYXY2RWJ0S3BKVmE0eU4yNXhFOERyUkNITm91VTNsaWpoV2xtR181R2dFVmozZmMzUHZBVzE5SEFGX0VyamFld3FNSUswag?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Abundan zonas de riesgo en Monterrey",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zSWxlTWxqV0V4RklwcjhtUXBjWU5iOV82cjZRMVFHcmFoZWdlejVmQUo4Vkt5VGpvUlJxcVRvYU41SmJSRi1Zdk9NMHRvbXlPTTg5TW1VZ1UyU0Jzek4tNXJFQkZLMkhiVmpHNGpiM3lmTXVjOGduSmRmZ0YwUXM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Twitch Blog: Suscripción para Apple TV y emblemas de chat de Ted Lasso",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX3B5U2l6RDdQcGRnSnhfWDA2NmN4YkhRSGtjcVB2b2RjN0lDbFdTTEUzcHFaNFBOMFN5dkJuYWowaGJOUl92aFNYbTZ5TEF4WERPVzBPSHQ5OUNmVnhSelVkc2k3TWJBNm1nMjlqczZiUXE1NUttZV9EZldQRW44NWFlVkpUV0VTSWgw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Ambito: Quién será más rico dentro de diez años, Salinas Pliego o Carlos Slim: esto dice la Inteligencia Artificial",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTG80UlJPU09vTWY0UVBzODNRRHkzRGNkWTVxVjlfM0RPSmgxQlp4c01JcnhYOWdUTXZrdDhVbFI5UUlGVWNGaDVzZjAxb0VSQUIwazZ0Y0hpQTRZWkd3cVpyMVk0MGJQVUF4RTM0Y3BvRmFXc3lTeXpRdUJHaFlMeUxGUFE2Y1FJRHFvRkxtQk83a0tFVGNQMlZPSXhna1Jpc05XdUZteF96SXUxWDZRUV8ya0JmZ2tlRUJSQzFscktjN1RRQzByNTIxNG5nT3dvNmhBZ2lLdXQyclJBQmFPZTZKaEF2UFHSAewBQVVfeXFMTWdqem9FLVRxcTA3NEg2M2ZWMnlETlR2bTFaZkZ2MHhTOEhRbmZJT05Hd3VabV9uakFvTDhYOVF3WFdCbW9IV3pVUTUzT1RiX2oxVVVaMlhGamFmeDFOV3pkUU5RamNvMlhTTF9vcEpUamFUeVU1TjhRaWl2dnNzVE1vM2lJWmE5MGZ4Vmo2dW4zTFQyYjFsVnlJRTNLMVNEQ2ZTMjEyRHMwZU5VTWVaME82QWxod1oxRVItS0RoTGdBckVXMVlDQWZKQWRaQlIzemtWd3N5M3BESG10Yi1BTXljc2pzQ0NnOEpjd0Y?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Anthropic admite que los sistemas de IA podrían plantear riesgos “catastróficos o existenciales para la humanidad”",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNjFFU0dQb1RVZ0VZRUthM1g2TzJqQlJubzJpRk9PMW5vLXhCdHlfZmpFS0o0amxZckMxWkVQTFVHaVdHYm52SG1XRGVWcE1sRlZJRWNsYjFVT0VxYno5dm1qSFhvQld5RU5JUFV3dExzZWRhYXY3WHVJNWppb3FVZ29TREdMNVR6VnZnMGE5V3pvWnRJcVBKRVJTTkNPODdCenByZFhlWDMyRzl2d0lTOWJMb0Vja1ltajRNekNlWnJyck8zNmR2LXlNaDZuRXhYRzJnNHF0UlpsMVRFYTF0blZ1bC1iaFd0SnZDbdIBgAJBVV95cUxQSTNEWWl2SVlZVzJMQVpMRDFsYTFTOUgycktDYzZkalM1M3Y0bzJoeWFNdFg2bE9fVzBHRDJwY3cxN243cjNoYjdYZXg4ODYta2lTN3VCZVhDTkdRamsxZk8xNkY2YjMyZF9SNzcxQjR2YndXTnI2NGVyZ05mUjBLRG01SDZZSU5DWGxjOGgzT0Vtb0p3djFqXzlBU2xVWmlJalBoMlo4cmVrcDY1SHpWYWoxSUlxMDB5NVdvMnR3dWNZRUdHRWhlMExsdHFZbUtCblZPbGRPZFRObHVyeWdzMFNMbE41LWV0LVZJU1BKM0lmZEk0a0gwd1NoUFFVNEZ5?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Capturan a tres en operativos en San Pedro",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTVFrZU9TejNZRVBlM1pFcXNTUURTUjVSa2J0TWl5V1B6cUxDaWwyekRkT2RDZkJZVkMyTC1raFdZLW9jVlhMMFZQcHdpLUY0Q3FaaWFrS293Nm15Uk1rOFl1QUJDVlp1MnZ4Z1paZUx1RlZXTGZObzQxd1puOHNacUJNeW8yTGc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Qué es la fotónica y cómo puede lograr que los centros de datos de la IA consuman menos agua y energía",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54YWxha1dRTG1GMGd0V2lwN3pWUHZwX0JvbWNlVlVrdkNZaDN5Z2tqQ1hCQkNhaVVMeHJxd1Q2VHNUQmVnMHhhcHNFbUdqOS1VNTF6MXdKQ3VsTmhW0gFiQVVfeXFMTW9mVFUzZ1dNTzdxWGZrQWxndFF4ZVZEcUZoM21PV00zVXNDcGxiMTNyTTRXLXRzSldLMXJBUU95SlZVWHpINy1jbHR6S1llSElNYTJoSmVyUlVkZXVMQjU2b3c?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=oyB9mBx7h6Y"
+  },
+  {
     "id": 1793037610631,
     "fecha": "2026-10-26",
     "categoria": "Farándula",
