@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793055603951,
+    "fecha": "2026-10-26",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Crisis de stock, vulnerabilidades en PSN y el incierto panorama para desarrolladores independientes",
+    "descripcion": "El mercado de videojuegos enfrenta tensiones estructurales: cancelaciones masivas en preventas de hardware, brechas de seguridad en redes corporativas y la precarización de estudios independientes en plataformas digitales.",
+    "narracion": "El ecosistema global de los videojuegos atraviesa una fase de fricción económica y operativa que afecta de manera directa tanto la confianza del consumidor como la viabilidad financiera de los creadores independientes. Lejos de ser un periodo de estabilidad, la industria lidia con fallas logísticas, vulnerabilidades de ciberseguridad y un modelo de distribución digital que castiga duramente los márgenes de ganancia de los estudios más pequeños.\n\nEn el centro de la polémica comercial se encuentra Nintendo. Reportes recientes señalan cancelaciones masivas de reservas para la anticipada consola provisionalmente identificada como Nintendo Switch 2, específicamente en ediciones vinculadas al cuadragésimo aniversario de la franquicia Zelda [F1]. Esta situación pone en evidencia las recurrentes deficiencias en la gestión de inventarios y preventas por parte de los distribuidores, un problema crónico que genera frustración en las comunidades de jugadores. A esto se suma la confirmación oficial de los calendarios de lanzamiento para títulos insignia como The Legend of Zelda: Ocarina Time en la misma plataforma [F3], lo que incrementa la presión sobre una cadena de suministro que ya muestra fisuras antes del lanzamiento comercial.\n\nPor otro lado, la seguridad de la infraestructura digital volvió a quedar en entredicho. Sony atendió de urgencia una vulnerabilidad crítica en PlayStation Network (PSN) que permitía a actores malintencionados explotar las cuentas familiares [F2], exponiendo los datos y la privacidad de los usuarios. Este tipo de fallos de ciberseguridad evidencian los riesgos inherentes a los ecosistemas cerrados y conectados, donde la centralización de servicios deja a millones de consumidores vulnerables ante la falta de medidas preventivas robustas por parte de los corporativos.\n\nEn paralelo, el hardware portátil y las estrategias corporativas continúan generando especulación y movimientos tácticos. Filtraciones apuntan a que la hipotética nueva portátil de PlayStation integraría una GPU AMD exclusiva con arquitectura RDNA 5 [F7], un salto técnico ambicioso para el juego en movilidad. Simultáneamente, Microsoft busca mitigar la escasez de consolas de cara al inminente lanzamiento de GTA VI mediante iniciativas de recompra y evaluación de inventarios [F5], al tiempo que integra agresivamente su servicio Xbox Game Pass en planes de telefonía móvil [F8]. No obstante, estas maniobras contrastan con la cruda realidad económica del desarrollo independiente: datos de la industria revelan que un desarrollador puede ver reducidos sus ingresos netos de 560,000 dólares a apenas 73,000 dólares en Steam [F6] debido a impuestos, comisiones de plataformas y costos operativos. La industria avanza hacia la saturación y la concentración, dejando a los eslabones más débiles al borde de la insolvencia.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: Reportan cancelaciones de reservas de la Nintendo Switch 2 del 40º aniversario de Zelda",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYThWZUtwNFI0TlNPNHlqVmIxdVN4b3l3WWptTFdPMWU5TlIxNUtxM0VEd0drVFBTMU9vM0c4YU9SRU9JZ1FNTVNKWjB0a0pkU09mT2xuTGFOQnc2WEhudC05aml6eG5oNmoyelFlTkNTNTdRQ2JBWld3ZFJyV25HRzhMblctTkpPdzc0YVROVEJfUGxaME9BRDhCWG9ueHRDUEdvcmVXWjlybE43VGpPQ19uSWdxNlhTM01TV05ZaHlmX2FxenQzbVFXd3pYR2s?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: Sony atiende con urgencia una vulnerabilidad de PlayStation Network que permite a los hackers explotar las cuentas familiares",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNejZlbUFGVnpUbWhZMVBmSXI0Y3hqOUNCTl9wTkw5ekpMeTZveWJ4WXdkSjBNbjFHcURrWU5YdGM2ODlweEFaTzdVM3R3N21mRXZPdFRMY2FyUDRUdGZPRjJicHlEU3hsQnNMN1ljRm5PZmlEWlVab3gzMXFqeVB3SlV0OUR2c1RwLWZ4MkxRUGFreGxQTWdxN21MWmZ5R3pqVVd6RnNCVFB6QUE4RklHZ0REa3c0bl9na3ZSWGExNTdSek9uMXYwX09OalFNck84MmxvTlU5NXVjeWNLYXp4dTBBM0hYLWJLN1F3Tko3ZmxIWEE2bE9wZlRPZ1JWRjF1VE5IQkd0aVI?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Revista Merca2.0: Nintendo confirma día y hora en que sale a la venta en México The Legend of Zelda: Ocarina Time para Nintendo Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdzFtaTk4WnF5UVpJUDF2emdFYlRFMFozbTR6SXUxRm1rQnlVay1MSW5RV2VZaXhjUWxKYUxRRmVYRFFqdDdOckpGTkdpZ2tYZXBYYVVwOVA2TEItWnpZSmNjZFFuOTQ4RnFEZXR3U1Z0YVdENVhQVE5mZlJLbE1uMXVLbVdjMHBGVURaejlxTUpyNUtUWnFBZzhOWkdmVmlUQUY0aHVIWDNCTnR5ejFOQUs5TWJ2SnlzUGVMQ3JWa095a3kzMmVGemtoM0wyczdydEQ4QUV1NVBBQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Areajugones: Nintendo rebaja Resident Evil, Castlevania y Dead Cells en su promoción de Halloween de la eShop",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaFBnc250eEpCa1hIazhabHNwVGJ5bFNZSE1sUzBEZ3d6azVlVEVZdy10LU1TV0xDbHF1MzJhbTJ6dmJyNjJydzdhNzhTU0E3VHNvb0wxNVA2ZVhYYjZ5NDJjMzVGUFFvZWxRNHFma0JPT0VLclVNb1ZWT0tIMU5GQXB3Y19rbU9lTndTS3BNRTE4MXJsYTlEejktN3BrOWFXaEkyYkUtVlB5NGpBeVdiM3E0UlRFS3Vrd1k2Wjg2U3hJM1c5ZG5DdDBNTTFsVGdrLTRJ0gHYAUFVX3lxTFBkaXhJdWwyckZkejE5S1pwb0RtT08zbUYxLXBHb0Z4VGtrUEFJclJMZTR4dGlNX1lvYXNBSUN2Y3RRSk9BOFkwQmU4bnpZSDRlRW0wdU9rYnRmaGNQVnhkOHJXVjUxMk9UcVdnWXRidzF2Wi1Bb21IQlJBSTU4OTAtSndCYTlXbndTYjhocHgxLVhCNmhtVVNrSlJ1NnZxdTRSdXF1UW5ZOW1hNHFZUGszTlNtbmJXLW9MN2l2VFZhc1NqMkxEZDdJcTVabUtuOVNrcGpscG9kbQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Xbox necesita consolas de cara a 'GTA VI', así que está preguntando si vendes la tuya",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenVnNlhkMzF5RzYtWERjZEtWOEJRMzZNWkhZWks5cFltUHZ3X2xDZmszd3VFNlRxWFJUNUVsa0xGOFBjY0lLVHZVOERDMlo0T2UxbzFCcXdNSThPb3hrb1NnQUw5b3NubldSbGRlVm4yWFBOV2ZmOTAzTDBzT0oxQXlzZWI2NDlwcFFnUzI1S3EzOGRvZmxFU0xlRzJzQnVaYzVwcndBX0NSNnotbDBoWdIBtgFBVV95cUxObU1QTWRQRXpoelVxQ1duUGs5RE0zVnR0M0k0THZKSVVPTm1HOFBFYk1jdnV0RkNJbWZIR1dqYm9QVVBTTTYxempTU1RGbmd6RGUtSWxFNnV3cHdhQWpPVEZ4cWR0amZRbDJTdFJfX2VTWHQwUDJlRjh4QmRCLWdxdVd6ZUFUMVB0Rk5uNVJ2eXktb0JQUERxS0lKMDFpNlhXSDdBd1c0clp2SnFDdDl6b1BfWllmQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: De ganar 560.000 dólares por dos videojuegos a quedarse con 73.000 dólares: la cruda realidad que viven los desarrolladores indies en Steam",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcUhYMGg3T0pSR1ZkZThpZjNrajl6Ti1GX3hsTGdiUlFDenQ0LWk1VWFFdGVwSmk2V1FTZl9BQ1EycDhJSzlNbW5iX20yZzB0QzB5emZub21KcmtVdE1sdFVXSFJrM0FtZ3gzaWI2cVFqV0VLVU83UzZQcllzaGo0S0tlTkJheEFjWUdaNG52WW1GWlVUMGp1Rlo2Y3BJQl9Cbkg1bFI2WHZzdDhWTTNaUnhyM2NmSW9MOS00T1lCNG96UnhJWm1zMmRfMVRSbE9RSUp3bkpSUldCZ29Wci1B?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "IGN Latinoamérica: La nueva portátil de PlayStation tendría una GPU AMD exclusiva de arquitectura RDNA 5, asegura reporte",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOX2pWUHJBWFB6SjJDUXJ6a21ndlgxVjBNRmFFSWJLcUV3aE5WUUFRT2JoSWdMS1l2QVJVZUQ5Z0J4MDhMdW44MTE1c3poSFI3MGkybEo1UjdlNEtNMWdSU3FyYVB6eVI0OGc1QmZoYlVPVFNVRE9ZLUtGdW1ORm5EOXcwX0FkRUg2WkpmTUZvN0Y3WHdtanA4N0ZwVWxhNzMzdzRYSGNFV3l5YS1hcmEtczJCY2o5ZUVoUndTR0s4ZnR5Mlh2QV9OOWwxUDViT0xzck8xc2EyZXJxaEEtZVE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: XBOX Game Pass se incluirá sin costo extra en un plan de telefonía móvil, y los suscriptores podrán acceder a muchos juegos en consolas, PC, Smart TV y otros dispositivos",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNa0duczczRVJQd21uMktDV0lua1NZczc4MmZzTUJGeEx0dkZhemxPZGdPVVRUb2N1R21pVEt2UFZQX3dBUHlZcG5xczRSRnB2QzA5ZVNwWndZalBlaXVvZjNtV1o4cndqOHNhSVNmczZGMDZRbW1ZN1ljXzd3amFoZ0NzcDl2MHZCQ0lIWkhjUDZMN2hYT0xqdW9sbzhoRElJMVp5d3dZczNIOWxEalZUR0dmTlI1YWJFQVE2eGdoY3Q0LWRoSzBuWjlIY2p3VXNKUDV1aXp1NWM5SnZsWXpvRTNvZTczYTB5QTBtU0NFUnRJZHNRaU1ISzNUN1hMX1RiTW1neGFBXzJQeFFGaFFUam1JUGpBSWdsRG9MS2pNQlJLazVxWWxsVQ?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=No4KcZRG6wo"
+  },
+  {
     "id": 1793041210124,
     "fecha": "2026-10-26",
     "categoria": "Tecnología",
