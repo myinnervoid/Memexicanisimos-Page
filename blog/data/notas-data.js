@@ -1,5 +1,116 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793037610631,
+    "fecha": "2026-10-26",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Industria del espectáculo: Entre crisis judiciales, decesos y protocolos en vivo",
+    "descripcion": "Análisis de los acontecimientos más determinantes en el ecosistema de la farándula, abarcando desde procesos penales y decesos en la industria musical hasta los límites de la estética en televisión.",
+    "narracion": "El ecosistema del entretenimiento y la farándula contemporánea exige un análisis que trascienda la nota superficial para examinar las estructuras legales, los impactos en la salud pública y las dinámicas corporativas que sostienen la industria. En esta entrega, revisamos los hechos más relevantes documentados en los principales rotativos y agencias, comenzando por el ámbito judicial que envuelve al sistema penitenciario mexicano y figuras públicas.\n\nDe acuerdo con reportes de Infobae [F4], el caso de Héctor Parra ha vuelto a colocar en el centro de la discusión las condiciones de reclusión y la salud mental en el sistema penitenciario del país. Las recientes declaraciones del actor sobre su vida en prisión y el desgaste emocional tras años de proceso legal abren un debate urgente sobre la aplicación de la justicia, los tiempos procesales y las garantías mínimas de dignidad humana al interior de los centros de reinserción social, un problema sistémico que impacta directamente la credibilidad de las instituciones encargadas de impartir ley en México.\n\nPor otro lado, la industria musical internacional se encuentra de luto tras confirmarse el fallecimiento de Brigitte Lindemann, madre de Till Lindemann, vocalista de la emblemática agrupación alemana Rammstein, a los 87 años de edad, según información difundida por TV Azteca [F5]. Este acontecimiento representa un momento de pausa y reflexión para una de las bandas con mayor peso comercial y de producción escénica en el mercado global del rock industrial, evidenciando el factor humano detrás de las grandes maquinarias de giras internacionales y contratos discográficos multimillonarios.\n\nEn el terreno de la televisión abierta y los formatos de entretenimiento en vivo, la cobertura mediática también ha señalado los límites de la exposición corporal y los procedimientos estéticos. Según UnoTV [F8], la conductora Galilea Montijo generó debate público tras someterse a la aplicación de bótox en plena transmisión en vivo, desatando críticas sobre la normalización de intervenciones estéticas sin supervisión médica rigurosa en pantallas masivas, lo cual incide directamente en los patrones de consumo y la presión de la imagen corporal sobre las audiencias televidentes.\n\nAsimismo, la agenda internacional registra eventos de alto impacto legal y geopolítico, como la investigación abierta en Filipinas contra el padre de Meghan Markle, reportada por DW [F3], así como los movimientos en la industria del modelaje internacional que involucran a figuras como Candice Swanepoel y Tom Brady, documentados por Yahoo en Español [F1]. Cada uno de estos hechos demuestra que la farándula no opera en el vacío, sino bajo estrictas normativas legales, financieras y mediáticas que moldean la cultura global del entretenimiento.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Yahoo en Español Vida y Estilo: Se cree que Tom Brady está saliendo con la supermodelo Candice Swanepoel",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYWFVY2xwSGFBYlc4YklPdi1zMk4tT3M2dEJXa2sxUTZFcjI2c1laNVR1Mk5oczRDMlpzSmNJSFoyZF8tVFpMcERMZVhFYnN1eUMzdDZ6bmhyUDdaSnl2X2Iyanl2bWFyMXY0VHMyb1YzUHR4bi1BeWh1NjZHazdqRlk2UFY3RE9Cd1ZacEZCaw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP eliminado: Ver GRATIS y EN VIVO la séptima Gala de Eliminación HOY, domingo 25 de octubre; trans",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU1JnQ1EyNnp3dkd0b0xfVHZOUjZqQUV2dWtFTDdGVklrVEJNdHdfSDdaSnB6SGtlNHIxTFVvRzZQZ2ctOGxLX3NaTWMwS1lBNUxPY2FjdDJBeXk3RDhlaTVVQ3FoOUl5eUV6aWVPVm5IdEdFN1drb3VOelpUOThCbFlLUTh4dHhMYXEyZThSRzRqLVZYR08zTzNZWXdiRC1rSGQ5bmZwVmRUSU56b19yYm9vQTc5MTBRdmFBdU05NHBmXzlvUGV2VVBaRnRwajVVYkRJQThfUmlNaXd10gHqAUFVX3lxTE50eTIwSkw5dDFORXpaZFhEbGxsbUtBV0oyMG00eVNDWkc4Q3ZyQ0VUcnRFV3ZNcHNaRFRhaE12ZXVBSUtwekI0N0dGSHh1UUs5bkVQUTdjM0RxdnhVeEVzY0NyQjhKOFphejBKTC1DSEl4YVNiZWl1c1FlNHNrN2hEMUotWnNBN3RNS05VVVZNcktuLTBhRnZCclRRUHY4OV9mTXhrcW81Z0tRZHBWQ1FCNFlNWHBNR01IeExsV3FfMENkVklHeG1LUERRUEVPb05fN1J1OVRFN3VIck9rTEJ2bWFMa1J0QzR2dw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "DW.com: Padre de Meghan Markle investigado en Filipinas por abuso infantil",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZVJ0cFZISUtrYlhGZkd5dnF4TExIdFdjVEdIbW94bTQ2elV3dndNSWU2TUt1ZGxoVVI4d0dBZ0pldkxiRzJ0RXZFTDQtNlVRcE8wSHBGTjNwd1RRWTYtN29wV2NCZUZELXlUa0hFWGNCY0FxaENZSGRKQ05Qd2xEbzY1T1ItT1pBUjcxQXotS0xzaFptYjY4dVZZYU8tZWR20gGgAUFVX3lxTE8wXzdfOEZhMkdwU1AzT2Q0OXdNT0NqX3BrR01NMzRlZHQ3T245SzlRc2xyN2N1aVlpbU9taDY2MGozZDBNM1NCTkJwTUFTazQxTFAzeHhXMndTSGpZa3Y2bDYydG9TRnNCazJvcFJ6UUE5SHNnMEt2RHJESThCcWlGZzhKdnptWFU1VUJpREpDcExzRmFQaHpLdHgzTGpGbUI?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: La desgarradora confesión de Héctor Parra sobre su vida en prisión: “Hay días que no quiero seguir adelante”",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS2tEWlVycUw4bzJvQ3pQZTU3YmIyQ1N1ZjlwVHBOZ2RkcEhKUXZzOENoajJnVmFYNkpDYzFMeXlzcEtnVFVad0tpYjVYdV93UEV6UENSa2ZPYldXZFlYOVEyTElQQTlqUThwMGJWVTdGZ1dNVGFrQ3lMdWp4cmE5dnBRRWNwbWpuZ0k3RDBMNjE4N2NsNGdBSDZjWFBrTUc1MTBXOVVGZ3JsZ2xfWVdra1BkWTk1WTFCcWlNZGtZMGtwOTNMQ1hrc1RFTEU3UmJ5aEVTZlpKLVpRbDFyNGpyZVhR0gH8AUFVX3lxTE54RmJmZ2p2ZWhheF81TUxORmFNY2FJM015WEF0RFFSMUhCMVdnVE9kRzNMQlVPVkxtdkdkUWZLVjktMTBhVW9KeTRrMXFGRndJTE51V0pkQUt2b2FWZWVSUi1maWRtZEVXb1FjN1VqYVdKWGFvVzJHRmNDa1NjOWpsWGVvYXUwRm1EbE1uMlJzWUdYaFUwaXBrTWhyaUtNM21GSDJ1Ry1CQk5HTGcwaDdlYXpKMnVPb0huXy1uRmlqUmRIOE9uS3M4V1JiT0ZrZkptejRaWlM0Rnc0RmxMYlc5RHpYODZHYVcwdkVBWjl1SHZwQm5scTdnV3ZDMA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Rammstein de luto: muere madre de Till Lindemann a los 87 años; esto se sabe",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRWljQlp4bTF6T2lSaHd4M3JTMUJHN3ZyZG4wb0RTY19aT0FJa2xyenFRVHRqVHRlR2ZEYXE3RWotTnpxNjdCWEloaFFqVXBJSXczR0dTUFJlcXNKUmVnWWdwejIzaEpfNFpFbnJOZlRhRWEwMy1NWmdnZWNGVGxlZVBNbDdJOWprUy11SzBieGNyTmdVa3g0dWFNTUNtZGVPREZnNzZhT2VUb01XME1pRHY2aDhFZXlXNl9JWnhnak1mVXBsZEhGR1NLYm1xeGvSAdwBQVVfeXFMTnkxYVRwaVlraVhDZVpVTXV6aE1WNVF4N2RyRG5MYlRJaFJKcnpidldjRElnY2Zobl9kWU1FdU92NHRkZ2p4aGNsdEJuVXpjSzlGN0M3SldueG1WUGNTQ3VXLWpjSVE1Y3VUY0U4Q3lvSDZYdW1hQy1TbTVHd0lKM3F3U0dvSzJXSHU5b2VMdVA3M1JlZmFFXzRNNDlXYURMbGtNRFp4d09yaVdCdWtoektxMzJBc2JBck81dklNT2dCZWdJTHB1Q21SdWMxTUpicTIwZjZtS1hRa1hyVA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Sin Embargo: Luna del Cazador 2026: horarios para ver el fenómeno astronómico este domingo",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNFZ3NEYzb2hpamhwUFVFRkNSa050SmJsc1VVNHlPU3BMelMyWGVtbk1hNXNJc2UwWHY4S2N3WVZIVnRyU1lhSWgteTJCTEJKeWc5MFV1LUZwU3NyNll0cmVZXzEyYWkzYU1sT3gtZnZCTHVKX3FMWmFKbFpKNFhVYTl3S1pSQ21tSGJBYWpxUThPWEhXX3c0SFhoQjRuMGwyYmcyV1VYRkZsd2NQN3BQOQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: EL TRIUNFO DE LULA / Hernández",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPczgxTXI2Rlo3ZGhmNjZGMFFPQ05lY0lfS0VXU2VaaDc4ajdBZlE1eS11bkhrSXNOWlB3dzhwWTNHMmxGMHNSVl9sNXFick1BaWhhQ2tGR2pzTE1lcXoxM05KcVMtWjlFajRGWjREZFFMUTIxU3gxN09Gc0EtaktncWRCc3B6SDZRT1ZJ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: Galilea Montijo se pone bótox en vivo y recibe críticas: “Ya déjate de poner cosas”",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY0tnX0R0Q0tfTzJPZlpyS2NYRUFPdWJwTkFPYkFfWlVMSnFKZTg2OWFDWlN4QWxiUW43RVdHTWthLUowNVpzZlAxZW9kb0lPZVk0OW1UOFotX1N2STZUVmF5dV9JMTR2THpxZ0xOOEFsM0hwSGQ1QlJMc3lwb2VTUnpMVkNNZHhJRnZSWmlwc0JpSV90azVtU1dkd0hocVpndDY1blVrLXBMbmNHWVB2V2c5cEhxLXJHaXcw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=m2GamcofjTQ"
+  },
+  {
+    "id": 1792976404392,
+    "fecha": "2026-10-25",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Corrupción en el INE, Vínculos Criminales y Paros Afectan el Tablero Nacional",
+    "descripcion": "El panorama nacional registra la renuncia de Guadalupe Taddei en el INE, la vinculación a proceso del ex fiscal Jáuregui en Chihuahua, sanciones financieras de EE.UU. a empresarios mexicanos y afectaciones viales en Jalisco.",
+    "narracion": "Iniciamos este análisis con el relevo institucional de máxima relevancia reportado por [EL PAÍS]: la dimisión de Guadalupe Taddei al frente del Instituto Nacional Electoral (INE). Su salida se consuma acorralada por un escándalo de corrupción vinculado directamente a contratistas, lo que vulnera la autonomía y la credibilidad técnica del árbitro electoral mexicano en un momento crítico para la gobernanza del país. La causa principal radica en presuntos desvíos y adjudicaciones irregulares investigadas por órganos de fiscalización, generando un efecto inmediato de parálisis y desconfianza en las estructuras de fiscalización de recursos partidistas.\n\nEn el ámbito de la procuración de justicia y seguridad nacional, [La Jornada] confirma la vinculación a proceso del exfiscal de Chihuahua, Francisco González Jáuregui, acusado formalmente de traición a la patria. Este suceso judicial marca un precedente severo en el combate a la colusión entre funcionarios públicos y redes de criminalidad organizada, evidenciando los vacíos de control interno y el uso faccioso de las instituciones de seguridad local. El impacto social se traduce en el debilitamiento crónico del estado de derecho en las entidades federativas.\n\nPor otro lado, [El Financiero] documenta las sanciones emitidas por el Departamento del Tesoro de Estados Unidos contra los empresarios Gamaliel Garza García y su hijo, vinculados financieramente con el Cártel del Noreste. Este señalamiento transnacional expone las vulnerabilidades del sistema financiero mexicano ante el lavado de dinero y la porosidad corporativa en las cadenas de suministro del norte del país, obligando a la Unidad de Inteligencia Financiera (UIF) a coordinar operativos de congelamiento de cuentas.\n\nEn el rubro de infraestructura y movilidad urbana, [El Informador] registra las severas afectaciones viales derivadas del paro de transportistas en el estado de Jalisco. Esta protesta gremial paraliza arterias estratégicas del comercio regional, generando un impacto económico directo en la cadena de distribución y afectando la movilidad de miles de ciudadanos que dependen del transporte público y de carga.\n\nFinalmente, la protección civil mantiene alertas vigentes por el impacto del huracán Vance, el cual provocará lluvias torrenciales y oleaje elevado de hasta cinco metros en cuatro estados de la República, según informes de [El Universal]. Esta contingencia climática pone a prueba nuevamente los protocolos de prevención y respuesta rápida en zonas vulnerables, a la par que [El Sol de México] recuerda que Acapulco aún arrastra rezagos estructurales a tres años del embate del huracán Otis, evidenciando las debilidades crónicas en la asignación de recursos para la reconstrucción urbana y habitacional tras desastres naturales de alta intensidad.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "EL PAÍS: Guadalupe Taddei renuncia al INE acorralada por el escándalo de corrupción con contratistas",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY1JQOGNSeWZZdkdzRmczdVVvM2E5dXpYZlVoeUZiMXdQeTZLMWRlT25rT3FkcUpoT3N2bExxSVUyUUhMc21TNGFrN3ozT2tob1U1bnFjRktSUG90UE1HVVo5SXo3aFhFc2E1Z2hfdS05RWNJUEFOZUxXTW9FLS1venl6dDNjeEtPUzk3QXFUaW91ZjJ1TGJ6Z3dkWFIyRW5vWkQ3b19fZUppWkYxZ1lZdFFwaS1SMEZwTDNJSDVuR0NJSm9ZWWtSck1peUY2Z9IB4gFBVV95cUxQak5RTzdQOThVamktR2xQZW43NFh1bkVNMDRBTG5zM3VFTHJwRHRuZXFfNDEwZC1wek5LMVhlb2dCNVpyZkg0TzR2N0dNV3ZtN2JBSFhwY2JqNG9pNzVxOFU3RHBUVWl1RDk1SGJhZW82VGw4QVNDcE92TFdGQnlHTllXTlAzNnVYS29qNGIyTUk2bXZDSUdObFhrRFYzcUExa3lqMHhpN0dZd0V1bkoxbGdQSzlOQnNBSnRsTmVWTS1PZGF2alVhMTFKUjE0LWd1MXdhUmpYNzdiUjJxNFp6NnRn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Vinculan a proceso al ex fiscal Jáuregui por traición a la patria",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZHlWVXRFRklzVGY1Q1ZMTXh0YWRaNC1HM1ptU2hpQ0FnanBrcmlyTk9RelJ5U0x5bVdWblFmcEkxajd3MmJlNGsyZk1BYVRRSDRDMTFMVkFkUVcxQjBPLXJmMGhuWHJLQzBGbU9ZLXFUcTlYSjB1RFNmQ2FBZlRPVEE4R1lma3NuUzlrZVdxTUhLVy1WZXdyR25EVnAzMGZyMURlaDRfdGxVZzZsZU0teVRwTGtrWFctRmhXMFRiQTM0Z2JVbGFtUl9RMmxmeFEtdTNDOWxmWS1JMHE4S3c?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Informador: Estas son las rutas que tendrán afectaciones este lunes por el paro de transportistas en Jalisco",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNX0pubUJUOEF6Y3N1d05Pd2hVWkp4TGlidlFKODFfQjhWSldzeW4tNjl0d3JxTXhNbmlQbUV6TlMxY1ZyQlplX08zek5KUTY5ZVR6bG9OQTlDNF9XNGlBalVBNjRnczVJSXNkanhCTnlQSTNKbmdiMmdYZVJyLTlPNkUwa0JOWHhlUFh2OG9td0t4QXEwN3dTY0JnaFNELXpQOFZWX1gteVlTVXRWZ0gxVzZoWWJvLXR1X0Y5RGd3ak1HXzhHckYwWVQ4ejVJbGo1VGlmQ1BHY1Z2U1J3U3l3VUJrTldnNjZhVGtBcTVyd2NkYlM4NGc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Feminicidios de Ariana y su abuela en Ostuacán, Chiapas, fue por venganza, establece la FGE",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNEhMSWdGOVh5UXRNb190UHBmTVlQT01iWWR6R0JuNFpabEgxSUhROGV0QUl1ZGFUNTBmSTlFMGhlWWZEcVlMODBOWjlZeHRtSlRoVDRKMWl1ZVNhejFRbWdjc3hQTnNad2Y2bVk3LVFVZWtkTjlNSE9NME1HanVFdWQ4bjA3RFdUVFI2UU0wY240V2pNd003UF9weW1rWjdMdWFQZmFGY25zbmhhZUdsQWJLS0pkSGQySjJTZlNiZjR4YnNrU1E2SElSRWVjZjBfc1l4SVo3TGJHZw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ¿Quiénes son Gamaliel Garza García y su hijo, empresarios que EU liga con el Cártel del Noreste?",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYlFTZVNldTNueVhyQ0xxalhCaVc5ZjAtNzJuajhELTRaNjBWd1V3QjhoZzVXcTgyZWlYSW1kUzBGUFh0ZGpaUWRDTkVQdWFLdnhCRUdpaXlHOHYzQ3dLOW5RQ1d4OVByOHBqY2drRG5Nb1Eydk9vaDJteUhENGpPOXlPa2VqemU1RXlfdVVYRVZlc0VnWDhMZFRKQTF2Zm9veVZQdFd0enJMZjJyMVF1Z2l4UExpSURTamVQVC1GaGR1aFFJMmtoYWZMaE5KN09lR2hqQU1tYkJSRmd3MVJZ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Huracán Vance provocará lluvias muy fuertes en cuatro estados; alertan por oleaje de hasta 5 metros",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTF9Hc0E5Y25YNTJzSGZ3RWZ5ellYQlFEVHhnUmhBUFEyUjZlVVQ1MENSeU9IZG9ubHpSMEFkTTFfX294SUpqX0MzWEJJWmZEU3NBWTRrNzFpUnFWY21FZVFfVl9LRTlNRkk1bVBtSU9WdjZrS1YyYXR0NXFPdl9WaTNjbnNsVFRvTXJTZjh2LTBsZlVTUnJYMDNCQVgxa3lFR2U5bXlSNWRJTkw3dHZtVElrdXVYUTZYVHc0MExZNTNpa00wUXhrY2tKY1FlZ1lYNTZiLQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Huracán Otis: tres años después, Acapulco aún resiente las huellas de la devastación",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbG9NbUQ2ejFIbE5FV3lpWnZiT0w3aU54Rkw3bWFPYWJ3dHNBUmlBd3duakNqN3FwUFlvYXR0VkVCYXhTTW55d01TTDgxMXJ5d3hjSTdZX1dwR2pEbW5MMmNQaDlXdU1JWWxEa0NuYTFOTXFfTVFzaU0zc3I3TnRPY01KZnFrc3d6NHBTYkpCUHZBc25IVTMtUEhmaEhKWmgyczRjX3lZYkYtbFVHWjlESm41U0Z4NnlOTHhiVExoeV9mcG0zenlsMWxwckw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Los Tamaulipecos toman el liderato del Campeonato Nacional Charro 2026",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOODM5YXpzSVlBWmljSjE0VXJGbzdIX2hWOEpmWEM5RFpzcEJWLWFLS05EcVp5LWxrT1RlYVZMUHlFQVE2dkhRZzhxYW5OT3FqSHhid01VTkk0X3hDR2M3cHFqbUtVdlRzZGxreTBUV01ENEZlYU83REM2YTdwOXVKX3pqbHBTaHZVaWFZaE0xN2R1Q09idXg0YjZRc1A4REFDRlRfS1hWRVRwdFh0OS02ajNULUpCaEIwUzJDUDE3aw?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1792969204011,
     "fecha": "2026-10-25",
     "categoria": "Gaming",
