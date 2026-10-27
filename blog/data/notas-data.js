@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793142003606,
+    "fecha": "2026-10-27",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Nintendo Switch 2 y el mercado mexicano: precios, preventas y los retos de la transición",
+    "descripcion": "El ecosistema de Nintendo se expande con la antesala del Indie World 2026, la llegada de ediciones especiales a tiendas departamentales en México y la polémica persistente sobre las políticas de propiedad digital y física.",
+    "narracion": "El mercado latinoamericano y mexicano de videojuegos atraviesa una fase de transición tecnológica profundamente compleja, marcada por la inminencia de nuevas plataformas y la reconfiguración de los modelos de negocio tradicionales. En este contexto, la cadena de suministro y la comercialización local experimentan movimientos singulares; de acuerdo con reportes de Xataka México, tiendas de autoservicio como Bodega Aurrerá ya han comenzado a enlistar y ofertar preventas con promociones bancarias para la esperada Nintendo Switch 2 en su edición especial de Zelda, evidenciando una estrategia masiva de penetración minorista que busca capturar el poder adquisitivo antes de los picos inflacionarios de fin de año. Sin embargo, este despliegue de hardware convive con tensiones estructurales sobre los derechos del consumidor y la preservación del formato físico. Medios como La Verdad Noticias han señalado la creciente preocupación entre los coleccionistas debido a la implementación de las llamadas 'Game-Key Cards', un formato que sustituye el cartucho tradicional por códigos de descarga o llaves de acceso, socavando el valor de la propiedad tangible y trasladando los riesgos de la obsolescencia digital directamente al usuario final. Paralelamente, la salud del software independiente y los calendarios de lanzamientos se reactivarán con el nuevo Nintendo Indie World 2026, un escaparate vital para medir el músculo de desarrolladoras medianas tanto en la consola actual como en su sucesora generacional. Por otro lado, la industria global experimenta anomalías técnicas y comerciales significativas: Nintenderos confirmó la expansión oficial de la eShop y Nintendo Switch Online hacia Filipinas para noviembre de 2026, mientras que Infobae reporta avances tecnológicos donde ecosistemas cerrados en hardware ajeno ya ejecutan títulos de la Gran N como aplicaciones nativas sin emulación tradicional, alterando las fronteras del software propietario. A esto se suman desconciertos de mercado como el analizado por Yahoo, donde Call of Duty de Activision omite menciones a Xbox al presumir las calificaciones de su entrega más reciente debido a un volumen marginal de reseñas en consolas de Microsoft, reflejando cuellos de botella en la adopción multiplataforma. Para el jugador en México, este panorama exige un análisis financiero riguroso: la inversión en preventas de nueva generación choca con un mercado de segunda mano debilitado por formatos digitales y claves de uso único, obligando a los consumidores a replantearse el costo real de mantenerse al día en la industria actual.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Récord: Nintendo Indie World 2026: horario en México, dónde verlo y qué juegos esperar",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdjBNSTRaRzZVWGQtcTltbnRVbkhqbDJVQzlpZFhkbGRGVzl1Q0RZZUxucEM1R0NYWEVCRGlkdkswZDktZERoMjRianRISXgzcmhDQ1puckFkNUpGd0pFcFIzMmJmelJ0cEFDMVBINnpiak83QUZ0eUsxcVl3dGtHdFBIUElENGxhbUc1TWNyYklaMzNqWlFPQzNtLVlfSzZia2RHdTNDZTFOMzVSc2FrMmNwcGhucWU3Yk5BUlFwcnoxNEZUVjhqRjdPaw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: La Nintendo eShop y Nintendo Switch Online estarán disponibles en Filipinas a partir del 10 de noviembre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOEp2OHBOTUptN3hSejlXOUMtWEcxcFk0eU5ET01OczQweFBvSWtGNFNIaGNQaU42YWlabjBEbXhfUGpudkpJS09fT3RUNUI4THBGcXcxamJ2Y2VsanptR19Da3lxR3VOSThMU2lkM0hPY2lkZ0FlYkpTbS1iQWZaRXhIaWwxS3JIYWkyRHBONXRfUG54RWFTS0c1THRoVndkRXBuOG5LQl81YmxIU1JHUklJSElCT0lReHdqdWM2cHRuTVZkY1lzZTdTTlFqRU5oR0diTHhoMnhHc3I2bkR6MHZmZ19uMkZYQ01xcjZjM3o?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: El iPhone y el Mac ya ejecutan juegos de Nintendo Switch como aplicaciones nativas y sin emulación",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTlJXTkxDN1l5b1M0dXBnby1MNU9peFZJY3ZkSEhZYXYtVWxlUXVrTmNWV1lqNzRpZEsxNnN6bUcxejVkNnJhRFFiUTlmdnRRbkVHNFNqdEJ2cEJSOTAwZmtFNXAyMmdYWDRranYxRkpMNEdxMXFFcVVIZVQ3YjBnTzlEeS02N2w5QUsxQ0U5NTBMbHA2RE5IcjhmZXpHS0lqSFhwRjB5OWVMY0NxdmJ4RlFPYW0zS3lMbFdpZkFlRFA5cm9YcU9wYmZWd1pacGxUWXQyeGNKTdIB8gFBVV95cUxPMkp0Y2R3WlVzdDF6SDJiV256OEM1ZjJlOF9uTHVVZ2U1UmdwUll6cDl4ZjZ4Q3cxTk9TeXZiNEtQMEFWdnJJNDVkSVB1a1BkT1Uxc0Z0YU0tM2xoaUcyMVZyUTlucFp1RnZ4T0pSVGZmb25yNU56d1JVZjJYeTg3RWJUYUFEZWJUZWotZnRUd3ltNzJKcUx2WDlDYUQ1MWsxRU1jU3ByVWM0WGJyeS1KSFF5UF9RZ0M3dzBNQkR3Rl9yb1JIUVBhTUdGandhQ0VNU3VncmxOSWdlcW1nVTVRZVp3Y1RhRnQ3MTdJQTdOUFhHUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Yahoo: Call of Duty omite a XBOX al celebrar las calificaciones de Modern Warfare 4: la nueva entrega solo tiene 2 reseñas en las consolas de Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zamdDWTRMS0dadUk0SVRrVHRrWDJpbk91MzNDc0c3bnk1d2VpbzlURlZlVTZwV3pPU01qQmpDc2FYRC1qNVIwVF9Nc3NyZkZwQXBmY0M1OVRoWnYtSTBScnRNdnFLZnR1czFFWkFia0tsVXc1dTJvdU40cw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Bodega Aurrerá ya tiene la hermosa Nintendo Switch 2 edición especial de Zelda con promociones bancarias",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQanFrMUFxWVgzNFdFLWtxcUxQSy1zM1paTkhvWDlBX0xrYVREd1BuejI5Xzc0a0RBdFNXR3lucWdnR2JkdFJISU5FNEpxMDd3a2tLOW9PcWJRMlhWWEFRb2hCRndOak1seUJ3ZGdpOVRaMXk3SUQ5RE9ZcTNqb21fWkVGWkthcFBHMzMyVVI0THR6QW12Mlp6Z0hjY2pyeXNFRWhlWnBQcVpKN3laNUZMcWFzNXRWb0d3b3RydGFVSXU3V0hMbVHSAcsBQVVfeXFMTWlXNHVUUFR4ZUJOT0s5aHR6V0hnc251QnhIMm9uSVpkcC1LV0oxOUY0R2FmR2p6T2JDbWt1eVdBaVpBWEwwQ2xtWmVtc1NFeDhYTkkwcDdxMUNBZ0tvZkJIVGVPV1BXLWxucTN5cTBTNlUwdE8yNlBnUV9aUFl3YmE5N1BLbmdnU0xLSno3MDJHdVBPaTNGbER4NUJWclUtcWpsMmNBNU5kNDB6aUh4V3Z4Q1NzMS1paUZzQ0poWFhXOVhkOEpvSWd1SFk?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Mañana descubriremos qué indies pondrán rumbo a Nintendo Switch y Nintendo Switch 2 con el nuevo Indie World",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS3ZiX3d5VDRFWVQyaXFkZVJjT05ZNmEwdXg4RmpOaXFZdVNka2xqY1k0TkxyaTJURnNjUFVld25uMXprcXZzX3o3WlNCaGNPV25MWlRKNTF2OFpWYkxFWWdYN0dhekhRSEsxVjVIMWJXTXpMeFV0STRzQWQwdlQ2MGJEay1CbWR1V0JTWDgyaVJ3dzZoTEV2WTZ6Ui1PM055QjI2RFRfWW9VWjhwdEtPdC1OZUhDUmhWbzhzaUJHZVd1VXJDT05DbVQ5d0FTZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "La Verdad Noticias: Nintendo y las Game-Key Cards: la noticia que preocupa a los coleccionistas",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVC1UNmg1ZXZGMzBxQ0ZsckVETXVmRlBIbmlLb2tCR1BBOXdERWlkMXNzTUVXc3RVd1kxZ09rVVdoQ3VrTmVHVVRGTHJ3RXZidUJqVjFua0JrMXI2RG8xUmNlZFRuR09YeWhmQ0xLSE81Q1hzUlhhaV8wQjBrUmU0SmNFemhlRGJQSFBudVdrWFdMazZucUdkQ1BUMNIBowFBVV95cUxNVTMtXzNyM1phVGR0bHdIM0hkbEpCX0x1UTJWSDM0R2VrLUpYVWRfMFFBb1VRRUxKYldPVzdmeE9yUi03NlM0ckVuTXYtcVQ4V2pzNmFlblBYeXFxcjVOT0M0U25QOGdnZmVTOWFPOWtpd0Qtay14MzVuUjl5UDltZFFvVUZkWW1UZG1aSXR5S250LU9oajJGdDFqUVhMbjhGTFJ3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "kopodo: » Bad Ice-Cream Triple Scoop anuncia una remasterización para PC y Nintendo Switch",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb215UUhGZWNkV2lOeXdHRHc3UUdkbGNBblNhZFpJOXViSzRXbmpIal9SMHo3ek0yV1A5dzhTMGRtOEpZS3I2blZ3dXg3dU1ud1oxZlJmRkR6R1hoTnVEMl9RcUlOYU1wQmxybUd3MWNnRzBhc1ZteENnT3dMOF9RdHFHS244NllHNHJObnZBYVFTSlBfTkJ5S3pHbEhhVUd3dFhhLVFaLS0?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793127607031,
     "fecha": "2026-10-27",
     "categoria": "Tecnología",
