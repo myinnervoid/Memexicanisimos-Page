@@ -52,7 +52,8 @@ window.MEMEX_NOTAS = [
         "tipo": "Prensa / Cobertura Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=KG3btaPpwVg"
   },
   {
     "id": 1793062804199,
