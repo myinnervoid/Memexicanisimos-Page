@@ -1,5 +1,115 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793124009602,
+    "fecha": "2026-10-27",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Sanciones millonarias, crisis psiquiátricas y decesos: Radiografía de la industria cultural",
+    "descripcion": "El marco regulatorio de los narcocorridos, crisis de salud mental en la industria y el adiós a leyendas del entretenimiento marcan la agenda cultural.",
+    "narracion": "El ecosistema de la industria del entretenimiento y la cultura contemporánea atraviesa por un periodo de profunda reconfiguración estructural, donde los marcos regulatorios, la salud mental y las pérdidas generacionales configuran la agenda pública. Lejos de la superficie del espectáculo, los datos duros revelan tensiones profundas entre la libertad creativa, las normativas administrativas y el bienestar de los creadores.\n\nEn el plano de la música regional, el impacto de las políticas públicas locales vuelve a centrar el debate económico y de seguridad. De acuerdo con reportes de *El Sol de México* [F3], la ExpoGan 2026 aplicará sanciones económicas superiores a los 1.5 millones de pesos a agrupaciones como Los Tucanes de Tijuana y Marca Registrada en caso de interpretar narcocorridos. Esta medida ejemplifica la creciente presión institucional sobre los repertorios que abordan la narcocultura, trasladando el control de los contenidos a esquemas de disuasión fiscal y multas administrativas severas para los promotores y artistas.\n\nPor otra parte, la salud mental en el medio artístico continúa siendo un territorio opaco y estigmatizado. Según declaraciones documentadas por *El Financiero* [F2], el cantautor Aleks Syntek reveló haber enfrentado una crisis severa tras un episodio crítico en un evento público conocido como el Grito, donde enfrentó propuestas médicas de internamiento psiquiátrico prolongado de hasta seis meses. Este testimonio pone sobre la mesa el manejo de las crisis públicas de figuras públicas y los límites de la intervención médica en situaciones de alta presión mediática.\n\nEn el ámbito de la gran industria del entretenimiento corporativo, las transacciones estratégicas y los contratos globales siguen marcando el pulso financiero. Reportes de *ESPN Deportes* [F1] confirman la selección de Jay-Z al frente del codiciado Halftime Show del Super Bowl 2027, consolidando el dominio corporativo de Roc Nation en la curaduría de uno de los eventos televisivos y publicitarios más lucrativos del planeta.\n\nFinalmente, el patrimonio cultural internacional despide a figuras fundamentales. La comunidad artística global lamenta el deceso a los 90 años de Walter Koenig, actor reconocido por dar vida a Pavel Chekov en la influyente saga de ciencia ficción *Viaje a las estrellas* (*Star Trek*), conforme al registro de *La Jornada* [F8]. Estos hechos demuestran que la industria no solo se sostiene sobre los grandes contratos de taquilla y patrocinios, sino sobre la compleja gestión de sus crisis regulatorias, sanitarias y el relevo de sus iconos históricos.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "ESPN Deportes: Jay-Z es la estrella del Halftime Show del Super Bowl 2027",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc3o0M0lEUGl4MFZ1QlZhMXVELXBZTXBzNjdtTHZpT0dmWHI0WFQxSmNqa1c3TUgtQlZ4eDM2bXI4X1dZd2h2SWpMdFZtRkZ3b29RREYyVTYtZWpuXzZqcEdXb013R2MwMTYxNTMxOHBycHBIYS1hNDZpRzVzTExqdmdmYlJhY1k3a2YwME4tWVlmNGcwQzhpa09sYU8yWThDa0V4dWhvQkZzYTlOQm4yNXg0cw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Financiero: Aleks Syntek afirma que casi lo internan en psiquiátrico tras episodio del Grito: ‘Me querían tener 6 meses’",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd2ZPOWp4VXkxX2FQVlJucEpnaUtOYlpSZVpSajdNejFZUmxTb2lWTHQ2clltdzFLWnVfZU5HWjZRbmZCYTJabUVzeGVVWWFvUkVvR2pIRi10cFVfYkozM0UyblM2a2tUdU92LVBra25OTE9ra2ZXanVfTldDX0N6emc0bUY0RmNDZ2lvT1RfU0pTUU85WmhzV3ppSXp3U0tJNDBSZEN4SERIMzJ1c3E0OTBOS3dHTE9iNmpvcV9nSmZWQW45V1BEVW45VVNJcFplZUNSVEV2SVlQYTBIX010VTBLNGg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: ExpoGan 2026: multarán con más de 1.5 mdp a Los Tucanes de Tijuana y Marca Registrada por cantar narcocorridos",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMW9sZHdSSnNzM3AycHBwWUZ2ME9vOW1ycEpyRDFhdl9rMlhYWXE3UURzNDU5R0ZiUkFlM3U3T2hiNGQyV25rczlJaEptUGRYRFplWUY3cXJhRzBtQ1lfdHo1YXdhVDliNnJUcV90aTdkQnZ2Z29mZHpJVTFuMFdwSkc0NlNwVXliTWVoZVJpREoxRFU3dm9QbjIxTkgzZnFSQ1AwNm5KeDhJUHpYUFBHMU1EWXZFd3dGNi0xWTJXdGhwVzAxQU9IYjFNc0xtOWo5eWEtS2RSMmtyS0JhcEZTNnRSV21XUm45MEM5VTFlRU1helVpY0U4?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Ciencias",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrQVRWRWI5TVRvcVpEWmtMTW5MaFI5ZWo4RVphUDFsd1ZtdHhmcUpfSGFMT191Mm8tUXlmakZQQlRsSEtVRXBHdFpudHpKZUJ6LU8wRUtnWG1udw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Horóscopo de Nana Calistar hoy, martes 27 de octubre; estos signos podrían SUFRIR una decepción amorosa",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHM2YW9mVHBCZGxuU2lDeDlhc3Z3dlpyTUhmQmh4bW5ycXN4UllNUWdJVzAyNWVYMjhvOXo0Tlp5Wk96YUFrWDVuN0VabDdFQUlCQm5BWUhUNm5MZnF0ZXhwSjdHckpnX2hib192UEVVZk5Ba1ZKYXhYWnkyb0F3NmVobEh6ZGNCRm4tVWRpRkFuMmhTMjgzblZTVzV4ME5UT2xlQXpR0gGzAUFVX3lxTE0yMHNCbExSd2thdmg5RGZ0MVQzRzNaQkUwSF94d1RqWExna0hyb1pXRVpjazZJNVdxUDZOTUIyMEN3TkRINXFhczJMV2htdGFxY1JNajY2NjYtNC0zOThrWS1oUFBPMkFWZ3F6VzQzYzlHMTIzSVFVd0hZalRIOW5iZjA1R2FRQUVLV21RLUxreXFoRjMwRHA5eVZkUGRwblc1el9pZjh5MVcyTkRTX0Y5RkxV?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Puente Libre: ¿Quién fue el séptimo eliminado de La Granja VIP?🎦",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcUNMODFXUENGbEJQZzQ1dEJIclB2QjNrM1gzNllsaDdYdWx4aG15UjJvLWJNUXdBbU9rWHpXNU1HQzFjT0ZpQ19ITTFZak5PdzlDRWswZ2VrWXpiQWRhN05tMDExdzMzdHlwZUE5a0ZFTXhQY3ZfTUhBckpzbmMzWElHMjBIN3l5WGpBNTgxZGFCOVNuSTY5dkpra0w0OUhrSFE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: ¡A sacar botas y sombrero! Bronco dará concierto gratuito este lunes en la “Feria de Ferias”",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUEMwOHh6MnJSS1NCbVVZbzNzcDk5dGVwSW1FQURsckwtbzVuSTlPMjVSSG9oSFF3WE9LcTBhSGpmek9XdV8yeFI0VEc2X1AtZGxLZEoxdmtYTTFibl9icV9POWFoZ05sSDVubmg4SDk5OGFtd0VuLWtEaUFNUFUyWTFiWHRzZWtFTElXQXRzbFBsM0ZITUUxUVJIY3RYRnpMS2pwUWZ5aEdLOXE4Z1FsZWQySmYwaEFORnphaGM5Nkl4R0U2QjBCNEZfRnVlbTQ0SUxDTUZn?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Muere a los 90 años, Walter Koenig, actor que interpretó a Pavel Chekov en 'Viaje a las estrellas'",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNN0hvLXpPS296aldKcmN5SnlWeEdDV3lYUnZaWHZfMEJLZHZXcVBDNEtCcUdIRHBMaUJlNlhRYXpUaExEd3VNZEdKNmdoQldxNUVjYUd5TnZMbWJLVmRuR2FWa1A4eTdEOU5mRWc2clhPckxkOEtaUjZFUTFJTkd2SE14NUQ5dHlKeUd6X0tCN3lnZTR1bnVnQ0dxb3ZnT1I4N1g3a0lrZ1YwaXBVVVJ2bmhNWDlXQ3JiZDdLcTBxcU9oellYQ2x4QURobXdTRV9hakhOS3JMRlZjRG9uR0lubTRSRm41Ymwt?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1793062804199,
+    "fecha": "2026-10-26",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Crisis en carreteras, renuncia en el INE y desafíos en finanzas públicas",
+    "descripcion": "Análisis riguroso de la jornada nacional: paro de transportistas, cambios institucionales en el INE y el manejo de recursos públicos.",
+    "narracion": "El panorama nacional de este día registra acontecimientos de alta criticidad en materia de seguridad, gobernanza e infraestructura, respaldados por registros de diversas fuentes de circulación nacional. En primer término, [El País] documentó el paro nacional de transportistas que colapsó los accesos carreteros a la Ciudad de México. El motivo central de la protesta gremial radica en la exigencia de seguridad operativa en las autopistas federales ante la incidencia delictiva, un fenómeno que genera un impacto social y económico directo en las cadenas de suministro, afectando tiempos de traslado y encareciendo los costos logísticos de mercancías a escala metropolitana.\n\nEn el ámbito de la administración electoral, [La Jornada] y [Milenio] informaron sobre la formalización de la renuncia de Guadalupe Taddei ante la Cámara de Diputados. Esta salida institucional ocurre en paralelo a señalamientos publicados por [La Jornada] respecto a la persistencia de contratos adjudicados desde el sexenio de Enrique Peña Nieto a empresas vinculadas con José Alfredo Hernández dentro del propio organismo electoral, lo que abre un flanco de revisión sobre la continuidad de proveedores y los controles de fiscalización interna en el órgano encargado de organizar los comicios.\n\nPor otro lado, el sector salud y el manejo presupuestal de las finanzas públicas figuran en la agenda institucional. [La Jornada] adelantó que este martes se darán a conocer los detalles de la propuesta de aumento salarial destinada a los trabajadores del Instituto Mexicano del Seguro Social (IMSS), un proceso de negociación colectiva que incide directamente en el gasto corriente del Estado y en las condiciones laborales de un sector estratégico para la cobertura de seguridad social en el país.\n\nEn materia de infraestructura hídrica y medio ambiente, [El Informador] reportó que la Comisión Estatal del Agua (CEA) reconoció que las acciones de saneamiento en la presa Las Pintas son marginales, a pesar de haber ejercido una inversión de 100 millones de pesos. Este desfase entre el gasto público ejecutado y el impacto real en la recuperación ambiental del cuerpo de agua evidencia problemas crónicos en la planeación, supervisión y rendición de cuentas de las obras públicas estatales, afectando de manera directa las condiciones de salubridad y el entorno de las comunidades circunvecinas.\n\nFinalmente, el debate público también se vio sacudido por señalamientos políticos de alto nivel. [El Universal], a través de la columna de Héctor De Mauleón, documentó la reunión de la funcionaria federal Ariadna Montiel con un operador identificado en la vida pública como 'El Guano', un hecho que pone bajo escrutinio los criterios de interlocución y la transparencia en la gestión de los programas sociales del Estado mexicano, exigiendo explicaciones claras desde la perspectiva de la probidad institucional y el estado de derecho.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Formaliza Taddei su renuncia al INE ante la Cámara de Diputados",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNakM5YWJBX0FteUxPczRKT0g4bFJ2ZF9HQ0ZtNjRJbi1DVEw0Y0JGVzNlTUZJSlhQVWF3ZlVhZG5XTEllOWFFcUpZLW5XUWpmMHJSX1lqbjRCOWhiem5GNlppMVB2R3dGWE5JTklvUXlReDJESlFjYnJ6cGVNU3VyMko5WGxzWExOVk1zcUo5anVkMnEwTm0yMzVnZ0dubEk1dUhmZFpCWDNVMElwbU50U2hXencwYUg1c0FCTkozRnRMSFVELXc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: El paro nacional de transportistas genera caos vial en los accesos a Ciudad de México para exigir seguridad en las carreteras",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNFN4NHlWVEdNWW9LZE5yUTAtbzhZdDE1bHo0bWZNbFhidlU2UEdGY0Q5bjBMRXFPWlNyN0p1akN0UjJ1c1JkSXlkV2RVMFJnSFA1emFsbDU2QWZ5djNKWEVrN1pkQ1N2d0xQWWNEREs0cEN5NzRmMHRHbjZ2RV9PUm5rbi1lUWl5OW92YTY2anZSR0FuNHpPaGd6MVRtamQzTVFTTkZWZS0zU0c5Z1FfSmpfV2l2cnhhV1FfTkp6Q2VoQ3daWlp4Z2t3ZU90U29Md1JPRFIxV18xVV83ZHVKSndkTEFCWVdfMFBiV3kzVm9qcVNlTFRPR2lBMA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Mañana se dará a conocerá el aumento salarial propuesto a trabajadores del IMSS",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTHdyMXVDWklYSFNldE12Zl9rb2d2eEI0cHVfX05iak9tU3cxUWhrVjl3eV9lLW93RDFZakppVXVRamo2Zk8zRHJqWEdGaHVPT09ZYnd3T2RkaGhsVUFNaEtNUHpyZlhqS0JtQ0tQVXg5aWZ1dGR1VXltZFprUHRsQzJXN3FQdE5GdWdxVllJV1RETnM3UmdJT2ppZ1FYRW44YUViRW5HYWlOUTBaVklZenJMdFZsbUktanFOVmN0M0JyMWtmeURNTVVzMV9jS0k?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Empresas ligadas a José Alfredo Hernández tenían contratos en el INE desde el sexenio de EPN",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOajdoZnBuTXhvSjloTjkzeGhQWC05QVBNTUhTcjZ0YkJKeWxVOXRBOUxfcUZ6UWNxamhzUUZNQmtCSmU0N0llbFpNZ0M2U1pmQjR0NXRrS0FRa3FXcG11Y0lTR0d0N3lQQ05wbkluaVZVdzhRSmdDc1dGTDV1dGMxOTI1b3FvYTdIRkowZFRFYWtXRFJzWTJiNkFJZHl4Rk4tZE4tNUNCZXJiTnVhQzY1UWkzQTZ1cHZjQ1Iwbk45WUlPeXJzbFdFLUJkcy1CSmZ6MkVRbjBUNUJlZnBiRmlfOA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Informador: Saneamiento en presa Las Pintas es marginal, reconoce CEA; invierten 100 MDP",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRFQxODVmQVczV2ctVEZzZmRfUTB3MnB1QXJXb0RCMUkzQjhmcWMtWFAxSXlMRFNNenVxSkJMbzRlZkJ0bHN0NU1JSzAxOTMwVFAwb0lxd09GZ01FQTdqamlGNklPN1BZZS0yUVo3R0paUVlQcFU5SWpUcmVnVmdxR3BYNzdMejVNRWs2Qm1peXYySzk1N2JxZ2dUVExEaENqbnQ3MEVwak9xMHllbHNvNk10bUJjeGlGa0ExY0RvbkV6QdIBxwFBVV95cUxNVEVqQ1ZvTldxbnBHdFk1VjNoSVJpTGxkcnM0TmNkbFVTU194bHdlb2cwV0pBVFlMVDdsTThXVkxVQ3JrZFJ4ZUZ0WEF3cTFsUHJxbkJqVjJfaGpXRXNxaEdiUHYxSzNlblNhdUQ5T1hlWU5scWQxU1k5NklmaHVjdjF5SVBieC01NDB4a3VFd2tISF9JVldpLXNGYlU1SnpBTHotV0FFQ2NHelRHSC1NNzZDQnBFdXc0bk1vVnVtUHRva3ZoVVJr?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: Fiscalía de Nuevo León confirma la causa de muerte del streamer El Komanche",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTURQS1dnQzE5c19TRlFOQkNfX1B6Sll2Mkd2MlphT015c2xJQmRwamlSYW5EMUJXSFZfQnBNMzJkd2prTmR6M0JwTE9HRzluNy1IVVpxLW15dFo0M2NDRnpvNEFwRDZ6ZFZvYkpNNm9SVGdMTzNPNGNhakpnWng2MlhuMUxTT3VrNzcyVm1iMURPQXNIOWdLWHVva1dnQkJuejBINk9sX05rQUwydnY1NUlKZlFhemJCUkthcmpUNTdfemw1cUF3SVJIRmhMc0dZdEdEZ0xrdVrSAfMBQVVfeXFMT2E2Tmt5VE56Q2Z1X1h0dmFDNUM4ODhBT2NyNV9yQVVUZWxzdjU5SG9KOG1sWmtWTnhDSURTZFNUMXpKWUViaUtiNXpYTmFUS0pvd2RpV0ZSOTNrSFowaDhud2YwbWNWZm1RdVBFT0JBYzJRa3ZSdnhucXdGenpzZldjSTI1U2Vram9zWXo3RXFjcjJKVVRvY0NQcEpvdmtMMXJ5TFY1a3NTV052YVlkWUFrM3g4M0pnc1R4X1FqYVFDYXBocVBOSUlid1ZOZTB6SlN0QWFiV05Pa1l4ZWxta2hRUTlyUHZzZG1TLVVwdWJ5YVpn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: La reunión de Ariadna Montiel con El Guano, escribe Héctor De Mauleón",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWjNRWE5JdzFDel9tVlJHN25uVHdFM2d3SkdEbDhnNHhoWU9rOGVTOWFKanE5eG84VnhVNFZfSFBpUmkwSUxmeFNKdUFBa2FGb0xUZkpxa2pNU3h3QldtcEVkTUV5M2RITFlLS25zNEg4VXVVYnY5Y3ZSU3o1eDhkV1E2bG5UUVdIQW53Z3J4Yy1kbDJldXlOQ3F0SE9mc0ZEamc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "MILENIO: Renuncia de Taddei, triunfo de Lula y calendario de pagos para pensiones del Bienestar, los temas de La Mañane",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzNqdjkxc1k2TVV1cnhldW5ndmhuX291Ym1kV2tkUkc2c2x5eDBialdmbVEwVE9mb3JfbmdTMm41bzdVaXIxUWUyMmJreFVJdzQ3WFp0bzh0MFhXbmlRYnNtUko0N1dCdnJXR1FyWGREYnB0UWxwSVQydVgwcHVaZ3I1SkVPdExQOVBBdVVnak1BYTJKUmVhak8xaXNrUdIBngFBVV95cUxORjllQzduckd4bzZEOEswcDFZRkZTNzZERF81MzNWVFp5TjNIdExPczE3R0xoeG1vUGExQ01xR2NodjUxeEhTMjBiZ2hscVFhSGpUekVENWxTSkd5N1IycFJBQkRWTFNJMktwa0NiY0dwc25PVVhNYndSZGRQSzVZUENNNW1aaDVmZ0lrcFlEc1IwMzZZcS0yOUdGbXRiQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793055603951,
     "fecha": "2026-10-26",
     "categoria": "Gaming",
