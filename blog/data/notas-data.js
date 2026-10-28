@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793214009621,
+    "fecha": "2026-10-28",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Corrupción en infraestructura, crisis de IA y nuevas normativas en México",
+    "descripcion": "Análisis de sobreprecios tecnológicos en dependencias públicas mexicanas, el desplome financiero de la IA en China y la regulación escolar.",
+    "narracion": "El ecosistema tecnológico y de infraestructura pública en México enfrenta un escrutinio severo tras revelarse esquemas de sobreprecios en contrataciones gubernamentales. Según reportó [El Financiero], diversas empresas proveedoras de tecnología para Pemex, el IMSS y el ISSSTE fueron sancionadas con multas acumuladas de 67 millones de pesos por aplicar sobreprecios superiores al 40% en adquisiciones críticas. Esta práctica no sólo drena recursos del erario federal, sino que evidencia fallas sistémicas en los controles de fiscalización de contratos de TI y ciberseguridad, vulnerando la soberanía tecnológica y la eficiencia operativa de instituciones fundamentales para el Estado mexicano. La opacidad en la cadena de suministro tecnológica gubernamental sigue siendo un vector de riesgo financiero e institucional.\n\nEn el plano internacional, la economía de los sistemas inteligentes registra una corrección drástica. De acuerdo con datos de [Yahoo], la burbuja de inteligencia artificial en China estalló recientemente, evaporando 480 mil millones de dólares en valor de mercado. Este desplome cuestiona la sostenibilidad de las valoraciones actuales en el sector de semiconductores, centros de datos y modelos de lenguaje a escala global, abriendo el debate sobre si la contracción financiera replicará sus efectos en Estados Unidos y otros mercados altamente endeudados con el sector de IA.\n\nParalelamente, la regulación en México avanza en el terreno normativo cotidiano. La Secretaría de Educación Pública (SEP) confirmó que el próximo 3 de noviembre entrarán en vigor las nuevas disposiciones restrictivas para el uso de teléfonos celulares en escuelas mexicanas, una medida documentada por [UnoTV] que busca mitigar la dispersión cognitiva en aulas, aunque plantea desafíos operativos para docentes y padres de familia en términos de comunicación y control parental. Asimismo, en el ámbito de consumo y hardware, Apple actualizó su línea de equipos portátiles e iMacs incorporando el nuevo chip M6, integrando mejoras sustanciales en rendimiento por vatio, aunque acompañado de configuraciones de memoria y almacenamiento que han generado polémicas entre analistas de hardware debido a su esquema de costos [Xataka México]. Por su parte, la discusión sobre la desinformación algorítmica continúa latente; la polarización digital impulsada por arquitecturas de recomendación de contenido opacas mantiene efectos corrosivos sobre la deliberación pública, tal como analiza [La Jornada] al examinar la relación entre algoritmos, repetición y posverdad. Finalmente, en el sector de movilidad urbana y tecnología de consumo, incidentes aislados como la agresión a un dron en transmisión en vivo [UnoTV] y las filtraciones sobre especificaciones de baterías en futuros gama alta de Samsung [La Verdad Noticias] subrayan la fricción constante entre la automatización comercial y la interacción humana.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "UnoTV: Conductor Ernesto Chavana patea dron en vivo y golpea a modelo en la cara",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPX21PWjlxMjlQaEY0TFpWRXdaNDVjRklISWtwOEdsLUZaLVVFZWF6eWVWbHRiNmJuQ1RFdFVSRnVNWDJGajJXRlBYOFd6Wi1xTGhVaUxJZDl3VzBveWJubU9QcWJQQ1hBVjVqSHJkQkI1VVpoM212QW1vQUh0clBzU0MtQncxYXlrcWUwOXJnazdMNWd6TVpXRExxelJYbThoWTFwMUlJNUJvVmcwZ1RLRC1R?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Venden tecnología a Pemex, IMSS e ISSSTE con sobreprecios de más de 40%: Multan a empresas con 67 mdp",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORnJUM1k3cWF0MlczcTFHVjdaU3lSdkVHSi1fNjhrR3dqM3NqZHY2dFhVTlVNRGtLcE5oSFY4My1aWnVWUGxVbDhtWEdzYXE0dGNKeTBYRjBBZjA5VXhGd3Rlb3Qxd0xFMUhCc05LUUFuSm1yUmg0aEFpN2o4RGYzclNIXy0wNlZRUEFaTnNIcVF2aFQzRVNvQnc2LU95Qnh3MEpiVjgybUpvcFpMakVFLXpyQlVLUXR6LUlfZURUclNrSm5HblVjNThSNWxNRmtDNkQyNWU4MlZ4WGFTYjB6RnZzY2RSdw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Yahoo: Estalla la burbuja de IA en China y borra $480 mil millones: ¿Se replicará en EEUU?",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOXRtZW5LbkZndUdwWEhXVjR2eE1HTGdIZXJrczF0Ri1uazBDd2p0cDNzUEVJV3dlY2dRRXhCX2dabFBMdDJFbzAzOXBMeFY2TnRpZWt1OUk3bm1IdEs4UDBnQTlWT2xTU050VkFEYVNjR0FDZU1ZcjlnczdrcURhQWtDbXk4Vkp2RG9n?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "UnoTV: SEP confirma: el 3 de noviembre entran en vigor reglas para celulares en escuelas; así funcionarán",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaERNaWw2RWFTMWNKdWtEVU1CTDhfa04wOGxQLXA4S09rOHhLZmNqclBjV3dibENreE84SDNHQXZqQ1ZIRmVnRmJvYWphd2RHaWFJQ0FOUEkxVUl0QVpQNkN5ODlWM3k2SGx6ajR6ZDFwTmMwZ3V1X2FXdlppbURNNldQR0QxUG1rb0hfRDUwZnkxQzM4dlRqZjY1NFNEWks2ZHB5LWNNckhQckpJbzFoSkxXZnVIVmxrOE0xaEw5bkRYWTVVelVj?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Verdad Noticias: Samsung Galaxy S27 Ultra: para qué serviría su nueva gran batería",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjRYQmdXSXJrWXRDYVFROWRiYkRMRVpobnE4UWxiNFNkTTZHWm1wQjRubEJybU5MTjhEOS02bVRTdzN4bjl6RzVJUjUtOEZtaXlPRDVBNzdXVllYTDFHb2RmOGJ3cE04M3k0MWlONVVtNFFIS1RFQ2dLcm9lbGFBOWFzTklnSk5nVUp3bzl3VmhISEwwWmp5UC1FTdIBowFBVV95cUxPdVFxcnctMkp6SXNrYTloUWVOOVZfRVQwTEVFZUp4NFg5OEo1cjFRU2g5b0ttajRDdXVLbDdMUFJCSkh6a0dnWjNtZkpPSEkycGZBRTVTTDdoMGhQbnkzSnhNYXRwdlRuWEZrVTRXMlFwZUhqbDU0SGVOeEloMHVFRHpidDVRQzhIMXBHZG4xY3dOVElaaURJQUhjc1dGd0tXWmxF?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Verdad Noticias: Samsung Galaxy A35 recibe One UI 9.0: conoce las novedades",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWNPQXQ3cThSYU8xZ0lVNzJSTEhzSlZsNGVLOEtKaFI5VVJxR0hZYlFQMThHQ2V2Z1EyYzF5MGxORXVnTkNuREVhaGVTeERZTU16RURaNExWaVlNNzEzbldmaUpUYjgzV3M5THBuczBmVjBsc2gwcGoycWhTMzdXc3NfbzRWQjZma2hmdGtrbFdLemx5M243SNIBoAFBVV95cUxPOGFHYVY3Z0tERmhCeEFiSk9JeTVobS0tcWMwMkZSVTRnemJKaGppOFBhRUR2Ukx5eURGNVRxeDFqWHdwbXNUblVrZlZCbUJ4czJZdjJURzRPYnkyM1AtZDNpRWpKUVNyN1V3Y1VYMzFkXzBUZkw3YmY1ejBESmhXeV93VnFNUERPT1pWRnBlQkRDOTB2TkZFMlBTZTZSWEkw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: El algoritmo, la mentira, su repetición y la posverdad",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTDlFU2dlUXotT29Db2dRSlVlMEZTQ3pLY2FLOVhWeFNkTUViblNMMUVPQUJxcXpRTmxSaU9WZ0x2RTZ0TDZUaDlUUTVoM3BiRzA0eVc1cldIWDZoZGxVNEFQM3ZKa2pvdUROZlRkTUM4VS1XaXdLUHNmSFVVVnA4S09UaVJTVmdGelNIaVpUVFBDa2gxemphdTBQQzlLQTd5MnhqZFBWWVNPZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka México: Apple actualiza la iMac y la MacBook Pro de 14 pulgadas con el chip M6: más potencia, pero con una configuración polémica",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2RGOFEwQXRIbkdTZjI4SU5SSm5TU0RFN3pzQWZYUzZUall3LS03NFJUbzhrSEpodTkxVGttY2hwbTB0RWZuc0t2dEdXT2I4MjhMM25yV3l3YzVWbFFHaW5ySy1iUjhiTW1uaGFCM3dWLTZzVWROYUpNa1haWXFCd09fZ2RnV0xlYXEwTkh2QmxuUWhQNDMyUEZvNTl4LVZMbm5Dc1BPZ0FHTGE2QU55M0h0NGRES2VTRlNhZmRCRdIBxAFBVV95cUxPV2l0N2dCV1ItWkZPeS12ZkFmX2FCM2EyWGxDei02RXBCNTNFcUk2bV91QUFnbW9iV3RfZ0pMMkgzenZwYzVzMFVod1FrRHNldnVPSFZEVGRIdmFQNFNZNl9mUDd0SVNzMUg2dkM0dFdFOUxDZG9aWXpCbnFzRWR6bHBhVDNvWmRLRlhfSThhODEtRlBKOXp2dzlQTnBYNF9aT09CS2dwRVZ2NmlpVzJhYTFNNnYtS3NsOEgyc3RWTDBmVC1B?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793210409895,
     "fecha": "2026-10-28",
     "categoria": "Farándula",
