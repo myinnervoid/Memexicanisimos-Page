@@ -1,6 +1,60 @@
 window.MEMEX_NOTAS = [
   {
-
+    "id": 1793210409895,
+    "fecha": "2026-10-28",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "De la inestabilidad en los foros al Super Bowl: Radiografía del espectáculo",
+    "descripcion": "Análisis exhaustivo de la industria cultural: desde los protocolos de seguridad y incidentes en transmisiones en vivo hasta las estrategias corporativas y de derechos en el entretenimiento global.",
+    "narracion": "El ecosistema del entretenimiento y la farándula exige hoy un análisis que trascienda la superficie del escándalo para examinar las repercusiones contractuales, legales y de seguridad que configuran la industria cultural actual. En el norte del país, un incidente ocurrido en los foros de Monterrey —documentado por Infobae— puso nuevamente sobre la mesa los protocolos de seguridad laboral y la integridad física de los colaboradores en producciones en vivo, tras una reacción violenta de Ernesto Chavana contra un dron que terminó por lesionar a una integrante de la producción. Este tipo de sucesos evidencian los vacíos en la regulación de riesgos de trabajo dentro de los sets televisivos regionales, donde la improvisación y el enojo en pantalla abierta exponen fallas estructurales en el manejo de personal.\n\nPor otro lado, en el terreno de los grandes eventos corporativos y deportivos, las decisiones de posicionamiento de marca continúan redefiniendo el mercado global. Según reportes de CNN en Español, el anuncio de que Jay-Z asumirá directamente el rol estelar del Halftime Show del Super Bowl LXI marca un hito en la gestión de contenidos musicales asociados a ligas deportivas de alta audiencia. Esta decisión no solo responde a una estrategia de monetización y control creativo por parte de Roc Nation y la NFL, sino que reconfigura las métricas de negociación de derechos de autor y patrocinios corporativos a escala internacional.\n\nEn el ámbito de la salud pública, la memoria y la protección patrimonial, diversas figuras enfrentan coyunturas complejas. Las recientes aclaraciones sobre la salud de Laura Bozzo (Récord) y los reportes en torno al proceso legal de Pablo Lyle —cuya familia anticipa hitos en su situación jurídica, de acuerdo con HOLA— reflejan la permanente intersección entre la vida pública, el escrutinio mediático y el sistema de procuración de justicia. Asimismo, declaraciones recientes sobre el ámbito personal y la superación de abusos, como el testimonio de Yuri difundido por El Diario, reabren el debate sobre la responsabilidad social de los medios al dar cobertura a vivencias traumáticas sin caer en el morbo.\n\nFinalmente, los formatos de telerrealidad y giras teatrales continúan midiendo su viabilidad económica a través de la taquilla y la respuesta en plataformas digitales. La interacción de Azalia Ojeda con las tendencias de redes tras su salida de 'La Granja VIP' (TV Azteca) y las condiciones climáticas que enfrentan producciones teatrales en la Ciudad de México ('Todo Vale', Reforma) demuestran que la logística, la resistencia física de los elencos y la gestión reputacional son variables críticas para la subsistencia de cualquier proyecto en el mercado del espectáculo contemporáneo.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Reforma: Traen estrellas de 'Todo Vale' su ley a CDMX en plena lluvia",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcWZ4dXFDbUN3VUZVU2ROd1M2cGNqOThaM3FaOHo1OG05MU9lUWttaHh0Y2Fqd0dhMGRBY1BOMmVuLXNQMGZPZUZVODZHbkRWS0JkYVhWeDZCSjIxZDZEWjVRV1VBNXlOb040MjJNREtDX28zVV91Q0xpQmlNS2JoVldYWVpyMXkyRVMxWkpXVlNfYi1YOEsw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Jay-Z anunció que él mismo será el artista del Halftime Show del Super Bowl LXI",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYURaZlNBT2U3eU5xS184bF90N2pxQmFfbEFFZmp2NkNqNVhRc3gwTEpIV1phYUJsVjdQVWVHbkNROGVicGc5TVZqTG9sb0ZpV0hiR0J6QlM0bkZSRThwaDd2VkZaNWQwNk5HWlNBNVBiVkctbWFFSm9DNmN5SU51cXN2UGpORnlaQ1MzTk10c1hSQkRXa2dVSVdn?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Ernesto Chavana patea molesto un dron y lastima a una colaboradora en vivo: el momento viral en la TV de Monterrey",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOHN5SENmY2VqZUZyRmxrX29qWVNFcG5kVjQyY1hfdktZUWUtZ0JYazRWNmxmYTVVWGpRSHd0MkZiSXVReVFtRFJyLVp4VFVPWmVkM2lzX29BZVlwLS1KNDRvcUEycXM5a0FnMVdoVmlLMmdZOVQtb2Vha1FCUktlWmphVGpweEpsbHRMV2hUMVJFREJacDYyLXBYeGRJT09NTzVJUXFibFNaV3FOMjVDTGhMTndPZDA1VWJGYngwZDBZdjQ3Q1hYZDg4Mk4xVEtiZHZXTjY0REk0WS1qRWdTQk9uRVp3RlEzQmdCV9IBhwJBVV95cUxPNkVCdl9iaThGbmN2YmlINVRxaDNnbVVUdE1EZHhwQ1h6ZlVrWkxQVG5tQnc3WWlCaUlSSjVvTktPQU5KVTNXZWEzbEVaRThIQkRGYVVDUV9uVjBYeWRobGxxU0NTa09XV1hXekhGMTUxNWNQMlF5S0dqRXZzanozb3R3N0U3XzdyekI2YmxKRlJoZk5uNWZHRjJJZENUajZSQVJKMk93QWhJMzJXSmEwVkUzTWhVdFFvUTcwM29DcEFjLTNOWGR0dnZ6c0ZMLUplX0xkMUZSWmFidmxBRGZoWG5USEFVS09MakVuNEhMRHdIZWdTWnFGWnhwYV9NbVBUUGVURW1fQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Récord: ¿Murió Laura Bozzo? Esto se sabe sobre los rumores de su fallecimiento",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU3Bna3VfT0FMNXpiWXY4bVZLS0tySTktcm56Qm1ndUZvdlFxQXhtblFvU0tPRHpVU05TZGdnYVYzRFdXdjVqOUhKM1lVTWo1cWZPMGcteW9ydEpJLVpuRVVHUURja0ZDTUlENTQzUlN0eVlCVGVaNjdGb2lwLTlsRS1Yb2tEMGx0TGFOQlNSaEhSbGl5RWRvTHpnd2FuSUk2WDU5VWlmZEQwbC1fQTBfVDVaMjlGMXk3bHd5d3pQXzQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Arantza, hija de Pablo Lyle, celebra su último cumpleaños antes de que el actor salga de prisión",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN3BUajYyOUVUbFNLZW5USHZZTUZHTGlZLU5vcXdGV2g0VWFFVVRXMTdVVFNFMXVmT3lYUnFYeGZfRG1BaW14dUZLYjBuN1ZQUHpyLWd3bXg0SWY3b0R6Q0VNM2ZZWkJoMTZaNnpab1pocnZOYmg2OTJuSGcwQ1hQX2VhRXliTGV2SE5NeGdNam5WWkFSMlVQSmlmMDBDdzNReVVQMVVGMGJtdkttWm5iNV93?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Le revelan a Azalia Ojeda todo lo que pasa en redes sociales tras su eliminación de La Granja VIP",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcm5LUFB5QWttRUo5dHBERldiV0lFM2gwbDlzOVE5Uk82NXUwTE9VcDlsQmc4RUJhaHg3WGNKQ3paTGs4ZXV2QlNkdnBEVWpTWGJhdTZGRThuTGdVTU1GemdDNHM1ZEkwWk9WTUNsMThQcUFPQWNkbURjVXhNcmNob1B5TDhRNjVSYVNIcWVlRnFEMDdPWGxzQnVVZllMV25Bc3Bnb3U1U2VFZGFD0gG6AUFVX3lxTFBDb0EyNy12VlRJUDktTzdjSWhLWGVJcHktN3pjeDk1czN0dWtrVGEtaFdNY3VmMnpGUlBkVlR5WlMtMHhhMWRjdmdhSEdGaUhGOWR6eGNmdmJrUW5RbFNiXzJxOWg5a3Zxd2cwajFPT3RSdkl5TWwyVHVzeFVIVlhtRHhMcHlfYVY1VDhadE8wX0x3Z2RRQ094VlFJMy1hNXVJYktmZWRkYmtkSlh1c3kwLXNDYVdUSlZPZw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sociedad y Justicia",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sdXRFdEw5Q1hrZ2JISlVzdlN3eWRvY2dmcEptSjJ3MmQ0OTNPaXl2R1gtbkYwZzBIM0VFQnhkX3NycUJIQlBnR3NTbDIwQlFJcUFwTlpBa1ZRQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Diario: Revela Yuri que sufrió abuso",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaUpQVnNOS0JYVkJPVUItN1FuTGZpMzA5bElJZUo0VDJ4aVlVMTNIZFJLaTltYWUtTk0tVHg4WDE3YXVId0RYLUlBbWJfRW5ibHRsTzZNdDFNeHFkZFFTQ0VFZHU3ODkyLUdseGhabDhxYTBqdlZNdy1kWWpGY3M1aHdhdl9MajV4WHBQbNIBkgFBVV95cUxPczFhcU1hZndkXzJ2c3FKODlGOHl3X3V0NkVKMnN2ZUM2UU9WV1NWRzZXSHE0RkQ2WDJfLWVyWkNtYTRmckNnaWgxRWNhOW9KYzBKd1ppazhaamJkamRyREl5Qm81S05MWnBSckpXNmZVQmF5THl1bVk0c0N0QmRlZm9VLWQ1Q3RRcjlpT0RJeUtUUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793149203631,
     "fecha": "2026-10-27",
     "categoria": "Noticias México",
