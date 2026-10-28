@@ -1,5 +1,61 @@
 [
   {
+
+    "id": 1793149203631,
+    "fecha": "2026-10-27",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Crisis en INE, litigios políticos y tensiones financieras marcan la agenda nacional",
+    "descripcion": "Análisis riguroso de la renuncia en el INE, acuerdos sectoriales de transporte, querellas jurídicas y alertas financieras sobre el IMSS.",
+    "narracion": "El escenario político, administrativo y financiero del país registra movimientos de alta relevancia institucional. En el plano electoral, la dimisión de Guadalupe Taddei como consejera presidenta del Instituto Nacional Electoral (INE) [CNN en Español] abre un proceso crítico de reconfiguración en la máxima autoridad de arbitraje democrático, poniendo a prueba la estabilidad operativa del órgano de cara a los próximos comicios y exigiendo certidumbre constitucional sobre la continuidad de sus funciones rectoras.\n\nParalelamente, la Secretaría de Gobernación (Segob) y la Cámara Nacional de Autotransporte de Carga (Canacar) lograron destrabar un conflicto logístico de alto impacto al acordar el retiro de bloqueos carreteros y la instalación inmediata de una mesa de diálogo permanente [La Jornada]. Este entendimiento busca mitigar las pérdidas económicas en las cadenas de suministro y restablecer la movilidad en tramos federales estratégicos, aunque deja en evidencia la vulnerabilidad de la infraestructura logística ante demandas gremiales no atendidas oportunamente.\n\nEn el ámbito de la procuración de justicia y la rendición de cuentas, la Fiscalía General de la República (FGR) descartó iniciar una investigación formal en contra de Andy López y Adán Augusto López tras los señalamientos públicos sobre presunto huachicol fiscal [El Universal], cerrando temporalmente una línea de indagación política que había generado amplio debate público. No obstante, las tensiones entre actores políticos escalaron a los tribunales: Ariadna Montiel anunció un proceso legal en contra de la gobernadora Maru Campos por calumnia, daño moral y violencia política de género [El Universal], configurando un litigio de alto perfil entre administraciones federales y estatales.\n\nEn el flanco financiero y de seguridad social, el director del Instituto Mexicano del Seguro Social (IMSS), Zoé Robledo, denunció un esquema de corrupción e intermediación ilegal en el que gestores financieros otorgaban préstamos con escrituras inmobiliarias en garantía para acceder irregularmente a la Modalidad 40 [La Jornada], afectando la equidad del sistema de pensiones. A esta problemática interna se suma la presión laboral: trabajadores disidentes agrupados en la llamada \"resistencia\" del IMSS han recabado 80 mil firmas para exigir la destitución de su dirigente sindical, Rafael Olivos [La Jornada], reflejando un profundo descontento gremial sobre la representación laboral. Finalmente, las alertas por seguridad pública disminuyeron tras el reporte de la localización sano y salvo del sacerdote estadounidense Clemente Morales [El Financiero], desactivando una potencial crisis diplomática y de seguridad migratoria.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "CNN en Español: Qué pasó con Guadalupe Taddei, la consejera presidenta del Instituto Nacional Electoral que renunció al cargo en México",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMWpMUERMa1BXakM5ZWc3NzdlOGpyOV81MmtveVVBZi1vbDNsVG5HQWg4YXBPSEhYaGVXNVBRTUVyOFYtWEVGQXRjVllrcXZMcmp6ck1PaG9IR2o3YXBueDVrUExld0c5aTVXNlRFRDNlTDg5RThlREJkSVQ3aHJ0TGRTczg2UzN4bldDLW9DMWZnVEpSYlF2YWw0M1o1ZEpZNXlvUjN2V3RWNl9WeE5R?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Segob y Canacar acuerdan retiro de bloqueos y mesa de diálogo",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb3hBMFdpVU5WYjRoYzB0NGdQY1ZuU3hpaV9JY0pZRjNGM082R1FLVzhsdnRsMm9EdF9IdWZpQm1BTU44YWZmdlBzYzBMV0FWVVNPcmFVLUZoMkY0ZWRhN2FBQXhnNW5CTXdldExPYml6WUc0VTRFb3lJbk5ab0dDQVlEM3RjYVVEcmllazRLQlA2RWlra2dOajllZHR0TW1Iem5EVWN5Sm9NXzVhM0lTeTFzc0pmaUk?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Excélsior: Esposa de Cuauhtémoc Blanco habría sido detenida en un aeropuerto de Nueva York: fuentes",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRnA0RmhUVWt4TTRpUWdzZDh0TXhUR0RmYllNNnpnUTZjMzZCb2tvSWc2SU0zbFVKcDBONER6RDJiT2JGUkdDUWxqWU1vV2NORWp6UmE1SElRbWpycGhaZ0MxelNhc3FUNEwtbDRBX0ctNjdROHl2YldpV1NmNUxNQTg3X0Z1WC1FU05GcFE5SzdieGh2dGRMSEFSMEFfU01QTnBlcDc1akZ5TWduWUE4bGxPWTFObDZZVEHSAb8BQVVfeXFMTzZQT3VoVXhneHVlNzRra1NLZ05KN3RudFRLOHB3Zl9ndkZwUThiWkFwSGdiczdXS25hVzNfeXpjVTF1ZlR6MER5VkJhMmNMQktuSVQzQTJ6RHNIVTQzQm9XMUpSMDNOODF6WDZWcEE2cm9yZFlpeHhRUF9LMThTX25pUTRqWDg2QVF4WjgyendSV1g2aDlTc2NQbVhfNWNjdTl3dUl3YjRqUjRlZ1FLd2xoVGNIS2hjaUlTOTRXX0U?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Tras dichos de Farías, FGR descarta investigación contra Andy López y Adán Augusto por huachicol fiscal",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRkdVNDYwcVA5a3lTamYxV0tTU3JUOHZOX0JhaUpRM0hGcVUzTTNjZEZ1dHhFbVQ5S3JjNW5KQmlpQkxiQmJCcVBKcDRIOUhWQTNESzV4cnJKTzRxd0stRjVCNXA1d0dDSHlZR0RuZFI2ZVZRWGJ6Z0dWNkR0TzNzaHNUR1dCbkgwNzhTZU1EcW4teTU3alpLUmdLZ1A5Si1PbHBQdnd0TU54RDV1dzl0VzVDTHc0RGhYM3JIWmF3ZTZHcnA5b1lGYTIwNGpGUFVPMFBnWVFldFRVYzVQdUVWVlZKYTZpLVN0dHdrdzEyONIBgwJBVV95cUxOeGlrUWdQdnpxd3RjWWJ3TjhjNEM5VEtDTVB5aTJSV1N4dkNpeE45V1ltUGVqaElVNjFPX2JNNWtQeTJGT3ZKZkRqTENnbi1NN1Z1UWVwWHU1SEd0dXU1V0tXVXVZUDF5NExmSXAwVEpjODhPckptTFhESGxkcVd1XzM2T2w4WHdCTVl0OE5mWnRvZW5SdXJKQ2s5Slo5X2I2c2Q2UGplYW92ZzdDN0p0Z0JRWlhWRTJtNEl3X1JSQUJsZjNVYTdPd1c3eDc5NmR2Rm5qMGM5OS1zVzJ2RU9qdE1mM3VHQjNBVEoxd2xFc21HMUo2X3dtQlc5Q3A5eWZrZkJn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Ariadna Montiel alista proceso legal contra Maru Campos; acusa calumnia, daño moral y violencia política de género",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNXlFTk9kT3lCdGdJZUR5QXVHRWVRaDhCSmFtc29RMG5ubXcycnA3bDZfeGdtTk1SbHliQzRaM3JwNVBUY01OODc2UGFmd29POFBnWXdveHZLRjhZU0c1QTNpUldsMDdxeDA3aEJ0eGtHYkJoTTZCa0RFSWtOOS05WGVSWlpjVHkwNzM1cGxlaVlMYVMyYjBZNE1DUWx4WEI2Ul9yc2NEU1VuZzVEMG1saHFUWVBqMkp3QmRORExUR01IbV9mT0hKN3ZOcU5YUVJuaTkwVmNNS2lVWkk3cFc0QUdWVTBXQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Localizan a Clemente Morales, sacerdote de EU reportado como desaparecido: ‘Está sano y salvo’",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTjJuVzFQa3daejM5MTBmSU0zWWZ1dWczdlc0ZzNkLTRRNGhITUZCeHRkMHhfV2hZT0w2SXBSODRpT09QTXFSTks3VnlPN0k3UlhBUWs1MzBmNndqMmpVbFpzVEFxWFJBZjQweURXbkViTDdkTmpMYWt3NVo1RjM5MUlYQWtPMGVWYXFjX3Bydk1hSWphTWhVM0xNV3E0a3JodmNlLU1INmp4N0I0Qy0ya3g5YTBsbkJYc0V6Y29veGtUZzJ2a2tpWTNLLWZEUzJIaHdaSkNHVWNEVzFMNlZlc2JreXdvODRj?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Gestores financieros prestaban dinero para aplicar a modalidad 40 del IMSS y pedían escrituras como garantía: Robledo",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSHZqM1ZNWUJ1eEU1SFFFbnRjUHQ4UGFSVjhhb1dndVhvYWF2YmlEVEUweEVtQkRkRFFlYTNsYlZYVGMxb1djQWJBTFozTWFqbHVwdENGbEp0Wkk2NTRnLUFYdVY1czVMbXRZTVhxVVpCV1hoc3BTUVFPTnkwM18tQ191MTlJX3JtTnQ5bXhfN0I0Q04yQnB1MHRzQkxFbllGVDhGTEx4OVVOWVUzNHpWR1BnZVU0VlhuRGxSTDhjaVRVbmxkQmFzZkhteXlNZG9veFBhbG1RWVljTWplYmRpcnVDazB6STNqd0Z4OW9PMzNiMld3VTMyMVE1ZTR2QQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Trabajadores en \"resistencia\" del IMSS han recabado 80 mil firmas para destituir a su líder sindical, Rafael Olivos",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSmhEc19BTUMzQ2t1MzlnUFBJNTF3azlRd25qTHc4NFZ6ZkVmZF91bktpNVVxTldUUHZKdEY2VnBzYlVNLURYSDdOV0p3OUMwSlB4XzVKbWVWMnhMRUZtVFVWNFhYMkp2OHZ2aDFQUHgtZ29aSEEtLVpldzdld2xCekJaQkJHZXFIYVNGbmZSZkJMa1ZQU3JydXRyNXE0QkhpTkNJeXBxcEVpMTZpWWRHeUJTbXFqcXBidzNzSzVzU3ZObEVpSXJGWjRfeVFnODFBQkIyQzAxMXdRdHlSVThJejNaTQ?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793142003606,
     "fecha": "2026-10-27",
     "categoria": "Gaming",
