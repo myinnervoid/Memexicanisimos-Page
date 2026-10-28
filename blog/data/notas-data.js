@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793228405192,
+    "fecha": "2026-10-28",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Transición generacional y modelos de suscripción definen el cierre de año en consolas",
+    "descripcion": "El ecosistema de videojuegos se reconfigura con la llegada de Minecraft a Nintendo Switch 2, actualizaciones en PS Plus y la expansión de franquicias clave hacia PC.",
+    "narracion": "El panorama actual de la industria de los videojuegos atraviesa por un periodo crítico de transición generacional, marcado por la convivencia forzada de plataformas y la reestructuración de los modelos de negocio tradicionales. Lejos de las promesas vacías del marketing, los datos operativos del sector revelan cómo las grandes marcas están moviendo sus fichas para asegurar la retención de usuarios frente a la fatiga económica global y regional en América Latina.\n\nPor un lado, la estrategia de contenidos por suscripción mensual continúa ajustándose para mantener el valor percibido por el consumidor. De acuerdo con los reportes oficiales de PlayStation.Blog LATAM y VidaExtra, la alineación de PlayStation Plus para noviembre de 2026 incluye títulos como 'Dead Island 2', 'Tomb Raider IV–VI Remastered' y 'Monster Train 2'. Este movimiento responde a una necesidad constante de mitigar la saturación del mercado y ofrecer incentivos tangibles a los poseedores de hardware de pasada y actual generación, en un contexto donde el costo de vida limita la adquisición constante de lanzamientos a precio completo.\n\nSimultáneamente, el ecosistema de Nintendo experimenta un punto de inflexión técnico y comercial. El reciente Indie World Showcase confirmó más de 25 títulos independientes tanto para Nintendo Switch como para su sucesora, la anticipada Switch 2, según consignan fuentes especializadas como IGN Latinoamérica y Nintenderos. Sin embargo, el movimiento más significativo en términos de infraestructura de hardware y adopción proviene del reporte de Diario AS, el cual confirma que 'Minecraft' ya se encuentra disponible en Nintendo Switch 2 con mejoras técnicas sustanciales, ofreciendo una ruta de actualización gratuita para los usuarios elegibles. Esta estrategia de transición busca evitar la fricción en la adopción del nuevo hardware, un error histórico cometido por competidores en eras pasadas.\n\nEn paralelo, el mercado de PC y consolas de sobremesa amplía su oferta con anuncios como el de Bandai Namco sobre la llegada de 'Mobile Suit Gundam Battle Operation 3' a PC y PlayStation 5, reportado por Crunchyroll. Esto confirma la tendencia irreversible de la industria hacia la interoperabilidad y la ruptura de la exclusividad estricta como dogma de ventas, priorizando la masa crítica de jugadores en múltiples plataformas.\n\nPara el mercado mexicano y latinoamericano, estas dinámicas se traducen en un escenario de doble filo. Si bien las mejoras de rendimiento en nuevas plataformas y las adiciones a servicios de suscripción ofrecen alivio al bolsillo, la fragmentación entre generaciones y el encarecimiento de los componentes tecnológicos obligan al consumidor a medir cada inversión con rigor financiero. La industria ya no compite solo por vender software, sino por justificar la vigencia del hardware en los hogares.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "PlayStation.Blog LATAM: Juegos mensuales en PlayStation Plus de noviembre: Dead Island 2, Tomb Raider IV – VI Remastered, Monster Train 2",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSHoxYXJKX0JqX00wZUkxU3hxTUt3aXkzRW1Rbkg4VkU5blBsSmczQ2ZRcDc1TXYwM2NzeFlqQVpRNTFMUjlqbUJ4aUFucmxPY0VuS3JHTHB5Rl91MWtQUUVIUUlJSFZZb09ZWmpwZV85eVBnd1JzNllqaHczSVJiU2dnckx4Z1RHVnNQVWZlUk9lRkgzZm96UDlRT1FfLXY2cVJDNlRkV3hjVks0ZGVwYlFvX3Y4ZUVUeGxwbDBsZVl3U2NLWDkxWlA4MVZsaVFDbm5oRHpyeDJIV05BVFhscFJVRFhMV3VSZ0RV?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Nintendo Indie World Showcase de Octubre 2026: Todos los lanzamientos confirmados para Switch y Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUzJCb0NwWXlJdW9XX1g1WUJ3LUN0NWV4OEZDQ3RMY284d0thOTRISnlfODBZbG5pNzE3ejN3b0g0V1prRng3aS1fSG1LcGEtM1UyM2tzVThad3lXQVlHWWNkeENHODhrYzUtRDVza1hyQzZtZlFkSnR5dDJwRDF5aHhfUlBjX0RrWkNGZ0d3XzdiUWlwbHJDZ1ZucFBaYi1SR3QtSkRWQXNkWlpsSk12TGZR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: PlayStation Plus: confirmados los juegos gratis de noviembre de 2026 para PS5 y PS4",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLUdub0szNzN1RXBGTTRzci1xblJxMWZxcU8zbFp6NDlHb3c2UDhPajJqSmo0eUJZX29yd0Q1QlhZR2d4VE9jLUx5Yk1aN3dPVlduMk5MUU1tQVlLTW5waGxMSUFteVlTZHp6TEhtQ3BKNi0zMHlGcDBUV3hBbmNXcEhnbHBneDlibzJUZnZvOWRVYV9KcjNiYjAtYlJiVm1lUXc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Resumen del Indie World de Nintendo de hoy: Más de 25 juegos indies confirmados para Nintendo Switch / Nintendo Switch 2 (28/10/26)",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNTHRWZmtsekducVpQN0l5Q3YtZmxGNU9hMXR1eUEtcTJ3VDlYUWE4TE1IZ2xmZ1VNTy0zdmhQQmhBd0FjWVczcFNQemtqaENFUmFEYmtqYTFTWHFObzlnRGpuME1idnc5eDAzbUpHLUh5QnduVWN6QXIwdVE2QUl2SDVqaE51Vy1aMUFuMVpET3pfUUhGaVFTY3pibXVnNVdPdFZoWTlfb0JaSmRjNHk2cHVpZjJZVFh3SlFsWWN4X0U1TFIwQjBDMkpkWmxlby1OV1QyR19wcXNWUHNwcWlKNWxtekVQNkhwMmtXWS1TNE1iWmdoQ3VVcVlCSXBfdE5icXBF?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Minecraft ya está disponible en Nintendo Switch 2 con grandes mejoras: la nueva versión es gratis si cumplimos",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQzVRd1EtYTZIeHMzNGxDekR2dEFLU05CSURBZGRHUHRJbDdURXVmUkpvMjU1Y2xfQk9VU1dILWJXZk1kNlBWMUlwVnpsOXliLVZqYkczeE92VGJzcDNiM2ZvcHo5YVNNekRzMmpJamZ5UWdJTzJKQWhZaVVOVlpZbkVNUlFVSTJwVjg4X2JKQ0hmZV9CQmpTUHRIT1BkcFJPZU94YzFIWmV6SEJKNkx1a3MwdXJlT1lKRmxHdVp0ZEVDS3RsdDVEUEFHekwwXzN2VkdaUnBGMXV2YVlJblhOUkpUdjhXZGhwTklTSE11Z1NlS0dZcHNQQkFBTTFGZ9IBkgJBVV95cUxOWV9oSElWNXNFQ0hadXJpeW1YelZoTm1oMm5CVVRPNU9hZUg0MkxPcFZTWjNJWnNxMVNfUjBLZlc1eWNtTk16SGVNbE83Y29oZWR5cFBSSENqZ0QzZkVCM08xMXg2Q0UtZ3V0aU5EZGwtSjVkb1VxenMwaHpSb0NwNXU1RG11eUlpb2xKcWJmdW1kRjg1VU9aU1dDYVRsR01LRE5OWHp1MHc3TjgzVFpWLWNWU19aMDdMZHNJMFNZZHFWZU1uX2lMWDFyaHFWNHg4ZVkxR2ctSDg3LWZ2bEtmcW9VbDNVb0dtcGViUVRqN29JeEpvbTViS1o0VFhDX1Y0ZVlneUNhMThhalA0dVhZVE53?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Universal: PlayStation Plus: videojuegos que llegarán gratis en noviembre; estos títulos se unirán al servicio",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcVYwTnlxbkkwMUxmWHBzbjR2TWNJOC1KVFlHZWNrcjdKZ3lVTHZ1UWh5TnF2NTBpajJmVWVSUUw1UGFUYUc5Yi15d0x6Ni1oQzFiVHVjYU9OTmhqNXNEZy0yanpnNDg2SGZ4OFdwOWhjTXhSM2hSWjM5X3lkZ1N4bFNyUktCaFRFTDFkRnRXNHMyUGh2MzBpSnRteHMxOXI4Qm9QRjJSNThDLWc1ZXJLSGRxcGRoT1hBc1JoaHlFeGpnWDdsZk5CdTcxUUtXVEt1akQ2TVpwcw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: Juegos espeluznantes para Nintendo Switch 2 y Nintendo Switch",
+        "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPS1JlSlJuTUpieHRLc0ZrbmIyckdPY1U3a2EyZEtmVmZHYXJETXdvWVZoUEpZS0t2YU9XcXBIRGJ1aDlLR2R6cUlNTTdKX2xreXVEcjBFdGRLa3lqcHN6cmZicnlncGdNUFRTSy1MQ2FvWUpqcUxyQmlBU1hqWkhSQnUtZ2lIZDFUTnpMa0NkRHJ5b1hDODlmSC0ybDdEbWEwdzdVVm9LQUZmSHNGT1BoY3RMNEdZSHp6aWl0bzhobHI1ODBKTHFKYlZBNndNbzJPckt3MG12cEdTUUVlV0pia1A4WElibHIwRTFoNTIwRHRObVdyeFFNaWFhRVdUVHhYRlB4RG9nOGtXMTdKU2lyTHRiZGVSSWw4X3hWQjFfbS1iMzBhXzRRNzEzVUhQTHZ0T0c3c2VDd0VmMTVNMG9OYXdZS0R6WF9uWFhIOG5MM0ZoY0FTMG5ITFBLOEZUZEdMVm5DRTU1bw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Crunchyroll: Mobile Suit Gundam Battle Operation 3 llegará a PC y PlayStation 5",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN25fdXc0ZkwzUlpxQ2dBWGloTzdmUUhyT1hxUldPLTVQMTZCZUE3Y18xa1NHM01BaUt5SE5qSEVuVWFNTXNFYXE5QkNJeGRYZHJHbzdCX1ZPcnBxelFVZk9jY3VtMlJjSW12WkZsT0JtNnFkTkNJV3U2bjlZSWlCaEhiYjMwU1Q5bmxDT1p1T1B2MzJjZHRBN2dqMTFCaFpQd2k2QVVlQXlMTmJYSG5wVkloMA?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793214009621,
     "fecha": "2026-10-28",
     "categoria": "Tecnología",
