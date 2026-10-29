@@ -1,5 +1,60 @@
 [
   {
+    "id": 1793314804293,
+    "fecha": "2026-10-29",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Nintendo Switch 2 llega a México y Xbox maniobra ante GTA VI",
+    "descripcion": "El mercado de videojuegos experimenta movimientos clave con el despliegue comercial del Nintendo Switch 2 en México, mientras Xbox implementa estrategias inusuales para asegurar consolas de cara al inminente estreno de GTA VI.",
+    "narracion": "El ecosistema de los videojuegos atraviesa por una etapa de transformación comercial y técnica que redefine las prioridades tanto de los fabricantes de hardware como de los consumidores en México y América Latina. En primer lugar, la industria registra el esperado despliegue del nuevo hardware de la compañía nipona. De acuerdo con reportes de medios especializados como Xataka México, Diario AS y Chic Magazine [F1, F2, F4], ya se encuentra a la venta en el territorio mexicano el Nintendo Switch 2, destacando la codiciada edición especial de Zelda junto con anuncios de títulos icónicos como 'Zelda Ocarina of Time' y paquetes estratégicos que integran franquicias de alta tracción comercial como 'EA SPORTS FC™ 27' [F3]. Esta estrategia de lanzamiento busca consolidar la adopción de la plataforma mediante un catálogo inicial robusto, aunque los analistas económicos y defensores de los derechos del consumidor advierten sobre las fricciones habituales en cuanto a disponibilidad de stock, costos de importación y el impacto real en el poder adquisitivo del jugador mexicano frente a las fluctuaciones cambiarias. Por otro lado, la competencia en el segmento de sobremesa muestra signos de urgencia operativa. Según información de Xataka [F5], la división de hardware de Microsoft en Xbox ha comenzado a sondear activamente a los usuarios sobre la recompra y recolección de consolas usadas bajo la premisa de que 'Xbox necesita consolas de cara a GTA VI'. Esta maniobra evidencia una crisis logística y de manufactura para satisfacer la demanda futura que generará el título insignia de Rockstar Games, revelando las costuras de una estrategia de hardware que cojea frente al dominio global de Sony y la persistente inercia del mercado portátil. Asimismo, la crisis en los canales digitales y de retroalimentación de la compañía de Redmond se extiende al software; tal como lo admite internamente su propio jefe de tecnología, Xbox arrastra un problema sistémico con el sistema de reseñas y validación de usuarios en Series X, mermando la transparencia informativa que el consumidor exige [F7]. Paralelamente, los servicios de suscripción continúan ajustando sus valores para retener a las audiencias. PlayStation Plus ha anunciado su alineación mensual para noviembre, incorporando experiencias de peso como 'Dead Island 2', 'Tomb Raider IV – VI Remastered' y 'Monster Train 2' [F8], mientras la cultura impresa del medio se resiste a la digitalización total con iniciativas editoriales como la presentada por 3DJuegos, la cual debuta en el mercado físico con un compendio dedicado a los 150 mejores juegos de la primera PlayStation [F6]. En conjunto, el panorama actual demuestra que la industria se mueve entre la agresiva monetización de la nostalgia, la escasez de componentes y la necesidad urgente de las marcas por asegurar bases de usuarios cautivas antes del próximo gran sismo financiero que significará el lanzamiento del juego más caro de la historia.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Gran estreno: la hermosa Nintendo Switch 2 edición especial de Zelda ya está a la venta en México",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd0NKMUdycVp3d2hVZjZDM2JicU5NOTY5MkRfVmdjU2xWcTJtM0FveVRKM2E4ZmZMMzRsVWxTZV9iVGNVVG1RRnd2SlQ0WXB2Tkc4Mmd4eU1NdnBfZkFLbWR6alFqZHJ0a2I5MWV0ZUhtbVowdHFTQnNNa2t3UzBTUWxhTUNtbl8yOWNPb1VrWEFXN210VHpOZ1ZReDU0aHJXcFhUSmFHOU1mTW5sVnVnSWlndjhlTmNN0gG-AUFVX3lxTFAwSHg3T3pnWEtVY0FTYmlsejBjcHY1QWxKdXZycjVsV21xdmtfQkNTamY4VEhKTFpCTWZxS3RfVTN4bkY4YXFPcWtjVVN2bDVjUkQxMHdGYnhoWFZaMUR5anZXcTI4aF93SlI3TFpmRWhjVzBWUHlqVVJjR0Zab09CSDFJY1NmX2cwanppc2JPN1E0V3NYZng0NklIeWhvMndrVy1MRzFpX1hJeHNHUl9OelpVa04weFVaTlp3NEE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Zelda Ocarina of Time en Switch 2: fecha de lanzamiento, precio, ediciones y todas las novedades",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPal80bGdzTHlxRU9tMzJ5bTVscGQ5QlZ0RlE4emhoODlXdmt4VHdFcVRvVkhpS0RHb0dyU3ZVX25MSEhIYU9kRmdud1dVYzlhWTdsSFJGSkY2NXI1elNwTVZKbjhwamNHand5VlZIX0xLUzFCc0xVelhtVkZQdEhWSjVLS2xyV1NselFObU8zcEcwWnQ3al9fN2pCdndJbHh0N0pUTGk3bFlBOVlEaUtyWDFGb3h0RTEzZFBaSkJCVWtoTjYwaGU4cDhPOVNzYThVSllfbVpOVdIB6wFBVV95cUxQbkRwM0E1ZGtBcm9JdFA1QkZWUnUwNTZOanhJaHp5d0lnT1dHckhHeFdiYW1ZVXkxdEZUeEhtcGFfNUpWakNoQUZkTWhWNnhBdXkxd0NpdkhaQkNKdlBYSFF0V0NPM1pSSTNXeFBUVHBzcFhHNGRhQzllamNNWktsSEh1aUtiNDUtYzZRa1hUd1RMRXo2cXZpWEx4MGpNdEtNOEhSbUlnUHJzOG0xdU5ialg1QllzcFdaczRyM3ZrUngwN0NzNm5HNEVEbUJMUjVZRVdzTUdlMTVUaURWU25MSk13SG9qWTVDcXhz?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: Nintendo lanza el Paquete Nintendo Switch 2 con el juego EA SPORTS FC™ 27",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY2NiOF9iMW1yZzEtLWk4RjZjSllPcXQ4Y3UtZjJmSlNLV0RqcEZDOVJUVDZsZHZGejNQbUdmWlBqbHZ3NXRiOUFDbVR1X0l4YWVJS0NHV1Z1YzJPM29ZNmhMQjQtSG5yRzRfVXJjcXF4UE1UWmJCYml5VHA2OHNzUWtTZWIwWGltaWJrWl9TZllQSGNrNWV3OW0zUVA4TkI3TExxNm9jT2owRXdtMm5sRzZncw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Chic Magazine: Nintendo Switch 2 edición Zelda: cuánto cuesta y dónde comprar",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY0VZRHZjVXNaZ2R3UkhPcDZ2cnljVlpVTkVVSUtNS1ZKS05OdFBDUHlKMWgzTHpka0M1cVkxUWRGUS1vRlU3dDM4NU5SX3ZJM1MxQnQ0T0JHVjZaYUlnZUxfY21sNWhPV0lSdnZnVjNGcVFrOWc3dlc4Y3N3NmN5VW9xUmVTS3c0Yko3Tk9tSXBTUE8zSlFrUnhsUlFfM1F0NDY1c283SWl0YkU?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Xbox necesita consolas de cara a 'GTA VI', así que está preguntando si vendes la tuya",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenVnNlhkMzF5RzYtWERjZEtWOEJRMzZNWkhZWks5cFltUHZ3X2xDZmszd3VFNlRxWFJUNUVsa0xGOFBjY0lLVHZVOERDMlo0T2UxbzFCcXdNSThPb3hrb1NnQUw5b3NubldSbGRlVm4yWFBOV2ZmOTAzTDBzT0oxQXlzZWI2NDlwcFFnUzI1S3EzOGRvZmxFU0xlRzJzQnVaYzVwcndBX0NSNnotbDBoWdIBtgFBVV95cUxObU1QTWRQRXpoelVxQ1duUGs5RE0zVnR0M0k0THZKSVVPTm1HOFBFYk1jdnV0RkNJbWZIR1dqYm9QVVBTTTYxempTU1RGbmd6RGUtSWxFNnV3cHdhQWpPVEZ4cWR0amZRbDJTdFJfX2VTWHQwUDJlRjh4QmRCLWdxdVd6ZUFUMVB0Rk5uNVJ2eXktb0JQUERxS0lKMDFpNlhXSDdBd1c0clp2SnFDdDl6b1BfWllmQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: 3DJuegos presenta el primer libro de nuestra colección sobre videojuegos clásicos con Los 150 Mejores Juegos de la primera PlayStation",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOd19sNUFRdGtZWmJDX2tiTUp3dG5iWFBMWC1WM2YxZnFjaUIxUXo2Y0E1czNUazdiMXFZU1FmZDE5eXdKWFlYbUc0a0RwRlBFTzlHcXRjaWFRemY0STA5WHlCUm9IY09GeldsWHp3VUVfT1VVRUhUUldfb3ZLQUk0WTdKamJ4alYyb0g3R0pwcDFFYVhaZlUwcWtvdTNmaFoyTXRuTjBVNXkzT3NCUkN6X3lIY1RwS0xrbGxCdXdMN2Q5TzVvclc0NUFKX1JwX3Y0YXBTMjgwZmh4MTRmQjh2dnN3ZDNmRk83MEHSAe8BQVVfeXFMTlQyZ1cwbVByVlpBTk5qMWFPd0Q2ZEZOV2MwdGktYkJKOG55bDJzZjFYM3NLcG1aaE42OUlrN3VEVjl4eDU1d2Z3cHVFenRuZmV5WWJPSEJmeVRKX0p6bWZ0TVFPX183SnhVaUhUY1pTTWxINXpSNGpfd1FFY1dRZVBqMDNUM2ttek1fb2s4SXBZSjdUN2FnV2J5cC1DT05jUzVGR09VUi1hc1hYbVpVbER4WlB0c1pXNE1iX0luNTA0NEgtWlBRQVh6VzI4MThvYnlyODNkWjFnZF82TjlkSXNDVXFLV2RRNkNTb05XZ1k?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: XBOX tiene un problema con las reviews en Series X y hasta lo admite su jefe de tecnología",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTzFxTW1pN0pkRFpWUmktNDZPTmdHMVJRcTRUNmxlOWVteFpReXhhd1JId0xHVlY3ZlJfUzFRVUJ3TWZ5bmQwbVBCQ21PQkRkVXo3X1R3a0xmY2JuM3l2ZGlER1o4SHIxZVdpNHZsVzZUbm1jclppVUw2cnVHa3R1WUhvTGdSNXRENV9pQkJBTXI5RDBac2tRVzR6TDlvaWM?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Juegos mensuales en PlayStation Plus de noviembre: Dead Island 2, Tomb Raider IV – VI Remastered, Monster Train 2",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSHoxYXJKX0JqX00wZUkxU3hxTUt3aXkzRW1Rbkg4VkU5blBsSmczQ2ZRcDc1TXYwM2NzeFlqQVpRNTFMUjlqbUJ4aUFucmxPY0VuS3JHTHB5Rl91MWtQUUVIUUlJSFZZb09ZWmpwZV85eVBnd1JzNllqaHczSVJiU2dnckx4Z1RHVnNQVWZlUk9lRkgzZm96UDlRT1FfLXY2cVJDNlRkV3hjVks0ZGVwYlFvX3Y4ZUVUeGxwbDBsZVl3U2NLWDkxWlA4MVZsaVFDbm5oRHpyeDJIV05BVFhscFJVRFhMV3VSZ0RV?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793296819711,
     "fecha": "2026-10-29",
     "categoria": "Farándula",
