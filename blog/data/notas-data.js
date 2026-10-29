@@ -1,5 +1,115 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793296819711,
+    "fecha": "2026-10-29",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Crisis en la industria: Inteligencia artificial, riesgos laborales y caída en taquilla",
+    "descripcion": "El sector cultural enfrenta turbulencias: desde una novela galardonada redactada por IA en un 99% hasta incidentes de seguridad laboral televisiva y fallas de convocatoria en giras musicales internacionales.",
+    "narracion": "El ecosistema de la industria cultural y del espectáculo contemporáneo atraviesa un punto de inflexión donde convergen la automatización algorítmica, la responsabilidad civil en transmisiones en vivo y la volatilidad económica de las taquillas corporativas. Estos fenómenos exigen un análisis riguroso desprovisto de especulación superficial, centrando la atención en contratos, arbitrajes, salud pública e impacto patrimonial.\n\nEn primer término, el ámbito literario enfrenta un debate ético y técnico sin precedentes tras revelarse que la novela galardonada ‘Donde el agua trabaja’ fue redactada en un 99% mediante Inteligencia Artificial, de acuerdo con el detector especializado Pangram [EL PAÍS]. Este suceso pone en entredicho los criterios de evaluación de los certámenes vigentes, los vacíos en los marcos regulatorios de la propiedad intelectual y la necesidad urgente de redefinir el concepto de autoría en el mercado editorial global.\n\nPor otro lado, la seguridad y la salud en los entornos de producción televisiva han quedado expuestas en Monterrey. Conforme a reportes de [Infobae], el conductor Ernesto Chavana enfrenta consecuencias legales y laborales graves tras patear un dron en plena transmisión en vivo, un acto imprudente que impactó y lastimó a una compañera de set. Este incidente actualiza el debate en torno al cumplimiento de las normas oficiales mexicanas de seguridad e higiene laboral en foros de televisión, donde la búsqueda de rating no debe contravenir la integridad física del personal técnico y artístico.\n\nEn el rubro de la economía del entretenimiento masivo y la música en vivo, la gira de Ricky Martin evidenció los riesgos financieros de la sobreoferta y la caída en la demanda de boletos. Según [El Sol de México], el cierre del tour en Puebla registró problemas de aforo que obligaron a la reorganización y reubicación de los asistentes debido a la incapacidad de llenar el recinto. Este hecho subraya la vulnerabilidad de las promotoras frente a proyecciones de taquilla imprecisas y la reacción de los consumidores ante los costos operativos de los espectáculos masivos.\n\nFinalmente, la industria registra movimientos de reestructuración corporativa de alto impacto, como el anuncio de Jay-Z respecto a su participación directa como artista principal del Halftime Show del Super Bowl LXI [CNN en Español], así como la inauguración institucional del Museo Mario Moreno Cantinflas en la Ciudad de México, albergando más de 400 piezas originales orientadas a la preservación del patrimonio cultural cinematográfico nacional [El Sol de México]. La convergencia de estos acontecimientos demuestra que el sector cultural experimenta una transformación estructural profunda, impulsada por tensiones tecnológicas, exigencias de cumplimiento legal y la reconfiguración de los modelos de negocio tradicionales.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "TV Azteca: La Granja VIP nominados: ver GRATIS y EN VIVO La Asamblea de HOY, miércoles 28 de octubre; transmisión por int",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNWo0dU5Vek01VHNpWmNDbFEtcnhKRm1uV2tiMFpNSG5oTmdrV3d1TEY5aWdWUHNIU0M5eF9ucTlHWnMwMkN6V3RiTV9MbURLVmZXOGh6Vks2UkJHZVJBR2p4dHJUSElHWFRiOXF4WVdnT1RHaGlhcFJGcG5EX244MkVBNGFReExaaDZtMmpzVkpuYTNnWXlMQTEySHFXc3lLWlJqREJZd1VWcWYxSlg3bmR1UDdMZzNWYXQ4NW9UNmZVdnBJb01rc0tRS2U0a3JzMG9EUHZaTDBxT1hfalMtanFIZ3BDVmlQWHAxVEYxTGVrS3NEWXQ4OTlXb19oNmRqVWNzSkJtQUN0d2vSAZgCQVVfeXFMUGxMMkJNaDI0ZHFZRTAwU0tCTWo0Z3QxV1EycXFYWFBDVkVNby1Xai1RaS04V096MmVQSGF3SDgtVjZrRGd3c3JVR0NyOHB4MF8tV081OXJyay1yTTZyY2NZcnJPb2loQlgzaDR5aHNWWHlUa1gwU1ZETGJxQ2tDMUlqejFFRWhUNlBUemdoSFIyTHNxQTdkc1ljY0MzODFzZ3Vkc25PdEdXZHpDTUtPMXJRdmkxbXdYb1FnU1dhODNlWTJ1SWNnR2UzYnN6c0JxcmJxclVEMDNPc3pId29HMGV4WGxFdUNkZlRYN2lWVWVweE5UWndmb1d4UXR0ZGFQVENzOGhpYl9GaHRsbGtwVGFwV2E5VTFwZg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: LEMUS EN PALACIO NACIONAL-El Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmk1WTR6QnQ1UE12VDhCTmwtcDFPdDRTaEtIWU5IRno3WHpmWmpDZmFrdWQ3V2VOcWY4MmhOMFNUaUdXVVN2aDFoRm90RFpwazZtOGZIT3dzYnFSeG9ZMm9vWktUaWp3cjBBMzlRekVWWVpaM085ekwtb2xMOUZBYi1pM3NJeXF4cGQ1Nmk1Nk9Oclk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Financiero: Hija de Laura Bozzo DESMIENTE fallecimiento: ‘No la dejaron entrar al cielo’, dice Alfredo Adame",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM1NJN0g1Y2hFRmJ0WUNkeEtGd0NobnNjUVBTUGFzLVNwbVdFaV9YR25UVEpod0w5NWlROUpUUC1WZWlaMlBQZkdGMDVRZXRQV3pkeUFhWjJzMmhFOVNjR01pc0hNeHUtTEtOVmRYVzlaREtxaThxN0l1S0NyNzJLTU5fMENPYUhCNDhCT2NvbENodnptRW5ER3JtQVI4bTZZQm9KX3RZbmRqaTFMSnBrdXF3ZERnaU9CcTEwN28ydEM3LXlBQThTS19rZE1YLWdOckZKZUw5Z2liVkVaLWxHMVl4aw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: La novela premiada ‘Donde el agua trabaja’ está escrita por IA al 99%, según el detector Pangram",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeTV4UmVkTEVfVWctd0dYdmxJR0FOTDBRZFEzTjZaOWM5bE5CbzZPT1dHZWVmN2FjWE1oNFhlcVl0SVBVaXFOSG9kaU51Z2VVVVdCYm1BX1hINE9yeFNtMm1lUm5STkRSeG8xTjFScWxNcFdiTmVRV09mdTFIZkppQzdSNm55OVdOTjV0djFYSjNTTU5HR3FoaGFRVTFHd0ZDYnRIR2xzZVhZcG03RUYtbzVadWxmRDlPeFlveEFZdFh0Mm1xNXhhUTdkZURYTktCaVFlNnlOMDRqNEwyQzFXdE9vT1ZpYlRVRWdYdWdYd1M?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Jay-Z anunció que él mismo será el artista del Halftime Show del Super Bowl LXI",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYURaZlNBT2U3eU5xS184bF90N2pxQmFfbEFFZmp2NkNqNVhRc3gwTEpIV1phYUJsVjdQVWVHbkNROGVicGc5TVZqTG9sb0ZpV0hiR0J6QlM0bkZSRThwaDd2VkZaNWQwNk5HWlNBNVBiVkctbWFFSm9DNmN5SU51cXN2UGpORnlaQ1MzTk10c1hSQkRXa2dVSVdn?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Las consecuencias que enfrenta Ernesto Chavana por patear un dron en vivo y lastimar a compañera",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaGpXX2FOd1pqM1l2SUpQRzVfOVZMZzZJZTdNQkd1MHJ6dGVRc0NDejMtWmQtcXRmeHVBVnpYZm0zUjBWT2Z4bUFXUm0wZGo2RER2Rno4aHpsdmVjNmY4VDh3WDJPVXJ3YmZnZ1FJWUl2dTVTRHZjVE9vQ0stMjRyVE1iNW9NYmtwR0xZUlg4TWJoa2NPaFF6eEZmWXVjSVprVTJrWkE5VHk2bjZteGRfUzdCMjRZcnd4ZWdwcWgtVExyNkdQcENSRzdPcEw3dVJoMFV3NTFn0gHwAUFVX3lxTFAzWHFpeWN3MFM4ZW83QVh4WldaY1BCRVV2Q1RYTFVzbHcwLUptQlRrUlVrZElnS05LSkpYdTVBUUYxaERsWFdiaUNBY2lET0kwSWNkajVmYWRGVVdUX0Y5RTNSN29QNXkza2l2akpXVmVOUFdCOWtIaUhnYjRMeFdLTU1palJVS0hiZ1FkQkEtdmJHbEVDRTE3VXZjaDhOYkZrdEZoUFNuLWRCeGVESTk1OHAzZHpEYXAtOVRoVElhZm5YNjA3TjRxNUk0a3ZNOVphLVBxc0VpNFl4aGVDT1c3SnRaem1sa3Z2b29wbWpwVg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Abre el Museo Mario Moreno Cantinflas en CDMX con más de 400 piezas originales - La Prensa",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU3JEemRjLWo1ZlNsZlBSYlVXSjZMbDVCQmtiZDlUeWwxenZ6ZGhDd2poRmVrS2hxQ0NUSWNPQVA3VnJKVURHT1hqWTFORE5LdDJTRndGTGpTLXM0cWpKaTU3ejktSTE5MzhrV3UteV9nNnRZcVB3RU14bTRUdGdiYW1BVDNYMF9YLVJEcmJlWERJeW40Z2lOWGZpeDhsUy1SWkpoVVZHSzZ3OFdCYmlTa3JUN1ZaRDlVdEs0azhPSHJJUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Mal cierre de gira para Ricky Martín: No llenó en Puebla y fans fueron reubicados",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQV21ZaHFnVTJGbm1yQW1DM0dCc01VVlM5aHdSQS1ON19LaWFfbFZFTHVOb01CQ2hBb0FMMjJzZWtsdEplYkJLLXZraW13UGhsUXNpSTRhalpZS1NUOFBWN1NpVW0xX2F0Vnp0bnJ5b1F5N0RSTUZheFhPenRObFgyY3lkQ3VWaUtYV2FaUFhnTjB5SDBtbzA0VzNHbEo5MXktYlBJajdadTlibzAxTVBfbE1DSXhXUUEyT3JGS0ZGQ1pDeVVaSlktNg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1793235605469,
+    "fecha": "2026-10-28",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Auditorías a material electoral, finanzas públicas y cooperación bilateral en la agenda nacional",
+    "descripcion": "Análisis riguroso de las alertas legislativas sobre compras electorales, el avance presupuestal en el Senado, la infraestructura hídrica en Jalisco y la cooperación de seguridad con Estados Unidos.",
+    "narracion": "El panorama institucional mexicano registra movimientos determinantes en materia de fiscalización, finanzas públicas, seguridad nacional e infraestructura hidráulica. En el ámbito de la transparencia y los procesos democráticos, la Comisión de Vigilancia de la Auditoría Superior de la Federación (ASF) advirtió sobre la posible configuración de un “oligopolio” que controla la venta de material electoral en el país, situación que pone bajo la lupa los mecanismos de adquisición y competencia económica en insumos críticos para la organización de los comicios, según documentó [La Jornada].\n\nEn el terreno legislativo y fiscal, el Senado de la República aprobó la Ley de Ingresos, mientras que la Ley del Impuesto Sobre la Renta (ISR) fue devuelta a la Cámara de Diputados para continuar con su análisis y votación, de acuerdo con los reportes de [El Economista]. Este proceso presupuestal resulta fundamental para definir el techo de recursos públicos y la captación tributaria federal para el próximo ejercicio fiscal, impactando directamente en la estabilidad macroeconómica del Estado.\n\nParalelamente, la seguridad nacional y la cooperación internacional generaron atención institucional. El Senado recibió la solicitud formal para el ingreso de 28 elementos de los Navy SEAL de Estados Unidos a territorio nacional con fines de adiestramiento y cooperación táctica, un asunto que abre debate sobre los protocolos de soberanía y colaboración bilateral en materia de seguridad, tal como informó [El Financiero]. En el ámbito de procuración de justicia, las autoridades federales y estatales concretaron la detención en Yucatán de un ciudadano estadounidense con cuatro órdenes de aprehensión vigentes, buscado por los delitos de fraude y robo de identidad, según confirmó [La Jornada].\n\nPor otra parte, en el sector de infraestructura y desarrollo social, el Gobierno Federal y la administración del estado de Jalisco anunciaron una inversión conjunta por 25 mil millones de pesos destinada a resolver de manera definitiva la crisis de abastecimiento de agua en la zona metropolitana de Guadalajara, una obra de alto impacto social orientada a garantizar el derecho humano al líquido vital en una de las regiones urbanas más pobladas del país, detalló [La Jornada]. Asimismo, en el plano de la rendición de cuentas de exfuncionarios electorales, Lorenzo Córdova reiteró que ni el Órgano Interno de Control (OIC) ni la ASF han hallado irregularidades financieras durante su gestión al frente del Instituto Nacional Electoral, conforme a la información publicada por [Reforma]. Estos hechos evidencian la compleja interacción entre la fiscalización de recursos, la ejecución de obra pública y los acuerdos de seguridad internacional en el México actual.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Comisión de Vigilancia de la ASF advierte sobre posible “oligopolio” que controla venta de material electoral en el país",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM1hTR0JNNU9CWmhSMGprWGJjZWdwd1RpZ194aTcwWnlpYkRQMFhPVUp3djNFZ182Y0xmUS15RE5tdHBiUUFXTzFybnFEeFM0UmNOb3UxbEc2QTFqZXhFbk9TOC1HalVCT0pWRm1hcGNHc2tHN2RvSzkyMEpCTVpBNm1FR3FYbjFKczREXzN0eXpTd0JEUnVsZVBnZ1M3alREWHQ5ZkRVZUYxU28xd2xUUzRVZHMtNTZfQ0d5dHJ5UTB2TV9jZlItMi1ETXg0MlRKOWcybHpkZno2VW8wSEVKd3JtbGhfSFRmYlE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: Senado aprueba Ley de Ingresos; Ley de ISR regresa a diputados",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkVrVEl4RWR3ei1ZeTk1amlYcE9NQ1RtSmtXb2RySkNqaTE4SjRhdjhoRE0zMWZFTmIyVVppeC1fR1BxaUdWQnlPeVEzNWx5VmtDZVRzVlR5cm1NTkpPaUdMMnQ5NFJweUFOZ0pTZDN4akNqaWt1UTg1R0gwVjUtSTNBR0h0QVlVaEJhMmltQ0UzODlqcHRfWkpVOWozbEQ4Qjc1cXVmNzc1REpkUVgtWC1qRGNlQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Detienen en Yucatán a estadunidense buscado por fraude y robo de identidad; cuenta con 4 órdenes de aprehensión",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRmhXTHkydEhGS3FlMVZWZEw0dV9fbURVSnZIdVl4MzNFTE44YmRPaElYZFVSaDZQeEw3VU5ETVFPV0Jyc3hOcFBPLW5UbVV2b3RmVUU3aXlzUl9reGVBWHdWWTFSZUF6V0V0Z0ZLRzljRDNwbDNmTHNfQkt4d1loa0lqNTFWRW5sVDlhWUtZNkQ5SWFKYzZPd0NWNlgtVVFYbW90b3kyV0hzUDZ1MVo1MnFySmxFbkdJd0N1cDRuZFJKdXNORlFhMndlaWI3RXNfZnZseEpuZlVId05EZnN2V1lJZVdkdjJGRUZtSzFVT0Y0aFR5Wkt4Vg?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Senado recibe solicitud para el ingreso de 28 militares de Navy SEAL de EU: ¿Qué harán en México?",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN0FRenl5U01mWUh4WTFvb19sQXJac3VXSzNzLUNwSWt2R3VxSEVuM080enZNYkRRQ1I2UEllaV9VVDlWbldSQ3ltYXR2V0tJdDNsTnU2NTY5eTh5Rl80YWxXc2RPYzFzV1NfRGNIWDcyRmFTXzB3ZkJlM0NXQklHdDQ4YTlXNC0xdlc3bHAtclE3UUVKQkNvTVh1S1BpeE5td0JNLXlBMTFfS3NsZ0puMTdRelpkNVNrcHNkVG1nMHRpTTBMeU1sdG9zSW9ZM1Fwb0FrWk0tUFRwOHYzY0xfYw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Ni OIC ni ASF hallaron irregularidad en mi gestión.- Córdova",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX3JhLXFQckxGMEJVSklGUU9QcTZJVWZGeU5weUlBYnRXSGlFcHdvWHVtVWZLdHZWcmZRRl9pbjU2T1JxZXZHVlVFZkVodXFhZ29vV3BRT1RXRWVmSzk5NXZGcEFDQVVoTC1hX0lwdXJCN2ROT0dBMVRSNHRVWFdDX3dQOFJENkZYM2VEaFp5bmNqRHpfWlNF?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: EL UNIVERSAL se deslinda de supuestas fotografías de Ariadna Montiel",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbURYTGEyM05Db1NsSjRHa3dmTG44YXoyYXo5emxxREhtRFR6M2hFck5sTlJZYnRjYXNXSmttRXZqdGNwYnI1cnR6aUZOOEI4QlAxYUd4Y2ppSHUwaWlXSnVZT2hHdmtyLXpzR0hzRDByOHI2bEZUMUxYcWkxN1lRR1lubFhRMEpoeWRIbEUwRk5Ua0JTQXZWZnphdkZGS3BzbWkybGlqSXdFR3U4eXg1MHB30gHGAUFVX3lxTE9pTk15cENkcXZMVVJyTkFPdkJZSGx0NHNYbE9sb0lVdEYxNF91dVR0UzB0bjZVX2xjRUFIRG9mZ2kwQ2VyLVg2bU5QN1FDRExVcVN2MkZRN2VXRF83Sjk0c1p1Q2ZYRVF4MlFsMGFsalpFTU1OeFBpR3BOWHZJRE1zNTdYQkNUbWFGeUZHSUlJYUJhWGEzMzZveW5OMWZJbUxiUWVQNEdsN2R3VkdyZGdaTGM1M1hmRkpCZW5UakhLSEk4Z09JQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Gobierno federal y el de Jalisco invertirán $25 mil millones para resolver el problema del agua en Guadalajara",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWjB0elM3UXR4RG14clBOamNNQUJJNkZ5MDFlLWhUU05SYnR1aTgzNmhVOG5PNU1adFBLY014NnBfMWgyM1BfWGlwUVdyZnItUllEc19iQU1ycThvQzRHeE5HSjQ4dlVNWldEV1U4T2dmbVFjZnFzcmpaMDB4TjQzN3hPRklHY3NnZ29IcFRkdVg3Umk4aW05czBNc056MTB0WS05dW1FcUhwb3gzY05LeTgtNXpPakdleExHakRhN1hnVlRwS1p1OWxpZ05idnFoeGpyYUlaX19PVmRYWXFKMmMxM3h5LU5BN09qMU1OSnFMN1doOGU1aHNabFV1QjVyUlVXSXZrSjQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Juan Manzo asegura que Grecia Quiroz nunca fue esposa de Carlos Manzo: ‘Solo vivió con él 15 días’",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbUNMZENXWGlBMktXOGpadVlkY3BxNkdyWWxuLW1jMHk0Z3JLejIzTWRYTXBkNDZDUkUzMW1xcjF6WXI3T2lGald2LVZILUJxbHRDdXl2dnppcG94LVNJRWRhNTR3czAwNF8yYjVZdFBJbzZMUC1Qem5FUF9nY3RsX0RzMVJGekw1UUNvOThiV2pyODFON0hsZUpvaGtKNndSd09zZkZBX19SamVJT20yWFF3eVh1aDJUR2QzRlltbTJYS3Zmcy1xSHRWTGtLa3ZIMjAtYWJZUlQ1a3Zqd0IyUA?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793228405192,
     "fecha": "2026-10-28",
     "categoria": "Gaming",
