@@ -1,5 +1,60 @@
 [
   {
+    "id": 1793386803918,
+    "fecha": "2026-10-30",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Crisis en Criptomonedas y Acciones: Hackeo a Binance y Dudas sobre la IA",
+    "descripcion": "Un hackeo histórico contra Binance compromete 6,300 millones de dólares en criptoactivos, mientras los mercados globales sufren una estrepitosa caída bursátil en el sector tecnológico impulsada por el escepticismo sobre la rentabilidad real de la Inteligencia Artificial.",
+    "narracion": "El ecosistema tecnológico y financiero global atraviesa una de sus jornadas más críticas y volátiles del año. Por un lado, la industria de criptoactivos enfrenta su mayor golpe histórico tras reportarse un hackeo masivo a la plataforma Binance que vulneró activos digitales valuados en aproximadamente 6,300 millones de dólares [F1]. Este incidente destapa severas fallas en los protocolos de custodia y ciberseguridad institucional, evidenciando que los sistemas descentralizados y centralizados de intercambio continúan siendo altamente susceptibles a vectores sofisticados de intrusión, poniendo en entredicho la viabilidad de la custodia a gran escala sin marcos regulatorios de blindaje estrictos. Simultáneamente, los mercados bursátiles registraron un desplome generalizado en las acciones de las principales empresas tecnológicas del mundo. De acuerdo con reportes de analistas financieros, la caída responde a un creciente escepticismo estructural sobre los retornos de inversión reales y la saturación del mercado en torno al desarrollo de la Inteligencia Artificial [F3]. Este freno en la euforia tecnológica coincide con advertencias geopolíticas de seguridad nacional, tras revelarse vínculos e investigaciones sobre la alta dirección de Nvidia y posibles riesgos de espionaje industrial ligados a agentes extranjeros [F8], lo que incrementa la presión regulatoria sobre la cadena de suministro de hardware y semiconductores. En el plano nacional, las repercusiones de esta turbulencia impactan directamente de forma colateral a los usuarios mexicanos y al ecosistema de PyMEs locales. La devaluación temporal de la confianza en activos digitales y la contracción en la inversión de capital de riesgo tecnológica limitan el acceso a financiamiento alternativo y aceleran campañas de ingeniería social locales, como fraudes masivos distribuidos a través de aplicaciones de mensajería instantánea que prometen falsos rendimientos económicos [F6]. La causa raíz de este fenómeno es la descoordinación entre la velocidad de adopción comercial de tecnologías emergentes —como la IA generativa y la tokenización financiera— y la madurez de sus arquitecturas de seguridad. El efecto inmediato es una contracción de liquidez internacional, mayor escrutinio gubernamental y la urgente necesidad de repensar la soberanía digital de México frente a plataformas globales vulnerables a la inestabilidad sistémica y los ciberataques transfronterizos.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "BBC: Un hackeo a la empresa Binance afecta a US$6.300 millones en activos digitales, el mayor robo de criptomonedas conocido",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FLWNnbzBZTEktRmJobWVXT0I3Qmlrb3NybVVuSXRBRWZpQkFGYVZLZjNLQmRTWUFDWXNVXy1UUkJrVEI1V2dWdVFNWDB0UWJvcWx0eWVQMFZPWHNy0gFiQVVfeXFMTjJtOW5xNl9CNEdENGgxMXlXaEdlREVMU3l5bDZPMHpiYWxYYUhsZkpaQkw0MVMzOUhVVG5KcE9FYmxGWEg2UUg2TWxOcjNacjhJcDYtU1U4TGNCekVlTFFBVWc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Detienen a guardia tras robo millonario en edificio Value",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEpFSE1jWHVhOE5kME1nTW1EVFI2T0VZekQ3V0NxUmlWWDB6TnFsYnNWckJ1REJ0ZjVWSnpERnd5a00xS19JWnBaUkxZYXVMeWZ0RlNvemxHXzRPb1pLSEU3U0FNRlN5RHRtYUxiYWVTb0NSaER1S0hhVnBvZmVZc0VSNFJ1dnl3Smw4TTBlUk5DNG5heGc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Se desploman acciones de tecnológicas por dudas sobre la IA",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQXlFVzdYME5EZW4waG9Sakg4eERFU2k5UnFWbnd6S25KTUM2U3k3YWZ6YVFYSkVMS3RmVjlYTFFUTUk5Tm5XLUVpd21SQVV6MDZyV2lRVFEyV2haRWxtT3hTaF95NWFxUU1ZV3R5WVJ0dUhJa0Q1R2lvLVcyd0k0MDJtWUpGbEh1T01HeVBZT0RiQlRKTVJKMTYwSDFLUlRRdWZxVXp5WQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Un detector dice 99% de IA",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSU9hcDIyVGNDNkU5LTEyYTFKX1BCWjYta2NZNkJsU3pEZEhmMG0zV1V2YVdnN1IyRTlCNHFTZXZISTkyakd6RGpPUjFQR2VWak9CTzBEeFB5SnVWSzNmVWhBS1g0eEZubHNEVzJTOW5ZNGdmdnhMd0s2d254SVdLX05xalpRYkNrUzJrTW41SUxWdw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Vamos Azul: Pronóstico del Apertura 2026: La Inteligencia Artificial dictaminó el resultado entre Cruz Azul y León",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMG5QWFhLcmp3bW5STUZ4WDBpM2ZpMVFxU2Y4T2RXZ2IwcFRHZXJYNGt0R3BoeUJzd3ZUZ1NZTWJFY216R2RGUzVUUmNPbzFQMDJCU2JPZV9Jbi1hRzhKNDhteWNnUXFXUXRGNktXczVLTVNKQUIzY2JtbEtadDR6Y3o0NUJJR0ZnU1JGdmI3SEJtS0U2ZzZkTXFVRFpXZE5FQzRoUk5JdTJ2Y1pJWHVCQlpFNTdMdzlvU25MVFFkVXgwRG44QXB5Ukw5aGxIU3FDMWFwMXlDVQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¡No caigas! Así es el nuevo fraude por WhatsApp que promete 200 mil pesos y dos celulares",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNX2I4anN2cWRKaG9qRGg3STBRUTFKc1QtYVQzdG00a1NzYXp4SmE4YTI2N2lVM0pKWUVWaUVOR1JJWmhTY1JicXlpUDl0MmN2TldKR1paRXNsT3BzRHVVNnY3T3NCSW02WkR3Z0N1QlV3TDVYWUVkUFo1ZldXc1U0ekt1M2Z2MHcwSnRlWEtJc0VCaTQzVFFSX3BRbW84d3dpa1h2aWZLdnJVN2VBdUF0Umd2Q2VfdVYwdDUyR0lKVk44Um53TjVBa2RDT21iWDhUYlE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: GitHub ha tenido que hacer algo a gran escala para seguir el ritmo de la IA. Sus cifras explican hasta qué punto",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONG1BQnE1REtGSWVUeG9VUjI3ZkNEOU1zR0pqQUEtakdjWXdvNzEyOVJkTl80eTR6elVKS1ZjUnpOSmtrNTg3QUlPNkl4NnNNdkhFLXEyLWFudS0xVnAzS2FfWEhzZFl6ZlNRUmpNVlVrbW9fT1VmbjlyNWhLTzZjdDFkdVM5ZVJ6UmQ3TmNEdC1VQl9xb0FCR1Z4blgyODVvU0dqTkttckNqLXUtUHFHT2hHaHI3UzdRQVFNMURxdm1PZVRvc3NiTC1DLUR3Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: La amistad de Jensen Huang, jefe de Nvidia, con una presunta agente china dispara las alarmas sobre el espionaje en el mundo de la IA",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQWQwU01mc3d3b1ptN3lBUV9pRXVieDBIZ3l4bG9DTWFJeXM0b0V2XzUzZXdlcXBtZHNaczJjTlJJNzBzWnZ4VjY5WTFGMEpUQ2FkVGVISklpdW9veUk5ai1mUFE5My1ac0JQbE9PT0ZJLU5LUFc4ekRzS0RHY3Ayb3UtNEtTcjlGRDF2NjFfY1ZmSGlGakl4WEZ4bk4tUDNreVVUc1hDa2JFc2JkbVU1VHlhTGN5VnY1ZVI4VkNXQ1Vfb0JIcm90eWZ0QkZfVGdEWUh6eXpCeTdja1Y2TFdkV3hQQWlsNngzVEUxeGFYc1JuUjgtLTU0alZFU0tQTUVpeGllS0syQnTSAZwCQVVfeXFMT2ltcGNKaXJIMERlczJBSHhqSlNUN0p1ejloSzNYZ1hwV3BsV3Nzd2UyNTljZ0Z3bUhkSjVyQWlHdVk1dWh1UWhIYzl2LTk3dkJOMnJZQU5vSnc5eTFaclVaOXpwQjRiYW5DMldwWWxEVWc2UFViMWV1SEk2dWJ5MnNIcjlNenlKSUNvWlp4aFh6YUpRTnV0SWZnbnUzZ3llX2llZ2huOGJmTmlFdWdsX2ViRHRwd1d0XzgyVmVTbDBHNXNCd0xkUTM4V1JzdEh5cjczclV2N3dEQWZQMG11ci1hc3FuUVZmbU9qbzVRai03R1V1VEY1QTU3SVJ6NGp6dUZ2ZnVuNG9uWUlVSkRZNUk0WjNKOFlQQzlLeVQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793383204465,
     "fecha": "2026-10-30",
     "categoria": "Farándula",
