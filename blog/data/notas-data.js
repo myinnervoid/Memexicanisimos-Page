@@ -1,5 +1,115 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793383204465,
+    "fecha": "2026-10-30",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "El ocaso de una era: In Memoriam, contratos y giros culturales",
+    "descripcion": "Análisis riguroso de los movimientos clave en la industria del espectáculo, el deceso de figuras icónicas, el cierre de investigaciones oficiales y las repercusiones en el sector artístico y contractual.",
+    "narracion": "El ecosistema de la industria cultural y el entretenimiento atraviesa jornadas de profunda transformación estructural, marcada por pérdidas irreparables en el circuito cinematográfico internacional y rigurosas revisiones judiciales. El deceso a los 86 años de Patrick Stewart, referente indiscutible de la interpretación en producciones de gran envergadura como la franquicia galáctica de Star Trek y la saga cinematográfica de X-Men, sacude los cimientos de la industria dramática global. La partida de Stewart no sólo extingue una de las voces shakesperianas más influyentes de la era contemporánea, sino que reabre el debate sobre la preservación de los legados actorales y los modelos de producción que permitieron consolidar carreras longevas y de alta densidad artística en Occidente. \n\nParalelamente, el plano judicial y de la salud pública presenta cierres determinantes. Las autoridades policiales de Carolina del Sur concluyeron de manera definitiva la investigación en torno al fallecimiento de Hayden Panettiere, un expediente que mantuvo bajo la lupa los protocolos de atención y las normativas de seguridad en casos de crisis personales dentro del entorno de figuras públicas. Este cierre administrativo aporta claridad jurídica, pero subraya la persistente necesidad de implementar políticas de salud mental más rigurosas y transparentes en los conglomerados de entretenimiento estadounidenses.\n\nEn el plano patrimonial y corporativo nacional, la intersección entre la cultura popular, la contratación pública y los circuitos artísticos sigue arrojando datos complejos. La vinculación de perfiles del sector dancístico, como César Rodríguez Ureña, con empresas de contratistas del Instituto Nacional Electoral (INE) evidenciada por El Sol de México, expone los engranajes financieros y las licitaciones que sustentan eventos masivos y la infraestructura cultural. Estas investigaciones periodísticas son vitales para entender cómo operan los subsidios, los flujos de capital público y los compromisos contractuales en el espectro del entretenimiento institucional.\n\nPor otro lado, la agenda musical muestra contrastes entre la estabilidad de los géneros tradicionales y la vanguardia del rock. Mientras la celebración de festivales regionales como la noche duranguense en el marco del Festival del Alfeñique en Toluca —con agrupaciones como Alacranes Musical y El Trono de México— demuestra la sólida y constante retribución de taquilla del género regional mexicano, bandas internacionales de la talla de Queens of the Stone Age continúan renovando el panorama del rock alternativo global mediante el lanzamiento de nuevos adelantos discográficos, asegurando la vitalidad de sus catálogos editoriales. Asimismo, los movimientos en el ecosistema de la farándula juvenil, evidenciados en las recientes declaraciones sobre rupturas sentimentales en figuras públicas como Mía Rubín y Tarik Othón, reflejan la exposición mediática constante a la que se somete el patrimonio de imagen de los jóvenes talentos.\n\nEn suma, la industria avanza entre la nostalgia por las leyendas que parten, la fiscalización de sus finanzas y la perpetua evolución de sus mercados de consumo.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "BBC: Muere a los 86 años Patrick Stewart, legendario actor de Star Trek y X-Men",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5NXNLRUtLYktaWlM3MXotdTZjUGFtUjlpVkFYMzd3X2J3enBNZGN1X1RVSF9YT0treUNQMEt5V1g4WmRHV3RwMzNlQ1V1NDBmNEJ6OHhwYk1CUjFz0gFiQVVfeXFMTWtObUFjRURYMHJKTk1EeHM3TXk3eWI4WEdHcjY0WXp1b1Zlbjc2QkszX0czWm53UVN1TVpwZ3p1d2NWcml0bHBKRzBWRnpNdUoxdEMzQVVrcWFGa1lyQzFKVmc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: La policía de Carolina del Sur cierra investigación sobre la muerte de Hayden Panettiere",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFFGXzZDMHEzZ0dQY3Q3eThMbUJfcS10akVtYVE4WjdQV25ZMHhzNXRXSkY0bWQxalZCNUhSYzNiVGJPcldoLThORFFKbHJSbk5tUlpvZnQ4VWw2dlhzSmJsT1FYU0JxWldMaFV0Njh0OUR1Y0x3WWl3YjhYbld6WDQzczV6NTB4aVNFakRJQkthMHllUWVoRGlBWkxoV1FZR3A0RjlOZGQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Mía Rubín reacciona a los rumores de ruptura con Tarik Othón: ‘Fue una decisión importante’",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQclRqZWRRemMtRFY3SDdwRDhxc0hsbmlPZUJVeXJFVlNmd2diVDB4NG02N29HMnlaeGdERFFKUWZRZFlmaDd4dy1ZdEswMGd5bHpQUm55d25HdS1VRWRBaVpCSlFRSm5zZ1ZGQ0NlMVZFbGEwYXh3MERaNl9ad1BqUl96R2Z1V3FTMHZpdFlSWXVGZk9wTmtiZjBDcEFRbHczLUNaOA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: ¿Quién es César Rodríguez Ureña, el bailarín vinculado a las empresas del contratista del INE Alfredo Hernández?",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbWZMbHl2VTJfb3g1b0dJSElaYjFyMl9JQWJvN0lpcHFGaUt6QlpDVzh3bVVhdUgyRG5LZnA2am5FUjZ1WTVZaVBBUEJtTzFQTUhPczRhQjRnWGEyaXdvYktQQXBqX19kcFhJOWRBRUUwcFktUnV4dXZocnFPNC0yeHBYX0NZcjg5OW1uYW42Uktibmc0cTRwRzQtS1FjTFBiUnZJX0VQOEU1VG5kMHpGbU1tdnhPUE9KaEVscExFMXhFNksyVFJTY2RKWExhQU5hUmo2dFFvb19ZTzBjaVVFQnYxYnZkOGFKRmhQVkwzQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: ADIÓS, CUAUHTÉMOC-El Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRlpiZmVVYzJpeVdiWG5EbnROUXhZd2RIVjFUZXpCNWVBbEk1Y1ZfZnBwZmVaVnRxREtvOUNwbG4wZmsyOURtamk3YjczUFkzU0tjdU1vVXZLTnFuYmdyTEJZZkFCTFl5TUhFVVNhbWVrUzZza0NWWFIxNHNEUVZmanlwVTFWSzg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Alacranes Musical y El Trono de México en Toluca, así se vive la noche duranguense del Alfeñique",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWjh0aVBxbzBXbEVzVS1fNG9MVUNnU1U4elNqejI5MTFidnRibTQ0blJNLWthOTd1MlpsYjZJTGJ1MDd0NXhqNW1vZ2tJM2tUZktwVTBpZk4yZ2M3M1RVaUs0V2lCdDlUN2xBYUNCMTFqM0w1NjVUNFd6ZThkVmRPVXBfLUcwczMxU05sc2MtRXJTcWx1RG5aYnJSdzRsNXpHX3VhV2YxNkVUeG1Sb3dCcUxiRThzQVZwVHhtOWNwZHNqZ3NlcjVXalJjU1VlVU1PLVg1ZGpXLVFGN28?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Muzikalia: Queens of the Stone Age presentan el último adelanto de su nuevo disco",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSVRaN1VGYS14aFZ0ZVZLaWJJUS1qQkdYQnBWTzlqaTI5SWNPX2FQUDZXYTNOQXRTSjZ1aV9rX0FleE1LcVpLUWk1WUYwaldDNnk4MkZYOWhLUUxjYVRmT1EtZ1pPSVBXVTh5bWltNkJobWYtNkRVaVFVX2dyakpLQzNIaDJtTXFyNUNOOElrQXBMWEM0M2ZRQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Hoy se casa Renán",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzcWZDWS1PcS1ybGlTTTQ5U2V4cUhuY2o5elFyV0EyaktOeW9nOHpLQ3d4djViWkhtcHplWW1mZGtZN2dwMDl1bGVnajZOdjM2SWFVV09tVlVWZzVycGItag?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1793322003784,
+    "fecha": "2026-10-29",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Crisis de seguridad, corrupción y gobernabilidad marcan el panorama nacional",
+    "descripcion": "Análisis riguroso de la jornada: operativos federales en el norte, desarticulación de células delictivas, presuntas irregularidades financieras vinculadas a la administración pública y el deceso de actores clave en la historia política y criminal del país.",
+    "narracion": "El escenario nacional registra eventos críticos en materia de seguridad nacional, estado de derecho y finanzas públicas, evidenciados por reportes verificados de diversos medios de comunicación. En el ámbito de la seguridad fronteriza, la captura de un presunto líder criminal en Tamaulipas desató una jornada de narcobloqueos y enfrentamientos en Matamoros, documentada por [Reforma], lo que pone de relieve la persistencia de capacidades de movilización y respuesta por parte de la delincuencia organizada ante operativos de las fuerzas federales. De manera paralela, [El Financiero] reportó la detención de 'El señor de la A', señalado como presunto jefe de plaza de La Línea y quien contaba con una orden de extradición hacia los Estados Unidos, evidenciando la cooperación binacional y la ejecución de mandamientos judiciales de alto impacto.\n\nEn el flanco de la procuración de justicia y los antecedentes criminales de alto perfil, [Infobae] confirmó el fallecimiento de Andrés N., conocido mediáticamente como el 'Caníbal de Atizapán', quien purgaba condenas acumuladas por el homicidio serial de más de 15 víctimas a lo largo de cuatro décadas. Este caso expone históricamente las fallas sistemáticas en los protocolos de prevención, investigación y contención de la violencia criminal en el Estado de México.\n\nEn cuanto a la fiscalización de recursos y la rendición de cuentas, [EL PAÍS] y [La Jornada] documentaron una red de contratos e licitaciones presuntamente amañadas que habrían beneficiado al contratista favorito de la familia Taddei por un monto superior a los 853 millones de pesos. Al respecto, consejeros del Instituto Nacional Electoral, como Uuc-kib Espadas y Jaime Rivera, han señalado que estos hallazgos y los señalamientos subsecuentes podrían configurar conductas y delitos graves que ameritan la revisión estricta de la legalidad y la posible aplicación de prisión preventiva, dependiendo del avance de las indagatorias ministeriales.\n\nFinalmente, el país despide a figuras centrales de su transición democrática. [EL PAÍS] informó sobre las exequias de Cuauhtémoc Cárdenas en el Panteón Francés, un evento que congregó a diversos sectores de la vida pública nacional para reconocer su trayectoria política. Estos acontecimientos —que abarcan desde la violencia focalizada y la ejecución de órdenes de aprehensión internacionales hasta la presunta corrupción en el uso de recursos públicos y la revisión de expedientes históricos— impactan directamente en la estabilidad institucional y el fortalecimiento del estado de derecho, exigiendo respuestas institucionales basadas estrictamente en la legalidad, la transparencia y la rendición de cuentas verificable.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "EL PAÍS: Cuauhtémoc Cárdenas es despedido en el Panteón Francés: “No serán suficientes todos los homenajes”",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN1k4N2U3RXVOX1pUeS1kU01XekZqSHBJTXhNNmt2N2JPNjY4WmREam9aWlNhVkVjZ3VHN3lILVV6LS1JWVNtMGJpMTgyVTUtSDVFSTFDaUF1d2JEZFhPN1AtRUN6RF9WRHJVLXdKWnpBaS12bkVaVnJIdF8xYzRpMEIyVVV0aWRHcWlLYlhkZHRVNUFKLVhQeEd1T0xLSXNjeEhOLU5pSlVwWFNkSmJ2SVdCTW5XdHVLZXRSVG56aGR4MzB0TnFsQmRpdVZiYTlDZk5Z?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Identifican al presunto responsable de envenenar perros en la Condesa",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX290UkJUbW5UeFVUd3QwbDBXN1FzSXJrM3ktQm5LQVliNkxQTUxGbjBOTk43RzM2d0pabWp0SlFJM0xjZkdMemVxc2Q3WVU2d1loVnowQVdnR01Ta0Zmam5lcG5WeWVCa2UtVUNnYmd0U2dJRkpzRXJneEpybTZ0d1k2MDM1cm5PVFJoNnpZeW5pY3JHNExvOTBISnV6WWdoeHpZemJXcUxaM2gxby1SZHhKaXhoOEIwUXNfNzVaZ1ktYmZfNmc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Captura de capo desata narcobloqueos en Matamoros",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQm9QVVpLOFFzLVIwVXhNLTRzb0s3Vm1yX2l6cWtMU0NUNnZvRXdzWWdvcDBJcDRmaXdsRHZGWDVzZFVUUGo4V0RNeUkzUDZISGM3N1hHbWd0bktyWmFTUDVqQ0dHMXd1ZEVBRjZ3U1hCT011N3N2TVlYZmVXa3VqQzVNUUp2WFhnY3dF?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: Muere el “Caníbal de Atizapán” que asesinó a más de 15 víctimas durante cuatro décadas",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ193NEhCVXdnMklPY3BFNDJwc0NBLV9FaDJOdUQ4MFNOR0VMcmRzcy03WHlGMXVreWYwVWJrTHJPZFYwdVlQZXc4M18zeXZDQXpSRDM5M1E3bFRFQVBVUWd6Z3QwNC1vRV9EaFJTYml4WGFfNkJZckFoYlNvLUdnTVNJWm5sVVR0WWlaOXFBS0swMEJPTzYybTVSWlhRVDloN25TbDdZVHdwbTU3NjBGQ2F2NXlleG9jVFA0TUkwNXlvcEpRcFJJ0gHiAUFVX3lxTE1NOFk0aC00RldxRlRhWUY2OFMwaVlqSzBNZklTbEdDekdQdEpFSXlvT0x5ZGYwZjdrY0NpMEJtWkJSby1FSzZyTHVyZmlFNUF6Z01fSmRhRV9jdGkwX2FMS2lBcEdvZmJoT0xUSHhQUGlySC0yWGNuaVAzZ0ZCOWFLRUZtdC1ITC1BejRvdWRIUm5sTWRtVzBUVjR6OFJfTEs5MWhwWlp1eVpKNzE4WEZxTW4yZm9pcG4wbTB2NjloQkpxRFZnS1VvNDNpZ09XNFBWYmVQMU94dFEwcGs3azZKZHc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Periodismo digital: Tres objetivos caen y desarman célula local",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMUF5cFZFTkM0OXR4cnhvQlF4T0tNeldHRmg4d3NpemxpLWZfc09URjJmX0hHSEU1Nm9YRVlZYWt0NVRiM2RGWGpsVmpDOHhYM1Z6ald6dzFKOXV4dXVPZmtDbGpEal9OcUR4ZWhibDF5RkhaTVpWbFNBeS1sQmZEOQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Detienen a ‘El señor de la A’, presunto jefe de plaza de La Línea; tenía orden de extradición a EU",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWWN5R1M2Z2hsdGtxem5UNUU5ZE9hNUhJWFl0Z0k5REd3cW9sbUc2Y3FsdGRQSVBmMmtRSDU3MkZYdTdJMGRlUVNVRE9jeTZOd3dXdlhySlgtOUo1d1RYbGFxeGxVazBsaXhLcGRxQXh0RlZBWEgzNDB1YVZ0VGx3SDRSWjFmRlBsdmVNNFlvZF9tbUN4WHlaYmxhUzltdjBVVUQ0QzVHOTF3WDh5MUdSdXJiWTQ0ZnFvNXNMaGhjRi1jNUwtMk9QX1QyeTk4YVVObXU3V3RUaWRRd1BlVnJzMA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: La red del contratista favorito de Taddei logró 853 millones de pesos con licitaciones amañadas",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT0ZULWRWMTd0WFBNelBScFR2V1NiRHNNemtQbDVOb0QzUzFpNE1xTG9oajRoTElHOUh2RVJLTlQ4NWRvSWpsdUZ4cndzdVk2QkxSanFQU1pXZ3ZjVmdTdEVvck5xQUxHaXhMVnhfcURSNzFWb0VMeTJvTzlQcGhOUFJTdVg0bEpEUUE2eTZ3ZGdpT0FnemVFNl9xa19IZ0wyUHFaTnpraWFiTlVyS21HUG9ucV95cl9wSzBCMGxiYVpZVXduOGV3OFd3Vy1SNVNIcFhj?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Señalamientos contra Taddei podrían constituir delitos graves que ameritan prisión preventiva: consejero Castillo",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX0Q4ZEdQaXczUzZTSUpvTUJvdV8xRjhDVWprd0hLYkdfU3huY1lNSkg0VjhJRDVtZFo1cUplTGx3bVJCSXVrWUcwNnA1Vkgxd01DaWF4eF9GVkh6NnVvTTBzZk1vSnRIeENLcnVYbzdOb1lsNG5WZmZKTjlQYTg5NzJwUFV1SkRMUTNjdFdBNlc4OFlKeGN3UlNpUGk2aENvVm5XTlR4LWgzdThIT04ydVZJWUU4VlljYXhvNGdrd08tLTBrOFIwOE5rZGowZzNQcnRnS1ZxSTBlMDEtanVnMVd2NnNHRkY3Z3dkZA?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793314804293,
     "fecha": "2026-10-29",
     "categoria": "Gaming",
