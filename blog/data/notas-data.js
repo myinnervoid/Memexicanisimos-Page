@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793401204652,
+    "fecha": "2026-10-30",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "El mercado mexicano absorbe la transición de hardware entre especulaciones y ofertas retail",
+    "descripcion": "El ecosistema de videojuegos en México navega entre la llegada anticipada de ediciones especiales de nueva generación y las liquidaciones masivas de minoristas locales frente a la temporada de descuentos.",
+    "narracion": "El mercado de videojuegos en México experimenta una etapa de contrastes operativos y comerciales. Por un lado, la distribución minorista comienza a dinamizarse mediante campañas de ofertas anticipadas como el 'Buen Fest' de cadenas nacionales como Soriana, las cuales integran consolas Nintendo Switch y pantallas de marcas como TCL, Hisense y Samsung con especificaciones enfocadas en rendimiento 4K [F5, F6, F7]. Estas acciones comerciales responden a la necesidad de mover inventarios en un contexto donde el poder adquisitivo del consumidor mexicano exige optimizar cada peso destinado al entretenimiento electrónico.\n\nSimultáneamente, la especulación en torno al hardware de siguiente generación sigue generando fricciones logísticas y mediáticas. Reportes de Xataka México confirman la aparición de ediciones especiales de la esperada Nintendo Switch 2 en el territorio nacional [F4], un movimiento que pone a prueba la capacidad de respuesta de la cadena de suministro y la voracidad de los especuladores frente a una plataforma que aún transita por fases delicadas de lanzamiento global. La escasez y los sobreprecios continúan siendo una constante que perjudica directamente al consumidor final, evidenciando la falta de regulaciones efectivas en la preventa de equipos tecnológicos en América Latina.\n\nEn el plano del software y los modelos de negocio por suscripción, las plataformas competidoras ajustan sus propuestas de valor para retener a sus bases de usuarios. Sony anunció su alineación mensual para PlayStation Plus, destacando títulos como 'Dead Island 2', 'Monster Train 2' y 'Tomb Raider IV – VI Remastered' [F8]. Esta estrategia busca mitigar la fatiga del consumidor ante el incremento sostenido en el costo de vida y los precios base de los videojuegos AAA, que superan frecuentemente los estándares presupuestales de la región.\n\nFinalmente, la industria local también aporta al desarrollo técnico y creativo. Egresados de instituciones públicas como la Universidad de Guadalajara (CUCosta) han compartido metodologías para impulsar la creatividad y la profesionalización en el desarrollo de videojuegos [F3], señalando que la región posee talento humano, aunque históricamente limitado por la escasez de inversión de capital de riesgo y políticas públicas de estímulo a la industria digital. La combinación de estos factores —hardware costoso, ofertas minoristas agresivas y modelos de suscripción bajo presión— dibuja un panorama donde el gamer mexicano debe adoptar un rol cada vez más analítico y crítico para proteger su economía frente a los embates de una industria global en constante reconfiguración.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintendo: Kaiju Girls: Trap Giant Monsters &amp; Fall in Love",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR1phVlhMWkYyNFhJRWFYRVdia05MVVdLRWpFb3Y4ZlNnUkxhUTBhOG55aEhfSXRBVThnQVpTblJGZFBNV3FKb1lqbV9jR1JQNDJRYlcwdlUyb1NiY3h1ZDhSN2pXeklPckt3TFM1a2lEM0RmT3M0Vkh6Szd4VnBKdGw5ak9BdzNrVWFLczFXMmJILWttaFhuSDd6ZXRvOF9yT29ESQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: 11 juegos confirmados en las últimas horas para Nintendo Switch / Nintendo Switch 2: The Grimm Reapress and the Drearytale Monster y más",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOSy02Tk0wMlFzYktRemJIREFUb3pUME05OG5mYlZSN3NfUU5fa0hiZ0xPRTBQOWs3UkRJZHUyWHk4elI4aU1NbEFLWm1Zc21hdWluV0JHMy1Fb1J2bXBxdTMzV3ZHY3Zsa3pPT2IzbHRXZmlPbG5abDBtSG93RDV4ZU1nb3YtSGhxRUJydHk4M0oxTjUtZE9ZbzBtUW5DUVZJSUd4N0w0OVFKODNRc2lLcW1WaVJscUVNdHZDZWRGNXRYa2FtdWZfcVRLTnMtaTVrX2ZqVGVONlptY29DLVRvYWp3bUJnSjBXQ2NaaEZVWExSZjZfOUYwb180UDByTll2aTQtbFA0eUhPaE9J?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Universidad de Guadalajara: Comparte egresado del CUCosta estrategias para impulsar la creatividad en el desarrollo de videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmo4Q25JQnE4bTJwR3BndVJxQi01QW50ZmFYQXU5M1Y2VGxEbGFDeEpjd3hoUkN5WVl0bFFVakJEX1lRZGJGMU5KNFdCOGRmWG9RaWVOZGk2eW5NUE9oSXJpNHM4dWdSa1ZKeXdfTkdwcDFLM3lldjBFcllLc1RiaWZrZnlZYzZZU0hKMzlpOVdtRl9hNjdVUG8zdU1iaXVrVVRlM2JnX2ZMTlJ1U2hkNFE2YkVDcUd2X1lmTWZNQjhRT3lvaEhvUWRGVEkwOUk?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Gran estreno: la hermosa Nintendo Switch 2 edición especial de Zelda ya está a la venta en México",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd0NKMUdycVp3d2hVZjZDM2JicU5NOTY5MkRfVmdjU2xWcTJtM0FveVRKM2E4ZmZMMzRsVWxTZV9iVGNVVG1RRnd2SlQ0WXB2Tkc4Mmd4eU1NdnBfZkFLbWR6alFqZHJ0a2I5MWV0ZUhtbVowdHFTQnNNa2t3UzBTUWxhTUNtbl8yOWNPb1VrWEFXN210VHpOZ1ZReDU0aHJXcFhUSmFHOU1mTW5sVnVnSWlndjhlTmNN0gG-AUFVX3lxTFAwSHg3T3pnWEtVY0FTYmlsejBjcHY1QWxKdXZycjVsV21xdmtfQkNTamY4VEhKTFpCTWZxS3RfVTN4bkY4YXFPcWtjVVN2bDVjUkQxMHdGYnhoWFZaMUR5anZXcTI4aF93SlI3TFpmRWhjVzBWUHlqVVJjR0Zab09CSDFJY1NmX2cwanppc2JPN1E0V3NYZng0NklIeWhvMndrVy1MRzFpX1hJeHNHUl9OelpVa04weFVaTlp3NEE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "InformaBTL: Soriana lanza folleto especial Buen Fest de Smart TV, refrigeradores, motos, celulares y más: Hay Nintendo, LG, Hisense, Samsung",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSVU5cWVzVEVkOUo1WGw3XzZBeWxmVjk1bWU3UzVrbFhfWnNSWnoxWjFGSWtsY3c1VGlNWGNEbEdEYUhiWXp2YzhadVFuWDRtc08xbGNWdm1fSHpxTG9vZngtNFltVURkSnRVYlZZUVlwTllZeEdJT25xSWZsTlRya245WTRJMWQzNzJaZUlfaWNNRF95blRaRGVIWVc5cHMyWkhBYW02OXRpQjJMcWVzaTFfSURNc3d3ME5xcDExajJSeFRNUElsWXRscGdsd0d5ME4wazQ2SGp1SWRYb0FmSGlPaw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Eje Central: Ofertas Soriana: los mejores descuentos del BUEN FEST 2026: hay pantallas, Nintendo Switch, iPhone, lavadoras; folleto vigente",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQU1dyYVhUbGpXaURmdTlqa05oQzNjMFk3eXF1aU9IYUo4dndXd3RFQTcxaE5ENXQxMm5fc1JkeUJCUTd6bV9rQldGQjU5Q1hiUTJlQ0RvN3pLQTg3UWQyVFh1YXZzTlRwRFdHUnVLUzZqNmJPVUUtTTdhZWw0STJfM3lwWU54VWhMWDVNRlYwbTBEWHZrU3VqNXpyblFpMHJZWGRDUFFocGItNjBSR2oyU1NTclhlMm90REtvWkhWakcwZkNwNE5ScVpiS0d6RDdlb1dpTUQwNm80YkQ4X0NKcVRnOF9MWXhLMVRRejRhUS1HVnU3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "ADN 40: Walmart remata la pantalla TCL de 55 pulgadas 4K Ultra HD y con buen rendimiento para videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWGVxa211X2c3U1prQ2ZaVkM2VTA1VEx5SkdtSF81QnJfVTIzTlVXZ1dlMUttYlUzNG1FNzJyZWxaVWpYYjJBWUpBMGxWUVVMc1pqOHN3MlFKYUpuV1QwVUNmTGR3MTZRdG1VNW9adEhnNVdyQnRJUlY5UUZrelg3NXB4eFgwTFFZTlBxZklhRUFLZXB0bEJnTWozRTdORzVLZlFoMnFnWnhhOUU4T1hLWkxWMjF5X2YwNkM3NFlDcmVmOV9nRXAxLXB4ZGE5WmhNSHJoeG9mbVZHd28?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Juegos mensuales en PlayStation Plus de noviembre: Dead Island 2, Tomb Raider IV – VI Remastered, Monster Train 2",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSHoxYXJKX0JqX00wZUkxU3hxTUt3aXkzRW1Rbkg4VkU5blBsSmczQ2ZRcDc1TXYwM2NzeFlqQVpRNTFMUjlqbUJ4aUFucmxPY0VuS3JHTHB5Rl91MWtQUUVIUUlJSFZZb09ZWmpwZV85eVBnd1JzNllqaHczSVJiU2dnckx4Z1RHVnNQVWZlUk9lRkgzZm96UDlRT1FfLXY2cVJDNlRkV3hjVks0ZGVwYlFvX3Y4ZUVUeGxwbDBsZVl3U2NLWDkxWlA4MVZsaVFDbm5oRHpyeDJIV05BVFhscFJVRFhMV3VSZ0RV?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=LYVj0OIIIBE"
+  },
+  {
     "id": 1793386803918,
     "fecha": "2026-10-30",
     "categoria": "Tecnología",
