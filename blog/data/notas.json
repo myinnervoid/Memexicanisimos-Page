@@ -1,5 +1,116 @@
 [
   {
+    "id": 1793469604177,
+    "fecha": "2026-10-31",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Industria del entretenimiento: Deudas contractuales, patrimonios y el impacto de los decesos globales",
+    "descripcion": "Análisis riguroso sobre la reestructuración en plataformas de streaming, la mercantilización transnacional del Día de Muertos y los recientes golpes a la industria cultural y musical.",
+    "narracion": "El ecosistema del entretenimiento y la cultura atraviesa un periodo de reconfiguración estructural, marcado por decisiones corporativas drásticas, el análisis crítico de la patrimonialización cultural y sensibles pérdidas humanas en el medio artístico. En primer lugar, la industria del streaming y la ficción televisiva experimenta un replanteamiento de sus modelos de negocio. De acuerdo con informes de [Mundoplus.tv], Paramount+ ha anunciado la cancelación definitiva de la longeva producción \"Mentes criminales: Evolution\", estableciendo que su vigésima temporada marcará el cierre definitivo del ciclo. Esta decisión refleja la creciente tendencia de las plataformas digitales hacia la contención presupuestaria y la auditoría de rendimiento por suscriptores, priorizando la rentabilidad inmediata sobre la longevidad de los catálogos de ficción. En el ámbito corporativo y de la salud pública, la nota luctuosa la encabeza el género regional mexicano tras el reciente fallecimiento del infante hijo del intérprete conocido como El Komander, un acontecimiento difundido por [TV Azteca] que enluta a la escena musical y reabre el debate sobre la privacidad familiar ante el escrutinio mediático. Simultáneamente, la industria cultural internacional registra decesos de relevancia histórica; portales especializados como [Nintenderos] han reportado la muerte de Patrick Stewart, figura fundamental cuyas contribuciones vocales al emperador de \"The Elder Scrolls IV: Oblivion\" y a diversas franquicias interactivas consolidaron un legado perdurable en la industria del videojuego. En la esfera patrimonial y sociológica, el análisis sobre la apropiación y redefinición comercial del Día de Muertos continúa generando fricciones en el tablero geopolítico y cultural. Según reportes de medios como [Nación321] y [EL PAÍS], personalidades del medio cinematográfico global, entre ellas Sarah Paulson, han posicionado las festividades tradicionales mexicanas por encima de celebraciones anglosajonas como Halloween, al tiempo que analistas culturales discuten el impacto que productos masivos —desde sagas fílmicas como James Bond hasta animaciones corporativas como Coco— ejercen sobre la mercantilización y estandarización de un ritual originalmente comunitario. Finalmente, la agenda nacional se dinamiza con eventos de arraigo popular como la presencia de la Sonora Santanera en la Feria del Alfeñique en Toluca, destacada por [El Sol de México], evidenciando la resiliencia de la música tropical en los circuitos de feria regional. Cada uno de estos acontecimientos subraya cómo los contratos, las finanzas corporativas, las normativas de salud y la preservación patrimonial configuran un panorama cultural en constante tensión.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "TV Azteca: Muere el bebé de El Komander; así anunció la noticia el cantante",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOekI1RGppMjlIbWRHSVlsYzZLMk1QTnR1d2kwbFlSUURFbWNMRXVxZnU5WHlwTE1JQjJXczZsMXVlOFF2NkVmc3BVajgtcTdDUW9KbUFLVzRBMmJ1ZWVJWVJhVFE3M2xGOU95TWwzbW52YnI5Q1ROeEN1QTZNNlJqVWpDMV9EWm_SAZQBQVVfeXFMTTVKSlBqaEpjS0Rrdk1IdzR5X04xcnlQM0FJaldiLTdNOXlfQ2ozaVllbmYyVlBONzVWdWw3X1d3Z2RvUkFBWk9TanJLemtGWGVLcENLRi1fd1BYUjU4WTl0UWFIbWVkc1JRUnZyNmZnaUFQR1ZtM1lxRjlXZW8wMmVRS1NhQ29yWHdfa1RES0dfbjNSNg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Mundoplus.tv: Paramount+ cancela «Mentes criminales: Evolution»: la temporada 20 será la última",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ0NkbHhyblJIdTNoRkp3eEF4T041RzBja2JyRzFMQWUyeHhlU3I3SUd1bnRWWWx2dzFTX1lSc3Q1NzJNM1FTOHlnZlVwdmFmaEszTWpncDVTcnJXZXBMQ0xDM1lobkZrbnVDY0tpQWhldTR5elJnSDE0Z3dHdVd0WjBSY2dSUlF6OW5MTU4tRU5ULUt3cWV1TDlCNFpfazJDUFZUclFfTUQya0FzQVE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Sonora Santanera en Toluca: así se vive la noche de cumbia en la Feria del Alfeñique. - El Sol de Toluca",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVERSQUtGNkZ1Y1o2X3Q4dzNqbkJFUUg1M1hrZk5JekRvek9qQ1QxWmZCNDJhYjlmU3JRaGVpUi1nRFExUHBMNW9LSXpJbG4wemFJc3M4XzZES05ma3M3V182bDFkM1FiUDNIQnkyOEVUNXk5NmlCYWRXZmhHYm5lYzB1MG5Ua2pLYzVIZkw2bzFwXzFnWVdVTHlkMS05czQ5bHJaS0tQQU9UMXRJRWNkQW8tTFdYSGlNTGtYT3hOcWtXODZRd1lzcTc4NA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Nación321: De James Bond a Coco: ¿EU está redefiniendo las celebraciones del Día de Muertos?",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPanVaWTZuOW1lQ3FoZDFpVzhaWjE1OGcyWTlEdkNQODFrYjJkTm14Nm1ySUlZQlp0Sl9QeUkwbjczVEtCVTlMV3JDMXcyZkpIWWFFWkRFQnZnRXJEU1NwVHFVNDZhcHctLWhlS0haMjR5MGM5ODAyaENzNWJMUFk0WS12UUdaZS1uTmtseUYyWTloR3BMcWUzV0hVY0NjMXhoamhrWWtFYUs3RFRrNDAtN1RhbE5CNHZmck52RWxJd09fOEppcnc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Nintenderos: Fallece Patrick Stewart, la voz del emperador de The Elder Scrolls IV: Oblivion y de personajes icónicos de los videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUEp6UjRjemh4cWhWc2JSYmFFX1hQaTQ2UHJ4OEVLQlEyTnhHeFZjeTA1RHd3d2N3UlE3NElyVTZBdFFrREJkTm5zQ1lNYUFqUk5pcno2WTlnWTluN0RibmZUM1RTU0RPVTJOdWZwd09UQlJ0dExlR1ktM2hxTHhRX0Z3by1xNHlZVUpGSDZRRVhpN2dNVmxzYjJ2ejNtT01LZUl2X0E1emxiZ2JNbktPQ3pkLWlZbHZkM3RnWGxVZTFCbjVJZm04RDFaZjJ4eng2dTBYNW95al9wdHB1SWtFRmVnb0lEOFM3MDRTZ2lBNA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: ADIÓS, CUAUHTÉMOC-El Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRlpiZmVVYzJpeVdiWG5EbnROUXhZd2RIVjFUZXpCNWVBbEk1Y1ZfZnBwZmVaVnRxREtvOUNwbG4wZmsyOURtamk3YjczUFkzU0tjdU1vVXZLTnFuYmdyTEJZZkFCTFl5TUhFVVNhbWVrUzZza0NWWFIxNHNEUVZmanlwVTFWSzg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Sarah Paulson destaca el Día de Muertos por encima de las celebraciones de Halloween",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaUZGVFJtdDg2YXpuTFhVVzZiS1hyWnVVbTJRYW9MT2hmZ2RLR19MdTh2ek14M2xGZnZhZnpNaHN3RFZwOEpwdkRINXJCdzQ0eUMxWHhkNFJtdFFxc1ZsOTQ1Rnc0cnFDbzdyM184Z3pkNkFZMDZqeHZodGhWcmZUamI3d1pvMzdVZVB0eWw0czJDR2NUelZEazlyODdJZ0syeTMydEMxdFdJWTVKNDVtNlA5Vmpma0hldVpTdnRMU3B0eDFQcXR4WllPNUXSAeABQVVfeXFMTjhIMS1LOTc0V3NtS2tOZUNVc3JDaDM5VUQ1RWJuNlVvVElVY0J5VXNiR0lZVWRiQXlyUHQ2TEdoQXNjcTNRMHdiQkVybjRCZHI5NlZpRGJHNXh1RktpbVdwUnJzYU9wNFhOeUNiZGZhaTlTdmV1bXFlZ2lfOFFYbUJoMElOVlJTZ1VTaE9DNmxzRGZJZGJ0T19OYmhsMHZtOVIzVmFEMlVpWjFkTG5KWlluT2hXU3o2YmRIN0YycTN5YnBzQ0drTXhHd015WldXdmhoeUVBNXRCV3pwQkpqWWs?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP EN VIVO hoy 30 de octubre: La Traición destapa la lista final de nominados; sigue la transmisión",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYVhTYVpjVUxDS1dTRzNwdy13bk5KREZtd2dqVExmRXJCb056eHFDMldYbVVNTVQxcXl5V1JHcUp3UnJVVjh2MlJUbjNGMWlEWVJwUEtJWEltZDF4RXQ1b0hVVGVFaVh3S0trVThUcDc0RmFVbk1aMnNxUHUxOHpoQ2dNYmRsZHdIX2dOV2kzcThJMEEtU0hTS0ZBbVJ4RDNEak5xVjVxQ3VDbzN4TTluYWlyMUwtN2xjczlaZVBiVy1vOFRkZFB1TDNR0gHXAUFVX3lxTE9TOGZUMlZxcUl4SEo3M3R6M2VGM0JId2JTQWRYcVZqSjJ3YmxpbDdRbW9PelpqTUY1dndhN1RWeGlzb0prWU02SWQwYnV2U0tPcVV1WU04UDFhYWFzd2h0VGt4QTdjdlpIbk1BWWw0VDlaSExTNWMydzF4S2U5eEIxazhwbFFpb3AzNHprMno1ZnNJUlJENFR3QlhmYXU5TzlWeHFUZTFQU211VWhGODlIYkYwMzk3cGszWEpxSVMwYmY0Z3diUG1VemluTElBWDN1UmdYcURv?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=CU_c9RfTJD0"
+  },
+  {
+    "id": 1793408403202,
+    "fecha": "2026-10-30",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Megamarcha del IMSS, detención internacional y tensión fronteriza marcan la agenda nacional",
+    "descripcion": "Análisis de las movilizaciones sindicales del IMSS, la detención de Inés Gómez Mont, hechos de violencia en Matamoros, tensiones políticas y acciones institucionales en el país.",
+    "narracion": "El panorama nacional registra eventos determinantes en materia de seguridad pública, finanzas públicas, estado de derecho e infraestructura. En la Ciudad de México, se registró una megamarcha de trabajadores del Instituto Mexicano del Seguro Social (IMSS), quienes bloquearon vialidades críticas como Paseo de la Reforma y Eje Central Lázaro Cárdenas, exigiendo atención a demandas laborales y operativas [Infobae]. En contraste con la protesta sindical, la institución reportó la entrega de 47 equipos especializados a 39 hospitales tras recorridos de supervisión a nivel directivo [La Jornada], evidenciando la tensión entre la demanda laboral y la gestión de recursos materiales en el sistema de salud pública.\n\nEn el ámbito de la procuración de justicia y el combate a la impunidad fiscal, autoridades internacionales concretaron la detención de Inés Gómez Mont, quien se encontraba prófuga de la justicia mexicana por acusaciones formales de lavado de activos [EL PAÍS]. Este hecho representa un golpe relevante en las investigaciones sobre redes financieras complejas y desvío de recursos públicos. Paralelamente, en el norte del país, la ciudad de Matamoros experimentó momentos de alto riesgo y caos urbano derivado de un intento de rescate de un capo criminal detenido por las fuerzas de seguridad, lo que activó protocolos de contención y afectó la tranquilidad de la zona fronteriza [El Norte].\n\nEn el plano político e institucional, la agenda estuvo marcada por señalamientos del Ejecutivo federal respecto a la gestión anterior en el Instituto Nacional Electoral (INE), reprochando prácticas de contratación durante la presidencia del organismo [El Financiero]. Asimismo, en un acto oficial en el Palacio de Bellas Artes, se propuso el ingreso de Cuauhtémoc Cárdenas a la Rotonda de las Personas Ilustres [La Jornada]. Por otro lado, en la capital del país, la Fiscalía General de Justicia de la Ciudad de México cumplimentó una orden de aprehensión contra el presunto responsable de envenenar animales de compañía en la colonia Condesa [La Jornada], aplicando el marco legal vigente en materia de bienestar animal. Finalmente, se conmemoraron seis décadas de la creación del Plan DN-III-E, la estrategia histórica de auxilio a la población civil implementada por la Secretaría de la Defensa Nacional ante desastres naturales [López-Dóriga Digital]. Estos acontecimientos configuran un escenario complejo donde la seguridad, la gobernabilidad y la exigencia ciudadana de rendición de cuentas convergen en el centro del debate público nacional.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Financiero: Sheinbaum ‘reprocha’ a Lorenzo Córdova propiciar corrupción en el INE: ‘Él mantuvo contrataciones’",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmpncUo5eUkzcUMwRE9LUl9xYm53Slc3cFdicWJLWTA1Z0NKdlRTY0lBek5ranViZUdTeFM3V0VaZVQzZGFLbDI0a2R3M1k4VERHV0FOd1hIQU92N0lBek4wakpmSmo3eDZId1o0R3V6RVZJNEE4d0xOcmlERlpGZklka2c1SVF5ZnNDS1ljX1c4TkxfcHRzYlhFeGdmMXBKYmZ4dlJKZnVTbTE1eTkyYV9lV3l6R1lDQ2VJ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum propone llevar a Cuauhtémoc Cárdenas a la Rotonda de las Personas Ilustres en su despedida desde Bellas Artes",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR1M5ck8wbmdGdENhX2lyZTVWbmZjTjVSTmgxeHhPMFlBbmh4a2VJMUVQVzQwaURiU08wRzhjTE16TWMxQ0s4QlVCN0o1di1pNEtyalJ3aTVBWnctS2h2NjlUaEsyOWpLREwzZUF2WnA5RVRJZnBaR2ZQR2Z2UDZIb0xPZ3I3ODd2N2F4cGJaVVNZbGZmRTctSUFXQkZSX3BfekZZUjduTjZEVHZHRnFjOHRsUXVBZGVs?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Estados Unidos detiene a Inés Gómez Mont, prófuga de la justicia mexicana por lavado de activos",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQX1RacGRYemhsaDVneThwbjYza0ZhcV94UDhTVmhBdzktcGdFZm1faldrQzhaWHZXMjB2VWVFbFJ4Vlg3WkRpTkwteTFXRkJyX3BLTTItY1FxeEVIMFVuSHc1OU1QOTZaaHFVTThtdzE1dXQyOHpPS0pXVWNYQkVzNWdXR1pwLWVqQ0RpS3RZRkpLdDV0em9GWDRnMUk5ckYwb1J6NkxTTzI2Rm5mVGlvZWdmRDA3b0JlWV9RLUZZY1N3d2xYd1NfWVpuck1QV2wtaUE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: FGJ CDMX cumplimentó orden de aprehensión contra el presunto responsable de envenenar perros en La Condesa",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSmhlNy1PWjJfdl9nZzJaS2YwQUZLdGU4SnNJWGdxZ1VuQWxrTHdVTWVfa0F0bzR1VkdhOWtVdXY4eTlYV2lORm5hS1Q1TWhkN1hfQUJkdWxmc0J6MnpQMEYxQXc3QU53NGd1a0lRUU9WelptdmlZaF9tOTFGRFhHUWp6eFhJelN5eUZNb1pOZWZDZDdxa1ZycjhreXd6Umg4WThrNWhZc29jSVZxSkE2aDZhLTJzeUNfODhxTjc0WWhyMnZxaHJMMjhjSVdEa2MzcllOaVFVdTExYlVNUXVXRWxsdkp1cXRYM0c2dU5TUkZXem1tVmxSRA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "López-Dóriga Digital: ¿Quién creó el Plan DN-III-E? La estrategia de auxilio cumple seis décadas",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSHEyMVpndHo4YUE4c0hEaUROTGNvenQwZFJ6SFNnVlozaDJEVFZReHFGM1NiQXdRY2xwVy1SOHM0cVpHZF9lc0U3OXBkWUJldGlBT3hsbXdKWlVfTTA0bDlZdjBuUEhtRjlTRXUyUThDUXotN0NUNUpqRmlDOW5GblRHc25BZTVKd19BS2VyWENIeFd2eFdtMkh2N2NVaUhkNmV0ZXpNZzdmdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: EN VIVO | Megamarcha de trabajadores del IMSS hoy viernes 30 de octubre: manifestantes bloquean Paseo de la Reforma y Eje Central Lázaro Cárdenas",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORkZWLTdKdnE5RDdmMVFYSnlYcWlzTk15TzZyMW0zUUZ1cVJNWXdIc2JVM2ZLZHRlTTQ5R21oZHl5Z0s3ZGdfcVBEazZ2Z3pfbEllanc3Q1MzaW1tQ2lIQkl6RTNsMF9MalNEWmVnOUdiaDBNeTJVVFJTWnZNWGFTVm1Od2FNT2tWOTJhR25TOFhTelQ5T0xfNWtaOGJJYUtXQ2M2NG95bG9jQW9SbU5hNUpUMXctSGJPbVE1QmFDaGFzZ2pmM18zX0ZPcnFxMC1URzlocFYxSEVvR0ZSSHFaR0N6ckTSAf8BQVVfeXFMTTktR010dWt5ODNIR2FPWjVMYlNWNzAta2hHSUFwcVpOOW9IcjdqY205MzlBY3VPdERSbFI0M0g2dWxZcWJRUVRNbTNlaFh5ZmZWaEt5eU5WVGhnamVnbEU4NGNTQ1h2UDd0dlZmR1NTUmktN1JYelR0WnZnZFVuM2N1SHFTNGlPbjBuZHhsVVFCUUNOR3JVWk1obzlpS2tHM1VLNkdwZ0ExUDVQYnZNSkd1R0t1MElhQWNGVXBrUE9aTl9ZVzI2VjVDNHYyV0ltSkpVY3FuTk81YVZBYmVGbVdxN0hOWTEyU3ByaWJXSmZtWGhwNnQta05ucmlJTUo0?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Intentan 'rescatar' a capo detenido; vive caos Matamoros",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSEFWNDZkZ3RxMVJLVGNzQTVJQlZOZ0FDYU14OEtreTJvbDk5Z0RsS1BwSlB6VEdnYkRDYmZHNzVmYXFfVEw4b3pYRnMtYWVSUk1lYmRUbWgzazF3RlFmQ3Vob0hLY2U2cVktcTB6NVVaRzZVNXg3dWtPYWlrV1RhQ0dZaEoyNkl6endEdENSMm8?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: IMSS entrega 47 equipos especializados a 39 hospitales del país tras escucha \"piso por piso\" de Robledo",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOYldRY1E0NkFTTE1XdzNLbDYwQnZDcWg2TmdZMWE5ZTk0OXN1Qm53WkxUbTB0emNRX3J0bmEza2FkaEhfRzItSzhMS0g5TVdkdS1jcjNXV0NreDVielNwanFuTjZpTDNyY2ZFZ1RPYThKU241eFhpY1YxT09nZ2NVM2VNR1VoUUpoLW5wQjdOQnF5TGI2SFRmaUJJeXdFUDRYMTRaUEtrREY2QUpqVEtMeTNFZVoxLXNXa05rNVBZZGl0dmgtcVNPQVg5d0Rqa0g5S256R0RQS0tISmpPZjBlc09PUUd3VXVBTWh5WQ?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793401204652,
     "fecha": "2026-10-30",
     "categoria": "Gaming",
