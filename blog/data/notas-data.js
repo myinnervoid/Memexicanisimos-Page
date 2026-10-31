@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793487603799,
+    "fecha": "2026-10-31",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "El dominio de Steam, IA en la mira y los anuncios de Nintendo",
+    "descripcion": "Análisis de la industria: la hegemonía inquebrantable de Valve frente a otras tiendas digitales, las nuevas restricciones al uso de IA por clonación de videojuegos y los movimientos recientes del mercado de consolas.",
+    "narracion": "El ecosistema de la distribución digital en PC mantiene una estructura jerárquica sumamente clara. Según análisis recientes compartidos por [3DJuegos], desafiar la posición de Valve en el mercado requiere mucho más que una simple tienda digital alternativa; la percepción de Steam como una plataforma invencible radica en una infraestructura consolidada durante décadas, la confianza del consumidor y una integración orgánica con la comunidad que los competidores simplemente no han logrado replicar bajo esquemas de exclusividad temporal o reparto agresivo de porcentajes.\n\nEn paralelo, la propiedad intelectual y el desarrollo independiente enfrentan una nueva amenaza sistémica derivada del uso no regulado de modelos de lenguaje e inteligencia artificial. Tal como reporta [Yahoo], los desarrolladores están manifestando un hartazgo generalizado ante la proliferación de videojuegos clonados o generados de manera automatizada mediante herramientas como Claude. Ante esta saturación de productos derivados y la erosión del esfuerzo creativo legítimo, las grandes empresas tecnológicas y estudios del sector se dirigen hacia la implementación de nuevas restricciones y marcos regulatorios estrictos sobre el uso de su propia tecnología, buscando frenar la piratería algorítmica.\n\nPor otro lado, el panorama del hardware y las estrategias de comercialización continúan generando conversación global. Por un lado, las sorpresas de la industria no se hacen esperar; la sorpresiva emisión del Pikmin Day Direct por parte de Nintendo (registrado por [Nintenderos] y [La Verdad Noticias]) ha polarizado a las bases de seguidores tradicionales respecto al rumbo de la franquicia y sus próximas entregas. A la par, el mercado de comercio electrónico sigue mostrando volatilidad y estrategias de descuento agresivas, destacando reportes de [Nintendúo] sobre fluctuaciones de precios en plataformas como AliExpress para hardware anticipado, evidenciando cómo la cadena de suministro global y los distribuidores terceros manipulan el valor percibido del entretenimiento digital.\n\nPara el mercado de jugadores en México y Latinoamérica, estas dinámicas se traducen directamente en un entorno donde la protección al consumidor y la estabilidad económica son prioritarias. La dependencia de plataformas estables como Steam protege las bibliotecas digitales de los usuarios latinoamericanos frente a la inestabilidad de tiendas emergentes que eventualmente cierran o abandonan soporte regional. Asimismo, la regulación de la inteligencia artificial en el desarrollo de software es un paso indispensable para garantizar que el talento emergente en nuestra región no compita en condiciones de desventaja frente a ejércitos de código sintético automatizado que inundan las tiendas digitales a coste cero.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos: Para quitarle el trono a Steam hace falta algo más que otra tienda. Un analista explica por qué Valve se percibe como invencible en el PC",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOenRUUjUwS1JpN2Y4SmlhQzBRTHNuaXpBYlZ2YWEyNTVSYkZPWGlkclR6eWtBdU4yb1QzUUduNXZGQ1hRa1NvNVlYVE5Yb0pFZzU5T3BwVDRjRjhWU2plYWRwbE9QOXJFWWVqaU5WY05MbHA0X1ZhcDlIeFRTUWx1NTVzQ1hTMk1tLXB0SXdzend5NHR5OHlLVWducHJYZVVkQXBiS2hkN1ZEcTlhQ2RFbjg5aW9IM1VrWFE0VjRETmVwWmU0OWo2WVRUcmtuS0pWTDduOEFoQkM3Z194TGVqd0xUa3dfN0JY0gHuAUFVX3lxTE8waDlXRFFoQVktY1RKQTBGVHEtSjFRQTVDQTJpUmVzbWl4TVZLdy1PdkJPOE9BLWtLY3pycG8yNlZnRU9aMG1oYUV1bWxEREE4U2J1cjhvbldSY2JqXzFYcENNTnhqbW5rUnZSbURmSmRTU2xoZmx0enBlT1ItR1U2Y3NiRDR4Z3hmSGZnc2ppX29LMkNZR05XbGlNLVZfTHFEcEtYaFlmT0s1NnBsN1hoaC11Um1KVVRFcENwVGVUMGJKNnJ4dzk3bjU0dW00bzEyQTJJek80OG51MVk5dTVlUU9lX0R3aWZZbHhHRkE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Cómo Bioshock, Diablo y otros videojuegos vendieron su idea para conseguir el dinero suficiente para crearlo",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTEptSWZQU3c5R2xyN2xlb2FZVWQ3V3VYTWJ2VWFkQlFFdlFaTUh3RWpqSmppR1hMclItaXZ0NnY5QU9YeVJsX0ZfU3RocGZVOF83OTVBOENubnpMSmR4SnlRYjF2X3BtYm81MjdfZHNFQVoxQm9iN1Y2ekJ6M01rZmtOckt0T0dGLVh1YnZDdVdPZ1NSeUdNR0pHcXpSaVdaUUJiX1VxV1UxT2dlTm5QU0FaNDNBSDRVcjVWa2piSW41SDdQbHhkcGhhYktfOG91emxwU2pnQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: Antes de los autos inteligentes, ya existía un coche con dos Xbox 360 integradas",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYXpYYnB5ZlBjbUM3NDJuTG1WSkhHWmJEQXY5YXNFcVZkZjJuYXdTZno2OXgza1ZNeDhFcGYtME5XbGV1OTJvc1BTVy16NFVMRWo4LUExNHpMOTlCbFpqYk41Sk94TUJLTXdUMU1jdk5XcXVWRzQ1Q25jOWQ3MVBjSEFTVmdWOWdXVTBmUmswMWlBWGhFcHFpTThwT0xKbXR2S210SzlERXpiNDJMMlRPOTUyWGRXQ2lfdDVUTnN30gHYAUFVX3lxTE9kN3oyTXV4THRCMVpnZmZ1MTVHTFBmaWhRaGQ0bEhtSXpUT21lUzRIa1lCYldlVVhyU2ZNZXhYWHZJai0wV0RwU3VFRFVWSmJVbUVWZmNQV2g2QlNMM1lOcHFXaUFEd3JsWjI5U29SZkM4dWpGdkxVb2x3YUFZQkpSVDh4aGJmZGdmX29xQVU4Z0E1MDkwaG5qMGdRZTVpSHhHSVhhQkhGNzFxRGlqSGNTdTFEOGdIdWNtTVlMZU5ldDVQREZYcVY0OWt4T2FzM2UwTmVGdnVleQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "La Verdad Noticias: Nintendo sorprende con un Direct de Pikmin que dividió a sus fans",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSWZoUVVpMlhJN2JDZUpBNTJ6dFN3bEZkMnowMlREMUszQkE3V09MamZXUUVxS1VKX3JSWWt1OERiTjk2Mkt4TGJBMGdWWHNxcFk0dXh0cFFBeTN0Nlh5SEFOTTVjajI5bFlUUVVsYmJnMTJUVGhwcDVza2IwRjBOcF9pdzJzZjZ6RnhieFpQZ1Fkd9IBmgFBVV95cUxPR25FSVA3bmhfRmhJVXVESHdDa2NyaFkyY0U0cDYxRkthNDZFSkE5VF92YWN4Z1JFX0xxSk1IVkZNN09JU29vNDBGanp5S0N3T1hXS3hCZC01ZFI3dV9YSEhXbE15cW9EVWNHMXFJRkpfRTdKMEp0WEEteHd2YnNRZGdoanlHUDBGMFR4VzBRM0ZqTXpEa2pTdURB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Juegos mensuales en PlayStation Plus de noviembre: Dead Island 2, Tomb Raider IV – VI Remastered, Monster Train 2",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSHoxYXJKX0JqX00wZUkxU3hxTUt3aXkzRW1Rbkg4VkU5blBsSmczQ2ZRcDc1TXYwM2NzeFlqQVpRNTFMUjlqbUJ4aUFucmxPY0VuS3JHTHB5Rl91MWtQUUVIUUlJSFZZb09ZWmpwZV85eVBnd1JzNllqaHczSVJiU2dnckx4Z1RHVnNQVWZlUk9lRkgzZm96UDlRT1FfLXY2cVJDNlRkV3hjVks0ZGVwYlFvX3Y4ZUVUeGxwbDBsZVl3U2NLWDkxWlA4MVZsaVFDbm5oRHpyeDJIV05BVFhscFJVRFhMV3VSZ0RV?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Yahoo: Devs están hartos de que clonen sus videojuegos con Claude y otras IA, así que las grandes compañías regularían el uso de su tecnología con nuevas restricciones",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLW53VFhweTlpS1RRbzZXSzNGUm5ONGVHTEtzaHBiVlk1WFo4OXlZeEJfYjF1Ymt4VG4wVEpYNWVERUxGdERTXzJQRjBpbHNEZEU2T3hfTV9HdHR5LW1EZGlwYVhMTms2VlVWQmFQM2VvNUM2QUgtMEVaVWp2ZGtUY1Q2Z0ZTZnNMVUJ0UHpn?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo lanza por sorpresa un Pikmin Day Direct que ya podemos ver: estos son los anuncios",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWjgzY2dYLTVQaDJUZGhuaFVMSzFUZjBJUjZYZUFlYUZSemZ4elUzem1ybFBRNHJ1dVN4RjdSN081bFJIcHJJNmJ6VzZCanhUQWVYNlpiYzFxWTV5ZVZnMlpuSXVEcVBRMm9Ta1pBWDR6NkJIMFFKMGlrMk5vTW5IZ0lLODVtVV9FMHpJeTBrcXJFVmIxYk8xZnZBWnY1UjNMdGg1NmNoTnAyYTgxXzBZZUF2MTJldm1KdndGT2M5N0t3MHk3bHdqT3RPNEhQMURxYmc0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: Nintendo Switch 2 se desploma a 314 € en AliExpress con la Promo del 11.11",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ROWVxZXNYRkxrTklYLVhFd0ZtYzZ1VmFWS215SFk2UGN2bGN6TkhncXJHS3lhdHNNOGJWa2t0ZTFUTXNuQ3RYWXg0TlB5V3hDSXl3b05wN0V3Rzc5T2NmaDZyV29vdVdGLXRXQ01SLU81ZHJEckV6NkdjOW9ld00?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793473204205,
     "fecha": "2026-10-31",
     "categoria": "Tecnología",
