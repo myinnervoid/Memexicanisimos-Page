@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793559607889,
+    "fecha": "2026-11-01",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Auditorías de la ASF y Automatización Laboral: El Costo Real de la Infraestructura",
+    "descripcion": "Análisis de los desvíos en fondos de seguridad en Nuevo León, la automatización acelerada de infraestructura y las advertencias de Bill Gates sobre la sustitución laboral.",
+    "narracion": "El escenario tecnológico actual converge en un punto crítico: la eficiencia operativa impulsada por la automatización choca de frente con la fragilidad de los controles administrativos y la soberanía de los recursos públicos. Por un lado, la Auditoría Superior de la Federación (ASF) ha detectado irregularidades y desvíos financieros en los fondos destinados a la seguridad pública en Nuevo León [El Norte], evidenciando que la digitalización y los presupuestos tecnológicos destinados a mitigar riesgos sufren de fallas sistémicas en la trazabilidad institucional y en la fiscalización de contratos de infraestructura crítica. \n\nA nivel global, la transformación de los procesos productivos acelera su marcha mediante la robótica aplicada. Informes recientes de la industria destacan la introducción de maquinaria robotizada capaz de instalar pilotes para parques solares un 45 % más rápido y operada por un solo individuo [EcoInventos], optimizando los tiempos de obra pero reconfigurando drásticamente los requerimientos de mano de obra en el sector energético. En sintonía con este paradigma, las declaraciones de Bill Gates, fundador de Microsoft, subrayan una tendencia corporativa implacable: la contratación de sistemas robóticos e inteligencias artificiales orientada a la sustitución directa del talento humano bajo una lógica de eficiencia de costos sin contemplaciones [Xataka]. Esta disrupción también se observa en la ciberseguridad financiera, donde agencias como el FBI han documentado operaciones de actores estatales, específicamente de Corea del Norte, en ataques y robos masivos de criptomonedas contra plataformas como Binance [El Financiero], exponiendo vulnerabilidades críticas en la arquitectura de los exchanges globales y la regulación de activos virtuales.\n\nPara el ecosistema mexicano y las PyMEs, estos movimientos globales y locales no son ajenos. La falta de transparencia en los fondos de seguridad digital y física compromete la resiliencia tecnológica del Estado ante ciberataques y delitos informáticos. Asimismo, la presión internacional por adoptar tecnologías de automatización y modelos de IA obliga al sector productivo nacional a replantear sus estrategias de competitividad para evitar el rezago estructural. Sin embargo, la adopción tecnológica debe ir acompañada de marcos regulatorios robustos que impidan la precarización laboral y aseguren auditorías estrictas en el uso de recursos públicos. La soberanía tecnológica nacional se debilita tanto por el desvío de presupuestos de seguridad como por la dependencia de infraestructuras extranjeras y sistemas automatizados opacos, lo que exige una fiscalización técnica rigurosa y un rediseño de las políticas públicas en materia digital.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Financiero: Hackeo a Binance: FBI acusa a Corea del Norte por robo de criptomonedas",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQklPd1FaN2tzT1JvYVlMX28xLURsLXh0eE1kYWZEblduNmJsRHJHTEJjSG1NOTYxSVhEVTF5OXlBMHdOT21WVzJORmczbVlaUzVEZFAwUFdRaXdwbFhSVlowQlYzaVJsMmQ1SXBRUDdVNEdMMkhMUjF0WGM1MjJpT1RrbWdmY3pPLUxHSzg2SnYtejNDRkNpMXpYRi1uTkQxcWFKSXQyN1dUUGI4NE1BZXBwc1RIamZNUEhSQw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Halla ASF desvío en NL de fondos de seguridad",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLUVTTkFWbzNMd1Aza0VsZlRkenJVQnNVUFJMMnFnbmFLY1FYaGxvUjI4aV9xanNrdTZTcXVOMTBGa0RrSnJLb0JHakktb1FoUGlaYWVxYUJUYXRrTmtBVjlTY1MwZkp6aGUxY2FOejZoTFNKZUdySXUyeVdKWTV0TTFNR3VIZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "UnoTV: Más allá del altar: China desplaza a México del negocio millonario del cempasúchil: \"México ya no produce ni un gramo\"",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxON0kzMGlLMVdlRHZhcjhXZ3ZjY295dmFpRmRoX2VEV2FYU3p4UmlTUVBpUnY0S290b25JY3lDcVhhUEdwU1BPbjN3bEliUTNCTGNxSU8xRTBKX2M0VlVCcXlDSkk2R1BoQ3dmdW15eW1BOUFLU3ZFNXB1RWJSUXpIbV9OOEF2RGJ5bHBGSWRmdWdNRV83dFlUNkoxaFJTNncxdlBYRkZRYXBSbGswVFJ4VTk1ellNVXdqRU1adGpKNU5rX1ZpSzZPZ1VfUHFycy1nVDFjVVdmNGNDd2tTQ3NmTkp4SjVUYUpCeTIzc1lLWQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Conny le gana a la IA: Se sube a un montacargas para tomar las fotos del pastel sorpresa de ‘Checo’",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSUpRalZxeXZ6SWNsVHRzdnFGQW9KYzhxenBEUHF5NmJlSHlnU05SUFZUdnhXUHd1SjVPMGNGUzIxekJxM3FkSmdUQzQzMFFOZHE3b1BRLTl4UkxjZC0zdHY5VWE3OFFvSUIyTlQ3U0p6ZTFqbnQteHNkLTdkY19KMWRhdWtuYnlZWWpOdEtuWEx3RkZUSnBXTTF6Qk5BVjlxaG02dm5SdGI1ZFdZT0RMWVJzaEYxTnlEcWprZXg4T01ib2g0WFNSb3d1MGJYTnBrRVo5aWhxZXphS3dsTDZmbnR0dw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\"",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSFhPQzd4cnB3eVpqQnZLQTVDVVdNZW53SlhZem53YnlvUXdMOEFxSjJXd3B2TzZteHk5VldFVmpoTWs3aVR5WlVoX2otdDc5TFV4SlJtU0lUSGJ6VlIxNG94TjluVldSYUIwY3AyWHRjVWxYYTdNZkg4NGVFOE9kWVlBNEIwSnJYUVlQempBRHVRelA1VXlUS25oWnViVm8wSjFOcGN6cURwcHk4dDhFSVYwS2JqdXlyc0xtTXNuNEx3QU13VUJr0gHMAUFVX3lxTE9Lc2V1UlVLQVlOcFBCaFBpQnBKdm5tY05mLUY1VGxMNWI5eU1IT2Vxc1pEdks5TWpuUm1zSW8tOHVaUHJWM3JKeWlzYVAwMXhYZnZyU1lqOEFjVW5EX2JhSFo4RVBnZ19JQnN6OE1QRUJHSU1zdGpRdFB3dDNYbGE2QzJxR3NWZVdnM2RxaVo5ZDJBMWwzQXVFbXlicGQxTnE2TmVLTUhsVk0yUjlVUmFrUU1iVVVJQ3JjTkZITWFFYkM4ZDI3Y1NjTVRCbQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EcoInventos: Lanzan una máquina robotizada que instala los pilotes de los parques solares un 45 % más rápido: funciona con un solo operador",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWHNGWGc4YWRqOWE2d19xcWo0Rk96ODlyWURrZTRvcVFsNzNvanhUYnpaeVBXZUtKQk1VbXljVnBCMFR3cnFRbG9oZ3hwdHdENlNkdUNmY1VucDctOE5KNldubmJBdmF6MTBoNUNrRS1TaHJVMWlhdmx6dEVtVUZzZGNNYzQ1dzJSQzd0TnYwWnlEUkpWckNLdlRoelZMY3NoV2ttRXN6ektDLWZUQjJsLU4xRXJJa1ozejNUb2VJOVBubUx5bFBWNUlCN2dnZjZNUjcyZXN3QkdCU0w0RmZxWFd3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Infobae: Larry Page, cofundador de Google, se convierte en la tercera persona más rica del mundo y desplaza a Michael Dell",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEF4QXY2S3FqWjdlVm44N1R3a2x5RU5kVGhZOXRPZUE1dC04dFdmVUVjQkJDMWNGUFM1bW5YaEEwSWU5eTdtYV9DM0VER2hacE5jXzNCT0UzMVdSc0dWWHRuNzNmTFV6WlRCY3pGeFF4cWxYbTVuakFPQjRJRXhrQkZTWno4ZjU2TWVJREdoRnROVnNKcnNHcmRjY1UzN3l0RE1mVmwxVC0wazEtRnFKU2toZjh3VENNYVNwU2N0MWtsRXRlcnZ6LTR3bjNTTkEtQnB2ZEN4TlVSTzN3UnhsOG4yenN0dE000gGDAkFVX3lxTE9UUmJlNUZVeHRRYWRNTXN1dmc1czUyeU9DRzh2YjNpaUl1VXJoS0NZLU5wNGFzYlc2dDhRRjktT1pRWmpLZ3V6S0NHMUVnX0hCazhPMjR1TnBCd1cxME5VUzlIUzc2aW9EYkdmM3ZIc0NXVTE2cFNiaUY5WnI3VG9aZkFCSm9kZWtiSmF3MFNfZ1JoXzNVTU1IZ3hQbkdrQnJ5T1BsXzEyV1o2cnAzal9qTXRNeW9lakR6M0M0S0pJOU4wYUNBX3pWYm1EMm5ZZVZrTEFSWUlIOENtSzBmTC1GWTR6YzMxb081M2FTSmhhSzBrUkxNRmVDZnVIVWlYblBGak0?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: Esta profesora jubilada fue arrestada por bloquear un robot de reparto. Dice que lo volverá a hacer",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkwtM1VodVJtUWdUa0dYdzFxdUFSQUlaY1RZLVVUOEI3RElnMHR2ekxjOGZNZkk4T000MzlZR0ZLTmhaWV8teFdaM0hGMlE4bm5KRzdLaHdGZUxSRVNDR1l6QUhSN04xc0ZkcjB5Mkh5UkVFRHRlRVVIWWJlTVJMZm9SUko5cXZjMTE2MWRn?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793556003257,
     "fecha": "2026-11-01",
     "categoria": "Farándula",
