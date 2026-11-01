@@ -1,5 +1,60 @@
 [
   {
+    "id": 1793574004139,
+    "fecha": "2026-11-01",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Nintendo Switch 2 acapara titulares con preventas, chips de NVIDIA y especulación",
+    "descripcion": "El ecosistema de Nintendo experimenta un momento de alta tensión con la llegada de Switch 2, ofertas anticipadas en AliExpress, ediciones de coleccionista y el debate tecnológico frente a la actual generación.",
+    "narracion": "El mercado internacional y regional de los videojuegos vive semanas de profunda agitación ante los movimientos comerciales y tecnológicos que rodean a la esperada sucesora de la híbrida de Kioto. Lejos de la retórica publicitaria habitual, la realidad económica del sector impone un escenario donde convergen la especulación de preventas, las capacidades de su nuevo silicio y las inevitables distorsiones de la cadena de distribución global. \n\nDe acuerdo con reportes recientes de la industria, las primeras unidades de la Nintendo Switch 2 y sus codiciadas ediciones especiales de Zelda ya circulan en el mercado mexicano a través de canales oficiales y plataformas de importación. No obstante, el fenómeno comercial ha trascendido los canales tradicionales. Como documenta *3DJuegos*, las preventas y promociones del 11.11 en plataformas como AliExpress han colocado a la consola y sus diversos paquetes —incluyendo juegos— con precios agresivos que rondan entre los 300 y 348 euros, generando un atractivo innegable para el consumidor, pero también encendiendo alertas sobre la sostenibilidad del stock y los riesgos logísticos para América Latina.\n\nParalelamente, la especulación no se limita al hardware base. Analistas de *Sin Embargo* han señalado que los productos conmemorativos y de celebración por el aniversario de franquicias insignia como *Zelda* ya sufren de sobreprecios desmedidos en la reventa digital, un vicio endémico de la cultura de coleccionismo que afecta directamente el bolsillo del consumidor final y evidencia la incapacidad de las tiendas para frenar a los revendedores automatizados.\n\nEn el plano estrictamente técnico, el debate sobre las entrañas de la nueva máquina de Nintendo no se ha hecho esperar. *3DJuegos México* destaca que el secreto detrás del rendimiento de algunos títulos en la Switch 2 —que logran competir o superar visualmente a plataformas de sobremesa tradicionales como Xbox Series S y PS5 en ciertos escenarios— radica en la implementación del avanzado chip de NVIDIA. Esta arquitectura gráfica, equipada con tecnologías de reescalado por inteligencia artificial, demuestra que la potencia bruta ya no es el único factor determinante en la optimización de software, abriendo un nuevo capítulo en la ingeniería de consolas híbridas.\n\nA este panorama se suman los preparativos de software y servicios, con filtraciones desde los análisis de la app de GameCube dentro de Nintendo Switch Online, reportadas por *Nintenderos*, lo que confirma que la compañía continuará apostando por la retención mediante la nostalgia de pago.\n\nPara el gamer en México y el resto de la región, este momento se traduce en una balanza compleja: acceso a hardware tecnológicamente más competente gracias a la alianza con NVIDIA, pero obstaculizado por barreras de precio, escasez artificial y una especulación desbordada que sigue castigando el derecho a un consumo justo.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: Nuevos detalles de la app GameCube - Nintendo Classics de Nintendo Switch Online parecen haber salido a la luz con este análisis",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNN3Zvcm1ITzVvenU3cVl4Qm5WUzg0Y0R2TUxFWWJ6TEFlbEFFNUJoTUc5VnpfUU1qZnI1VmtXTkJBY0pOSHJxQ18zX2VzaDVYWXVnWGltLURtdWtlbVNzb2pMcWs5bTIxLTIyMjMwSGEyNGNRZlFuNXhYUGUzN0hKcDdiTlVKN3ZBMHJGaTYyRlVKandSQ2NVanJMQ3Y3WWlnZmVsZG5KMDBEcm5zbkw1QXkxRGlyaHI0V0Z5ZnpoeVY4blh6NEswUlV6MnBlamV1RG55ZnVCMGt2c0kxYmRxWTNpQW00TW1pdE5ZV0VqMXQ0WlJsUWp3TW5OcjdGNE1NX2tR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "La Verdad Noticias: Videojuegos de noviembre: Zelda y GTA VI lideran los estrenos",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUDB5akJJMHdfaVpXa3dORWxqSDZPV0JvV2lFd3RpbHA1WERSeHFvTEtMY3NSS2k0emYtd0J4aGJOMjl1cGNQckhCeFcxc0VTblphZTU1YTh3TG1fTG5OTC1jLUNkU2NrekRGd040YVBhdklHVHc3YkN2bFY2X1FZbkYwLTBGSGNOcUpQY1NSYW94WjDSAZsBQVVfeXFMTWcwcVpOU3p5TzNvdm55S1Zydm1PQUhPc0NoZkZCV2pGMkY3MXpHWllZek5ISDhjdng4YndoSXRpajEyaWczQkczN05JWS16b1UyYkpXdzloWjlzRm1CMVlmcTIwcWJaenZOaFhmbTlGdnhFNW44SXFQeDZRdExOcTNxXzB4ekNYMXpZQ0tSSzhKUElxeUduS3FFTFk?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Nintendo Switch 2 por 300 euros: Empieza la promo 11.11 de AliExpress con un precio brutal para esta consola híbrida",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNclJ5Uzg0TkgzN2FXb1ZlMXVpX1MtRVZEbndUd2VnTFM2Y3c0QU5tRXdsVEhhMnFnTEZhX3hZVXllMHZ5NV8yVFA4X0c2WC11bTlYU3hSS2o0a3FHX2FROVFvRnZCcDdKV0RkeEdneW83dG5yQ0x2bW9LWXV3THVFN25EUWl0WHY3dl95VExNMEZXMTcyTzM0ZUQ1dm5SSW55WEtIYW5kelpMS3pjU1ZudHN0R3kwWl9GZTYzdkJHZXlvYkd6TkhNNEp4VUVUMzJGY01rbGpOMllFQdIB3wFBVV95cUxNZTNfc0hGNExJN2Ria1pkR2RvVWg5blZTcGdXb1hLWVdFLTAtR0xhS05qTWFuT3hPdVpBdHVVSW9SVlpsV0t1czFBU1lOZ1VlM0JYVjBPMjhqWDZPa2pmWDViYTVWeGZSU2N4RTV3dVozeEhnbFNwRnQ4RHNTZXNPTGlUYUNUSHZGYTkyVHZKOEg0Q1hFRlpRcjZ1SHFQRk4zRGFzV1ZVbENHekhPclVhQ1BzNllJY3pJeXppaW04WjZGREtwT0o5QWl2dUJCUnhaaHBuamRhaUVUd2ZmNnZZ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos México: Por qué algunos juegos de Nintendo Switch 2 se ven mejor que en Xbox Series S y PS5: el chip de NVIDIA es la respuesta",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaFp6UFNWU05TWnZuaUxjODhDZ2JiTFVZOXdTVE5mc09tZlBRa19KUWU0dHdiRnFaSzBVeTNEUVJ0anVva05WMmJvNUU1UWFEeC1BdDNVTXNjMnVSTXRJVU1xNGZvOEgtSWZWWHExVXdmSklLU1VabjUxMF8yZTZrNFFXYUNYV25ic0pKYnlwYkIxMk50eTdXQm1HMUVCaV9tWmZobEVYUXV1ZjhjLWhzOWlGNFJlYjlodFFvMGhKQ3VtT2ZLZ0cteGxVMkRsaHpzM3pXaXlB0gHbAUFVX3lxTFBKTVBBa1p0LW1kRnN4bVBzdHFnek1vREJfamZvTnc5aEZNenpIMW42UUN0RjRwVjlxMDFpa2pTUUZhOGxGWldiODhpWUV2VTRhZlZnWVBJZ0ZwSlZTc0NWWml6SjZMekgxTVJ6a2UxQmNKR1czd3EyUGVKZ3hwakVYTVBzbkhNR3YzQTJrRzJVM1pfeVRGR1I1ZGg5Q1dtcEQycTdQcjFCMjNjSkt0MkJKcXlXX0xhU0QwbjFfWVBhMDUtN2ROWnMzTjFvczBhc2tSNDkyNW00dU5VNA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Gran estreno: la hermosa Nintendo Switch 2 edición especial de Zelda ya está a la venta en México",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd0NKMUdycVp3d2hVZjZDM2JicU5NOTY5MkRfVmdjU2xWcTJtM0FveVRKM2E4ZmZMMzRsVWxTZV9iVGNVVG1RRnd2SlQ0WXB2Tkc4Mmd4eU1NdnBfZkFLbWR6alFqZHJ0a2I5MWV0ZUhtbVowdHFTQnNNa2t3UzBTUWxhTUNtbl8yOWNPb1VrWEFXN210VHpOZ1ZReDU0aHJXcFhUSmFHOU1mTW5sVnVnSWlndjhlTmNN0gG-AUFVX3lxTFAwSHg3T3pnWEtVY0FTYmlsejBjcHY1QWxKdXZycjVsV21xdmtfQkNTamY4VEhKTFpCTWZxS3RfVTN4bkY4YXFPcWtjVVN2bDVjUkQxMHdGYnhoWFZaMUR5anZXcTI4aF93SlI3TFpmRWhjVzBWUHlqVVJjR0Zab09CSDFJY1NmX2cwanppc2JPN1E0V3NYZng0NklIeWhvMndrVy1MRzFpX1hJeHNHUl9OelpVa04weFVaTlp3NEE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: Nintendo Switch 2 con juego a 348 €: los cuatro packs bestiales que dejan los códigos del 11.11 de AliExpress",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0FoSUxGdHU5SzZ5bGpGd3BYRF9aWHRsZ1lYTVFuMWJFWGpBdUhOdFFiT191RzI2ekpUWGtZQUZJaFBqb3hzTjBIdVNveU41M0lKc3dFeGhiWGRrdlJEdVJVVEFvMVZTSkhyd3JVV2V0ZE5vcXlJZDduTWVKQS1kdnVJOWVxVXNELUcyTQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: Creador de la PlayStation desmiente que la consola fue diseñada como venganza contra Nintendo",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSEYtdlU4MnBJaEpMaG9zeXVCV3hWdWNHYTZwb1hPdU01aGloRDZlbGY1a3QwZUlCQzNDckVYdnU1UldMUVNHMlhwN0dvRkFxdG5sX1BVUTBIa05CcmdfRVRKOUVwbGprZ2JzbzV0YkZMTzZrak4xNlp3bWhubnJEUEM5Y3FlelRqeHN1TTJqRV9HZ3JHd25GcDFuSGtEUHJiVmo0Z2lCOUpiZjNDMUNvdXByanVHbDR0eEFQS3hoQnFnbm1kM3NZOE5LZWktTVVh0gHrAUFVX3lxTE1WZkt4c3VEMWhmQlpPRU5DSlN1YWhpS1I2cFJZOUhSbzJudFAzdXRTT2xQaVJNeWZRaTNxbzRqbEt6X2pwa212VEp4WUxzQ0VxVEdVZFNYanNkY3lyMk1tTlBIZ2pYNC1qSE51RUo0YUJSeGluZEphRW5LN2tWZGtPd3lOV3FvRVBJN2owdEpsd1U0LWM0cllMakJfWjNza3pDRGpDNk9uZGE4YU83R2ZlS0I1VWZkckZXWEpRdXZqUllwNVVBYUJOYWExU2FPX2lQa2xYZExVMGVVblc2UTl2R1dvRTUzaVd6ZFU?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Sin Embargo: Productos del 40 aniversario de Zelda alcanzan costos elevados por la reventa digital",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWTZPQXNEYVFFNVJEbi1qaVFocDFvMGJneVlScmJyZF85N0h2OEhRcEg1YzNIdEUweUg4WVBCaVVPbXdndWdVOUxreXZESjNwUkhOYzdhSWdrRUJIVzBzd0F0MzNPQUhhVHhMYTBIS3g2U3RBSEQ4N3RuaXBTcnl1X25TTXNxN3docmZGUF9RbWZTSGd3MDlLcWNWaHhVTkRPLTZHWE0ybllJR0xZZHFZYTh1Z2VRYVh5dW9EUA?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793559607889,
     "fecha": "2026-11-01",
     "categoria": "Tecnología",
