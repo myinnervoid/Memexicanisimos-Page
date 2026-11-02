@@ -1,5 +1,115 @@
 [
   {
+    "id": 1793642404335,
+    "fecha": "2026-11-02",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Industria del espectáculo: contratos, polémicas y reapariciones públicas",
+    "descripcion": "Análisis riguroso de la agenda cultural y de entretenimiento: desde la reaparición institucional de Sasha Sokol y el impacto patrimonial de eventos masivos, hasta las disputas contractuales en realities y falsas alarmas mediáticas.",
+    "narracion": "El ecosistema de la farándula y la industria cultural latinoamericana atraviesa una semana marcada por la convergencia de contratos televisivos, gestión de crisis reputacionales y la reconfiguración de alianzas en el sector corporativo y del entretenimiento. La atención mediática y legal se ha concentrado en diversos frentes que merecen un desglose más allá del consumo superficial, evidenciando los mecanismos económicos y de derechos que rigen el sector. \n\nEn el ámbito de la industria musical y los derechos de autor, el foco se mantiene sobre las tensiones en torno a producciones biográficas y el resguardo de trayectorias colectivas. En este contexto, la reaparición pública de Sasha Sokol junto al empresario Alejandro Soberón en el Gran Premio de México [F5] no constituye un hecho aislado, sino un movimiento de alta visibilidad institucional en medio de la disputa legal y mediática que rodea la proyectada serie sobre Timbiriche [F5]. Este tipo de apariciones en espacios corporativos de alta jerarquía reubican el debate en el terreno de la propiedad intelectual, el control sobre el relato autobiográfico y la protección de los derechos de personalidad frente a los conglomerados de producción audiovisual.\n\nParalelamente, la televisión de telerrealidad continúa operando bajo estrictos esquemas de rendimiento de audiencia y cláusulas de confidencialidad y permanencia. La salida de figuras públicas como Pablo Montero de producciones del tipo 'La Granja VIP' [F3] ilustra la volatilidad de los contratos de participación en formatos de telerrealidad extrema, donde la evaluación semanal del rendimiento comercial y la respuesta de las audiencias determinan la rescisión anticipada de los acuerdos de talento. La gestión de estas crisis requiere por parte de las televisoras protocolos rigurosos de comunicación para mitigar el impacto en la imagen pública de los involucrados.\n\nEn el plano digital y de la desinformación, el ecosistema informativo enfrentó una nueva prueba de estrés tras la difusión de rumores infundados sobre la salud de figuras históricas de la televisión, como Laura Bozzo. La rápida aclaración emitida por su hija, Alejandra de la Fuente [F6], pone de relieve la vulnerabilidad de las redes frente a la especulación mórbida y la necesidad imperativa de contrastar fuentes institucionales antes de reproducir información que afecta directamente los derechos personalísimos y la dignidad humana.\n\nFinalmente, la economía de la cultura y el entretenimiento en vivo demuestra su resiliencia a través de la ocupación de espacios públicos y la derrama económica en festivales tradicionales. La presentación de la Sonora Santanera en la Feria del Alfeñique en Toluca [F8], así como los grandes eventos deportivos internacionales, reafirman que la industria del espectáculo continúa siendo un motor financiero clave para las economías locales, condicionado estrictamente por la capacidad de cumplimiento contractual y la seguridad pública.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Univision: José Eduardo Derbez responde si una infidelidad fue la causante de su separación de Paola Dalay",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcmpzQlZSVGhEdnpJdGZWNkZybWhndHpnZUhDdWdzWmNXQzBJbnRZVVVNcnNFNlh6QVVtQlBXWkhFU0cwTkNLdlRMNXZhZktJdDhyWk84Nnl5UGFoLUJ3aEppX2tYN1BnUGhjNXpoNTQ2YlVpX1JLVzZMMTNRcG5UY1B5cHBCWjlNS3lVQmduZ3NKQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Récord: ¡Se pondrán los guantes! Leyenda del América participará en Ring Royale 2",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0NEb0J2X0xNbkphSG5oOHplcVcwQ042MTZyUGM0NzYwaWV5VzZQMlRtd2NlVkdMUS1CVFQtU1BIUFlaM1AyczFWS2llY29ydGpOV1dCaTRiaG9rQ2RvSGFaSFNQbFcyQ1J6Ym9pd0VpUDcwN3hrcnJxTUV6Sm9BMDFZNFI3TEE0Q3U1M0VCRlM0NTBmQ1ZRSWlSZm5pa01qZGZjeUl3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: ÚLTIMA HORA: Pablo Montero es el octavo ELIMINADO de La Granja VIP; HOY 01 de noviembre, este es el fuerte imp",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN3B6OVJINHhVTnJOVkdLVGNLOW9yVXdjenVjbVBBc29JeVQwRnpjencxY2hYVEdiS0xJVEtjUXllT2ZZemJLb2QzM2oyVExROEVoRDlWQk9Qc2NqLWZHSENNSV9UcU9ZblVKLXZ5aXF5SDBOaVJuZERQdVhUbE9MLUFocUVUVXkyZ08xQkt0MHhQb1hlWXZ3UGNTZ2NtSk8wYm9SOFZQV21wUk51QXBLRUxlODF6MEVxdlJnQzFyVngtdDjSAdABQVVfeXFMUGtWMzQyam1hTEVVR2t2WXN6cG5NZHZGRVFRSGtVZDBvaERpa2s3NUlPU2FvTVRBWEVodVhyUDFvSE5qYTlvNVQ5SDRBOTFUVHRUWEtzOEN3Nm14RGlFQ2t0TjJyc1RPZmhVTlZ1dENOWkFqazZyX0NmVGJfemVhN3VvdXVUSHpfSlVtT1d5V01RM2NpLUF5NTRBNHQzckpzbUhWYmZraGRIZWtFQi05UEFDbWd6VXNURy1aYzZQTVowOEtrTF8xWVJiVFFhREtPaQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: ¡De su propia mano! Heidi Klum sorprende con su disfraz de Halloween 2026",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORU1tLXRRc182eU9nMnR4Z2lEV1hfU0JRTlc0dEhGVm1iaW9Vb0dsUjZYUmgwSExCRzB1OEtrOTBNdklZQjZHTFZYR09KN21kbW5lMmhTbWZSY09tRUEzczlKZzZueHdWS0NVLXNvdk1URUd6X3ZjT0RjNWkxaUs5b2FTUTJ0Snhhb1NBSy1weGwxeWVqR2ZHU2hzYWtwOVh1dHdZckw2TUtyZ2g2RE5Z?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: En medio de la polémica por la serie de Timbiriche, Sasha Sokol reaparece en el Gran Premio de México con Alejandro Soberón",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNb0hrVlRxeFdOSEtOM2ZuV0k4TUp0MklUWXlwTjhyNjhISU5yM1lHSXViaEVWVmVuRUNETG9Va1dFYkNsVFdjUElIS2VvUHZTUXZtazNUeG9QdFZRZ2dKSWVHSmFFRkI3bENHQmVBWlRiRUxUOC1YbW1JSFk4Uy1IZlZ0U1NUc0M1X1dBMVZDTEtIQWJ2V1VGVWFPeHhXUS1DSHhsZUt1VlVkdjlvSEtZdENwTGNMRmlGN24wcS02bmZsSk5Za0JBbU9NMXhKZE5TRnBtc2FsUDc3c1ZlTjVfak1peVZydEhGdWdNN0hUaW1kYzludUVsV9IBkwJBVV95cUxQdmxyQlpXaXdXQ3FBUk1MTFY2RVI3TWJDNGh5M2JjdHVjR3AxNEF3U0xsTjFDb251RnQ0MDV5UzQ2dVdHVzBBQmg2aXJPTE0yMnliMEZLc1ZJRnVyTE0yQzFNUnZDVmNVQ01mNUNFallxT25oUUhRNmN2SDU5TzZnejFhV2dDTHYwNndJM0d6U3lYTDN1WmxIX0pqV0EtZ0lUU3c3dGwybEp6dUdPYUJWbGdPMDBuQ0JTRDBvbGptWklOUEJXNjliWV9RbzFvdFhKWTYwbXhuZlV5aXVQeldYZVNhZWQ2SlVTcDJSZi12R200cUpvX1NlMmRHRl9DR0xDcEVrLWhRRWxnd3I4XzNpTjBRcw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Ambito: ¿Murió Lauza Bozzo?: este es el comunicado de su hija Alejandra de la Fuente",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamhXRkVGWWU4ZDkzdWVjWXVGaWktWnNjT19RS2o5TXRNcGwxQ0R1SkpzZmJNS0FaUWNrVzdPc0hjbEFzVldjdzZYY2RIckhIRlBXbDR0S1pGcjM4cmh2bTU2RFhFMkVNendCX1gwTHpnNUhZb3dpb3kwejBnenJ6WmZCSFlUdFFoRWY3NV9sUjJWZnRBLTNVMzdnUWxkamNXd3VJSGhmYkFjSE1LMWVFSjY0RTZEZkNkMW0zTzBWd1FhVG1S0gHKAUFVX3lxTE9wODVicFBXRDdZMVRyUjRNLVk3eS1xZUdqaExfZ0ZXd1NYR0lOSXFTZktLcGRfaklQaTdOc3V1ckNkTzRJc21iMGNadFI2MUx5NlVsUmN1MTkxTEw0eXA4X3ltcjl0M0E3Y0pKWVIwT1RNWDlpYnh6eEF6MWhTNG1RZmNkWEtBRzVtUVhjeF9INzZTdFVlaVh4ckptRjR1U0NyUkFGcW13Qk1JeTFQRml4SUNaRTJpTXNnVUVnWnk4NmpFNmlqVEMybWc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: ARIZONA A SUS PIES Rocha",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mYTZkTFAyblZtUHpkZ1JQUUtLLVdVb0xvemxndnFITDh2MEM2N0lSQmVZTFNYR3g3SWl1MDR1Q2VNQUFFYjBDNmZNdk9HRmJaWDRWVDhwRTdyd1E0?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Sonora Santanera puso a bailar a Toluca con invitados especiales en la Feria del Alfeñique",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVERSQUtGNkZ1Y1o2X3Q4dzNqbkJFUUg1M1hrZk5JekRvek9qQ1QxWmZCNDJhYjlmU3JRaGVpUi1nRFExUHBMNW9LSXpJbG4wemFJc3M4XzZES05ma3M3V182bDFkM1FiUDNIQnkyOEVUNXk5NmlCYWRXZmhHYm5lYzB1MG5Ua2pLYzVIZkw2bzFwXzFnWVdVTHlkMS05czQ5bHJaS0tQQU9UMXRJRWNkQW8tTFdYSGlNTGtYT3hOcWtXODZRd1lzcTc4NA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1793581205707,
+    "fecha": "2026-11-01",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Operativo contra el CJNG, crisis migratoria y reacomodos institucionales en México",
+    "descripcion": "Análisis de la desarticulación de células delictivas, protección consular a connacionales en el extranjero y modificaciones administrativas clave en el Estado mexicano.",
+    "narracion": "El panorama nacional registra movimientos determinantes en materia de seguridad, procuración de justicia y administración pública. En el ámbito de seguridad nacional, el diario *EL PAÍS* [F1] documentó la caída de una estructura criminal del Cártel Jalisco Nueva Generación (CJNG) vinculada al homicidio de Carlos Manzo. La operación, que derivó en la detención de más de 30 personas, fue posible gracias al aseguramiento de un disco duro y la intercepción de comunicaciones en un chat cifrado, lo que evidencia la evolución tecnológica en las investigaciones de inteligencia financiera y táctica para desmantelar redes de sicariato y blanqueo de capitales. Este golpe asestado por las autoridades busca frenar la impunidad en homicidios de alto impacto, aunque el reto institucional sigue siendo la contención de la violencia regional y la infiltración delictiva en las policías municipales.\n\nEn el plano internacional y de protección consular, la Secretaría de Relaciones Exteriores (SRE), citada por *Excélsior* [F6], confirmó que 12 ciudadanos mexicanos resultaron afectados tras un accidente ferroviario en España, registrándose una persona desaparecida. Las representaciones diplomáticas mantienen asistencia jurídica y médica a las familias, un hecho que pone bajo la lupa los protocolos de seguridad en la red de transportes europea y la capacidad de respuesta inmediata de la red consular mexicana para connacionales en situaciones de vulnerabilidad.\n\nPor otro lado, en el terreno de la impartición de justicia y el estado de derecho, *La Jornada* [F5] informó que Ernesto Ruffo Appel obtuvo una suspensión definitiva contra la vinculación a proceso en su contra. Este recurso legal frena temporalmente los efectos del auto de formal prisión o vinculación, permitiendo al exfuncionario enfrentar el proceso en libertad mientras los tribunales federales resuelven el fondo del amparo, lo que resguarda el debido proceso y los derechos de presunta inocencia.\n\nEn cuanto a la administración electoral y fiscalización, el *El Economista* [F7] reportó la designación de Blanca Cruz García como presidenta provisional del Instituto Nacional Electoral (INE) tras la salida de Guadalupe Taddei. Este relevo institucional ocurre en un momento crucial para la estabilidad democrática del país, exigiendo continuidad operativa en los procesos de fiscalización de partidos y organización de futuros comicios. Asimismo, en el aspecto socioeconómico, *El Financiero* [F4] recordó la implementación del cambio de horario en determinados municipios fronterizos, medida que busca homologar los mercados financieros y comerciales con Estados Unidos, generando un impacto directo en la dinámica laboral, energética y de transporte de la franja norte.\n\nFinalmente, la agenda social incluye fenómenos meteorológicos y atención a la infancia. El Servicio Meteorológico Nacional (SMN), a través de *UnoTV* [F2], alertó sobre el ingreso del frente frío número 4 y lluvias en 21 entidades, un factor de riesgo para la infraestructura urbana y agrícola. Paralelamente, *El Universal* [F3] destacó la respuesta institucional de la administración federal ante la solicitud de apoyo para Xóchitl, una niña genio de Chiapas, canalizada por redes sociales. Estos eventos subrayan la constante intersección entre las demandas ciudadanas digitales, la asistencia social prioritaria y la gestión gubernamental ante contingencias climáticas.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "EL PAÍS: Un chat cifrado, un disco duro, más de 30 detenidos: así cayó la estructura del CJNG que mató a Carlos Manzo",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbUs3eVlISElLMzBnZHFjZUxEOTFPNmZvMjgwWFF2ZldwQVBvWU01SDJsTkpVVlRNRXprY2Jwd3ljeWNMS0xhU2Q2bVpYY0RMbk0wYnNZaTJGdlhlTGduY0RQam9xejBPblJweEU4dVNvVFZNZ3hITXAxU0tnUWxXdzk0QnhnelZLOHBDT0JZSXUyZlA2RFJFeGpCSzNkMVVOQjl0MEotWTF6bXI5czNZbnp2TTJhaUZTWlhSc0xUNGxvXzFNTXNrVV9MYVJfN2FMQ0xlaXlzVjRmaERYcUM3bw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: SMN pronostica lluvias en 21 estados y el ingreso del frente frío 4 este domingo",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pVmpvUGt2eUZRVmNaQTEyUS0zNGRRRFE3MUs2MWZ0VlJvRVAwd1dHbEFsUFJvS2FtOEpFdXBCOWhNeHZOSWhPR2JhcU53SmptM3BYMnlNUldjTVpReTlJaGJEV0xOeUFnX3dSbnBvRy15RTQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum responde a llamado del influencer Alexis Omman para apoyar a Xóchitl, niña genio de Chiapas",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaURqWDNQOUZxOFd2OVZkOG1ZanBPMEdOQVpBd3E3TUxNMXNlamJaSThCMEJFZ3Ewc0VmWDZYUE5nYkxSRDFSODRJWWZ4YzBGd0VlMmtjUmVZMk5iUEgzelBrYW9VdVhISFZQeDl3Q0NmdzZTU1FKUHE4UTJsclNsWGhTTmNZNXJ2c2Z6c3UxdW9rVWYydFM3empNRDlCYVNTUDFMbEZUdWVmWkx1ZDlMa2RmaV85V091WUxXbkpNS3lzYURWd1d4NHVmR21MWHhIZlJYZ3I1SQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Cambio de horario en México: ¿Adelantar o atrasar el reloj? Qué debes hacer si vives en estos municipios",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQkdBUHJIdXVHWE0yRm1rUG5EZjBjdFJDSzk3MnBKUkdCN2p3WE9TZ284RHA0ZzJRYWVpT2tBS2Y5NEVBc2xfRmZaTzI2Y3lrSDZZam1BX0lQbFJub0Qtc1RaeGoyNkdESXZGa0xCa2ZSNUluM0xwQVhSazZtMml3dVRkUFpvQm5mcTIzd2tCMFJHUkhvYnQ4WmFSVnRqUXVSUXN3bGtWaWg2QV95Y3JJREtZcDlHMmNzR1RlV24yeTVwdmFKREpmWkhIalNxVWI3WTFtZ1BqeDBWT00yOGg4MG11aWRCcVBodnc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Ernesto Ruffo Appel obtiene suspensión definitiva contra vinculación a proceso",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVVBpU0xIZC05bjNwdTRCVnJVM2xtVUlhUEYzZF9SSFE1S1BxUjBnZHUwSGM0RUJjb09ENkhkdU05NkNkUV9ZUWoyUS03RTNrbkdvazJ4TFBJcFAzSXR5eDhjaXJLMVZrYkNOamJpb0NxbDdfX0p1THdsWjZ4YmYtdEYxWF9rdWpSemhSRXhGNGN2X3AwUnk2VHBKX1VtSWt6OF9XaV95NkV3R2x0cVdUUGh4RjVKRTAwbEdrblVMLTJFYTVjVUJLSzYtMDRJUQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Excélsior: 12 mexicanos afectados por accidente ferroviario en España; uno sigue desaparecido: SRE",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMUlPUW1aVjRzWXM3c1RBblFqUFFFOTBSckFiakFWRk92YVNtQ0tzclBRUXNzeTkwMzBqVG5ZU2RTLVlCd2lvUDAxRVFIOTRZZ2ltYlQ1STg3ODZJclpYVU1qeWhhZkhDeHRTUmp4VlU3U2FQd0t3X1paYUZTSWtNVEhDa25YSnBVenJsd0oyOXplVlBVcTJyZ0lzUEIwRkFPXzQzajFNcWs4TjlnQjl4VndsU3JoQWPSAbwBQVVfeXFMTTdsT2dUYmRzUEZLbG9obnNXaHU5SldUYmVIbmo2Nlg0U2hwWDFJazl5dGdMVmxzNUNkb1J5X1drNTlIOHpleWpRV0JHNXNXbXJMdFFjWFM2UW1LVXdWSTV3endaeGEwUU9hajRFU295VGktMC1YRDlUZERRSlpicHduOXpGYjlWMmd4MWxZSndLLVlFM3NvMTdDeUpPNjhscm8tVE9rTzJBZnpocFUxemV5X01HVFpKM0lmanA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: INE designa a Blanca Cruz García como presidenta provisional tras la salida de Guadalupe Taddei",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcHpxZE90NGNCQUpELWloTHptZ3Z0N3ZaVnc2Y1BOMWJxNXBSNnppRGRoY0FTSjZTeXVDbEVtMm5ONk1MdTE3UmVXdVllVEFMSDFvNXhuWl9kZ0E1LTFDa0dDSUlJV2w2ZXRfaEJuMlV2MkRjdm53VW1YdDlISW9naVQ5TUttQk9oT1BGd256SlhqR0VMd3c3WUZWa0JiQ0p6NzcyTDBaMEJEUlR4TXd3RmNUblBPQ0RDaU9GN0l3TzZjRkVZZXVweXRNWHZScHdlV0ZYc0V30gHbAUFVX3lxTE5JX0duQnNsTG1FLTVNTnAtamc3UUdiMHU0TWMwaHZjalEyV0FDUEFqUXFVS2s5SlRKU09YSGxzM2ItYTRoTnJDQWI1SzJMTGlxRzgyZFo5c3lwc0ZpcjRPbm02d1NBUnRwWWIyeUZUZTRXZVR4S3RveTYybURPMmd4dmwyMWlldHRvSmZtYm9MaUd5YjhtVDhZV1VWR2hRbk81eTUtNzJfNVRNVm05dDAxemVidmpWS1FGcVNYVE1hR2VwR3FzOUNQbUpaNDMwbElrZ2p6cFpCczZ1MA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Sheinbaum muestra altar de Día de Muertos en Palacio Nacional y explica el significado del cempasúchil",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT1dPUnB4NlF0VmZrNlowZlJIblZVWFZ2dDJiNmhuZ3JRNUEtVHhBTlFzdFVuNS1OaVVtVVVNaWczUDJCc1QxX0pPYzczSWpKWnE0VnVua3I5b3BHcGFiWm90NFVVQU9MRXNjelhLZzQtN09nQVZYLWFGeXQ2N0o2MFNCV3VvLXhsM084QlRsemJHYkhocnlneFpwNzBsZWF1MjJvd2VJNVd2MVNXQk5wc1FEaFpjT1JxcE5odEtGN1FST01oQkluS0J4ZmlRb3c?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793574004139,
     "fecha": "2026-11-01",
     "categoria": "Gaming",
