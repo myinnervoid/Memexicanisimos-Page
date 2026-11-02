@@ -1,5 +1,60 @@
 [
   {
+    "id": 1793646004401,
+    "fecha": "2026-11-02",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Soberanía digital en jaque: Ciberataques en Europa y el expolio estatal de criptomonedas",
+    "descripcion": "Análisis riguroso sobre la infraestructura europea vulnerada, el blanqueo norcoreano en plataformas globales y la presión sobre la capacidad de cómputo local.",
+    "narracion": "El ecosistema tecnológico global enfrenta una semana de severas tensiones en materia de ciberseguridad, infraestructura crítica y modelos de computación descentralizada. Desde la óptica de Memexicanísimos, es imperativo analizar cómo los incidentes recientes repercuten directamente en los paradigmas de soberanía digital que impactan tanto a los corporativos internacionales como a los mercados emergentes de América Latina. \n\nPor un lado, el reporte de DW.com documenta un nuevo ciberataque sistemático que ha puesto en jaque a la cadena de suministro y distribución en supermercados de Bélgica, Suecia, Estonia, Irlanda y Luxemburgo. Este incidente expone la extrema fragilidad de las arquitecturas de red OT (Operational Technology) e IT en sectores esenciales. No estamos ante un simple hackeo de credenciales; se trata de intrusiones avanzadas que aprovechan vulnerabilidades en los sistemas de gestión logística transfronteriza, evidenciando que los protocolos de ciberdefensa europeos continúan rezagados frente a APTs (Amenazas Persistentes Avanzadas) altamente coordinadas.\n\nSimultáneamente, El Financiero reporta que el FBI ha vinculado formalmente a Corea del Norte con el masivo hackeo y robo de criptomonedas en Binance. Este caso confirma que los actores estatales utilizan la ingeniería social y las brechas en la gobernanza de exchanges centralizados para financiar operaciones ilícitas mediante el lavado de activos digitales. La opacidad en ciertos nodos de validación transaccional sigue siendo el talón de Aquiles de la economía cripto global.\n\nA nivel de infraestructura y hardware, las declaraciones del CEO de OpenAI, Sam Altman, rescatadas por VidaExtra, apuntan hacia una reorganización radical del paradigma de cómputo: califica como ineficiente que la memoria RAM en las PCs de los usuarios permanezca subutilizada el 95% del tiempo. Esto presagia un impulso agresivo hacia arquitecturas de computación en la nube y procesamiento distribuido por IA que exigirá mayores anchos de banda y redefinirá los requerimientos de hardware local para desarrolladores y PyMEs.\n\nFinalmente, en el ámbito nacional, la conectividad infantil en México —analizada por EL PAÍS— revela una alarmante paradoja tecnológica: mayor penetración de redes pero profunda desconexión social y ausencia de regulaciones efectivas de ciberseguridad y privacidad en plataformas orientadas a menores. La falta de salvaguardas normativas deja a la infancia mexicana expuesta a algoritmos de hiperconsumo y depredadores digitales. Para México y su soberanía tecnológica, la lección es clara: sin una inversión agresiva en infraestructura propia, marcos regulatorios estrictos contra el lavado digital y ciberdefensa robusta, el país seguirá siendo un simple consumidor vulnerable en el tablero geopolítico global.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Financiero: Ahora, Pepe Merino",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbkZjbDdxUlRuVFVuMS0zeUJjLXdqV1lnczhob2I2aGlqS1NrWWY0Zl91ZDJwSG1iT1VocWhzbkNhUzd6TlllQ2d0Tk1CWW9NWEdMc1RzaWJIRUxDaVo5Sm1qS19aNjM1SDN5S0JSZ25CeWU0STNCVExydWtSM0p5RGVmb1dTM3EtdDlBeHBRT3Ixel9zTkE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "DW.com: Nuevo ciberataque a supermercados europeos: hackers contra Bélgica, Suecia, Estonia, Irlanda y Luxemburgo",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxONlZKSUFibEJBeHZKdklIeHpwM29teE1HaEdMbGJwOXF1ZHJ2TW5CWmJJd3RjYUxTY0JpNF96Wm43YVE3bXg4THE5eTkzSG1jUV93eklWTG9udXRQbWRGbGF6MkhIc3hEaWZ3N2dXRWVQc19kWTluUjJRTFM4UXFFdWc0V3hKNVZpVHkwcGtzM19sR2Q0Tk1BZDJYVE5fcmIzVnlTczNzTDdvZnNRMy00V3oxeUNUc3RuWHhGNkMyRlMyck1NbWZoandYWGFtRWJJVDk3cnhkSmJBSzhEWHh0T0t4d2VyYlZISkVnczVaWHRqUXl3Z3dYdlVqRHlIY2JpU3ZVTmFlMNIBhwJBVV95cUxQay1ESGRqVkw4UDdvRTZXbEM3eVRUVkdzOUVKUF8tTEdrUVRiblRybHRlRlphMmZjTkJuejlUaXRwWDVyY01lZ1gwZXk3Skg5RE9SYTVBWmJJbk9mcm40NWhlSHZzZ1ZBbThhZllUYV9BQVNWT3NKeWlkeGNtQnl5Q3NqRXhCdXUxZG9TYnJ5Rkt1VzdxZ0Y1V1pTQ0hhamRsSl9YVlVJVTlLMUl3aWI3THdkamtEOE5lcmJkRVFxNjhoNlZuYkpSVEQ1LVVBVS1Uck1PTGFOXy1UbVhVX1N1Yk04WmlPYlVRN2RZTldXZ1BwUE52WEp6ZEI0ZXI4OHdFcUlrXzhOUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "VidaExtra: Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su propio PC utilizándose solo el 5 % del tiempo\"",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxON290V2JyOVZodU1ZaGt4ejJRbkJHVXlYWi1qVllXdS1mekZRT2MxdHphekI3NUNBWU8tVWFkaS1PQzlCU0E3QV80VkF0RVh0SGlmY3hLVlJyckhkempjdkY2d0ZkcWpqcEFIX0dKbUZIY2NMVXh5Qm10VS1TR3dpcmFtSDl4Wll3WFExbzFBTVdwempFRHl4X3BsMDVLdUJfX2NPQjJGaW12LWhuTUQyaWFpSGVmd0c4Wll1WlZ2QXB1Q1c3endlMEo5ZFNJZEpXRUpNZzZsczBTN1o5?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Hackeo a Binance: FBI acusa a Corea del Norte por robo de criptomonedas",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQklPd1FaN2tzT1JvYVlMX28xLURsLXh0eE1kYWZEblduNmJsRHJHTEJjSG1NOTYxSVhEVTF5OXlBMHdOT21WVzJORmczbVlaUzVEZFAwUFdRaXdwbFhSVlowQlYzaVJsMmQ1SXBRUDdVNEdMMkhMUjF0WGM1MjJpT1RrbWdmY3pPLUxHSzg2SnYtejNDRkNpMXpYRi1uTkQxcWFKSXQyN1dUUGI4NE1BZXBwc1RIamZNUEhSQw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Los niños de México están cada vez más conectados y más solos",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSkNocFp3RkNCc25TVldZWlpXamZrcVhpSVJqeU9rckhaQWNJTWU5emRDX1BoODF0WUhsUldQXzJrcmFNc1hZQ19ob2ZwZFVnZnJtWXlkUC02Rm1NbkNRVUpZVmJreFVDRlVXdUNDX295MVpUTmNRMXRFN054alo4V2ZKcmtaNmdrcFRqYk5iQWRWTzJqRk5fTk56QV9RQXhETjZXU0JB?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Pablo Vázquez y la mejor policía del país",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVDFxazh2SUdCTXR3WW9CODJTZExTU2JxVUVUQlRxQjRpQVFmRzlWZzFaUnFkSDM3SXlweFlKazFQQmJMOHo0OW1WcHRXcnBtbU9QY3RlOFliMEpHLURiMHJ2LXVHMy1kOTRQQ2J0clJmVzZxN25jM1czN3dTWExQam5ZZjNodTY3cDl3WUR5RE9sVDlhc3Y2VTdtSUdPd1ZtSzFXbnd6ZnRkaU9rUk80UzNRbHBOSmZrOE1xZQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Las deudas de la IA",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mWE9qelFGSTFpLXZmYU1ETjY3bjFOX3FBSE9RS0QwYXdPUDRMMFg0NE1yX2ZPcEY0cm5qNUpQWS0xYkJhOHlaQS1sSlZScXA0ZXdQNkJ5a0wxQktDdVZwbmxBTllvTkdIWXlaa1hmcjNpWGdLTTc1TmhyX0NZQQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Conny le gana a la IA: Se sube a un montacargas para tomar las fotos del pastel sorpresa de ‘Checo’",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSUpRalZxeXZ6SWNsVHRzdnFGQW9KYzhxenBEUHF5NmJlSHlnU05SUFZUdnhXUHd1SjVPMGNGUzIxekJxM3FkSmdUQzQzMFFOZHE3b1BRLTl4UkxjZC0zdHY5VWE3OFFvSUIyTlQ3U0p6ZTFqbnQteHNkLTdkY19KMWRhdWtuYnlZWWpOdEtuWEx3RkZUSnBXTTF6Qk5BVjlxaG02dm5SdGI1ZFdZT0RMWVJzaEYxTnlEcWprZXg4T01ib2g0WFNSb3d1MGJYTnBrRVo5aWhxZXphS3dsTDZmbnR0dw?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793642404335,
     "fecha": "2026-11-02",
     "categoria": "Farándula",
