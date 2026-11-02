@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793660404212,
+    "fecha": "2026-11-02",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "El mercado gris y los aniversarios redefinen el pulso global del videojuego",
+    "descripcion": "Análisis de los movimientos de precios del e-commerce internacional, el impacto del firmware de Sony y la revisión histórica de Nintendo frente al consumidor latinoamericano.",
+    "narracion": "La industria del videojuego atraviesa un periodo de reconfiguración económica y comercial donde los canales de distribución tradicionales compiten de forma directa con plataformas de comercio electrónico transfronterizo. Recientemente, portales como Xataka [F2] reportaron ofertas tempranas en mercados globales que sitúan a la anticipada Nintendo Switch 2 en el umbral de los 314 euros y a la PlayStation 5 de Sony en 410 euros. Este fenómeno de precios globales expone las profundas distorsiones en las cadenas de suministro y los márgenes de importación que tradicionalmente golpean a regiones como América Latina y México, donde los costos de lanzamiento suelen sufrir incrementos sustanciales debido a aranceles, distribución local y la volatilidad cambiaria. Para el consumidor mexicano, la dependencia de la importación gris y las plataformas asiáticas se ha convertido en la única vía para mitigar el impacto inflacionario del hardware de nueva generación. Paralelamente, la infraestructura de software continúa experimentando alteraciones técnicas constantes. Según reportes de 3DJuegos [F5], PlayStation ha desplegado de forma sorpresiva una nueva actualización de firmware para PlayStation 5, elevando el sistema a la versión 26.07-14.22.00. Aunque este tipo de parches rutinarios buscan blindar la seguridad del ecosistema y optimizar el rendimiento operativo, en repetidas ocasiones generan fricciones con comunidades de usuarios debido a incompatibilidades temporales con periféricos de terceros y modificaciones en las políticas de uso digital. La gestión del ciclo de vida del hardware por parte de los fabricantes prioriza el control corporativo sobre la estabilidad del usuario final, un síntoma claro del modelo de servicio cerrado que impera en la actual generación de consolas. En el frente histórico y cultural, la industria celebra hitos significativos que contrastan con su actual vorágine comercial. Por un lado, la PlayStation Store conmemora su vigésimo aniversario [F3, F4], invitando a desarrolladores globales a reflexionar sobre la evolución del catálogo digital que transformó el formato físico en un estándar secundario. Por otro, Nintendo continúa desglosando los secretos de su legado mediante su formato 'Pregunta al desarrollador', analizando las entrañas de títulos emblemáticos como The Legend of Zelda: Ocarina of Time [F1, F6]. Estos ejercicios de arqueología digital contrastan fuertemente con la agresiva mercantilización del software actual, donde los remakes y las suscripciones de pago sustituyen a la innovación orgánica. En conclusión, el ecosistema actual exige un análisis crítico constante: mientras el hardware se encarece y se bloca mediante actualizaciones opacas, la nostalgia se monetiza bajo esquemas de suscripción cada vez más restrictivos para los jugadores de la región.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintendo: Pregunta al desarrollador, volumen 24: The Legend of Zelda: Ocarina of Time — Parte 1",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2xLWnVrdkdaVGh5LTQ5YkNHSXpReDU5Vm5Mdmw1S2VpMEMtME52UjhoMHlOQVhsVnBKWmxuOVBEbjZzUEt3TlZMcm1BbHItZFhKX0EtNFFDX0xPMkE4VTg1X2hkTm9vaGxTNnROSHpQWXNrZm4tVnhVZVc2Xy1yUW53cm1oSHFvQUFBckJnQlYtMmZzNUxQUThPU3JIckF1cDFVVEw3dENBUzVrQ0Q0NEtBN2RqWkxxb1A4QVRn?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Nintendo Switch 2 por 314 euros, PlayStation 5 por 410 euros y más. El 11-11 de AliExpress da el pistoletazo de salida",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONEFGQUJHWHlWRGFzY29zY01vYU9rT1N6NklZU3J5cmFUZjRReE00QWczdlRNLTM3Szg4UDh3MEJUOFYyMzJBX1h2MW10UGhsazRGdlBIYUxFWmx5enFYTGVPRml3TTgxRnhzNXFDLWc2dDF0NTdWUEQ5cmt6ZklMOVF5WVpCU0c3MTBmdW5MMXkzOERvN0lXeXJPTXZjdU85SmtxRmR2Y3I1N0hNY2NJaXoxUXhqdVdvOXp1LTNBWULSAcYBQVVfeXFMTmdXaWJzWm1tYWVkc3A1Q2NIM0Myb2ladHNnc2tfdmQxRXlDeUV4TzFkcFNjYWNPNUFZSFFrNlZnMm45dW1qaml5QnJ2VV9JRGI4dGp3QktyZ0hsSk01eDc4SjZXWndlRDV2eU1JalZ0d0M2YWZ6cWF2S2NvOF8wTFBUN1lpTGpFLXpWSGc5MDAwdXlHR3RRVkREOG1RU0ZHWXE1anZYa0tRSkk3Mm9SdUNkSzM0bFhPLVp6bXJ6emxrMmpoOWxn?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: PlayStation Store celebra su 20 aniversario y los desarrolladores escogen los juegos que más les han sorprendido de PlayStation",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNSUtqN3JUbUFPa1lsNHgyWFRmQ0t3Q25qR0ZLaWRTbXN3bUdDTlVtWUoxdkR2U2diZ3hHbUhhYW1xUHoxUFFJNG9KdlVYNnlBZXZJQjd5WmN0QlpJUlJ3WDRNa0pGSk1PcGJxTjZ1Q1c1RDRaMWo5TWFDUXlWZS1QZ0d2Q3djMGJLejFfYlNlUlp3Y3QtU1JzazNWUmNrakxaN0t6eDVLb0tQRldwbkRvZU1mQTI0clBXWE5KencxWE1DTkppOTRXNUN3eS02QXlIUmdkM0Z5OE1WN3BSdk0ydWt6QkgwbE5lbTVTT3RsR25DNzl3OWlCNE1PVWpubDhuWkpRTWxnd0hPUXc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: 20 años de PS Store: los desarrolladores revelan las grandes sorpresas en el catálogo de PlayStation en dos décadas",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUkxCYUk5bldaYTMwenBLeFIxM2JMODJBVWpxM3ExelQ0T0Q0WFdyZTdjbnpLNkxiRXp4WUVjS3pwQXVTRkwtWDlVMFhISDF1NmdMQWVvZEJmU2VmSWp1TFdCR2MxTVN3VVJjb3AtMnhmZnFXS0cxMGtWcU1jTWFPZWlMSGpWb1NqT185ekgyT1duV0lHYi02azhlSF9OVzlSNzlzSDBycmNRUHA5SG9LYTlLRXRnSmNGejRNeGpjMkNoZXhVUDd1Sm9YcE9yNXFQSDhjdVIzQ3c2Sk9zZVRuUWFSaVpWX0xZRFNySDloUdIB9AFBVV95cUxQZ0V3OUZEaFoyR2FRVDc3NkdkMU41NzlESHpFZTR6bmVpMklJQUs4UUVpckxMTTN6cjdHSkZzcjBLSGtfODY1MDVnVTE0ZUlqZXNCN3dlSEJrdzExQ04wMHFfNjNyUl9IS3g1ZHI1NDgyR2ZuUVhhNUY2dDBCSml3RFMySnZVTXpOcnJ6NlRYZG4yeERQUXdZd2MtelJVMlRnQWhER2JlYkpFajZmRkJJMW1sVERScThxTncwemE1eFRfVnlweHhwRXdpaFIyS3M4X3pfeEN0YWh6Tk1LdTI5Zlk3a19jM2FmN1FxUHVHV3cwc25K?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Si tienes una PS5, te espera una descarga. PlayStation sorprende con otra actualización de firmware que lleva la consola a la versión 26.07-14.22.00",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWjhOaTVOUk0xT0haci1haVJ6eTIwZnl6N1J1aFJ4OEh2YXctMjN0eldtN0NYdFVfVkFtdGxyZzB2Nk90c0ctNl9KN21nYm43N3l4UVoxYzdDTDZ5V3RwRGF1dUE3b001a0FhQ1BGN1lNQm9kUUI1YmZ1ODlSZ2VqbXNpSjVwZUk2N1dfNnl0NTlLNEU2aXhUcno2RXFwcEJBZ0doSGpFUkx2UzdDRno2dVpzQTBfQTM5bTQxS0I3MkRpRlRBOUxCMTFnb1p0WWpkUDJ0elV3YXJLUnpJNjZfRElNam54OFM5bDVIanRXeURwUdIB9wFBVV95cUxQMC1WQm9lRlVGbG1LWXNVd3VpcUNVcmZUaDk5dF9lZ2lKWUJadUczQUQ3RUlBNFJ5akpaYndYX0RwZUpjNERpR2ZfeUFiNG1FcnBZYnlnYUJDTk9oQmdodjVEandEdWhZdHRPanI1aVJoTXY1TTJTVnp0ZmMxWlZJbDVfeWVpQWNQeUVrU2VMeTJmNWJ3WHFnZjBZMUJEN00zWG8yUTBkYm8tSDRWbHp4bGtzSjVMQ0wwbmhYV1FOUFNOaVpKVktPNE53TjBpYU53NWpmaWZFSWVXWU5NdkRVVUlpeGZNM05rU1BOU3lfdERGemlBNlVj?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Bloomberg Línea: ¿Cuándo sale “Zelda: Ocarina of Time” para Nintendo Switch 2? Fecha y precios",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcHJtV3E1TEpiOUw4Tjd2VG9raWZob1I2eWlpOTk0djlLeU5DZ1hhSENCVkNSbnFMMl9OMng3d21jREdMM2VTQ3AwRTVBTEJxdzA0LTdhNW9RZTdaUjBrOUtqRkctNGtCVGJzMHhfMjB6YkpvU3ZhQjc5Mll3WlZhb0x4bllrUVI1ZldSXzlKYUxMSV9nS21tZXdrdVVQVld5SUlodG10dmlwOF84R21BLWhzYjNaZ9IBygFBVV95cUxNNzhpeHNsRVBBdndRcXE0TW1yUkxlSjk4V0lRS3JlZGYyUGNOQzZXNlpVTDlfcXZOQlFobzVmc0Y1UGF3dmd6U0FweVZfY1pRNzJNLTRhUl81cUs0X3ZyZHNEVnEzQUVyX2dEblk1dnQySG5fcUNPbHBtelF4TTh4QTRjcUVQRDVtVnRZN1VSQzBXbUFZSHVMTHBBMUMxazJnaXV1THpWWlNVSjRQZDBBTHBXVnhyUGJ3UE1WOURtVXEzcU1rTDV3WjRn?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Los lanzamientos de videojuegos más destacados de la semana del 2 al 8 de noviembre de 2026 para PS5, Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZEt5RzFkWldVSlUtMTJHSkloVDM5S1Y2YVpyOWpzYTBtUGh4OHdza3pSUk5VRnV0T3Y4b1VIN3pZRDl3U0g4VEtoMWg0SmlNbElGTFV4Y3VlZjZfRkZMbHJJaWhIc0lPeHl0Q3lxX0locFZBWkFmdXNreTBmbWZMUWZmQUxlWkYtdF9maFZOaUpOZGRPLVZxUUZ0dGEtX2QxenQ3XzItQnVCeE52cS1MdkZJQ21qRXRYRFQwQWhEUEU3MGJVZkc5WUJQNE5SemtoNnVUSUlVeFJwejRxX3lfSU16eFhoT1BWM0tCYzg2dWN6TThEWTV1ME1GRnMwanBRQm5hWW02SmpKNjjSAZ8CQVVfeXFMTTBURWdadVlGdjhZWlJYUmR3OWRWNkZmTjlpUWFRam9fLWIxOTFtUTl3YzIyV0VkRGpqSlJLZHRteEZHQ3hkSU5ET1IwRWVBV3hXLUZtRkdOMlFJSEJEdDNMeXZ4SzRTMGU0OGE4WEJVcDEyWFJKNno3b0wtVVR5bVdOcDdNT3JPRWtHX0dJZ3FCRUN1RVNEQzhTUjVVbkVHd0o0aHIwMjV5UWY5bDhLdWNUOFk2R1BfY1h0VzUtTkpqdzhabHp4T19xdEZwWVBPYXJyX2pXNGtmR0VyTW9WWnlldE1uRTlsa0hMN2ZHdFQ4RzFEdm5PakRVWHRqWXZiVVRhenZCYmVha0ZTRmticFlNVVpkSlB4NGNMT3JqLWM?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Sin Embargo: Nintendo Switch Sports Resort , una fórmula que no pasa de moda | BITS",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3UtQ0pMems5MmJ2MXZEcWc4YzlfN1pWeG5vZEZBSjFzRkxZZTh1aFh4OTB3VHJCVUVxNFRnekFQbFV2UG5LMnBMMWZYcmZNN1hPbWdQTHRETmRNVkZ1QWloeHFpUzFGM3JHbXVUem1KWWpGaXlqVUxkckhjM3dRRk5RNXNlMERLMnFFTkZRaHc2eEpuRDFUWW04WXZ4TGIzM3FF?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793646004401,
     "fecha": "2026-11-02",
     "categoria": "Tecnología",
