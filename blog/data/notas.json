@@ -52,7 +52,8 @@
         "tipo": "Prensa Especializada"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Mr2VohlGBUY"
   },
   {
     "id": 1793642404335,
@@ -107,7 +108,8 @@
         "tipo": "Prensa / Cobertura Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=YzeGbXkYSZU"
   },
   {
     "id": 1793581205707,
@@ -1917,7 +1919,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=GGdjbFrfQIE"
   },
   {
     "id": 1793401204652,
@@ -2028,7 +2031,8 @@
         "tipo": "Prensa Especializada"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=RDd8KpY4Vl8"
   },
   {
     "id": 1793383204465,
@@ -2083,7 +2087,8 @@
         "tipo": "Prensa / Cobertura Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=8Xc0zHItmMA"
   },
   {
     "id": 1793322003784,
@@ -2248,7 +2253,8 @@
         "tipo": "Prensa / Cobertura Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=5z7FCpiqFIk"
   },
   {
     "id": 1793235605469,
@@ -2303,7 +2309,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=VmKs-LATDFM"
   },
   {
     "id": 1793228405192,
@@ -2358,7 +2365,8 @@
         "tipo": "Prensa Gaming"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=iqEJNUzNhgA"
   },
   {
     "id": 1793214009621,
@@ -2413,7 +2421,8 @@
         "tipo": "Prensa Especializada"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=YlwtdZGSKko"
   },
   {
     "id": 1793210409895,
@@ -2468,7 +2477,8 @@
         "tipo": "Prensa / Cobertura Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=iVi9ASEVzWg"
   },
   {
     "id": 1793149203631,
@@ -2523,7 +2533,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=okV5K1dPy14"
   },
   {
     "id": 1793142003606,
@@ -2634,7 +2645,8 @@
         "tipo": "Prensa Especializada"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=I0g4qDp22hw"
   },
   {
     "id": 1793124009602,
@@ -2745,7 +2757,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=5Z-MDnB8JPY"
   },
   {
     "id": 1793055603951,
@@ -2968,7 +2981,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=xe_h8KR_5AU"
   },
   {
     "id": 1792969204011,
@@ -3245,7 +3259,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=SdfcRkW7jPk"
   },
   {
     "id": 1792796403496,
@@ -3413,7 +3428,7 @@
       }
     ],
     "estado": "publicado",
-    "youtube_url": "https://www.youtube.com/watch?v=5h7WCrkcx64"
+    "youtube_url": "https://www.youtube.com/watch?v=7uYV9L8oqU4"
   },
   {
     "id": 1792717203563,
@@ -3468,7 +3483,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=RycMUzsOsWM"
   },
   {
     "id": 1792710003796,
@@ -3859,7 +3875,8 @@
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=qYKG2KuuXYM"
   },
   {
     "id": 1792497886046,
@@ -4027,7 +4044,7 @@
       }
     ],
     "estado": "publicado",
-    "youtube_url": "https://www.youtube.com/watch?v=vZ2dCp9KS7A"
+    "youtube_url": "https://www.youtube.com/watch?v=GMoHIuFFDFg"
   },
   {
     "id": 9003,
@@ -4058,7 +4075,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Sg3f99tVvn4"
   },
   {
     "id": 173,
@@ -4085,7 +4103,8 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Sg3f99tVvn4"
   },
   {
     "id": 9001,
@@ -4166,7 +4185,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=VdTEwRt0ujA"
   },
   {
     "id": 175,
@@ -4197,7 +4217,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=ltBAjFR-hNI"
   },
   {
     "id": 174,
@@ -4224,7 +4245,8 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=6yu_GH_WZIc"
   },
   {
     "id": 170,
@@ -4259,7 +4281,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=BSbUideSPg8"
   },
   {
     "id": 171,
@@ -4340,7 +4363,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=a23x7GsOL2c"
   },
   {
     "id": 167,
@@ -4371,7 +4395,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=qS8j3Bkar2I"
   },
   {
     "id": 166,
@@ -4398,7 +4423,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=ArhYxmL_SG0"
   },
   {
     "id": 163,
@@ -4429,7 +4455,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=8rM5JOCNPoQ"
   },
   {
     "id": 164,
@@ -4506,7 +4533,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=k6gKBFSGC4E"
   },
   {
     "id": 160,
@@ -4537,7 +4565,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=to_27pS5hJs"
   },
   {
     "id": 159,
@@ -4560,7 +4589,8 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=BlVAQvHQPao"
   },
   {
     "id": 156,
@@ -4672,7 +4702,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=PPL3ITsyp9k"
   },
   {
     "id": 153,
@@ -4699,7 +4730,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=_hs3nzX0UMQ"
   },
   {
     "id": 152,
@@ -4726,7 +4758,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=BRI4Ao5R1e4"
   },
   {
     "id": 149,
@@ -4761,7 +4794,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=voOxQs5Hye4"
   },
   {
     "id": 150,
@@ -4846,7 +4880,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=4DZR3oPcfTQ"
   },
   {
     "id": 146,
@@ -4877,7 +4912,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=C_90D3K3WV4"
   },
   {
     "id": 145,
@@ -4904,7 +4940,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=WI4M-COq4NE"
   },
   {
     "id": 142,
@@ -4939,7 +4976,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=AoUYXERlB3k"
   },
   {
     "id": 143,
@@ -5020,7 +5058,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=3cjrRntnufE"
   },
   {
     "id": 138,
@@ -5051,7 +5090,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=qNPC0HjTwx0"
   },
   {
     "id": 137,
@@ -5074,7 +5114,8 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Z7LDUeAhgfQ"
   },
   {
     "id": 134,
@@ -5194,7 +5235,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=_o_gnzbfTIs"
   },
   {
     "id": 130,
@@ -5252,7 +5294,8 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=0M715AvnYMw"
   },
   {
     "id": 126,
@@ -5279,7 +5322,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=In2fcArefHM"
   },
   {
     "id": 124,
@@ -5306,7 +5350,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=USoWxhZs0OQ"
   },
   {
     "id": 122,
@@ -5333,7 +5378,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=2cIlYFObysE"
   },
   {
     "id": 120,
@@ -5368,7 +5414,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=-jTZM3-JPfY"
   },
   {
     "id": 115,
@@ -5395,7 +5442,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=6KPc5jkl4mA"
   },
   {
     "id": 113,
@@ -5426,7 +5474,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=vz_nY9r_pWU"
   },
   {
     "id": 112,
@@ -5453,7 +5502,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=GvD0FjK135g"
   },
   {
     "id": 109,
@@ -5484,7 +5534,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=MNq45HUEK0c"
   },
   {
     "id": 107,
@@ -5511,7 +5562,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=ZXuIkDwNxCc"
   },
   {
     "id": 105,
@@ -5538,7 +5590,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=jyX-UWal_-E"
   },
   {
     "id": 104,
@@ -5561,7 +5614,8 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=II1Su5ZqVvU"
   },
   {
     "id": 101,
@@ -5592,7 +5646,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=C0P0CuNsiHA"
   },
   {
     "id": 99,
@@ -5619,7 +5674,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=qRIYjIm5nRM"
   },
   {
     "id": 97,
@@ -5646,7 +5702,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=_9fIcrsF7IY"
   },
   {
     "id": 96,
@@ -5673,7 +5730,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=oP-InhOW01A"
   },
   {
     "id": 93,
@@ -5704,7 +5762,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=ZcwFL2m9zkY"
   },
   {
     "id": 91,
@@ -5731,7 +5790,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=D6jwKxTeLyc"
   },
   {
     "id": 89,
@@ -5758,7 +5818,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=XF-EajnFrpk"
   },
   {
     "id": 88,
@@ -5781,7 +5842,8 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=0QAE9lyZIVo"
   },
   {
     "id": 85,
@@ -5820,7 +5882,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=7W5HXwzYHic"
   },
   {
     "id": 83,
@@ -5847,7 +5910,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=MjJXbp_7M6A"
   },
   {
     "id": 81,
@@ -5874,7 +5938,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=KEVBPcv5XfI"
   },
   {
     "id": 80,
@@ -5901,7 +5966,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=TpSc2lNeGVI"
   },
   {
     "id": 77,
@@ -5940,7 +6006,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=ZU1Bw2K3388"
   },
   {
     "id": 76,
@@ -5967,7 +6034,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=eGeIi3cMUqc"
   },
   {
     "id": 74,
@@ -5998,7 +6066,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=LK21uodOyug"
   },
   {
     "id": 73,
@@ -6025,7 +6094,8 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=FwKYw7U7G-4"
   },
   {
     "id": 70,
@@ -6052,7 +6122,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=lgjljZ2e1AA"
   },
   {
     "id": 69,
@@ -6079,7 +6150,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Q_RCjyGW3kk"
   },
   {
     "id": 68,
@@ -6106,7 +6178,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=PLoDQpuo03Y"
   },
   {
     "id": 67,
@@ -6133,7 +6206,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=HuiufWxcdRA"
   },
   {
     "id": 64,
@@ -6164,7 +6238,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=wo5THOvju20"
   },
   {
     "id": 65,
@@ -6245,7 +6320,8 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=kvGKZJF2MQY"
   },
   {
     "id": 62,
@@ -6473,7 +6549,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=oVCbkyYtqiA"
   },
   {
     "id": 55,
@@ -6496,7 +6573,8 @@
         "tipo": "Monitor de Audiencia"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=EdRol4iyPq4"
   },
   {
     "id": 53,
@@ -6519,7 +6597,8 @@
         "tipo": "Pulso Informativo"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=fuxmBPsKXSs"
   },
   {
     "id": 50,
@@ -6554,7 +6633,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=fuxmBPsKXSs"
   },
   {
     "id": 51,
@@ -6631,7 +6711,8 @@
         "tipo": "Pulso Comunitario"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=qIdDt9d6mGI"
   },
   {
     "id": 48,
@@ -6658,7 +6739,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=QrpvzhqCi1w"
   },
   {
     "id": 47,
@@ -6685,7 +6767,8 @@
         "tipo": "Comunicado Oficial"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=oUY2GuCAC3w"
   },
   {
     "id": 44,
@@ -6716,7 +6799,8 @@
         "tipo": "Fuente Federal"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=d-AD19bFm6g"
   },
   {
     "id": 45,
@@ -6793,7 +6877,8 @@
         "tipo": "Pulso Comunitario"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=DnSGYk-KIPo"
   },
   {
     "id": 42,
@@ -6824,7 +6909,8 @@
         "tipo": "Ficha Técnica"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=y55qSAulu5o"
   },
   {
     "id": 41,
@@ -6851,6 +6937,7 @@
         "tipo": "Registro de Industria"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=UhFxldFS3lI"
   }
 ]

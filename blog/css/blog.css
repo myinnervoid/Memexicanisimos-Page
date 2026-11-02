@@ -409,9 +409,10 @@ a:hover {
 
 .press-article-card.card-cat-noticias { border-top-color: var(--wada-carmine); }
 .press-article-card.card-cat-tecnologia { border-top-color: var(--wada-cerulian-blue); }
-.press-article-card.card-cat-gaming { border-top-color: var(--wada-orange); }
-.press-article-card.card-cat-farandula { border-top-color: var(--wada-yellow-orange); }
+.press-article-card.card-cat-gaming { border-top-color: var(--wada-red-orange); }
+.press-article-card.card-cat-farandula { border-top-color: var(--wada-carmine-red); }
 .press-article-card.card-cat-cultura { border-top-color: var(--wada-benzol-green); }
+.press-article-card.card-cat-especial { border-top-color: var(--wada-yellow-orange); }
 
 .press-article-card:hover {
   transform: translateY(-3px);
@@ -444,6 +445,45 @@ a:hover {
 .tag-gaming { background-color: var(--wada-red-orange); color: #FFFFFF; }
 .tag-farandula { background-color: var(--wada-carmine-red); color: var(--wada-amate-cream); }
 .tag-cultura { background-color: var(--wada-benzol-green); color: #FFFFFF; }
+.tag-especial { background-color: var(--wada-yellow-orange); color: var(--wada-deep-indigo); font-weight: 800; }
+
+.card-especial-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: rgba(249, 157, 27, 0.18);
+  color: var(--wada-yellow-orange);
+  border: 1px solid rgba(249, 157, 27, 0.45);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+
+.reader-state-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: var(--pizarra-elevada);
+  border: 1px solid var(--borde-prensa);
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin: 12px 0 16px 0;
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  color: var(--amate);
+}
+
+.reader-state-meta-strip span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reader-state-meta-strip strong {
+  color: var(--oro-charro);
+}
 
 .article-edition-label {
   font-family: var(--font-mono);

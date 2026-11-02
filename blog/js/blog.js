@@ -50,6 +50,14 @@ const CATEGORY_MAP = {
     defaultChar: 'Alex y Dora',
     defaultRole: 'Crónica Histórica y Cultural',
     defaultImg: 'assets/personajes/plantilla_cultura_axolotes.jpg'
+  },
+  especiales: {
+    label: '#InvestigacionesEspeciales',
+    tagClass: 'tag-especial',
+    cardClass: 'card-cat-especial',
+    defaultChar: 'Alex y Dora',
+    defaultRole: 'Unidad de Investigación y Cultura',
+    defaultImg: 'assets/personajes/plantilla_cultura_axolotes.jpg'
   }
 };
 
@@ -62,6 +70,7 @@ function normalizeText(str) {
 
 function getCategoryMeta(categoria) {
   const norm = normalizeText(categoria);
+  if (norm.includes('especial') || norm.includes('investigac') || norm.includes('32 estados')) return CATEGORY_MAP.especiales;
   if (norm.includes('farandula')) return CATEGORY_MAP.farandula;
   if (norm.includes('tecnolog')) return CATEGORY_MAP.tecnologia;
   if (norm.includes('gaming')) return CATEGORY_MAP.gaming;
@@ -101,7 +110,7 @@ function renderArchiveList() {
 
   const countsByDate = {};
   allPosts.forEach(p => {
-    if (p.fecha && p.titulo) {
+    if (p.fecha && p.titulo && !p.es_especial) {
       countsByDate[p.fecha] = (countsByDate[p.fecha] || 0) + 1;
     }
   });
@@ -134,29 +143,46 @@ function renderModularGrid() {
   const emptyEl = document.getElementById('press-empty-state');
   const datePill = document.getElementById('current-date-pill');
   const metaDate = document.getElementById('press-meta-date');
-
-  if (datePill) {
-    datePill.textContent = `📅 ${formatDateDisplay(currentDate)}`;
-  }
-  if (metaDate) {
-    metaDate.textContent = `CANCÚN, Q. ROO · ${formatDateDisplay(currentDate).toUpperCase()}`;
-  }
-
-  const postsOfDay = allPosts.filter(p => p.fecha === currentDate && p.titulo);
-
-  let filtered = postsOfDay;
-  if (currentCategory !== 'all') {
-    filtered = postsOfDay.filter(p => {
-      const norm = normalizeText(p.categoria);
-      return norm.includes(currentCategory);
-    });
-  }
-
-  const currentIndex = availableDates.indexOf(currentDate);
   const btnPrev = document.getElementById('btn-prev-day');
   const btnNext = document.getElementById('btn-next-day');
-  if (btnPrev) btnPrev.disabled = (currentIndex >= availableDates.length - 1);
-  if (btnNext) btnNext.disabled = (currentIndex <= 0);
+
+  const isEspecial = (currentCategory === 'especiales');
+
+  if (isEspecial) {
+    if (datePill) {
+      datePill.innerHTML = '⭐ <strong>Sección Especial Permanente</strong>';
+    }
+    if (metaDate) {
+      metaDate.textContent = 'CANCÚN, Q. ROO · INVESTIGACIONES ESPECIALES Y 32 ESTADOS';
+    }
+    if (btnPrev) btnPrev.disabled = true;
+    if (btnNext) btnNext.disabled = true;
+  } else {
+    if (datePill) {
+      datePill.textContent = `📅 ${formatDateDisplay(currentDate)}`;
+    }
+    if (metaDate) {
+      metaDate.textContent = `CANCÚN, Q. ROO · ${formatDateDisplay(currentDate).toUpperCase()}`;
+    }
+    const currentIndex = availableDates.indexOf(currentDate);
+    if (btnPrev) btnPrev.disabled = (currentIndex >= availableDates.length - 1);
+    if (btnNext) btnNext.disabled = (currentIndex <= 0);
+  }
+
+  let filtered;
+  if (isEspecial) {
+    filtered = allPosts.filter(p => p && (p.es_especial || normalizeText(p.categoria).includes('especial') || p.seccion === '32 Estados de México'));
+  } else {
+    const postsOfDay = allPosts.filter(p => p.fecha === currentDate && p.titulo && !p.es_especial);
+    if (currentCategory !== 'all') {
+      filtered = postsOfDay.filter(p => {
+        const norm = normalizeText(p.categoria);
+        return norm.includes(currentCategory);
+      });
+    } else {
+      filtered = postsOfDay;
+    }
+  }
 
   if (filtered.length === 0) {
     gridEl.innerHTML = '';
@@ -180,6 +206,10 @@ function renderModularGrid() {
     const fuentesArr = Array.isArray(post.fuentes) && post.fuentes.length > 0
       ? post.fuentes.map(f => f.nombre).slice(0, 2)
       : ['Google News México · Hemeroteca Oficial'];
+
+    const dateOrBadge = post.es_especial
+      ? `<span class="card-especial-badge"><i class="fas fa-star"></i> ${escapeHtml(post.estado_nombre || 'Especial')}</span>`
+      : `<i class="far fa-calendar-alt"></i> ${escapeHtml(formatShortDate(post.fecha))}`;
 
     return `
       <article class="press-article-card ${meta.cardClass}" data-id="${escapeHtml(post.id)}">
@@ -207,7 +237,7 @@ function renderModularGrid() {
         </div>
         <div class="article-footer">
           <span>
-            <i class="far fa-calendar-alt"></i> ${escapeHtml(formatShortDate(post.fecha))}
+            ${dateOrBadge}
             ${post.youtube_url ? `<a href="${escapeHtml(post.youtube_url)}" target="_blank" rel="noopener noreferrer" class="card-yt-badge" title="Ver / Escuchar en YouTube" onclick="event.stopPropagation()"><i class="fab fa-youtube"></i></a>` : ''}
           </span>
           <button type="button" class="btn-open-note" data-id="${escapeHtml(post.id)}">
@@ -244,6 +274,13 @@ function selectCategory(catSlug) {
     p.classList.toggle('active', p.getAttribute('data-cat') === currentCategory);
   });
   renderModularGrid();
+  try {
+    if (currentCategory === 'especiales') {
+      window.history.replaceState(null, '', '?cat=especiales');
+    } else {
+      window.history.replaceState(null, '', `?date=${currentDate}&cat=${currentCategory}`);
+    }
+  } catch (e) {}
 }
 
 function formatChronicleParagraphs(rawText) {
@@ -312,7 +349,29 @@ function openReaderModal(post) {
     const ytModalBtn = post.youtube_url
       ? ` · <a href="${escapeHtml(post.youtube_url)}" target="_blank" rel="noopener noreferrer" class="modal-yt-btn" title="Ver / Escuchar video en YouTube"><i class="fab fa-youtube"></i></a>`
       : '';
-    metaEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${escapeHtml(formatDateDisplay(post.fecha))} · Cancún, Q. Roo${ytModalBtn}`;
+    if (post.es_especial) {
+      metaEl.innerHTML = `<i class="fas fa-star" style="color:var(--wada-yellow-orange)"></i> <strong>Investigación Especial Monográfica</strong> · Cancún, Q. Roo${ytModalBtn}`;
+    } else {
+      metaEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${escapeHtml(formatDateDisplay(post.fecha))} · Cancún, Q. Roo${ytModalBtn}`;
+    }
+  }
+
+  const stateMetaContainer = document.getElementById('modal-state-meta');
+  if (stateMetaContainer) {
+    if (post.estado_nombre) {
+      stateMetaContainer.innerHTML = `
+        <div class="reader-state-meta-strip">
+          <span><i class="fas fa-map-marker-alt"></i> <strong>Estado:</strong> ${escapeHtml(post.estado_nombre)}</span>
+          <span><i class="fas fa-compass"></i> <strong>Región:</strong> ${escapeHtml(post.region || 'República Mexicana')}</span>
+          <span><i class="fas fa-users"></i> <strong>Población:</strong> ${escapeHtml(post.poblacion || 'N/D')}</span>
+          <span><i class="fas fa-id-badge"></i> <strong>Gentilicio:</strong> ${escapeHtml(post.gentilicio || 'N/D')}</span>
+        </div>
+      `;
+      stateMetaContainer.classList.remove('hidden');
+    } else {
+      stateMetaContainer.innerHTML = '';
+      stateMetaContainer.classList.add('hidden');
+    }
   }
   if (leadEl) {
     const desc = (post.descripcion || '').replace(/#[a-zA-Z0-9_áéíóúÁÉÍÓÚñÑ]+/g, '').trim();
@@ -444,10 +503,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  // Filtro defensivo en cliente: solo notas completas desde 2026-10-01
+  // Filtro defensivo en cliente: notas diarias desde 2026-10-01 o notas de Sección Especial
   allPosts = (allPosts || []).filter(p =>
     p &&
-    p.fecha >= '2026-10-01' &&
+    (p.es_especial || (p.fecha && p.fecha >= '2026-10-01')) &&
     p.titulo &&
     p.narracion &&
     String(p.narracion).length >= 200
@@ -468,7 +527,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const dateSet = new Set();
   allPosts.forEach(p => {
-    if (p.fecha && p.titulo) dateSet.add(p.fecha);
+    if (p.fecha && p.titulo && !p.es_especial) dateSet.add(p.fecha);
   });
   availableDates = Array.from(dateSet).sort((a, b) => b.localeCompare(a));
 
@@ -490,7 +549,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     currentDate = availableDates[0] || '2026-10-18';
   }
 
-  if (requestedCat && ['noticias', 'tecnologia', 'gaming', 'farandula', 'cultura', 'all'].includes(requestedCat)) {
+  if (requestedCat && ['noticias', 'tecnologia', 'gaming', 'farandula', 'cultura', 'especiales', 'all'].includes(requestedCat)) {
     currentCategory = requestedCat;
     const matchingPill = document.querySelector(`.hashtag-filters .hashtag-pill[data-cat="${requestedCat}"]`);
     if (matchingPill) {
