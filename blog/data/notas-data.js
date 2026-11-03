@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793746803531,
+    "fecha": "2026-11-03",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "La estrategia de reciclaje de consolas y el impacto de la IA en Steam",
+    "descripcion": "PlayStation incentiva la reventa de hardware antiguo mientras Steam registra un crecimiento masivo en el uso de inteligencia artificial para el desarrollo de videojuegos.",
+    "narracion": "El mercado de los videojuegos atraviesa una fase de reconfiguración económica y tecnológica donde los gigantes de la industria ajustan sus métricas de hardware y producción. En un movimiento que refleja las nuevas dinámicas del ecosistema de consolas, la estrategia comercial de Sony ha dado un giro particular al comenzar a contactar de manera directa a los usuarios menos activos de PlayStation 5 para proponerles vender sus sistemas a través de plataformas de reacondicionamiento como Back Market, ofreciendo valoraciones que alcanzan hasta los 400 dólares. Esta iniciativa, reportada por diversos medios especializados y que sigue los pasos de prácticas previas observadas en el ecosistema de Xbox, evidencia un esfuerzo corporativo por dinamizar el mercado de segunda mano y reasignar unidades en un contexto donde las cadenas de suministro y el poder adquisitivo de los consumidores sufren presiones inflacionarias globales. Para los jugadores en México y Latinoamérica, donde la adquisición de hardware de actual generación representa una inversión económica considerable debido a los tipos de cambio y los impuestos a la importación, el fortalecimiento de mercados de equipos seminuevos certificados ofrece una alternativa de acceso, aunque también expone la fatiga de una generación de consolas que busca mantener su relevancia comercial mediante la rotación de su base instalada existente.\n\nParalelamente, la industria del software enfrenta una transformación estructural en sus métodos de producción. Informes recientes del sector indican que cerca del 50 por ciento de los videojuegos publicados en Steam incorporan algún nivel de apoyo mediante inteligencia artificial, una métrica que ha mantenido una trayectoria ascendente sostenida desde enero de 2024. Este fenómeno plantea cuestionamientos profundos sobre los derechos de autor, la saturación de los escaparates digitales y las condiciones laborales de los estudios independientes que buscan competir en un mercado hipercompetitivo. Mientras tanto, el espectro de lanzamientos y mercadotecnia mantiene su curso con la revelación de productos de edición limitada, como los mandos conmemorativos por el aniversario de Xbox distribuidos a través de cadenas comerciales en territorio mexicano, y la llegada de contenidos y calendarios de títulos para plataformas como Nintendo. La convergencia de estos factores demuestra que la industria opera bajo una lógica de optimización de costos y adopción tecnológica acelerada, donde tanto el destino del hardware de sobremesa como la automatización del desarrollo de software redefinen las reglas del juego para los analistas y los consumidores finales por igual.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintendo: Próximos juegos – Noviembre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVlpWGN4NGdpUXIxQ3NDQlduV2FDMUREeVBxdHpMUkRteVBVMGNwV05QWHJsNzVmdjNMeXE4MlNmLXZ3MTh4dDNYX0tCcEFvcERDUHZERk5QODFESlpsU2wyUzFScEpDUlVScjhDZk0yNzNBejBZZkZ2bVhtYmdlNjVodXdnVk1IdVJnd25FQU9SbG9BUUd1cXRORnlYbGV4VDNJ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Ofertas de Black Friday de PlayStation del 2026",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTzVxVVI4VnRMd09lVFNjWmRTSS14X1U0cnVWbWd4Nl9FZXFhUmt1VDRBaVY1NlN0TTdROVZhaVhsU0dOdWdXc1RxS001NzROMjZnZTc1b1B6VGtCckhUdFlFV3NkdW0tSVlwTi0zUjFKeUxJcndYU3NGZGloZ0NYVVl2eDRnR1pOZ0pWQ29TQmJndHBTVlJDcWhB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: PlayStation está empezando a escribir a los usuarios para que vendan sus PS5 a Back Market",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSVM1QWhsNkM2MVJ0YVZvQ0lkUzFrNlRuSlo3ZHY2MlpncFVlMy0xZmZlOTAtblhSU3ZQTk0wQ2RjR0JaYXZ2Yk1VYktwakV2T0VNaklmOU9fMjREZllrRUMweDlZY2VzZ3JfNWVZUXpIeHJXM3kxTzJ4NnZnTXhjSDFUbzM0eFcyODJ3azBMaVlJcmlzX3hiYUsyRUFPSlVpLUMyQ184aHNHTU9VODN0NEF30gG3AUFVX3lxTE9HX2k2S0ktejA2ZExkX3MwZ2diQzNiM3ZWRExsVmFjWkJDZjd6aEZVcDZMaGNjcXVxMHRUaVZUcEF5Y2s5ZGF3ZHlBU3NIT1hUX3g3QTl6NU14dXhHXzNGWUswQ0ZNU1p0Wk1KbmZMWGxRZktuazdsNzllMEVvOTVsamVDTlFrNmRUMnlTXzFJOFZaS243T3pxbl9vREpucTk3bWtOLUd6OENkTkVsWVVzLUpGME5Uaw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Coppel ya tiene el hermoso control de XBOX edición especial por sus 25 años y con envío gratis",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPenNoRzJPM3lDVWpxMlNmYmI0cVF1NXpjMEJnU3JjbG5hVXlid3FfTENubDZxSTB3UGxUd1RhbmV1eTNzTEJWNzhyUDl2dUJzT0drcEdodXRHZVNFMDZRcHltOVRBQmdtUzRaelluT0ZrNjAxN0VicUFIX1ZPbFBVeUNpeDJ6NUtQRUwwVU1hYVRic2VpTk9iRkhlZGhtUDhVU2Frd3pwM1lGRmpUczZFNdIBtgFBVV95cUxOcmZCZURWeUUxWEdFOUowYzJOR1k4Z19yV0lybzZEa3M3V0JZWUMzcnRlMnVabHRUSkRZQU4yR2ZTNFNpVzZCLXJ5Y0w0SkVVcXBPY2ZJZ1RNaG9HejF6aWVRNXRETDBvbDZZWkpxcHMtQzlBb1JkRE5UOGg4Y254dl9ibjlhbTczTmloUzQ5WFdOYzlsOGdtMk9lMWdOYTZSLWF1NG9aRHJVQjFLcUdtSGVFMUFaQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: PlayStation imita a Xbox e intenta convencer a usuarios menos activos de que vendan su PS5",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPRnR0R19iMkFzVW94RFBHd0c1UmREaUg0MDVKcDlaeDNXcjgxWGx0RHZ2VWYxNGdIX1dIMDFBTlExOGp4d1RCZ1VZRDdsbzNOeU93U0xBNkR6TF9GeFhqeXZHMHUta3JtX2xiSTJ4TEJScG12c3RTbkVWWUZlQ2xhazBTdVpyRFE1RTJWQlh2VXdJTGMwYXVKb1RPY1JjRTJSNFpqNzJ1anlBdXlwX2VkY2g2ckYtS2VrbVgzOGxCMFoyMkdEY0ZpQUN2OEljYndCZTctdjl3RnB5WVZmcDZydDZZNzNVV0dQRzdEd2dxazFqbEZnaHlZb3NxTmN5aFpmTGpNMDZFUV9QMVl6QVlQajBZU29menpiak1UOE1aOUg4UQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Universal: Casi el 50% de videojuegos publicados en Steam se realizan con apoyo de IA; aumentó desde enero de 2024",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWFhsSGJYWTlVNmZwall2TjVGWThsc0JQaDM2enhKRGo1ZzB2RnNwVlk4S01Pb1p5eEdxTTFndlpnSmJ4NUtxMllzb21CcWh4LTdJUlFrQkZNOVZvSHB5TWJnb1Nhanl4eUZTQWlOMUt1aXdLR011bHlReUFhX3RkLXB2bkdZSXY5eXFfSUYydjNOUGRsZ25mdDFFcjk3SWZpVWJUdlVIR3hJNTBBTnFYbHlVOVFvTjQySjI2Y2tSM0I1Q2NLbHdkMlVlTy1wenhOTUxKclRlN2s0UkRR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: Xbox anuncia una nueva consola con forma de cocodrilo y guiños a GTA 6: se puede conseguir gratis",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMzNObVpkUUNWTXM4VnFuWDlGUkIxZWhlWGxuVTlidk83RnJya0dQQmdtWXpIRk1CLXp5Y1REdEVkaC1UUEtSb0FEam9GUGtNTnlSQWxyRDNUZWc2ZDROQnYxc2QzZ1Vqd1RiMDRIelNRb0JfTkZnakQ0MHdiTWpoYWJ4TDBXVnlxM2VRRVQ5cUdUTXZ5UVZ5RTQ1amEwOGEwZ0pranhCMnZyMFhtTkxDRS04UGdPLUdxVDNtTUxMMTg2b2Z4TzNra25XdlNlejlRb1ZISkhxcm5MdlFGNmfSAeMBQVVfeXFMTy02WFpkWDBHZVo2ajJ1Q3lycDVCazlQY0hHUWxOZEtnSzNQNmRwM2JVMV92bHhLckJpTlREVUtvV2lYSEVJYXc4WVRPZHY3Wk5ON3c2WkhkZjN3MlJjeC0ySU1RNzZCdTBNX1IzTDZDMjdvSC0wcW5NYVMzQ3RickpFTkdQaUo0d0F5NUdhNnVJaVVHVnBJMFZJMUg3WUgwUnV0Sl9ucW82eVhPeGpIcWNRbjhMTm82Sm5oT1duVVZidldMQWotQ0gwQk1LbTZES0I5OWFCaHE2cnI2Q21JMmJ3czg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "La Verdad Noticias: PlayStation: ofrecen hasta 400 dólares por tu PS5 si decides venderla",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSENlTUtJaExFRVZqdGhMODcxS1FlLVk1SnZHd0FjcEZtOHdQZzA3dmFYV3VjMDNnUllXQjZCUVhfbUxUVlJocy1FcVJqWHZVQlVXYklxSmRnUHlVRThhazRJaXBITnMtR0VzVEMwVjF6dUZpeWRxMWZpNGZNTndxT0Njc3pXeXBNNjgwOW5B0gGWAUFVX3lxTE8zVUJPamhDeUJTWEFYVzhCeVlXVjhBZURPdklBcUNIcUpIeEtwbkZvV1Z2Zm9RSGtFdkxJSHJnc0JUVG5ta0duYlptS1ZTWU9NUWVsdDllbEpKYVo1ZGhXZmtpVHNnbWFQeHBMTWpMeC15c2dQR1E1eTVaZ1RSb1NMU1Z2dlhIcUNSakJVeGJEalJoMDlGUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793732402909,
     "fecha": "2026-11-03",
     "categoria": "Tecnología",
