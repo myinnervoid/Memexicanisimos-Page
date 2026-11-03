@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793732402909,
+    "fecha": "2026-11-03",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Ciberataques en Europa y disrupciones de IA: Amenazas a la infraestructura crítica",
+    "descripcion": "Análisis de los incidentes de ciberseguridad en la cadena de frío europea y el impacto laboral global de la inteligencia artificial según el FMI.",
+    "narracion": "El ecosistema tecnológico global enfrenta tensiones estructurales que van desde la ciberseguridad industrial hasta la reconfiguración del mercado laboral por la inteligencia artificial. Según reportes de la BBC [F3], un posible ciberataque ha comprometido los sistemas de refrigeración de supermercados en siete países europeos, generando pérdidas millonarias y evidenciando la fragilidad de la infraestructura crítica conectada a redes IoT sin los estándares adecuados de hardening y segmentación de red. Este tipo de incidentes demuestra cómo la digitalización de procesos físicos sin protocolos robustos de seguridad operativa (OT) expone a las cadenas de suministro a vectores de ataque altamente disruptivos.\n\nParalelamente, el Fondo Monetario Internacional (FMI), en datos retomados por El Financiero [F4], advierte que la inteligencia artificial amenaza con transformar o desaparecer hasta 40% de los empleos a nivel global. Esta disrupción no solo afecta a puestos operativos, sino que redefine la economía del conocimiento y la productividad. En el plano del hardware, declaraciones recientes de Sam Altman, CEO de OpenAI, recogidas por Xataka [F6], señalan la ineficiencia en el aprovechamiento de los recursos de cómputo locales —como el uso marginal de la memoria RAM en PCs—, lo que anticipa un cambio hacia arquitecturas distribuidas y modelos de cómputo en la nube altamente centralizados.\n\nA nivel regional, México no se encuentra aislado de estas dinámicas. La convergencia entre la adopción acelerada de tecnologías de automatización y la necesidad de proteger la infraestructura crítica nacional exige un marco regulatorio estricto y una estrategia de soberanía tecnológica. La dependencia de software y hardware extranjero, sumada a la falta de ciberseguridad en sectores industriales y públicos, expone a las PyMEs mexicanas y a las instituciones a vulnerabilidades similares a las registradas en Europa. La gestión de redes, la protección de datos y la regulación de herramientas de IA deben dejar de ser secundarias en la agenda legislativa para convertirse en pilares de la seguridad nacional y económica del país.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Adiós al celular en las escuelas a partir de este martes; SEP llama a incentivar otras actividades",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObGdIU0pBbFUtOXRwOHZ6NWFNLVBRMWZqaHppeUxoQ2NVamgzaVNPclhKUmFEUjNHaGxXUTdjTklaZFhOWm9GM0s2VldOQVBtZGR6NkVnNzRZbTFyZmZYNnJ4WkRWSUM4dWFnVEJHSnEwRVA1ZWlJSE03aVdJenRKU25hWHB4clM2X1JfZDI5WEo1Mlp0OE52d2h1bW5FdWVzanVGNS0za2NibG1hejhlazl0Z3YxcjgxN25aTFBJRnd2Uk5fdk5zdHZidVRfbHFWb0VEc041T1BPV19DckF5SXd2bE5zbVU?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Viaja empleado del Estado en patrulla apócrifa",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYXZPX1VGUS1MRWdNTzZ0YUtsWE9EYUZkNUYtUUhtSVRuYlJlMnk2dTZqZkdfVEFjLUZhNzlfTU81TjhXSkJjX1BNZ0lVWWU2VmlyckZIcHhRQng0SEdrRi1EckNQbzJuVjk4dDd3eVFFVWZ4VGtCWWxqUXVmOFdzLXo5QW1iUXc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uY1lHWU93ZHA1ejllN3RYcmZtN0IwSDZqU2pTM1JvYlQwbGhWMTlyT2xWQUVHYlZ0MkMxblpzdkd6Y1JPTTl6TGJjOHIxRlBqckR1MUJyRkJqQWw10gFiQVVfeXFMTVJLSVkwTEJoWGpGdnVweDBBbnZENlZtcEFfRlFfMFpLSllKVE1sTzlHUGJUZlo0aEcxdGxKSXpBajFRclJKNzZkeGhReUpncWJnNF9pbnZxaC1Ybjl1eUFjZUE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: IA amenaza con desaparecer hasta 40% de los empleos en el mundo: FMI",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYVhjQjZ6ZTdEZE9XQnZKV2FMRWx2YkJ5ay0wSFZOeEY3bFBvRFltU2FNMm5SdVQ3bC1lVTZoQU1YSmZqdEsxaTFTbkppcVRGdEgwdUFLSnktaDlUUGFIdnRYaTg4RHpyQXRwRGpxNjUzRGhRQ2pSSFVKVG9PRzN0SDVUbEp3Sk00ckpIY2hRZHpndk5GOWpJeXRRM2JSVGhBUlBiSWdJVDVYajFVeUZmNHZwVklHQU9vOF9v?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Pablo Vázquez y la mejor policía del país",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVDFxazh2SUdCTXR3WW9CODJTZExTU2JxVUVUQlRxQjRpQVFmRzlWZzFaUnFkSDM3SXlweFlKazFQQmJMOHo0OW1WcHRXcnBtbU9QY3RlOFliMEpHLURiMHJ2LXVHMy1kOTRQQ2J0clJmVzZxN25jM1czN3dTWExQam5ZZjNodTY3cDl3WUR5RE9sVDlhc3Y2VTdtSUdPd1ZtSzFXbnd6ZnRkaU9rUk80UzNRbHBOSmZrOE1xZQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su PC utilizándose sólo el 5 % del tiempo\"",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjJKSmlGTkZfNWJIVlZwdTBWQzJXUlNCcDZLck5aUWQ5T2tjbWxLaXVLMkpCU3c0MjZlbllneWtxaEFCUXI1dnlackVuRDRvVWFTcnhORDY2d2hBdm1CdVBaTWhERk1UM2psSHJEUzlfczlja0JnSm9HcF9JS1EwejFwSW5PT2VQTmtXWjBuclUxTXNOaHFPaEVIdWRBUjQyaDRxdkI4RXBRVGtPdkE3WlFjR0s3SXpVRmJZVUljcWhPdWVTOFV3X3M0em9Kc0RJLVNGWdIB2gFBVV95cUxOM2pnbVFDUDJBdWRjQnZUZXpCdklocE1lTERORWY0UXVLNkdpN01XUXpkdUlIYU5yMjJiRzR5TFc1dllCZVhmRndDM0phT0RZTWFLYWpOelZ3eHN4Umk3bWVUb1hLQVZDaC1Ec1F2NFRRQlg3VTRiWV9wRGc3Y1BKSGxjd2w1OFpSQV9GX21RZjlWRE1HOEN2MlhKSTVhejR1LWFZMUFGN0lFSVM4bmVJWjJzOTZncXo4aVVlc0lZSWNfT0VQUHhEdV8zcE12bWEySTJNei1IdDhNdw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Siete vuelos en Europa registran amenazas de bomba y obligan a activar los dispositivos de seguridad de los aeropuertos",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZlFiTWtXVm1kNDFyV0poZVcyYjVHZVZDVFNVMFZSeFJBTXdXX3B3ak1VOVpwRll6VVZRSkJnMU5LaHZEeUxnZE85djAxdzNseVhuSHRTM3cxWURQUW8xVnpWT25QNTdOSUZndGlvN1pSd0JibkNRMDNnRGlTWFR0S2lIMUdtWngwYTd4aEs5SVZtVjRSR3VqaEduWUdwanhrTTlvX3d1d1hWd3FMNUV1RUZwdkM2VVl3QmE4Q25VRm1pQ1lzSjNURm5IWXpsSU5WdVVyMEFHZEZDSEgzeTVQWmlVYTUyTHlSeUl0eG9uQmJfbjdVMTVsTW9WTQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Dos billones de dudas, escribe Valeria Moy",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE80R1BVRHVaT0FEekhVZDBCYmp3ZHR1azdqRE15d3VwczV6LTMtNWdGcFJZb3JndDlMREhLLTNUV3RtemhxdlRuRGE4dDU0Qzg2YzNMVXUxbnRZM0VkRXlxekU4dVF6dWUzUHo0VWVlTFJWd2V4SjluQkpHdHpFQQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=oysR7bx1cC8"
+  },
+  {
     "id": 1793728855923,
     "fecha": "2026-11-03",
     "categoria": "Farándula",
