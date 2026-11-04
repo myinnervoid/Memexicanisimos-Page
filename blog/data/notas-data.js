@@ -1,135 +1,44 @@
 window.MEMEX_NOTAS = [
   {
-    "id": 1793746803531,
-    "fecha": "2026-11-03",
-    "categoria": "Gaming",
-    "edicion": "Zona Gamer",
-    "titulo": "La estrategia de reciclaje de consolas y el impacto de la IA en Steam",
-    "descripcion": "PlayStation incentiva la reventa de hardware antiguo mientras Steam registra un crecimiento masivo en el uso de inteligencia artificial para el desarrollo de videojuegos.",
-    "narracion": "El mercado de los videojuegos atraviesa una fase de reconfiguración económica y tecnológica donde los gigantes de la industria ajustan sus métricas de hardware y producción. En un movimiento que refleja las nuevas dinámicas del ecosistema de consolas, la estrategia comercial de Sony ha dado un giro particular al comenzar a contactar de manera directa a los usuarios menos activos de PlayStation 5 para proponerles vender sus sistemas a través de plataformas de reacondicionamiento como Back Market, ofreciendo valoraciones que alcanzan hasta los 400 dólares. Esta iniciativa, reportada por diversos medios especializados y que sigue los pasos de prácticas previas observadas en el ecosistema de Xbox, evidencia un esfuerzo corporativo por dinamizar el mercado de segunda mano y reasignar unidades en un contexto donde las cadenas de suministro y el poder adquisitivo de los consumidores sufren presiones inflacionarias globales. Para los jugadores en México y Latinoamérica, donde la adquisición de hardware de actual generación representa una inversión económica considerable debido a los tipos de cambio y los impuestos a la importación, el fortalecimiento de mercados de equipos seminuevos certificados ofrece una alternativa de acceso, aunque también expone la fatiga de una generación de consolas que busca mantener su relevancia comercial mediante la rotación de su base instalada existente.\n\nParalelamente, la industria del software enfrenta una transformación estructural en sus métodos de producción. Informes recientes del sector indican que cerca del 50 por ciento de los videojuegos publicados en Steam incorporan algún nivel de apoyo mediante inteligencia artificial, una métrica que ha mantenido una trayectoria ascendente sostenida desde enero de 2024. Este fenómeno plantea cuestionamientos profundos sobre los derechos de autor, la saturación de los escaparates digitales y las condiciones laborales de los estudios independientes que buscan competir en un mercado hipercompetitivo. Mientras tanto, el espectro de lanzamientos y mercadotecnia mantiene su curso con la revelación de productos de edición limitada, como los mandos conmemorativos por el aniversario de Xbox distribuidos a través de cadenas comerciales en territorio mexicano, y la llegada de contenidos y calendarios de títulos para plataformas como Nintendo. La convergencia de estos factores demuestra que la industria opera bajo una lógica de optimización de costos y adopción tecnológica acelerada, donde tanto el destino del hardware de sobremesa como la automatización del desarrollo de software redefinen las reglas del juego para los analistas y los consumidores finales por igual.",
-    "personaje": "El Mashukita Gaming",
-    "personaje_rol": "Reporte de Videojuegos",
-    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
-    "fuentes": [
-      {
-        "nombre": "Nintendo: Próximos juegos – Noviembre de 2026",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVlpWGN4NGdpUXIxQ3NDQlduV2FDMUREeVBxdHpMUkRteVBVMGNwV05QWHJsNzVmdjNMeXE4MlNmLXZ3MTh4dDNYX0tCcEFvcERDUHZERk5QODFESlpsU2wyUzFScEpDUlVScjhDZk0yNzNBejBZZkZ2bVhtYmdlNjVodXdnVk1IdVJnd25FQU9SbG9BUUd1cXRORnlYbGV4VDNJ?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "PlayStation.Blog LATAM: Ofertas de Black Friday de PlayStation del 2026",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTzVxVVI4VnRMd09lVFNjWmRTSS14X1U0cnVWbWd4Nl9FZXFhUmt1VDRBaVY1NlN0TTdROVZhaVhsU0dOdWdXc1RxS001NzROMjZnZTc1b1B6VGtCckhUdFlFV3NkdW0tSVlwTi0zUjFKeUxJcndYU3NGZGloZ0NYVVl2eDRnR1pOZ0pWQ29TQmJndHBTVlJDcWhB?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Xataka: PlayStation está empezando a escribir a los usuarios para que vendan sus PS5 a Back Market",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSVM1QWhsNkM2MVJ0YVZvQ0lkUzFrNlRuSlo3ZHY2MlpncFVlMy0xZmZlOTAtblhSU3ZQTk0wQ2RjR0JaYXZ2Yk1VYktwakV2T0VNaklmOU9fMjREZllrRUMweDlZY2VzZ3JfNWVZUXpIeHJXM3kxTzJ4NnZnTXhjSDFUbzM0eFcyODJ3azBMaVlJcmlzX3hiYUsyRUFPSlVpLUMyQ184aHNHTU9VODN0NEF30gG3AUFVX3lxTE9HX2k2S0ktejA2ZExkX3MwZ2diQzNiM3ZWRExsVmFjWkJDZjd6aEZVcDZMaGNjcXVxMHRUaVZUcEF5Y2s5ZGF3ZHlBU3NIT1hUX3g3QTl6NU14dXhHXzNGWUswQ0ZNU1p0Wk1KbmZMWGxRZktuazdsNzllMEVvOTVsamVDTlFrNmRUMnlTXzFJOFZaS243T3pxbl9vREpucTk3bWtOLUd6OENkTkVsWVVzLUpGME5Uaw?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Xataka México: Coppel ya tiene el hermoso control de XBOX edición especial por sus 25 años y con envío gratis",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPenNoRzJPM3lDVWpxMlNmYmI0cVF1NXpjMEJnU3JjbG5hVXlid3FfTENubDZxSTB3UGxUd1RhbmV1eTNzTEJWNzhyUDl2dUJzT0drcEdodXRHZVNFMDZRcHltOVRBQmdtUzRaelluT0ZrNjAxN0VicUFIX1ZPbFBVeUNpeDJ6NUtQRUwwVU1hYVRic2VpTk9iRkhlZGhtUDhVU2Frd3pwM1lGRmpUczZFNdIBtgFBVV95cUxOcmZCZURWeUUxWEdFOUowYzJOR1k4Z19yV0lybzZEa3M3V0JZWUMzcnRlMnVabHRUSkRZQU4yR2ZTNFNpVzZCLXJ5Y0w0SkVVcXBPY2ZJZ1RNaG9HejF6aWVRNXRETDBvbDZZWkpxcHMtQzlBb1JkRE5UOGg4Y254dl9ibjlhbTczTmloUzQ5WFdOYzlsOGdtMk9lMWdOYTZSLWF1NG9aRHJVQjFLcUdtSGVFMUFaQQ?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "HobbyConsolas: PlayStation imita a Xbox e intenta convencer a usuarios menos activos de que vendan su PS5",
-        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPRnR0R19iMkFzVW94RFBHd0c1UmREaUg0MDVKcDlaeDNXcjgxWGx0RHZ2VWYxNGdIX1dIMDFBTlExOGp4d1RCZ1VZRDdsbzNOeU93U0xBNkR6TF9GeFhqeXZHMHUta3JtX2xiSTJ4TEJScG12c3RTbkVWWUZlQ2xhazBTdVpyRFE1RTJWQlh2VXdJTGMwYXVKb1RPY1JjRTJSNFpqNzJ1anlBdXlwX2VkY2g2ckYtS2VrbVgzOGxCMFoyMkdEY0ZpQUN2OEljYndCZTctdjl3RnB5WVZmcDZydDZZNzNVV0dQRzdEd2dxazFqbEZnaHlZb3NxTmN5aFpmTGpNMDZFUV9QMVl6QVlQajBZU29menpiak1UOE1aOUg4UQ?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "El Universal: Casi el 50% de videojuegos publicados en Steam se realizan con apoyo de IA; aumentó desde enero de 2024",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWFhsSGJYWTlVNmZwall2TjVGWThsc0JQaDM2enhKRGo1ZzB2RnNwVlk4S01Pb1p5eEdxTTFndlpnSmJ4NUtxMllzb21CcWh4LTdJUlFrQkZNOVZvSHB5TWJnb1Nhanl4eUZTQWlOMUt1aXdLR011bHlReUFhX3RkLXB2bkdZSXY5eXFfSUYydjNOUGRsZ25mdDFFcjk3SWZpVWJUdlVIR3hJNTBBTnFYbHlVOVFvTjQySjI2Y2tSM0I1Q2NLbHdkMlVlTy1wenhOTUxKclRlN2s0UkRR?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Vandal: Xbox anuncia una nueva consola con forma de cocodrilo y guiños a GTA 6: se puede conseguir gratis",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMzNObVpkUUNWTXM4VnFuWDlGUkIxZWhlWGxuVTlidk83RnJya0dQQmdtWXpIRk1CLXp5Y1REdEVkaC1UUEtSb0FEam9GUGtNTnlSQWxyRDNUZWc2ZDROQnYxc2QzZ1Vqd1RiMDRIelNRb0JfTkZnakQ0MHdiTWpoYWJ4TDBXVnlxM2VRRVQ5cUdUTXZ5UVZ5RTQ1amEwOGEwZ0pranhCMnZyMFhtTkxDRS04UGdPLUdxVDNtTUxMMTg2b2Z4TzNra25XdlNlejlRb1ZISkhxcm5MdlFGNmfSAeMBQVVfeXFMTy02WFpkWDBHZVo2ajJ1Q3lycDVCazlQY0hHUWxOZEtnSzNQNmRwM2JVMV92bHhLckJpTlREVUtvV2lYSEVJYXc4WVRPZHY3Wk5ON3c2WkhkZjN3MlJjeC0ySU1RNzZCdTBNX1IzTDZDMjdvSC0wcW5NYVMzQ3RickpFTkdQaUo0d0F5NUdhNnVJaVVHVnBJMFZJMUg3WUgwUnV0Sl9ucW82eVhPeGpIcWNRbjhMTm82Sm5oT1duVVZidldMQWotQ0gwQk1LbTZES0I5OWFCaHE2cnI2Q21JMmJ3czg?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "La Verdad Noticias: PlayStation: ofrecen hasta 400 dólares por tu PS5 si decides venderla",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSENlTUtJaExFRVZqdGhMODcxS1FlLVk1SnZHd0FjcEZtOHdQZzA3dmFYV3VjMDNnUllXQjZCUVhfbUxUVlJocy1FcVJqWHZVQlVXYklxSmRnUHlVRThhazRJaXBITnMtR0VzVEMwVjF6dUZpeWRxMWZpNGZNTndxT0Njc3pXeXBNNjgwOW5B0gGWAUFVX3lxTE8zVUJPamhDeUJTWEFYVzhCeVlXVjhBZURPdklBcUNIcUpIeEtwbkZvV1Z2Zm9RSGtFdkxJSHJnc0JUVG5ta0duYlptS1ZTWU9NUWVsdDllbEpKYVo1ZGhXZmtpVHNnbWFQeHBMTWpMeC15c2dQR1E1eTVaZ1RSb1NMU1Z2dlhIcUNSakJVeGJEalJoMDlGUQ?oc=5",
-        "tipo": "Prensa Gaming"
-      }
-    ],
-    "estado": "publicado"
-  },
-  {
-    "id": 1793732402909,
-    "fecha": "2026-11-03",
-    "categoria": "Tecnología",
-    "edicion": "Búnker Tecnológico",
-    "titulo": "Ciberataques en Europa y disrupciones de IA: Amenazas a la infraestructura crítica",
-    "descripcion": "Análisis de los incidentes de ciberseguridad en la cadena de frío europea y el impacto laboral global de la inteligencia artificial según el FMI.",
-    "narracion": "El ecosistema tecnológico global enfrenta tensiones estructurales que van desde la ciberseguridad industrial hasta la reconfiguración del mercado laboral por la inteligencia artificial. Según reportes de la BBC [F3], un posible ciberataque ha comprometido los sistemas de refrigeración de supermercados en siete países europeos, generando pérdidas millonarias y evidenciando la fragilidad de la infraestructura crítica conectada a redes IoT sin los estándares adecuados de hardening y segmentación de red. Este tipo de incidentes demuestra cómo la digitalización de procesos físicos sin protocolos robustos de seguridad operativa (OT) expone a las cadenas de suministro a vectores de ataque altamente disruptivos.\n\nParalelamente, el Fondo Monetario Internacional (FMI), en datos retomados por El Financiero [F4], advierte que la inteligencia artificial amenaza con transformar o desaparecer hasta 40% de los empleos a nivel global. Esta disrupción no solo afecta a puestos operativos, sino que redefine la economía del conocimiento y la productividad. En el plano del hardware, declaraciones recientes de Sam Altman, CEO de OpenAI, recogidas por Xataka [F6], señalan la ineficiencia en el aprovechamiento de los recursos de cómputo locales —como el uso marginal de la memoria RAM en PCs—, lo que anticipa un cambio hacia arquitecturas distribuidas y modelos de cómputo en la nube altamente centralizados.\n\nA nivel regional, México no se encuentra aislado de estas dinámicas. La convergencia entre la adopción acelerada de tecnologías de automatización y la necesidad de proteger la infraestructura crítica nacional exige un marco regulatorio estricto y una estrategia de soberanía tecnológica. La dependencia de software y hardware extranjero, sumada a la falta de ciberseguridad en sectores industriales y públicos, expone a las PyMEs mexicanas y a las instituciones a vulnerabilidades similares a las registradas en Europa. La gestión de redes, la protección de datos y la regulación de herramientas de IA deben dejar de ser secundarias en la agenda legislativa para convertirse en pilares de la seguridad nacional y económica del país.",
-    "personaje": "El Mashukita Hacker",
-    "personaje_rol": "Búnker Tecnológico",
-    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
-    "fuentes": [
-      {
-        "nombre": "La Jornada: Adiós al celular en las escuelas a partir de este martes; SEP llama a incentivar otras actividades",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObGdIU0pBbFUtOXRwOHZ6NWFNLVBRMWZqaHppeUxoQ2NVamgzaVNPclhKUmFEUjNHaGxXUTdjTklaZFhOWm9GM0s2VldOQVBtZGR6NkVnNzRZbTFyZmZYNnJ4WkRWSUM4dWFnVEJHSnEwRVA1ZWlJSE03aVdJenRKU25hWHB4clM2X1JfZDI5WEo1Mlp0OE52d2h1bW5FdWVzanVGNS0za2NibG1hejhlazl0Z3YxcjgxN25aTFBJRnd2Uk5fdk5zdHZidVRfbHFWb0VEc041T1BPV19DckF5SXd2bE5zbVU?oc=5",
-        "tipo": "Prensa Especializada"
-      },
-      {
-        "nombre": "El Norte: Viaja empleado del Estado en patrulla apócrifa",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYXZPX1VGUS1MRWdNTzZ0YUtsWE9EYUZkNUYtUUhtSVRuYlJlMnk2dTZqZkdfVEFjLUZhNzlfTU81TjhXSkJjX1BNZ0lVWWU2VmlyckZIcHhRQng0SEdrRi1EckNQbzJuVjk4dDd3eVFFVWZ4VGtCWWxqUXVmOFdzLXo5QW1iUXc?oc=5",
-        "tipo": "Prensa Especializada"
-      },
-      {
-        "nombre": "BBC: Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uY1lHWU93ZHA1ejllN3RYcmZtN0IwSDZqU2pTM1JvYlQwbGhWMTlyT2xWQUVHYlZ0MkMxblpzdkd6Y1JPTTl6TGJjOHIxRlBqckR1MUJyRkJqQWw10gFiQVVfeXFMTVJLSVkwTEJoWGpGdnVweDBBbnZENlZtcEFfRlFfMFpLSllKVE1sTzlHUGJUZlo0aEcxdGxKSXpBajFRclJKNzZkeGhReUpncWJnNF9pbnZxaC1Ybjl1eUFjZUE?oc=5",
-        "tipo": "Prensa Especializada"
-      },
-      {
-        "nombre": "El Financiero: IA amenaza con desaparecer hasta 40% de los empleos en el mundo: FMI",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYVhjQjZ6ZTdEZE9XQnZKV2FMRWx2YkJ5ay0wSFZOeEY3bFBvRFltU2FNMm5SdVQ3bC1lVTZoQU1YSmZqdEsxaTFTbkppcVRGdEgwdUFLSnktaDlUUGFIdnRYaTg4RHpyQXRwRGpxNjUzRGhRQ2pSSFVKVG9PRzN0SDVUbEp3Sk00ckpIY2hRZHpndk5GOWpJeXRRM2JSVGhBUlBiSWdJVDVYajFVeUZmNHZwVklHQU9vOF9v?oc=5",
-        "tipo": "Prensa Especializada"
-      },
-      {
-        "nombre": "El Financiero: Pablo Vázquez y la mejor policía del país",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVDFxazh2SUdCTXR3WW9CODJTZExTU2JxVUVUQlRxQjRpQVFmRzlWZzFaUnFkSDM3SXlweFlKazFQQmJMOHo0OW1WcHRXcnBtbU9QY3RlOFliMEpHLURiMHJ2LXVHMy1kOTRQQ2J0clJmVzZxN25jM1czN3dTWExQam5ZZjNodTY3cDl3WUR5RE9sVDlhc3Y2VTdtSUdPd1ZtSzFXbnd6ZnRkaU9rUk80UzNRbHBOSmZrOE1xZQ?oc=5",
-        "tipo": "Prensa Especializada"
-      },
-      {
-        "nombre": "Xataka: Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su PC utilizándose sólo el 5 % del tiempo\"",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjJKSmlGTkZfNWJIVlZwdTBWQzJXUlNCcDZLck5aUWQ5T2tjbWxLaXVLMkpCU3c0MjZlbllneWtxaEFCUXI1dnlackVuRDRvVWFTcnhORDY2d2hBdm1CdVBaTWhERk1UM2psSHJEUzlfczlja0JnSm9HcF9JS1EwejFwSW5PT2VQTmtXWjBuclUxTXNOaHFPaEVIdWRBUjQyaDRxdkI4RXBRVGtPdkE3WlFjR0s3SXpVRmJZVUljcWhPdWVTOFV3X3M0em9Kc0RJLVNGWdIB2gFBVV95cUxOM2pnbVFDUDJBdWRjQnZUZXpCdklocE1lTERORWY0UXVLNkdpN01XUXpkdUlIYU5yMjJiRzR5TFc1dllCZVhmRndDM0phT0RZTWFLYWpOelZ3eHN4Umk3bWVUb1hLQVZDaC1Ec1F2NFRRQlg3VTRiWV9wRGc3Y1BKSGxjd2w1OFpSQV9GX21RZjlWRE1HOEN2MlhKSTVhejR1LWFZMUFGN0lFSVM4bmVJWjJzOTZncXo4aVVlc0lZSWNfT0VQUHhEdV8zcE12bWEySTJNei1IdDhNdw?oc=5",
-        "tipo": "Prensa Especializada"
-      },
-      {
-        "nombre": "EL PAÍS: Siete vuelos en Europa registran amenazas de bomba y obligan a activar los dispositivos de seguridad de los aeropuertos",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZlFiTWtXVm1kNDFyV0poZVcyYjVHZVZDVFNVMFZSeFJBTXdXX3B3ak1VOVpwRll6VVZRSkJnMU5LaHZEeUxnZE85djAxdzNseVhuSHRTM3cxWURQUW8xVnpWT25QNTdOSUZndGlvN1pSd0JibkNRMDNnRGlTWFR0S2lIMUdtWngwYTd4aEs5SVZtVjRSR3VqaEduWUdwanhrTTlvX3d1d1hWd3FMNUV1RUZwdkM2VVl3QmE4Q25VRm1pQ1lzSjNURm5IWXpsSU5WdVVyMEFHZEZDSEgzeTVQWmlVYTUyTHlSeUl0eG9uQmJfbjdVMTVsTW9WTQ?oc=5",
-        "tipo": "Prensa Especializada"
-      },
-      {
-        "nombre": "El Universal: Dos billones de dudas, escribe Valeria Moy",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE80R1BVRHVaT0FEekhVZDBCYmp3ZHR1azdqRE15d3VwczV6LTMtNWdGcFJZb3JndDlMREhLLTNUV3RtemhxdlRuRGE4dDU0Qzg2YzNMVXUxbnRZM0VkRXlxekU4dVF6dWUzUHo0VWVlTFJWd2V4SjluQkpHdHpFQQ?oc=5",
-        "tipo": "Prensa Especializada"
-      }
-    ],
-    "estado": "publicado",
-    "youtube_url": "https://www.youtube.com/watch?v=oysR7bx1cC8"
-  },
-  {
-    "id": 1793728855923,
-    "fecha": "2026-11-03",
+    "id": 1793815216280,
+    "fecha": "2026-11-04",
     "categoria": "Farándula",
     "edicion": "Farándula y Espectáculos",
-    "titulo": "Premios literarios, litigios inmobiliarios y el pulso cultural nacional",
-    "descripcion": "Análisis riguroso de los movimientos en la industria editorial, los cruces judiciales internacionales y la agenda cultural mexicana.",
-    "narracion": "El ecosistema cultural y del espectáculo contemporáneo exige un escrutinio que vaya más allá de la simple cobertura superficial, evaluando los impactos patrimoniales, judiciales y editoriales que moldean la industria. En el ámbito literario internacional, la vigencia y el rigor de la crítica contemporánea se reafirmaron con el fallo del prestigioso premio Sor Juana Inés de la Cruz. Según reportó [EL PAÍS], la periodista argentina Josefina Licitra resultó galardonada por su novela ‘Crac’, un reconocimiento que subraya la salud de la narrativa de non-fiction y la agudeza analítica en la literatura en español, consolidando los puentes editoriales en la región.\n\nPor otro lado, la nota roja y los cruces legales internacionales intersectan de manera inesperada con el mundo del espectáculo. De acuerdo con información verificada de [El Universal], una bodega ubicada en Tijuana, Baja California, fue cateada por autoridades en el marco de una investigación por presunta pornografía infantil, un inmueble que ha sido vinculado públicamente con Thomas Markle, padre de Meghan Markle. Este tipo de procedimientos judiciales obligan a revisar los protocolos de deslinde mediático y las repercusiones reputacionales en figuras públicas globales, donde los lazos familiares se convierten en variables de riesgo dentro de la gestión de imagen corporativa y personal.\n\nEn el plano estrictamente musical y del entretenimiento en vivo, las dinámicas de programación urbana muestran cómo las agrupaciones de arraigo popular continúan movilizando la economía cultural local. Según registros de [El Sol de México], la emblemática agrupación Los Tigres del Norte protagonizó un cierre masivo en el Mercado Juárez con motivo del Festival del Alfeñique, un evento que moviliza flujos turísticos significativos y reactiva el comercio patrimonial e identitario en el centro del país. Paralelamente, la industria de los reality shows y las plataformas de contenidos mantienen su disputa por la audiencia en las barras dominicales, reportando incidencias de votación y dinámicas de eliminación en formatos como ‘La Granja VIP’, según documentan los reportes de [TV Azteca], evidenciando la permanente tensión entre el rating y los modelos de negocio basados en la interacción digital de los televidentes.\n\nFinalmente, la industria del deporte de combate espectáculo continúa integrando figuras históricas del balompié nacional, tal como lo consigna [Récord] al anunciar la incursión de una leyenda del Club América en la segunda edición de ‘Ring Royale’. Este fenómeno demuestra la diversificación de los atletas retirados hacia la industria del entretenimiento deportivo, un sector con estrictas normativas de regulación física, salud pública y contratos de exclusividad comercial que definen la sostenibilidad financiera de los atletas fuera de las canchas oficiales.",
+    "titulo": "Disputas patrimoniais, batalhas eleitorais e litígios televisivos sacodem o tabuleiro da farândula",
+    "descripcion": "Análise rigorosa dos movimentos recentes na indústria cultural: da vitória política de Bobby Pulido no Texas às disputas testamentárias de Michael Jackson e controvérsias na televisão mexicana.",
+    "narracion": "A indústria do entretenimento e da cultura transita por momentos de intensa reconfiguração jurídica, política e patrimonial. Em uma análise transversal dos acontecimentos recentes, é imperativo examinar os dados duros e as implicações contratuais que moldam o cenário atual do ecossistema artístico global e regional, distanciando-se de especulações vazias e focando estritamente nos fatos verificados.\n\nNo âmbito político e de representatividade, destaca-se o triunfo do cantor Bobby Pulido, que conquistou uma cadeira na Câmara Baixa impulsionado pelo voto hispano no Texas, conforme reportado por fontes jornalísticas de circulação internacional [F1]. Este movimento evidencia a crescente capilaridade de figuras públicas oriundas da música regional mexicana nos espaços de incidência legislativa norte-americana, alterando a dinâmica de poder e representação das comunidades latinas.\n\nSimultaneamente, o patrimônio de ícones globais continua no centro de batalhas legais complexas. De acordo com informações judiciais recentes veiculadas pela imprensa especializada, Paris Jackson formalizou um pedido de 600 milhões de dólares referentes à gestão da fortuna legada por Michael Jackson, pleito que envolve diretamente os herdeiros legais [F4]. Este litígio expõe os complexos mecanismos fiduciários, auditorias financeiras e disputas testamentárias que persistem décadas após o falecimento do artista, evidenciando as rigorosas disputas legais travadas por testamenteiros e familiares em tribunais civis.\n\nNo terreno da produção audiovisual e da memória artística regional, surgem atritos estruturais na adaptação de narrativas biográficas. A controvérsia em torno da série dedicada ao grupo Timbiriche — sintetizada na declaração pública de que 'a série de Timbiriche não foi de Timbiriche' [F6] — ilustra os profundos desacordos contratuais e criativos entre os criadores originais, os produtores executivos e os detentores dos direitos autorais sobre a validade histórica e narrativa dos produtos biográficos veiculados em plataformas de streaming e televisão.\n\nAdemais, o ecossistema dos reality shows e da mídia de entretenimento continua a gerar atritos regulatórios e de audiência, como evidenciado pelas coberturas de eliminação em formatos como 'La Granja VIP' [F7], onde a retenção de público e a votação transmídia determinam a sustentabilidade financeira dos formatos televisivos. Por fim, investigações colaterais de impacto social, como o caso envolvendo o entorno familiar de figuras públicas em Baja California [F3], reforçam que a interseção entre o escrutínio midiático, processos de fiscalização e o cumprimento da lei exige um jornalismo estritamente ancorado em registros oficiais, salvaguardando a integridade informativa frente aos desdobramentos judiciais e institucionais que afetam direta ou indiretamente a indústria cultural.",
     "personaje": "Dora el Axolote",
     "personaje_rol": "Crónica de Farándula",
     "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
     "fuentes": [
       {
-        "nombre": "Infobae: Paola Dalay edad: la diferencia de años con José Eduardo Derbez, su expareja, y César Romo, su nuevo romance",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbDIwbEZtSkVVVl96S1JnNVdkdXoxWlR5ZmczT2ZybzI4ZlZNekwxM2dGVjZOOGxKLVR2bWdpcDNrbkxCVzloZTVHOElTYVZLWTdfd0d2R0JVTk1DVmViMG9qR1hSMTJkQkRnZUxNbGJvZ0RmT2k1Vlo3NzBmZWtoVnVLbGZEcGdBYWkwaHR3eElsRFhra0xuNjViUVNBcHZOZjlzVjRUQTRCN2lYU2xNbWEydUw4Y3hNQkxPOGlfRkk3eGhWQW1OZWhWWjYyYkZTTVdrVHlNSW9JVFNpLVVSN9IB-wFBVV95cUxPTWUyUEJOTGdHb0gxU081aU5fSkM0WUhHN3JHOVFaRDlYSlpoU3VuWlA0QzE4NV9vY1VETXJIQjBXSXhIakk4UndLQkJuNUlGdVY3dXVSS2tkYjVCVUFSUFJQLThyUThiSnhicDVCaThyeUphM0tVbWhSX0dvTF90NlVLMXRGUHdVU0h2WWJhU3dMb1F2aVNEb0g2VFR5TVd4Q0pZaHZyeDF6Zmk3anZ0WmtHTTlad2h4Ym5pT01iRWlSNnZCOElVaEVCSTVKTlNld0NLOEFuSVNTSkxSM1F2UnFfQnNDVDFFZzhFUVRmTFZhTW8xQ0Q2TmVaTQ?oc=5",
+        "nombre": "La Jornada: \"Desvelado\" y con la victoria: el cantante Bobby Pulido gana la Cámara Baja con el voto hispano en Texas",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOV0tzd0trZm8wbUVNakFWOUNGQWt4Q0FreE84dW81Q1FuU2c3b0Zta0pKN1NtQTVGb0RsVkZvSnBhbTRsUFJpdGVqRHF0a0ZmNmJJSnRlRXl5NHlxYnh0XzFzY1Z4NmZhMEgtc095bzBhWThONzJpeWU1bHNWckVoclBIOUZvbG1ZazVpOWRCSU9OR2JyWGQ0MWMyVzdZQkl3SGZISV91bmVyeTIxRmt4MnpKV3VRVGVVQ2JTeENSUk9WQ3pHczl0YlBuVk1LMzJDaWc2bXIwclpYQUJhUmd5TE9CbUVIeUp6?oc=5",
         "tipo": "Prensa / Cobertura Nacional"
       },
       {
-        "nombre": "El Universal: Catean bodega en Tijuana vinculada a padre de Meghan Markle por presunta pornografía infantil",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOY3JmWmlQVnJVN3BBTkdsZGREcnoxOWRXa0tMMGdHSEJZUi1oNUZhRndJNmNSQ2M0eWtmY0U2TzR4X0RBRFRQUUR1ZUtJYnJ0ZFF6cTk3R1NIYnpLcjVOUVJMbzVXQkduczVXM051RjBYQ0xqcm9ZTldQNGlON3NMV2hDdjR1MFhtMWtoaFVRLU1nbFJuMnlkQU5OOHEwNWhpRVJIRXdTNHFjNnNpR1l1Ty1QNjRHNzd0ZkhqR3NKM3B2NGdfSGVSNmVhXzROZlBIU1Fib3pCR09WRGZGOEdLY2xuWdIB9wFBVV95cUxPb2twNjhVNHdKVENXeHZjbVI4NmZiNXZ6V0x5TG5iRVRCUHktOVh2NFhTTWdHVm1YUEJjeUFSQ1NrZXRLWFBIQjZBajBKT1JUcnZXVDlPbXJ4OVdmajg0ekw2ZmhFNjFURUgtU1BTc1lISkFNd3hJd0hudXZnVWFTTmxFblB4R3RDTFVzNUswRHo5b1NSeUZZOVdfRG92NEFMV1MyY0xVU21DZTVidWkyZ0xqSlVxdGprUnZ4YzZ2Vnk1TVRtQzRaMWNlUmtXWnlPWFFIRWVpUnJwLTJoUi1rMFg3S0JyMlNFRU5LRG9sMXFNUmFnbDlV?oc=5",
+        "nombre": "HOLA: Paola Dalay confirma que está saliendo con el futbolista César Romo tras su ruptura con José Eduardo Derbez",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN1prdnZJMmpHREpnWWc4REJNLV81bG9oTjVIVFBjamFRQXBmS0F6eXJmM2ZyQ05aT1N5VklpQmpyNTZRU3R4eG1telF3U3FCQnQ2WmxzUnpEdlAwcmh6dUFBN0hNMTZGOUdmYlZRZ3pyLWlzRTJYNWFJWk93R2ZIRS1CSlFnQVdtS2prRFRfWXNQYWxiamdxcU9Oc2RmNV90dXM0bGY0bjBUU2YxZXJXMmc4N0xZRThtOXd4VnVGZ2NGSms?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Así vivió el papá de Meghan Markle en Baja California, donde catearon una bodega con materiales que lo inculparían por pornografía infantil",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQd01EOGluUDd0bExnckg3bkt4Rkl2RDJ0WVdLeDBTRlZhNGJVcnpvcWY1clZsdVJyRzJ2MW43TldNZUNPZnFfa0pTNzRyZnQ3LWlleU1jOEtlTlpHNGg4cjcxZS1URTJpWHNMUnRmcjA0WWcyYUQtcUJ0Wld3WW8xVXl0YTZpcDlSZEhUTnhraFc2aEl3UWE5cWV4X1NnMkc2QlFsOFA1WTBCWXJkTzlwU1RrbEtjcWQ2WC16TEpPWHJWZEtDV21kWXo1amg2TnJLVGdwRE5SR1pTM201TjFRM0VGaTVkQ0lVZnVURmd3Wjk0aXRWXzVjMDFuZHhqMkMxSU43bGptSnRoYzVDM2fSAagCQVVfeXFMUE5oN1pTVmNEdGJieTdiTXNDWF85VllFdnNhc2JWR2JWaVI4Z2pfOHU4TTN2MGlNWEdNaHpSbzI1NWFyc0h1d0gxSUZsMFBGdlVnRDA5MTRRdkVCTTJmeHZWOURqR3ZPNWx1TDhXbldoRU02eGdCYUQ2aWJqRi05R1NMR1dPd0dPUEZVbm5FZTE2Tk1ZSFFkbGg0dmJPZU1MY3ptX2FXQV95WTlHaDF3TmY5UHFseWNSSUpBUEtoRjdsb2RpOU95N0c5Um5KUmF0QnR2VU5XQXFhemVIakw0cXE5U0VHaEg5YThGN2pXV1c5WDR2LWsxMkdrMlVYMlNVdlgxSWg0azhPZEJ3X0gycFZhNXIyZlpubmM1MFZ0LWR5UkpvTXpBQmM?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "ABC: Paris Jackson pide 600 millones de la fortuna de Michael Jackson para ella y sus hermanos",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNEVhWGQ0OGJGZ2o0OE55M3JGNVRIWnEzMWh5VXE2Q1JLN2ljaXhzUlg2YjlxVmJnTWFJSGRpWTRjUHZsa0p6OXJNd1BiY3NYTHo0OG8zY2tZUGtpZEdDVmhLaklwTjlQWGhrQ1g3NDE3SEVfVm9Hcl9wczY5Sncxd3JUU185SjBNcU1EaDF2TEhSSi1YUG1Fd0FQZ2p4U3diSjg4WXUxNEJ2LS0w0gGyAUFVX3lxTFAtTnRtaWRwdlhuM3dMQXRpT25salNmMjZzZlJxU19PS1VDOHg5eG1GNXhOZUtKRjFHSjNERGtsbzVrTWhyclNHQ0NaSTRTcjJKMENrMFNZVEJpdzhKdU9tb1duQUFlMWhDbFNIMlZrRzU0TG41TnhZXzVGNTJZZGlFTWs0RFRSZC1fdWhjSmkxa1ZPZUxieDdaSlVxbTVLT2ZyWURTS0o0LTZFaVkydTJSeWc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "FilaSiete: De los libros a la animación: estreno de El gato con sombrero",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS3FxRndzbDNhLXd6X1ZXM05lb1ZrR0xka04zRzlhdG9Dc3ctM0NrclgwM2VNMjFPT0V5SExQSzByRjVMamVIOWNFOExGaDA0RHAyYU5qTnFhc254N1RkSmF6RUU0MFdfc0ZiNXlOMlFkMVNaeXRmWmIwUW9NNWRHUDlVeXBITWvSAYcBQVVfeXFMTktxcUZ3c2wzYS13el9WVzNOZW9Wa0dMZGtOM0c5YXRvQ3N3LTNDa3JYMDNlTTIxT09FeUhMUEswckY1TGplSDljRThMRmgwNERwMmFOak5xYXNueDdUZEphekVFNDBXX3NGYjV5TjJRZDFTWnl0ZlpiMFFvTTVkR1A5VXlwSE1r?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Norte: 'La serie de Timbiriche no fue de Timbiriche'",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdDBSMm5iQXo2SGVvTFhwWVlRSHVaZ1VmTkFjaTB1UjNOMHh3dmJ2Tm9leVRwQUN0Z3ZWRGl0Uk5haEctN1dkaEh4OVowcTVudmNZRDJpd3hjbGNMVzRSS0NsejhFcnB6T1JNbDlwMmpkVHZVc2xPS3NEZkZ2WW00QVlLYw?oc=5",
         "tipo": "Prensa / Cobertura Nacional"
       },
       {
@@ -138,143 +47,13 @@ window.MEMEX_NOTAS = [
         "tipo": "Prensa / Cobertura Nacional"
       },
       {
-        "nombre": "El Sol de México: Los Tigres del Norte llegan al Mercado Juárez para cerrar el Alfeñique 2026 - El Sol de Toluca",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQzBhSUZaR190Z1plWGNnejdraTJPZW40Q2RlVDRYbG02allzTFFnUUFaNW9vYm5FU1J1T1RKY3lmZ0NLeW9HWlRYaXhyeC1ZVHBndkdWX1hSYS1mNlZseWI5a016Q1dXbzVtbUlNYjhNUU1BSnowd0NFaFhVNmloNTg2R2ZfNURIOUlIanZNNF9Hdmd1S0ZZZWhqci0xVHh6YVZkT2szWW9PdVcxdUVXX2VOYzBBbmUxamROekZDaGU?oc=5",
-        "tipo": "Prensa / Cobertura Nacional"
-      },
-      {
-        "nombre": "EL PAÍS: La periodista argentina Josefina Licitra gana el premio Sor Juana Inés de la Cruz con su novela ‘Crac’",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSGNVX1VjU21vTW5QZnJUY0dtaGZ2SVJ4UWp5LU9taEJZNG9wYUJFZnZWbW1oNGNfQ0JUVGdxRzAwU1hCSnRlRng3R3YzcFgtcnM3bEVLX2hmYmo5NkVseUdXX0VGRUZac090UzZsQk9pR0UtQmQzbWtTaDQzUjBkRXBaeno1RjBRcGc2SFFnOVdjQlNBYnJWb21zQ0xfdEVLSDZFREhxcW5MUU1udnFuOWtaZlNYeURQS3N0QzhHMU9vM05BX3ZMaGhSWQ?oc=5",
-        "tipo": "Prensa / Cobertura Nacional"
-      },
-      {
-        "nombre": "La Jornada: Sociedad y Justicia",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0cVFjU1I5Nm9HdERMNE9RNHJQcmt0VzhlNTJ5dExPV3lHTXB1S3FpcEp3Q19udEdvUklDaUpPWmZMY0xGYWdsRkpFa0FiSGQ1b2t0dENmRkd3dw?oc=5",
-        "tipo": "Prensa / Cobertura Nacional"
-      },
-      {
-        "nombre": "TV Azteca: Horóscopo de Nana Calistar hoy, martes 3 de noviembre; estos signos deben cuidarse de las ENVIDIAS y CHISMES e",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV25tNEFwWkVnRGN1NEctU2gyVG1TZU5sMFlLTlJ2QV9XekVDazhjZTNyRFo4RjBOcDdsZFNDYnE3ZkNBWWIydXB1Q2t2VktlbEpKODZGT3dXQ0x3bHBNMk1lS3pCMHl5UzV2R1NKSk0zZU5yWV82NWx2RnR4T3diS0ctSERGVEhZVHBkVl9kRmdORTB5dXpVUkFzQmpzeW5ReGU4Q2RDUU16QXBMN1gwZTFKRW9MZ9IBwwFBVV95cUxOdnFwMUd5RWs5TDQ2bVg1b3JiTE1yaTZ2TVIxVThJTTJQYTRVY1ZUOG5mOThGOHlMSHJGendzcTBlZEtGMEZGSWVwRWtjSnZvWEdmdk5CWE80V1AzSmZDN2hhdTFlRk92cGtfYTFDS1pWaUVzWlNnaGRBaEhYY1BtMHNPY3VKVS11cHRLSFZtNFhGTjNKSENvdllrak96NlAyNEdHaGxUeGZEc0xlbnA3Zy1oZExiTlVoa0V1Y0FhZUhqUnc?oc=5",
-        "tipo": "Prensa / Cobertura Nacional"
-      },
-      {
-        "nombre": "Récord: ¡Se pondrá los guantes! Leyenda del América participará en Ring Royale 2",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0NEb0J2X0xNbkphSG5oOHplcVcwQ042MTZyUGM0NzYwaWV5VzZQMlRtd2NlVkdMUS1CVFQtU1BIUFlaM1AyczFWS2llY29ydGpOV1dCaTRiaG9rQ2RvSGFaSFNQbFcyQ1J6Ym9pd0VpUDcwN3hrcnJxTUV6Sm9BMDFZNFI3TEE0Q3U1M0VCRlM0NTBmQ1ZRSWlSZm5pa01qZGZjeUl3?oc=5",
+        "nombre": "La Jornada: Cultura",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE05clZNcExUYkZhaUdmaFdiOWNOZTBlZXczbFJhRFFtakNmQlJoSE5EUndEZjZicHBBQ0RlU3VZZndNY3JtWk5TZERqc2wwX2I0RC1ndmhfN0I?oc=5",
         "tipo": "Prensa / Cobertura Nacional"
       }
     ],
     "estado": "publicado",
-    "youtube_url": "https://www.youtube.com/watch?v=lTbw0pq1sD0"
-  },
-  {
-    "id": 1793667603851,
-    "fecha": "2026-11-02",
-    "categoria": "Noticias México",
-    "edicion": "Noticiero Central · 5 Puntos Clave",
-    "titulo": "Panorama Nacional: Conflictos Institucionales, Seguridad y Cambio Climático",
-    "descripcion": "Análisis de los movimientos en el INE, órdenes de aprehensión de la FGR, crisis universitarias, seguridad nacional y el pronóstico meteorológico.",
-    "narracion": "El acontecer nacional registra tensiones institucionales y sociales de relevancia. Según informa [Milenio], el Instituto Nacional Electoral (INE) se encuentra en proceso de remover a cuatro funcionarios conocidos como 'taddeos' debido a sus antecedentes y vínculos con Morena, una medida que busca salvaguardar la imparcialidad de los órganos electorales frente a cuestionamientos de parcialidad partidista. En el ámbito de la procuración de justicia, [La Jornada] reporta que la Fiscalía General de la República (FGR) confirmó que Inés Gómez Mont cuenta con tres órdenes de aprehensión vigentes, por lo que será detenida de manera inmediata en territorio nacional en caso de ser deportada por las autoridades de Estados Unidos, un caso emblemático de presuntos delitos fiscales y lavado de dinero. Por otra parte, la infraestructura y la gobernanza universitaria enfrentan desafíos económicos y laborales. [El Universal] destaca la postura de Grecia Quiroz bajo la premisa de no dar marcha atrás en la búsqueda de justicia, mientras que [Milenio] documenta que en la Universidad Autónoma Metropolitana (UAM) la adquisición de vehículos oficiales por un monto de 7.5 millones de pesos desató una severa indignación y un consecuente paro estudiantil y laboral, evidenciando tensiones en el ejercicio del gasto público y la asignación transparente de recursos. En el terreno de la seguridad pública y los siniestros viales, [EL PAÍS] informa sobre el desplome de una avioneta en una vialidad principal de Pachuca, saldo trágico que dejó dos personas fallecidas y que activa las revisiones de seguridad aeronáutica civil. Asimismo, el sector laboral experimenta fricciones internas, pues [La Jornada] expone el surgimiento de divisiones y protagonismos entre los trabajadores disidentes del Instituto Mexicano del Seguro Social (IMSS), lo que debilita su capacidad de interlocución colectiva. En el plano internacional, [Excélsior] subraya un nombramiento de orgullo patrio: la mexicana María Montserrat Alvarado asumió la titularidad de la Dirección de Comunicación del Vaticano, consolidando la presencia de perfiles nacionales en la gestión informativa de la Santa Sede. Finalmente, en materia de protección civil y condiciones climáticas, [vanguardia.com.mx] advierte sobre la aproximación de una masa de aire frío asociada al frente frío número 4, la cual provocará heladas de hasta menos cinco grados centígrados, lluvias con granizo y ráfagas de viento de hasta 70 kilómetros por hora en diversas regiones del país, impactando la movilidad y las actividades primarias.",
-    "personaje": "El Mashukita",
-    "personaje_rol": "Mesa Central de Noticias",
-    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
-    "fuentes": [
-      {
-        "nombre": "Milenio: INE, por echar a 4 'taddeos' más con pasado morenista",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkI1TDRIeDN5dWl6REJac0Y2cHRWWHBTM2t0WlF5V3FQOW9DZzk3cHFzQ0FUS3VGTzlHOU9LbnJEODJTaEdVYWFTRk42WXU2Vm1TNm9rRGdRbk1WMDRjMDlBbEoyMkhONUFnbXR6aXZLWWFEOUdaalFsemV5dW1FTUtfYlpfYWVvSi1J0gGLAUFVX3lxTE9sd2NvanN3ekxITG5obng1R1FSRlBZS3hkOWppOFlmRjNVbXptejVQQ3JzZ2xyOEQ0RGRBNWh4T2NLZU1UNXQ2Ti1xdWZqOXczOGoyYk94V0k5Rm5zRlZncTI1SFZhcE5nalk2VWZPYUE0ZDhIbFFXVTNzWm1RVVE1eDJqSXh3TThuZTQ?oc=5",
-        "tipo": "Prensa Nacional"
-      },
-      {
-        "nombre": "La Jornada: Inés Gómez Mont será detenida en cuanto pise México si EU la deporta; tiene tres órdenes de aprehensión: FGR",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUFPRlhKQ1Y0M1FXR3p6R2xHTXEzejJPazlDak1zSXYwR0lkS3JrNVVWNFAzVHZiMGpOdGlBaDJSaWY0OGRDQmVORzRXRWpjVm5LTDU5a0NTTm1pR2VEcVN6WEtFVXhMTlZ4NDhrY21EcGF2dk5GcmdzLWQxbGJvUWZRTDRnUEJRN2NhNGpuQ09hTGtUaTdhWVJWekgxbkpCM3BTWmNHdV9MNW1aQzI2WG9oSGFCOWpxZFlKVVIwQXE0UQ?oc=5",
-        "tipo": "Prensa Nacional"
-      },
-      {
-        "nombre": "EL PAÍS: Una avioneta se desploma y deja dos fallecidos al caer en una avenida de Pachuca",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUdpV2xrbm8xVlM4UHNPZjRmUE9mcl9kbVdZOWRSVjBmUy0tUnJKZ0hNV0FZVzdSU3Rqa19PSmd3YXhlX0dMQ2RUSGtlX2hGQzNubTlYYmxqY01YUkpJUGhLSWRReVZXVUw4a2R2OEdNdUYxdnNJVDZMNmhQYTlLNXdhYi1WVjlvT0RBTmlKbmtfSU9FTG9LYlRVY2NFUTIweGw2WGZNRFdmZTFHNWlGdkhqQzE?oc=5",
-        "tipo": "Prensa Nacional"
-      },
-      {
-        "nombre": "El Universal: \"No daré ni un paso atrás, honraré tu memoria\": Grecia Quiroz",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQThfc0xrSHljVU1uWVlpU1FZS2l4ek1kSXZxaEI3VmNRRUN5ZFJhd083Q0w1S1g2azFIWVlWZE53RHlyZHNFRkJHb0F2M2hUS1JneXJsLWtYY1A0UDRsRGw4Qm5BV29FUkl4V0NHelYwb3lHSEtBM0pQT1Q2WjA2R0EydUxXdFhLeFkybkIyTFVXZTVOdXA2Y1hYMnkxZ3hIVUJfU0VRWXViV2R4WjZQSGY2VTRLUDRjSkdEY2RUYTBhMGNkWGJDT180ajBzcG5YLVV1YlZZX0xMMVlybEZNX3gyMWJTc2M?oc=5",
-        "tipo": "Prensa Nacional"
-      },
-      {
-        "nombre": "Milenio: Compra de vehículos por 7.5 mdp desata indignación y paro en la UAM",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUTVpelNseW13cVd1NTVWemFlQXhtbV9xS1FYcTBiYm5YMHdfUEU0VHItYnp5MkE1SFhhcHJOSWJJbVNrSUZfaDFDdnlUZy1KNkFtQi03di1TQ0Y3N2I5RHVyd25Yc1dEZmV2Nk5YQnp3aWtIOTBzRTFOMFlhQzhOSkRBMVlkQkt4ejJVS2pmdHhUYkFFVlFNU2NxQVRaNlM3MFR30gGjAUFVX3lxTFBlMkM1TzIzUjRsaC1hRnpyaU9QNHUxdnlXUHJsQXRKTFlFYzEyZ3RVSWtQRHpibU4xejRZcVV6QW52Si16RDFnTzBUX1NvaVdUZXM5TVkxdFdwV3FYaTZBMUJpQ25RS2VhZnBRbHF3bHVBV1B3cVRtcE5FOFR2Z2RteVNBV1Y4RURHejBjWFFLOEJ3bkdwbENIa3ZkdHRLOXAtaTg?oc=5",
-        "tipo": "Prensa Nacional"
-      },
-      {
-        "nombre": "vanguardia.com.mx: Se aproxima Gran Masa de Aire Frío a México; junto al Frente Frío 4, azotarán con heladas de -5 grados, lluvias granizadas y fuertes ráfagas de viento de hasta 70 km/h",
-        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPV2V4REthNmZqaGlYbzE4TGQya01BYjNhYlNldlNCSm9ZckdnOWlHUlBwdlVVMXJyQ0VGZDNDMHRHZWQ0eU9HTU00X0RxZjZmeElrdlprUmFvb2NOR3RSSGh1cEE3QWZpckRERjZlaEtEdjEtT0FxY0FpTEROTEhDMWpHT1RJbHEyV3BvS0dmTk1PN09kaVc4cXZ0aFM4WGdsa3FBcTFxZEpubkJqMjdiZlRhOVJ1TVhxdlFkREdkLUlPdUhzU3NqNjJJRjRkT2RyYlRBRm1MZVc1N1ZCVnFxa0tWLXY3TXdMbDNxWHhTanp4VVhybWVFcDdTVWtva3Y1NndRTWlWYllNdHFhMmdaa0JMY2VmRlNaWjhRTDBiZ1Q?oc=5",
-        "tipo": "Prensa Nacional"
-      },
-      {
-        "nombre": "Excélsior: La mexicana María Montserrat Alvarado asumió la Dirección de Comunicación del Vaticano",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk5yWUF2V2hqY1NaYlBWUjVVNHYxaFFCSDVqTzFPSkU3cHRfb0FSZU1EMTctd0tJSV9GQzczaHE3UHJpWVVWdmRvS3AwNGk2QVJTVzJ6ZHE1QzlFMUh6ZWFwc2xaa193cjE3Y0w1TzBnYkRHdlptRnNhT2ItMWx5bzZub2Q4X0hncnRZY2xkWThLVkhEZzdVS0ZCdWlCMVVlNkVGVHFDLVpuSnVyVFVwbENKOG5FZ9IBuwFBVV95cUxQbF9MbENKRHprZFZfYk1xaXJPQjJxV005RmpONVQzbzZjUmk5cGxmM1ZtaEx4WlNkMHkxQWRWa2VENlNYOEJ0TC1FTUM2blBmUW1RMm50anpodWoyY3pscjJ6Q1kyMFF3X0JDYWwxekVya29JMFZ1dTB1R3pVQXB6YjF6ZDdVNDlkb0I3WEt3TEZ6NC1ZTnNGY2xrbHcwV21pOUZyQlhIWk9UMjVELUlwWjA0LWVJQ1hXbmxv?oc=5",
-        "tipo": "Prensa Nacional"
-      },
-      {
-        "nombre": "La Jornada: Surgen divisiones y protagonismos entre trabajadores disidentes del IMSS",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONlBCTE5JUXNpTU53bTFwSGozXzdqcmpyeEpFejF2T1VxR0F5V19XMEpnQ0thdEp5MTlqR3BGMVBKR0xfdnBmeW9XOGw4SThKVmQ3T21ZVmtadVJoYktVbkQ5YlVJS1E3dHRmOGNJRmc1THdOZzJONTF1OWpoYWlDZlFvVGU3TWpNaWFKTUF0REw0SFFRSzRSTzNtaXU5VnpEOVdCWHV6TFdpWWl0TjNsV25DcC02NUxlVUU4eFF2TVRxbkpLLVE?oc=5",
-        "tipo": "Prensa Nacional"
-      }
-    ],
-    "estado": "publicado"
-  },
-  {
-    "id": 1793660404212,
-    "fecha": "2026-11-02",
-    "categoria": "Gaming",
-    "edicion": "Zona Gamer",
-    "titulo": "El mercado gris y los aniversarios redefinen el pulso global del videojuego",
-    "descripcion": "Análisis de los movimientos de precios del e-commerce internacional, el impacto del firmware de Sony y la revisión histórica de Nintendo frente al consumidor latinoamericano.",
-    "narracion": "La industria del videojuego atraviesa un periodo de reconfiguración económica y comercial donde los canales de distribución tradicionales compiten de forma directa con plataformas de comercio electrónico transfronterizo. Recientemente, portales como Xataka [F2] reportaron ofertas tempranas en mercados globales que sitúan a la anticipada Nintendo Switch 2 en el umbral de los 314 euros y a la PlayStation 5 de Sony en 410 euros. Este fenómeno de precios globales expone las profundas distorsiones en las cadenas de suministro y los márgenes de importación que tradicionalmente golpean a regiones como América Latina y México, donde los costos de lanzamiento suelen sufrir incrementos sustanciales debido a aranceles, distribución local y la volatilidad cambiaria. Para el consumidor mexicano, la dependencia de la importación gris y las plataformas asiáticas se ha convertido en la única vía para mitigar el impacto inflacionario del hardware de nueva generación. Paralelamente, la infraestructura de software continúa experimentando alteraciones técnicas constantes. Según reportes de 3DJuegos [F5], PlayStation ha desplegado de forma sorpresiva una nueva actualización de firmware para PlayStation 5, elevando el sistema a la versión 26.07-14.22.00. Aunque este tipo de parches rutinarios buscan blindar la seguridad del ecosistema y optimizar el rendimiento operativo, en repetidas ocasiones generan fricciones con comunidades de usuarios debido a incompatibilidades temporales con periféricos de terceros y modificaciones en las políticas de uso digital. La gestión del ciclo de vida del hardware por parte de los fabricantes prioriza el control corporativo sobre la estabilidad del usuario final, un síntoma claro del modelo de servicio cerrado que impera en la actual generación de consolas. En el frente histórico y cultural, la industria celebra hitos significativos que contrastan con su actual vorágine comercial. Por un lado, la PlayStation Store conmemora su vigésimo aniversario [F3, F4], invitando a desarrolladores globales a reflexionar sobre la evolución del catálogo digital que transformó el formato físico en un estándar secundario. Por otro, Nintendo continúa desglosando los secretos de su legado mediante su formato 'Pregunta al desarrollador', analizando las entrañas de títulos emblemáticos como The Legend of Zelda: Ocarina of Time [F1, F6]. Estos ejercicios de arqueología digital contrastan fuertemente con la agresiva mercantilización del software actual, donde los remakes y las suscripciones de pago sustituyen a la innovación orgánica. En conclusión, el ecosistema actual exige un análisis crítico constante: mientras el hardware se encarece y se bloca mediante actualizaciones opacas, la nostalgia se monetiza bajo esquemas de suscripción cada vez más restrictivos para los jugadores de la región.",
-    "personaje": "El Mashukita Gaming",
-    "personaje_rol": "Reporte de Videojuegos",
-    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
-    "fuentes": [
-      {
-        "nombre": "Nintendo: Pregunta al desarrollador, volumen 24: The Legend of Zelda: Ocarina of Time — Parte 1",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2xLWnVrdkdaVGh5LTQ5YkNHSXpReDU5Vm5Mdmw1S2VpMEMtME52UjhoMHlOQVhsVnBKWmxuOVBEbjZzUEt3TlZMcm1BbHItZFhKX0EtNFFDX0xPMkE4VTg1X2hkTm9vaGxTNnROSHpQWXNrZm4tVnhVZVc2Xy1yUW53cm1oSHFvQUFBckJnQlYtMmZzNUxQUThPU3JIckF1cDFVVEw3dENBUzVrQ0Q0NEtBN2RqWkxxb1A4QVRn?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Xataka: Nintendo Switch 2 por 314 euros, PlayStation 5 por 410 euros y más. El 11-11 de AliExpress da el pistoletazo de salida",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONEFGQUJHWHlWRGFzY29zY01vYU9rT1N6NklZU3J5cmFUZjRReE00QWczdlRNLTM3Szg4UDh3MEJUOFYyMzJBX1h2MW10UGhsazRGdlBIYUxFWmx5enFYTGVPRml3TTgxRnhzNXFDLWc2dDF0NTdWUEQ5cmt6ZklMOVF5WVpCU0c3MTBmdW5MMXkzOERvN0lXeXJPTXZjdU85SmtxRmR2Y3I1N0hNY2NJaXoxUXhqdVdvOXp1LTNBWULSAcYBQVVfeXFMTmdXaWJzWm1tYWVkc3A1Q2NIM0Myb2ladHNnc2tfdmQxRXlDeUV4TzFkcFNjYWNPNUFZSFFrNlZnMm45dW1qaml5QnJ2VV9JRGI4dGp3QktyZ0hsSk01eDc4SjZXWndlRDV2eU1JalZ0d0M2YWZ6cWF2S2NvOF8wTFBUN1lpTGpFLXpWSGc5MDAwdXlHR3RRVkREOG1RU0ZHWXE1anZYa0tRSkk3Mm9SdUNkSzM0bFhPLVp6bXJ6emxrMmpoOWxn?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "HobbyConsolas: PlayStation Store celebra su 20 aniversario y los desarrolladores escogen los juegos que más les han sorprendido de PlayStation",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNSUtqN3JUbUFPa1lsNHgyWFRmQ0t3Q25qR0ZLaWRTbXN3bUdDTlVtWUoxdkR2U2diZ3hHbUhhYW1xUHoxUFFJNG9KdlVYNnlBZXZJQjd5WmN0QlpJUlJ3WDRNa0pGSk1PcGJxTjZ1Q1c1RDRaMWo5TWFDUXlWZS1QZ0d2Q3djMGJLejFfYlNlUlp3Y3QtU1JzazNWUmNrakxaN0t6eDVLb0tQRldwbkRvZU1mQTI0clBXWE5KencxWE1DTkppOTRXNUN3eS02QXlIUmdkM0Z5OE1WN3BSdk0ydWt6QkgwbE5lbTVTT3RsR25DNzl3OWlCNE1PVWpubDhuWkpRTWxnd0hPUXc?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Vandal: 20 años de PS Store: los desarrolladores revelan las grandes sorpresas en el catálogo de PlayStation en dos décadas",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUkxCYUk5bldaYTMwenBLeFIxM2JMODJBVWpxM3ExelQ0T0Q0WFdyZTdjbnpLNkxiRXp4WUVjS3pwQXVTRkwtWDlVMFhISDF1NmdMQWVvZEJmU2VmSWp1TFdCR2MxTVN3VVJjb3AtMnhmZnFXS0cxMGtWcU1jTWFPZWlMSGpWb1NqT185ekgyT1duV0lHYi02azhlSF9OVzlSNzlzSDBycmNRUHA5SG9LYTlLRXRnSmNGejRNeGpjMkNoZXhVUDd1Sm9YcE9yNXFQSDhjdVIzQ3c2Sk9zZVRuUWFSaVpWX0xZRFNySDloUdIB9AFBVV95cUxQZ0V3OUZEaFoyR2FRVDc3NkdkMU41NzlESHpFZTR6bmVpMklJQUs4UUVpckxMTTN6cjdHSkZzcjBLSGtfODY1MDVnVTE0ZUlqZXNCN3dlSEJrdzExQ04wMHFfNjNyUl9IS3g1ZHI1NDgyR2ZuUVhhNUY2dDBCSml3RFMySnZVTXpOcnJ6NlRYZG4yeERQUXdZd2MtelJVMlRnQWhER2JlYkpFajZmRkJJMW1sVERScThxTncwemE1eFRfVnlweHhwRXdpaFIyS3M4X3pfeEN0YWh6Tk1LdTI5Zlk3a19jM2FmN1FxUHVHV3cwc25K?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "3DJuegos: Si tienes una PS5, te espera una descarga. PlayStation sorprende con otra actualización de firmware que lleva la consola a la versión 26.07-14.22.00",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWjhOaTVOUk0xT0haci1haVJ6eTIwZnl6N1J1aFJ4OEh2YXctMjN0eldtN0NYdFVfVkFtdGxyZzB2Nk90c0ctNl9KN21nYm43N3l4UVoxYzdDTDZ5V3RwRGF1dUE3b001a0FhQ1BGN1lNQm9kUUI1YmZ1ODlSZ2VqbXNpSjVwZUk2N1dfNnl0NTlLNEU2aXhUcno2RXFwcEJBZ0doSGpFUkx2UzdDRno2dVpzQTBfQTM5bTQxS0I3MkRpRlRBOUxCMTFnb1p0WWpkUDJ0elV3YXJLUnpJNjZfRElNam54OFM5bDVIanRXeURwUdIB9wFBVV95cUxQMC1WQm9lRlVGbG1LWXNVd3VpcUNVcmZUaDk5dF9lZ2lKWUJadUczQUQ3RUlBNFJ5akpaYndYX0RwZUpjNERpR2ZfeUFiNG1FcnBZYnlnYUJDTk9oQmdodjVEandEdWhZdHRPanI1aVJoTXY1TTJTVnp0ZmMxWlZJbDVfeWVpQWNQeUVrU2VMeTJmNWJ3WHFnZjBZMUJEN00zWG8yUTBkYm8tSDRWbHp4bGtzSjVMQ0wwbmhYV1FOUFNOaVpKVktPNE53TjBpYU53NWpmaWZFSWVXWU5NdkRVVUlpeGZNM05rU1BOU3lfdERGemlBNlVj?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Bloomberg Línea: ¿Cuándo sale “Zelda: Ocarina of Time” para Nintendo Switch 2? Fecha y precios",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcHJtV3E1TEpiOUw4Tjd2VG9raWZob1I2eWlpOTk0djlLeU5DZ1hhSENCVkNSbnFMMl9OMng3d21jREdMM2VTQ3AwRTVBTEJxdzA0LTdhNW9RZTdaUjBrOUtqRkctNGtCVGJzMHhfMjB6YkpvU3ZhQjc5Mll3WlZhb0x4bllrUVI1ZldSXzlKYUxMSV9nS21tZXdrdVVQVld5SUlodG10dmlwOF84R21BLWhzYjNaZ9IBygFBVV95cUxNNzhpeHNsRVBBdndRcXE0TW1yUkxlSjk4V0lRS3JlZGYyUGNOQzZXNlpVTDlfcXZOQlFobzVmc0Y1UGF3dmd6U0FweVZfY1pRNzJNLTRhUl81cUs0X3ZyZHNEVnEzQUVyX2dEblk1dnQySG5fcUNPbHBtelF4TTh4QTRjcUVQRDVtVnRZN1VSQzBXbUFZSHVMTHBBMUMxazJnaXV1THpWWlNVSjRQZDBBTHBXVnhyUGJ3UE1WOURtVXEzcU1rTDV3WjRn?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Diario AS: Los lanzamientos de videojuegos más destacados de la semana del 2 al 8 de noviembre de 2026 para PS5, Switch 2",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZEt5RzFkWldVSlUtMTJHSkloVDM5S1Y2YVpyOWpzYTBtUGh4OHdza3pSUk5VRnV0T3Y4b1VIN3pZRDl3U0g4VEtoMWg0SmlNbElGTFV4Y3VlZjZfRkZMbHJJaWhIc0lPeHl0Q3lxX0locFZBWkFmdXNreTBmbWZMUWZmQUxlWkYtdF9maFZOaUpOZGRPLVZxUUZ0dGEtX2QxenQ3XzItQnVCeE52cS1MdkZJQ21qRXRYRFQwQWhEUEU3MGJVZkc5WUJQNE5SemtoNnVUSUlVeFJwejRxX3lfSU16eFhoT1BWM0tCYzg2dWN6TThEWTV1ME1GRnMwanBRQm5hWW02SmpKNjjSAZ8CQVVfeXFMTTBURWdadVlGdjhZWlJYUmR3OWRWNkZmTjlpUWFRam9fLWIxOTFtUTl3YzIyV0VkRGpqSlJLZHRteEZHQ3hkSU5ET1IwRWVBV3hXLUZtRkdOMlFJSEJEdDNMeXZ4SzRTMGU0OGE4WEJVcDEyWFJKNno3b0wtVVR5bVdOcDdNT3JPRWtHX0dJZ3FCRUN1RVNEQzhTUjVVbkVHd0o0aHIwMjV5UWY5bDhLdWNUOFk2R1BfY1h0VzUtTkpqdzhabHp4T19xdEZwWVBPYXJyX2pXNGtmR0VyTW9WWnlldE1uRTlsa0hMN2ZHdFQ4RzFEdm5PakRVWHRqWXZiVVRhenZCYmVha0ZTRmticFlNVVpkSlB4NGNMT3JqLWM?oc=5",
-        "tipo": "Prensa Gaming"
-      },
-      {
-        "nombre": "Sin Embargo: Nintendo Switch Sports Resort , una fórmula que no pasa de moda | BITS",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3UtQ0pMems5MmJ2MXZEcWc4YzlfN1pWeG5vZEZBSjFzRkxZZTh1aFh4OTB3VHJCVUVxNFRnekFQbFV2UG5LMnBMMWZYcmZNN1hPbWdQTHRETmRNVkZ1QWloeHFpUzFGM3JHbXVUem1KWWpGaXlqVUxkckhjM3dRRk5RNXNlMERLMnFFTkZRaHc2eEpuRDFUWW04WXZ4TGIzM3FF?oc=5",
-        "tipo": "Prensa Gaming"
-      }
-    ],
-    "estado": "publicado"
+    "youtube_url": "https://www.youtube.com/watch?v=Q0Q_tE7LzRw"
   },
   {
     "id": 1793646004401,
