@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793833204100,
+    "fecha": "2026-11-04",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Nintendo apuesta por el remake de Ocarina of Time para Switch 2",
+    "descripcion": "El análisis de la industria revela la estrategia de Nintendo al relanzar un clásico generacional para la temporada navideña, combinando hardware de nueva generación y cambios en su tienda digital.",
+    "narracion": "El ecosistema de la industria de los videojuegos atraviesa por un periodo de reevaluación estratégica donde la nostalgia, optimizada mediante tecnología de nueva generación, se ha convertido en el activo comercial más seguro para las grandes corporaciones. En este contexto, el reciente movimiento de Nintendo al apostar por el remake de uno de sus títulos más icónicos, *The Legend_of Zelda: Ocarina of Time*, diseñado específicamente para su plataforma sucesora provisionalmente identificada como Nintendo Switch 2, plantea un debate profundo sobre la repetición generacional y la innovación en el software de consumo masivo [F1, F4, F5]. Según diversos reportes especializados y análisis de medios como CNN en Español y Nintenderos, la decisión de desempolvar una obra maestra con casi tres decenios de antigüedad para liderar la temporada navideña responde a una necesidad estricta de mitigación de riesgos financieros y a la maximización del valor de propiedad intelectual histórica frente a los elevados costos de desarrollo actuales [F4, F5]. Las comparativas técnicas publicadas por el Diario AS detallan cómo la brecha entre el título original de Nintendo 64 y esta nueva iteración para Switch 2 no se limita a un incremento en la resolución poligonal, sino a una reingeniería profunda de los sistemas de juego y la interfaz de usuario [F6]. Este despliegue técnico viene acompañado de movimientos comerciales colaterales en el mercado de accesorios y distribución digital. Por un lado, plataformas de comercio electrónico como Amazon han comenzado a posicionar hardware de control avanzado, tal como el denominado Switch 2 Pro Controller, bajo esquemas de descuentos previos que buscan asegurar la adopción temprana del consumidor [F3]. Por otro lado, la compañía ha implementado modificaciones sustanciales en la accesibilidad de su tienda digital, la eShop, buscando mitigar las fricciones históricas en la experiencia de compra del usuario final [F7]. Para los consumidores en México y América Latina, esta dinámica consolida una tendencia donde la actualización tecnológica se paga a precio de mercado prémium, a menudo enfrentándose a distorsiones arancelarias y logísticas que encarecen el acceso al hardware de nueva generación. Mientras corporaciones como Sony despliegan agresivas campañas de rebajas estacionales con descuentos de hasta el 75 % en catálogos consolidados para PlayStation 4 y PlayStation 5 [F8], o marcas de hardware experimentan con iniciativas de marketing de nicho —como la inusual consola con forma de cocodrilo inspirada en la anticipación por GTA 6 documentada por Merca2.0 [F2]—, Nintendo confía su facturación de cierre de año al peso simbólico de su pasado. La causa subyacente es la contracción en los márgenes de riesgo para nuevas propiedades intelectuales AAA, lo que genera un efecto directo: un mercado saturado de reediciones de alto costo que priorizan la memoria afectiva del jugador veterano por encima de la asunción de riesgos creativos.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintendo: The Legend of Zelda™: Ocarina of Time",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHI3dzNwcHh1QWEza1dMSXJmQjRTV0toNHE4TUdoTGtOSDU1OHI2T1VWRHhRaHVRR1VPd253STBSVVBjT3Y5VVJIQnpNS3VLdHpFcEdiR3pLZ1JHNnVKVERiSXVGYWloVFYwS29OeEpDZ3RxSlUxSnRiSkdKWUVPYzlUdkdIdnRJWWlrZDBtTEhRLU9EcUE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Revista Merca2.0: Xbox crea una consola con forma de cocodrilo por GTA 6: así puedes conseguirla",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcTBSY2F3S3lVM0xlQWxwX3gyczY2bVVMVWVRTTJZWlY0X3k2dW1VcnJJdUpmWjhmS05Ic0V2M09WQjdBYzI4NXZNNE8wRHROcURjS29BSE1tRjVVaWN0dmZCZGFTTnJDc01kWW1RQVRJcmlUWHgycTZqTWlhLTBQREdjelRyUVhoY1gyT1pnUjJwU212eXBVWGxhaVR6aTNQdkhIZQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Amazon tiene a precio de remate el accesorio perfecto para tu consola de Nintendo: el Switch 2 Pro Controller",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTl9XZnRkNkItWWhzR1hDYjlHZm1YZWI5dVExdjNoMm1FOGEzNGxLUkV5ajRSSFlQZU0zSzRUZUV1TTI0UUhnQ21WMWsyQzBUVmNnX1ZZREU0T0FiaXRGUGJRZFY3b0dHVW0zQlJJclpRbG05LWNQek5TclhoaTRDWWtkUC0yYjNuOVdZV3l6NW5fOE92UzdSQUtOVjQ1UDFrenVLN2Z6QzRvVVF3UVBEejFUcjBlb3Vndy1aeTBKSENTM2NSaGpoclpCLS3SAdIBQVVfeXFMT2M5bVBCQ2x6QzdBUmpid2tFYUU0ajlmMmlfVUR6TlZHeld5YmhQYm1WQXZSQlg4RnRYYW90alNjT21EMEVEOEQxRE9VZ1c0YWlzRkRrbWkyeFRrY3lGUnlVY2laZW40bGJyMEViWVZSZTRXbXM4ZWNycHlPUHFHczNFSnRxQzRHSGtONlF2WjQ1TmhlSVlCTUJ5emh5M3NXeTRHbi1McVV1X3N3Q2VVV05YTjRYR1BtUjNrYnZOTEp5TThpdnlPNGJ2aUNROWJTZkt3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "CNN en Español: ¿Por qué Nintendo apuesta por el \"remake\" de un juego de casi 30 años para triunfar en la temporada navideña?",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGVjRUJoMVFoLU1Ud0JYc3FvM2syVHB6Y0VDalMzVXpxbThjaG9DaUxVZjcwbElHNWZBUF93SkdMb2pWMmxCejhJb0ZkY3lYX2tUbW5rZERFNURzclFmbzJCbTBEcExkdXpSMHZYNmZqbWd6MlV3X2NuWHg2eHoySXRoRUVBSldabTFkUVNMVHloY29ndHpZTzR1Zw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: [Análisis] The Legend of Zelda: Ocarina of Time para Nintendo Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWTFvNnBQNVdKSzZIRXRMY18xeDVxY0ZVdko2NlhtaVd1TlM3S2o1U3NGQVZlN0NfaklHek04azZwWFRsWHBYMXFacE1GVUtWYXZ4TXhyT0J5R2lzNVI2SDVGbUpOTzZuckxwaUxUYzU5bDIwWW9YNXVWamU1SkYxc1JKT0tpLXk2R2FzV3F1Z3VSWFM4aTgtSVFfTmtkY2tzZWt4M1c4WE91QWQweHY4TllpLTg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Todas las diferencias entre Zelda: Ocarina of Time de Nintendo 64 y el remake de Switch 2: así ha evolucionado",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOb01xZkVoeDZhdWxaYTNtLVIxYVBQUU5zdE5qZi01S0lnSnhZVFcyYVZTZWJFU2NETlVBXzdpV3lmVDFmWWY5QVRnSU96RGVKelBtODA1VWhabDgyN1JUSTFOSFZFSUJya2ZLR0xmeE0zUEo2MjRnLTFQV3J5RUpEcE5tS2R2UUlzRlFsVkZVMmlzbzh6S3BOQWIyNzZKeXJnRnljcjZydFFDdmY5a01nbDZTRVBqTks5NWVNVkJXUF9oTkhOUklkRVZCTzNsM1h0TTduZkYyNk5QRGZ0bG1Semc0SFQxV3hpWXpSaVFSSmctal9XUkRJM0J4eVZ0VGplWVJPaWFKMXl6SDZBU1FR0gGjAkFVX3lxTE5YYW1BR3YyR1Vjd0FyQU1YZjFnd29fR3hLMTJESmxMUjJtUXZjaVlGZHM2RGowMC1vUjktVWJxN1J1RGtrdVpnQllxUzlWbVF0a2VwU1FxblZMZVB1eHQtRVNvNy1nWXRpWW02WFhwTEpKTzFwbXh6OFRrZ1IyR1NLWjc3ZTZCTmVRbVN4TTVoXzhqZ3ZyVTFRMDRpRmhuaW5aZElaMEs2Slp5R0hwaDFmbVJZYXpjZ0lrQVhOX0wtV2JWQ3oxYXljSXNocTZscWc5bWpBalVOaWRjM3huYmJkQ1ZCZUtXT21hNU1PbnlTYXdMd0Y5V202a29jVGFtcUR1ZzNNWkdIUDRXOUt1MXpTX3BYRFpzUjVjQk53S1MtMzJiZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: Nintendo apuesta por la accesibilidad con su último cambio en la tienda digital de Switch, la eShop",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOblp0dlkzZTR4QXVRWm9YMkpQdHgzU1VtZXRzbERNSGI4ZmtTUGFZMmJsU282clRpeUFmRzZtejhwNFdEV0g4VHJkSGU4SUpqbnMtLUJZQkZNbi0zM1dycmxDdjR6NWs1b2RNZzhUNl9ZX2ljWjBMV09xV0pqai1BYmFsWjBhM1pNYkRmdGJlUUdHUmZhZjVsZjJ2ZlZWek5ON3ZlMUpvaWdmbVNyaVE4SVVfRW1COFY0TGE1UTB0b2k1bl9NTy1sRTB0dXhlRHNtdlNJOW81dG3SAd4BQVVfeXFMUEFPYXB6RUFCck56empfUTFvZ25adDJJZ25jYnVCVXlKMFNHVWZyQ1IxVmw0WS1KYmc1TWY4dlVyWEdzdzllbWtTTmlOQ0p4czdoTm12UE1oZnN6T1J1RzgtUnRyX3h1WUZyVURJWnhCQXpOR01UWG9ENks1ZjY3ZjNyT1RXYnoyQ3NlNWI1a28xOWNHeERjMjQzSS00NEJTckk0U1ZCWGVPY3BWNl9XRURxeWdPY3ZoMTNjcWU2LTd4NTRjTWlRdEZBZ1p2cFpBeUszclJ5NUVlenVyQUF3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Las rebajas de Black Friday ya han llegado a PlayStation. Te dejamos 9 juegos en oferta para PS4 y PS5, con descuentos de hasta el 75%",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcmVfanpxTDNWdzhseFBiNm1jLXoxcm9CN2t4aVdHTzdFZG1hM3N0QXAwa2JGVkNtT0Q5MUNRcUhyZjZhaHZjMDJjVHFBbS1pb1g5b2duVGdCZDAtYTZPZmJkckt3RU41NU1qekNuZjNDVzFpRF85bmJPeTZ6OTc4SEVRTlFGXy1zUG4yX3lOdGt1WTFuZXpVbVlSa2ROTG9xTzU1d00zSkhoUVVEamVORGFyUlJhZHBQUVV6aWNmQnVkaDZ1T0JOc1dCSENyNDdpay1MZtIB2gFBVV95cUxPZU51NERLbG5RcmFhampYQWVrR3NpT05NOF93RjlqbGI0OTI1SzQ1c3dqdVlRM3ZNY3E2UHFTX3dDWnNaMlFVbS12QnBCMjdfV3NzZDFaNmxvZUstN3pUNEJxY2prLXpBQU1KY245M01YNUNjNThTYTZFdDRVNVRPT0o1Mk5oR2Q1Y3MyTFNwdHpYUnVLU0FuYWNSVE4zNlo5SVgzQ1BmVVdDQ09JZmNwWGdHTGFFOVpTdUFhdWhmUDhWY0dNU3RCRWJpSkc0cXFZaGpaeU5rckQwUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793815216280,
     "fecha": "2026-11-04",
     "categoria": "Farándula",
