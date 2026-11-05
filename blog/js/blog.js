@@ -10,6 +10,8 @@ let availableDates = [];
 let currentDate = '';
 let currentCategory = 'all';
 
+const ASSET_VERSION = '20261104-rev2';
+
 const CATEGORY_MAP = {
   farandula: {
     label: '#Farándula',
@@ -17,7 +19,7 @@ const CATEGORY_MAP = {
     cardClass: 'card-cat-farandula',
     defaultChar: 'Dora el Axolote',
     defaultRole: 'Crónica de Espectáculos',
-    defaultImg: 'assets/personajes/plantilla_farandula_dora.jpg'
+    defaultImg: `assets/personajes/plantilla_farandula_dora.jpg?v=${ASSET_VERSION}`
   },
   tecnologia: {
     label: '#Tecnología',
@@ -25,7 +27,7 @@ const CATEGORY_MAP = {
     cardClass: 'card-cat-tecnologia',
     defaultChar: 'El Mashukita Hacker',
     defaultRole: 'Mesa de Tecnología y Sistemas',
-    defaultImg: 'assets/personajes/plantilla_tecnologia_hacker.jpg'
+    defaultImg: `assets/personajes/plantilla_tecnologia_hacker.jpg?v=${ASSET_VERSION}`
   },
   gaming: {
     label: '#Gaming',
@@ -33,7 +35,7 @@ const CATEGORY_MAP = {
     cardClass: 'card-cat-gaming',
     defaultChar: 'El Mashukita Gaming',
     defaultRole: 'Mesa de Videojuegos',
-    defaultImg: 'assets/personajes/plantilla_gaming_mashukita.jpg'
+    defaultImg: `assets/personajes/plantilla_gaming_mashukita.jpg?v=${ASSET_VERSION}`
   },
   noticias: {
     label: '#Noticias',
@@ -41,7 +43,7 @@ const CATEGORY_MAP = {
     cardClass: 'card-cat-noticias',
     defaultChar: 'El Mashukita',
     defaultRole: 'Mesa Central de Noticias',
-    defaultImg: 'assets/personajes/plantilla_noticias_mashukita.jpg'
+    defaultImg: `assets/personajes/plantilla_noticias_mashukita.jpg?v=${ASSET_VERSION}`
   },
   cultura: {
     label: '#Cultura',
@@ -49,7 +51,7 @@ const CATEGORY_MAP = {
     cardClass: 'card-cat-cultura',
     defaultChar: 'Alex y Dora',
     defaultRole: 'Crónica Histórica y Cultural',
-    defaultImg: 'assets/personajes/plantilla_cultura_axolotes.jpg'
+    defaultImg: `assets/personajes/plantilla_cultura_axolotes.jpg?v=${ASSET_VERSION}`
   },
   especiales: {
     label: '#InvestigacionesEspeciales',
@@ -57,9 +59,15 @@ const CATEGORY_MAP = {
     cardClass: 'card-cat-especial',
     defaultChar: 'Alex y Dora',
     defaultRole: 'Unidad de Investigación y Cultura',
-    defaultImg: 'assets/personajes/plantilla_cultura_axolotes.jpg'
+    defaultImg: `assets/personajes/plantilla_cultura_axolotes.jpg?v=${ASSET_VERSION}`
   }
 };
+
+function resolveAvatarUrl(rawUrl, fallbackUrl) {
+  const base = (rawUrl || fallbackUrl || '').split('?')[0].trim();
+  if (!base) return fallbackUrl;
+  return `${base}?v=${ASSET_VERSION}`;
+}
 
 function normalizeText(str) {
   return (str || '')
@@ -201,7 +209,7 @@ function renderModularGrid() {
     const edicionLabel = post.edicion || 'Edición Diaria';
     const charName = post.personaje || meta.defaultChar;
     const charRole = post.personaje_rol || meta.defaultRole;
-    const charImg = post.imagen_plantilla || meta.defaultImg;
+    const charImg = resolveAvatarUrl(post.imagen_plantilla, meta.defaultImg);
 
     const fuentesArr = Array.isArray(post.fuentes) && post.fuentes.length > 0
       ? post.fuentes.map(f => f.nombre).slice(0, 2)
@@ -238,7 +246,7 @@ function renderModularGrid() {
         <div class="article-footer">
           <span>
             ${dateOrBadge}
-            ${post.youtube_url ? `<a href="${escapeHtml(post.youtube_url)}" target="_blank" rel="noopener noreferrer" class="card-yt-badge" title="Ver / Escuchar en YouTube" onclick="event.stopPropagation()"><i class="fab fa-youtube"></i></a>` : ''}
+            ${post.youtube_url ? `<a href="${escapeHtml(post.youtube_url)}" target="_blank" rel="noopener noreferrer" class="card-yt-badge" title="Ver / Escuchar en YouTube"><i class="fab fa-youtube"></i></a>` : ''}
           </span>
           <button type="button" class="btn-open-note" data-id="${escapeHtml(post.id)}">
             <i class="fas fa-newspaper"></i> Leer Crónica
@@ -257,9 +265,24 @@ function renderModularGrid() {
   });
 }
 
+function syncCategoryButtonsUI() {
+  const pills = document.querySelectorAll('.hashtag-filters .hashtag-pill');
+  pills.forEach(p => {
+    p.classList.toggle('active', p.getAttribute('data-cat') === currentCategory);
+  });
+  const medallions = document.querySelectorAll('.cast-medallion[data-cat-jump]');
+  medallions.forEach(btn => {
+    btn.classList.toggle('active', btn.getAttribute('data-cat-jump') === currentCategory);
+  });
+}
+
 function selectDate(dateStr) {
   if (!availableDates.includes(dateStr)) return;
   currentDate = dateStr;
+  if (currentCategory === 'especiales') {
+    currentCategory = 'all';
+    syncCategoryButtonsUI();
+  }
   renderArchiveList();
   renderModularGrid();
   try {
@@ -269,10 +292,7 @@ function selectDate(dateStr) {
 
 function selectCategory(catSlug) {
   currentCategory = catSlug || 'all';
-  const pills = document.querySelectorAll('.hashtag-filters .hashtag-pill');
-  pills.forEach(p => {
-    p.classList.toggle('active', p.getAttribute('data-cat') === currentCategory);
-  });
+  syncCategoryButtonsUI();
   renderModularGrid();
   try {
     if (currentCategory === 'especiales') {
@@ -339,7 +359,7 @@ function openReaderModal(post) {
     titleEl.textContent = post.titulo;
   }
   if (charImgEl) {
-    charImgEl.src = post.imagen_plantilla || meta.defaultImg;
+    charImgEl.src = resolveAvatarUrl(post.imagen_plantilla, meta.defaultImg);
     charImgEl.alt = post.personaje || meta.defaultChar;
   }
   if (charNameEl) {
@@ -350,7 +370,7 @@ function openReaderModal(post) {
       ? ` · <a href="${escapeHtml(post.youtube_url)}" target="_blank" rel="noopener noreferrer" class="modal-yt-btn" title="Ver / Escuchar video en YouTube"><i class="fab fa-youtube"></i></a>`
       : '';
     if (post.es_especial) {
-      metaEl.innerHTML = `<i class="fas fa-star" style="color:var(--wada-yellow-orange)"></i> <strong>Investigación Especial Monográfica</strong> · Cancún, Q. Roo${ytModalBtn}`;
+      metaEl.innerHTML = `<i class="fas fa-star modal-star-icon"></i> <strong>Investigación Especial Monográfica</strong> · Cancún, Q. Roo${ytModalBtn}`;
     } else {
       metaEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${escapeHtml(formatDateDisplay(post.fecha))} · Cancún, Q. Roo${ytModalBtn}`;
     }
@@ -551,12 +571,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (requestedCat && ['noticias', 'tecnologia', 'gaming', 'farandula', 'cultura', 'especiales', 'all'].includes(requestedCat)) {
     currentCategory = requestedCat;
-    const matchingPill = document.querySelector(`.hashtag-filters .hashtag-pill[data-cat="${requestedCat}"]`);
-    if (matchingPill) {
-      document.querySelectorAll('.hashtag-filters .hashtag-pill').forEach(p => p.classList.remove('active'));
-      matchingPill.classList.add('active');
-    }
   }
+  syncCategoryButtonsUI();
 
   renderArchiveList();
   renderModularGrid();

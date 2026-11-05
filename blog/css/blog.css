@@ -1,9 +1,9 @@
 /**
  * ==========================================================================
  * Memexicanisimos.com — Periódico Digital y Gaceta Oficial (blog.css)
- * Estética de Prensa Tradicional + Meximalismo Mineral (Sanzo Wada v2.0.0)
- * Combos Oficiales: #241 (Tétrada Editorial), #122 (Barro y Jade), #245 (Noticiero)
- * Regla Sagrada: Cero Morado Sintético / Cero Neón / Cero Enlaces :visited Violetas
+ * Paleta Oficial: Revolución Mexicana + Rótulo Tradicional (Sanzo Wada v2.0.0)
+ * Combo Base #313: Deep Green (#1a7444) + Carmine (#cc1236) + Slate (#34454c) + Burnt Sienna (#ae5224)
+ * Regla Sagrada: Cero Morado Sintético / Cero Neón / Cero Titulares Negros
  * ==========================================================================
  */
 
@@ -12,43 +12,48 @@
   --wada-obsidian: #111314;
   --wada-deep-indigo: #051230;
   --wada-tyrian-blue: #12354e;
+  --wada-slate: #34454c;
   --wada-cal-white: #f5ecc2;
   --wada-amate-cream: #ffefae;
   --wada-ivory-buff: #ebd999;
 
-  /* ── FAMILIA I, II & V: TIERRAS, SOLARES Y COCHINILLA (30% & 10% Acentos) ── */
+  /* ── COMBO #313 REVOLUCIÓN MEXICANA & RÓTULO POPULAR (30% & 10% Acentos) ── */
+  --verde-patrio: #1a7444;
   --wada-carmine: #cc1236;
   --wada-carmine-red: #a62c37;
   --wada-red-orange: #dd4027;
   --wada-orange: #f37420;
   --wada-yellow-orange: #f99d1b;
   --wada-apricot-yellow: #ffdd00;
-  --wada-raw-sienna: #b85e00;
+  --wada-raw-sienna: #ae5224;
   --wada-cinnamon: #c79a6b;
 
   /* ── FAMILIA III & IV: JADE, NOPAL Y TALAVERA ── */
   --wada-benzol-green: #00978d;
-  --wada-cerulian-blue: #0093a5;
-  --wada-forest-nopal: #437742;
+  --wada-cerulian-blue: #007190;
+  --wada-forest-nopal: #1a7444;
   --wada-cobalto: #006eb8;
 
-  /* ── TOKENS SEMÁNTICOS DEL PERIÓDICO DIGITAL ── */
+  /* ── TOKENS SEMÁNTICOS DEL PERIÓDICO DIGITAL (ALINEADOS A PORTADA) ── */
   --obsidiana: var(--wada-obsidian);
-  --metate-bg: #171B1E;
-  --pizarra: #1E252B;
-  --pizarra-elevada: #252E36;
-  --borde-prensa: rgba(249, 157, 27, 0.34);
-  --borde-columna: rgba(245, 236, 194, 0.14);
-  --oro-charro: var(--wada-yellow-orange);
+  --metate-bg: #181c1e;
+  --pizarra: #202629;
+  --pizarra-elevada: #273035;
+  --slate-ferrocarril: var(--wada-slate);
+  --borde-prensa: rgba(255, 221, 0, 0.36);
+  --borde-columna: rgba(245, 236, 194, 0.16);
+  --oro-charro: var(--wada-apricot-yellow);
+  --oro-sol: var(--wada-yellow-orange);
   --oro-maiz: var(--wada-ivory-buff);
-  --verde-nopal: var(--wada-forest-nopal);
+  --verde-nopal: var(--verde-patrio);
   --rojo-patrio: var(--wada-carmine);
   --adobe-siena: var(--wada-raw-sienna);
   --blanco-cal: var(--wada-cal-white);
   --amate: var(--wada-amate-cream);
-  --texto-prensa: #EFE9D5;
-  --texto-atenuado: #B7B2A3;
+  --texto-prensa: #f5ecc2;
+  --texto-atenuado: #ebd999;
 
+  --font-rotulo: 'Oswald', 'Space Grotesk', sans-serif;
   --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
   --font-sans: 'Space Grotesk', system-ui, -apple-system, sans-serif;
   --font-mono: 'Space Mono', monospace;
@@ -65,8 +70,9 @@
 body {
   background-color: var(--obsidiana);
   background-image:
-    radial-gradient(circle at 15% 0%, rgba(18, 53, 78, 0.38) 0%, transparent 45%),
-    radial-gradient(circle at 85% 10%, rgba(166, 44, 55, 0.16) 0%, transparent 40%);
+    radial-gradient(circle at 12% 0%, rgba(26, 116, 68, 0.24) 0%, transparent 45%),
+    radial-gradient(circle at 88% 8%, rgba(204, 18, 54, 0.22) 0%, transparent 42%),
+    radial-gradient(circle at 50% 60%, rgba(52, 69, 76, 0.32) 0%, transparent 60%);
   color: var(--texto-prensa);
   font-family: var(--font-sans);
   margin: 0;
@@ -80,99 +86,70 @@ a, a:visited {
 }
 
 a:hover {
-  color: var(--wada-apricot-yellow);
-}
-
-/* LÍNEA TRICOLOR BANDERA DE MÉXICO */
-.bandera-tri-line {
-  height: 5px;
-  background: linear-gradient(to right, #006847 33.3%, #F5ECC2 33.3%, #F5ECC2 66.6%, #CC1236 66.6%);
-  width: 100%;
-}
-
-/* HEADER GLOBAL DE LA GACETA */
-.blog-header {
-  background-color: var(--metate-bg);
-  border-bottom: 3px double var(--borde-prensa);
-  padding: 12px 24px;
-}
-
-.blog-header-inner {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.blog-brand-title,
-.blog-brand-title:visited {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
   color: var(--amate);
-  font-family: var(--font-serif);
-  font-weight: 800;
-  font-size: 1.38rem;
-  letter-spacing: -0.01em;
 }
 
-.blog-brand-title:hover {
-  color: var(--wada-apricot-yellow);
-}
-
-.btn-volver-portada,
-.btn-volver-portada:visited {
-  background-color: var(--pizarra);
-  color: var(--blanco-cal);
-  border: 1.5px solid var(--oro-charro);
-  border-radius: 6px;
-  padding: 8px 16px;
-  font-size: 0.85rem;
-  font-family: var(--font-mono);
-  font-weight: 700;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: all 0.2s ease;
-}
-
-.btn-volver-portada:hover {
-  background-color: var(--oro-charro);
-  color: var(--obsidiana);
-  transform: translateY(-1px);
+/* LÍNEA TRICOLOR BANDERA DE MÉXICO (IDÉNTICA A PORTADA PRINCIPAL) */
+.bandera-tri-line {
+  height: 6px;
+  background: linear-gradient(
+    to right,
+    var(--verde-patrio) 0%,
+    var(--verde-patrio) 33.33%,
+    var(--blanco-cal) 33.33%,
+    var(--blanco-cal) 66.66%,
+    var(--rojo-patrio) 66.66%,
+    var(--rojo-patrio) 100%
+  );
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
 }
 
 /* CONTENEDOR PRINCIPAL DEL PERIÓDICO DIGITAL */
 .newspaper-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 22px 20px 64px 20px;
+  padding: 20px 20px 64px 20px;
 }
 
 /* ================= CABECERA DEL PERIÓDICO: RÓTULO ÍNTEGRO + PLACA EDITORIAL ================= */
 .rotulo-banner-frame {
+  position: relative;
   display: grid;
   grid-template-columns: 1.15fr 1fr;
-  border: 2.5px solid var(--oro-charro);
-  border-radius: 12px;
+  border: 3px solid var(--obsidiana);
+  outline: 2px solid var(--oro-charro);
+  outline-offset: -6px;
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.82);
-  margin-bottom: 18px;
-  background: linear-gradient(135deg, #13181C 0%, var(--wada-deep-indigo) 100%);
+  box-shadow:
+    4px 4px 0px var(--slate-ferrocarril),
+    8px 8px 0px #000000,
+    0 16px 38px rgba(0, 0, 0, 0.85);
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, var(--metate-bg) 0%, var(--pizarra) 100%);
 }
 
 .rotulo-banner-showcase {
-  background-color: #0D1012;
-  padding: 10px;
+  background:
+    radial-gradient(circle at center, rgba(204, 18, 54, 0.18) 0%, rgba(17, 19, 20, 0.96) 100%);
+  padding: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 2px solid var(--borde-prensa);
+  border-right: 3px double var(--oro-charro);
+}
+
+.rotulo-banner-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  transition: transform 0.16s cubic-bezier(0.2, 0, 0, 1), filter 0.16s ease;
+}
+
+.rotulo-banner-link:hover {
+  transform: translate(-2px, -2px);
+  filter: brightness(1.06);
 }
 
 .rotulo-banner-img {
@@ -182,8 +159,11 @@ a:hover {
   object-fit: contain;
   display: block;
   border-radius: 6px;
-  border: 1px solid rgba(245, 236, 194, 0.22);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.65);
+  border: 2.5px solid var(--oro-charro);
+  box-shadow:
+    3px 3px 0px var(--rojo-patrio),
+    6px 6px 0px #000000,
+    0 10px 24px rgba(0, 0, 0, 0.8);
 }
 
 .rotulo-banner-editorial {
@@ -192,29 +172,35 @@ a:hover {
   justify-content: center;
   padding: 24px 28px;
   background:
-    linear-gradient(160deg, rgba(23, 27, 30, 0.96) 0%, rgba(18, 53, 78, 0.55) 100%);
+    linear-gradient(160deg, rgba(24, 28, 30, 0.98) 0%, rgba(52, 69, 76, 0.52) 100%);
 }
 
 .rotulo-cintillo {
-  font-family: var(--font-mono);
-  font-size: 0.82rem;
-  color: var(--wada-apricot-yellow);
+  font-family: var(--font-rotulo);
+  font-size: 0.86rem;
+  color: var(--oro-charro);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
   margin-bottom: 6px;
   display: inline-block;
+  text-shadow: 1px 1px 0px var(--obsidiana);
 }
 
 .rotulo-title-main {
-  font-family: var(--font-serif);
-  font-size: clamp(1.85rem, 3.2vw, 2.65rem);
-  font-weight: 900;
-  color: var(--amate);
+  font-family: var(--font-rotulo);
+  font-size: clamp(1.95rem, 3.3vw, 2.75rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--blanco-cal);
   margin: 0;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  border-bottom: 3px double var(--borde-prensa);
+  line-height: 1.08;
+  letter-spacing: 0.02em;
+  text-shadow:
+    2px 2px 0px var(--obsidiana),
+    4px 4px 0px var(--rojo-patrio),
+    6px 6px 0px var(--slate-ferrocarril);
+  border-bottom: 3px double var(--oro-charro);
   padding-bottom: 10px;
 }
 
@@ -225,93 +211,175 @@ a:hover {
   line-height: 1.5;
 }
 
-/* TIRA DE CORRESPONSALES / PERSONAJES EN LA CABECERA */
+/* TIRA DE CORRESPONSALES / BOTONES RÓTULO EN LA CABECERA (CUADRÍCULA 2x3 COMPLETA) */
 .rotulo-cast-strip {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
+  gap: 10px;
   margin-top: auto;
 }
 
-.cast-medallion {
-  background-color: rgba(17, 19, 20, 0.78);
-  border: 1px solid var(--borde-prensa);
-  border-radius: 8px;
-  padding: 6px 10px;
+.cast-medallion,
+.cast-medallion:visited {
+  position: relative;
+  background-color: var(--slate-ferrocarril);
+  border: 2px solid var(--obsidiana);
+  border-radius: 4px;
+  padding: 7px 11px;
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;
   text-align: left;
-  color: var(--blanco-cal);
-  transition: all 0.2s ease;
+  text-decoration: none;
+  color: #ffffff;
+  isolation: isolate;
+  box-shadow:
+    1px 1px 0px #051230,
+    2px 2px 0px #051230,
+    3px 3px 0px #000000,
+    4px 4px 8px rgba(0, 0, 0, 0.55);
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
 }
 
-.cast-medallion:hover {
-  background-color: var(--wada-tyrian-blue);
-  border-color: var(--wada-apricot-yellow);
-  transform: translateY(-1px);
+.cast-medallion::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 221, 0, 0.65);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Cada botón de corresponsal con su tono propio Sanzo Wada */
+.cast-medallion[data-cat-jump="farandula"] {
+  background-color: #a94151;
+}
+.cast-medallion[data-cat-jump="tecnologia"] {
+  background-color: #007190;
+}
+.cast-medallion[data-cat-jump="gaming"] {
+  background-color: var(--wada-red-orange);
+}
+.cast-medallion[data-cat-jump="noticias"] {
+  background-color: var(--rojo-patrio);
+}
+.cast-medallion[data-cat-jump="especiales"] {
+  background-color: var(--verde-patrio);
+}
+
+/* 6° espacio: Botón Volver a Portada en la cuadrícula de la cabecera */
+.cast-medallion.cast-medallion-portada,
+.cast-medallion.cast-medallion-portada:visited {
+  background-color: var(--adobe-siena);
+  color: #ffffff;
+}
+
+.cast-medallion-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--obsidiana);
+  color: var(--oro-charro);
+  border: 2px solid var(--oro-charro);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.65);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.cast-medallion:hover,
+.cast-medallion.active {
+  transform: translate(-2px, -2px);
+  filter: brightness(1.1);
+  border-color: var(--oro-charro);
+  box-shadow:
+    1px 1px 0px var(--oro-charro),
+    3px 3px 0px var(--slate-ferrocarril),
+    5px 5px 0px #000000;
 }
 
 .cast-medallion img {
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 32%;
-  border: 1.5px solid var(--oro-charro);
+  object-position: center 28%;
+  border: 2px solid var(--oro-charro);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.65);
   flex-shrink: 0;
+  z-index: 2;
 }
 
 .cast-medallion-meta {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
+  line-height: 1.18;
+  z-index: 2;
 }
 
 .cast-medallion-meta strong {
-  font-family: var(--font-mono);
-  font-size: 0.76rem;
-  color: var(--wada-apricot-yellow);
+  font-family: var(--font-rotulo);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--oro-charro);
   text-transform: uppercase;
+  text-shadow: 1px 1px 0px var(--obsidiana), 2px 2px 0px #000000;
 }
 
 .cast-medallion-meta span {
-  font-size: 0.75rem;
-  color: var(--texto-prensa);
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--blanco-cal);
+  text-shadow: 1px 1px 0px var(--obsidiana);
 }
 
 /* CINTILLO EDITORIAL / MASTHEAD DATA DE PERIÓDICO */
 .press-masthead-meta {
   border-top: 3px double var(--oro-charro);
   border-bottom: 3px double var(--oro-charro);
-  padding: 9px 18px;
+  padding: 10px 18px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-family: var(--font-rotulo);
+  font-size: 0.86rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: var(--blanco-cal);
   margin-bottom: 20px;
   flex-wrap: wrap;
   gap: 10px;
   background-color: var(--metate-bg);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.55);
 }
 
 /* BARRA DE NAVEGACIÓN DIARIA Y HASHTAGS */
 .press-toolbar {
   background-color: var(--pizarra);
-  border: 1.5px solid var(--borde-prensa);
-  border-radius: 10px;
-  padding: 12px 18px;
+  border: 2px solid var(--obsidiana);
+  outline: 1.5px solid var(--borde-prensa);
+  outline-offset: -4px;
+  border-radius: 6px;
+  padding: 14px 18px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 14px;
   margin-bottom: 24px;
+  box-shadow:
+    3px 3px 0px var(--slate-ferrocarril),
+    6px 6px 0px #000000;
 }
 
 .date-stepper {
@@ -321,38 +389,67 @@ a:hover {
 }
 
 .btn-step {
-  background-color: var(--metate-bg);
-  color: var(--blanco-cal);
-  border: 1px solid var(--borde-prensa);
-  border-radius: 6px;
-  padding: 8px 14px;
-  font-size: 0.82rem;
-  font-family: var(--font-mono);
+  position: relative;
+  background-color: var(--adobe-siena);
+  color: #ffffff;
+  border: 2px solid var(--obsidiana);
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 0.84rem;
+  font-family: var(--font-rotulo);
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   cursor: pointer;
-  transition: all 0.2s ease;
+  text-shadow: 1px 1px 0px var(--obsidiana);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px #000000;
+  isolation: isolate;
+  transition: all 0.15s ease;
+}
+
+#btn-next-day.btn-step {
+  background-color: var(--slate-ferrocarril);
+}
+
+.btn-step::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 221, 0, 0.65);
+  pointer-events: none;
 }
 
 .btn-step:hover:not(:disabled) {
   background-color: var(--oro-charro);
   color: var(--obsidiana);
-  border-color: var(--wada-apricot-yellow);
+  text-shadow: none;
+  transform: translate(-1.5px, -1.5px);
 }
 
 .btn-step:disabled {
-  opacity: 0.38;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
 .current-edition-pill {
+  position: relative;
   background-color: var(--obsidiana);
-  border: 1.5px solid var(--oro-charro);
-  color: var(--wada-apricot-yellow);
+  border: 2px solid var(--oro-charro);
+  color: var(--oro-charro);
   padding: 8px 16px;
-  border-radius: 6px;
-  font-family: var(--font-mono);
+  border-radius: 4px;
+  font-family: var(--font-rotulo);
   font-weight: 700;
-  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.92rem;
+  box-shadow:
+    2px 2px 0px var(--rojo-patrio),
+    4px 4px 0px #000000;
 }
 
 .hashtag-filters {
@@ -363,23 +460,61 @@ a:hover {
 }
 
 .hashtag-pill {
-  background-color: var(--metate-bg);
-  border: 1px solid rgba(249, 157, 27, 0.3);
-  color: var(--blanco-cal);
-  padding: 6px 13px;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-family: var(--font-mono);
+  position: relative;
+  background-color: var(--slate-ferrocarril);
+  border: 2px solid var(--obsidiana);
+  color: #ffffff;
+  padding: 7px 14px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-family: var(--font-rotulo);
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   cursor: pointer;
-  transition: all 0.2s ease;
+  text-shadow: 1px 1px 0px var(--obsidiana);
+  box-shadow:
+    1px 1px 0px #051230,
+    2px 2px 0px #051230,
+    3px 3px 0px #000000;
+  isolation: isolate;
+  transition: all 0.15s ease;
 }
+
+.hashtag-pill::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 221, 0, 0.52);
+  pointer-events: none;
+}
+
+/* Cada filtro de sección con su propio tono Sanzo Wada */
+.hashtag-pill[data-cat="all"] { background-color: var(--slate-ferrocarril); }
+.hashtag-pill[data-cat="especiales"] { background-color: var(--adobe-siena); }
+.hashtag-pill[data-cat="noticias"] { background-color: var(--rojo-patrio); }
+.hashtag-pill[data-cat="tecnologia"] { background-color: var(--wada-cerulian-blue); }
+.hashtag-pill[data-cat="gaming"] { background-color: var(--wada-red-orange); }
+.hashtag-pill[data-cat="farandula"] { background-color: #a94151; }
+.hashtag-pill[data-cat="cultura"] { background-color: var(--verde-patrio); }
 
 .hashtag-pill:hover,
 .hashtag-pill.active {
   background-color: var(--oro-charro);
-  border-color: var(--wada-apricot-yellow);
+  border-color: var(--obsidiana);
   color: var(--obsidiana);
+  text-shadow: none;
+  transform: translate(-1.5px, -1.5px);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--rojo-patrio);
+}
+
+.hashtag-pill:hover::before,
+.hashtag-pill.active::before {
+  border-color: var(--rojo-patrio);
 }
 
 /* ================= ÁREA EDITORIAL PLENA (MODULACIÓN 3x2) ================= */
@@ -397,27 +532,35 @@ a:hover {
 /* TARJETA PERIODÍSTICA DE COLUMNA */
 .press-article-card {
   background-color: var(--metate-bg);
-  border: 1.5px solid var(--borde-prensa);
-  border-top: 4px solid var(--oro-charro);
-  border-radius: 8px;
+  border: 2px solid var(--obsidiana);
+  outline: 1.5px solid var(--borde-prensa);
+  outline-offset: -4px;
+  border-top: 5px solid var(--oro-charro);
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.65);
-  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+  box-shadow:
+    3px 3px 0px var(--slate-ferrocarril),
+    6px 6px 0px #000000,
+    0 10px 24px rgba(0, 0, 0, 0.68);
+  transition: transform 0.18s ease, outline-color 0.18s ease, box-shadow 0.18s ease;
 }
 
-.press-article-card.card-cat-noticias { border-top-color: var(--wada-carmine); }
+.press-article-card.card-cat-noticias { border-top-color: var(--rojo-patrio); }
 .press-article-card.card-cat-tecnologia { border-top-color: var(--wada-cerulian-blue); }
 .press-article-card.card-cat-gaming { border-top-color: var(--wada-red-orange); }
-.press-article-card.card-cat-farandula { border-top-color: var(--wada-carmine-red); }
-.press-article-card.card-cat-cultura { border-top-color: var(--wada-benzol-green); }
-.press-article-card.card-cat-especial { border-top-color: var(--wada-yellow-orange); }
+.press-article-card.card-cat-farandula { border-top-color: #a94151; }
+.press-article-card.card-cat-cultura { border-top-color: var(--verde-patrio); }
+.press-article-card.card-cat-especial { border-top-color: var(--oro-charro); }
 
 .press-article-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--wada-apricot-yellow);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.88);
+  transform: translate(-2px, -3px);
+  outline-color: var(--oro-charro);
+  box-shadow:
+    4px 4px 0px var(--rojo-patrio),
+    8px 8px 0px #000000,
+    0 14px 30px rgba(0, 0, 0, 0.88);
 }
 
 .article-header {
@@ -426,39 +569,46 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   gap: 8px;
-  background-color: rgba(5, 18, 48, 0.45);
-  border-bottom: 1px solid var(--borde-columna);
+  background-color: var(--pizarra);
+  border-bottom: 1.5px solid var(--borde-columna);
 }
 
 .article-category-tag {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 800;
+  font-family: var(--font-rotulo);
+  font-size: 0.78rem;
+  font-weight: 700;
   text-transform: uppercase;
-  padding: 3px 9px;
-  border-radius: 4px;
-  letter-spacing: 0.03em;
+  padding: 3px 10px;
+  border-radius: 3px;
+  border: 1.5px solid var(--obsidiana);
+  letter-spacing: 0.05em;
+  box-shadow: 1px 1px 0px #000000;
 }
 
-.tag-noticias { background-color: var(--wada-carmine); color: #FFFFFF; }
+.tag-noticias { background-color: var(--rojo-patrio); color: #FFFFFF; }
 .tag-tecnologia { background-color: var(--wada-cerulian-blue); color: #FFFFFF; }
 .tag-gaming { background-color: var(--wada-red-orange); color: #FFFFFF; }
-.tag-farandula { background-color: var(--wada-carmine-red); color: var(--wada-amate-cream); }
-.tag-cultura { background-color: var(--wada-benzol-green); color: #FFFFFF; }
-.tag-especial { background-color: var(--wada-yellow-orange); color: var(--wada-deep-indigo); font-weight: 800; }
+.tag-farandula { background-color: #a94151; color: var(--amate); }
+.tag-cultura { background-color: var(--verde-patrio); color: #FFFFFF; }
+.tag-especial { background-color: var(--oro-charro); color: var(--obsidiana); font-weight: 700; }
 
 .card-especial-badge {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  background-color: rgba(249, 157, 27, 0.18);
-  color: var(--wada-yellow-orange);
-  border: 1px solid rgba(249, 157, 27, 0.45);
+  background-color: rgba(255, 221, 0, 0.16);
+  color: var(--oro-charro);
+  border: 1px solid rgba(255, 221, 0, 0.5);
   border-radius: 4px;
   padding: 2px 7px;
-  font-size: 0.72rem;
-  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-family: var(--font-rotulo);
+  text-transform: uppercase;
   font-weight: 700;
+}
+
+.modal-star-icon {
+  color: var(--oro-charro);
 }
 
 .reader-state-meta-strip {
@@ -466,7 +616,7 @@ a:hover {
   flex-wrap: wrap;
   gap: 12px;
   background: var(--pizarra-elevada);
-  border: 1px solid var(--borde-prensa);
+  border: 1.5px solid var(--borde-prensa);
   border-radius: 6px;
   padding: 10px 14px;
   margin: 12px 0 16px 0;
@@ -486,8 +636,11 @@ a:hover {
 }
 
 .article-edition-label {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-family: var(--font-rotulo);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   color: var(--oro-maiz);
   text-align: right;
 }
@@ -497,16 +650,17 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 16px 6px 16px;
+  padding: 12px 16px 6px 16px;
 }
 
 .article-correspondent-avatar {
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 32%;
-  border: 1.5px solid var(--oro-charro);
+  object-position: center 28%;
+  border: 2px solid var(--oro-charro);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.65);
   flex-shrink: 0;
 }
 
@@ -517,15 +671,18 @@ a:hover {
 }
 
 .article-correspondent-name {
-  font-size: 0.78rem;
+  font-family: var(--font-rotulo);
+  font-size: 0.86rem;
   font-weight: 700;
-  color: var(--blanco-cal);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--oro-charro);
 }
 
 .article-correspondent-role {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: var(--texto-atenuado);
+  font-size: 0.7rem;
+  color: var(--blanco-cal);
 }
 
 .article-body {
@@ -547,7 +704,7 @@ a:hover {
 }
 
 .article-headline:hover {
-  color: var(--wada-apricot-yellow);
+  color: var(--oro-charro);
 }
 
 .article-teaser {
@@ -571,13 +728,13 @@ a:hover {
 }
 
 .article-sources-strip strong {
-  color: var(--wada-apricot-yellow);
+  color: var(--oro-charro);
 }
 
 .article-footer {
   padding: 10px 16px;
-  background-color: #111518;
-  border-top: 1px solid var(--borde-columna);
+  background-color: var(--obsidiana);
+  border-top: 1.5px solid var(--borde-columna);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -587,24 +744,54 @@ a:hover {
 }
 
 .btn-open-note {
-  background-color: var(--wada-tyrian-blue);
-  color: var(--amate);
-  border: 1px solid var(--oro-charro);
-  border-radius: 5px;
-  padding: 6px 12px;
-  font-size: 0.75rem;
-  font-family: var(--font-mono);
+  position: relative;
+  background-color: var(--rojo-patrio);
+  color: #ffffff;
+  border: 2px solid var(--obsidiana);
+  border-radius: 4px;
+  padding: 7px 15px;
+  font-size: 0.82rem;
+  font-family: var(--font-rotulo);
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  transition: all 0.2s ease;
+  text-shadow: 1px 1px 0px var(--obsidiana);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px #000000;
+  isolation: isolate;
+  transition: all 0.15s ease;
 }
 
+.btn-open-note::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 2px;
+  border: 1px solid var(--oro-charro);
+  pointer-events: none;
+}
+
+.press-article-card.card-cat-tecnologia .btn-open-note { background-color: var(--wada-cerulian-blue); }
+.press-article-card.card-cat-gaming .btn-open-note { background-color: var(--wada-red-orange); }
+.press-article-card.card-cat-farandula .btn-open-note { background-color: #a94151; }
+.press-article-card.card-cat-cultura .btn-open-note { background-color: var(--verde-patrio); }
+.press-article-card.card-cat-especial .btn-open-note { background-color: var(--adobe-siena); }
+
 .btn-open-note:hover {
-  background-color: var(--oro-charro);
+  background-color: var(--oro-charro) !important;
   color: var(--obsidiana);
+  text-shadow: none;
+  transform: translate(-1.5px, -1.5px);
+}
+
+.btn-open-note:hover::before {
+  border-color: var(--rojo-patrio);
 }
 
 /* ESTADO VACÍO */
@@ -612,8 +799,8 @@ a:hover {
   text-align: center;
   padding: 48px 20px;
   background: var(--metate-bg);
-  border-radius: 10px;
-  border: 1.5px solid var(--borde-prensa);
+  border-radius: 8px;
+  border: 2px solid var(--oro-charro);
 }
 
 .empty-state-icon {
@@ -624,7 +811,8 @@ a:hover {
 .empty-state-title {
   color: var(--amate);
   margin: 0 0 8px 0;
-  font-family: var(--font-serif);
+  font-family: var(--font-rotulo);
+  text-transform: uppercase;
 }
 
 .empty-state-desc {
@@ -635,24 +823,32 @@ a:hover {
 /* ================= HEMEROTECA Y CALENDARIO INFERIOR ================= */
 .hemeroteca-bottom-section {
   background-color: var(--metate-bg);
-  border: 1.5px solid var(--borde-prensa);
-  border-top: 3px double var(--oro-charro);
-  border-radius: 10px;
+  border: 2.5px solid var(--obsidiana);
+  outline: 2px solid var(--oro-charro);
+  outline-offset: -5px;
+  border-radius: 8px;
   padding: 24px;
   margin-top: 36px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+  box-shadow:
+    4px 4px 0px var(--slate-ferrocarril),
+    8px 8px 0px #000000,
+    0 12px 28px rgba(0, 0, 0, 0.78);
 }
 
 .hemeroteca-header {
-  border-bottom: 1px solid var(--borde-prensa);
+  border-bottom: 3px double var(--oro-charro);
   padding-bottom: 12px;
   margin-bottom: 18px;
 }
 
 .hemeroteca-header h3 {
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
-  color: var(--amate);
+  font-family: var(--font-rotulo);
+  font-size: 1.38rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--oro-charro);
+  text-shadow: 1px 1px 0px var(--obsidiana), 2px 2px 0px var(--rojo-patrio);
   margin: 0 0 4px 0;
   display: flex;
   align-items: center;
@@ -660,53 +856,94 @@ a:hover {
 }
 
 .hemeroteca-header p {
-  font-size: 0.85rem;
-  color: var(--texto-atenuado);
+  font-size: 0.88rem;
+  color: var(--blanco-cal);
   margin: 0;
 }
 
 .hemeroteca-dates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+  gap: 12px;
 }
 
 .hemeroteca-date-btn {
-  background-color: var(--pizarra);
-  border: 1px solid rgba(249, 157, 27, 0.28);
-  border-radius: 6px;
-  padding: 10px 12px;
-  color: var(--blanco-cal);
+  position: relative;
+  background-color: var(--slate-ferrocarril);
+  border: 2px solid var(--obsidiana);
+  border-radius: 4px;
+  padding: 9px 12px;
+  color: #ffffff;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: var(--font-mono);
-  font-size: 0.82rem;
+  font-family: var(--font-rotulo);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.85rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  text-shadow: 1px 1px 0px var(--obsidiana);
+  box-shadow:
+    1px 1px 0px #051230,
+    2px 2px 0px #051230,
+    3px 3px 0px #000000;
+  isolation: isolate;
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
 }
+
+.hemeroteca-date-btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 221, 0, 0.55);
+  pointer-events: none;
+}
+
+/* Ritmo cromático Sanzo Wada en botones de Hemeroteca */
+.hemeroteca-date-btn:nth-child(4n+1) { background-color: var(--slate-ferrocarril); }
+.hemeroteca-date-btn:nth-child(4n+2) { background-color: var(--wada-tyrian-blue); }
+.hemeroteca-date-btn:nth-child(4n+3) { background-color: #5c3828; }
+.hemeroteca-date-btn:nth-child(4n+4) { background-color: var(--verde-patrio); }
 
 .hemeroteca-date-btn:hover,
 .hemeroteca-date-btn.active {
   background-color: var(--oro-charro);
   color: var(--obsidiana);
-  border-color: var(--wada-apricot-yellow);
-  font-weight: 700;
-  transform: translateY(-2px);
+  border-color: var(--obsidiana);
+  text-shadow: none;
+  transform: translate(-2px, -2px);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--rojo-patrio);
+}
+
+.hemeroteca-date-btn:hover::before,
+.hemeroteca-date-btn.active::before {
+  border-color: var(--rojo-patrio);
 }
 
 .hemeroteca-count-badge {
   background-color: var(--obsidiana);
-  color: var(--wada-apricot-yellow);
-  padding: 2px 7px;
-  border-radius: 999px;
-  font-size: 0.72rem;
+  color: var(--oro-charro);
+  border: 1px solid var(--oro-charro);
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-family: var(--font-rotulo);
+  font-size: 0.74rem;
+  font-weight: 700;
+  z-index: 2;
 }
 
 .hemeroteca-date-btn:hover .hemeroteca-count-badge,
 .hemeroteca-date-btn.active .hemeroteca-count-badge {
-  background-color: var(--obsidiana);
+  background-color: var(--rojo-patrio);
+  border-color: var(--obsidiana);
   color: #FFFFFF;
 }
 
@@ -714,7 +951,7 @@ a:hover {
 .reader-modal-overlay {
   position: fixed;
   inset: 0;
-  background-color: rgba(5, 12, 20, 0.88);
+  background-color: rgba(11, 14, 16, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -724,14 +961,19 @@ a:hover {
 
 .reader-modal-card {
   background-color: var(--metate-bg);
-  border: 2px solid var(--oro-charro);
-  border-top: 5px solid var(--wada-carmine);
-  border-radius: 12px;
+  border: 3px solid var(--obsidiana);
+  outline: 2px solid var(--oro-charro);
+  outline-offset: -6px;
+  border-top: 6px solid var(--rojo-patrio);
+  border-radius: 8px;
   max-width: 820px;
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.95);
+  box-shadow:
+    5px 5px 0px var(--slate-ferrocarril),
+    10px 10px 0px #000000,
+    0 24px 64px rgba(0, 0, 0, 0.95);
   position: relative;
   padding: 32px;
 }
@@ -740,26 +982,43 @@ a:hover {
   position: absolute;
   top: 16px;
   right: 16px;
-  background: var(--pizarra);
-  color: var(--amate);
-  border: 1px solid var(--borde-prensa);
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
-  font-size: 1.1rem;
+  background-color: var(--rojo-patrio);
+  color: #ffffff;
+  border: 2px solid var(--obsidiana);
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  font-family: var(--font-rotulo);
+  font-weight: 700;
+  font-size: 1.15rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px #000000;
+  isolation: isolate;
+  transition: all 0.15s ease;
+}
+
+.reader-modal-close::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 2px;
+  border: 1px solid var(--oro-charro);
+  pointer-events: none;
 }
 
 .reader-modal-close:hover {
-  background: var(--wada-carmine);
-  color: #FFFFFF;
+  background-color: var(--oro-charro);
+  color: var(--obsidiana);
+  transform: translate(-1.5px, -1.5px);
 }
 
 .reader-modal-header {
-  border-bottom: 3px double var(--borde-prensa);
+  border-bottom: 3px double var(--oro-charro);
   padding-bottom: 16px;
   margin-bottom: 18px;
 }
@@ -778,25 +1037,29 @@ a:hover {
   font-size: clamp(1.4rem, 2.5vw, 1.85rem);
   margin: 0 0 14px 0;
   line-height: 1.24;
+  padding-right: 44px;
 }
 
 .reader-correspondent-bar {
   display: flex;
   align-items: center;
   gap: 12px;
-  background-color: rgba(5, 18, 48, 0.5);
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid var(--borde-columna);
+  background-color: var(--pizarra);
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1.5px solid var(--borde-prensa);
+  box-shadow: 2px 2px 0px #000000;
 }
 
 .reader-char-avatar {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 32%;
+  object-position: center 28%;
   border: 2px solid var(--oro-charro);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  flex-shrink: 0;
 }
 
 .reader-char-meta {
@@ -806,8 +1069,11 @@ a:hover {
 }
 
 .reader-char-meta strong {
-  color: var(--wada-apricot-yellow);
-  font-size: 0.9rem;
+  font-family: var(--font-rotulo);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--oro-charro);
+  font-size: 0.96rem;
 }
 
 .reader-char-meta span {
@@ -821,8 +1087,8 @@ a:hover {
   font-style: italic;
   font-size: 1.04rem;
   color: var(--blanco-cal);
-  background-color: rgba(249, 157, 27, 0.08);
-  border-left: 3px solid var(--oro-charro);
+  background-color: rgba(255, 221, 0, 0.08);
+  border-left: 4px solid var(--oro-charro);
   padding: 12px 16px;
   margin: 0 0 20px 0;
   line-height: 1.55;
@@ -853,7 +1119,7 @@ a:hover {
 
 .reader-sources-box {
   background-color: var(--pizarra);
-  border: 1px solid var(--borde-prensa);
+  border: 1.5px solid var(--borde-prensa);
   border-left: 4px solid var(--oro-charro);
   padding: 14px 18px;
   border-radius: 6px;
@@ -861,12 +1127,15 @@ a:hover {
 }
 
 .reader-sources-title {
-  font-family: var(--font-mono);
+  font-family: var(--font-rotulo);
   font-weight: 700;
-  color: var(--wada-apricot-yellow);
-  margin: 0 0 8px 0;
-  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  color: var(--oro-charro);
+  margin: 0 0 10px 0;
+  font-size: 0.9rem;
   text-transform: uppercase;
+}
+
 .reader-sources-list {
   margin: 0 0 12px 0;
   padding-left: 0;
@@ -877,9 +1146,9 @@ a:hover {
 .reader-sources-list li {
   margin-bottom: 8px;
   padding: 6px 10px;
-  background: rgba(5, 18, 48, 0.4);
+  background: rgba(17, 19, 20, 0.65);
   border-radius: 4px;
-  border-left: 2px solid var(--wada-apricot-yellow);
+  border-left: 2.5px solid var(--rojo-patrio);
 }
 
 .reader-sources-list a.source-link {
@@ -916,7 +1185,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #ff3333;
+  color: var(--rojo-patrio);
   font-size: 1.15rem;
   text-decoration: none;
   margin-left: 8px;
@@ -925,12 +1194,12 @@ a:hover {
 }
 
 .modal-yt-btn:hover {
-  color: #FFFFFF;
+  color: var(--oro-charro);
   transform: scale(1.15);
 }
 
 .card-yt-badge {
-  color: #ff3333;
+  color: var(--rojo-patrio);
   font-size: 1.05rem;
   text-decoration: none;
   margin-left: 8px;
@@ -940,14 +1209,14 @@ a:hover {
 }
 
 .card-yt-badge:hover {
-  color: #FFFFFF;
+  color: var(--oro-charro);
   transform: scale(1.2);
 }
 
 /* FOOTER */
 .blog-footer {
   background-color: var(--metate-bg);
-  border-top: 3px double var(--borde-prensa);
+  border-top: 3px double var(--oro-charro);
   padding: 24px 20px;
   text-align: center;
   font-size: 0.85rem;
@@ -970,7 +1239,7 @@ a:hover {
   }
   .rotulo-banner-showcase {
     border-right: none;
-    border-bottom: 2px solid var(--borde-prensa);
+    border-bottom: 3px double var(--oro-charro);
   }
   .modular-grid-3x2 {
     grid-template-columns: repeat(2, 1fr);
@@ -978,17 +1247,101 @@ a:hover {
 }
 
 @media (max-width: 640px) {
-  .modular-grid-3x2 {
-    grid-template-columns: 1fr;
+  .newspaper-container {
+    padding: 14px 12px 48px 12px;
+  }
+  .rotulo-banner-editorial {
+    padding: 16px 14px;
+  }
+  .rotulo-cintillo {
+    font-size: 0.74rem;
+  }
+  .rotulo-title-main {
+    font-size: 1.6rem;
+    padding-bottom: 8px;
+  }
+  .rotulo-subtitle {
+    font-size: 0.86rem;
+    margin: 8px 0 12px 0;
   }
   .rotulo-cast-strip {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+  .cast-medallion {
+    padding: 5px 8px;
+    gap: 6px;
+  }
+  .cast-medallion img,
+  .cast-medallion-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 0.9rem;
+  }
+  .cast-medallion-meta strong {
+    font-size: 0.72rem;
+  }
+  .cast-medallion-meta span {
+    font-size: 0.68rem;
+  }
+  .press-masthead-meta {
+    padding: 8px 12px;
+    font-size: 0.74rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
   }
   .press-toolbar {
     flex-direction: column;
     align-items: stretch;
+    padding: 10px 12px;
+    gap: 10px;
+  }
+  .date-stepper {
+    width: 100%;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .btn-step {
+    padding: 6px 10px;
+    font-size: 0.74rem;
+    white-space: nowrap;
+  }
+  .current-edition-pill {
+    padding: 6px 8px;
+    font-size: 0.76rem;
+    flex: 1;
+    text-align: center;
+  }
+  .hashtag-filters {
+    gap: 6px;
+  }
+  .hashtag-pill {
+    padding: 5px 10px;
+    font-size: 0.74rem;
+  }
+  .modular-grid-3x2 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .hemeroteca-bottom-section {
+    padding: 16px 12px;
+  }
+  .hemeroteca-dates-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .hemeroteca-date-btn {
+    padding: 8px 10px;
+    font-size: 0.76rem;
+  }
+  .reader-modal-overlay {
+    padding: 10px;
   }
   .reader-modal-card {
-    padding: 20px;
+    padding: 18px 14px;
+  }
+  .reader-body-columns p {
+    text-align: left;
   }
 }
