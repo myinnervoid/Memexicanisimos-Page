@@ -260,109 +260,99 @@ html {
 }
 
 .header-social-btn {
+  position: relative;
   display: inline-flex;
   align-items: center;
-  row-gap: 6px;
-  column-gap: 6px;
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  border-top-left-radius: 999px;
-  border-top-right-radius: 999px;
-  border-bottom-right-radius: 999px;
-  border-bottom-left-radius: 999px;
-  text-decoration-line: none;
-  text-decoration-thickness: initial;
-  text-decoration-style: initial;
-  text-decoration-color: initial;
-  font-size: 0.82rem;
+  justify-content: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.78rem;
   font-weight: 700;
-  color: var(--blanco-hueso);
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgba(255, 255, 255, 0.12);
-  border-right-color: rgba(255, 255, 255, 0.12);
-  border-bottom-color: rgba(255, 255, 255, 0.12);
-  border-left-color: rgba(255, 255, 255, 0.12);
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  border: 1.5px solid var(--bg-dark);
+  isolation: isolate;
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
+}
+
+.header-social-btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .header-social-btn i {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
+  z-index: 2;
 }
 
-.header-social-btn.fb:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(24, 119, 242, 0.2);
-  border-top-color: rgb(24, 119, 242);
-  border-right-color: rgb(24, 119, 242);
-  border-bottom-color: rgb(24, 119, 242);
-  border-left-color: rgb(24, 119, 242);
-  color: rgb(100, 181, 246);
-  transform: translateY(-2px);
+.header-social-btn .social-btn-label {
+  position: relative;
+  z-index: 2;
 }
 
-.header-social-btn.tt:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(254, 44, 85, 0.2);
-  border-top-color: rgb(254, 44, 85);
-  border-right-color: rgb(254, 44, 85);
-  border-bottom-color: rgb(254, 44, 85);
-  border-left-color: rgb(254, 44, 85);
-  color: rgb(255, 161, 181);
-  transform: translateY(-2px);
+/* 1. Facebook: Wada Blue (Azul Cobalto #006eb8) + Filete Cal (#f5ecc2) */
+.header-social-btn.fb {
+  background-color: #006eb8;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #051230;
+  box-shadow:
+    1px 1px 0px #051230,
+    2px 2px 0px #051230,
+    3px 3px 0px #000000,
+    4px 4px 8px rgba(0, 0, 0, 0.55);
+}
+.header-social-btn.fb::before {
+  border: 1px solid rgba(245, 236, 194, 0.75);
 }
 
-.header-social-btn.yt:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(255, 0, 0, 0.2);
-  border-top-color: rgb(255, 0, 0);
-  border-right-color: rgb(255, 0, 0);
-  border-bottom-color: rgb(255, 0, 0);
-  border-left-color: rgb(255, 0, 0);
-  color: rgb(255, 138, 128);
-  transform: translateY(-2px);
+/* 2. TikTok: Wada Slate Color (#34454c) + Texto Amarillo (#ffdd00) + Filete Carmín (#cc1236) */
+.header-social-btn.tt {
+  background-color: var(--slate-ferrocarril);
+  color: var(--oro-charro);
+  text-shadow: 1px 1px 0px #111314;
+  box-shadow:
+    1px 1px 0px #111314,
+    2px 2px 0px #111314,
+    3px 3px 0px #000000,
+    4px 4px 8px rgba(0, 0, 0, 0.55);
+}
+.header-social-btn.tt::before {
+  border: 1px solid var(--rojo-patrio);
+}
+
+/* 3. YouTube: Wada Spectrum Red (#e31f26) + Filete Amarillo (#ffdd00) */
+.header-social-btn.yt {
+  background-color: #e31f26;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #561a20;
+  box-shadow:
+    1px 1px 0px #561a20,
+    2px 2px 0px #561a20,
+    3px 3px 0px #000000,
+    4px 4px 8px rgba(0, 0, 0, 0.55);
+}
+.header-social-btn.yt::before {
+  border: 1px solid var(--oro-charro);
+}
+
+.header-social-btn:hover {
+  transform: translate(-1.5px, -1.5px);
+  filter: brightness(1.08);
+}
+
+.header-social-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #000000 !important;
 }
 
 .header-nav {
@@ -673,102 +663,98 @@ html {
   flex-wrap: wrap;
 }
 
-.btn-hero-primary {
-  color: #FFFFFF !important;
-  font-weight: 700;
-  padding-top: 13px;
-  padding-right: 24px;
-  padding-bottom: 13px;
-  padding-left: 24px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  text-decoration-line: none;
-  text-decoration-thickness: initial;
-  text-decoration-style: initial;
-  text-decoration-color: initial;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgb(20, 153, 105);
-  border-right-color: rgb(20, 153, 105);
-  border-bottom-color: rgb(20, 153, 105);
-  border-left-color: rgb(20, 153, 105);
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
-  box-shadow: 0 6px 18px rgba(255, 117, 24, 0.4) !important;
-  display: inline-flex;
-  align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
-  background: linear-gradient(135deg, #f37420, #E0115F) !important;
-  border: 1px solid rgba(255, 160, 0, 0.6) !important;
-}
-
-.btn-hero-primary:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(0, 135, 90);
-  transform: translateY(-2px) !important;
-  background: linear-gradient(135deg, #FFA000, #f37420) !important;
-}
-
+/* Hero CTA Buttons — Placas de Rótulo Tradicional */
+.btn-hero-primary,
 .btn-hero-secondary {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(255, 255, 255, 0.05);
-  color: var(--blanco-hueso);
-  font-weight: 600;
-  padding-top: 13px;
-  padding-right: 24px;
-  padding-bottom: 13px;
-  padding-left: 24px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  text-decoration-line: none;
-  text-decoration-thickness: initial;
-  text-decoration-style: initial;
-  text-decoration-color: initial;
+  position: relative;
   display: inline-flex;
   align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 22px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 0.96rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid var(--bg-dark) !important;
+  cursor: pointer;
+  isolation: isolate;
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
 }
 
+.btn-hero-primary::before,
+.btn-hero-secondary::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Hero Primario: Wada Red Orange (Rojo-Enchilada #dd4027) + Filete Amarillo (#ffdd00) */
+.btn-hero-primary {
+  background: #dd4027 !important;
+  color: #ffffff !important;
+  text-shadow:
+    1px 1px 0px var(--bg-dark),
+    2px 2px 0px #561a20;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px var(--slate-ferrocarril),
+    5px 5px 0px #000000,
+    6px 6px 14px rgba(0, 0, 0, 0.65) !important;
+}
+.btn-hero-primary::before {
+  border: 1.5px solid var(--oro-charro);
+}
+
+/* Hero Secundario: Wada Deep Lyons Blue (Talavera #1c4286) + Filete Oro (#f99d1b) */
+.btn-hero-secondary {
+  background: #1c4286 !important;
+  color: var(--blanco-hueso) !important;
+  text-shadow:
+    1px 1px 0px var(--bg-dark),
+    2px 2px 0px #051230;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px var(--slate-ferrocarril),
+    5px 5px 0px #000000,
+    6px 6px 14px rgba(0, 0, 0, 0.65) !important;
+}
+.btn-hero-secondary::before {
+  border: 1.5px solid #f99d1b;
+}
+
+.btn-hero-primary:hover,
 .btn-hero-secondary:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(212, 175, 55, 0.15);
-  color: var(--oro-brillante);
+  transform: translate(-2px, -2px) !important;
+  filter: brightness(1.08);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px var(--slate-ferrocarril),
+    5px 5px 0px var(--slate-ferrocarril),
+    6px 6px 0px var(--oro-charro),
+    7px 7px 16px rgba(0, 0, 0, 0.8) !important;
+}
+
+.btn-hero-primary:active,
+.btn-hero-secondary:active {
+  transform: translate(3px, 3px) !important;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px #000000 !important;
 }
 
 .hero-news-showcase {
@@ -888,62 +874,137 @@ html {
   padding-left: 24px;
 }
 
+/* ==========================================================================
+   PESTAÑAS DE SECCIONES (5 PLACAS DE RÓTULO CON TONO SANZO WADA PROPIO)
+   ========================================================================== */
 .tab-button {
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgba(255, 255, 255, 0.1);
-  border-right-color: rgba(255, 255, 255, 0.1);
-  border-bottom-color: rgba(255, 255, 255, 0.1);
-  border-left-color: rgba(255, 255, 255, 0.1);
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
-  padding-top: 14px;
-  padding-right: 12px;
-  padding-bottom: 14px;
-  padding-left: 12px;
-  border-top-left-radius: 14px;
-  border-top-right-radius: 14px;
-  border-bottom-right-radius: 14px;
-  border-bottom-left-radius: 14px;
-  color: var(--texto-secundario);
+  position: relative;
+  border: 2px solid var(--bg-dark);
+  padding: 12px 14px;
+  border-radius: 4px;
+  color: #ffffff;
   cursor: pointer;
   display: flex;
   align-items: center;
-  row-gap: 12px;
-  column-gap: 12px;
+  gap: 10px;
   text-align: left;
-  min-height: 64px;
-  background-color: #181d22;
+  min-height: 62px;
+  background-color: var(--slate-ferrocarril);
+  isolation: isolate;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px #000000,
+    5px 5px 12px rgba(0, 0, 0, 0.65);
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
+}
+
+.tab-button::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 1;
+  border: 1.5px solid rgba(255, 221, 0, 0.55);
+}
+
+/* 1. Noticias & Humor: Wada Carmine Red (#a62c37) -> Activa Carmine (#cc1236) */
+.tab-button[data-target="noticias-news"] {
+  background-color: #a62c37;
+}
+.tab-button[data-target="noticias-news"]::before {
+  border-color: var(--oro-charro);
+}
+
+/* 2. Suite de Apps: Wada Antwarp Blue (#007190) -> Activa Cerulian Blue (#0093a5) */
+.tab-button[data-target="perfiles"] {
+  background-color: #007190;
+}
+.tab-button[data-target="perfiles"]::before {
+  border-color: var(--blanco-hueso);
+}
+
+/* 3. Redes & Live: Wada Helvetia Blue (#005b8d) -> Activa Blue (#006eb8) */
+.tab-button[data-target="redes-sociales"] {
+  background-color: #005b8d;
+}
+.tab-button[data-target="redes-sociales"]::before {
+  border-color: var(--oro-charro);
+}
+
+/* 4. Nosotros & Apoyo: Wada Burnt Sienna (#ae5224) -> Activa English Red (#d96629) */
+.tab-button[data-target="nosotros-apoyo"] {
+  background-color: #ae5224;
+}
+.tab-button[data-target="nosotros-apoyo"]::before {
+  border-color: var(--oro-charro);
+}
+
+/* 5. Creador & Contacto: Wada Killarney Green (#285f3e) -> Activa Diamine Green (#1a7444) */
+.tab-button[data-target="creador-contacto"] {
+  background-color: #285f3e;
+}
+.tab-button[data-target="creador-contacto"]::before {
+  border-color: #f99d1b;
 }
 
 .tab-button:hover {
-  color: var(--blanco-hueso);
+  transform: translate(-2px, -2px);
+  filter: brightness(1.08);
+  color: #ffffff;
 }
 
 .tab-button.active {
-  background-image: linear-gradient(135deg, #82241f, #cc1236);
-  background-color: #82241f;
-  border-color: #f37420;
-  color: #FFFFFF;
-  box-shadow: 0 6px 22px rgba(255, 117, 24, 0.45);
+  transform: translate(-2px, -2px);
+  filter: brightness(1.12);
+  border-color: var(--oro-charro);
+  color: #ffffff;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px var(--slate-ferrocarril),
+    5px 5px 0px var(--oro-charro),
+    6px 6px 0px #000000,
+    7px 7px 18px rgba(0, 0, 0, 0.85);
+}
+
+.tab-button.active::before {
+  border-width: 2px;
+  border-color: var(--oro-charro);
 }
 
 .tab-icon {
-  font-size: 1.5rem;
+  font-size: 1.45rem;
+  z-index: 2;
+  filter: drop-shadow(1px 2px 0px rgba(0, 0, 0, 0.6));
 }
 
 .tab-info {
   display: flex;
   flex-direction: column;
+  z-index: 2;
+}
+
+.tab-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 0.96rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px var(--bg-dark), 2px 2px 0px rgba(0, 0, 0, 0.65);
+}
+
+.tab-desc {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--blanco-hueso);
+  opacity: 0.92;
 }
 
 .products-wrapper {
@@ -1137,29 +1198,54 @@ html {
 }
 
 .sub-nav-link {
-  color: var(--blanco-hueso);
-  text-decoration-line: none;
-  text-decoration-thickness: initial;
-  text-decoration-style: initial;
-  text-decoration-color: initial;
-  font-weight: 600;
-  font-size: 0.9rem;
-  padding-top: 8px;
-  padding-right: 18px;
-  padding-bottom: 8px;
-  padding-left: 18px;
-  border-top-left-radius: 999px;
-  border-top-right-radius: 999px;
-  border-bottom-right-radius: 999px;
-  border-bottom-left-radius: 999px;
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 18px;
+  border-radius: 4px;
+  border: 2px solid var(--bg-dark);
   display: inline-flex;
   align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
+  background-color: var(--slate-ferrocarril);
+  text-shadow: 1px 1px 0px var(--bg-dark);
+  box-shadow:
+    1px 1px 0px #111314,
+    2px 2px 0px #111314,
+    3px 3px 0px #000000,
+    4px 4px 10px rgba(0, 0, 0, 0.6);
+  isolation: isolate;
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
 }
 
+.sub-nav-link::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  border: 1.5px solid var(--oro-charro);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Cada app con su propio tono Sanzo Wada en la barra rápida */
+.sub-nav-link[href="#rotulos-anchor"] { background-color: var(--rojo-patrio); }
+.sub-nav-link[href="#aetheria-anchor"] { background-color: #007190; }
+.sub-nav-link[href="#masv-anchor"] { background-color: #1a7444; }
+.sub-nav-link[href="#files-anchor"] { background-color: #ae5224; }
+.sub-nav-link[href="#sonidero-anchor"] { background-color: #1c4286; }
+
 .sub-nav-link:hover {
-  color: rgb(255, 255, 255);
+  color: var(--oro-charro);
+  transform: translate(-2px, -2px);
+  filter: brightness(1.08);
 }
 
 .app-detail-block {
@@ -1391,98 +1477,113 @@ html {
   flex-wrap: wrap;
 }
 
+/* ==========================================================================
+   SISTEMA UNIFICADO DE BOTONES DE SECCIÓN — PLACAS DE RÓTULO SANZO WADA
+   ========================================================================== */
 .btn {
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  text-decoration-line: none;
-  text-decoration-thickness: initial;
-  text-decoration-style: initial;
-  text-decoration-color: initial;
+  position: relative;
+  padding: 9px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
-  border-top-width: medium;
-  border-right-width: medium;
-  border-bottom-width: medium;
-  border-left-width: medium;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-top-color: currentcolor;
-  border-right-color: currentcolor;
-  border-bottom-color: currentcolor;
-  border-left-color: currentcolor;
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid var(--bg-dark);
   min-height: 44px;
+  isolation: isolate;
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
 }
 
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* 1. Botón Verde Descarga / Acción (.btn-patrio-green): Wada Dull Viridian Green (#009465) + Filete Amarillo (#ffdd00) */
 .btn-patrio-green {
-  color: #FFFFFF !important;
-  background: linear-gradient(135deg, #f37420, #D95300) !important;
-  border: 1px solid #FFA000 !important;
-  box-shadow: 0 4px 14px rgba(255, 117, 24, 0.35) !important;
+  color: #ffffff !important;
+  background: #009465 !important;
+  border: 2px solid var(--bg-dark) !important;
+  text-shadow: 1px 1px 0px var(--bg-dark), 2px 2px 0px #004f46;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px #000000,
+    5px 5px 12px rgba(0, 0, 0, 0.6) !important;
+}
+.btn-patrio-green::before {
+  border: 1.5px solid var(--oro-charro);
 }
 
-.btn-patrio-green:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(0, 135, 90);
-  background: linear-gradient(135deg, #FFA000, #f37420) !important;
-  color: #FFFFFF !important;
-  transform: translateY(-2px) !important;
-}
-
+/* 2. Botón Oro / Lanzar App (.btn-patrio-gold): Wada Yellow Orange (#f99d1b) + Texto Obsidiana (#111314) + Filete Carmín (#cc1236) */
 .btn-patrio-gold {
-  color: #111111 !important;
-  background: linear-gradient(135deg, #ffdd00, #f99d1b) !important;
-  border: 1px solid #FFE600 !important;
-  box-shadow: 0 4px 14px rgba(255, 215, 0, 0.35) !important;
+  color: var(--bg-dark) !important;
+  background: #f99d1b !important;
+  border: 2px solid var(--bg-dark) !important;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.45);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px #000000,
+    5px 5px 12px rgba(0, 0, 0, 0.6) !important;
+}
+.btn-patrio-gold::before {
+  border: 1.5px solid var(--rojo-patrio);
 }
 
+/* 3. Botón Acero / Código (.btn-outline): Wada Slate Color (#34454c) + Texto Cal (#f5ecc2) + Filete Oro (#f99d1b) */
 .btn-outline {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(255, 255, 255, 0.05);
-  color: var(--blanco-hueso);
+  background: var(--slate-ferrocarril) !important;
+  color: var(--blanco-hueso) !important;
+  border: 2px solid var(--bg-dark) !important;
+  text-shadow: 1px 1px 0px var(--bg-dark);
+  box-shadow:
+    1px 1px 0px #051230,
+    2px 2px 0px #051230,
+    3px 3px 0px #051230,
+    4px 4px 0px #000000,
+    5px 5px 12px rgba(0, 0, 0, 0.6) !important;
+}
+.btn-outline::before {
+  border: 1.5px solid #f99d1b;
 }
 
+.btn-patrio-green:hover,
+.btn-patrio-gold:hover,
 .btn-outline:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(212, 175, 55, 0.15);
+  transform: translate(-2px, -2px) !important;
+  filter: brightness(1.08);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px var(--slate-ferrocarril),
+    5px 5px 0px var(--oro-charro),
+    6px 6px 16px rgba(0, 0, 0, 0.8) !important;
+}
+
+.btn-patrio-green:active,
+.btn-patrio-gold:active,
+.btn-outline:active {
+  transform: translate(3px, 3px) !important;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px #000000 !important;
 }
 
 .hardware-disclaimer {
@@ -1916,50 +2017,29 @@ html {
 }
 
 .filter-tag {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(255, 255, 255, 0.06);
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgba(255, 255, 255, 0.1);
-  border-right-color: rgba(255, 255, 255, 0.1);
-  border-bottom-color: rgba(255, 255, 255, 0.1);
-  border-left-color: rgba(255, 255, 255, 0.1);
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
-  color: var(--texto-secundario);
-  padding-top: 4px;
-  padding-right: 10px;
-  padding-bottom: 4px;
-  padding-left: 10px;
-  border-top-left-radius: 999px;
-  border-top-right-radius: 999px;
-  border-bottom-right-radius: 999px;
-  border-bottom-left-radius: 999px;
-  font-size: 0.8rem;
+  position: relative;
+  background-color: var(--slate-ferrocarril);
+  border: 1.5px solid var(--bg-dark);
+  color: var(--blanco-hueso);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 0.78rem;
   cursor: pointer;
+  box-shadow: 1px 1px 0px #111314, 2px 2px 0px #000000;
+  transition: all 0.15s ease;
 }
 
+.filter-tag:hover,
 .filter-tag.active {
-  color: #FFFFFF !important;
-  background-color: #f37420 !important;
-  border-color: #ffdd00 !important;
+  color: var(--bg-dark) !important;
+  background-color: var(--oro-charro) !important;
+  border-color: var(--bg-dark) !important;
   font-weight: 700 !important;
+  transform: translate(-1px, -1px);
 }
 
 .explorer-files-list {
@@ -2171,49 +2251,62 @@ html {
   font-size: 1.05rem;
 }
 
+/* Botón Donar Mercado Pago: Wada Blue (Azul Cobalto #006eb8) + Filete Amarillo (#ffdd00) */
 .btn-donate.mercadopago {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(0, 158, 227);
-  color: rgb(255, 255, 255);
-  font-weight: 800;
-  padding-top: 14px;
-  padding-right: 28px;
-  padding-bottom: 14px;
-  padding-left: 28px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  text-decoration-line: none;
-  text-decoration-thickness: initial;
-  text-decoration-style: initial;
-  text-decoration-color: initial;
+  position: relative;
+  background-color: #006eb8;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 11px 24px;
+  border-radius: 4px;
+  border: 2px solid var(--bg-dark);
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
-  row-gap: 10px;
-  column-gap: 10px;
-  font-size: 1.05rem;
-  box-shadow: rgba(0, 158, 227, 0.4) 0px 6px 20px;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.98rem;
+  text-shadow: 1px 1px 0px var(--bg-dark), 2px 2px 0px #051230;
+  box-shadow:
+    1px 1px 0px #051230,
+    2px 2px 0px #051230,
+    3px 3px 0px #051230,
+    4px 4px 0px #000000,
+    5px 5px 14px rgba(0, 0, 0, 0.65);
+  isolation: isolate;
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
+}
+
+.btn-donate.mercadopago::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  border: 1.5px solid var(--oro-charro);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .btn-donate.mercadopago:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(0, 129, 184);
-  transform: translateY(-2px);
+  transform: translate(-2px, -2px);
+  filter: brightness(1.08);
+  box-shadow:
+    1px 1px 0px #051230,
+    2px 2px 0px #051230,
+    3px 3px 0px #051230,
+    4px 4px 0px #051230,
+    5px 5px 0px var(--oro-charro),
+    6px 6px 16px rgba(0, 0, 0, 0.8);
+}
+
+.btn-donate.mercadopago:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0px #000000 !important;
 }
 
 .creator-portfolio-card {
@@ -2545,104 +2638,100 @@ html {
   flex-wrap: wrap;
 }
 
+/* Botones del Modal de Bienvenida — Placas de Rótulo */
 .btn-rotulo-accept {
-  color: #FFF;
-  font-weight: 800;
-  border-top-width: 2px;
-  border-right-width: 2px;
-  border-bottom-width: 2px;
-  border-left-width: 2px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgb(85, 235, 178);
-  border-right-color: rgb(85, 235, 178);
-  border-bottom-color: rgb(85, 235, 178);
-  border-left-color: rgb(85, 235, 178);
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
-  padding-top: 13px;
-  padding-right: 22px;
-  padding-bottom: 13px;
-  padding-left: 22px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  position: relative;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 12px 22px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   display: inline-flex;
   align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
-  box-shadow: 0 4px 14px rgba(255, 117, 24, 0.4);
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 240px;
   justify-content: center;
+  gap: 8px;
+  flex: 1 1 240px;
   min-height: 48px;
-  background: linear-gradient(135deg, #f37420, #E06000);
-  border: 1px solid #FFA000;
+  background: var(--verde-patrio);
+  border: 2px solid var(--bg-dark);
+  text-shadow: 1px 1px 0px var(--bg-dark), 2px 2px 0px #004f46;
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px #000000,
+    5px 5px 14px rgba(0, 0, 0, 0.65);
+  isolation: isolate;
+}
+
+.btn-rotulo-accept::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  border: 1.5px solid var(--oro-charro);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .btn-rotulo-accept:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 117, 24, 0.6);
-  background: linear-gradient(135deg, #FFA000, #f37420);
+  transform: translate(-2px, -2px);
+  filter: brightness(1.08);
+  box-shadow:
+    1px 1px 0px var(--slate-ferrocarril),
+    2px 2px 0px var(--slate-ferrocarril),
+    3px 3px 0px var(--slate-ferrocarril),
+    4px 4px 0px var(--slate-ferrocarril),
+    5px 5px 0px var(--oro-charro),
+    6px 6px 16px rgba(0, 0, 0, 0.8);
 }
 
 .btn-rotulo-soberano {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(255, 255, 255, 0.06);
+  position: relative;
+  background: var(--slate-ferrocarril);
   color: var(--blanco-hueso);
-  padding-top: 13px;
-  padding-right: 20px;
-  padding-bottom: 13px;
-  padding-left: 20px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 2px solid var(--bg-dark);
+  cursor: pointer;
+  font-size: 0.92rem;
   display: inline-flex;
   align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 200px;
   justify-content: center;
+  gap: 8px;
+  flex: 1 1 200px;
   min-height: 48px;
-  background: rgba(18, 53, 78, 0.35);
-  border: 1px solid rgba(243, 116, 32, 0.4);
+  text-shadow: 1px 1px 0px var(--bg-dark);
+  box-shadow:
+    1px 1px 0px #111314,
+    2px 2px 0px #111314,
+    3px 3px 0px #000000,
+    4px 4px 12px rgba(0, 0, 0, 0.65);
+  isolation: isolate;
+}
+
+.btn-rotulo-soberano::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  border: 1.5px solid var(--rojo-patrio);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .btn-rotulo-soberano:hover {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(212, 175, 55, 0.15);
-  color: var(--oro-brillante);
-  background: rgba(18, 53, 78, 0.55);
-  border-color: var(--oro-brillante);
+  transform: translate(-2px, -2px);
+  filter: brightness(1.08);
+  color: var(--oro-charro);
 }
 
 .footer-global {
@@ -2706,148 +2795,284 @@ html {
   color: rgb(255, 69, 0);
 }
 
-0% {
-  transform: scale(0.92) translateY(20px);
-  box-shadow: rgba(206, 17, 38, 0.7) 0px 0px 0px 0px;
-  opacity: 0;
-}
-
-70% {
-  transform: scale(1);
-  box-shadow: rgba(206, 17, 38, 0) 0px 0px 0px 8px;
-}
-
-100% {
-  transform: scale(1) translateY(0px);
-  box-shadow: rgba(206, 17, 38, 0) 0px 0px 0px 0px;
-  opacity: 1;
-}
-
 @media (max-width: 900px) {
   .hero-grid {
-    grid-template-columns:1fr;
+    grid-template-columns: 1fr;
   }
   .tabs-container {
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .social-channels-grid {
-    grid-template-columns:1fr;
+    grid-template-columns: 1fr;
   }
   .file-explorer-mock {
-    grid-template-columns:1fr;
+    grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 600px) {
-  .tabs-container {
-    grid-template-columns:1fr;
+@media (max-width: 640px) {
+  /* 1. Cabecera No-Sticky y Botonera Compacta 2+1 */
+  .main-header {
+    position: relative;
+    top: 0;
   }
   .header-container {
-    flex-direction:column;
-    row-gap:12px;
-    column-gap:12px;
+    flex-direction: column;
+    padding: 10px 14px 12px 14px;
+    row-gap: 8px;
+    column-gap: 8px;
+  }
+  .logo-rotulo-img {
+    height: 38px;
   }
   .header-center-socials {
-    flex-wrap:wrap;
-    justify-content:center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
   }
+  .header-social-btn {
+    padding: 4px 10px;
+    font-size: 0.74rem;
+    gap: 4px;
+  }
+  .header-social-btn i {
+    font-size: 0.82rem;
+  }
+  .header-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    width: 100%;
+  }
+  .header-nav .btn-rotulo {
+    padding: 6px 10px;
+    font-size: 0.78rem;
+    gap: 6px;
+    width: 100%;
+    box-shadow:
+      1px 1px 0px var(--slate-ferrocarril),
+      2px 2px 0px var(--slate-ferrocarril),
+      3px 3px 0px #000000,
+      4px 4px 8px rgba(0, 0, 0, 0.55);
+  }
+  .header-nav .btn-rotulo .btn-icon {
+    font-size: 0.92rem;
+  }
+  .header-nav .btn-rotulo.btn-gaceta {
+    order: 1;
+  }
+  .header-nav .btn-rotulo.btn-sonidero {
+    order: 2;
+  }
+  .header-nav .btn-rotulo.btn-editar {
+    order: 3;
+    grid-column: 1 / -1;
+  }
+
+  /* 2. Hero Section y Escala Tipográfica Móvil */
+  .hero-section {
+    padding: 18px 14px 20px 14px;
+  }
+  .hero-grid {
+    row-gap: 20px;
+  }
+  .hero-editorial-badge {
+    font-size: 0.74rem;
+    padding: 5px 12px;
+    margin-bottom: 12px;
+  }
+  .hero-title {
+    font-size: clamp(1.65rem, 6.5vw, 2.05rem);
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+  .hero-subtitle {
+    font-size: 0.93rem;
+    line-height: 1.5;
+    margin-bottom: 18px;
+  }
+  .hero-cta-row {
+    gap: 10px;
+  }
+  .btn-hero-primary,
+  .btn-hero-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+  .hero-news-img-wrapper,
+  .hero-news-img {
+    height: 320px !important;
+    max-height: 320px !important;
+  }
+  .news-caption-bar h3 {
+    font-size: 0.96rem;
+  }
+  .news-caption-bar p {
+    font-size: 0.78rem;
+  }
+
+  /* 3. Pestañas de Secciones en Cuadrícula Compacta 2 Columnas */
+  .tabs-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 0 14px;
+  }
+  .tab-button {
+    min-height: 44px;
+    padding: 8px 10px;
+    row-gap: 6px;
+    column-gap: 8px;
+    border-radius: 4px;
+  }
+  .tab-button:first-child {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+  .tab-icon {
+    font-size: 1.15rem;
+  }
+  .tab-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  .tab-desc {
+    display: none;
+  }
+
+  /* 4. Secciones, Tarjetas y Encabezados en Móvil */
+  .products-wrapper {
+    padding: 12px 14px 48px 14px;
+  }
+  .product-header {
+    margin-bottom: 20px;
+  }
+  .product-header h2 {
+    font-size: 1.42rem;
+    line-height: 1.22;
+  }
+  .product-header p {
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+  .news-capsules-grid {
+    row-gap: 16px;
+    column-gap: 16px;
+    margin-top: 16px;
+  }
+  .news-card-media {
+    height: 220px !important;
+  }
+  .app-visual-grid {
+    grid-template-columns: 1fr;
+  }
+  .app-detail-block {
+    padding: 16px;
+  }
+
+  /* 5. Modal de Bienvenida Móvil */
   .welcome-modal-overlay {
-    padding-top:10px;
-    padding-right:10px;
-    padding-bottom:10px;
-    padding-left:10px;
-    align-items:center;
+    padding: 10px;
+    align-items: center;
   }
   .welcome-modal-card {
-    max-height:94vh;
-    border-top-left-radius:16px;
-    border-top-right-radius:16px;
-    border-bottom-right-radius:16px;
-    border-bottom-left-radius:16px;
+    max-height: 94vh;
+    border-radius: 16px !important;
   }
   .welcome-rotulo-frame {
-    max-height:150px;
+    max-height: 150px;
   }
   .welcome-modal-body {
-    padding-top:14px;
-    padding-right:16px;
-    padding-bottom:14px;
-    padding-left:16px;
+    padding: 14px 16px;
   }
   .welcome-modal-h2 {
-    font-size:1.35rem;
-    margin-bottom:6px;
+    font-size: 1.35rem;
+    margin-bottom: 6px;
   }
   .welcome-modal-p {
-    font-size:0.88rem;
-    line-height:1.45;
-    margin-bottom:10px;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    margin-bottom: 10px;
   }
   .welcome-cookies-notice {
-    padding-top:8px;
-    padding-right:12px;
-    padding-bottom:8px;
-    padding-left:12px;
-    font-size:0.78rem;
-    margin-bottom:12px;
-    line-height:1.4;
+    padding: 8px 12px;
+    font-size: 0.78rem;
+    margin-bottom: 12px;
+    line-height: 1.4;
   }
   .welcome-modal-actions {
-    flex-direction:column;
-    row-gap:8px;
-    column-gap:8px;
+    flex-direction: column;
+    row-gap: 8px;
+    column-gap: 8px;
   }
-  .btn-rotulo-accept {
-    width:100%;
-    min-height:48px;
-    font-size:0.92rem;
-    padding-top:12px;
-    padding-right:14px;
-    padding-bottom:12px;
-    padding-left:14px;
-  }
+  .btn-rotulo-accept,
   .btn-rotulo-soberano {
-    width:100%;
-    min-height:48px;
-    font-size:0.92rem;
-    padding-top:12px;
-    padding-right:14px;
-    padding-bottom:12px;
-    padding-left:14px;
+    width: 100%;
+    min-height: 48px;
+    font-size: 0.92rem;
+    padding: 12px 14px;
   }
   .modal-close-btn {
-    top:8px;
-    right:8px;
-    width:36px;
-    height:36px;
-    font-size:1rem;
+    top: 8px;
+    right: 8px;
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
   }
 }
 
 
 
 .btn-donate.rotulos-github {
-  background-color: #24292e;
-  color: #FFFFFF;
-  font-weight: 800;
-  padding: 14px 28px;
-  border-radius: 12px;
+  position: relative;
+  background-color: var(--slate-ferrocarril);
+  color: var(--blanco-hueso);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 11px 24px;
+  border-radius: 4px;
+  border: 2px solid var(--bg-dark);
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  row-gap: 10px;
-  column-gap: 10px;
-  font-size: 1.05rem;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
-  border: 1px solid rgba(255,255,255,0.15);
-  transition: var(--transition);
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.96rem;
+  text-shadow: 1px 1px 0px var(--bg-dark);
+  box-shadow:
+    1px 1px 0px #111314,
+    2px 2px 0px #111314,
+    3px 3px 0px #111314,
+    4px 4px 0px #000000,
+    5px 5px 14px rgba(0, 0, 0, 0.65);
+  isolation: isolate;
+  transition: transform 0.12s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.12s cubic-bezier(0.2, 0, 0, 1),
+              filter 0.15s ease;
+}
+
+.btn-donate.rotulos-github::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 2px;
+  border: 1.5px solid var(--oro-charro);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .btn-donate.rotulos-github:hover {
-  background-color: #333;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255,255,255,0.2);
-  color: #FFFFFF;
+  transform: translate(-2px, -2px);
+  filter: brightness(1.08);
+  color: var(--oro-charro);
 }
 
 .badge-rotulos {
@@ -3223,41 +3448,9 @@ html {
   border: 1px solid #f37420;
 }
 
-@media (max-width: 600px) {
-  .header-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 100%;
-    align-items: stretch;
-  }
-  .header-nav .btn {
-    text-align: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 600px) {
-  .app-visual-grid {
-    grid-template-columns: 1fr;
-  }
-  .app-detail-block {
-    padding: 16px;
-  }
-}
-
 .app-icon-visual.icon-sonidero {
   background: linear-gradient(135deg, #f37420, #cc1236);
   color: #fff;
-}
-
-/* Restauración de Fondos y Contrastes de Botones Patrios / Día de Muertos */
-
-.btn-patrio-gold:hover {
-  background: linear-gradient(135deg, #FFE600, #f37420) !important;
-  color: #111111 !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.55) !important;
 }
 
 /* ================= RECUADROS Y PLANTILLAS DE NOTICIAS (FRONTPAGE -> BLOG) ================= */

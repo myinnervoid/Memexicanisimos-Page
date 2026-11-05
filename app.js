@@ -76,7 +76,8 @@ function initTabsNavigation() {
 
     const targetSection = document.getElementById(target);
     if (targetSection) {
-      const targetOffset = targetSection.getBoundingClientRect().top + window.scrollY - 100;
+      const headerOffset = window.innerWidth <= 640 ? 16 : 100;
+      const targetOffset = targetSection.getBoundingClientRect().top + window.scrollY - headerOffset;
       window.scrollTo({
         top: targetOffset,
         behavior: 'smooth'
