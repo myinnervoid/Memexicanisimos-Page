@@ -8,7 +8,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; frame-src 'self' https://www.facebook.com https://web.facebook.com;">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600&amp;family=Space+Grotesk:wght@500;600;700;800&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600&amp;family=Space+Grotesk:wght@500;600;700;800&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600;700;800&amp;family=Oswald:wght@600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <meta property="og:type" content="website">
@@ -29,9 +29,8 @@
   <!-- HEADER GLOBAL PATRIO CON CANALES DIRECTOS -->
   <header class="main-header">
     <div class="header-container">
-      <a href="#" aria-label="Memexicanisimos Inicio" class="logo" role="link">
-        <span class="logo-emoji">🇲🇽</span>
-        <span class="logo-text">Memexicanisimos</span>
+      <a href="#" aria-label="Memexicanisimos Inicio" class="logo logo-rotulo" role="link">
+        <img src="assets/rotulo_cabecera_revolucion.jpg" alt="Memexicanísimos — Rótulo Tradicional" class="logo-rotulo-img" width="180" height="45">
       </a>
       <div aria-label="Canales oficiales principales de la marca" class="header-center-socials">
         <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" aria-label="Facebook Oficial de Memexicanisimos" title="Facebook Oficial de la Marca (28k)" class="header-social-btn fb" role="link">
@@ -48,14 +47,29 @@
         </a>
       </div>
       <nav aria-label="Navegación principal" class="header-nav">
-        <a href="blog/index.html" id="header-blog-btn" aria-label="Gaceta y Blog Oficial" class="btn btn-patrio-gold">
-          <span class="blog-emoji">📰</span> Gaceta / Blog
+        <a href="blog/index.html" id="header-blog-btn" aria-label="Gaceta y Blog Oficial" class="btn-rotulo btn-gaceta">
+          <span class="rotulo-corner c-tl"></span>
+          <span class="rotulo-corner c-tr"></span>
+          <span class="rotulo-corner c-bl"></span>
+          <span class="rotulo-corner c-br"></span>
+          <span class="btn-icon">📰</span>
+          <span class="btn-label">Gaceta / Blog</span>
         </a>
-        <a href="https://myinnervoid.github.io/RotulosWEB" target="_blank" rel="noopener noreferrer" id="header-rotulos-btn" aria-label="Editar esta página en Rótulos Web" class="btn btn-rotulos-web">
-          <span class="rotulos-emoji">🎨</span> Editar en Rótulos Web
+        <a href="https://myinnervoid.github.io/RotulosWEB" target="_blank" rel="noopener noreferrer" id="header-rotulos-btn" aria-label="Editar esta página en Rótulos Web" class="btn-rotulo btn-editar">
+          <span class="rotulo-corner c-tl"></span>
+          <span class="rotulo-corner c-tr"></span>
+          <span class="rotulo-corner c-bl"></span>
+          <span class="rotulo-corner c-br"></span>
+          <span class="btn-icon">🎨</span>
+          <span class="btn-label">Editar en Rótulos Web</span>
         </a>
-        <a href="sonidero/index.html" id="header-sonidero-btn" aria-label="Lanzar Sonidero Web" class="btn btn-sonidero-web">
-          <span class="sonidero-emoji">🎙️</span> Sonidero
+        <a href="sonidero/index.html" id="header-sonidero-btn" aria-label="Lanzar Sonidero Web" class="btn-rotulo btn-sonidero">
+          <span class="rotulo-corner c-tl"></span>
+          <span class="rotulo-corner c-tr"></span>
+          <span class="rotulo-corner c-bl"></span>
+          <span class="rotulo-corner c-br"></span>
+          <span class="btn-icon">🎙️</span>
+          <span class="btn-label">Sonidero</span>
         </a>
       </nav>
     </div>
@@ -66,7 +80,7 @@
     <div class="hero-grid">
       <div class="hero-text-content">
         <div class="hero-editorial-badge">
-          <span class="pulse-muertos"></span> Edición Especial · Día de Muertos &amp; Altar Popular 🏵️💀
+          <span class="pulse-muertos"></span> Edicion Especial: Afuera de la tiendita
         </div>
         <h1 class="hero-title">Chismes, memes y<br>ciencia.</h1>
         <p class="hero-subtitle">
@@ -172,12 +186,12 @@
               <img src="assets/personajes/plantilla_tecnologia_hacker.jpg" alt="El Mashukita Hacker — Búnker Tecnológico" loading="lazy" width="720" height="1280" class="frontpage-card-img">
             </div>
             <div class="news-card-content">
-              <h3 class="news-card-title">Soberanía digital en jaque: Ciberataques en Europa y el expolio estatal de criptomonedas</h3>
+              <h3 class="news-card-title">NVIDIA AI Day, el colapso de Olinia y la vulnerabilidad crítica de la ingeniería social</h3>
               <p class="news-card-desc">
-                Te lo resumo: La infraestructura crítica europea ha sufrido un nuevo embate de ciberataques contra cadenas de suministro, mientras el FBI señala a Corea del Norte por el hackeo masivo a Binance. Paralelamente, la industria de la IA presiona para redefinir el uso de la memoria RAM local hacia modelos en la nube, y en México la hiperconectividad infantil carece de ciberseguridad y regulación efectiva. Visita memexicanisimos.com
+                Te lo resumo: México recibe el NVIDIA AI Day mientras enfrenta el estancamiento estructural del proyecto de auto eléctrico Olinia y las tensiones del gasto público. A nivel global, la ciberseguridad financiera demostró ser vulnerable incluso en gigantes como Binance, tras un hackeo ejecutado mediante sofisticadas técnicas de ingeniería social en falsas entrevistas laborales. La infraestructura digital y la soberanía tecnológica exigen mayor rigor técnico y menor dependencia de promesas corporativas. Visita memexicanisimos.com
               </p>
               <div class="news-card-footer">
-                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 2 Nov 2026</span>
+                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 4 Nov 2026</span>
                 <span class="news-card-readmore">Leer en Blog <i class="fas fa-arrow-right"></i></span>
               </div>
             </div>
@@ -213,12 +227,12 @@
             </div>
             <div class="news-card-content">
 
-              <h3 class="news-card-title">Operativo contra el CJNG, crisis migratoria y reacomodos institucionales en México</h3>
+              <h3 class="news-card-title">Frictiones políticas, seguridad y finanzas públicas dominan la agenda nacional</h3>
               <p class="news-card-desc">
-                Te lo resumo: Las autoridades desarticularon una red del CJNG vinculada al homicidio de Carlos Manzo mediante el uso de inteligencia digital, según *EL PAÍS*. En el ámbito internacional, la SRE confirmó 12 mexicanos afectados por un accidente ferroviario en España. En tribunales, Ernesto Ruffo Appel obtuvo una suspensión definitiva a su proceso legal, mientras el INE designó a Blanca Cruz García como presidenta provisional tras la salida de Guadalupe Taddei. Finalmente, el SMN advirtió sobre el ingreso del frente frío 4 en 21 estados. Recuerda que Memexicanísimos tiene su barra de noticias en farándula, tecnología, gaming y los 5 temas más relevantes del día en México. Con su anfitrión El Mashukita.
+                Te lo resumo: Las tensiones políticas escalan tras la denuncia de Morena contra el gobernador de Nuevo León ante la FGR por peculado, mientras el INE alista acciones legales por irregularidades administrativas. En seguridad, se reportó el aseguramiento de 43 millones de pesos y la caída de un líder criminal en la CDMX. En economía, Ebrard descartó que el escenario político en EE. UU. modifique la política arancelaria. Recuerda que Memexicanísimos tiene su barra de noticias en farándula, tecnología, gaming y los 5 temas más relevantes del día en México. Con su anfitrión El Mashukita.
               </p>
               <div class="news-card-footer">
-                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 1 Nov 2026</span>
+                <span class="frontpage-card-date"><i class="far fa-calendar-alt"></i> 4 Nov 2026</span>
 
                 <span class="news-card-readmore">Leer en Blog <i class="fas fa-arrow-right"></i></span>
               </div>
@@ -684,9 +698,9 @@
   <div id="welcome-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="welcome-modal-title" class="welcome-modal-overlay hidden">
     <div class="welcome-modal-card">
       <button id="welcome-modal-close" aria-label="Cerrar ventana de bienvenida" class="modal-close-btn" role="button">✕</button>
-      <!-- Lámina Rótulo Tradicional Mexicano Pintado a Mano -->
+      <!-- Lámina Rótulo Tradicional Mexicano: Revolución Mexicana -->
       <div class="welcome-rotulo-frame">
-        <img src="assets/rotulo_cabecera_memexicanisimos.jpg" alt="Rótulo Tradicional de Memexicanísimos con el Ángel de la Independencia" class="welcome-rotulo-img" loading="lazy" width="1024" height="571">
+        <img src="assets/rotulo_modal_revolucion.jpg" alt="Memexicanísimos — Rótulo Tradicional Revolucionario" class="welcome-rotulo-img" loading="eager" width="1200" height="500">
         <div class="rotulo-metal-shine"></div>
       </div>
       <div class="welcome-modal-body">
