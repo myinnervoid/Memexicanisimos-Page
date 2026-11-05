@@ -1,5 +1,116 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793843274133,
+    "fecha": "2026-11-04",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "NVIDIA AI Day, el colapso de Olinia y la vulnerabilidad crítica de la ingeniería social",
+    "descripcion": "Análisis de infraestructura sobre la llegada de NVIDIA AI Day a México, el estancamiento del proyecto automotriz Olinia y las nuevas brechas en ciberseguridad financiera global.",
+    "narracion": "Desde el Búnker Tecnológico de Memexicanísimos, examinamos las intersecciones críticas entre infraestructura pública, geopolítica de datos y seguridad de la información. El ecosistema tecnológico nacional atraviesa una coyuntura donde los anuncios corporativos contrastan marcadamente con los rezagos estructurales del sector público.\n\nPor un lado, El Financiero reporta la llegada de la iniciativa 'NVIDIA AI Day' a México bajo el concepto IA+, un movimiento que busca posicionar capacidades de cómputo avanzado en el país. Sin embargo, desde una perspectiva de arquitectura y soberanía tecnológica, la mera instalación de infraestructura o eventos corporativos no resuelve la dependencia de hardware extranjero ni garantiza transferencia tecnológica real para el desarrollo de modelos soberanos de inteligencia artificial.\n\nEn paralelo, el panorama de los proyectos de manufactura tecnológica estatal muestra fricciones severas. Según documenta El Universal en su análisis sobre 'Olinia, el auto eléctrico mexicano que no avanza', la iniciativa enfrenta obstáculos operacionales y financieros profundos [El Universal]. La falta de una cadena de suministro consolidada para semiconductores, baterías de litio y plataformas de software automotriz evidencia que la retórica de soberanía industrial requiere presupuestos multianuales, transferencia de patentes y arquitectura de ingeniería robusta, elementos ausentes en la planeación actual.\n\nA nivel global, la ciberseguridad financiera continúa sufriendo vulnerabilidades críticas derivadas de la ingeniería social y los vectores humanos. Informes recientes analizados por Cinco Días detallan la anatomía del mayor hackeo en la historia cripto contra Binance, ejecutado mediante una sofisticada simulación de entrevista de trabajo [Cinco Días]. Este incidente demuestra que, a pesar de contar con encriptación avanzada y protocolos estrictos de custodia en cadena, el eslabón más débil sigue siendo la validación de identidad y los procesos de reclutamiento corporativo. Paralelamente, las declaraciones del secretario de Seguridad de Estados Unidos sobre persecución a votantes extranjeros y las tensiones regulatorias en California [El Universal] subrayan cómo la infraestructura digital y el procesamiento de datos electorales se han convertido en campos de batalla geopolíticos.\n\nPara el mercado mexicano, las PyMEs y los usuarios finales, estas dinámicas exigen un cambio de paradigma. La adopción de tecnologías emergentes no puede desvincularse de la resiliencia en ciberseguridad ni de una política fiscal y tecnológica transparente, tal como advierten los análisis macroeconómicos sobre el gasto público y los pasivos nacionales [El Universal]. La soberanía digital mexicana no se construye mediante la importación pasiva de herramientas de terceros, sino mediante auditorías rigurosas de contratos gubernamentales, protección estricta de datos personales y fortalecimiento de capacidades técnicas locales que resistan tanto fallas de diseño industrial como ataques de ingeniería social avanzada.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Adiós al celular en las escuelas a partir de este martes; SEP llama a incentivar otras actividades",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObGdIU0pBbFUtOXRwOHZ6NWFNLVBRMWZqaHppeUxoQ2NVamgzaVNPclhKUmFEUjNHaGxXUTdjTklaZFhOWm9GM0s2VldOQVBtZGR6NkVnNzRZbTFyZmZYNnJ4WkRWSUM4dWFnVEJHSnEwRVA1ZWlJSE03aVdJenRKU25hWHB4clM2X1JfZDI5WEo1Mlp0OE52d2h1bW5FdWVzanVGNS0za2NibG1hejhlazl0Z3YxcjgxN25aTFBJRnd2Uk5fdk5zdHZidVRfbHFWb0VEc041T1BPV19DckF5SXd2bE5zbVU?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Aprueban fármaco genérico y barato que previene el VIH",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX0xmcTg3cVlYcGhlbEpzbzQtQTFnYUctWm5LVTlfUkVGMmVjNkZuZmlYRXNyYjQxNzJVZDlmUHREUTQ2YXRWOG1ST1QwZEgxYXJnVEpmSUwwUjlMWWpTekRuSk05cmtNQmZqdHhsNkp4UzhhejZFb1dtVUtnRGxKcldhQ3BNUWpRMEFsS3pRRkpOd1VQNFNJMVFVU2NlREg3QXY0Q3h3NmE1TXlZaTNCY2IyY3p2WE9SLVd6all3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Secretario de Seguridad de EU amenaza con perseguir a quienes voten ilegalmente y gobernador de California responde",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTkpQSVItcUhwNHIwUDlDUXJVb21nR2RWWnhEX3Uyb3I5bVpQVnc0TGx1TUJjdmQwUl9tU3JQR0ZJNkNXbW1SQlNGNGl1U3FLYmdRS1BpaVd4czFlVll2OW9nSkc2c0JHT3JBTks4WXF1Q3kzMElIRGpQaFJqXzRXdHlmUmN1NFp1VzZ1WFBmcWxrVjFPeUpTYjJCM1FHUnFHVDBWeEtpZ0RmUWR5Z3NiRmhoQWl2dDhCdUYxLWlsR1pNamZ2dVp2UmFVc0t6LWhqX21mUXpLMzJZVWRkaXNTaDFpOEVkZE5Oc0RUMHVyeWNDdFdpcmc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Dos billones de dudas, escribe Valeria Moy",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE80R1BVRHVaT0FEekhVZDBCYmp3ZHR1azdqRE15d3VwczV6LTMtNWdGcFJZb3JndDlMREhLLTNUV3RtemhxdlRuRGE4dDU0Qzg2YzNMVXUxbnRZM0VkRXlxekU4dVF6dWUzUHo0VWVlTFJWd2V4SjluQkpHdHpFQQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Olinia, el auto eléctrico mexicano que no avanza",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYW9hUk1aZmJVV3J3ZUlfeHJHWV9rdnBDYmJGdGtwQm5ubFNBZVl5SGJaNFpodU9uTHYxRUt2TzBBdlU0VGwzNHBkX3FKM1JsaG9aN1FIZ01SOWN0d1QwdmZkTkp1Q3FNaHhIYjZycTVLUUVlcUJpWk1BY3M3RTFlTUdLZFdaRU9YRnpaTDNPRUIyS21zaFlXZlFzZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: NVIDIA AI Day llega a México IA+",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOXzFtTk9tQWJlbEhPWEN4VUJFdDNXNE92YktNeVF1WnBIaTIzM2RtUUhweGhOUzZPNmRLVUZvc09TNnJVODlmWXRQSmdUSjVYVXBTNWpFZlFPYTd5WDRqWVNBbW83dHFKUXdWdEpYOUFqS2NPdVAtRlZxUm9tWXhNNWZRT1NtWG9MVDdBb2YwNEh2UDNPSTBj?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su PC utilizándose sólo el 5 % del tiempo\"",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjJKSmlGTkZfNWJIVlZwdTBWQzJXUlNCcDZLck5aUWQ5T2tjbWxLaXVLMkpCU3c0MjZlbllneWtxaEFCUXI1dnlackVuRDRvVWFTcnhORDY2d2hBdm1CdVBaTWhERk1UM2psSHJEUzlfczlja0JnSm9HcF9JS1EwejFwSW5PT2VQTmtXWjBuclUxTXNOaHFPaEVIdWRBUjQyaDRxdkI4RXBRVGtPdkE3WlFjR0s3SXpVRmJZVUljcWhPdWVTOFV3X3M0em9Kc0RJLVNGWdIB2gFBVV95cUxOM2pnbVFDUDJBdWRjQnZUZXpCdklocE1lTERORWY0UXVLNkdpN01XUXpkdUlIYU5yMjJiRzR5TFc1dllCZVhmRndDM0phT0RZTWFLYWpOelZ3eHN4Umk3bWVUb1hLQVZDaC1Ec1F2NFRRQlg3VTRiWV9wRGc3Y1BKSGxjd2w1OFpSQV9GX21RZjlWRE1HOEN2MlhKSTVhejR1LWFZMUFGN0lFSVM4bmVJWjJzOTZncXo4aVVlc0lZSWNfT0VQUHhEdV8zcE12bWEySTJNei1IdDhNdw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Cinco Días: Una falsa entrevista de trabajo: así se ejecutó el robo a Binance, el mayor hackeo de la historia cripto",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQaDVUa1lrUWQ0bG8yR3prZjRlNmlkblRhZXdUYXpramtBaGtlc3RibklOVnF2NkJVUWRRUEZLY2c4cXhGYXgwVHR4emVuVEFOZFE4TUo3TEkyUHBpSzJTR1dPcHFlYzYzMEpud3JNWEZpRmVTSmVidmR4c01CSGNuRGpuZldERVlpT1pSM19ZcjlyRGtfNHdlaHhmc2pkWFdSSnNvbUcxdUpoVTJRRVVjYTcwTG0zU1VkczFrQ3dDeFA2QWdMTkF6M19qNlFHRFBwc3ZiUjBLRHZQMUQ3RHZQc3luSWpGVW9laUJsVHFyYnVLWTg?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=RMaEco_xFjc"
+  },
+  {
+    "id": 1793840404228,
+    "fecha": "2026-11-04",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Frictiones políticas, seguridad y finanzas públicas dominan la agenda nacional",
+    "descripcion": "El escenario político e institucional de México registra tensiones por denuncias penales entre poderes locales, investigaciones en órganos electorales y ajustes en gabinetes estatales.",
+    "narracion": "El panorama político, de seguridad y de finanzas públicas en México presenta movimientos determinantes para el estado de derecho y la estabilidad institucional. En el ámbito de la seguridad nacional y procuración de justicia, se reportó un operativo en la Ciudad de México que derivó en el aseguramiento de 43 millones de pesos y la captura de un líder criminal de relevancia, según registros de [Reforma]. Paralelamente, el fenómeno de la extorsión a nivel nacional continúa bajo análisis en foros especializados debido a su impacto directo en el tejido social y la economía formal, conforme detalla [Periodismo digital]. \n\nEn el terreno de la administración pública y los equilibrios políticos regionales, la confrontación institucional escaló en Nuevo León. Clara Luz Flores, coordinadora de Morena en dicha entidad, interpuso una denuncia formal ante la Fiscalía General de la República (FGR) en contra del gobernador Samuel García, imputando los delitos de delincuencia organizada y peculado, de acuerdo con la información documentada por [La Jornada]. Este hecho evidencia las profundas fracturas en la gobernanza local y la judicialización de los diferendos políticos.\n\nLa tensión institucional también alcanza a los órganos autónomos. [El Financiero] reportó que el Instituto Nacional Electoral (INE) alista una denuncia ante la FGR derivada de irregularidades detectadas en la gestión de Guadalupe Taddei, señalando que esta indagatoria podría sumar a otros funcionarios bajo escrutinio por el manejo de recursos y procesos internos.\n\nEn el plano de los gobiernos estatales, la estructura política de Sinaloa experimentó una modificación con la renuncia de Yeraldine Bonilla como secretaria de Gobierno, quien agradeció al mandatario estatal Rocha Moya por su gestión, según consignó [Milenio]. Esta dimisión ocurre en un contexto regional complejo en materia de seguridad.\n\nEn cuanto a la relación bilateral y económica, el secretario de Economía, Marcelo Ebrard, moderó las expectativas respecto al impacto que la derrota de Donald Trump en las elecciones de Estados Unidos pudiera tener sobre la política arancelaria, admitiendo que dicho resultado no modificará de forma automática las presiones comerciales hacia México, tal como informó [El Financiero]. Finalmente, en materia de salud pública y prevención, [La Jornada] destacó el arranque de una jornada de vacunación con la distribución de 100 mil dosis gratuitas en el Estadio Olímpico, operando del 9 al 13 de noviembre para mitigar riesgos sanitarios en la población abierta.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Financiero: Ebrard ‘baja el entusiamo’ por derrota de Trump en elecciones: No influirá en aranceles, admite",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWEVTVS1McWFHZkVsamxDclJuY050Z3pnc2pWS2tPa1hTY2RUZWtLUHBETXc4UXl6VUloUmtLWmZKdDhyb2ZEOWN3RFl3eEpZYWVNRWFLSV9kSlVCNUh4UzJTR01kMXE3UkNvZjBBQTJyeVA0WExVeGxNMVNYamJUR1MzVWFrdTZtVzM3RGx1eUdiVWh6ZnNVUXBuZFAxYjNJZm1qcW9CeUNOQXVKU0w3MERYY2lqd09rSXBHSURzQVA4bHRaTTNlZm9zM3Jic3FrcUZNOUFySmRPS3VT?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Aseguran 43 mdp en cateo en CDMX; cae líder criminal",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdW9VdENXeHZJRm9EaVNBV2U4UDBFdjVsVko1SEcyZXprNVpNX05ZX3RtNUFoNm93NzlPYWZUemYtZm83a1hxNERtRU5zeklXVnVJeHNXb0JQN0NuTVBXRFNETzlKVEt2TGxySzYwbFZhLWZEd2wtbWx2c1VQRGpkVHRXTFVMMG1mZFlwUWpR?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Clara Luz Flores, coordinadora de Morena en NL, denunció ante la FGR a Samuel García por delincuencia organizada y peculado",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRkExUlRDQ2UwQS04TnV3Q3l1bFAwTENZVVAyQ0ttRFlRb0xISExjR0RGVkM1SmRIMXkwcldheFZMdEpYVzMzdzVkZ2pCQUN6cFFDWnVzWDQ2Z3UwZXRNMTdGNnk0OGdxQ3pLY3JDaGJTWExqMUluUjQzdWpRQ3N5eUNScnNVWUtzWkhTMkYzRWYtbDJOZE1YRDRLRU1JZnhZcmIteHZIM3NUZzlVRTcwbmxqOWQzeDNBNXVhSTJZMWxhdnptZ0dvNFN6YTl2dTQ5TW9FcTNNTEhfMVJXMF9XajhoWHFYSmF1TGFMZG9IVkNIREN6YnFSY0JBdWxVU0x2RmM1cEJGSQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Del 9 al 13 de noviembre habrá 100 mil vacunas gratuitas en el Estadio Olímpico",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSGtKZVRNbENFLTdXNGR0TGhWLTZGdkkxRmJwclc2YXBXQkhJeHhUby1zbGJCS3NxdzJKdF9IRmktOFNSdGN2ODRIRzlZRm5qQUl4MUYzd1YtRmJKLS1vb2dzZ0EzMjNxek9DbldaMkNfYmV3VUd1NW1JbmdxcFZPOUE1SWp4S3JCcUllVlR6VWY0NHVMZ0g2YnVWT01Ka0FUZnlqV3pWbE1xYmsxZ0QyVG9hV1RTZGJXaFJMSkFMVlRYRXZTT3Rzc3plZzJiems?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "MILENIO: Yeraldine Bonilla presenta renuncia como secretaria de Gobierno de Sinaloa; agradece a Rocha Moya",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa2xpdnAyVnljQzhsZ2szTWMweGRqX0d1alBMaWJ5a2RVMEFlNGIxVFRfdEJsS084aVhKMnlaMVdJUGxpRlpzNkxCazN6YlhZY3Y0ZHI2cVJabXVsZ0lfV1p4T1doX1NoS28wUHZUOXR6eExhWEIxbU00LUdKTmE4U1RwSE1iTGVzRTQtbXJHSnRMVVBkdUFxanpkTdIBmwFBVV95cUxPNlFSUmduTW90Uy13SWJOamlTcU50TG42MzU2RHN6MzhXcUpQem40SFBDX3NJRWdJcU9neW1mcU5MMzN0R3NTMm8yT3B3cnZ1T0ZkNHNmckdYeGtlZXdENTJBWHJMNEVZX2ZJYnpPRmZoN0hFVEpwa3g1RFlLZWFna2w0bTFEcVhpRmJCWnFtTEhwX1FNUTMyT3lLUQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Vicente Fox y su sincericidio // “Padre” del fraude de 2006 // “Hice que ganara Calderón” - México SA",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPd19CbEVNTkZCVjZGVERGbWNzNWFJTzNLemd4dF9Mc0Z3VG9YRXFEYlBCamVaUEt2YXVTSXNCVU8waV9reUZyam5HLWwzcmtON2RnZVduS3cxcGVkN1N4M3ptcXZoUEdESmVkNkM2ZmhTeXNkdEkyRDBuc0pGbFUzWXBWWWZEdzM0Uk1JZzgtR1paLVRKU3g0Tm5LMk5naVVIdWZSbVJIc1hiLW1QQ25CNlpreTVlY3NvUXFpV04tblNoeWhZbzVjQi04Z0NPS1JfS1lqLXdGSUNOQXlI?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: INE alista denuncia ante FGR por irregularidades en la gestión de Taddei; no sería la única investigada",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPYWlOdHYwVVhzandqb052Y3BEd0t2TzM4c3N6QnZfUkN6Zk5IdG9sYy1TTXBYLVJPMk5COWt2QnBMZWd4aVI2cEJreTBxcHJxZ0pKV0s4YUhUeFYtczd4R1NNUkwzMkpUakRIbU16SElIOVNQNlhCXzBPVUNUa19DcURHNlhZT3J5OV9FUzhCOTJNOVBLdEZnWWdzYllwQ3BpUEpha3F5RGphTmxLMF9aV1h1aS1vWlRvNFkxYk1wWHd4SlQ4bWVydDY0bG1PYTd1bk5DbzQyekstRjAxVnFsMjM0dVEyZHF0SUhHRw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Periodismo digital: Así está la extorsión en México",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1VVp6SVoyODJfcUx5MW1ZRkVvNUx6RlV0YnhSRFN4THY3MjNzQmYxSFNETXlyYmVraFZ4aENBcDFOZ2FfaFU2cFZqcU1acDlWTUZhR0xJUDgyWlBlWXphLTE1SWJPTUNpNEl5cjN3U0s?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793833204100,
     "fecha": "2026-11-04",
     "categoria": "Gaming",
