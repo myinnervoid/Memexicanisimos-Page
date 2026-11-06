@@ -1,5 +1,120 @@
 [
   {
+    "id": 1794006007034,
+    "fecha": "2026-11-06",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "NieR Automata: parche eleva peso a 366 GB; SEGA capitaliza Persona 4 Revival",
+    "descripcion": "Un error crítico en la actualización de NieR Automata dispara su tamaño a 366 GB, mientras SEGA reporta un aumento sustancial en ventas de la franquicia Persona tras el anuncio de Persona 4 Revival.",
+    "narracion": "La industria de los videojuegos enfrenta un nuevo episodio de control de calidad deficiente. El más reciente parche de NieR Automata, título desarrollado por PlatinumGames y publicado por Square Enix, contiene un error crítico de programación que ha elevado el peso del juego hasta los 366 GB en almacenamiento digital, según reporta Reporte Indigo [VF3]. Esta falla, que afecta a usuarios de PC y consolas, obligó al equipo de desarrollo a desplegar una corrección de emergencia para evitar la saturación de los discos duros. El incidente evidencia problemas en la gestión de archivos y optimización de código, prácticas que en la era de las actualizaciones constantes pueden traducirse en experiencias frustrantes para los jugadores. En México y Latinoamérica, donde el almacenamiento de alta capacidad sigue siendo un gasto considerable, los usuarios afectados han tenido que recurrir a soluciones temporales como la eliminación de otros títulos o la compra de unidades externas, un gasto no previsto que golpea la economía gamer.\n\nParalelamente, SEGA confirmó que el enorme interés comercial generado por Persona 4 Revival ha impulsado sustancialmente las ventas globales de toda la franquicia Persona, de acuerdo con Nintenderos [VF2]. La estrategia de revitalizar catálogos clásicos se consolida como un modelo de negocio rentable para la corporación, que busca sostener sus ingresos financieros anuales mediante el relanzamiento de títulos emblemáticos. Este movimiento no solo reactiva la base de fans existente, sino que atrae a nuevos jugadores que no tuvieron acceso a las versiones originales. En el mercado latinoamericano, donde el precio de los lanzamientos recientes es un factor decisivo, la disponibilidad de remakes y remasterizaciones a precios competitivos representa una alternativa viable para acceder a sagas de rol japonés sin desembolsar el costo total de una novedad.\n\nAmbos hechos, aunque distantes en naturaleza, reflejan tensiones actuales: por un lado, la fragilidad técnica en el desarrollo de software que impacta directamente al consumidor; por otro, la apuesta de las publishers por la nostalgia y el catálogo retro como salvavidas financiero. Mientras Square Enix lidia con las consecuencias de un parche defectuoso, SEGA demuestra que la reutilización estratégica de propiedades intelectuales puede generar réditos tangibles. Para los jugadores mexicanos, el episodio de NieR Automata subraya la importancia de exigir estándares de calidad y compensaciones claras, mientras que el éxito de Persona 4 Revival sugiere que las compañías seguirán mirando al pasado para asegurar su futuro. La industria, en su conjunto, queda retratada en una dualidad entre la falla técnica y la oportunidad comercial, con el consumidor como principal afectado o beneficiario según el caso.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: Bandai Namco explica cómo Kirby Air Riders consigue mantener los 60 FPS estables en Nintendo Switch 2 y más detalles - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: SEGA destaca el enorme interés por Persona 4 Revival y confirma que los últimos anuncios han impulsado las ventas de la saga - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reporte Indigo: NieR Automata pesa 366 GB tras actualización, desarrolladores trabajan en el error - Reporte Indigo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: ‘Hard West 2′ llegará a consolas con su estrategia al estilo XCOM en noviembre - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IndexBox: Previsión del mercado de unidades de DVD externas para gaming hasta 2035, impulsado por el archivo de juegos heredados y las necesidades de recuperación del sistema - IndexBox",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: Nintendo habla de la importancia que le dan a los remakes - Atomix",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: Microsoft le hace cambio radical a la aplicación de Xbox en PC - Atomix",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: God of War Ragnarok lidera la lista de los 10 juegos de PlayStation Studios más taquilleros de la era PS5 - IGN Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "MARCA: ¿Por qué los personajes del nuevo Ocarina of Time parecen muñecos? Nintendo ha dado una explicación - MARCA",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Diario AS: Análisis del remake de The Legend of Zelda: Ocarina of Time para Nintendo Switch 2, de padres a hijos - Meristation - Diario AS",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Verdad Noticias: Xbox transforma su aplicación para PC: estas son todas las novedades - La Verdad Noticias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Principal proveedor de chips de Nintendo abandonará su producción de memorias para cartuchos - Rolling Stone en Español",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Vandal: Nintendo Switch está a un paso de superar a PS2: así queda el ranking de las consolas más vendidas de la historia",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRGRNT0QyVzhPZ2RFTDA4R0ZkbDRFZkE1WGl6T0FBZ1VDWUNhTlQyQXM0cVZieXpJcS1udzRpSFRPR0gxU2hnd3lkVVRsZ2xaaTFkTzFXY1M0UWZ5RWJQOVdaQ0p3SnZWbVA4U1hKeThyT05RMHd1SXF5RjNtdF96WFFTWng3TVFVNWfSAY8BQVVfeXFMT0V5QmRpS3BBTVA2bmhSTmhIVjdSN0s4andVTTNJSGE5dU1ScmVtd2FqRjZoc1VTVGktc3hyYnZudkd3NXpsVHVuVHUwRnVQVHc3RTZtbDJveEdodEdzX2lRSUxKTEdWT05KcTZFWEtBZkZxTVA3UW1NeWFYaHJxY1JLcWtnckNpLTZoU1FvZk0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Análisis del remake de The Legend of Zelda: Ocarina of Time para Nintendo Switch 2, de padres a hijos - Meristation",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTFUtLXJGenFwcFZmanZxT1NaMHc4M1czTm1xNEJXc2hmbGtpUXVnXzRWbXZhcmpSa2lJUmk4aXdONzBBeFZRbk9sc01fd2hFdjFoZWhGcXh1UGNSbGswYm92SWhaVVB5bFgwVTNLTDR5cjljNFRTckF2X2J6R2N5anFHTUVrZ1lyM2lvLUlMcmV1c2ZKS0RKcGhtZTJtMU1XWl93WlRuVGVXNHFLSDJqOGowZVV2RFZVdGxrYlR4Z0ZLQ1R5YUdFWndTQ25fMFZycFFTS0ZpLWtxMFdxVmZJ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Jointly News: Fin Irresistible de Bodega Aurrerá hoy 6 de noviembre: Nintendo Switch 2 a $9,479",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YTFpEY2JZM0Fac05JampUQ1lsajl2RXdpTnJ4LVBCSVF6UDlFMnlPSzJwajV2b282U2I1bGo4bGZLSlZuampXM2NZWnNfSjRxV05keU9nOExlaWtqalNVQkpIcDZEYnA2Z3djc0NfX3A2T19qcmpEcjU1R0o?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: Sony mejoró PlayStation Plus con un nuevo beneficio que dará muchos regalos a sus suscriptores, como meses gratuitos de YouTube Premium y más",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOOWVQRW5GTVZnUzh4Yk9OY3lzOHZvWHhQUHFnOUZQN256Yl9wMlZpdEI1OEdXR2gzTnBBcjRTcnJ4MHZlQnBNaERCOVdOcDdGckNNY1VWRnlBNENQTGJXMzYzTDMzaGhSZENYdHktS0ctVWhaU2tfYk1PODdWNmNjV2pjcGIycldwNlU2SGg4MXgzNk05QzhHRzVrMEVXWlFMblVIY1BQNTVYRGg3QkNWWGVjUmd0UUhfdkJZNXh2RGNpa0ZNNjRYMlMzdGxEZUpqaW9CQ1REUkUxWXplUGpVTUpWZlVYUUJ3YkdpeWdDX0poN282TmFTSE9vQ1NxZXN6cEMxdQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo espera un éxito mundial de Zelda: Ocarina of Time, destaca el impacto de Tomodachi Life y third party, el crecimiento de Switch 2 y más datos de ventas",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbFE1TFhkbUhuMnBjY2RGS3A1TzZSTVFrMGtKQS1FZW1MLVJNQzdlN3RDOU9GNk1OVHZFWkFQOXNPT0NpcjBnVjZHZ0prUFgydy1idmE3akY3TDBhYmVWUjJLWV9zVFRXV3B5V3FpY3oxZlpkLWVwbmxOdHV0OGZkbGpaSndXLVdybGd2UHNFMlVKQWtsTVFNTXN3Zl9mMFRFLVBCWFl5ZFJ2UlR5dWVLdVRsM2FSU3BwZ1ZRN19NSXFrRE5RM3VxVGFKUkF1MkFRenBGSUNMVV9jblhkblBCY3NMaWpDUlpJVXpxdG81QlY5RlFsSUFTSWRobDF5VzBUZllzVkVVbXM1anZtcWcyNWRTZXlVVUNUdnNpcklMZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: PlayStation Plus estrena un gran número de ventajas exclusivas, pero la respuesta de los fans es rotunda: \"lo que queremos son discos\"",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQZUxBemRwQzVSbU8ta1NzRUROcG1IQmk3M1F0bHZ2alVLT3hQTlh3N2gydUxWZlZlT0dXaFd0R2xCTXZveThOSV9LQzc2bHV6ZmF4NzZteFI5bi1NTWt3ZFpxQTM2anA5UmVreFBlNUpKRFlSR0dhbjY4TGF5RTBtRzg2d2Vqd2Vka09IZkxLSUtVSW51aFB0R0swcE1MbmlXRTZNaGcyYWNMWEEtSVIzejRuOXdXcUxUOE1YOUtNUE1XOE5BQlU2TFpkQTl6eXgwMmxybXU5QWVKWGFMakdLU1MtV25keVBCbmc4NV9NR0JYQl9UMnZSUnVnZzhQeURQeENGR1RB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: \"Nos estamos estancando\": para el exjefe de PlayStation el camino es claro, olvidar los gráficos y priorizar consolas económicas y sencillas",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYWxzY2hray1ad1g2TVd0NFJXbUM1WkJJMi1lbVJjbnpWY1V3TzNYblQxTmRuSk1JSEt2SEdENFRXSHl3eWk0NFNHRWNKT1NZdElEODd3MW44NU1ZY2p6ODdveHhlR0VHamlPeDZzTnRvUldvZEt3RDVMZC1hVmgxR1dQOFFfOThmaE1ham14Q3NCYklxcmhDWTR0bnZ6NXRreWp3REUxYzV4cGpBbmVjTG1CSC1UYzVicG1TRnFXTm1Wa0d2bko2VUJaTzJwNjQ2Y05GczhxaFM4MkhxeVowS3ljN0pMVmFxQlHSAe8BQVVfeXFMTTNkVzlIaVUtT3BXRzVZOVNSQ2NaUl9JcGl4dFVnQjMydTNDdjV6NDNWQXZISkRNaGxVeDBwSEdJRUMxaVZfb21oZGdjMVUxVFhENjNKdlM2ZHpBSVQxM0hXUWlIRTZONElPREJaVWctQ1VuNlY0aU5tQWZlUWZERGg1c0QxaGhfMWtkSVdVWHRlcGFkNHljWjVfT3d5LTU5ZjY0bGNKM3BPUktkclNnXzZ5V2dqQW8wZnNtVjZSRjhzcEc3ZUlhMWRmQzN2b2dfTndMLWZ6ME1wLUJoNU1VVnU1ejh4a3RfVFRzY01JeEE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "IGN España: La funda barata para Nintendo Switch 2 que todo fan de Super Mario querría",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSFhObC04UW9VOU5MMjRuSUlGOUhiSUh5STU3QmhDdWhhV3BPSW5pMkZtMGhhWjYzSjFFSWpZLWZxUGt2WlVCTkFzdlhfVGs5N0U2QzZQMFlKQUxoSzJrQzlNaDFpTzBEaG9WT1dBa3pZMXphM0xUU3g4c19lUlZtclBSckIzYVNOWjVrZDRxbzZ3YU4xam1Zay1sZUpLOVFTMFlvQ1hLajZOcFha?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1793991604703,
     "fecha": "2026-11-06",
     "categoria": "Tecnología",
