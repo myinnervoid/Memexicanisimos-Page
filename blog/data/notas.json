@@ -1,5 +1,229 @@
 [
   {
+    "id": 1793926662958,
+    "fecha": "2026-11-05",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Denuncia del INE contra Taddei, abatimiento de 'El General' y Ley de Economía Digital",
+    "descripcion": "El INE alista denuncia penal contra Guadalupe Taddei por enriquecimiento ilícito. Fuerzas federales abaten a líder criminal vinculado al caso Milton Morales. Jalisco propone condonar cobro de agua ante fallas del SIAPA. DOF decreta Ley de Economía Digital.",
+    "narracion": "Te lo resumo: así se mueve el tablero nacional en los 5 puntos clave de México. En el primer punto, el Órgano Interno de Control del INE alista una denuncia penal formal ante la FGR contra la consejera presidenta Guadalupe Taddei por discrepancias patrimoniales e irregularidades en contrataciones millonarias. En el segundo punto, en seguridad, fuerzas federales abatieron en el Estado de México a alias 'El General', líder operativo del Cártel Nuevo Imperio vinculado al homicidio del comisario Milton Morales. En el tercer punto, Jalisco remitió iniciativa para condonar el 100% del cobro de agua potable a más de 200 mil familias afectadas por fallas del SIAPA. En el cuarto punto, el DOF publicó la Ley de Economía Digital restringiendo el uso de efectivo en operaciones superiores a diez mil pesos. Y en el quinto punto, autoridades estatales defendieron el protocolo policial del 11 de octubre en Guadalajara. Con su anfitrión El Mashukita.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: INE: denuncia ante FGR será por contrataciones para elección judicial y producción de credencial por mil 173 mdp",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPa004OTYxWEZjM2R1Rjd1Q3JzMEFfekpBa1RJMWhEdWFLN0F0X0RudVhyRU4tMW1rblNFc0tEUHFldzFyWFNyd280V1ZoOFN4MW55RENqZWdJeXpXc3BJUFBDYTZRZzRMN3ZvOHhCMG9uWHhsU3FKTFhwQm13VldKV0U3Nm5xd3lkTkx4T1VWeFNsVVY2WnJibU1lc3hMLWFtSVN2dFFyTXhPaEdpRzlvc2hkaldPQ1prd2swUzN6akJwUXRLa0Y1a0tXbGNWbkkwZk55VXpXRFQ4RHNTZTFJaEZRc0hrSkxoa0oybV9xc0lkRklWbVE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Detenido en Colombia un juez mexicano acusado de aceptar un soborno de dos millones de dólares de la red de Ryan Wedding",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbXU0U0FMdG81SkxpdDRqa0t1MjdLYUpETnFEY0JITG4tRDF3SDV3cldpWWdoNndXMkVoNmZ5TmNhalR3cEtLdHhJZzlwMUpXSVYyVDJ5OEhMaGxKb0hlSVptb3RocEs5b2ZsM1RNTjRsNC1CdEhFM1BBNnc5M0hKd2xsTXJvZ1BLcHRMZURuNUpuTGV1aE83T2lGeGUxZ2JzZm5rSlBZT01xcG11aTAwR3FEdXdid2NwYWlrWHB6YUdrVUMtRU90VG1vanotOGZuZ2NySDc0bmtOeEpZM2UwcWY1OU1SeWUxajNLRg?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum: red de corrupción de proveedores electorales viene desde Salinas; creció con Córdova en el INE",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVG1zZUgxVFFrdlhKUGhjcmdMdkRsZmc3TVRMM3R4MXhucnhXZ1RzV1VoSEllR05zcmQ3N0p0b2t2cS1KcDJGY1pFbmFqckFXa3VSbkR2cW9WQ21ZYUM1Y0R0SEJpcXBEd3p2NlV4TDQ2NVhnSFUwVjFoQXhtQUV3QU1iVDNhNWNud0tIWGI1VkZaQ1FjVGtWSVFOclhsbkJlUGhxakpQbGxlQ3Q4X0hoQWpGeU1TU2QtTW1CYlBUZ3ZkTWtiM2lpUmJFblJtUzgySTdKaDlidlNBVUt4RURCSWpZd3NWdHhXVnhjNTdCSnFJdUFucnowZUJEVQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Abaten a \"El General\", líder del Cártel Nuevo Imperio",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxObXIxQU9Lek9aWG0yNjdMY010WUFCb2JzMFBzV0pfRnBKZzY1dFJWN0Z2Z1JYcktnR1ZBNE5jX2UzejJRcEVVc3B0WE1PLWFQaThTSTRWN0p0b1RpcmFPWHBGX2NhMzRMN2NvNUd6dVFEWTVLMFRiQTVuNUF1ZDYxSFhLN2d3Z1JtOWtQb19BR3FydUw0UHppczVodTA1RmlkRWF2Wnc2c05uWVE1S2NBRGVldUpDVFN3ejRVcUNGT0FmU0s5ekYyRXJjLWFFc2dDVVVMaGR5UUR6V2k1MlRXcUM4WEYyU3BaQmUtT0xWdHFNMnEwYUhRRV9USkc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Tras el “el cochinero” electoral, Sheinbaum prepara cambios en Talleres Gráficos de México",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQV0pyTVhVdkhldXJ4aVlfZjFxa2c4ZVdRR0V5MER3UXJiT2wtVF9Sa3FocmNHWUtIUWJodjFRYWFUa1IxYnBzd01TckdIbEhlRFpBWGJXanVkWVZ0aEdBLW1NWFhPUThqWDNnM09RSkMyMjJMbTdCdUJIdk4wRUtuaDJRdFc5MEttMjNGVWRJSk1NVFppWl9pYnhOOHNPNFJYWklkWGZfN1ZMVE9Va2t5S2FmOTE1UWppT0FlQTlpUHJGVGt2cmx4WFFJajhmWXhNZTFnbjMtUjVjdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: José Alfredo Hernández Casillas, empresario favorecido por el INE, estuvo amparado contra posibles detenciones o comparecencias",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQMVpNSi1sWlF3UGhEai1FeFh1aGJfY05fUHpGdm9LQ29Zb2pXbDRfUU1jdGxYT3R0MFNRVDVHRkp4Z3FSWnNHNThvSTJVS29UY2FBajgyTGRGZW1GcS1mRmduOVlYR2JuSGhITWJMeGEzOVVxb1BBVGFuTDRpS0NfcUZNandhNDZKRjczLVJKTEZ6eTlPYU1QUWlfRmVraER5c1J1Y3FxR2xRNGdiZWlaTUNFV0VEMTI5ejhGeFFIRGhBSUhoRXNrbC14ZzlySXc2WUNKa1VGVVR1Smwtay1IU3UzYmR5enRPYkpTNnhua2ROY1prckJJcmc3eXEwMlVwSnNwekw3bzdycm9wVDF0M2xn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum recibe en Palacio Nacional a Xóchitl, niña genio de Chiapas",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdFVXQ0dBdlZWNnFDUnZLVXFvM3lPSURwMzVUdDBCdjk4Z3FaaGNDVkdZeElwWW5hOU1Lcko5czNQcnZOQXFQdEQ2LXdCMTQzOWkzSEpHNTdqN2FjUXdkdmxhVF92aE5pWjhqT2VFVUVOMmVObUY2MTFlbWs3bUZ1azdkN0llalNIWVpLTDRscEFyRFFrNG8tTEZ3eHJEbjF6VWkxNXJOWThCSnpmQ1pnZ0VQNDFfWXlkNGlUa0dEUzA5cWFCeTBiLVdnRFRYSHJRQjRMc3NtUjhIc216aTlHWnV4YXY1WEdXWjNyRE91X2tad1nSAYcCQVVfeXFMT01QNnl0X0hhS0N2UXVsVGMyb21tYWc3dWltLTA2bGVhVWtOSS11ZnhneTQzMGpsUkJRbS1zUmpwcWlaWXkwMWtNMjItaDh0eTRDOFlIakdjSkZ6ckhkOFVuaXZXMjZRWWFCYkh6ZWJiQTBBQ05YRi14YWN0VnZqZDZRV0lwTE94RG92bVozNE1GakJVM0NkY0ZYbk9ENXJLNmZIWFdJVUUzY3pENTVxdzdNVnZIR0l0RTkwZ1M4VXI2ZnJqVWdiUDQ4WmZHdmNmU2JCNy1qanVaV2lFYkRteGNReTFDNUI1YkJxU2UzNVJ3QnRKTG5XS1kyZDUtVVZ6Y004bFNtX0k?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Informador: Pablo Lemus propone condonar el cobro del agua a colonias afectadas por la rotación del SIAPA",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZFl2QXFfY3RRNDlIWnk5SWpMUmllN1k5bFg4WFpET2loRUktci1tdVBPdG9ZWF9YY0xFWjlaVXdWREIzWHdBbnlzU21qMUFNRmtSMEJISm1zanJvcnpDV1BlWU9pVW5JOEdlUXZOWEt0dkxLb0NXR0FDVEZmREZEdm9MZVZFcHNLa0ctOFE1RWdwVjQyZW9YOGplQWpLUmFnWXFEajQyby1HREkzTlNDWV9pc2pGNjRmTjhQam1IRUx3Wng0OEtpOVV5X3ZmbXpEWXg5ajV6OERMbkZDUG9B0gHkAUFVX3lxTFBSSmdJYWNpSndWcFJmSnBVSmplSG1ONnRlSU9GOGRQYjA4SDc4Szg5cE5YSW9QNVJqVFlDOV9OUG1OVzBYa0lzT1NaUWNmSmtUUTZaWG12VWVnWG9Gbk04RTJFSWJaTlZ2MmVsSExfSldkMzVFOW9jN3VjQ1Q4YnFvM0xZMThsQi0xWkhaX3hUd2VncC1XNU5BNjVhNGxuQ3c2TUtzSDRiekpuRVlpdWU0TGZnd0ZVS0RMSGFmVXlJY01FdW5MdnJXSTVrNUNad1VBRUlZbUotWER4R3AxUFZ4ZDhxWA?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=h9AkiWSzbTc"
+  },
+  {
+    "id": 1793926635812,
+    "fecha": "2026-11-05",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Nintendo defiende política de cero despidos y Valve retrasa estrenos en Steam",
+    "descripcion": "Nintendo justifica estabilidad de plantilla para proteger franquicias como Zelda frente a 10 mil despidos en la industria. Valve triplica tiempos de validación en Steam y frena 200 juegos.",
+    "narracion": "Te lo resumo: Nintendo blinda a sus estudios de desarrollo para garantizar franquicias históricas como Zelda frente a la ola de despidos en la industria. La compañía de Kioto justificó su postura de cero recortes de personal como una ventaja competitiva esencial para la retención del conocimiento técnico acumulado, distanciándose de los recortes de más de diez mil puestos en corporaciones occidentales. En contraparte, Valve triplicó sus tiempos de homologación técnica en Steam de dos a seis días hábiles, impactando de inmediato el lanzamiento de más de doscientos videojuegos. Además, Microsoft redujo sesenta por ciento la latencia de juego en Cloud Gaming. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintendo: ¡Ya llegó la hora de disfrutar The Legend of Zelda: Ocarina of Time, que renace exclusivamente para Nintendo Switch 2! - Novedades - Sitio Oficial de Nintendo para Argentina",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR1VIc0VpaTlRS0VwYVFWLWJyZWVIWDVXQTJKY1RaR2l0ZEpKRFhFczVTVzB0SnhWOTF5SmEtR0czWlFNTTlPTi1uZVdqWE9lYUZOTG5RV3huTC1yWENPZDI2M2FyTk9mMEtQckpnTEs2eWV3TkVaNXYxd0NsZzdIRUZMQmw3Rm5aTktIV2JnazBNR1J4YUF6aTBfYng2QTNUcWRfdURIS2lvbnltal9GWDNzVVlXc05GMlVtaGUxREs5bmhrOWFmWk1nZ2RRRlVRT3VfZ1doLV95RVpzNE5TMlF1dlBZNF9Pazd3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: GTA 6 no llegará a PS4 ni Xbox One: estas son las consolas en las que podrás jugar",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPenlmaG5qRkloOUM5bHNaTFA1cmdhNkQwNjZ6VzEtbXJWLXhlRENaejlNeG9KeXd5RGpVYU9fOGRrTjJuS1lHRlJlYThKX0VhVWZaOExqUXktQll1N2RlaG1sS3BkYW11OWR5T0ZRajE5WTJlSjRIYUZ0aU9PeU9GSThxOVdvQm5KMVBIRTRRdmQ5bG9yRDNHSkJ2czFsbHY0bDlHVDRxZHczNWowTlV2b3QyQ0hINk1ja01sM0NLVkZ4NnZwREdr0gHbAUFVX3lxTE9HdWc4M01iU2V1S08yNmFFWklma1RUTTY4TDkxR2tKV1VoWHRfRjEyNXFRUHhYRWxmSWJpT01LUFU1cEpqYm02TUk5STFPUjBfaGNjNDVWa08tTGlJVFBkUFl1TVZfbjMzSkllLXJIcE5qVnhfWkJfdVpZb1ltZTM2amRHWHVqUXJRTWZkQmVXQmtRbENJU0s5RlluMlZKdHZEN190S2RHTkxzRFB5Z1hmVHFINGh1eDNRUFZzQmwwRGZsRllLS0paMlVZbzFMRXF2TmJOQlBSbTZ1MA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: FSR 4.1, el reescalado por IA de AMD, ya está disponible en Xbox Series X|S para todos aquellos desarrolladores que quieran añadirlo a sus juegos",
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdFVXcmJqVjJfRW5tZGd2Z3FWLWVUX2czSUhnektuRmZsLVZnRVRyR0dSYkJWSnQ3N2dFXzFhdFhmblpObGxMenlPMjRYWkIxWW1DbXRINDZMNlVTQk5qeXpVMFBDMWlFZ19tdW13NFBUYVhPVmtGUUJFMlVJbG93cm9wWE9mMU9PcDZJNDkxeHhhQXlidW1oTklwb1ZidmhfUVVuWHd0alhpV0FUb2NESThkZGt5ZlhDcTRNZ0dJMW03VHU2Sm8yUFQzMV9kU3BvMkktTWdtRGFJODFrRDhMc1ZDOXVKVTNXTWxiUWxHd1N4WkFMWUxsdG5sOXZ6Ul9pcENfems4RmRfejh2MUdfTXREazhhaWZ2?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Economista: Nintendo eleva su beneficio 11% en su primer semestre, pese a reducir 12% sus ventas",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYjRmVlhhdlczeWtOVTdPLTNYTV9tTFZsSDc5VHk4ckExR2RWYW16YkdSR01odFo0NEktekRVSVBWVEg3S2l0cktwUlB2VWstdnJYdkplX1gwVk42UFNwS1hKMm15SXJ5VGM0WVpnU1VscGpNODRrdE9jbnNZcEFMUHNaMnpEeUlNaTVJMURoRG1kb1pPMkVCdWNFa24xTHl6YmlqN1ZNSDFaRUE3ZWRYUlJCQzdGS3BoMGJaTlU0YkdyX0l0LWxn0gHMAUFVX3lxTE1taGhGTDJld2l3SHRMTEVyajZ2VzF3VFQ5WGo2RHZvOXl0U0ZjRklDVTR0VEt4c1VRbnJVVHJpMWRwLUI5Ujgyb3otdmRuZVVtTk1weXFvaGFHS0pKZTNwNVo4emVXZS1rdmw1cGFicUY1S2UwV2FZelNrTVptZTI3VWtzVmYyQWpVU1g5V0JSZEh1Zkp0N3hGd1RoWi1UUVZSVmplV0FiYmYxNVlmRlNLUnZ3LXZ5SEtQWlBWYkdidGJUMWZEbVg1S3JNaw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: La tecnología AMD FSR 4 comienza a llegar a Xbox Series X/S: los desarrolladores ya pueden utilizar este reescalado",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaFlad29RN3JtLTMzRzhXQS1EamxtVmhpLXM3eC1TcUpnUUNzNU1IZHZST0hvMVNXWW12TXQ5R0NzemR0aUFDQ2hXWEFyM0t5VlFvZFNrNUJlVUtfd0QxaDN0amw1WWFNc0FFT0pURXRrZ0VNeGEyQ1VWalFzMFBiNERoeUlSd1V3aXZmaU92NV8za0Q5UWJaU0tiNXlnNFpWYVY2LTNxdGg0dHlFSFY3Z1NGT0lRTzNud2ZjX2RUdVhJeloyNEFCSHVkdHhrUThC0gHWAUFVX3lxTE5DS284aUNnX0NaaG1MNy1nQmFNSTFqdXVZcl9BbW1ldnozNEhJcERod3pYUzE3RDdmUm9PSVUtckZYUTF5Z0JPdzVZcl9yVHpmRnFhMmJhNVFqSjk1NHd3a2hLd3ZMYnRWTkxYUUVoSkx4eGREX2Z5YjVMemloZlBQN29zeGpQSTZwcG1ZNDN1dDA1TnViMzQ4RlMyMUNWa0g1dUZFaEdkSHlyRWZoVWc5UXNfOHRtWVpzREZaSGFwZmxaN0VQb25Ic1hBaF90WkZRaVpjTkE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Confirmados los siete videojuegos para descargar gratis con Amazon Prime Gaming en noviembre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeXZicFlmNXBabHdhVXc5MXhDLUF5RWFZcDByZUdmdzdFUEx6QWdlTzVyUlFka0lnd1F1aVZ4VDlia04xTTc5RjdMYm51bEpmbS1lYzI0WEFTRV85blJPUVpRUHpsdnQ1QUFpZDdXSWxkeWhreWhCN1pXTEFqdTMzVTI2X1g1enFhb0FTNkRxWWlqc2tpX2t3eHFsWWFramY0ZUp4WmItWWFhMFpyT0cyaTlxOVBDUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Yahoo: Jugar XBOX en PC, la nube y la web será mejor y más sencillo que antes: Microsoft asegura una experiencia 60% más rápida para los jugadores",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5maU5QU2cwTFFLRWhfeTRHUzNZWjA5bGo3VGpzc3gzWWFaSXQyYnp4TlZGVlJoWUFULTBoXzRFTUtSMXRmZDRhUU9GMkVrTzNJbXVtbDFhVHBORndDNFp1bGVuakUyRVQtTXk5T1FzV1RZQUJGYzVTVUp3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Reforma: Nintendo lanza The Legend of Zelda: Ocarina of Time remake",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWM4eGdEU2VUOVB6V0xBVndSZUtmMVVFVWZxZmtiSWxVUy1QSGF0bFJHb1pzR3RzWlNMWkJZQXNUX09Pb3BIZEg0d1hkV3UzbmliQzA2RGxYTlpwd2hkNkZVajV5MGJEbFV5NmIzbjNodV9RNzNsRkpneVE5OFZzZGYxV0h3Y0ZBeUEzdW45OHFyZktrUHc?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=IKH1Ua_yd6c"
+  },
+  {
+    "id": 1793926618591,
+    "fecha": "2026-11-05",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "IA aterriza en consolas: AMD FSR 4.1 llega a Xbox Series y balance fiscal de Nintendo",
+    "descripcion": "AMD libera su tecnología FSR 4.1 con aprendizaje automático para Xbox Series X y S. En paralelo, Nintendo eleva 11% sus beneficios semestrales pese a contracción en ventas de consolas.",
+    "narracion": "Te lo resumo: La inteligencia artificial aterriza en consolas de videojuegos con el despliegue de AMD FSR 4.1 en Xbox Series, integrando algoritmos de aprendizaje automático y reescalado por redes neuronales para estabilizar resoluciones en 4K. A diferencia de las iteraciones previas basadas en filtros espaciales, este motor implementa interpolación de fotogramas por inferencia en tiempo real, disminuyendo drásticamente el consumo térmico y la carga gráfica. En paralelo, en el balance financiero internacional, Nintendo reportó un repunte del once por ciento en sus beneficios netos durante su primer semestre fiscal, aun cuando sus ventas globales cayeron doce por ciento, compensando el hardware con licencias de software. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "UnoTV: ¿Ley 73 o 97? Conoce las diferencias y cómo consultar tu régimen desde el celular",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUFhuV3VZM0pyTlFJc0tZcWhlWF9RTHdLcWtVaTRKYVNHQ3RWbjRIT0NwZ0xMVndtZ0hkbnlpbmVvVG96clBRLWllTEhMY2Q5Q2NKZ05XLW5yeEJralhKQ0JOaFlzdFU1dks2NGZSc2xjZ0RjRmk4b2RCNW1CWmM1TG9PZTU3aUk4Szk1N25mWnFaRk8xOURidGpmazFKNzFWejNtcjVsWUY1d3dnV05BVg?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Aprueban fármaco genérico y barato que previene el VIH",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX0xmcTg3cVlYcGhlbEpzbzQtQTFnYUctWm5LVTlfUkVGMmVjNkZuZmlYRXNyYjQxNzJVZDlmUHREUTQ2YXRWOG1ST1QwZEgxYXJnVEpmSUwwUjlMWWpTekRuSk05cmtNQmZqdHhsNkp4UzhhejZFb1dtVUtnRGxKcldhQ3BNUWpRMEFsS3pRRkpOd1VQNFNJMVFVU2NlREg3QXY0Q3h3NmE1TXlZaTNCY2IyY3p2WE9SLVd6all3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: NVIDIA AI Day llega a México IA+",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOXzFtTk9tQWJlbEhPWEN4VUJFdDNXNE92YktNeVF1WnBIaTIzM2RtUUhweGhOUzZPNmRLVUZvc09TNnJVODlmWXRQSmdUSjVYVXBTNWpFZlFPYTd5WDRqWVNBbW83dHFKUXdWdEpYOUFqS2NPdVAtRlZxUm9tWXhNNWZRT1NtWG9MVDdBb2YwNEh2UDNPSTBj?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: Bandas organizadas roban camiones cargados de componentes para centros de datos: ya suman 100 millones de dólares",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcll5YXFFT0FOcWpxbTJzWmthZ3lSdmdQVFhhUk1MNnBhZk11dnRYOVNFVjJyR0tOcHNMMTVXT0FKUWctdW9XZnpyNVVRd3JEX0QycmlDcXJmV0JsT1hJeGg5dVdCUmFBSnBHaE9WeXRRUkdvWGFtVUludXo1UWo0SnRwall5dVZGdExwQkVKVnZwX3B6SmJRQ1V0YmRZZVc4aTRYT2hKeEZ6VWJCS0R0N2tRUkcxcmZvVmZ5SlRvLTdMQ195SUxnQ0ZUTHExQWp1TXd4bUlCbUVqenfSAeABQVVfeXFMT1hUZnc0LUZEZlRxVDlOeTRpWHp2NXZMRGRobG10cEhkOU9zOFFXa1Zrb28wT294cWRYZmNJVkQ5TWxYS3NUOFUzdlA4UnRyaFRwQjNsOGhpZjBiVzYybVl0a1Fkc3Zja3RDdFNZUWRaQW9SNE9VWmtWVS1iUzlITENVdWphZmw2Rm92TUJydGdIaXhVZEZXdDBRQ3U2YW5tMFRYVk1nVDZhSm9lNHpMV3NOSEt2ZUxZQ1M2cEVxUnpIQ19ZNzU1MTBqSkRZME9tZXZROVFoVWhiZGJMbDRFOGY?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: La IA y el siguiente salto industrial de México",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLTdkU1pPNmRRazl1VUk0ZGRXaDM1LWV6MldEUG83YUVaaHpVbFhrbV9BaGpxSEwwVEgtY3BsV0dhZGZYWkhMazRETk1pN2V3eXJVblZvQnM1U0Y5ZnZjZEc3TTVjOFBVQWFfQzY3aHMycndtRjhhS2cxLW1kU052UjJnam5tRU5RaUl2aVBhOG9mbUM2RWtSQ1FmS3RhOTZGSDhrWFhnY2g1SzREa2FkYnFGYVQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Diario: Dice Abelina que videos de Taddei...¡pueden ser IA!",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkZmWnZUcGNlanYyay1LeDAyQVpQMG1PSmtTb1Y1V09WUmpmeklsQTV0dUtFbkRKNkVHSm00R1lOcGwyeU4xOEdvVHhhdHJsSUF5VVFZTHR6M0lNVUlJakdLbUs2X2dUWGZrR255T2hIRUw1a2pja1VNVUJ1ajlLZXVNbWZqdUxqQzhJWS0yUmNnU3F1R2xZQ0hQZjYtZnPSAaQBQVVfeXFMT21mRW1IaGhKbnVYVVFMc3lBOW1xRjZPbEc1QmdjcThSZ3pac1RBandtRTJVRzdIdFdZVzJ5RS1iWFhtTUlEcHZleE9ZcUdncFJNR3duWXVNWVBsay1pNlpabndTdTVNRFBibXRUYlMwNnpOMkhvX3ZXMm1zMFZzaEJNMEpnSDlyNUxQSTBCeW0tREdBYlJXQ2RrQTB0bGlSc1JpOW8?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Musk, doble derrota: caen Tesla y SpaceX tras revés a los republicanos que financió con 474 millones de dólares",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVRXaDh5RWY0cTRyUTJLd2FVR1NLU05jaVh2VVJVSU9iNUdDdVBzRzJ3Tmd0TFJPMmNORXlxb0YxT3lBLWYwUDRWOXFpdWNYTjhJemZBdF9BT3VhbUxhbUJlTkhPWnR0SUhwR19rSkdVTXhkNW5QWmwxZ3JjM0JVYUR5N3BTbDc3LWd2em13UkttR1UxblplSFlqXzRqb09obTVJdGI1d1pKUmhzaU9od002UGtiRFlJOHZfTWJRZFNreGV4eXByenQzbno?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: EEUU tuvo una idea hace 20 años para matar a los mosquitos. China la acaba de hacer realidad con una torreta láser automática para pulverizarlos",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSkFrTzRCV3M1VXB5OW9RcmdVU3VPTnQ3aG5DMzFRWjU5aXdVLU5ZX1BYdnF5MDMzdDVTU294UWp0NVBVWGFmS0ZRUDNqMk9ESjFyTlphYkMtSDUyQ1VabC0yNDdUV0EtakFQdGZzWVhWRFYwMjRsOEpoSl9MVHJ4M092cHBvNnBscV9IcDY5VjNDT1NrUlAzWjRERko2dE1OU2wwUUdUbkJUQVFlekppMjd4dklCLW1lZTBnb1ppbTNadVUwMkdHU2xxZU9JdDJaZzU2ZHlR0gHbAUFVX3lxTE1NeUN4TzVrNlM2eWlhMlJRRHZPSWljTnVKWTZTMGJRNzNMN2JjX3dpay10YjYzMDMwbU9tWkJ1dFY1NFV6ZXYyX0V1ZkpZSGd5YklkZFYyMjZjYnN6cWVrWkpIQ2J2a3h3bl9UUkdzZGIxbWR1ZnRwZ0xRTE1fM2hOdkFRcWNsTFVBUlpQRWxUVVBCclBQNlNKZEJCZ0RZVjc0MGRuVDR5dlJ3OGlHd0R1Q25YTDNmR0VnTGdzbmdyOGpjZmw2bkE1SmZlWjBxU2tzV1NiYXQzZ2xIQQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=gORksvTKPaU"
+  },
+  {
+    "id": 1793926602283,
+    "fecha": "2026-11-05",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Sasha Sokol reactiva vía penal contra Luis de Llano por desacato judicial",
+    "descripcion": "La representación jurídica de Sasha Sokol presenta denuncia ante la FGJCDMX por incumplimiento de sentencia y medidas de reparación. Además, Pablo Lyle a 54 días de enfrentar a ICE.",
+    "narracion": "Te lo resumo: Sasha Sokol reactiva la vía penal contra Luis de Llano tras documentar presunto desacato judicial. El equipo legal de la cantante confirmó la presentación de una denuncia formal ante la Fiscalía General de Justicia de la Ciudad de México por el incumplimiento de las medidas de reparación ordenadas en la sentencia civil de 2024. El dictamen judicial exigía una disculpa pública formal y garantías económicas de no repetición; sin embargo, la representación jurídica de la artista argumenta que los plazos procesales vencieron sin cumplimiento efectivo, lo que configura una posible falta administrativa grave y desacato judicial en tribunales capitalinos. En paralelo, en el ámbito penal internacional, restan cincuenta y cuatro días para que el actor Pablo Lyle liquide su condena de privación de la libertad en Florida por homicidio involuntario antes de ser transferido a ICE para su deportación a México. Visita memexicanisimos.com",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Financiero: Sasha Sokol rechaza la disculpa de Luis de Llano: ‘No es lo que le ordenó publicar el tribunal’",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVmZDUkVkbUFzZG45WVN6S0ljS1NrOXFONktGN3dwV1FZaU5FQXBvcWVpY19HcUVjekZQVmJJQ1Fud1ZYUnpqcFhsOFJPZlNQY1ZTSDFCSlpQc3dfVFdnMzVUb0dPYmk4YVNrbk9RVnhld0pBU18tdl8ybDExWU5HajluTDhHUnBxQVBjaWMwSEJIZWctZ3k0LTdxNVpoN0JXbUx2a2J2VENISDg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: De la Corte en Indiana a la FGR: el historial de acusaciones y escándalos legales de Vadhir Derbez",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNUxtN3VnMFlEWl8tajdOVjdwSWFJRngxRThkZ0wwVzNEWFVwQ0tFem1OTjI2MVB0R1RudWNZdDJWanRqcTBuamE3VW5WYVN4eExkNDJZS211dW84dUZZeDh0NTNFekhEVnp5TlQ1YVVlQURSZjh2b2hVSzhPdk5sWGdEbDBrS1dheWx3MlJIRnhJWnJtOTQyVWlwb2hMYzZKMmVLYTFZb1BtT2Y0YjdoS2hwNW9DWVFnQWhqazZlc2swREdRVVoxZ3cxSGpqOE9QSVVOeENZRdIB8gFBVV95cUxOdkNCcXhEaFRjN2xyMlJndVBkY282VWtOLVI5YkJQaEVrZmNsMXplRklDZmYwZERLYXVhR1lUckE3a2hiUjJEbkNwUE1mb2gtTnFpV0hxXzRZMi1jczJyWGwtS1VyOVc4bVBaVnUtZUNjZUFrUVBnY0JHR2JsY28xZkdrR2E3T3hCalp4RTBjX1FzdzcteW1iUTBwd0J5aWJMdzlnRjhfZXJLb3FmeFpxNkFXbHhoWE5YZUtaUV90bDZNLWdTU05yYWx1blhqdkdrb2M4UkJHTS1UVXdZNGZEUXJoVUlYU3JzQnRKbEN5aWE0UQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: El actor y comediante Russell Brand fue declarado culpable de violación y agresión sexual",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTmhhbW0wOXd1a2tvQ29Sb3oxdFJWMmNvUnFrSEtBZlFYT0E5eVY2UGJKRHFxam10TFpVYndkcnJDakxkbVBUVUtlNS1FZ0xiaHVhQWdhbC1oT05sYlQwZG1pbGFONnVoM1hmV1oxaG5CMjNnWXV6Y19MS3lpWGhKRk9laFhjdUFsLTg3YW5wbTlLeGs1NlRiMjhoYktiTWluT3dzUFAzcXB4RVk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: Muere María Alicia Delgado, actriz de ‘Cero En Conducta’ y ‘Monteverde’",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5cVhwZXlPMmVBcVZSN3o5TVZMZ0lROUZNVXhjc0U0M1pwOUxhcDhaMm04bEJVSzRTaV9rU2s0WU5YQUpBZ2c3bWR2Y3VqSTFwWXpUdlVqbmduOUZiUXBwV2UwclYxaEhaVEVNNQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: José Eduardo Derbez revela si le interesa conocer a la nueva pareja de Paola Dalay",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS2JXclkzUEZqazd1YlUxd0hXVWVQY25ySGxTSzlyMkhucjh0UVR0Zm9ja3JSZlppY1ZPU3daUzFfVjh2VzBxXy1nWUpLRzhmRE04aXJDS2o4S1JTTktTRUJnWkdidm9tNnpqM1ZlSE5YeGRxY2tFTVlaeUxxekQtbnlENzlKN1ViWjhoSGVrWTIwUUc4dEFQNEgxVjJ1MmVVdjFNbFVLMFY3aFhwOXN4MUd1NTFRTUlVRmh2MkdzT2hua1dXY2d3SQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Las autoridades de Filipinas consideran “persona de interés” al hermano de Meghan Markle por el caso de pornografía infantil contra su padre",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPOVRCZ2VTS1ZWQmpiQ1FnOEhVZTVVN01ObjlLdGx4TFdyQkRrcjNWSGZNMGFTNTBleXRwMTdEazVqRjM4cVZzeWR6V1pfZm51blR0UGRrNUFpTE9BaW5DM09fcTBHNkxXMXBzSmd1d0J0anMzSGhuZFRQSHhBU2JYSEstZ2xmMFRFdzFvdWozanlpLXVKNmJocW1VbkpBZjFRX0FneHNCbjl0bFg5NjdDQ2owcTAtVC12ZkNWUzh1QU9fejFQdXNiU3pSVDVBNEFSYWVFWjVmc3VLR2l1YWI5MjAtVzQ3OWVWY0Jaa1JobWNnR01iOXhmZEVuTi1QQkxqWFRaNjdMd3UyY1nSAZ8CQVVfeXFMT2JMYlVCcG5pd2FDekM2eUFLSnFhd2JaVUd4bXJnV2J5Q0EtR2Y3c1IzaGY2dGkzRkdidDdET0VZOXZoXzNSSHhWQzRvcjNxWFZwRDlqVzFxc3pUeVFyRUk1eXpPN1BUc1J6TEdRSlVhNVBBMmYyclZ2TTU0MmJkeEhfUWdLck1JTS0yMmViMXU4TnRsMzQxSDVUSUhoaFdUTEVqSDlvWU1MSXF5MjNDS0NIdkwtNmUwd1NxdWlyUDdldTJsTWFadms0UGdGcXBYTXEwY2JLY2F6M01aVkV1V3VXcFE2R0dMSGFidzFEc1pweVBIcmk3OWprSEVibUZTNDZwVTItZTJWNjNDQm1uMG1GRTdTYWpxVFZwV29WeW8?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: Quién es Bobby Pulido, la estrella de la música tejana que devolvió a los demócratas un condado de Texas fronterizo con México",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZdG9WQ21DbWt5Qkc2azRyMEZRNnYxaEpJa2hBbHNvcXRkUlRIZDZJbkRTTVQ3cm9rbWtqcExtWmxaT3JJTzQ5OHVFbm1ZeVdMbTBoLXBWSXVqU0p2?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP nominados: Ver EN VIVO, POR INTERNET y GRATIS la Nominación de HOY, miércoles 4 de noviembre; tr",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPOERQSV9OUElVQzBLbElmS3MxRmp3Z3RhaU9Td1BteWk2a3A5ZEJTV0FMdnlEMTZSWXA2Vk5uUmJlT1JNWDhpUVRmaTFhckdEVi1xRVVMWlVSd0VEdXZwN3JTUDdfeHNRUFZwQ0JBUkY1M3pISmFzTUlKR3dwcTBzUXczU3FIYVNIWTQ1bVBmQTlNSHR0bTZ4VG1paWNzVXJlRnBQams1R3BDOEtidWR4M2NsVGZ3YV8wNGxlQ0VHTG1iTWhPWjJ4RU5VYmppMlVTNjM3YlE2dFNObEhhM0dGMFhzMkFzT0NVS1VLUlV2VlNpNWFFVUhFZG1RVnFJcjUwT2Izc29ycVJXSnExejJCOEc5Nm1tVWM5VG9PM2Vwc21aVWvSAbACQVVfeXFMT3djMzlkT0RtWkRmWlNRa21scnRybW83QUpJWVZ5TXlZY08weS1OUTVUYUVEQ25KZEFCNEMwdENRRGRWdzJrY09HX3NFSTJQUmpkdWdmMVU0b1NwZWpVaE4ydmRUajFBdFp6WmJKeU9tTjUyejhrMlYxb1lnTzJqeVFQdGR0UDh3MWl6cUlpZXlEcTJOazZIeHhfSVR4RjBnNzNhMXJkZi1Ib0M0V24xM3RLQldzYmVMVmN2M29idFNMNEkyRmNydnZTajEyaTA0NWFhdE04WjYxOHZYNTJKWW1RbkVha2NfUU5FcWc3clFsanFIYUJ1bDUtaHNBMXg4NXYyWWlqWHBIVm5fXy13bzlTb3JRckJvVTZ1MFc2ZG9GcFdwaEpPT2FvNjBGV0ZRVA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=yc3aGO5aco0"
+  },
+  {
     "id": 1793843274133,
     "fecha": "2026-11-04",
     "categoria": "Tecnología",
