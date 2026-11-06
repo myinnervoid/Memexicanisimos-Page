@@ -4,13 +4,73 @@ window.MEMEX_NOTAS = [
     "fecha": "2026-11-06",
     "categoria": "Tecnología",
     "edicion": "Búnker Tecnológico",
-    "titulo": "Colapso bursátil de 2.5 billones y el frenesí delictivo en centros de datos",
-    "descripcion": "Una venta masiva en Wall Street borra billones del sector tecnológico, mientras bandas criminales desvían 100 millones de dólares en componentes críticos para infraestructura de IA.",
-    "narracion": "El ecosistema tecnológico global enfrenta una semana de tensión crítica marcada por la contracción financiera y la vulnerabilidad física de sus cadenas de suministro. Según reporta [CNN en Español], una masiva venta de acciones tecnológicas eliminó 2,5 billones de dólares del mercado bursátil internacional, evidenciando la fragilidad de las valorizaciones infladas en el sector de inteligencia artificial y semiconductores. Este descalabro bursátil coincide con el análisis publicado por [El Financiero], que advierte sobre un futuro incierto para los centros de datos, cuestionando la rentabilidad a corto plazo de las gigantescas inversiones energéticas y de infraestructura que demanda el procesamiento masivo de datos.\n\nParalelamente, la infraestructura física experimenta amenazas sin precedentes. De acuerdo con una investigación de [Xataka], bandas del crimen organizado internacional han perpetrado robos sistemáticos de camiones cargados con componentes especializados para centros de datos, acumulando pérdidas superiores a los 100 millones de dólares. Este fenómeno expone fallas críticas en los protocolos de ciberseguridad logística y en la protección de activos físicos indispensables para el despliegue tecnológico global.\n\nEn el terreno regulatorio y de soberanía digital, [La Jornada] informa que las autoridades de Brasil prohibieron formalmente a Meta recopilar contenidos de medios informativos locales para el entrenamiento de sus modelos de lenguaje de inteligencia artificial, marcando un precedente normativo firme en América Latina sobre la protección de la propiedad intelectual frente a las tecnológicas estadounidenses. Asimismo, la innovación descentralizada busca alternativas ante la dependencia industrial: en Chiapas, una joven presentó un prototipo de calentador solar construido con botellas de PET, destacado por [Milenio], demostrando que la eficiencia energética de bajo costo sigue siendo una vía viable para comunidades marginadas frente a la crisis climática.\n\nPara el mercado mexicano, estos eventos configuran un panorama dual. Por un lado, la contracción financiera global y el encarecimiento de la infraestructura de centros de datos amenazan con ralentizar la adopción tecnológica avanzada y encarecer la conectividad para las PyMEs locales. Por otro lado, la vulnerabilidad en las cadenas logísticas de componentes obliga a repensar las rutas de suministro en el marco del T-MEC, exigiendo a las empresas mexicanas fortalecer sus estrategias de mitigación de riesgos físicos y ciberseguridad. La soberanía tecnológica ya no se limita al código; exige blindar las carreteras y reevaluar los contratos de infraestructura crítica en un entorno de alta volatilidad económica y asimetrías regulatorias transnacionales.",
+    "titulo": "GTA VI: 200 GB de presión sobre la infraestructura de red",
+    "descripcion": "El lanzamiento de Grand Theft Auto VI exigirá más de 200 GB por instalación, forzando a operadores a desplegar bandas de emergencia y aumentos temporales de velocidad. En paralelo, la NASA optimiza la energía de Voyager 1 para mantener su enlace de telemetría interestelar.",
+    "narracion": "La industria de las telecomunicaciones se prepara para un evento sin precedentes: la distribución digital masiva de Grand Theft Auto VI, cuyo peso base superará los 200 gigabytes por instalación. Según reportes de prensa especializada, los proveedores de banda ancha han comenzado a desplegar bandas de emergencia y a implementar aumentos temporales de velocidad sin costo para mitigar la congestión en los nodos de fibra óptica troncal durante las primeras 72 horas posteriores al lanzamiento. La medida responde a un cálculo técnico simple: la descarga simultánea de un archivo de ese tamaño por millones de usuarios saturaría los enlaces domésticos y los puntos de intercambio de tráfico, afectando no solo a los jugadores sino a la totalidad de los servicios conectados.\n\nEl fenómeno GTA VI, catalogado como el videojuego más caro de la historia tras una década de espera, evidencia la creciente tensión entre el tamaño de los contenidos digitales y la capacidad de la infraestructura de red. Los operadores mexicanos, que en su mayoría dependen de enlaces internacionales y de una red troncal con inversión desigual, enfrentan un desafío particular: si bien los aumentos temporales de velocidad buscan paliar la congestión, la saturación de los nodos de fibra óptica podría degradar la calidad del servicio en zonas metropolitanas densamente pobladas. Para las PyMEs que operan con conectividad básica, la priorización del tráfico durante el pico de descargas podría traducirse en latencias elevadas y pérdida de paquetes en transacciones críticas.\n\nEn el ámbito aeroespacial, la NASA confirmó que la sonda Voyager 1 ha superado umbrales históricos de distancia interestelar y ha optimizado sus subsistemas energéticos restantes para mantener el enlace de telemetría. La nave, que opera con una fuente de plutonio en constante decaimiento radioactivo, requiere gestionar con precisión milimétrica su presupuesto de energía para sostener las comunicaciones a más de 24 mil millones de kilómetros de la Tierra. La agencia federal resolvió recientemente una breve pausa en las comunicaciones mediante ajustes en los sistemas de ahorro energético, lo que demuestra la durabilidad operativa de sistemas críticos desplegados hace décadas.\n\nAmbos hitos tecnológicos —la presión sobre la infraestructura de transmisión de datos a gran escala y la gestión de energía en sistemas de exploración de largo plazo— subrayan los retos actuales de la soberanía digital. Mientras los operadores mexicanos negocian contratos de emergencia para ampliar capacidad, la lección de Voyager 1 es clara: la eficiencia energética y la robustez de los sistemas son tan críticas como el ancho de banda. La causa y efecto es verificable: a mayor tamaño de los contenidos, mayor inversión en red; a mayor distancia, mayor ingeniería para sostener el enlace.",
     "personaje": "El Mashukita Hacker",
     "personaje_rol": "Búnker Tecnológico",
     "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
     "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Compañía de Internet sabe que GTA VI pesará más de 200 GB, así que ofrecerá gratis velocidad extra a sus usuarios para que descarguen el juego e...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¿Cuál es el mejor emulador de Nintendo Switch 2 para cada juego? — Una guía compara los forks disponibles en PC",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: NASA anuncia que Voyager 1 está por alcanzar una distancia nunca antes lograda por una nave humana",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El fenómeno \"GTA VI\", el videojuego más caro de la historia, llega tras una década de espera",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¿Nintendo hará más remakes? Tras el éxito de Zelda: Ocarina of Time y Star Fox, la compañía habla de lo importantes que son los relanzamientos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Este podría ser el diseño del iPhone 20, ¿regreso a los orígenes?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La Voyager 1 de la NASA ahorra energía y resuelve una breve pausa en las comunicaciones",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: TLoZ: Ocarina of Time Remake ya alcanza los 60 FPS en 4K en PC con nuevos Forks - Configuración y Videos de Gameplay",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Apple podrá borrar archivos de iCloud compartidos desde iOS 27.3",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El iPhone del 20 aniversario tendrá un diseño diferencial que se está filtrando. Con Dynamic Island, por supuesto",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: MacBook Pro con pantalla PROLED XDR, análisis: así cambia la experiencia con su nueva pantalla táctil OLED",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Todas las botellas en Zelda Ocarina of Time y cómo conseguirlas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
       {
         "nombre": "Milenio: Joven chiapaneca presenta a Sheinbaum invento de calentador solar con botellas de PET",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHFKcndtTWc1VHl6SHBpMTRIT1ludVk1bF8wVXhuVVpTUUI4ajVEWXRsdVIwNjhBVEtuS3ZVQXFzZndWcUFPSHVyWnplN0V5SXFRWFFMNFU2bnV0dmhDWGRqOWdBd0tCVXFXQ3ZOZVNTSFRFSDlfcG9BckRUU05OeHdfU0VqcTI0WGh2RVNiTE84YmdNQ1HSAZYBQVVfeXFMT3hVcEUtWjR3SGJPOU1SZDlGdTV1a0R6Z1hkcVNZb2ZpVkQ3dXZKYktkTk5Da0JqWlB5cEJfaFp3bV9DYTRxSnUzQUVFd0lVdWh1bUJBRGZENExwNkdaVFlfWTBTOGlvQUtGb1JpT3czbEtrTkp0WkZZdmZGRjF2ZEVaaFZpZTR0ejdjMkplQXRwTGRmbUxB?oc=5",
@@ -60,13 +120,73 @@ window.MEMEX_NOTAS = [
     "fecha": "2026-11-06",
     "categoria": "Farándula",
     "edicion": "Farándula y Espectáculos",
-    "titulo": "Crónica Editorial de Farándula",
-    "descripcion": "",
-    "narracion": "",
+    "titulo": "Vive Latino 2027: OCESA confirma cartel y cláusulas de reembolso",
+    "descripcion": "El festival Vive Latino 2027 revela su cartel oficial con Placebo, Mötley Crüe, Turnstile, Zurdok y Latin Mafia, bajo un modelo de preventa bancaria y contratos de exclusividad. La organización detalla cláusulas de reembolso conforme a la Ley Federal de Protección al Consumidor.",
+    "narracion": "La promotora OCESA confirmó la contratación del cartel oficial para la edición 2027 del Festival Iberoamericano de Cultura Musical Vive Latino, que se realizará en el Foro Sol. El anuncio, difundido en diversos medios nacionales, integra en sus contratos de exclusividad a bandas internacionales como Placebo, Mötley Crüe y Turnstile, además de proyectos nacionales como Zurdok y Latin Mafia. Esta selección refleja una estrategia de programación que combina legados del rock alternativo con propuestas emergentes, en un contexto donde los festivales compiten por audiencias segmentadas.\n\nLa estructura financiera del evento mantiene su alianza estratégica con instituciones bancarias para la preventa de boletos, un modelo que se ha consolidado en la industria del entretenimiento en México. De acuerdo con la información oficial, los contratos establecen cláusulas de reembolso bajo la Ley Federal de Protección al Consumidor en caso de cancelación de actos estelares, lo que otorga certeza jurídica a los asistentes. Este tipo de disposiciones responde a las exigencias regulatorias y a la creciente judicialización de conflictos entre promotoras y consumidores.\n\nEl cartel, revelado en medios como [VF1], [VF2], [VF3] y [VF6], incluye también a Residente, 31 Minutos e Inspector, ampliando la oferta hacia el rock en español y propuestas infantiles. La preventa de boletos y las fechas del festival se dieron a conocer en los mismos comunicados, aunque los pormenores sobre precios y fases de venta se mantienen sujetos a las condiciones bancarias.\n\nEn paralelo, la industria del streaming registra modificaciones en sus contratos de derechos de autor para adaptaciones live-action. Tras revelarse el presupuesto de producción y los planes de rodaje para la nueva serie basada en la franquicia One Piece, operada por estudios de animación y plataformas digitales, las empresas buscan blindar financieramente sus inversiones frente a fluctuaciones en las suscripciones mensuales reportadas trimestralmente ante organismos regulatorios internacionales. Este movimiento contractual impacta directamente en los derechos de autor y en la negociación con sindicatos de actores y guionistas.\n\nLas consecuencias para la industria cultural mexicana son dobles: por un lado, el Vive Latino consolida un modelo de negocio basado en la exclusividad y la alianza bancaria, lo que puede encarecer el acceso y limitar la competencia en el mercado de festivales. Por otro, la reconfiguración de los contratos de streaming para adaptaciones live-action establece precedentes sobre la propiedad intelectual y la remuneración de los creadores. El público mexicano, mientras tanto, enfrenta un escenario donde la transparencia en las condiciones comerciales y la protección al consumidor se vuelven centrales. La crónica de farándula, desde un enfoque riguroso, debe seguir estos desarrollos contractuales y sus implicaciones legales, más allá del ruido mediático.",
     "personaje": "Dora el Axolote",
     "personaje_rol": "Crónica de Farándula",
     "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
     "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Turnstile, Placebo, Mötley Crüe y Zurdok encabezarán el Vive Latino 2027",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Vive Latino 2027 revela su cartel: Placebo, Mötley Crüe, Residente y más artistas confirmados",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: 31 Minutos, Inspector y Latin Mafia en el Vive Latino: Cartel OFICIAL, preventa de boletos y fechas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: El actor de Zoro en One Piece cambia las espadas por los músculos en un nuevo live-action. Ya tiene primer adelanto",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Hijo de María Alicia Delgado aparece en Hoy tras muerte de la actriz; Andrea Legarreta reacciona en vivo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¡Tenemos lineup del Vive Latino 2027! Checa las bandas, fechas, boletos y más",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere otra actriz de ‘Beverly Hills, 90210’: pasó sus últimos días en un hospital",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Pablo Lyle podría no salir de la cárcel tras cumplir su sentencia, ¿por qué?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Abogados de supuesta víctima de Vadhir Derbez logran que la fiscalía atienda su solicitud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Alfredo Adame reacciona a la polémica disculpa de Luis de Llano",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Inés Gómez Mont y Víctor Manuel Álvarez Puga estarían divorciados: habría una tercera persona en discordia",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Murió Kimmarie Johnson, actriz de Beverly Hills 90210 y exfinalista del concurso de belleza Miss USA, a los 50 años",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
       {
         "nombre": "Sopitas.com: ¡Tenemos lineup del Vive Latino 2027! Checa las bandas, fechas, boletos y más",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RS05GNE91QWVXZHNDa3pjdHB4M2cySi00bWhDdE0tM1VaQ3BqQnNOZVlYWkFvblI3eV9TQ255RVc3cFk0VmN3UExud0JibzBmVGYzMUc0LW5kQ1VCalRRUkJKLTJnOUJSTFJLekM4NlB6X1g2bDREV0h3?oc=5",
