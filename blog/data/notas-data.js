@@ -1,5 +1,61 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1793988001443,
+    "fecha": "2026-11-06",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Crónica Editorial de Farándula",
+    "descripcion": "",
+    "narracion": "",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Sopitas.com: ¡Tenemos lineup del Vive Latino 2027! Checa las bandas, fechas, boletos y más",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RS05GNE91QWVXZHNDa3pjdHB4M2cySi00bWhDdE0tM1VaQ3BqQnNOZVlYWkFvblI3eV9TQ255RVc3cFk0VmN3UExud0JibzBmVGYzMUc0LW5kQ1VCalRRUkJKLTJnOUJSTFJLekM4NlB6X1g2bDREV0h3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Arrestan a Thomas Markle, padre de Meghan, por fotografías suyas sexualmente explícitas con menores",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdjV4Q1BfZ1F2WF93YlB1dFpJLVR2UndrUTRhMEQ3TENfSzJ2YjdRM0JuRHNyX1FudUJvWVcxRkNQdmppRmZHZWdLQXFzYVFfTkVWOUU2YWRMMmMydEo4bjhEUzJJYkxQOUJ2SjBxazlBU2Y4ZHBadzhqUXlWV2daaUYyYXFLZkxvRTNBVjQ1UXMxSWRQRjFZU0pyZTQ5QQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Caso Vadhir Derbez: despacho de denunciante cancela conferencia y habla sobre respuesta de la FGR",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMnpuODVTRkE0a1picXE4aGNiOWtQNHVhRElHNDByeU4yWTFQVU9Ta3Q0d2Zfd2RTdEY4VUZMTGZueklvZXlwY1dWUkRaaFRIQzdMNHVSZ21lOUlxRWVkSDFzbzhLT2ppUmlmaEhfejFWbjh4U2h4R3dSSnZLOEhvYVpuWEl2dHpmMTlTaGFlZ1hmdHp3TVJXQ3pIZkEwRjZiT3pzbENhQXE5ZDI4bUNBTW5seWZnaWI1cjRZalhhUlFDSDBSSEVWdFRLNWh5WF84RXfSAewBQVVfeXFMT0liYVMzMG9INUk4aE5CcEYxTHVoek1vaWJBVGJvTzNHUWx6NWFLVlhhRzk5T3RoaU1zX29hRmpEX0steW1fMFhWUXlBNGs1dGFSUXU3TWxjc3MweFBjWE12Q2d2RjZaNHlYQXJBS2haUVRfOXkwRG1INFJsZ3l2aWJqVlR6SG1EOV9SYldYSDVfTlRLUlFNZjZ2YjVGQzc5UHVKOC00MktKZU1hZlgyWUZKTF9Vb2hleDYxcE1pRnNCcEhXLXU4MWV2bkUyRzV5eDNaUFVWakI4eWg4bkMwdFViczBmaElkTmJiMGY?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: La lucha incansable de Sasha Sokol ante la resistencia de Luis de Llano a subsanar su abuso",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLVJhMjRZRTloYnRBQnRYazBjMVFYX1NzcWJXVWhNVnl3MlhiZzVwZUhtb2VKOWhLMnpQenB1RllwdVZYbVRTRFBQdnhCWldLV2xFS2JRdDdxTl9FQThXX0RfOUZma3NZUlFlOXNPUlhhTlRmNEJhdko4X0NINlNhR0x1V0dmMHNySEt2dVI4aWtqNy1YT2RnRFBPOXo5LXZNNll5R0FHVWZTOHd3MGM0cjRRNVpST3F0clNmTXVOSFdUaWxTOWpzSlpsQnVmQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Vandal: Es oficial: el protagonista de 'One Piece' tiene nuevo live-action y su primer tráiler apunta a éxito",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQnBzVkJKUnVleVdXQ2FMRHFUUkNKSDRIWUxXc0hlR2Z3Q2RHSWZ6Nlp3Yzg5YkJ5WmMtTjZvVVhwYUxZR3JTSnJXcUlQSVN6YTdsSmFaTVVjX2RxYVdCT1FIaS1vYnJlMTFWWWM3Y2ZCR0xKOFl4VFlvVm1IMGdsamdweEdvYlIzQTd6RlZSWkFPUTNsTF9HNmZER1czblpvYmpEUEFldXplcUhnMWVoM0dPRVpRb1VSZ1NEU0hoSGxnWjVYMV9rY1JvOEdPTmR5ejlnTWdnUm9vc25T0gHiAUFVX3lxTE96QU9xaTVZZlpRT182LUJ5czJQVGQ4Z01nMlBwUE4tbU5wTmt2RTVraXp6Rk55eDBjRVZpZFIza09iNXJ2V1hhOWRwTXRMTEhRQUM3SlVZd3h0S0tTbEJ5OXlSREdLQmJlZGlsNFRkamJkX2Z3ZmpkVHMyTmN0a1lPZ18zc0lkWHgtajBpUnNXb3dYbjBCWVlWQXJJUDJrcWw2OTk1c1VVR05yV2E2dFVWaGpNalZsU0c0QXhlUWRtMW5QdlhRS1NWVFlvZFFHT1dMV0xac0U0MGc4b1VTZ3lQaEE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "DW.com: El actor británico Russell Brand, culpable de cuatro delitos sexuales",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaUc3YVhnQUZBZDBLc29hcnFEOFdOenI3RGphcl9MdnZ0bHh4MUZJODA5NHEybUJWR29ybzYzV2pLV3h6cDM2R1IyY2FudUJKRGpZZGppTXFmdFRDRkxEU09EZVlpVlp3c1RsZ0F0VnNhUXZNMi1wRmFUVXVNOTBzSUd3c3hJODRsTnJXUDZ4T1I0QmlPNWxCRURQcmRnQnlFeW12eERrNHBiVUVabGJNWTg2eExFTEs3RUFaTExRekhGbm9pSzVRbdIByAFBVV95cUxPTmlRNlZxWWRmc2NZb0QxLVl3ZnNmMXBRNDQyRTl5YWhoMHF1YUR3djBydlZ5MEpmaVRvRjJvSWhzelkwNmtNMF9pQkctRFBXZ3hUNnJLbVJpeDRBQ2hEbXljZWpGUWR0Z2dLMzF4RGZFTDF2bjJ0WHUzNUhBS1ZoSzUxLTBJSGZrN2puVGNzUzYzaDd3X1JzbzVScVdJLW1UQWttYzVqMHpETzFvTzRHZFlNY19hTVBOSDY5TTBsVUVnUm1qYXdMVA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Bobby Pulido y Selena Quintanilla: la verdad detrás de la historia de la canción “Desvelado”",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNX0w5R0NUTlFiWWVPdDJ4WGtCVDBxU2x1NVlyN2ZRbFFHRzdhZi1fbGlYWlZlaGx0emdOSUlVUVI4Z05SR2EtUlhSdXZCR19Pc19rYUNLMnY4TV9RTHZkb2lLaFIzdWVLRVlKaXhLQm92Rk9JTkRSSFNiOVYxc1RWa01YVmxZTTRpZk1Lby1XcmdoWTluVW9tY3JWNUJ2Y3l4RWNtR2JNdUh5UFg1QS1sNmRHdFFVUjhtdFd5RzNtXzJZeUFnM0ZqUXFGdUNUazdOcFZacGpxV2pmN1YzdVI3SGhTZGJYRGk3eE4tNnB3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Financiero: Sin Pujol y con Quintonil como el mejor de México: Lista de The 50 Best Restaurants",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNamliUWJ3dmR1YWM1dlgwaXoxMVREZnB6VXBSbXVzQXlaempJeXZKS0MxY2ozQXRXWjFfczBmNUhsMGZRV2pHWXR4YWlkTTZLZlFaYzNtbEJmNVg4blhKZk5MWWVmeXJxLV9haGptay1YejNwVXZIc3U5ZXFlcVlYVmJvajQ4ZThiTF9keVd0bEZHY1pjS1VZbWxrR3dDcGpEc1FndlN5UlY1SDVudXl1c0ZtY2ZWLVJhSXFGalhOUlByV3lSSWVvRDNySWhSUERS?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=EDSqE7TNR1g"
+  },
+  {
     "id": 1793926662958,
     "fecha": "2026-11-05",
     "categoria": "Noticias México",
