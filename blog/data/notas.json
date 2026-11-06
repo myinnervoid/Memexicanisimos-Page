@@ -1,5 +1,61 @@
 [
   {
+    "id": 1793991604703,
+    "fecha": "2026-11-06",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Colapso bursátil de 2.5 billones y el frenesí delictivo en centros de datos",
+    "descripcion": "Una venta masiva en Wall Street borra billones del sector tecnológico, mientras bandas criminales desvían 100 millones de dólares en componentes críticos para infraestructura de IA.",
+    "narracion": "El ecosistema tecnológico global enfrenta una semana de tensión crítica marcada por la contracción financiera y la vulnerabilidad física de sus cadenas de suministro. Según reporta [CNN en Español], una masiva venta de acciones tecnológicas eliminó 2,5 billones de dólares del mercado bursátil internacional, evidenciando la fragilidad de las valorizaciones infladas en el sector de inteligencia artificial y semiconductores. Este descalabro bursátil coincide con el análisis publicado por [El Financiero], que advierte sobre un futuro incierto para los centros de datos, cuestionando la rentabilidad a corto plazo de las gigantescas inversiones energéticas y de infraestructura que demanda el procesamiento masivo de datos.\n\nParalelamente, la infraestructura física experimenta amenazas sin precedentes. De acuerdo con una investigación de [Xataka], bandas del crimen organizado internacional han perpetrado robos sistemáticos de camiones cargados con componentes especializados para centros de datos, acumulando pérdidas superiores a los 100 millones de dólares. Este fenómeno expone fallas críticas en los protocolos de ciberseguridad logística y en la protección de activos físicos indispensables para el despliegue tecnológico global.\n\nEn el terreno regulatorio y de soberanía digital, [La Jornada] informa que las autoridades de Brasil prohibieron formalmente a Meta recopilar contenidos de medios informativos locales para el entrenamiento de sus modelos de lenguaje de inteligencia artificial, marcando un precedente normativo firme en América Latina sobre la protección de la propiedad intelectual frente a las tecnológicas estadounidenses. Asimismo, la innovación descentralizada busca alternativas ante la dependencia industrial: en Chiapas, una joven presentó un prototipo de calentador solar construido con botellas de PET, destacado por [Milenio], demostrando que la eficiencia energética de bajo costo sigue siendo una vía viable para comunidades marginadas frente a la crisis climática.\n\nPara el mercado mexicano, estos eventos configuran un panorama dual. Por un lado, la contracción financiera global y el encarecimiento de la infraestructura de centros de datos amenazan con ralentizar la adopción tecnológica avanzada y encarecer la conectividad para las PyMEs locales. Por otro lado, la vulnerabilidad en las cadenas logísticas de componentes obliga a repensar las rutas de suministro en el marco del T-MEC, exigiendo a las empresas mexicanas fortalecer sus estrategias de mitigación de riesgos físicos y ciberseguridad. La soberanía tecnológica ya no se limita al código; exige blindar las carreteras y reevaluar los contratos de infraestructura crítica en un entorno de alta volatilidad económica y asimetrías regulatorias transnacionales.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Milenio: Joven chiapaneca presenta a Sheinbaum invento de calentador solar con botellas de PET",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHFKcndtTWc1VHl6SHBpMTRIT1ludVk1bF8wVXhuVVpTUUI4ajVEWXRsdVIwNjhBVEtuS3ZVQXFzZndWcUFPSHVyWnplN0V5SXFRWFFMNFU2bnV0dmhDWGRqOWdBd0tCVXFXQ3ZOZVNTSFRFSDlfcG9BckRUU05OeHdfU0VqcTI0WGh2RVNiTE84YmdNQ1HSAZYBQVVfeXFMT3hVcEUtWjR3SGJPOU1SZDlGdTV1a0R6Z1hkcVNZb2ZpVkQ3dXZKYktkTk5Da0JqWlB5cEJfaFp3bV9DYTRxSnUzQUVFd0lVdWh1bUJBRGZENExwNkdaVFlfWTBTOGlvQUtGb1JpT3czbEtrTkp0WkZZdmZGRjF2ZEVaaFZpZTR0ejdjMkplQXRwTGRmbUxB?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿La otra perdedora de las elecciones en EU? La IA: Futuro de centros de datos luce incierto",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUS10LS1UeU9KeGRPOFFIdjNhNkpaSWpZSGJsTTEwQmtoQzNaeXB2dGZod3E1bW9uQUdmU2JOTm5jYlRjZUx6OEJHZ1JmaW13d0RMVUNMMzM2QVpodi1DQTZXTjBuWkZBR01DdzNoYy14WUR1WmtTTEk5RzNrWHdhaHY3WkQ3bkp1X2VWc0NFU2JTaWFqdVNtRTE1UVItNWRsRVZLdWl2RUswQUVsbGxncWRWNW5CMXJPUXkwbHVleWNDaEVfRmtULTAwOHMyMU80dDJXVg?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: La Beta de The Duskbloods, el exclusivo de Switch 2 de FromSoftware, ya se puede jugar en 4K/60 en PC mediante emulación",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qVXBwZVpQLUtTckFvMGJKMzVMMFZzMTJEQVhtTWZCelROZnpwaWZ6Wk5wRHVyZnpxcU5SRC03S2ZBZXZQaEhQZVctcVJodmU5WXRnZmNDQ0VpT21JVGVubmNKQ0l6STVwbkFfTTJ1U1dpOGdHaUFVbFRJWQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Brasil: prohíben a Meta recopilar contenidos de medios para IA",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbkZZc3Fyd0Vlak9aU0F3cGpPZUNra2tPOEFtb0c3RW9XQXcyMmQxSmwzamJmRmVaS1hCSzZ6dUZmTmZQb3RhelJ2eVE4dVRiMEE5ejM0S2VmYlg2SW4zWjM5d01HQWloVDlPalJyTEEyLTU3R0V2UncyZUw5c2RLaU5EMDhKUjFOR1l3THRfU0RTUUgwUHRCSEJqWHU4ZDRXaHJ6QngwT09WRFVNQV9ReEVsMA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka México: Este celular tiene un diseño que nunca antes habías visto. Llegará pronto a México: Motorola Signature 27",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV3JYdHRncjBfUGoyVGN2TmJMeHo3eTM4S3l0ZjF5VHBRYktOVXhsNUtEckFtNU82RFpsaURlZlRWWEduSGZDSHVpdV80bmhGaFphbGYzcjRneEN3bWhaLVQ4cjRpaDhubWM0bHFuZGJ4ejRXY3hvNUtnT0N5QUJEZ3o4SUd2NXBGcUtWQjhHdTRpbGF5aHZHMEhSWTlQY1JsdXZMZERXaGRDNWJKYVdNMXB1c0JnM05BYm5GSnRPYkgxb3U3YWFTejc3VUrSAdIBQVVfeXFMTmNqal9hU05jbmc0QWtvS0l1c2xDMGs0bnJ6SDZJdW53UDdJU2hXWG9od2x2czhRdnMyOGlLVXB1c3hpbmxhdGVqblV6RDdleXJyQW9ISV8xQzZrckotclpEMlF3Tl9JOGtmX1FJNUFnbkVxVjRXbjVoZ0Y4MXRtTndzRlVwb1FxQ3E0NjFJbzA1WGFncU51MFA1NlI3X0RjWVZROGVaVG9ROVhvVmhGWmNSd21UbWgxSDhWWjhxNF9EM3FYODZKZ3RZck11bjVERlBn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: Una venta masiva de acciones tecnológicas borra US$ 2,5 billones del mercado bursátil",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3dlQUpWVDhhN3NxLUctaXpfaWVoSTFtSGNnNWhPYy1Dc0xybkxNWVdQWDhmWk1xTWdXelYzbjI3Uk90a0RIUE92bG1VNnNVQVFVN3dMZ3R5TXk0ZXhUZ3BJMHVyVHMtTHRMUW1fLWF4WTVOWjloOFFsbzBLeFpCNmdQaUh4M0l0UFRnUUdTN1JmUzR6dXp0d2cxRTRTTW02Rkx0WQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: La NASA presenta el X-70 Fractal, su nuevo avión experimental",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlM1T1owaG0wVGF2Z056bFBHOGl3TlJXVkZscXc4WHdtdWh0LUNLWUpXay1hcEJWMUpQSjdOSUNUaFA3aVB1Z3RTaGEyTTNMaTVjRFN3aUtTcGxKbUdRWTJQZGIyN2k0aHdWeVdGaHpScnY3VFRYdW1VZU1qY0VWTWlqT3AzSk5CWEhNbl9nODc2Nm82VDRTZDctLVJTUEFDQUJfWlAzSzVuSDkxaXVsa0I4SjI2LURxLTRWM0ZiYzhiZXY5?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: Bandas organizadas roban camiones cargados de componentes para centros de datos: ya suman 100 millones de dólares",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcll5YXFFT0FOcWpxbTJzWmthZ3lSdmdQVFhhUk1MNnBhZk11dnRYOVNFVjJyR0tOcHNMMTVXT0FKUWctdW9XZnpyNVVRd3JEX0QycmlDcXJmV0JsT1hJeGg5dVdCUmFBSnBHaE9WeXRRUkdvWGFtVUludXo1UWo0SnRwall5dVZGdExwQkVKVnZwX3B6SmJRQ1V0YmRZZVc4aTRYT2hKeEZ6VWJCS0R0N2tRUkcxcmZvVmZ5SlRvLTdMQ195SUxnQ0ZUTHExQWp1TXd4bUlCbUVqenfSAeABQVVfeXFMT1hUZnc0LUZEZlRxVDlOeTRpWHp2NXZMRGRobG10cEhkOU9zOFFXa1Zrb28wT294cWRYZmNJVkQ5TWxYS3NUOFUzdlA4UnRyaFRwQjNsOGhpZjBiVzYybVl0a1Fkc3Zja3RDdFNZUWRaQW9SNE9VWmtWVS1iUzlITENVdWphZmw2Rm92TUJydGdIaXhVZEZXdDBRQ3U2YW5tMFRYVk1nVDZhSm9lNHpMV3NOSEt2ZUxZQ1M2cEVxUnpIQ19ZNzU1MTBqSkRZME9tZXZROVFoVWhiZGJMbDRFOGY?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=phaUUKZODD0"
+  },
+  {
     "id": 1793988001443,
     "fecha": "2026-11-06",
     "categoria": "Farándula",
