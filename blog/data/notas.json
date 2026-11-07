@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794092408977,
+    "fecha": "2026-11-07",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Switch 2 a 9,479 pesos en Bodega Aurrera y GOG unifica lanzadores en PC",
+    "descripcion": "Nintendo Switch 2 se lista en Bodega Aurrera a 9,479 pesos, un sobrecosto del 15% frente al tipo de cambio. En paralelo, GOG anuncia integración con Steam, Epic y Xbox para unificar bibliotecas en PC y Linux.",
+    "narracion": "La industria de los videojuegos amanece con dos movimientos que evidencian las tensiones entre distribución masiva y derechos del consumidor. Por un lado, Nintendo Switch 2, la consola híbrida de nueva generación, ha aparecido listada en el sitio web de Bodega Aurrera con un precio de 9,479 pesos mexicanos, según reporta Novedades de Campeche [VF3]. El dato no es menor: la consola se lanzó globalmente a 499 dólares, y con el tipo de cambio actual (aproximadamente 17.2 pesos por dólar), la conversión directa arrojaría alrededor de 8,580 pesos. El sobrecosto de 899 pesos, un 15% adicional, plantea interrogantes sobre la estrategia de distribución en México. Si bien la disponibilidad en un minorista de masas como Bodega Aurrera sugiere una apuesta por llegar a un público amplio, también deja al descubierto el margen que absorbe el consumidor final, especialmente cuando no se ha confirmado si el precio incluye impuestos o si se trata de un error de preventa. La falta de comunicación oficial de Nintendo México sobre inventario y fecha de entrega añade incertidumbre.\n\nEn paralelo, GOG anunció su integración con Steam, Epic Games Store y Xbox para unificar la gestión de bibliotecas y funciones sociales en PC, además de mejoras para Linux, según 3DJuegos [VF4]. La iniciativa busca resolver la fragmentación que obliga a los jugadores a usar múltiples lanzadores, y podría presionar a otras plataformas a adoptar estándares abiertos. Este movimiento es relevante en un contexto donde la competencia por la atención del jugador se libra en el escritorio, y donde la interoperabilidad se convierte en un valor diferencial. Para los usuarios de PC en Latinoamérica, que a menudo lidian con precios regionales y restricciones de tiendas, la unificación representa un avance hacia un ecosistema menos hostil.\n\nAmbos hechos, aunque distantes, comparten un hilo conductor: la puja por el control del acceso. Mientras Nintendo y sus socios minoristas ajustan precios para maximizar márgenes en un mercado emergente, GOG apuesta por abrir fronteras digitales. El consumidor mexicano, que enfrenta un sobrecosto del 15% en hardware, también recibe con beneplácito herramientas que simplifican su experiencia en software. La causa y efecto es verificable: un precio elevado puede frenar la adopción masiva de Switch 2 en México, mientras que la integración de GOG podría acelerar la migración hacia plataformas abiertas. En un sector donde la lealtad del jugador se disputa con servicios y no solo con exclusividades, estas decisiones marcan el rumbo de la próxima generación.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Diario AS: Análisis del remake de The Legend of Zelda: Ocarina of Time para Nintendo Switch 2, de padres a hijos - Meristation - Diario AS",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Gears of War cumple 20 años: el shooter en tercera persona que cambió la historia de Xbox para siempre - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Novedades de Campeche: Nintendo Switch 2: 9,479 pesos en Bodega Aurrera - Novedades de Campeche",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: GOG se une a Steam, Epic Games Store y XBOX para arreglar lo que molesta a los jugadores de PC, y también hay buenas noticias para Linux - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: Bloodborne y lo que complica su regreso en PS5 - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: Asha Sharma justifica las bajas ventas del Xbox Series X|S - Atomix",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CineMedios: Mass Effect le pone música al espacio entre dos destinos - CineMedios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "GQ México y Latinoamérica: Los mejores juegos de The Legend of Zelda de todos los tiempos - GQ México y Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Bitfinanzas: Las acciones de Nintendo suben tras el lanzamiento de la remasterización de Zelda Ocarina of Time - Bitfinanzas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Shawn Layden (65 años), exjefe de PlayStation, sobre PS6: \"La innovación no debería consistir en hacer una PS6 de 1.200 dólares\" - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: Assassin’s Creed tendrá dos nuevos videojuegos, y uno será en la Antigua Roma - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "iXBT.games: Dune + Starcraft + Starship Troopers: se lanza en Steam la versión completa de Silica, un híbrido de shooter y estrategia - iXBT.games",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Aurrera tiene a precio de remate el Nintendo Switch 2 que te hace falta para jugar al nuevo remake de Zelda",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa21NZ3k5Wkw3VHR4YjlGZ3ZRcU55X2pQVHhxR1pRbmpSTG4wN2xWREpPdGhpaWpjRXBiTnVPOWRpbFJlVlFNY21Rb2xnaDhJaEZEaV92LVZKb29sMlZFVFJlY1AxUENMeWxDNEx6S2NpZDNhREg2OENIbEswTXFOM3ZKeFQxUzctejV2ZXFOakxfMW1lN0JUaU5LeGVNREJsR2E5Y2plZk50SGpNbGM5clBBOEpJWGNGcmpVSXFHMFBjX0RiSlM4cHE3OWZSeG_SAdQBQVVfeXFMUEFGQ2dMejlqTElzXy1nX0tRZ0pJYUNWNUxuM0JqMjlZaVNTbFZ3TVlleUVYTVV2V3YxRGtEb2h1dmZGWkpQT0NMSmRXN1VIWGN5Y3JoWUk5d19pSXZfU29HZm41eHVIXzkzQXQ2c3FXaE5Uc01uSFFHQzJ0eThFUmZTY21tdndBXzVuSFJJY1Z5ODZWOThHejQxMlRPOFRzNjZnRHo3Wkd3WXBEek1CWXB6Z095YXY0alBXck95VktPdWVLanJUYTVnTGdDdG9fN2dGLXo?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Análisis del remake de The Legend of Zelda: Ocarina of Time para Nintendo Switch 2, de padres a hijos - Meristation",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTFUtLXJGenFwcFZmanZxT1NaMHc4M1czTm1xNEJXc2hmbGtpUXVnXzRWbXZhcmpSa2lJUmk4aXdONzBBeFZRbk9sc01fd2hFdjFoZWhGcXh1UGNSbGswYm92SWhaVVB5bFgwVTNLTDR5cjljNFRTckF2X2J6R2N5anFHTUVrZ1lyM2lvLUlMcmV1c2ZKS0RKcGhtZTJtMU1XWl93WlRuVGVXNHFLSDJqOGowZVV2RFZVdGxrYlR4Z0ZLQ1R5YUdFWndTQ25fMFZycFFTS0ZpLWtxMFdxVmZJ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Los 212 GB de ‘GTA VI’ son un problema para muchas PS5 y Xbox Series, pero con estas soluciones no tendrás que borrar otros juegos",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZjJ6V01mSmVDalhKaEVMVjU2VXp2RjU5RjBiUDJPSjl0U1NUWkdCVG5RS3FsYTVIMDlicmU5OTl3RzJOeTJvZnpVSGJvcEwyS3N4NXBKUk9leU9IdzlvRE00elNkem9ibTQ4Z1lBV1R1M3BGY0xLY0RIRDBMTThBSFE0NFRLcDVmd2NXRjA3Q1BFZWN5TS02aDFHdFdOcEhVQ1FIanNWWVNZS3NwNzlkMzhlbmJWWUx5LUdUWkZ2WEp4UThKakNqSm9VVnpqZWRpQk5iS0d6cU9ha2xHRzlXQnBiVFZvaFHSAewBQVVfeXFMUHVNZUFTOHgwSC1MZjBSQ2hlNTVFbFpocXBpWHhNZnRHTWRqUHpReUJwQWs5clY1QnIxZFJIQkR6ZzdvYzhUYUFHTi0wS1pkSEduTW9YTG5ISVpmZnFIVXZrUlZQLTVIaG13U1A4WkpMbERhcGYzRGwyY19WNmZfNUtQNE1OR1F4UUUwNjRXcUkyTFNzVWU3cW95N2FPdnNrMzE1ak9sY3BXQWpfeWtxbFdtNlloUzRhMlBSM1ByT184MTBOdkFhNUl6M191dFNETDdFR2lqQVVqQURoRjYtdVFnclRGQjVZaXN1Q3U?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: Nintendo Switch está a un paso de superar a PS2: así queda el ranking de las consolas más vendidas de la historia",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRGRNT0QyVzhPZ2RFTDA4R0ZkbDRFZkE1WGl6T0FBZ1VDWUNhTlQyQXM0cVZieXpJcS1udzRpSFRPR0gxU2hnd3lkVVRsZ2xaaTFkTzFXY1M0UWZ5RWJQOVdaQ0p3SnZWbVA4U1hKeThyT05RMHd1SXF5RjNtdF96WFFTWng3TVFVNWfSAY8BQVVfeXFMT0V5QmRpS3BBTVA2bmhSTmhIVjdSN0s4andVTTNJSGE5dU1ScmVtd2FqRjZoc1VTVGktc3hyYnZudkd3NXpsVHVuVHUwRnVQVHc3RTZtbDJveEdodEdzX2lRSUxKTEdWT05KcTZFWEtBZkZxTVA3UW1NeWFYaHJxY1JLcWtnckNpLTZoU1FvZk0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Los nuevos mandos Nintendo Switch 2 Pro Controller sorprenden por lo fácil que es reemplazar su batería",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdXpkdktBejNqQnlSSHRFbkNRd1hyNGk1UDhjVWVBU1lVNTFGX2Ntd2lQYnM5TjBfMFNaNVpLNWtkU0lvdmFhYkEtMDN2Tm10d0k2cU5pbFA5WFR4bWt5MDRTRTYxV21tRTNqeGRoQ2QydmZ3NnBqUlFpa3FTOWJQZE5QSWtfRVAxQmlBdV9MU1dfOGpsNk5jU2pMOUROUl9nWUt1YWhIMWpnM0JuRFkxRVpidmRfZjJGV25HbHc1OHFXbjhFSk8yMDVsTXFPZnFLbjl0TEJxYw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Universal: ¿Listo para el nuevo Zelda? Nintendo Switch 2 por $9,479 MXN en Bodega Aurrera",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMm9MdTYta0RmblhBUHBNSjQzbVdSVUNrYUduYXlEWUxkNXZJSDE2VUJHNjVzUDVwWVMweEJlUzZjSTVrS05hRmhiNVRHMkR6SUZZTzVXTTBfMlJmYzhndlJnaDIxWG1zc0M4OU9OOWZHQ21oRnpselA0ajV4N2JKSUx6azVncFFKMVV3R2o3Yldkc2s1LTNUVjl2TGFjLUxRRUVVa0N0eng4UEhMd1cwbXRPSEh0ejN0TFp6cFpCYmpUQUc1bXdHTk5abkVTcmpqQmg5UlJ5YloxMTVxSUk3enA3aGlERFVxck53aHMwd0ktQlV0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Yahoo: PlayStation le da la espalda a los jugadores de PC y reafirma su apuesta por los exclusivos: Ghost of Yotei, un esperado estreno de 2027 y más títulos sólo se podrán jugar en PS5",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb2RVVi1nYTRtQW1iT0dfQWVFSU9HUW9aX2k2YUN4UGJhalFla05Rd0lMaFpueFZ5dWExTWJTakZNR05fOHRrS0c3TkV5Nm5jRE1ySU95elNKSjZFZEUxakxhLTJTVEUyTC1fTndKNjBycFBHNWNZRXZVamZqQS05SVJMdkwtaEh6bTNSNXFpVXhWUHc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: PlayStation Store se adelanta al Black Friday con miles de rebajas: aquí tienes nueve juegazos en oferta para PS5 y PS4",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPazdCT3g5blVoQ0tnNFJJYVg2Y3h2ZFNMZWo1ajh0R0dVMTdsa1YzSGtjYk56NVNUZVNQb3Z5V1VWdUVXMEJ5Tms4WFJ5YngtX3dqUjNBM1hBQ3l4b2dENWdhQTRsZV9rMGE0cjVtUXRrVWw1WDZuZ1hTZEFreFRnMHJDNlVrc2VyQWNXc1Q2SGw1UV9LVXJTRmdxeVJ3YlYyZHZUckNYbnJGbVVVMU9xSVNVUHV1bjZpU3Mxc3QtM1RjS2tBbmFyNExyQXZpOGlNNlE?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=efGFUDImZcU"
+  },
+  {
     "id": 1794078007258,
     "fecha": "2026-11-07",
     "categoria": "Tecnología",
