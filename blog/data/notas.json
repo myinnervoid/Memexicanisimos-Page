@@ -1,5 +1,120 @@
 [
   {
+    "id": 1794074408403,
+    "fecha": "2026-11-07",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Muere Charles Porter a los 47 años: linfoma de Hodgkin y el vacío legal en seguros para actores",
+    "descripcion": "El actor de Dr. House y Bones falleció tras padecer linfoma de Hodgkin; su esposa confirma el deceso y expone la fragilidad contractual del gremio actoral.",
+    "narracion": "La industria del espectáculo estadounidense despidió a Charles F. Porter, actor de 47 años con más de 30 créditos televisivos, entre ellos participaciones en series de alta audiencia como Dr. House y Bones. Su esposa confirmó el deceso mediante un comunicado en el que calificó la pérdida como “el mayor privilegio de mi vida”, según recogió la prensa nacional. La causa: linfoma de Hodgkin, un tipo de cáncer que representa aproximadamente el 10% de los linfomas diagnosticados en Estados Unidos y que, de acuerdo con la Sociedad Americana del Cáncer, tiene una tasa de supervivencia a cinco años del 89%. Sin embargo, el acceso al tratamiento no depende solo de la estadística, sino de la cobertura del seguro médico del Sindicato de Actores (SAG-AFTRA).\n\nPorter no tenía un contrato de exclusividad con ningún estudio, una condición que limitó su elegibilidad a planes de salud complementarios. Esa fragilidad contractual es un patrón recurrente entre actores de reparto: la ausencia de un vínculo laboral estable con una productora reduce las aportaciones patronales al fondo sindical y deja al artista expuesto a gastos médicos no reembolsados que, en casos como el suyo, ascienden a decenas de miles de dólares. La consecuencia legal inmediata es que su familia deberá cubrir esos costos, un golpe económico que evidencia las grietas del sistema de seguridad social en la industria del entretenimiento.\n\nEl fallecimiento ocurrió horas después de que su esposa confirmara el diagnóstico en un comunicado, lo que subraya la rapidez con que el linfoma de Hodgkin puede avanzar cuando el tratamiento no está garantizado. La noticia coincide con otros frentes legales en el mundo del espectáculo: Frida Sofía desmintió a Alejandra Guzmán tras una presunta reconciliación y declaró: “Sigue protegiendo a mi agresor”, reactivando un conflicto familiar con implicaciones legales pendientes por presunta violencia doméstica. En paralelo, La emperatriz divorciada arrasa en Disney Plus con su temporada dos, cuyos nuevos episodios se estrenan el próximo 15 de noviembre, consolidando el modelo de suscripción de la plataforma.\n\nEl caso de Porter no es aislado. La estructura de contratos por proyecto, sin exclusividad, impide que muchos actores accedan a planes de salud complementarios del sindicato, lo que los deja en un limbo de cobertura. La industria cultural mexicana no es ajena a esta lógica: los actores de reparto enfrentan condiciones similares de informalidad y subcontratación. La muerte de Porter, a los 47 años, obliga a revisar los mecanismos de protección social en el gremio actoral y a exigir mayor transparencia en los convenios colectivos. Mientras tanto, su esposa lo despide con un mensaje que trasciende el duelo personal y se convierte en un llamado de atención sobre las obligaciones contractuales de las productoras y los sindicatos.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: \"Se cayó el pulmón derecho\": Ana Silvia Garza reveló que su doctor no podía creer que siguiera viva",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Frida Sofía desmiente a Alejandra Guzmán tras presunta reconciliación: “Sigue protegiendo a mi agresor”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ‘La emperatriz divorciada’ arrasa en Disney Plus: ¿cuándo se estrenan los nuevos episodios?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere Charles F. Porter, actor de \"Dr. House\" y \"Bones\"; su esposa lo despide con emotivo mensaje: \"Fue el mayor privilegio de mi vida\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Horóscopo del fin de semana: las predicciones para cada signo del sábado 7 y domingo 8 de noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Aficionado agrede a Hijo de Rey Mysterio; luchador reacciona y lo noqu",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: El final de Oak Street, en HBO Max: la actriz Anne Hathaway y sus dinosaurios buscan revancha",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere el actor Charles Porter a los 47 años tras padecer linfoma de Hodgkin",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Luis de Llano incumple proceso judicial con video difundido de disculpa pública a Sasha Sokol",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere a los 52 años Sebastián Lelio, director chileno ganador del Oscar por 'Una mujer fantástica'",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Por qué Javier Ibarreche está pidiendo perdón a los amantes del cine?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Estreno de Godzilla Minus Zero: Así ha sido la evolución de Gojira, el kaiju que acaba de cumplir 72 años",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reforma: Hay orden de aprehensión a Vadhir Derbez, pero tiene amparo",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkNTX2tYUm1LRkdHNnlXZlhaTjZvWkJYTTVWbDl3UkxkcW5acWhnOGx1em0taUZWZzNleG5rSVpIZHpnRG9WM1dkb29fdnpqQmhxS1pwSnJ6bjFvdV94c0JrNlBCSHl3cFJQYUZ6SFBwOFdTdVp4V3dqeUtyaF9rVkd2cklfTlZ4T0c0VU9hOFlLdUVLRU1B?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Imponen arresto domiciliario a Thomas Markle, padre de Meghan, por fotos en las que aparece abusando sexualmente de menores",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdjV4Q1BfZ1F2WF93YlB1dFpJLVR2UndrUTRhMEQ3TENfSzJ2YjdRM0JuRHNyX1FudUJvWVcxRkNQdmppRmZHZWdLQXFzYVFfTkVWOUU2YWRMMmMydEo4bjhEUzJJYkxQOUJ2SjBxazlBU2Y4ZHBadzhqUXlWV2daaUYyYXFLZkxvRTNBVjQ1UXMxSWRQRjFZU0pyZTQ5QQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Natalia Téllez defiende su doblaje en Wildwood: El bosque salvaje y comprende las críticas del público",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUmFsblpTWEMtQ2lDMXJBNlk3ZmwzcXFwekdsTWxacy1kWTNTcG01eXBJQ2dVLXNsUGRRYXFXMmVoTVUxbmxscFZwSEUtY0E0N3RkUUpNZklfb0RDclVlNjl6WmdWRDJlUF9ZNk5zLXp2QzFoSkRfVUoxTGNFVDlRSmpRNUlMTU1zMjFsUjQ0dEZqWHp1WV9oU0dsNmZrVmtESDlDcE53RGhocHdwNFdlUTdCcXV4RXRuampOajhDQTBhNkd6dE9oSVYzUUZYUVdZMENSdFJzN3ZRNU5BSW1ZM3JlMlk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Softonic: Jeep muestra por primera vez Latveria en Avengers: Doomsday",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQmpPN25Jc19LTWlnQ0c2Tm53bnp2YXo1eGxkVTk1Q18wVlI4OWdtazNTNzl6d1Y0TGJNdExHZktVdEVKSGVSUWJsWWZwNU5Wb1ZPVUFkZ0lybXhEaXI5aTJlajM1MWtIYXNCY2t5RU1WdHpOQ0MwQ1JFN1ltUUQ2NU1HUGN5MmxXNkZhcnJLRzRVOXlWdnNoMQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TierraGamer: Pokémon TCG: Megaevolución-Dominio Delta ya está disponible",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTFka1VZSmYybkdMT0lidDFYc0drVDlBZWJGckVUZE5ibXFxeVhBNHFoa09zclU2RUIyYXkwNjZWVzRFTDRycVQ0ZGlwb2NzbmdHM3RPTDdsUmM0SUxTUFpCM1pMLVJkMk1lZF9teUxabFp5S01lRGpKcV8tU3NVVnpwSEFxZ2F2Skk5a0I2MnI0dW8?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Elevan estrellas temperatura de los Heat Latin Music Awards",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWDBwcHQwbXJybmNsZk1GbHJLYldlMmV0Q1FOT2gzeDBmb18ycXBYV2JKdnhPNWNWUjAxQmlYOFNjQ3ZvLV9GdGliTDE4amJBUWV3M2lBZE94MmotOE9iZF9GdW1QUWVCa1E1a1RkLWtnUTBmRzNBZkgxTDJVcmR0LWFXMG9ESzdzb2k1WU10VEdYMGlOSHpqRg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "MILENIO: ¿De qué murió Sebastián Lelio, director de 'Una mujer fantástica' y ganador de un Oscar? Esto sabemos sobre su",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdVhwSDJKZjVBMVRCcjVYR2k4cDlhWWhfV1poVnpWQmZaRDQxb0Exc1JEV1oydFFNZm9hNVRhcEQtR2kyc19ZcUl4RVlyTUxrV2hQUHd4VW9fX0VsYVJhWVgwWllOcHI0aF9FY2hleHU2el9hNWdaMjBMcFRLQS12ZGo0X0J1c2pxdUVDQnBMTXHSAZABQVVfeXFMTmw4S0xEVkpBREVaS2tfc3VoTjNRUmZWWkVCNmlEZHI1TExXR2ZDX1liTE8xY1BHaE9qTXlkQmdIRnZuTHBBRnBvdTdJMDl1dlNRTEE0cjBad1AxQU9ScDh6M2hPdF8wY2F5Q0hyejktUjlGSF9LNF9LSHl6WVhYNW85Smt0YXdEUl9rVzNfNHB2?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Financiero: Sasha Sokol exige a Luis de Llano cumplir con la disculpa: ‘Una sentencia es una orden, no una sugerencia’",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS0t5YTJ1Y3JoZlNsRE12dUlkWVROdDJ2MW5scFFuUGRZSmJVcUloSkNwX2M0blhKeURxWXVvck51dzkwbkdiTGlpYXF3MUhSbnk0Sm5RdFJSMDhXOXMtRWoyLTJlVk01TXMzWUkwV3Bra2tQZ0d0czF3TTd6T0NGQTlyd1g5QS1oTTFONlQ2LXZPa0Z4TlFqLXJtblI2aUtvODdhWVBiSzYzRmVKS0RBNXNPNDI?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794013208418,
     "fecha": "2026-11-06",
     "categoria": "Noticias México",
