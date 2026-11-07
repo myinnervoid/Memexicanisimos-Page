@@ -1,5 +1,135 @@
 [
   {
+    "id": 1794013208418,
+    "fecha": "2026-11-06",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Recorte al INE, justicia selectiva y alerta por violencia: el tablero nacional",
+    "descripcion": "Diputados prevén un nuevo recorte de mil millones de pesos al INE, mientras un juez vinculado al 'Chapo canadiense' busca ser juzgado en México y el Obispo de Cuernavaca advierte sobre la normalización de la violencia. En paralelo, avanza el Plan Michoacán con más de 100 mil atenciones y se registran protestas por evaluaciones del PJF.",
+    "narracion": "La Cámara de Diputados analiza un nuevo recorte presupuestal de mil millones de pesos al Instituto Nacional Electoral (INE), según reveló la prensa nacional este martes. Esta medida, de concretarse, afectaría la operación de los órganos electorales en un contexto de creciente escrutinio ciudadano sobre el uso de recursos públicos. La autonomía constitucional del INE exige certeza financiera para garantizar procesos transparentes; cualquier ajuste debe ponderar el costo de debilitar la democracia frente al ahorro fiscal. En el ámbito judicial, un juez que recibió sobornos del denominado 'Chapo canadiense' solicitó ser juzgado en México y no en Estados Unidos, lo que reabre el debate sobre la cooperación internacional en materia de justicia y la efectividad de las instituciones mexicanas para sancionar la corrupción. La Fiscalía General de la República (FGR) mantiene abiertas investigaciones sobre estos hechos, mientras expertos señalan la necesidad de fortalecer los mecanismos de extradición y transparencia judicial.\n\nEn materia de seguridad ciudadana, el Obispo de Cuernavaca, Ramón Castro Castro, hizo un llamado a no acostumbrarse a la violencia, tras los recientes hechos delictivos en Morelos. Sus declaraciones se suman a las voces que exigen políticas públicas efectivas para reducir la impunidad. En contraste, la Secretaría de Seguridad y Protección Ciudadana (SSPC) detuvo en Alvarado, Veracruz, a la directora de Programas de Tres Valles y la remitió a la FGR, en una acción que refleja la coordinación interinstitucional para combatir la corrupción. Mientras tanto, el Plan Michoacán reportó más de 100 mil atenciones a michoacanas a un año de su implementación, a través de los Centros LIBRE, lo que representa un avance en desarrollo social y atención a víctimas, aunque persisten retos en materia de empleo y seguridad.\n\nEn el ámbito económico, el precio del aguacate en Hidalgo se mantiene estable tras la alerta fitosanitaria en Michoacán, lo que evita presiones inflacionarias en un producto básico de la canasta familiar. No obstante, la alerta por la posible 'Tormenta Negra' generó confusión; expertos aclararon que el término no es oficial y llamaron a no usarlo, mientras el Servicio Meteorológico Nacional advierte sobre lluvias intensas. Finalmente, trabajadores del Poder Judicial de la Federación (PJF) protestaron en el Centro por las evaluaciones a las que son sometidos, lo que evidencia tensiones internas en el proceso de reforma judicial. Estos cinco frentes —instituciones, justicia, seguridad, desarrollo social y economía— configuran un tablero nacional que exige análisis riguroso y soluciones estructurales, no paliativos.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Diputados prevén nuevo recorte de mil mdp al INE",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: SSPC detiene en Alvarado a directora de Programas de Tres Valles y la remite a FGR",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Superan los Centros LIBRE las 100 mil atenciones a michoacanas a un año del Plan Michoacán",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Autos de alta gama chocan y muere uno de los conductores en el Segundo Piso del Periférico - La Prensa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Existe la Tormenta Negra en México? Alertan Por Lluvias Intensas: Esto Debes Saber",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: 'No nos acostumbremos a violencia': Obispo de Cuernavaca",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tormenta negra: ¿Qué es y por qué no se debe usar el término en México?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Precio del aguacate en Hidalgo se mantiene estable tras alerta fitosanitaria en Michoacán",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Protesta por evaluaciones del PJF en el Centro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Juez que recibió sobornos del ‘Chapo canadiense’ pide ser juzgado en México y no en EU",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Detienen a dos extranjeros por ataque a hombre en Del Valle",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Recuerda Harfuch a Milton Morales tras abatimiento de capo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Balacera en Colonia Del Valle, CDMX: Atacan a Hombre y Detienen a Dos Extranjeros",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Ley de Economía Digital: 7 movimientos financieros que puedes hacer desde hoy",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Motosicarios balean a hombre en parque de la colonia Del Valle",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Trabajadores del PJF inician paro y bloqueos por evaluación de desempeño; OAJ descarta despidos",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcmhtWWE3QUItYzVJR2RRck1DejFXbnBPaS1JQVBSUkNwQUFzSHVScDMwRFhqb3htZ0dyVXNpU0F5Nk5uYnR2VWhQYkY3TndXR1o5N1RhVzNNSm0xNXI0aWZRdXpUX0Z5dllJMjhRb2twVHdueTdaaHN2N0FzT2c1UEJOZnIyS2hfVHFVS1l4SEVsMVBIU0k1NW1zTTJBOGpjVXg3RnVCOUpfLUdvRFliT2ZlQ3U2em0zNjF0NUpianB5UmhONW02NF8teVU?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Del CISEN a ‘corromper’ el INE: Así los hermanos Hernández Casilla, enlace de Taddei, recibieron millones",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSHhUWGJacDB1aVJlMmlfV3drUVBQN3B5Z1lwOEkxUHJNbTlyaHVXV1BkRXhFOFQxNndtUHJfMldnR2ZOeC1vWHc2dm1fV1hFUmIzTVBvUlJEUGRsRk95QnpiNlRNQXlZNzRwWVBTeDV3YURuNDYyZFRHY29yRE95V25UWkpLbFZqcVQydmRRVzRvOVdHa2JkeTVoeUJVMHE2cTFOZjlYcFRCWlR4QWpsZ2hkVkRhVG84dVk4bXMzbk9OUmM1Ulo5SndHMkt0X3VhR1hmWXpzWVpoSC13ZmhXX1pZYWZObFJ6?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "N+: Balacera en Colonia Del Valle, CDMX: Atacan a Hombre y Detienen a Dos Extranjeros",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcG0zTkp0eDhQeWdaSjQ0ZXpyYWpLQThiWHBlODBDa0ZOaURYOHV6SVVHSGYxUG1mWTU1UmVBNFNVTmlweGVWYk1iNzNVdUJtRmxERWEyMDI1TzhsTjBndENmd0I4VG5vX0JfRFViUm9yTjlUZHh2Q04tVGZJVTdHbUxwNktXaUQwdEswVzFueU5kMExhaFB3ckYyaVRMb2pjRjFnWnNLRk5CTFA5WkVXYzhSaXJLaXYwck1pQkpIUldXanFJTldEYnE3eHU0QUZqLXVTMTd6aXlGNWhHaFVwbG5UR09BUmc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Lenia Batres defiende su doctorado en la Universidad Tepantlato: ‘No es Oxford ni Harvard, es mexicana’",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSVNBWl9fS2EtdXhuZjRETUJFMFJidk9yMU1zcTExOFAwOEFrRUo3a3o3b0tpcm9IZ3Q1dG1mU2h4NHJQUnJJcmhOMXp1eV9YZ2xPQ2k4dGxPeWRhcUZGVGpHaFBEZ0trZmw0amJQZEhBdlgyd3dFSnVQZHY2d29xanp3dWlKSmVJRmpGYUpPVEk4MVhpbXlUTnN2WEhnSHNYamxSZkpHVmZyeldhYzExaGZlT1ZRcFY2b18yY3pzeXhBa2tqZzAyUWNmVkVTNDZaN2dCTVczZlMtd0dlVnQ1LUlUTlZOaGs?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Milenio: Rasurarán 5 mil mdp al INE, que demora denuncia contra Taddei",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbDVXUnhTUkl5RmljVGhLNTJyS3J6c1FsZ2I4RmhBc3dkRTNDMVd1OWpDbEk1X3hmbEVRWkhMcXJWMFdHQjVIZUdIRDIxQ3AyTWF1a0oxSDY3MDdIdHRheG96WFFGZVd5TzUwdXZXcklMMGw1ekgtLWhKX3hXSlBtaTlhVmppZ9IBhgFBVV95cUxPbGpOSXlUZmRBMjI4bTZZbi1teDl6MkRlS1ZtUkxjb3QwdHh5c2dQbF9jaUUxUFhFZDVSblViU0VSczVxYUFkVjJ4NVlZQ3BBNE9rSll3cHM5WE1YcnUza0JOV20tcE41eFFVNWJZMkJGcTBON0Rqc2l0X09lTktLZjIyd2d2UQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum recibe en Palacio Nacional a Xóchitl, niña genio de Chiapas",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdFVXQ0dBdlZWNnFDUnZLVXFvM3lPSURwMzVUdDBCdjk4Z3FaaGNDVkdZeElwWW5hOU1Lcko5czNQcnZOQXFQdEQ2LXdCMTQzOWkzSEpHNTdqN2FjUXdkdmxhVF92aE5pWjhqT2VFVUVOMmVObUY2MTFlbWs3bUZ1azdkN0llalNIWVpLTDRscEFyRFFrNG8tTEZ3eHJEbjF6VWkxNXJOWThCSnpmQ1pnZ0VQNDFfWXlkNGlUa0dEUzA5cWFCeTBiLVdnRFRYSHJRQjRMc3NtUjhIc216aTlHWnV4YXY1WEdXWjNyRE91X2tad1nSAYcCQVVfeXFMT01QNnl0X0hhS0N2UXVsVGMyb21tYWc3dWltLTA2bGVhVWtOSS11ZnhneTQzMGpsUkJRbS1zUmpwcWlaWXkwMWtNMjItaDh0eTRDOFlIakdjSkZ6ckhkOFVuaXZXMjZRWWFCYkh6ZWJiQTBBQ05YRi14YWN0VnZqZDZRV0lwTE94RG92bVozNE1GakJVM0NkY0ZYbk9ENXJLNmZIWFdJVUUzY3pENTVxdzdNVnZIR0l0RTkwZ1M4VXI2ZnJqVWdiUDQ4WmZHdmNmU2JCNy1qanVaV2lFYkRteGNReTFDNUI1YkJxU2UzNVJ3QnRKTG5XS1kyZDUtVVZ6Y004bFNtX0k?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Detienen a elemento de la Guardia Nacional por presunto feminicidio de Christian Ziboney en Sinaloa",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcFFVY2NIbjNEUGtWR0ZYTXpyd3FONFJmLVBEcnV4LXZqODJ1TEFwVmRwZTVyZGwyTmc0NU51cnNaaFZDd0FuSDhIXzVPRm5zS2IyV2J1SXdsSW1kQnNNYXc0b1E5WUpNWXhUdmtOTnFCS0lac1lmVElWVmdCejhRS2p6a2RBMU9wUFJhZmp4d2VJYnM2c21CeE0wWnc2M3dKWDBLck5LX084S2hxMFFjazZFQ0NKc29FVXVVQVNnNnl1R0ppbFNYbkVpYlV5c21PZXpvcThYUUM?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Ordenaron el asesinato del regidor morenista de Cuernavaca, Gabriel Rivas: Sheinbaum",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSkhEcVc2bEdFYVJCYVhHNnIxMFhJY0Z1ZDRSUlhuWnpZLVBoWmV0NmdpVUZPZGp1WEtsY0dNZzRrbkoycl80MTJjOWVUT0o0UXRNNnR3LTV1cnhkdmhkUl8xMENlRE9Dd2lDSkk2dnlyNkdCYnY0U2RMd0JhRFlfRHZzS19KWXF0ZllVUFg1aTZUTG51em5LdEl0TmlUSEFFLXlQVkUzOW5DOFpZTU9lc2lDQlRjMWZrYUZiZk4wa1JUM0V5VzVYVGg5SE9DdFZjdW5FTzdmTktPalQzdnVPSmlJbkYzNGFiU0JFaU50Zkl4NEZoWkNvRUNB?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794006007034,
     "fecha": "2026-11-06",
     "categoria": "Gaming",
