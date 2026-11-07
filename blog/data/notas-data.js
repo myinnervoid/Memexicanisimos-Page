@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794078007258,
+    "fecha": "2026-11-07",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Meteorito NWA 7533 confirma agua líquida en Marte primitivo",
+    "descripcion": "Un fragmento marciano de 4.100 millones de años hallado en el Sáhara contiene minerales hidratados que evidencian océanos estables. El hallazgo acelera la misión Mars Sample Return y la disputa geopolítica por recursos espaciales.",
+    "narracion": "La roca rosa encontrada en el desierto del Sáhara no era un meteorito ordinario. Según el análisis publicado en Science Advances por un equipo internacional liderado por la Universidad de Copenhague y el Museo de Historia Natural de Londres, se trata de NWA 7533, un fragmento de Marte de 4.100 millones de años que contiene minerales hidratados y ratios de isótopos de oxígeno que solo se forman en presencia de agua líquida estable. La conclusión es contundente: el Marte primitivo albergó océanos o lagos duraderos, no solo episodios breves de humedad. El hallazgo refuerza la hipótesis de que el planeta rojo tuvo condiciones habitables hace más de 4.000 millones de años.\n\nEl contexto técnico es relevante. Los isótopos de oxígeno actúan como huellas dactilares geoquímicas: su proporción varía según la temperatura y el entorno de formación. En NWA 7533, esa firma isotópica coincide con la de muestras marcianas alteradas por agua líquida. Los minerales hidratados, como las arcillas, solo se estabilizan en presencia de agua sostenida, no de vapor efímero. Esto convierte al meteorito en una cápsula del tiempo que respalda los modelos de un Marte húmedo y templado.\n\nEl impacto va más allá de la ciencia. La NASA y la Agencia Espacial Europea aceleran la misión Mars Sample Return, cuyo costo estimado supera los 11.000 millones de dólares y cuyo lanzamiento se prevé para 2033. China, por su parte, anunció que su misión Tianwen-3 traerá muestras marcianas en 2031, lo que intensifica la competencia por recursos espaciales. El mercado de meteoritos marcianos también se ha disparado: un fragmento de 100 gramos puede venderse hasta en 50.000 dólares. La roca del Sáhara, sin embargo, quedará en un museo danés, fuera del circuito comercial.\n\nPara México, el hallazgo subraya la necesidad de fortalecer la investigación geoquímica y la vigilancia de meteoritos. Instituciones como la UNAM y el IPN podrían desarrollar capacidades de análisis isotópico para estudiar fragmentos similares y formar parte de redes internacionales. La soberanía tecnológica no se limita a la Tierra: la carrera por los recursos espaciales exige infraestructura científica propia. Mientras tanto, la comunidad digital mexicana puede seguir estos avances con rigor, evitando el sensacionalismo. La confirmación de agua estable en Marte primitivo no es una promesa de vida, sino una ventana a la historia geológica del planeta y un recordatorio de que la exploración espacial es, cada vez más, un asunto de geopolítica y datos duros.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Los científicos determinaron que la misteriosa roca rosa encontrada en el desierto del Sahara es un fragmento de Marte de 4.100 millones de años de ...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Meteorito revela huellas de agua en el Marte primitivo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Encontraron una extraña roca rosada en el desierto del Sáhara y descubrieron que llevaba 4.100 millones de años ocultando un secreto de Marte. En s...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Sony se llena de nostalgia y lanza los audífonos retro MDR-3R del Walkman",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ASUS presenta el primer Mesh WiFi 8: así es su nuevo router",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Todas las máscaras de Zelda Ocarina of Time Remake, a quién hay que dárselas y cómo conseguir la máscara de la verdad",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: MacBook Pro con Tandem OLED y pantalla táctil: llega el 6 de noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Más allá de los anillos: el inminente plan espacial para enviar una sonda directa a explorar los océanos oc...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: The Legend of Zelda: Ocarina of Time Remake ya tiene un Port Nativo de PC con Ultrawide, Frame Generation, Opciones Gráficas y más",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: “No es un simple lavado de cara”: Alexis Escobar explica qué cambió en Zelda Ocarina of Time y por qué le da un 10 a su nuevo lanzamiento",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La NASA usará la Tierra como trampolín este sábado para enviar a Marte 2 sondas que estudiarán cómo perdió su atmósfera",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: «Todo se gastó en la flota de Gaben»: Exgerente de Square Enix criticó a Steam porque el servicio «no cumple con sus responsabilidades»",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reforma: Dirá Tesla adiós a la Cybertruck",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54U0M1bHRNbS0zNmc5UHlSZkJ4c09WeEoyMXp1eEl5bDJ2d1VQeGphZ1NISVZuQWE4Z0FjZnNENUZGMTRtaGNWMzZNc0ZqTlhEOG5xenAwRm1SZzZqcW9KR0xTNkhlZVFram1xTEZGZzlnbWow?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: “No podemos confiar en detectores de IA sin saber cómo fueron entrenados”: lingüista de la UNAM",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc1k4cWN2aEY4Q1N6ZjNuZWJZV0VRb0JGVVpFSFdiYnRtdG04akZQd0tuYmVWUmItbk41VUFqS1lCM0RtaFhac1BPOExOcUJfUThHNms5RUY4ZGxGSFk4UmcxbkViSW83UEwtWTN2azhrekhqLWZ2VFVWTU12dVM4cjRobGhQc1FWYkU1Yi1XOEVTRXJkM0tRaVl0MXBLYWpNSmVmWl9LSGdiT1pNUUpwckM0eWlHXzNvM284V1RTYWFuQ085ZUE0YVNPVlVhZUFDWTJYODFsTERJNWttTFhR?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: La NASA presenta el X-70 Fractal, su nuevo avión experimental",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlM1T1owaG0wVGF2Z056bFBHOGl3TlJXVkZscXc4WHdtdWh0LUNLWUpXay1hcEJWMUpQSjdOSUNUaFA3aVB1Z3RTaGEyTTNMaTVjRFN3aUtTcGxKbUdRWTJQZGIyN2k0aHdWeVdGaHpScnY3VFRYdW1VZU1qY0VWTWlqT3AzSk5CWEhNbl9nODc2Nm82VDRTZDctLVJTUEFDQUJfWlAzSzVuSDkxaXVsa0I4SjI2LURxLTRWM0ZiYzhiZXY5?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: ¿Cuál es el mejor emulador de Nintendo Switch 2 para cada juego? — Una guía compara los forks disponibles en PC",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DY1J6cWNKcWM3Z01FV0xCSnFGeXBuSTc0MU1TdHc3ZTZ3NmFQa216aEU1U25hcGh6OVJxWklVdGRpRnoweW9MX05kWk9LbnZSdnExeHNIY1c4QjBabDBkc0Jma3pTRy1oVEhIQlh3U2ZkV1NBelN2eWZR?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "MILENIO: ¿Perdonó a la mujer que le lanzó un celular? Mon Laferte revela cómo está tras ser golpeada en la cara durante",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNU5tUUJReGdBX0otNDZIbl9MeFp3WEZzMGVlcWJLNnNvdDA2WjA4dzlGNG9fVV9NdWhQS210RnNaNF95MDZKVmNQQ3psQmY4Ums5MG5xWnZxbEZtT2dQeVZqc2xpTXZ1VG5JT1I3Y3I5czVKLV9mM0RDbms3ZS04RW5idUxfejMyUlluYk5QRnFReEVZUElYUNIBmAFBVV95cUxPN0QzMm1NWURJLTBVb2RmWHVDbjVXY19ta3JzWmoyTGR4UkxVbTlKeXd1X2w4UnUyOC03WFo4NU52MkZmUHpSY1pZWnI0RXlCUjQtSWpXNzRZdzFIT1VVYy1EeHRpbWVBS19xTWhTeWl3cFRaZEFVUUZKUzBCQzR4ZHNXRWdaREE1R1JLeU02VVdmRW9kT3BHMg?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Economista: México puede ganar terreno con el auge de la IA y la reconfiguración comercial: Citi",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUU9rNFN1NnpxLUE3dmRiQzBybVJtUjR5VFFwWTRoUmttZUhEMko0N290UzZ2c04yOHVvbmdoc3lJVnN2SElZS1YtRjdnUDlFbGo5dENfeW1jUDNZTnAxQXVvQmktQzVuZDFfNGhIZWNsOV9ENVNnaGFLZmlDclRZcktZT0VxOFM0SXFKZnJvQkpfNEN5OGV4Vm1FVThIWGc2VmYzTmlsZ3FNOUtoVmpUelpRZ0dheFNKNEtXY2FB0gHDAUFVX3lxTE9ULXlTcERYNXFTOGFtRTRwVnNkWG8wSHdiNHU1eS1KNWhxV2J1X1Fza1dZSjJLX1ppSmE0aDIyVjkzcFNtWGNGQlZWc1RaSV9xeDV5aUs5ck1KZUlEdmpzcmVqS2ltcjVRNXpPT1hhd3F3ZkVYX0JjOXlaZ0dvaTl3OV9CX1pQUnhjUnNESm5ReXl3U0dQeDdYM3NZNkV2Q0lRejc3NHA2RDJHVUxKWXQ2YWhsRFFOdHE1UGhfZ1pOM1VGdw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Tu mango con chile va con IA de la que pica: Así usa Tajín la inteligencia artificial",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVmN4V3RBTXBhR19LRk0xU254bVNMTFIwcDVsYVk1ZUlQYURuLWgtY1hfRkMxYTdRY3JWNVNoc3hCQlFzQjVWZU1TajhodzVQN1J3c0dwaUtjY2ZCUXRMS1NNTlFERHRVVEplbklrVTRpU3AxczRocHNrdnhxd2dna2ZoUmluTUQzdkpoQmlXUmFYV09ROWduZC01YkxOeDA1UWhCNTFKemxRcnRYVFd5LUhIRjF5RHBMTFJTMmQ3bXZtTG5WMXladUxYSlZjTFBxU1Nv?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: EU aprueba posible venta de helicópteros UH-60M Black Hawk a México",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTkZoeXJIbUk5YlZfLVVmMHpLTlV4WVRKMm95LUY3bl9ib3Q0NTFSRlJNU2MyV3VkYVp3dWgzOGM5TkVTMFNOOGJjbENmenkyLVVNSWY2aFFUWE9mVW5rYm9qTE9RaVh4Wk1rVWQ1TnRtX2FtSjVJb1B0ZzdMdWxob0ZnVFZEVm1PLUxtb2Ntd0xfVHFqREZ0dEk1YUVKbDZPYnNEUWtJX3lPaXk5NFI1S2hSc0xfc2JsZUsxaXh30gHSAUFVX3lxTE5jZjRnbTBMbTFCX2stTnEteWdCaTdaWHFVQThDMEc2M2NFN2lpdzNYeVVpWWxkUThkY2NXMDZib3NFZGZscXhUNmpqakFRYXZKV3p4VVBHVEh0QTZNR1NZeWVmUzc1R0NzQ2k0aUNJUXlhMVF6VWlpSTNtZElWSWRUSlpJMW43WnlnU2VLdE12dzR6SXFXU3FFaXZGYVFwY3JyODRmQUo0b1VKZ09leEpIZjdJalFaNnBobHdVakdSVnEtQWI4VDF6T3F0Q3pCbFh4Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=TUmW6GPrGDE"
+  },
+  {
     "id": 1794074408403,
     "fecha": "2026-11-07",
     "categoria": "Farándula",
