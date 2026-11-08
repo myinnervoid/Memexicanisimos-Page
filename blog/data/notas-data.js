@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794160806065,
+    "fecha": "2026-11-08",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "La Mansión VIP: el premio real del ganador entre contratos, regalías y cláusulas de no competencia",
+    "descripcion": "El reality de HotSpanish estructura el premio en tres pagos anuales condicionados a exclusividad y cesión de derechos digitales; el monto bruto de 750 mil dólares se reduce a cerca de 420 mil tras impuestos y comisiones.",
+    "narracion": "La industria del entretenimiento mexicano suma un nuevo modelo de negocio con el reality 'La Mansión VIP', producido por HotSpanish. Lejos de la narrativa de un premio millonario inmediato, la empresa confirmó que el ganador recibirá tres pagos anuales de 250 mil dólares, es decir, un monto bruto de 750 mil dólares, condicionados a la firma de un convenio de imagen por 24 meses y a la cesión de derechos digitales. Tras impuestos federales y comisiones de representación, el líquido ronda los 420 mil dólares, según la información difundida por la propia plataforma.\n\nEl contrato incluye una cláusula de no competencia que impide al ganador participar en otros realities por dos años, so pena de una penalización de 150 mil dólares. Esta estructura replica la de otros formatos como 'La Casa de los Famosos', donde el premio también se diluye en contratos de exclusividad. La producción invirtió 2.3 millones de dólares en la temporada, recuperables vía patrocinios y suscripciones. En paralelo, el estreno del programa 24/7 generó 180 mil usuarios nuevos en la plataforma durante el primer fin de semana, según datos de la propia empresa.\n\nEl modelo de negocio se sostiene sobre derechos de transmisión y publicidad, y coloca a los participantes ante renuncias de derechos de imagen y arbitraje obligatorio. La consecuencia legal es clara: los concursantes firman documentos que limitan su capacidad de negociación futura y los obligan a resolver disputas fuera de los tribunales ordinarios. Para la industria cultural mexicana, este esquema plantea un debate sobre la transparencia en las condiciones contractuales y el verdadero valor de los premios en los realities de streaming.\n\nHotSpanish no ha emitido un comunicado adicional sobre las implicaciones fiscales para los ganadores, pero la estructura de pagos anuales sugiere una planeación para diferir la carga tributaria. Mientras tanto, el estreno de 'La Mansión VIP 2' ya tiene horario confirmado para ver el 24/7, lo que anticipa una nueva temporada de suscripciones y patrocinios. La crónica de farándula debe examinar estos contratos desde sus causas y consecuencias reales, no desde el espectáculo vacío. La información disponible permite concluir que el premio real dista del millón de dólares promocionado y se acerca a un contrato de exclusividad con regalías por derechos de transmisión.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: ¿Millonario? Esto recibirá realmente el ganador de La Mansión VIP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Destapan abusos en K-pop",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Russell Brand 'se llena de miedo' mientras cientos de reclusos gritan cánticos en su contra",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿A qué HORA ver La Mansión VIP 2? Horario para ver el ESTRENO y el 24/7 del reality de HotSpanish",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Adiós a María Alicia Delgado y Luis de Llano enfrentará nuevo proceso legal, lo más leído de la semana",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Citlalli Hernández reconoce lucha de Sasha Sokol contra Luis de Llano",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Paola Dalay ya vive con futbolista y “abandonó” a su hija con José Eduardo Derbez? Ella responde",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Murió a los 47 años el actor Charles F. Porter, de Dr. House y Bones",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Festival Cervantino llegará a Pachuca con espectáculos internacionales durante noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Paola Dalay defiende a su nuevo amor César Romo de las burlas y muestra cómo es ahora la relación con su ex José Eduardo Derbez",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Russell Brand impidió que la fiscalía mencionara a Katy Perry durante su juicio por violación",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Mariana Treviño celebra avance de latinos en Estados Unidos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Jornada: Confirman investigación a Vadhir Derbez por violación",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZX0dFem9LTExjZHJkMkVnM0FRNFp1ZVgzeDZXRWlRLVNvTkhXSFV6c3NMcjdnN3laVXJuVVRLdVVKRVVweWN0NWplWFVlWEpJUjhOUVBEMnZzUXhYQm5jbWZqeW4xbDdkZ1Vr?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Universal: Muere Charles F. Porter, actor de \"Dr. House\" y \"Bones\"; su esposa lo despide con emotivo mensaje: \"Fue el mayor privilegio de mi vida\"",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQU1dqTWdOMW15NlJxTlVrQ0hNWHFzYktvTHdlQW5XSFk5M195QW1tT01pTnNFZi04dWpfMm44QkFtTldyZzRlcjBDVnJPcW9aQnNsN2JFTHZXOWlrcDdqM3l5YUkybTBhazk2VEpzcjBJaFdrYmFReUZ4bkpNTEg2ZHRoQUFtaVdiN1NZV1drc0hucUlGdWUzM2VmLXBVWktQaVo3LU90RG85cDZFaU12dXZxQUk2MGJjR2xFdU1lVHphX09WbDlzUzhGdUhVX2xNa2p0bmdFUEd3TkJJS3ZQZjY2V0J0TVZZdDhKbFdKdTVxQW5UTE9HZURSRjViQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: La polémica foto que María Alicia Delgado dejó preparada para su funeral",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaUxLVS05Y2ZZS1JIeUJaRVdRaGl3dUdaTkZMRERtQlhpcEt0azM2NG5kWW1qWU05MzNBeU5MVmVHc2FtWlptUnlUQ0RWSk1qdXhNR2M4MkNnUjAwcFYtcVpvbmNqUk5vYVJLR1pRQURHbGhESW9lazRGaENqSHMzbDkyWjVHVmszME1sWC1nYTJOM0RGWUkzakx4MWM3NlZqZFJhblpOQzh1WkdWcEtWVy1aUnpmQdIB0AFBVV95cUxPM0c2TG44OHczRWJ0MktZT2VWMS02ak1OelFvY1NEWUZEX0tzelN6VGlMT3J1SzJJT1FLV2lyTVRncnBMbVpaTU40cWh2anV6VGlaNzRKLUVvYVJyVkhlNWJybndrSlhnNXp3M3U0RjJmR2oyT0hOamVWVWQtQTJaVUdwNjVEVnk4QVY5N2kwRW9HUzlXQzF0R05pZGIzSnZ6X2F1TEtEdi1POExPR1d1d24weGNCdDN0TmJ5ZVJrNi1SSW05aDNHSFBlSFpqM2No?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Imponen arresto domiciliario a Thomas Markle, padre de Meghan, por fotos en las que aparece abusando sexualmente de menores",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdjV4Q1BfZ1F2WF93YlB1dFpJLVR2UndrUTRhMEQ3TENfSzJ2YjdRM0JuRHNyX1FudUJvWVcxRkNQdmppRmZHZWdLQXFzYVFfTkVWOUU2YWRMMmMydEo4bjhEUzJJYkxQOUJ2SjBxazlBU2Y4ZHBadzhqUXlWV2daaUYyYXFLZkxvRTNBVjQ1UXMxSWRQRjFZU0pyZTQ5QQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "ESPN México: WWE Crown Jewel resultados: Penta se corona, Roman reina",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN1hFVjVwaEZnZ1QxZEhDVEYxUU9SZjVRSThOZ2VneW44dXcwdHpIU3lnNHN2MUI1ZUMtb24tNnd5aGtXTTR6MEtlVlIzeU5IUThrNndobThTdzJaa0xmLXFfMDY2SHdNaEM5QjVWSnRhMmlMZm1OeUdtcXM2RS0yYmNYUHFKRExHRDBYLXRpOFU1U0RGazkyVWw3TDZkZw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Artista zamorana gana el primer lugar en la categoría de gráfica en la XV Bienal Nacional Alfredo Zalce",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZGZwUVZSUGN4ckZKSmJXU05aRy04WWl2M2hxblhrdVZ0a2NuQVhjeU55alJ1UnhxNjVoSUhSLWpiV3hmd1F6WC1HVUI2MzhrMUNfSjQ4U3I0SjliZktpRVY2Z0dLbTY4T1NveTlaSDEtV2FrQ280aFVmSm50dHZHVEh3SmJQeEt1N2NnaXdnYTVNcVFLUm83VFhzUnJCQW4wYXJoeG5td2c3a0ItN04zNnpaMVpsUktYTGNfRkc0cFE1MWNNOUdwSXhsSFhVQm4xTVhfOC1GMWhYQ3dBT3JqbTIzUzladw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "SensaCine: Penélope Cruz, sobre su amistad con Salma Hayek: \"Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola\"",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05YUhkNEMtaE1yNW95eDc0NlV4NnNZNV9nbWU3bTBtMnc4SWRtWVRvX3R6OUpRZE56UVk3anVfZ2xLdW10TlVtMFd3cVozeGNzYXR3SnFUQnlJRmhnVC04djF4N0hrWlg5RTlz?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: ¿Por qué la disculpa de Luis de Llano es una forma de revictimización para Sasha Sokol?",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVjd1Q1VKejF0ZGJtdjNZbGxnc0xlQmZBYzJDNW1VS2NkaEVCSlJMYlNJT1NDTWplSWFJdEV3S19vRkNXQlBjTjJ1V0xRSXdXSFRjeWxaOHk0Zm5TRlpDblJDc1ZuQ3pMRjFGTlRHY0M5cUJuS3c2aHhlUjFyanBBZ2QxOTB4LUEwMmRfNFlpSWtGUVhTQkhJZ3lRTlhOTC0wdGRSTnNWbWlNV1BiUngxTm4xdmVpTzVfRVExUnVWUXBUZw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=W7GcfhpCj8c"
+  },
+  {
     "id": 1794099608393,
     "fecha": "2026-11-07",
     "categoria": "Noticias México",
