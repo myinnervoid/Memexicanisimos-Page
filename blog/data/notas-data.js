@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794178807987,
+    "fecha": "2026-11-08",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Xbox 25 años: Game Pass celebra y clon de GTA 6 suma 138 mil jugadores",
+    "descripcion": "Microsoft conmemora un cuarto de siglo de Xbox con promociones en Game Pass, mientras un título no oficial que simula GTA 6 alcanza 138,000 jugadores en Steam en solo cuatro días, evidenciando la expectativa por la entrega de Rockstar.",
+    "narracion": "La división de videojuegos de Microsoft celebra 25 años de Xbox con una campaña promocional en Game Pass, su servicio de suscripción que supera los 30 millones de usuarios globales. Aunque no se han revelado montos exactos, se esperan descuentos y títulos gratuitos para los suscriptores, según confirmó La Verdad Noticias [VF4] y adelantó UnoTV [VF8]. Esta estrategia busca retener y atraer jugadores frente a PlayStation Plus y otras plataformas, en un mercado donde la competencia por la atención y el gasto del consumidor se intensifica. El contexto es claro: Xbox ha transitado de una consola tradicional a un ecosistema de servicios, y Game Pass es su principal carta para justificar la inversión en hardware y software. Sin embargo, la efectividad de estas celebraciones dependerá de la calidad y variedad del contenido ofrecido, no solo de la nostalgia.\n\nParalelamente, en Steam, un título no oficial que simula ser GTA 6 ha captado 138,000 jugadores en solo cuatro días, de acuerdo con Negocios.com [VF1]. Este fenómeno refleja la enorme expectativa por la entrega de Rockstar, cuyo lanzamiento oficial sigue sin fecha confirmada. Los usuarios buscan alternativas ante la falta de información concreta, y la industria observa estos movimientos como indicadores de la demanda latente. El clon, aunque gratuito, plantea interrogantes sobre la propiedad intelectual y la calidad, pero su éxito momentáneo subraya el hambre de contenido relacionado con la saga. En México y Latinoamérica, donde GTA tiene una base de fans masiva, estos lanzamientos no oficiales suelen encontrar eco, aunque también exponen a los jugadores a productos de dudosa procedencia.\n\nEn el ámbito local, la política fiscal sobre videojuegos ha generado controversia. Un diputado que apoyó más impuestos para videojuegos en México se deslindó de la impopular iniciativa y ahora se adjudica su eliminación para ganar apoyo de los gamers, según LEVELUP [VF2]. Este episodio evidencia la sensibilidad del sector ante medidas que afectan el bolsillo de los consumidores y la importancia de la representación política en la industria del entretenimiento digital.\n\nMientras tanto, Sony enfrenta sus propios desafíos: retrasó indefinidamente el nuevo hardware de PlayStation 5, PS5 Pro y PS Portal, y se perderá el lanzamiento de GTA VI, de acuerdo con LEVELUP [VF10]. Esta decisión podría reconfigurar el panorama de las consolas de nueva generación y afectar la estrategia de Sony frente a Microsoft y Nintendo, que buscan expandirse más allá de los videojuegos hacia el entretenimiento general [VF9].\n\nEn conjunto, estos hechos delinean un sector en transformación, donde los modelos de suscripción, la expectativa por grandes lanzamientos y las decisiones corporativas marcan el ritmo. Para los jugadores mexicanos y latinoamericanos, la clave estará en cómo estas estrategias se traducen en precios accesibles, contenido de calidad y respeto a sus derechos como consumidores.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Negocios.com: El \"GTA 6\" gratis de Steam se dispara: 138.000 jugadores en cuatro días - Negocios.com",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: “Yo no lo promoví”: el diputado que apoyó más impuestos para videojuegos en México se deslinda de la impopular iniciativa y ahora se adjudica su eliminación para ganar apoyo de los gamers - LEVELUP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "스타뉴스: Kim Hee-chul, rompió con sus exnovias por culpa de los videojuegos: “Cada vez que salgo con alguien, terminamos” [My Unpretty Little Baby] - 스타뉴스",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Verdad Noticias: Xbox cumple 25 años y Game Pass prepara una celebración especial - La Verdad Noticias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "HardZone: Las mejores consolas portátiles para cloud gaming que puedes comprar en España - HardZone",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Noticias Codigo 13: Recuperan Nintendo Switch y otros artículos robados durante operativo en Parral - Noticias Codigo 13",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Gaming: Lil Baby muestra la Xbox Series X-BITE antes de lanzar FRESH -",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "UnoTV: 25 aniversario: juegos, regalos y más en el Game Pass 2026 de Xbox - UnoTV",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: PlayStation, Nintendo y XBOX quieren ser los nuevos reyes del entretenimiento: ¿los videojuegos ya no son suficientes? - LEVELUP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: Sony retrasa indefinidamente el nuevo hardware de PlayStation 5, PS5 Pro y PS Portal, y se perderá el lanzamiento de GTAVI - LEVELUP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Microsoft quiso conquistar Japón con los creadores de Final Fantasy y Dragon Ball: así nació el JRPG de culto de Xbox 360 - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Kotaku en Español: El remake de Zelda: Ocarina of Time para Nintendo Switch 2 ya tiene un truco que permite saltarse grandes partes del juego - Kotaku en Español",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: A PlayStation y Xbox no les va a gustar la opinión de nuestros lectores. Muy pocos están dispuestos a pagar más de 600 euros por una consola",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWTlNUDhKN0pnS1hheVptcTRzNWlLMHpDQ2FVb0N1elM0UWFWR0NhOVZ3bVo4dUtrMmRSWGdJcWpqRVdzdkcwTFNmSVZXNWdkZlNKU0lQVjZiWFlPN0dCZFJDQm1yd1lXTENpbDIzMjRtYkZWc3VERXRtLUVSQVZoekFGNmR2V1pyS1dOVHdmOUpvMEF1T1MtekRhdmFNUTE2ejI4YjZaUDdXQ1JTajQ3RVM2dDhJUjlHTFR1TFFfWFR3WHY0aVc0ZzFXMEtYVHkwVDRNcHhGTFBrRnFFVDZlekU0NDhyRUhNUlVwVU85RDRycEw0ZVFvMtIB_gFBVV95cUxQRXRmbzlrTFB3X3V6cVM1RDBfdUxoVVhQZ3k0TnhhRXBiTlJpOFY0Q09RYXVWRlkySlhoNHVNS0ZuRU41UWFjYi12ekxEN0pHVHQ5VUtmT0JfOGdWQWhpU3ZmRmJ1azdmdnp4TS1XeDc4UkItbmRiOVQ3UExKekwxUnd5NlIweGNXTjBRMlIzbUJaOUZXM2kxejl4OTlGeFFHa3lfcGlFdjZEeEVCSFpQUVY1dFRSR1FDYTZSM1FiM05tWDhZWGdzbWtXS3c2TEo0SEhjb3F5WjhUMmM4QkQtSlR1QU0tRDU0YjNkTTU4bEdKY2ZkTWZmcUpWVV9Ydw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Aurrera tiene a precio de remate el Nintendo Switch 2 que te hace falta para jugar al nuevo remake de Zelda",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa21NZ3k5Wkw3VHR4YjlGZ3ZRcU55X2pQVHhxR1pRbmpSTG4wN2xWREpPdGhpaWpjRXBiTnVPOWRpbFJlVlFNY21Rb2xnaDhJaEZEaV92LVZKb29sMlZFVFJlY1AxUENMeWxDNEx6S2NpZDNhREg2OENIbEswTXFOM3ZKeFQxUzctejV2ZXFOakxfMW1lN0JUaU5LeGVNREJsR2E5Y2plZk50SGpNbGM5clBBOEpJWGNGcmpVSXFHMFBjX0RiSlM4cHE3OWZSeG_SAdQBQVVfeXFMUEFGQ2dMejlqTElzXy1nX0tRZ0pJYUNWNUxuM0JqMjlZaVNTbFZ3TVlleUVYTVV2V3YxRGtEb2h1dmZGWkpQT0NMSmRXN1VIWGN5Y3JoWUk5d19pSXZfU29HZm41eHVIXzkzQXQ2c3FXaE5Uc01uSFFHQzJ0eThFUmZTY21tdndBXzVuSFJJY1Z5ODZWOThHejQxMlRPOFRzNjZnRHo3Wkd3WXBEek1CWXB6Z095YXY0alBXck95VktPdWVLanJUYTVnTGdDdG9fN2dGLXo?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: El \"Solo en PlayStation\" regresa a PS Store, aunque con un etiqueta algo distinta a la que recordabas",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOQmNmVmZuWXp6XzFtd1JDWExST0otb3Y5QXNXczB0cFl3VUhWZF90ejBIcHhub2k1NmZhNUFaZWM0SkZ3dkNWUllTUGdPWE9rUHNmd1NLYkE2UjR4VE54ZWZyUU1hdzRfRTJSOXVZcVZ1UkxIOHhMczdGSlBRYkVadjVZQzdtU0FTVkEyRThRb01OZVlZa3drRVFMa1VnWXhXdEZEN2JGelFnbGt4YVh5UGRXSzQzaV8takJXM25YaERtVGE3NEZnZjJLWGdfTXFibDhFTWpVODdLanFsYmpZTU8yOFpGaURpaTc5ZktaR3ROTW1MTGpqMWNlSTZPVUt2dExxdA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: Nintendo Switch está a un paso de superar a PS2: así queda el ranking de las consolas más vendidas de la historia",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRGRNT0QyVzhPZ2RFTDA4R0ZkbDRFZkE1WGl6T0FBZ1VDWUNhTlQyQXM0cVZieXpJcS1udzRpSFRPR0gxU2hnd3lkVVRsZ2xaaTFkTzFXY1M0UWZ5RWJQOVdaQ0p3SnZWbVA4U1hKeThyT05RMHd1SXF5RjNtdF96WFFTWng3TVFVNWfSAY8BQVVfeXFMT0V5QmRpS3BBTVA2bmhSTmhIVjdSN0s4andVTTNJSGE5dU1ScmVtd2FqRjZoc1VTVGktc3hyYnZudkd3NXpsVHVuVHUwRnVQVHc3RTZtbDJveEdodEdzX2lRSUxKTEdWT05KcTZFWEtBZkZxTVA3UW1NeWFYaHJxY1JLcWtnckNpLTZoU1FvZk0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "UnoTV: 25 aniversario: juegos, regalos y más en el Game Pass 2026 de Xbox",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMElZZ0FGZkpNRFhRRHRjYVIwclRHZnFMSUo3M2lxYUoxLUJaWXdHaE5GaTVHcFRxT2xfZkM0eXJwRXkxeDdTRkxVVWVldld4cDBvYmxDVEFCNEZmb2JhWmRJcWFmZTMtWk8xZ0VFRHNXcm4zT2xGY0QyUzhLNTRVWlgxRVVOd1dKNHYzakViSnpkMHJpRTlTX0hCNHVtb2FZelV1akxHUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: PlayStation, Nintendo y XBOX quieren ser los nuevos reyes del entretenimiento: ¿los videojuegos ya no son suficientes?",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQb19haDZxTXFpYkhob1MtYXJvTGIzSlY3eUs3dWxVMzdHX2J3dEtGX2doX3R1RVYwYThvU00tT1p0Z1dvZmdCSmM1X2Nobnl3M2lSQ2d2WGNwa1VGMVlpNGVzZmpmamxBX3BWdlN1b1dIb3JkS3JNWmg1ek9GZWFOVXhXeUtrWDdlc1ZCVWo2VkhaSEtGYWdremNpWFhFU01HUGQxRTQ0dF8xenA4LWtlVkxmUzl6SGprR1ZIcC13NkdXRXRleENnc2dfS1AwR3FzRXN1NnpRWWtuM3BtcDBMT2I2WQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "La Verdad Noticias: Xbox: así puedes compartir tus juegos digitales sin pagar dos veces",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYXRtWGdRRUhLOVJPcUZXWUJtZmdHeGh1c2pvamlFR2gycGgwaV9VNE1sRmpjaUFnc2d4Q2dxZWFoaFFNWmNWbVM2SjlldldwQlg4T0hOMTZsNVJBSkx1MmUzNFpWbzNYcFBLeGtBSEpnR3otdDJoTzh6WXNHMC1pMjN6Rm9KdXBJV1QxS0lIejhvUdIBmgFBVV95cUxQSVRlZXdoci1UTTBPR0YzU082akt3OG5BMUlTTS1fUVBVRW95RzdmR3M4ZDZwLTQ5dzBkYWxldDg2elpweERMd1MzVVBVSmgxcVU3VDJTVDdwVEhoRlpFTmY0M20yR2hpLTViX2gtZTRfQ21pQ0VuQlRlMlVCcHRtS0lwenlELVpYakpJUUdVQkN1M3dhVU5lMzFR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Negocios.com: El \"GTA 6\" gratis de Steam se dispara: 138.000 jugadores en cuatro días",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNazc4TXJPNU5QdUtHVFJmQWt2Zm5OcWxjUzZ3eFNPMEpXdmtYQjRjLUtjTS1XM1NDc2llUFJaS1Y3Vy1tTG5tLWVrNjlUSzJxdHZRczdRa2ZkYnhLdFRwWjU0VGZ2UkZCdVNMMEViSUg1WjhmS1JMWXdnMXNVeFpvdGIzQV9fa3ZzMG9UZU85c2lEdmM0SDdTLTFwajhHYW5OS1JEYm5TOXpIQTI2bFY5cmdYbDV4WEJT0gG-AUFVX3lxTE9wdXRKT2l5aGwzS0lXdWV2eGpQY1NTdl82ZXNjSmg2VFpwSFU3bHVPZVB3Z2o4ekJ2X2tOajFjcWJSd093alduWHJRdUg3NDVwc2pDWWhiN1R4dTRDMEpKdlZIMHZhcGFaamQxdEhoQTBON2luZWMxQnE4SWg2Z2hydTh3SW90R1hUT1NHVFdHeXJ0OGp6QV9kQ3d5Wm03cXBsNmJqUW9adGwyNmdIdDd4RWZmZVpEU3lkSXJucEE?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=MgIoH0QRHAQ"
+  },
+  {
     "id": 1794164406048,
     "fecha": "2026-11-08",
     "categoria": "Tecnología",
