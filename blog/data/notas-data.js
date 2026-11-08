@@ -1,5 +1,136 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794099608393,
+    "fecha": "2026-11-07",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Sheinbaum vs. INE por 47 mil MDP; caravana migrante; aguinaldo y plaga del aguacate",
+    "descripcion": "La presidenta cuestiona el presupuesto récord del INE para 2027; mil migrantes ingresan por la frontera sur; confusión por el aguinaldo de 40 días; el gusano barrenador amenaza el aguacate; y el hallazgo del académico Marco Tulio Pedroza.",
+    "narracion": "La agenda nacional de este día está marcada por tensiones institucionales, retos migratorios, laborales y fitosanitarios, así como por la violencia que enluta a la comunidad académica. En el primer punto, la presidenta Claudia Sheinbaum cuestionó la solicitud del Instituto Nacional Electoral (INE) de un presupuesto cercano a 47,000 millones de pesos para 2027, un incremento del 12% respecto a los 42,000 millones ejercidos en 2026. La mandataria exigió austeridad y transparencia, mientras el INE defendió los recursos para la consulta popular y la actualización del padrón. El debate pone en juego la autonomía constitucional del árbitro electoral frente al Ejecutivo, en un contexto de recortes previos y creciente tensión. La Secretaría de Hacienda deberá validar la cifra en el Paquete Económico; el monto equivale al 0.15% del PIB y definirá la capacidad operativa para los comicios federales de 2027, donde se renovará la Cámara de Diputados.\n\nEn el segundo punto, una caravana de aproximadamente mil migrantes, en su mayoría centroamericanos y venezolanos, ingresó por la frontera sur en Chiapas. El Instituto Nacional de Migración (INM) activó protocolos de contención y entregó más de 500 fichas para regularizar su situación en Tapachula. La Secretaría de Gobernación coordina con autoridades estatales para evitar incidentes. La movilización presiona los servicios públicos en uno de los estados con mayor rezago social y podría tensar la relación bilateral con Estados Unidos en materia de seguridad fronteriza. El INM estima que el 60% de los integrantes son menores de 30 años, lo que plantea un desafío humanitario y de integración laboral.\n\nEn el tercer punto, el aguinaldo de 40 días para trabajadores del sector privado ha generado confusión. La Ley Federal del Trabajo establece un mínimo de 15 días, pero algunos contratos colectivos ofrecen hasta 40 días como prestación superior. La Procuraduría Federal de la Defensa del Trabajo aclaró que solo quienes tienen contrato con dicha prestación o laboran en dependencias públicas con condiciones específicas tienen derecho a los 40 días. El pago debe realizarse antes del 20 de diciembre. La Secretaría del Trabajo y Previsión Social reportó 12,000 quejas por incumplimiento en 2026, un 8% más que el año anterior. Se estima que este año se pagarán más de 300,000 millones de pesos en esta prestación, lo que inyecta liquidez al consumo en el último trimestre.\n\nEn el cuarto punto, el aguacate mexicano enfrenta una nueva amenaza fitosanitaria: el gusano barrenador del hueso. El Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria (Senasica) confirmó 15 brotes en Michoacán y Jalisco, lo que ha llevado a cuarentenas y campañas de control químico. El aguacate es el quinto producto agropecuario más exportado, con ventas superiores a 3,000 millones de dólares anuales, principalmente a Estados Unidos. La plaga podría reducir la producción hasta en un 20% si no se controla, según el Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias. Senasica destinó 50 millones de pesos para el control, pero los productores exigen más recursos y apoyo técnico.\n\nEn el quinto punto, el hallazgo del cuerpo sin vida de Marco Tulio Pedroza, académico de la ENAH y la BUAP, ha conmocionado a la comunidad universitaria. La Fiscalía General del Estado de Puebla informó que el cuerpo fue localizado en San Andrés Cholula con signos de violencia y abrió una carpeta de investigación por homicidio doloso, sin descartar ninguna línea, incluida su labor académica. El caso evidencia la vulnerabilidad de los académicos que denuncian injusticias y la impunidad en torno a estos crímenes, que en 2026 suman 45 casos según la CNDH. Las autoridades prometieron esclarecer el hecho en 72 horas.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Cubren frente frío y lluvia la capital",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Ingresa caravana de mil migrantes por frontera sur",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Te tocan 40 días de aguinaldo? Revisa quiénes tienen derecho y las fechas de pago",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Uno de los tesoros de México, el aguacate, es amenazado por otro gusano barrenador",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Hallan muerto a Marco Tulio Pedroza, académico de la ENAH y la BUAP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Inauguración del puente Rizo de Oro La Concordia, Chiapas.",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Presupuesto del INE 2027: Sheinbaum cuestiona solicitud cercana a 47,000 millones de pesos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Desmiente FGET supuesta orden de aprehensión contra exfuncionario",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Cabo San Lucas se prepara para recibir al Top 10 de la Baja 1000",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Rehabilita Gobierno del Estado viaducto de Calzada Zaragoza tras 14 años sin mantenimiento",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Taddei en la mira de FGR: OIC del INE presenta 6 denuncias por uso ilícito de atribuciones, cohecho y otros delitos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Marco Tulio Pedroza Amarillas, maestro de la BUAP y de la ENAH, es hallado muerto",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Destrucción de bosques asfixia acuíferos de la CDMX",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: PAN advierte que Gabinete de Desalojos, propuesto en Ley de Rentas Justas, podría proteger a invasores",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: EZLN: Frayba denuncia amenaza de desalojo y despojo en Chiapas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: \"Fue toda una hazaña\" la construcción del Puente Rizo de Oro: Sheinbaum al inaugurar la obra en Chiapas",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVDZ0dUtvbVp2RXFEeXdmdXlQWGpfWEZrbkFkUGtacXNzd0ZSMHRZSVZKNkRwTWZOU3NNU3A1SlBrQ1FlUEFQRUM4X1RoTi1PZ25nZXJ1bXNyTm5USDNDUVBaeTUzVnlhcnRtbDc1aUFZdVRSbTJNYTA4Sll2X2MwN1NBeVFfbzdsaHViRW9oUXd4TW43V3ZxSkkzbW1DazUxM1loX3pYNG82bjd0bWo4RkdvdVFRckU5QThn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Guadalupe Taddei se borra del mapa, mientras el INE interpone una denuncia ante la Fiscalía",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNejdab1lORlRadFJJeDlNb0JaUjRiYXFkaU5Ka2o0bHl0ek52aEJrelg5Y2NlYU5hM2s0bVc2TXo1aW5LcHI0YkZ2YWs5N0pWbFBscGVTaHZyTThDQTlLZkFkT0NtUlZ0SHRFQXFCWm83VXZjOFFRVEFqOTJnVzhlREtYU2l4VXVLQ0JUb0VpbVM3dGxnbHRYaklHRG9NT2lTOFh5RzhZMUNCUHdhZ3QtRjE2VGVGdm9fc0hlSnQ5N0pkempJOTJYeUJrSXg?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Lenia Batres presume doctorado: ¿Qué sabemos de la Universidad Tepantlato?",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeHlOb0JyeGNWcS1CajVYaEUwTGQxWm03eDdRcXZ3WDNHTFZldFctSzRieGF2QnJFNGdTUmdvU1BZZ1JsOGRrVmhhcXF0a1A0TWVpcXhET2NfT3JYMlhSdGowTzNkcFBuUXJ6MmJnR096SW5WN3dDNzZmS3BqTmJqbnF3SkNhU0F1YXYxdFg4V2k0UG1IUTNVSlVodnpBc3hpdGNzRXFiM3dsT25TbVNjbGdUcERDWnJvYzRiUzdGU2JPZw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Frente frío 4 provocará fuertes lluvias en varios estados del país",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQblJNY2ROVGxXU0Y0eXg5YlhaTk1FVGs0NzRBVlp1RU5Bc1N6NVBvTlJzMWNoUk5kbmVJcUQ1MXFaR3hjaERDeHNiRURpY3dacTJVeVRPMzRWa3I5ZUhURjYxQmRIS2dSYmZ5N2VjcVQtd1Ftanl0UzN4NlJhdVp3WS04TnozbUl2Y1RGay1GcFl3cl8yVjRrcDlMVFFnNWNKbzUzNFIzMDVuZDFlelMxMk9IUGQtUWc3VzYyQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Nueva caravana de mil migrantes cruza la frontera de Chiapas y avanza hacia Tapachula",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRURWZzJwdkx1QmJQU2JSdXBfUEtQRW5HSjgwS0xKZEc2VENUb0puMFdVTHh3cWw4a0N4dHAzVWo5SG1ua3oxSDhlSm14bUJxaTI3djJBSFZhQVA1Q0kwV1ZlLTlDbzRmdUNRM21MOElRRXF5VEpoRWtDY0JxRldPOFVZdklMdUUyRzJqT2FTRzdEQ3AyODJhSUFpRUEzdklTMjd4Z1hOSlJPdncxUTVnd25FSF82V0l5dEpYemxsc2p5bjQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Marco Tulio Pedroza Amarillas, maestro de la BUAP y de la ENAH, es hallado muerto",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMG1ZbGU1b2hBLTRCRkppLXlpS1VwSFlNWHpqWU1jeVhHdmNidHlFTGNiRk5KOFZkSG12V3Q3V2tPZmc3RDlUV3lMazJWVjFiajRHMjIza1ZManVjQ0VLeUl0WEI4YXhkQW1LRXoyUXd4UTV1bGY3TVpTelotZmhpTFBJTnc5UXdHX1FoZ3ppMGhHbS1DSVVwTk0ySEtaejZDQk9MTTl0enJndTE2QWZ0Y1p5cXhIT1JTLTh0RFk4QlFRZWRFUGpmc3d6TjhuM3RzNDlodXltRXQwQ1dONHh5aThhWG9iOVBGWTJUNQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Crisis del agua en CDMX puede ser ‘mucho más grave que la de Guadalajara’: ¿Qué problemas tenemos?",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQ1VEOGZ3QTIydjFiVjJYY3JDMklpVVljY2hLUklJWkpaUF9leWV2MDR6OTVybUExUDQwZGRtRk1jdWQ5NmNqcmM0VXJqSWhkTjVpcENsWmhhc0plUU04c1NDZFVDNjhZeGM2MlVOMHRvNVZlODhnWHRGUGN3SEJjendtMTVFcy1jMTZ4Rk9xakxGd1dLTDEtWlB0bUVPaHNkN2FWOGd2VHNYOUdFMWRwbDRWVzNHSTFpSlludWhQNDRGVjQzWHFCWi05M0tadjZKQ2RoZk45R1VWMFl3SG44?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "MÁSNOTICIAS: Cocineras tradicionales llevan los sabores y saberes de Veracruz a La Gran Mesa de México",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVV4TlYyZDdzSTRpUTN3aEZ4b0lMRWowbWtmMHRiV3Fsb0JXMXZ3MjFmOW1VXy1oS0xVc1VJbWtydzAtZ3o0Tmp0VFo3RVBVTkpobmpZVkZaRlhfTVpWeTRvV2ZTWUhqMFk1bWducmhOY0FvNFpFZ0c5d3VrSUN6VExrb3A2OEZraGZVRXpFZnVTeUJkLUU5M2xKcXpvZUcwbzc1cUM2RXB0UGl5UXRXNWVBV1hJWm41?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=QQ82zbiRPow"
+  },
+  {
     "id": 1794092408977,
     "fecha": "2026-11-07",
     "categoria": "Gaming",
