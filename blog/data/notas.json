@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794164406048,
+    "fecha": "2026-11-08",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "WhatsApp exige Android 5.0 e iOS 12: el costo técnico y económico de la migración forzada",
+    "descripcion": "Meta actualiza los requisitos mínimos de WhatsApp, dejando fuera dispositivos con Android inferior a 5.0 o iOS menor a 12. La medida afecta a millones en México y evidencia la obsolescencia programada y riesgos de seguridad digital.",
+    "narracion": "La decisión de Meta de elevar los requisitos mínimos de WhatsApp a Android 5.0 Lollipop e iOS 12 no es una simple actualización: es un golpe directo a la base instalada de dispositivos de gama baja y media en México. Según el Instituto Federal de Telecomunicaciones (IFT), el país supera los 100 millones de líneas móviles, y se estima que al menos 15 por ciento de los equipos en uso operan con versiones anteriores de Android. Esto significa que millones de usuarios quedarán incomunicados si no migran a un modelo compatible, como los que ofrecen Xiaomi, Samsung u otras marcas. El costo promedio de un nuevo equipo asciende a 3 mil 500 pesos, una carga para familias de bajos ingresos y para zonas rurales donde la renovación de hardware es más lenta. La justificación de Meta es garantizar seguridad y acceso a nuevas funciones, pero el trasfondo es la obsolescencia programada: los sistemas operativos antiguos dejan de recibir parches de seguridad, exponiendo a los usuarios a vulnerabilidades críticas. WhatsApp, al ser el canal principal de comunicación en México, se convierte en un vector de riesgo si se usa en versiones sin soporte. La medida también presiona a los fabricantes a acelerar la adopción de sistemas actualizados, pero no resuelve la brecha digital. En paralelo, la NASA abrió su convocatoria para nuevos astronautas con miras a Marte y la Luna, un recordatorio de que la innovación tecnológica avanza mientras millones quedan atrás. Sony, por su parte, revive el Walkman con los audífonos MDR-3R por USB-C, apostando por la nostalgia. Pero el verdadero costo de la actualización digital no es solo económico: implica riesgos de seguridad al usar versiones sin parches. La migración forzada evidencia que la soberanía tecnológica de México depende de políticas públicas que garanticen acceso a dispositivos actualizados y educación digital. Mientras tanto, los usuarios deben elegir entre gastar en un nuevo equipo o quedar fuera del ecosistema de mensajería más usado del país.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: WhatsApp dejará de funcionar en celulares antiguos y estos celulares son una opción: Xiaomi, Samsung y más",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¿Quieres viajar a Marte y vivir en la Luna? NASA está en busca de nuevos astronautas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Zelda: Ocarina of Time: así puedes jugar el videojuego más aclamado de la actualidad",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¿Encontraron estos científicos evidencia de sangre en un hueso de dinosaurio?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La NASA está seleccionando a sus futuros astronautas. Aquí te explicamos cómo presentar tu solicitud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Sony revive la era Walkman con los nuevos audífonos MDR-3R por USB-C",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La independencia de Huawei partió con los móviles. Ahora los ordenadores siguen el mismo camino",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Digital Foundry comparte este positivo análisis técnico de Stellar Blade: Complete Edition para Nintendo Switch 2",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¡Vaya precios! Xiaomi reina en la Promo del 11.11 con ofertas especiales en móviles, teles, tablets, auriculares, patinetes y robots de limpieza",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Switch 2 refuerza su catálogo con Ocarina of Time remasterizado y Stellar Blade",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Máscaras en Ocarina of Time Remake: Happy Mask Shop, catálogo y precios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¿Quieres viajar a la Luna? La NASA busca astronautas y estos son los requisitos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: La primera derrota electoral de la inteligencia artificial",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX3NCNzhqem9SWUt3QXhIeUdla2R5MTRsaENYdmZEeVhqRmdqWWhFdkV3QWlNRVFuWUJwMG9kZmJZR0RPUnY5REF2QVVmVUUzSUI4Ul92eE9HeU84YW9QdnBBMFFqZURCLVltMXVXWkp1TFpQYVl3YTdWczNNRnAwRnhIRWNpaEl5cGZ2YU9mTDM0Y2ptQ2ZSd05zbjV6UXZXRU1XTS1yVkx4MjVzUFc0Z00yNlpTZHduZkMweWNEZjlXc29kZHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Triunfo de los demócratas en EU pasa factura a la criptomoneda Official Trump",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWtsQlktSnZicy1TMmJjV1QtcE96WDlhdGNSZkhGeXlaeFZ0RDRHUUJmQXRTZHJHRnRiUnBoR1hpQXEtdFkxODMtWFV3NU1GLWhoQmpZbkNzX0hNNm04X3BpeTBOWTNTbXRQR2h4aEJSNVZWa3dHdzNMenVLWkRkbjdLOXhOZTZ6SDhvbl8ybjRtd3ZHMFY5VjBzWnE4ektUZkd6dnN6Um54ZFBLQmFKcHM0THplRjhPR2w5bVRDSTZGVTBCWnVCR0prWkE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: “No podemos confiar en detectores de IA sin saber cómo fueron entrenados”: lingüista de la UNAM",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc1k4cWN2aEY4Q1N6ZjNuZWJZV0VRb0JGVVpFSFdiYnRtdG04akZQd0tuYmVWUmItbk41VUFqS1lCM0RtaFhac1BPOExOcUJfUThHNms5RUY4ZGxGSFk4UmcxbkViSW83UEwtWTN2azhrekhqLWZ2VFVWTU12dVM4cjRobGhQc1FWYkU1Yi1XOEVTRXJkM0tRaVl0MXBLYWpNSmVmWl9LSGdiT1pNUUpwckM0eWlHXzNvM284V1RTYWFuQ085ZUE0YVNPVlVhZUFDWTJYODFsTERJNWttTFhR?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Diario: Dirá Tesla adiós a la Cybertruck",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZFNleHBqbHpyTXhFZ3VwbWk3NHpZYnJibGhVTUc3aEZFRjhrYUFnd3VfOGIwWm9BcnBuZGQ4c0NoeVNxc0lNRkxCVnJUMlV0bS0wZ3BFTFNJcnI4ZDdBaDJfNnljX1FzeHc3OWZzcEEtcmJ0N1dJYkNpWGxmb0dIbFc4LTVvSEo4Zlp0S9IBkgFBVV95cUxOM1E4T0ZYV3JwWWV5RExuNGlmZGw0ekZnYUgycVMyQWZkXzRtdmk4UmJQdEZkd2VuMGVic0hiaW1ENGV2dXVDdDNkd21ZQmdYSEhmVTZNMDlWNmpfNk9hQ19hYzVJU2xEM1k2V3dXSlAxT1VsbW5kMUUwcGItV3hRTFNTUGVIa1JBTDkzcDJJaGdSZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Puebla: localizan e inhabilitan otra granja de criptomonedas en Tlaola, en la Sierra Norte",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcENGNkFQSFE1V0JDVXNxcXVqalBYZ2phamd5SnBYXzltSERrd2NwYUd1WTRWRDhDamxvcHVZekUxRy03Nlc2eDNCdUlsRlRNTXRRcDZ0TXQzMGg0bDQzOXFDUHBMekR0eXhyaFFBUndCY0NhRzlNcVFxam9RRG5WNFVlTEhaY3dTZmpaWmxmQV9zR0w3eEVfNVdXVjdIeEZlZzQxU1BkUFlRTVFHQ2xJdTVn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: La NASA presenta el X-70 Fractal, su nuevo avión experimental",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlM1T1owaG0wVGF2Z056bFBHOGl3TlJXVkZscXc4WHdtdWh0LUNLWUpXay1hcEJWMUpQSjdOSUNUaFA3aVB1Z3RTaGEyTTNMaTVjRFN3aUtTcGxKbUdRWTJQZGIyN2k0aHdWeVdGaHpScnY3VFRYdW1VZU1qY0VWTWlqT3AzSk5CWEhNbl9nODc2Nm82VDRTZDctLVJTUEFDQUJfWlAzSzVuSDkxaXVsa0I4SjI2LURxLTRWM0ZiYzhiZXY5?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Premian a fans que dejan el celular... ¡en pleno partido!",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONG1WUWx1dDZmeDB1WUg3TUdYTFdWZTVTb1diUThfTmFrZ3hHR1FOeXRDWEN5TEx2VkJtSkVNREE4bEQ2MVI5YjJQcURtM1h1TFBvQVdlMFI4UDRrbjFlTHd1c09NNjJsUmJrRkhRYjdPYWJLVC1wVDRiYm9mSXVaQW9zd3FhemZhMlZNelp6aw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Tu mango con chile va con IA de la que pica: Así usa Tajín la inteligencia artificial",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVmN4V3RBTXBhR19LRk0xU254bVNMTFIwcDVsYVk1ZUlQYURuLWgtY1hfRkMxYTdRY3JWNVNoc3hCQlFzQjVWZU1TajhodzVQN1J3c0dwaUtjY2ZCUXRMS1NNTlFERHRVVEplbklrVTRpU3AxczRocHNrdnhxd2dna2ZoUmluTUQzdkpoQmlXUmFYV09ROWduZC01YkxOeDA1UWhCNTFKemxRcnRYVFd5LUhIRjF5RHBMTFJTMmQ3bXZtTG5WMXladUxYSlZjTFBxU1Nv?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=gYF73tAd92s"
+  },
+  {
     "id": 1794160806065,
     "fecha": "2026-11-08",
     "categoria": "Farándula",
