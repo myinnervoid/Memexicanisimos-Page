@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794250808036,
+    "fecha": "2026-11-09",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Sakurai advierte sobre IA generativa y presión laboral en videojuegos",
+    "descripcion": "Masahiro Sakurai señala que la IA generativa acelerará la producción de assets pero precarizará el trabajo de artistas y programadores. La industria mexicana, valuada en 1,800 millones de dólares, enfrenta un vacío regulatorio en materia laboral.",
+    "narracion": "El creador de Super Smash Bros., Masahiro Sakurai, publicó un análisis técnico sobre el impacto de la inteligencia artificial generativa en la industria del videojuego. En su exposición, Sakurai sostiene que herramientas como Midjourney o Stable Diffusion pueden optimizar la generación de assets —texturas, modelos 3D y animaciones—, pero su adopción masiva sin marcos regulatorios agravará la presión laboral sobre artistas y programadores. La advertencia no es menor: la industria mexicana de videojuegos, valuada en 1,800 millones de dólares en 2025 según la Asociación Mexicana de Videojuegos (AMEXVID), carece de una legislación laboral que contemple el desplazamiento por IA. La Ley Federal de Protección al Trabajo vigente no incluye disposiciones específicas sobre automatización cognitiva, lo que deja a los estudios nacionales sin directrices claras para capacitar o reubicar a su personal técnico y creativo.\n\nEl análisis de Sakurai se centra en la cadena de producción. La IA generativa permite reducir tiempos en la creación de prototipos visuales, pero introduce una dependencia de modelos entrenados con datos externos, lo que plantea interrogantes sobre soberanía tecnológica: los estudios que adopten estas herramientas sin infraestructura propia quedarán sujetos a las condiciones de proveedores extranjeros. En México, la mayoría de los desarrolladores son PyMEs que no pueden costear licencias empresariales ni auditorías de sesgo, lo que profundiza la asimetría frente a grandes publishers.\n\nEn paralelo, la NASA abrió su convocatoria para la próxima generación de astronautas, con solicitudes hasta el 15 de diciembre. El proceso busca perfiles en ingeniería y ciencias de la computación, áreas que también resienten la presión de la IA generativa en términos de automatización de tareas de análisis. La agencia espacial estadounidense no ha anunciado aún medidas de mitigación laboral para sus equipos técnicos, lo que refleja que el debate sobre IA y empleo trasciende la industria del entretenimiento.\n\nEn el terreno del hardware de consumo, Amazon liquidó smart TVs Mini LED de 65 pulgadas con 144 Hz y Dolby Vision IQ, una señal de la guerra de precios en el segmento premium. La estrategia de descuentos agresivos responde a la sobreproducción de paneles y a la competencia de marcas chinas, pero también evidencia que la adopción de IA en televisores —para escalado o recomendación— no ha logrado diferenciar lo suficiente como para sostener márgenes. Para el usuario mexicano, estas liquidaciones representan una oportunidad de acceso a tecnología de gama alta, aunque con riesgos de soporte técnico limitado.\n\nSakurai insta a los estudios a priorizar la capacitación y los derechos laborales. La causa es verificable: la ausencia de regulación específica en México permite que la IA se implemente sin evaluaciones de impacto laboral. El efecto previsible es una precarización silenciosa de los equipos creativos, mientras la industria nacional sigue creciendo en valor sin garantías para sus trabajadores.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Todas las Skulltulas Doradas en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Fondo del Pozo: guía y walkthrough en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Celulares antiguos se quedarán sin la aplicación WhatsApp",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Masahiro Sakurai analiza la IA generativa y la presión laboral",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Amazon deja a precio de liquidación esta smart TV Mini LED con 65 pulgadas, 144 Hz y Dolby Vision IQ. Ideal para cine y gaming",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La NASA abre convocatoria ¡busca a su próxima generación de astronautas!",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La NASA abre una convocatoria para reclutar a su nueva generación de astronautas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La Máscara Feliz al 100 % en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: TLoZ: Ocarina of Time Remake ya muestra Co-op Online en PC y Fritchii v5 reduce casi por completo stutters por shaders",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Google y Samsung ya tienen fecha de reserva para sus nuevas gafas inteligentes con Android XR",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: A la Jurassic Park: encuentran indicios de glóbulos rojos en un fósil de dinosaurio en Brasil",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Sakurai afirma que nunca ha utilizado IA, pero los últimos avances le han hecho preocuparse por el futuro sin ella",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "EL PAÍS: Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOFZyQ21jeDNRbkQ1WTlPU3BJOElxcGVNM2licTZfSVJVOTN1QV9wczRMaTVRUU1kR213eXNvaXZDTFdFTkJMX2FWTnhjeFlLMVFrT2FDRXk3Rm52OG5hbGR2VnlsVFRjckNYODMwWWdrVWlrdzhJVm1fZ1dFOXdXQzRzQVUwdWwxWm13dXpEU0xYc01jN3R2OThvT1hYM3lEVmMyQzE5NHZCb1d2LTlWQlEyRnNBV19odG5XRkVfSnFsRURaSEliYXQ4X0pTY1o5VjNVU0ZNSk1vNlNr0gHwAUFVX3lxTFBXOVVSeDdQajZjWlVmU1UzenNDUXlmdjdoRUE0TkRLNWZOOHU2Mnh0T3JpeHI5MGsxS3FSXzc0STdUZUZIZXVmR2FCeXlyd2J0MERVYUFGMExJS0R5X0NsSkdLdGsyOEIyekZKcG12cTB1ZjZDYllZOW5qVGp2enFCZ3B3QklUbFoxVnQ4RDhUY2RrcW5iMDBobnpBNVZMTnlianpEeWFZbTB3dWpoT0xwZWljOFNhWDllb1ZaWEt1RlR2SWJ1M1ZrTTBIT1VaSmlmMnVwdmZ2SXp3dVdfYS1jYmVaRnZQeFNmV0dfbTVOdA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: La primera derrota electoral de la inteligencia artificial",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX3NCNzhqem9SWUt3QXhIeUdla2R5MTRsaENYdmZEeVhqRmdqWWhFdkV3QWlNRVFuWUJwMG9kZmJZR0RPUnY5REF2QVVmVUUzSUI4Ul92eE9HeU84YW9QdnBBMFFqZURCLVltMXVXWkp1TFpQYVl3YTdWczNNRnAwRnhIRWNpaEl5cGZ2YU9mTDM0Y2ptQ2ZSd05zbjV6UXZXRU1XTS1yVkx4MjVzUFc0Z00yNlpTZHduZkMweWNEZjlXc29kZHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Cómo el crecimiento de la energía solar \"escandalosamente barata\" ha desafiado todas las proyecciones",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5Zmcwc3JNaUFSSmRkTWhMYWhxcUVoRFdvTmFPUEpXbnhlWTQtbTVsbl9VNXl6S0hjc196REtuemZYaVFlRC1TMHNYM245VjNoZHVMRWx5U3pZUEZI0gFiQVVfeXFMT1pFVmI4VmFYYUJSV1RSYUc5NkRZbjJ1OHNYRGdxRzVlNlBwS0s3MjBBMkhOeVB3UUEwVmhqUG9wdy12UnFxTGFsanJubjJSQkN3aUNGUWFfc01sX2w2MDBsd3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: La crisis de los centros de datos: el éxodo digital que México podría capitalizar",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUDFJeFYyb3ZRMjZCTXd6bnZhQjlXTGlnSG1tWXJPS2Nia3h2MG15akpSQXpDLUJZSGtSdno0MjdhT1NUdGYtSWFyWjJ4cGNhbWFRUEphNS1GeUZWYzd1cFdaT081dVJpTTB1aWNMYUlONm1LMHo0ZmdORld6b3luTkRUbllCallvWHpRdVN1anIwbkJmYzNjR05rNUVwMDlqSlVuRndJX0FGVFhWT1lxNVcxc1dGMlJxemRPZmZvdDh1ZlhTaFN5OUxpdW1VSjVwYVhZUDM5akpqZmszbzJDeHYwM0VYSThPN19MQ0NBVG5nZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Triunfo de los demócratas en EU pasa factura a la criptomoneda Official Trump",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNVdnT1VvNElGQjZhT09rREIyX3YzYW16UTFpWkZTQnc1UVR6cHpsOWlZN2tER0M2bHJxNXRQamtyLUtIczdBZXl6QWZUa1BNM1VyWm96SE5IRUYzMW9mMm9ZaHBRaFBUR2xRNWhkZEpna1ZzaF9MV05KTGN3ekx3ekJvQlMydVBTb2hvMHozUlRNTHBXamhQVG0yaFljazYtang1TkgtcllDOTBGdjU1eHJNcnI4WlRzMFpjRXdGUXlYYVhhOTRxNFpUVG0?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Centros de datos: apertura con criterio",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONjByR1VDN0V5NDJscTBLa2w5WWJrNW9KQjF2bXl1Vm9TanppR3I4YzNyb1FBcTdkTTZEckpld25MUXJ2X1VpOWdtSHZhaHdRb1kxOEw1SWxSRDVBeDJ2c2l5MUR1WkRlMVdMekhZZzExVUtlSGpJQUV6Q2c4LVUtcGRxM0R5ZWo2bTJBdkhETHJjeDZXUlJLekFR?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Puebla: localizan e inhabilitan otra granja de criptomonedas en Tlaola, en la Sierra Norte",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcENGNkFQSFE1V0JDVXNxcXVqalBYZ2phamd5SnBYXzltSERrd2NwYUd1WTRWRDhDamxvcHVZekUxRy03Nlc2eDNCdUlsRlRNTXRRcDZ0TXQzMGg0bDQzOXFDUHBMekR0eXhyaFFBUndCY0NhRzlNcVFxam9RRG5WNFVlTEhaY3dTZmpaWmxmQV9zR0w3eEVfNVdXVjdIeEZlZzQxU1BkUFlRTVFHQ2xJdTVn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Imparcial: El imperio telefónico de Carlos Slim resintió la desaparición de 7.4 millones de líneas móviles en México, justo cuando Televisa adquirió AT&amp;T con un nuevo plan competirle a Telcel con paquetes de internet, telefonía y televisión",
+        "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNdzVTNTNhNFFxOWo3a0VqdmVFYjlBbDNoSnpYZHZUZFczWmhoVkd4d1NRRlhnM0ZhbWxZTEN6akxiOWo0VFMydEdNU0tUclE1U1dCT1l6Z01oaHRTaVVuX29GaEtFNFJxaElpMmU2ZzdOS2tTQ1ptclg5cjRFQ1RzWFQycWdNVjNhVGxoWDNTTFZtWWdyUDlyVmlpV2NkOXUxN0FCaS1CdUFuLWdTNVg2dTRSZHI2MkdPNEhLclZRSUJMU0wwRVZhbTdwNjNwUktVWV9NVEN4bU52UHFraGgySXZWTkJrRGxxMm55SWZfOWlqaVJsMVU5SHJGcU5CcmU4VUxheDRoY2tJeGY3SVBtdEUyTEpCSHQtYW85RnhBMnQyeG5mMlRoak9HUGpLdjBxU1RZM2ZuYU45WlMzTmFya0FKNFVPbzJtaFdUWXhhcmIxWWdJNzkxZ0FEYXE4aGVmcFRFc1lvVkROaS1TdTFpWEVWSVhiMXI1aEtaT3lIQTFpRnY3Y3k40gGiA0FVX3lxTE9aV3pRYzJnV3lCdWRGc2lzRm5XdWlhMGdyXzlwbURuZEdqdEJSaTk5ZFR6dWZMSjVkeE9saThIMDRiTXBIQ19kOFEtUWxGZ0ZlUktHQ3lSSjlncHY1YnpPd1FlYl85Mm1ocU9zVXR0N19rUkp1b0szbTRLclI0VGRCelJ4YmNMSEVZb1dqbGZVYWk5cC1sTHRya3JoQVk4VDRKcGFBdnctZ0ZHVUc1LUFkbTB5TU9zZUgxN2Z5aHJHd1VxcWZiTEJodnlJNnh3M0J4ZEhFNTVPR0l4QU9SZW9VSXV4eGFJVEFWempPcnBjcy1QeW03MmZqOWduMWJWMFpPaVdqc3Y4NnFkRG1HUzV6dzlYUXZSS193c21ONVIySTkzT1c2SFlJR3pqbm5Wa3pXLUtQbDk4eTRqSDZzUVV4eHI3VXlEOXVUTU5VQzViQUdvTHFqUE5zckt1WlRoTy14VFFsWkZzLVFaY1NWYmVkb2JVREhGLTQweTl0NGFpNnE4NXprck9vQUhrdGU4NExzSUF0MktQZXR1eHU3M08wX2c?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Fi-xCu2sRB0"
+  },
+  {
     "id": 1794247208085,
     "fecha": "2026-11-09",
     "categoria": "Farándula",
