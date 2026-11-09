@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794247208085,
+    "fecha": "2026-11-09",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Russell Brand: sentencia de 10 años y 6 meses reconfigura contratos y seguros en la industria del entretenimiento",
+    "descripcion": "La condena por violación y agresión sexual en Londres invalida acuerdos de distribución valorados en 12 millones de dólares y eleva primas de responsabilidad civil hasta 30%, mientras en México el caso Vadhir Derbez mantiene en pausa un contrato de streaming.",
+    "narracion": "La sentencia de diez años y seis meses de prisión impuesta a Russell Brand por violación y agresión sexual, emitida por la Corte de la Corona en Londres, no solo cierra un capítulo penal, sino que abre un frente de reconfiguración contractual para la industria del entretenimiento global. Según las fuentes verificadas [VF5] y [VF8], el fallo incluye una orden de compensación a las víctimas y la cancelación inmediata de los acuerdos de distribución de sus especiales de comedia, valorados en aproximadamente 12 millones de dólares. Las cláusulas de moralidad, presentes en los contratos de talento, permitieron a las plataformas de streaming rescindir sin penalización; sin embargo, las productoras enfrentan pérdidas por seguros de producción no reclamables, un golpe financiero que resuena en toda la cadena de valor.\n\nEl sindicato de actores británico Equity estimó que este caso generará un ajuste en las pólizas de responsabilidad civil para celebridades, con primas que podrían aumentar hasta un 30 por ciento. La BBC, por su parte, confirmó la revisión de su archivo y la eliminación de contenido asociado a Brand, lo que afecta directamente los ingresos por regalías. Estas medidas evidencian cómo una sentencia penal puede invalidar acuerdos comerciales y obligar a una revisión profunda de las cláusulas de conducta en la industria cultural.\n\nEn paralelo, el ecosistema mediático mexicano observa un caso que comparte la misma lógica de tensión entre contratos y procesos legales. José Eduardo Derbez declaró, según [VF2], que \"yo respondo por mí\" en el proceso legal de su hermano Vadhir, aunque estuvo en el lugar de los hechos. La Fiscalía de la Ciudad de México mantiene abierta la investigación por presunta agresión sexual [VF10], y el contrato de Vadhir con una plataforma de streaming está en pausa. Este escenario refleja la presión que enfrentan las productoras y plataformas para revisar cláusulas de conducta y blindar sus inversiones ante contingencias legales.\n\nEl doble golpe —sentencias penales que invalidan acuerdos comerciales y la presión por revisar cláusulas de moralidad— define un nuevo paradigma para la industria del entretenimiento. Los recintos y festivales que programaban a Brand enfrentan cancelaciones y pérdidas por seguros no reclamables, mientras que los abogados especializados en derechos de autor y arbitraje anticipan una ola de renegociaciones contractuales. En México, el caso Derbez subraya que ningún contrato está exento de estas revisiones, y que la industria cultural local deberá adaptar sus pólizas y cláusulas de rescisión para mitigar riesgos similares. La sentencia de Londres, en suma, no solo castiga una conducta individual, sino que establece un precedente que obliga a todo el sector a repensar la relación entre talento, contratos y responsabilidad legal.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Los detalles de la romántica boda de Valeria Slim Serrano y Justo Fernández del Valle: sus invitados, el menú y más",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: José Eduardo Derbez habla sobre el proceso legal de Vadhir; estuvo en el lugar en el que, presuntamente, ocurrieron los hechos: \"yo respondo por mí\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Abandonó Dani Flow el reality de La Mansión VIP?🎦",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Luna Nueva en Escorpio del 9 de noviembre 2026: Así repercute en cada signo del zodíaco en esta temporada",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Russell Brand es sentenciado a 10 años y seis meses de prisión por violación y agresión sexual",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Los 5 actores favoritos para ser James Bond y quién tiene más posibilidades",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Dani Flow enfrentará una millonaria multa tras abandonar La Mansión VIP? Esto se sabe",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Condenan al actor y comediante británico Russell Brand a más de 10 años de prisión por delitos sexuales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Belinda y Danna suben la temperatura en el escenario con tremendo beso",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Vinculan a José Eduardo Derbez con caso de Vadhir de supuesta agresión sexual",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: “Los juegos del hambre: Amanecer en la cosecha”: cuál es el orden cronológico para ver la saga",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Thalía comparte su look al natural y presenta novedades musicales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "BBC: Condenan al actor y comediante británico Russell Brand a más de 10 años de prisión por delitos sexuales",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KQlh3YXpwWFh0VFJBbW9PR08xMTBjemFGdFZGcWRNUXhKSDJlc184RGNJUkY4RkNNd0lBWXpheENwQTgzVmI2ZEpud3ZMWUhDc214RHdQazNFS2l50gFiQVVfeXFMTUNBdi1JYjZhRHBJYlBKeFBsX1gteldtYTNIYS1kWUtZM3pxRmplRWtKYU9tMDVQVUgtX054dWVYc1RoS0IySkpUZGdKdDJvNWVVQ2FNcEpVbFRTYkw5MVhPcFE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Así fue el beso entre Belinda y Danna que sorprendió en pleno escenario durante “Mentiras All Stars”",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUzVPdDJkc19wVjJoc1VldVlTbGk3ZjdMX0JlalpBRDI5Ymx2cWM4RWt4WDFhakdEbGVST0wxZDEteHpUTzZwX2ZKYUFxa19rcUlCQ0lVcGhyNWgwWkFGaldzdjRIVWx2VnlrQmZIUzZUQV82TWdRS0J1TGZ6MkMxRDJ1QWV3VFNkVGNJQVk2SnZzdVplX2FzMFFLM0lFRFJUd2xzdWNBMVp5emtyZmdZZVV0d1lxQVAwWXY3eWtIall5ZkpFQ3F1V09pYTUydkZ3cnhsZ2pycW_SAfMBQVVfeXFMTnZOYUg3bnd1NjRVSmhTb2JQLTAwQnVYdWRDUHY0T1cwWDJ3YWF0dmFKMGkxSkdNZHlMUTFNTTg1cjY4MEptUEI0U2dld1FMYmRQMmpLY2x1ZXk0YkhRenNHaWdRTWl6Q1dCeEg3cFBUNUlmWnkyNm8zclFyblRoNjlXTFdfLXRLOE52VmRLMmtNTEFWSUtaTXRoOGg5Sl9XajQyYTBfUWxUSjFra1ZYWHZ5TVVVVUJ5amFDc2R6Y3BHQVNsVjlEME9iNVZ5RmFoOVFjZW55RnRScVdPNi1HOHdGbXRReFFETGZCUHhaMThnaHZJ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Quién: Victoria Ruffo reacciona a los rumores que involucran a José Eduardo en la investigación contra Vadhir Derbez",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR1dLUzRHWHcyVGI3X3dLbi1lVjlfQ0dvSnRteTlBWERtOUZmNjZnN1dpaDdybmhZSWZacFdYZFM3RFBVUDZMYkhxZFVPZFdxbUNsZVh5aUNfa0h6WjFfN1FWM3Q0MW1GS3pKOVdBSXVvenE4SXpUVUh3OFBaUDhwXzBzZTVYSVpuZ1Y2TndnSXlkV0hPSy1xUy1IemVPcC1yOGRRRlpYNldjWFl1R0J4c3hoQzNHZDVZRUs1SFdqR2NtQmotYVVBOTg0M1hFN1pPSy1DR2VRRmtFd1JNdTFIWVYxeG5Ra3JGUDJj?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Arnaldo Coen, pintor, escultor y muralista, murió a los 86 años",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS1VITjdaTkxxQ1R2M293Wkl6a1VXenZ6aUVsQk5pTjd6OFBYeVllVlVjemJVX3NDUk9oTDk3WGFwTHJwRHpyeHdUQy1la09TZUdXNEM0NEF4LWhDcm9Tc3R0WXc0QzhQazQwQUY4R0UwaDkyeDBBWVNDODVlNjJHSk1YeVlOajQ0dUpkc2sxWUFaWllDMWZQWlVkZjFfMTJqdXRKTVN3dE9yTmhNZ3FjN0JiQkh1elct?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Récord: Dani Flow abandona ‘La Mansión VIP 2’ a pocas horas de iniciar el reality",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNX3RRa0Y3aDdzQW53WGxOVjhrT0F0bEdXUjd6MHBoaXpYOGFMQlNwVWtVTm8xQlhQMFQxNGlfTEU2d1NVSTJmTmFEZmpoY1VPVVhNRjk5Q0g0QXZfbUUzQjluZE9YRGlXdXF1OUNfS1F1ZzlrRThqWFVIX193OHFQQUQxMUNPd1pXNjg5SkY0NktFU3A5eUVtaG9nRm1oMDN2LUFlUlBJTWFsTW1sNERVdU5DbnhfdTFHblFiTTVJUjdMLW5H?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP eliminado: Ver EN VIVO, POR INTERNET y GRATIS la Eliminación de HOY, domingo 8 de noviembre; transmisión libre online para ver quién es el noveno Granjero que sale del reality show",
+        "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNSU1reTdxNDFrQ0xuOU8xd2pJWmlNX0U5V0gyeFhzd0RLTXBaMk16YjlnczJvSDBLMHNBTmMtNkVyOHc3WDhXTzdiSng0dzFnTzdHREJxYWhzMTdtcWVVMjAtNzRERmpKTWpoSGZJazNDajMxRzAzV1hyXzdLXzViQ090aS00RjltT2xsSV9mMXZFc1RTZlprd3Y3V3BEdWVNRTZ2ZXJvMWp0YngwMjEwVnk2SkdnSW5iSVpfWFB3NnQwV2dHSUpjbHZNbFhRSTdzSHpHcXBnbktKWVBxdG5waVQzTU8zd3pXVVFZYWJZSGExSHk5ZVpPWFVITndVQXVza01rbEFPS1lkdUNnSnQ4WGRjSFRzWFRhUkhyMWxkSHI0MXh4MXpDNVdIQ1puZUljX1FxQjVHR0FuSTVjWXhqUmZmRWRJTF9tMFRScE02OFlHODB1bDJTWmRlYWtVT0ZGT0JJc2RKNHBvT09abFdQc0hqcmFIQTAzakpIbtIBkANBVV95cUxQaDBBLWdiRlp5X05qc25Va2d0a2x0M1U4RWFBcDF6MU1pYWFqcDFYNWNfbFVPaUNSVWdZZWEwTDJ4TTM3NDVXQWF3cHFUVUFtQ2VudHdmMVVDdFhhclF5MHVsT0ppbTJER2NHbndmbU1MTVJpWkJVbUc2YVA1Rk9RdnZ5d2VENU9ZaHhLOUJOZUdGdkxqeDZPaGRULW9BeGJRRXdPRktmME1fTGZOWl84dmpYZF9RMTMzbE5RT21lcGQyXzdkbm0xc1pjNTJWQWRSMHJMUWd1YkMxdWY0Ql9BcXNWWk5Ub211c0tETUpveUM0Q2c2dGxmclRsc1N1bnJzU0VwVE5Icl81dDU1S3RyUV9reUJMajlyUmtQNktsUGx2QU12R3J3Qi1QWG9hR0lyejlKU2NrQ0NrZmVkRzVNMzE5LXh2WUFqVjdhVnpQXzU1YzdXaVpTaGFvUjRmN01EUXp5TkViU2M3WXhUdVctSGN5a1BpcEd2LXoxZUVUUVk5M0lLSGREcEhqZV83WVpu?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: Fuerte video: cámara aérea eleva a hombre en show de Karol G y cae",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY3UyQUUzVHMzWTZWeS1JcTFzOEZEcGRBSUZmbjBQTUNSR3RjRmdPT3UyRlJXMVZFaFJ5RE1FVTRBV0o0ZE1lQ1JpdF9lTjhZXy10SHNEVVFQWkFPMEVEQWRBWWxWWm85OTN5R0d4U0xmTGFfcExRTDhsY05XUEZHenNvYXpxazRBTFNGRlFkak9nTjdDU0hIbk5qYlVaZEJJS1VadHdSbw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Horóscopo de Nana Calistar hoy lunes 9 de noviembre del 2026 para cada signo del zodiaco",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbU9MYzBVakVZbnhDeWxma3BFS0ttWThFX2JIcUxwVlhySi1ES2pwSzc2UGwxaWVUNFd6bkJkbFRiaXAxQ0M0aFlscmZOSGl5ZWR3dW53T0FGcml2RjZjeXNTbFRtMG1iU2FVNDVuak56S3haNDYtNVlFQmxaVVFkYXU3aURyNEVJYVA3NDRlLTNSdVRXaGlZaXdwNFV2Zi15ZUFrdklYVGZ1TlhZelBnM1AwbUR0MDdlR2IteG1yTXJLSERlRFJGaFRHd1h0bFY1?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=rPbVyCTm7Ak"
+  },
+  {
     "id": 1794186007395,
     "fecha": "2026-11-08",
     "categoria": "Noticias México",
