@@ -1,5 +1,135 @@
 [
   {
+    "id": 1794186007395,
+    "fecha": "2026-11-08",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Golpe al CJNG, migración forzada y retos económicos marcan la agenda",
+    "descripcion": "Captura de 'R2' en Zapopan, la falta de oportunidades para personas con discapacidad que migran de Tampico, los compromisos de Morelos por la cocina tradicional, las contradicciones en el gabinete y la incertidumbre por la relación con Trump conforman el balance nacional.",
+    "narracion": "La detención de un presunto líder de 'Los Rs', vinculado al asesinato del activista Carlos Manzo, se realizó en Zapopan, Jalisco, tras un enfrentamiento que dejó 20 detenidos, incluido el propio 'R2', quien resultó herido. La operación, encabezada por la Fiscalía de Jalisco y la Secretaría de la Defensa Nacional, representa un golpe al Cártel Jalisco Nueva Generación, que opera en la zona metropolitana de Guadalajara. Carlos Manzo, defensor de derechos humanos, fue asesinado en 2024, y la captura de 'R2' es un avance en la procuración de justicia. Sin embargo, la violencia en Jalisco persiste, con más de 2,000 homicidios dolosos en lo que va del año, según el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública. La inseguridad ahuyenta inversiones y afecta el turismo en una entidad que aporta el 7.5% del PIB nacional.\n\nEn el ámbito social, la falta de oportunidades laborales para personas con discapacidad obliga a Jassia, una mujer con discapacidad motriz, a emigrar de Tampico en busca de empleo. Según el INEGI, solo el 30% de las personas con discapacidad en México tienen acceso a un trabajo formal, y la tasa de desocupación para este sector es del 8.5%, casi el doble que la población general. El gobierno federal, a través de la Secretaría del Trabajo, ha implementado programas como 'Abriendo Espacios', pero su cobertura es insuficiente: en 2025 solo benefició a 15,000 personas, cuando la población con discapacidad en edad laboral supera los 2.5 millones. La consecuencia social es la migración forzada y la profundización de la desigualdad.\n\nEn Morelos, el gobierno estatal presentó diez compromisos para preservar la cocina tradicional y promover el comercio justo, con el objetivo de proteger el patrimonio cultural y apoyar a productores locales. La secretaría de Desarrollo Económico y del Trabajo detalló que se crearán rutas gastronómicas, se certificarán 200 cocineras tradicionales y se establecerán mercados de comercio justo en 15 municipios. Morelos, con una aportación del 1.5% al PIB nacional, busca dinamizar su economía a través del turismo gastronómico, que representa el 12% de la actividad turística estatal. Los compromisos incluyen financiamiento a pequeños productores y la creación de una denominación de origen para productos locales, lo que podría beneficiar a más de 5,000 familias.\n\nEn el plano económico, las contradicciones en el gabinete federal generan incertidumbre. Declaraciones divergentes entre la Secretaría de Hacienda y el Banco de México sobre la política monetaria y el tipo de cambio han provocado volatilidad en los mercados. El peso mexicano cerró en 18.50 por dólar, una depreciación del 1.2% en la semana, según datos de Banxico. La falta de coordinación en el discurso oficial sobre la inversión extranjera y la reforma energética ha llevado a que la calificadora Moody's mantenga una perspectiva negativa para la deuda soberana. La inversión fija bruta cayó un 3.5% en el último trimestre, de acuerdo con el INEGI, y la Secretaría de Economía reportó una disminución del 5% en la inversión extranjera directa en el primer semestre de 2026.\n\nFinalmente, el futuro de la relación con Trump tras su reciente elección plantea desafíos. El gobierno mexicano, a través de la Secretaría de Relaciones Exteriores, ha iniciado contactos con el equipo de transición para abordar temas de comercio, migración y seguridad. Trump ha amenazado con imponer aranceles del 20% a las importaciones mexicanas si no se controla la migración, lo que afectaría a sectores como el automotriz, que representa el 20% de las exportaciones mexicanas a Estados Unidos. Además, la revisión del T-MEC en 2026 será un punto crítico. La balanza comercial entre México y Estados Unidos alcanzó los 800,000 millones de dólares en 2025, y cualquier medida proteccionista tendría un impacto directo en el empleo y el crecimiento. La incertidumbre ya se refleja en la confianza del consumidor, que cayó un 2.3% en el último mes.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Presenta Gobierno De Morelos diez compromisos para preservar la cocina tradicional y promover el comercio justo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Detienen a ‘R2’ en Zapopan: Lo vinculan con el asesinato de Carlos Manzo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Por falta de oportunidades laborales, Jassia con una discapacidad motriz tuvo que emigrar de Tampico: ahora busca regresar",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Nuevo golpe al Cartel Jalisco: cae en Zapopan ‘El R-2′, vinculado al asesinato de Carlos Manzo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Contradicciones",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Qué sigue ahora con Trump?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Usan Catedral de Puebla para desfile de modas privado",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Detienen al “R2”, presunto líder de “Los Rs”, y a otros 19; resultó herido en enfrentamiento",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Pide Bolaños un debate presupuestal civilizado en Congreso",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Capturan en Zapopan al 'R2', Mando de 'Los Rs', Célula del CJNG",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Llegaría aire polar a México: semana del 9-15 de noviembre pasará de calor a lluvias con descenso térmico otoñal",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Polémica en el INE: Hechos que marcaron esta semana el caso de Guadalupe Taddei",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Rechaza Morón que acusado por EU de trata sea cercano a él",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Harfuch recuerda a Milton Morales Figueroa en graduación de nuevos elementos del Servicio de Protección Federal",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Restringirán acceso a la Sierra de la Laguna",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Detienen al “R2”, presunto líder de “Los Rs”, y a otros 19; resultó herido en enfrentamiento",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRnc0c0hYMndYQzI0TGl5SE96enIySElpcFRvMTlwNF9SdUFtRnNidjdLX2lwQWFQMFUyVTV4end2bHFqNVVRTVVRRkk0cnFGcDBjNHVWY3BsRWtMakhSaDhnWWk3VWk0ZmdvaDdBaFQ4RG8zZXVuV3MxNnBwQUdQVnVmSElLb0VIMW43cWFndHJZNXAwVTQtajlKNV9BNXFDbUE3TWpBOExDYWI2ampjV1lMZDg4UDZZekNpeURNWF9ZYmVjdkx5UGh1dF9HdTJQT3RfOEJ0Zw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Localizan a alcalde de Río Bravo; Harfuch informa que Miguel Ángel Almaraz fue encontrado a salvo",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOXpiNE8yZFozWWJiMWFKNHJOZnFvYnVtam9fXzZFUk1JdmwxM2ViREJnNHEyam5xOFlOSzlJWGVFUWpwbTlNSUNxVjFmQU9POE5xVWZ3VU5TdFlwV01aam9RS3NBRi1MRGRDdG45VjkyTjI2cS1JV2RlcXB2cmNsbC1BTFZaYmQxRXg0STRjQWJNblR4WXNqUnNOTjd3V1hUTVpQWm96cWJHSHhMVFJYU1lEdV9mOU5pSTlMY0NZLVFIOWtEYmlVckdPaU5wRDZ4cWRyUzV6bEFEVDlNVUpN?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Roban material radiactivo de uso médico en Tlaxcala; emiten alerta en siete estados",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZkRGUTQ5QUpSbWpzR0JoVTl3VmdzV0kxc3M4TVJOTmI3aGJadUpnS2gtLVFpdkN6YVctc1IwMVZGaUpBYUFmSHktWC1FSm5Yb1hkT2VrOWdnSDdSR1JDNGVrZjB2WTJRVUlFVk9OY0JWd01INUxqaDkxME00eE1Tam1GMWJsbzFwbnBQeGpEMGU4WHZiTGNkSEhyNHp0c2Z3UXdreDk4SjRLbXV5a25EcGUtdkI?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Caen 'La Pocha' y su hijo 'El Nazi', presuntos integrantes del Cártel del Noreste",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcUptR0xoN0lPUEtHMF8zM0gyNHBWM2tQRHN4SWxyOEV6M05DRUFfR2NGUkUwa2thSE1qeFZudERRaHludUt0RkZGQVhIaUloRXkzMGZ6cGVoZ3NlTHh6a25xT28yendEQngtN0tqLUY2TEo5N2xCdUxsM3UtUk1HZ2ljbzlqVkU0VU0ySUczdjg0NTA0bDJJS0FwSmctN3dHbERFUlRVRlRkTzZhVXFKWmFWVmpBeGpzM3lxSTdhWTNDVUQ3SnZ2blpBWQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Luis Carlos Ugalde responde a acusaciones de fraude electoral en 2006: ‘¿Dónde están las pruebas?’",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdzlIc2x2T1RzYnRHcDdJV1FYODMwTjNDc3NPUF90QlhWTXBHal9FY0VZZFpXNDM0clJlN09RcERUSkxhUHFSYTZiVUVoOWEwOTR6LTkzUHc4anhYckE3ZzRmblVEV1ppZXZoVVpzTDhGTEpyaUhEX0l3NUdwRXNBYlpqV1M0cEJDbkMwTzBhZ3VsVG84TmliUU00NTg5ZkZuMkIxTG9DSjRURVBpbUV5MmxkTVFoMkxzYWItQ1NsZmhJU0E2YzNHR2hEU2dnNGtoYmszM3JncDFVcFNLbktR?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Propone gobernadora que policías accedan a su pensión 5 años antes",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTDJVNnptV2tQR1JPTHlHbm1BMFdlZzZXTHNTRV9iODYtaHFQejBOSVpyNUtjZlNObkRLdWs2dnByazFvdDFEVzVkZHpfUXo3dDBuY1dPanFIUUVvZ2d5eGdFaDRfUkpzTXUydDNGc2ZuRW9UdVQtLUtiOU1CdWMzUDNGd3ljNG1CcXRsMzlxTF9ScUxVZEZObnVDVWdpUWNpdzZBdHg3dC1zVDF2VnEtSXp1ZW83SktTNkE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Frente frío 4 provocará fuertes lluvias en varios estados del país",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQblJNY2ROVGxXU0Y0eXg5YlhaTk1FVGs0NzRBVlp1RU5Bc1N6NVBvTlJzMWNoUk5kbmVJcUQ1MXFaR3hjaERDeHNiRURpY3dacTJVeVRPMzRWa3I5ZUhURjYxQmRIS2dSYmZ5N2VjcVQtd1Ftanl0UzN4NlJhdVp3WS04TnozbUl2Y1RGay1GcFl3cl8yVjRrcDlMVFFnNWNKbzUzNFIzMDVuZDFlelMxMk9IUGQtUWc3VzYyQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Migración, sin registro de que Guadalupe Taddei, ex titular del INE, haya salido del país",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZTF3ZTY3SWc2cTQyYTBjVmkwcFdoX1lhcnZmMjN5S0VjOUhoNUtpWm5CUl81dzhwZXlBdV9iUV9Jd0k5UnRNTTlHS2JnSWs1aG9oMEdKZzFydnRJczNwbTZqN3NUVUZFUm9LU3Q2T2s4YWx2eHF4ZC1IODdVaThrWHcwYUk2aEZTWEZ5RW1RWkJoa3BGeTUtQ0htOFRVMEYzYXVGbGo4VGo1NlZjMVlNV2hfMDNGU1JyTGFnNWN2b3F4SmZtbEZuMThNOGF1U0MxWnhlMVRnOUg?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794178807987,
     "fecha": "2026-11-08",
     "categoria": "Gaming",
