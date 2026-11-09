@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794265208283,
+    "fecha": "2026-11-09",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Sony debate PS6 accesible y Portal independiente",
+    "descripcion": "Shawn Layden critica una PS6 de 1,200 dólares y propone una consola de 300, mientras Sony anuncia un PlayStation Portal con 128 GB y descarga directa para 2027.",
+    "narracion": "La industria de las consolas enfrenta una encrucijada de precios y modelos de negocio. Shawn Layden, ex-CEO de PlayStation entre 2014 y 2019, declaró en entrevista con VidaExtra que fabricar una PS6 a 1,200 dólares sería un error estratégico. Según Layden, el mercado masivo no absorberá un precio superior a 500 dólares, y recordó que PS5 se lanzó a ese costo con unidad de disco. Su propuesta es una consola de 300 dólares: \"Eso sí que sería verdadera innovación\", afirmó. Las declaraciones llegan cuando Sony enfrenta presión de costos por el aumento en componentes y la competencia de Xbox Game Pass. Layden insistió en que la innovación debe ser accesible, no un lujo. En paralelo, Sony anunció un nuevo modelo de PlayStation Portal con almacenamiento interno de 128 GB, según IGN Latinoamérica. El dispositivo, que hasta ahora requería una PS5 para transmitir juegos, ahora permitirá descargar títulos directamente. Su llegada está prevista para 2027. Esta decisión responde a la creciente demanda de gaming portátil y a la competencia de Nintendo Switch 2 y Steam Deck. La estrategia de Sony busca diversificar ingresos ante la madurez del ciclo de PS5. El contexto es claro: la actual generación se acerca a su madurez y los costos de hardware no bajan. Una PS6 a 1,200 dólares rompería la barrera sicológica de los 500 dólares, precio que PS5 mantuvo en su lanzamiento. Layden, quien dirigió la marca en su etapa de mayor expansión, advierte que el mercado masivo no está dispuesto a pagar más. Su propuesta de una consola de 300 dólares implicaría renunciar a especificaciones de vanguardia para priorizar volumen y acceso. Esto choca con la tendencia de Sony hacia hardware premium y márgenes ajustados. Por otro lado, el nuevo PlayStation Portal con 128 GB y descarga directa representa un giro hacia la independencia de la consola base. Hasta ahora, el Portal era un accesorio de transmisión remota; con almacenamiento interno, se convierte en un híbrido entre consola portátil y dispositivo de streaming. Llegará en 2027, según IGN Latinoamérica, y competirá directamente con Nintendo Switch 2 y Steam Deck. Para los jugadores en México y Latinoamérica, estos movimientos tienen implicaciones concretas. El precio de PS5 en la región ronda los 12,000 pesos, y una PS6 a 1,200 dólares superaría los 24,000 pesos, fuera del alcance de la mayoría. La propuesta de Layden de 300 dólares, aunque hipotética, señala la necesidad de una consola asequible. Mientras tanto, el Portal independiente podría ofrecer una alternativa portátil sin necesidad de una PS5, pero su precio y disponibilidad en la región aún no se confirman. La competencia de Xbox Game Pass y el avance de Nintendo Switch 2 presionan a Sony a diversificar. La madurez de PS5 obliga a buscar nuevas fuentes de ingreso, y el Portal con almacenamiento es un paso en esa dirección. Sin embargo, la advertencia de Layden resuena: sin precios accesibles, la innovación se convierte en lujo. La industria observa si Sony escucha a su ex-CEO o mantiene su rumbo premium.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Sol de México: Fortalece UATx formación continua del magisterio en Tlaxcala con taller sobre enfoque STEAM - El Sol de México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Sociedad Noticias: Netflix integra series y videojuegos infantiles en una sola aplicación - Sociedad Noticias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Civilization VII confirma estas novedades para su actualización 1.5.1 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Xbox Game Pass celebra sus 25 años con 14 juegazos: Xbox celebra su 25 aniversario recuperando algunos de sus mejores juegos - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo confirma parche en camino para Pikmin 4 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: PlayStation Portal da un paso clave para independizarse de PS5: Sony anuncia nuevo modelo con almacenamiento interno - IGN Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "VidaExtra: El ex-CEO de PlayStation: \"Sony no debe fabricar una PS6 por 1.200 dólares, sino hacer otra PS5 por 300. Eso sí que sería verdadera innovación\" - VidaExtra",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Cuánto pesa GTA 6: tamaño de descarga oficial y fecha de precarga en PS5 y Xbox Series - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CineMedios: Detroit: Become Human convierte las decisiones en dilemas visibles - CineMedios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: PlayStation tendrá un nuevo Portal que sí tendrá almacenamiento - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Everything is Crab llega a iOS y Android en noviembre y a consolas en enero - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendúo: Uno de los mejores roguelike de la historia está a menos de 3 € en la eShop de Nintendo Switch - Nintendúo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: A PlayStation y Xbox no les va a gustar la opinión de nuestros lectores. Muy pocos están dispuestos a pagar más de 600 euros por una consola",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWTlNUDhKN0pnS1hheVptcTRzNWlLMHpDQ2FVb0N1elM0UWFWR0NhOVZ3bVo4dUtrMmRSWGdJcWpqRVdzdkcwTFNmSVZXNWdkZlNKU0lQVjZiWFlPN0dCZFJDQm1yd1lXTENpbDIzMjRtYkZWc3VERXRtLUVSQVZoekFGNmR2V1pyS1dOVHdmOUpvMEF1T1MtekRhdmFNUTE2ejI4YjZaUDdXQ1JTajQ3RVM2dDhJUjlHTFR1TFFfWFR3WHY0aVc0ZzFXMEtYVHkwVDRNcHhGTFBrRnFFVDZlekU0NDhyRUhNUlVwVU85RDRycEw0ZVFvMtIB_gFBVV95cUxQRXRmbzlrTFB3X3V6cVM1RDBfdUxoVVhQZ3k0TnhhRXBiTlJpOFY0Q09RYXVWRlkySlhoNHVNS0ZuRU41UWFjYi12ekxEN0pHVHQ5VUtmT0JfOGdWQWhpU3ZmRmJ1azdmdnp4TS1XeDc4UkItbmRiOVQ3UExKekwxUnd5NlIweGNXTjBRMlIzbUJaOUZXM2kxejl4OTlGeFFHa3lfcGlFdjZEeEVCSFpQUVY1dFRSR1FDYTZSM1FiM05tWDhZWGdzbWtXS3c2TEo0SEhjb3F5WjhUMmM4QkQtSlR1QU0tRDU0YjNkTTU4bEdKY2ZkTWZmcUpWVV9Ydw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Hemos encontrado esta PlayStation 5 más barata justo a tiempo para 'GTA VI': la liquida MediaMarkt en su outlet y viene con dos mandos",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdFRzWnBZdnl1WkRoeW1oYl8wLUxlQVh1TDlrTnVRX2tmYjhQdU50cm9sZWF5VWZhQlczMWU4ZTFlSVJad0Fpcnd5RUVwMUhJSmRfSEk4UTlUc2VaanVnNXZDdXFTNkt4Q080Unh3WHBmdGhkR2JMWkFycTJfbUl2Y1RUYXN0aW9YT3NfOUMwdVpldm85TU80S3dqNk1FRGtrZEFjRExwQnkwcFN1OVhqRzEzRElSZW8teFJXNGpQd3NnTlF3Q1FCYTk0QVp4U3Y4NElyTS10OXpwX1dCVGpsLW9R0gHnAUFVX3lxTE5PLW1KcWVZM2wxLUpPZXU0amtBQTJfaEtUU1pMTDdjUk11U2NYMmtZTWVRMThoRlRyeVlPOWt2NFF5QnQ2VVFuUzFaWnlaRmx1aVhSRk11ZTVWb1h3Ylh3ZjJxOXZiMUZFbHBMRGswS0R3SXgtaVFjU3gtQU5ZVUE1Q0xYU3dMdXhVYy1VRjZMelBTcE9Kc3ZOM1BuTFI3VHpZRkI1NjFGX2lWM3J5UU5fck5rZHNYeG5veEdPZ0tqQUo0NTdTdWNaUnI3OXJ1MWljaldOeFp6Uzc2cHJaeUdwazduQ2VjOA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: A Little to the Left estrena gratis su Nintendo Switch 2 Edition con 120 fps, modo ratón y más novedades",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObW4xY3ZJTkphTHNqRE9QdXZMX3hXZzBuSFlYenctcEMwMGFwVFVnUHlqNlJ1NkFhbEtlRXJqNXgwb3d2SzcyVk1YSU9NaW9teVVPakZoNFMwY0JwdEc1bTRPcWhMRUpqUmloTkM3cndqZmRKTUh6YTZLalkzelp2dzQ1d1VlYWY1a3ItZkln?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: No lo sabías, pero ahora necesitas esta funda de Minecraft para tu Nintendo Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeDExUk8wdDA5Rzd6akU5S3pKRFVoTFZEMGJ1d0NmWktkOVZkYXR3Nkh6TzYzWFR5N0JvNWFqNUFMSEJrWlV2WHZQQXlzUlZoRDloUkhHMHIwaHlLSTdZa0JCeHcxeEVDZ0pUam9KbjFqRXRlTzdNUW1OS1gtc0h2MFJMNGFXdTJmSjZXemdjcUlhRVdtcExSYmpVdXFzaXhzSE94aG5xSzNqanFJczhoQ1pGek16OHFpMVpXekpiU1ZBTUV1STQ2SGt30gHeAUFVX3lxTE1sY2VlV1hlT3ppX0J3VFRtSXZuMGhvWDNxZ09YTUwzM3RxY1I5T1BXZjRpUnlZc3BySVFxeWZxTWNyTV9LWndScEVnYVBaSG9sQnM1enprNHVLLWZRNzMwbkREcy1oMGJKLXlFaFhGZUlNUzJZcmZfcVp2VnNuTm5uM0VMeHpqeUJ6Q1RXandTSE81NksyMVdsdHpLR0xqbEN6SnRNY3ltOHBNZXZtajVEd0dmS3NhQXFZQkFUN1prQXU1YUlwRU5ZOGF4bU1BMF93Yzd0Q1FyMGV5dGgwUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Mediotiempo: GTA 6: ¿A qué hora inicia precarga para PS5 y XBOX Series? Horarios confirmados y espacio que necesitarás",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSGxZSmU1eXUyUVJ4UHlQUkRNMzBNY2txdHBlR0ZqaFJqcjl5V2FIdWRDVWc4UEhyRTF6b09uRFVqTGRZa2UyM0twSGRLLWZReFBieUxSM2R6U1VnVEI2SHpSTVFKZDRnelFpRzFRazlRQWYxRWp2WmRGTXJsR241SHFLVW5CUHE5YV91X0ZNcmg3Nk5nNS0zbTNaMEVFR01MTkVVU1l6R2tRcEN5ay1ObVpqMlZyUUI1ajcxZHU1SHNWT25obWJQM0IxVXFSX2ZGT0d6ZTVrNlhMT2c3b1FwMm1qeEtQX2llRG1YLTJFNmFLSUdXTlJBbW5BeEPSAfwBQVVfeXFMUF83aWJEOTRERjRmRmJvd0FwXzFHc0dzYXlZQWw4aXNZekxRR0p1RW53RXNFSDUtVndCZS11dXpkbUQyNm5GV1Z2QUpPc1k4aTlIbnZzazdISzJZN2pNUGFsald5ci1UOXpkRVFXak9hWkRETGVkTGZMOW5fdGp4UUpuM3Z2cVBpMWN0bnk1WkNKbDRzUWZoLVNfcl9pTDQzR3NRX0dLRGtCdDB0UEFvVTQyYW5rRGI1UV9mVC1xdm9ocGdjSUlWUEhNRXRvaHM0WHlKbkRDSTFwaEVSTnJVejFZWDQ3ZnV4RG9xVGVJem1VNVJjcmRiaVREaWVw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: Nintendo Switch está a un paso de superar a PS2: así queda el ranking de las consolas más vendidas de la historia",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRGRNT0QyVzhPZ2RFTDA4R0ZkbDRFZkE1WGl6T0FBZ1VDWUNhTlQyQXM0cVZieXpJcS1udzRpSFRPR0gxU2hnd3lkVVRsZ2xaaTFkTzFXY1M0UWZ5RWJQOVdaQ0p3SnZWbVA4U1hKeThyT05RMHd1SXF5RjNtdF96WFFTWng3TVFVNWfSAY8BQVVfeXFMT0V5QmRpS3BBTVA2bmhSTmhIVjdSN0s4andVTTNJSGE5dU1ScmVtd2FqRjZoc1VTVGktc3hyYnZudkd3NXpsVHVuVHUwRnVQVHc3RTZtbDJveEdodEdzX2lRSUxKTEdWT05KcTZFWEtBZkZxTVA3UW1NeWFYaHJxY1JLcWtnckNpLTZoU1FvZk0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "La Vanguardia: Siete consolas portátiles para disfrutar de miles de juegos retro: las mejores alternativas calidad-precio a la Nintendo Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeUZiUy1sN1M4WUN6cHBjX3VRSnJEb0xDaktVMUFwOS1aWnFTdkJhMER6TTFtZ3JJY0I4dFhTcmpGdjlSWGFIVEg0OEY1NjA1bzdhNVVxNjdZQnZNTzhfTXlidGtubG8tZEFMTWxPSXU2WU9xUEpzVzYta21oaDlNblVBUWh0bjZCc0hiYWtKa3REUlZCaGNtb2hUMWduNjZiQmVBYmJXZTZPdC1SS0FSVFRPXzFZWHg2bFUteHp4WXQxY3BPMmZERXB2WW05SjU5Qm85Q0QwbjBYb1I0YllJT09Ga3YzcFpJWFFoLXFzVDdrUdIB9wFBVV95cUxNY1g2cFBPUVo0eHVuZHFrVGZDVVc2ZWRfdWZjV1p3anRUd1FWTEJWSnZKUzNaT0tQRnZGUUxUTEZwc0lrRFJwdWRHeWt0ZDFzZWxybUt2LTBxS2hPMGR0bEw4SldMNHJJWlBvbkxnbXBhR1NLR0ZWU2h1d2tpcDRNS0VvcEotZXUzc3BRWlRCLU1rX0F5a0xPVHV5ajU0dTU1ZmRLZnFkaG1fcVN3Y1VjV3Zad0NxbURCS2ctOS13a083a1hhd0V0TWZ4aHM2NGRDUi10YXAzdmNFc2prUlYwRVRFcVVOdDlUUjEyaTNmMDhXdVFBWjhr?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo Switch 2 consigue su mejor semana de ventas de 2026 gracias a la edición de Zelda en Estados Unidos",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUlU5UmQ5WkFxTG9PYk4zcFo1LUNGVnJWd2puQTd3VU5rNzZ5cXRGbzlleWh3Zjl3VTNKWWhYM2gxbDAzMWlIX01yQzFwYkNrNkprMnVlN3ZhVjBPeWdjNUhsRWtDcVR0T2RFNmRiLVpfSVB1S1NWT2RmQ09kd0pnR1BDYWVDZURZdTljRHpjZnZZYmlkc0czeGhraGpsS1VaVTNISnU3RjdIT1ZnT2hIc1JLYjNfSVBWT21IT0QwRnJWOFZSWElxR0M3RGhUdExWQWRTbW52SHF1Qi1oQ1VfUTh4SkYwUHo5VzdV?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=-DMG307zrdo"
+  },
+  {
     "id": 1794250808036,
     "fecha": "2026-11-09",
     "categoria": "Tecnología",
