@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794337207168,
+    "fecha": "2026-11-10",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "GTA 6 a 30 FPS y descarga anticipada: presión técnica sobre redes y servidores",
+    "descripcion": "Rockstar confirma 30 FPS en todas las consolas y habilita la descarga anticipada de GTA 6, un título de más de 200 GB que pondrá a prueba la infraestructura de red y los servicios digitales en México y el mundo.",
+    "narracion": "Rockstar Games oficializó que Grand Theft Auto VI correrá a 30 fotogramas por segundo en todas las consolas, incluidas PS5 y Xbox Series X, con mejoras específicas para PS5 Pro, según confirmó la prensa especializada [VF2]. La decisión técnica busca garantizar estabilidad en un título cuyo tamaño supera los 200 GB, un volumen que obliga a millones de jugadores a descargar el juego con semanas de anticipación. La descarga anticipada ya está disponible para quienes reservaron el título, que se lanzará el 19 de noviembre [VF1].\n\nEl impacto en la infraestructura de red es el punto crítico. Proveedores de telecomunicaciones han desplegado bandas de emergencia para evitar congestiones, mientras la Comisión Federal de Telecomunicaciones monitorea el tráfico, de acuerdo con la locución del video. Se estima que las ventas digitales superarán los 1,000 millones de dólares en la primera semana y que los servidores de Rockstar deberán soportar picos de hasta 10 millones de conexiones simultáneas. La descarga anticipada podría saturar PlayStation Network y Xbox Live, afectando otros servicios digitales.\n\nEn México, la industria del videojuego representa el 1.5% del PIB digital, según la misma fuente. La red troncal nacional enfrentará una prueba sin precedentes: la descarga de un archivo de más de 200 GB por millones de usuarios en un periodo concentrado exige capacidad de ancho de banda sostenida y gestión de tráfico. Los proveedores de internet locales, muchos de ellos PyMEs, podrían verse rebasados si no cuentan con infraestructura escalable. La decisión de Rockstar de limitar los FPS a 30 no es un capricho: prioriza la estabilidad del rendimiento sobre la potencia gráfica, reduciendo la carga computacional y, por extensión, la necesidad de actualizaciones constantes. Sin embargo, el cuello de botella se traslada a la red.\n\nEl antecedente inmediato es la creciente dependencia de las descargas digitales y los servicios en la nube. La descarga anticipada, aunque escalonada, concentra el tráfico en horarios específicos. Los proveedores de telecomunicaciones ya alertan sobre el estrés de las redes, y la CFET monitorea el tráfico. El impacto económico es significativo: las ventas digitales superarán los 1,000 millones de dólares en la primera semana, y la infraestructura de servidores de Rockstar deberá soportar picos de hasta 10 millones de conexiones simultáneas. Además, la descarga anticipada podría saturar los servidores de PlayStation Network y Xbox Live, afectando a otros servicios digitales.\n\nLa industria del videojuego representa el 1.5% del PIB digital en México, y este lanzamiento pondrá a prueba la capacidad de la red troncal. La causa y efecto es verificable: a mayor tamaño del archivo y mayor número de descargas simultáneas, mayor presión sobre la infraestructura. La consecuencia para los usuarios mexicanos es directa: posibles ralentizaciones, interrupciones y un consumo intensivo de datos. Para las PyMEs proveedoras de internet, la exigencia de capacidad adicional puede traducirse en inversiones no previstas. La soberanía digital nacional se juega en la capacidad de respuesta de la red troncal y en la coordinación entre operadores y reguladores.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: 'GTA 6' se lanza oficialmente el 19 de noviembre y ya está disponible para su descarga anticipada: todo lo que debes saber sobre el esperado videojue...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Es oficial: GTA 6 irá a 30 FPS en todas las consolas y Rockstar confirma estas mejoras en PS5 Pro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El Corte Inglés se adelanta al Black Friday y liquida una de las mejores Smart TV miniLED de 2026: la TCL C8L de 65 pulgadas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Todas las mejoras de bolsas en Zelda Ocarina of Time y cómo conseguirlas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Los físicos llevan cuarenta años persiguiendo una desintegración que ocurre una vez cada diez mil millones, y el CERN por fin encontró indicios s...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cómo conseguir Bombas para abrir y romper puertas de piedra en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Apple documenta cómo apagar el logo luminoso del MacBook Pro con un comando",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La Nvidia RTX 5090 ya está desapareciendo de los PC para juegos premontados, incluso en HP y Lenovo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: No era basura espacial: 2026 QQ8 resulta ser una nueva y diminuta luna temporal de la Tierra",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ‘The Legend of Zelda: Ocarina of Time’ está de regreso",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El manual de Silksong apunta a más contenido gratis tras Sea of Sorrow",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El meteorito marciano Teghaza",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "UnoTV: Acciones de Nvidia caen tras infidelidad de CEO con espía china",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzBFazRIN2RNcnhQNzV2WHQ3c0dwZ1JpQnlfQ0NUdmtnZkRpekQ3c2tRRkREdUtxa19yUUVQdFpMODYxVGtjUTRSd2Q2RXQzUlpucEhNRDA2ZHdCNy1zSU5PdmRiRHEyc3lmV2FfZUVDVlhTVzZYZkprRXBMaHFvUHRfTmIzRkJGbXRwd2ZPSjVwaTRsbTJRcWFCbTM1SnZjZlRVZzVkbi1QS0U?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Cómo el crecimiento de la energía solar \"escandalosamente barata\" ha desafiado todas las proyecciones",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5Zmcwc3JNaUFSSmRkTWhMYWhxcUVoRFdvTmFPUEpXbnhlWTQtbTVsbl9VNXl6S0hjc196REtuemZYaVFlRC1TMHNYM245VjNoZHVMRWx5U3pZUEZI0gFiQVVfeXFMT1pFVmI4VmFYYUJSV1RSYUc5NkRZbjJ1OHNYRGdxRzVlNlBwS0s3MjBBMkhOeVB3UUEwVmhqUG9wdy12UnFxTGFsanJubjJSQkN3aUNGUWFfc01sX2w2MDBsd3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: La crisis de los centros de datos: el éxodo digital que México podría capitalizar",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUDFJeFYyb3ZRMjZCTXd6bnZhQjlXTGlnSG1tWXJPS2Nia3h2MG15akpSQXpDLUJZSGtSdno0MjdhT1NUdGYtSWFyWjJ4cGNhbWFRUEphNS1GeUZWYzd1cFdaT081dVJpTTB1aWNMYUlONm1LMHo0ZmdORld6b3luTkRUbllCallvWHpRdVN1anIwbkJmYzNjR05rNUVwMDlqSlVuRndJX0FGVFhWT1lxNVcxc1dGMlJxemRPZmZvdDh1ZlhTaFN5OUxpdW1VSjVwYVhZUDM5akpqZmszbzJDeHYwM0VYSThPN19MQ0NBVG5nZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: Aseguran centro de criptomonedas del crimen en Culiacán",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdW91S0Q2LUFXb292M1R4RVltSTR6Z1ZTMVdRNVlTY1JUNHBwTWhUNnJDTnB4ME5pSW9ndFR3Mk4zeFEtVWtPYS1WdmFSVFh2bk9IaEFsMEQyYzFnSW1MVHdSdHhzSkxySE85eW01cVhWOFVRNHdGNDVOM1FzVWxud3RWY3NEMXVuZjlVbkhocU1fTGc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "MILENIO: Oleg Tinkov, empresario, fundador de Tinkoff Bank y padre del fintech, ve en México oportunidades que otros ig",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUjdyRzRfOVBYcVdVZVUtN3Nzb2ZSRl9XdXd5ZVBSQUsxWXpGU2hQcHo1Z0xjck5ZRm9NZFF6NGJKSy1IeDh0Uks0ZEgzMDhmX0tFX256YWUxeHI2WmlETEdmeUtmWkJNMHFhNVFfdTVZWWFHTkJrNmxiX3lOcktyM2NMZnVmdnJPaE83XzNnaE1qNGJuVnBteHVR0gGaAUFVX3lxTE01aTBqdzFUUEtYanRoVkJlZVU4MUFyb1dHOWFaUHNhRFAyc1hzUHd5Nkt2TFM1M2s3cTNfcFVlLXprdTVicTRqMzNSVXNZOEEyeXFSUWk0azBnRFJSekNOcnVkMFp5VFJyODVGMUx2RF95RUZxQ1l5TnhlS0pYM0V4bElHZkhNVnVoamRYV25Nd2ZyMTJ2akdmT2c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Sorprende niño al cruzar corriendo Morones Prieto",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXB4U1JteTBPb3ctelFRM3gxaGRfYWVQYnJTS3pTc1lYUFFlb29oRE1DWXFmbGhHY3Zna3dXZG1aNnNjNnlRNEpSTjRuV2lYZ0NwMC1XUnhUdFVuYndCUF9ENWROcmR2M3p1ZEZyNlZ5NzRsaGM0Qm9TemdEaEZ0NXBtc1g2dWRkTmt3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Diario: Devolverá Tesla 'gran parte' de los depósitos del Cybertruck",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTXNDakxDcE1WcHU4UG44d1dxTXJRaldFU2FsOFhkbnV5X0NnbmJLMVZQUE5UcnVJc09qMHZvSk5kajRwb0JpRy1fSTVkVndVcmV6cFFxQUVmLUpINThKb3BTNjgwNldjNE9KLW9ZUThpOVJ2Z0lvVkcxdjRfZzNCejFqT2x0c1RvQ21USWpiY2V6RkxMZzFDT3YxYUFDYjdyMHpYRFE2bGxIQXpoeXl30gG0AUFVX3lxTE93YXB5S3J0SFQtM2dnSWs2TjR6UXp2ZlV0QnU2VVZ0OTV1eHphM3NUMjRTQzUtczdoTE5WVkZhSnlRUmVVcXlEd2MyQ1VrQnBaeGRCN2dkSFlZYXo1a2dFeHhoSU5iS3lTMVR0aThKQU1nSkN3aE02cGkwZkJ5TlNZbkVvcHpFTW9jcU1LR3RpWUpRMHVPOTJxYzN5VEtMeG5ISHY4S2puZGM4UzF5RG1qdVlKWA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El costo de pensar en español",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0trdk9aUGhvbDVnRjhrVWpkUlpSVENXZG5oWncwdHRzSmRNUnViOWlWLWpJcEJfRjkzN0owYzBCaENyWVVCa2MxM2lCTkpoVmRBLVVUMUdmcWctdjIzVlR3QUk3eFJMcTQyMjlIU2JDZzBPa0oybVFYRjJEYTdSb1ZFR3FQeWhVZS1hNXJzVGF5SEN6amtkU3U2cw?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=nePdkS7yR8Q"
+  },
+  {
     "id": 1794333606672,
     "fecha": "2026-11-10",
     "categoria": "Farándula",
