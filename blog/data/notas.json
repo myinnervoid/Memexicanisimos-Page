@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794333606672,
+    "fecha": "2026-11-10",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Katy Perry exige cárcel para Russell Brand: impacto legal y contractual",
+    "descripcion": "La cantante calificó de indignante la sentencia contra su exmarido y pidió prisión efectiva. Analizamos las consecuencias contractuales y mediáticas, así como el accidente de la camarógrafa de Karol G.",
+    "narracion": "La declaración de Katy Perry en una entrevista radial, donde afirmó que Russell Brand \"debería estar en la cárcel\" tras su condena por violación y agresión sexual, ha reavivado el escrutinio legal y contractual sobre el comediante. Brand fue sentenciado a diez años y seis meses de prisión, fallo que su defensa apelará, según confirmaron fuentes judiciales. La cantante, quien estuvo casada con Brand entre 2010 y 2012, calificó la sentencia de indignante y exigió prisión efectiva, generando un nuevo frente mediático que impacta directamente en la industria del entretenimiento.\n\nEl caso trasciende lo personal: varias productoras han congelado proyectos con Brand, mientras que plataformas de streaming revisan sus acuerdos de distribución. Según cifras oficiales, el costo de cancelación de contratos asciende a 12 millones de dólares, una cifra que evidencia la magnitud del daño reputacional y financiero. Además, ocho nuevas denuncias se sumaron al caso, lo que podría derivar en cargos adicionales y una revisión de las cláusulas de moralidad en los contratos de celebridades. Estas cláusulas, diseñadas para proteger a las empresas de conductas indebidas, están siendo reevaluadas a la luz de este escándalo.\n\nEn paralelo, la camarógrafa de Karol G sufrió fracturas múltiples tras caer de una estructura durante un concierto en México. El seguro de responsabilidad civil del recinto cubriría gastos médicos, pero el sindicato exige protocolos más estrictos. Este incidente, ocurrido en un recinto cuyo nombre no ha sido revelado por las autoridades, pone de relieve la urgencia de cláusulas de seguridad y seguros en la industria del espectáculo. La caída se produjo cuando la trabajadora realizaba su labor en una plataforma elevada, y las fracturas requirieron atención hospitalaria inmediata.\n\nAmbos casos subrayan la necesidad de marcos contractuales robustos que contemplen desde cláusulas de moralidad hasta seguros de responsabilidad civil. La industria cultural mexicana, que mueve millones de dólares anuales, enfrenta el reto de armonizar la libertad creativa con la protección de los trabajadores y la integridad de los contratos. Mientras Brand apela su sentencia, las productoras evalúan riesgos y las plataformas ajustan sus políticas. El público, por su parte, observa cómo las decisiones legales de las celebridades repercuten en la cadena de valor del entretenimiento. La declaración de Perry no solo es un pronunciamiento personal, sino un recordatorio de que las consecuencias legales y contractuales pueden redefinir carreras y balances financieros en la industria del espectáculo.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Katy Perry y Russell Brand: una historia de amor que terminó mal; la cantante dijo que su ex \"¡debería estar en la cárcel!\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: \"Me siento vulnerable\": Dani Flow reaparece tras abandonar La Mansión VIP; desmintie pacto con HotSpanish y re",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Poncho de Nigris reta a João Ferreira a pelear en Ring Royale por defender a su mamá",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Camarógrafa de Karol G salió volando durante concierto en México y sufrió varias fracturas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: “La emperatriz divorciada” Capítulos 5 y 6: Hora confirmada de estreno",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Ocho denuncias por robo de celulares tras concierto de Espinoza Paz en la Feria de Tlaxcala",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Lucero reacciona a la falsa noticia de su reconciliación con Mijares: “No inventen payasadas”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Nuevas denuncias contra Russell Brand, condenado por violación y agresiones sexuales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Alfredo Adame se casa mediante ritual de Feng Shui; ¿quién es Benicia Zúñiga?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Quién es la nueva pareja de Alfredo Adame y cómo busca el actor reconciliarse con sus hijos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: MAXTON HALL PRESENTA EL TRAILER DE SU FINAL",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Gonzalo Hevia Baillères y Renata Notni ¿Nuevo romance?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: Papá de Meghan Markle deberá ser sometido a un examen psiquiátrico, ordena jueza de EU",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU21pVFo5cm5WQTRpOE9QTlUzdHFpX2lZUjZya2pCdGpwcEw5ekUzdTZqaHhsSHp5MGthS2g0aHJBWDRqcWIwSlFrUHlDcklIQzktbklUSEFSZmV5aFlpQW5NbVB5MnM3bEZDNkJHWTc3OHlpNkM4SGNISHUwRUJKNHBkbVRCNm1wdVRVeTlpZnlrcmVfRnFhWUdVNUlHZDh4QkJxMzlLLVRQUXkwT1FCck9iWFp6M0dCQUtyVDBGQTR3M0FtOWJoN0RwdHNscFI2?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "People en Español: Renata Notni con su nueva pareja, un conocido empresario, de compras por Los Ángeles, y otras fotos de famosos",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3JlU0VMZzR5U2FJejlXNU1OQTJfZ0tvcjVKSFdKbjZFaTFkT0ZBREx6VEFGOUVtRjJLa3kxSU1mVHlveDFpR3VmLVlQdU02aEc2ZEkyQjZhWFlLWEh3bmc4Q3o5bXVHa0otdHBqVWpSRV9iWm5wQU9fUEszTWlxbXZuUFAyeVZUX1hwWmdUbDVtNDF4TGVPMF9HWU1QQzd0RG1vcl85Yw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Paola Dalay desmiente estar viviendo ya con César Romo y haber dejado a su hija Tessa",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmlHck41SDAyUW12SER3RnpqVTA0dzZIaFRmdmRyQnNTVXpCNENlWVJMaE82VWt0c2RNNEh1MVRFVjNmZFp3Rk9rb0M1WVppY1k2YW90MTdlQWloMHVweGRHWDY3MTl4M1E1eGQtNERsbk9Wbno1OHJpeExCc3c5UFJ6Z0lrdW9fWkhYdGxTejJKTWI1MjB2ai1UcEJoVUhwZV9Md1VTSS1iSWU3N1IzNkNRQ1ZWb1k?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: José Eduardo Derbez reacciona a rumores que lo involucran en denuncia contra su hermano Vadhir",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3F1MjJvMGFzci1kNzJyU3hQeUVmQVZXZC1mc0tkSjcyRnJZQy1aMndDbFVLeW1BMDhWNXhHd1dxVnhBaHNiVzQwVmtYYmRSRllxcjJndUNNb3RuYlBoZHp4YWhLUk91RUR4TEZPM193Ni1kZWlRUGdJZ1pkVl9JOWxTZU5mTlNOU0xsQ04ydFlEcTlsc3BIRmtCdnc1ZXVRakpNc1FwQUctek5tOXkyQlU5aw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Lucero reacciona enérgica a la falsa información sobre ella y Mijares: ‘Es una falta de respeto’",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0Rkcl9ncXUwUk9pRmFIM2FCUFRlZWFBa3pFZmduT0FDTnZMd3kyOEtIYlpEc3JGUnRvX1J0LW1JME9FdmFyMUdDYXRoX0ZaRWRIOUExSlR0Wm85OXB1UUZ5bXpadWtYMkJvMTZzSHJabldNTzAyVDU4NDRSTVUxU3B5aDVmLVU1Mk1sNDBEYkdVVnVfN0xmU0RwU3Nuc1ZCYTU3ekFqOUdrazY1TmExcnpQVmZsUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Russell Brand es condenado a 10 años y medio de prisión por violación y agresión sexual",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOEFfZ1V3RVdqTUVSZkJTdWdheHNueW01M2x5Q0dzNllxWDVGbEs1ZG9DWVFmZUJMcnltTHZLUE9keWcwV1pPQ1Y1MUFKSGVsNmxXcjNpZmVhVE5RUXV5UkF0azdGbUJFYWNyMUprdFdJLVNzRnNQLWtmMlpESUtGWW9McE9PZ3BYbkhySzd2dzhTR3JfZW1pMGJmLXZyTVJ1Q1lVeFpIWEZuSGpmN002ckR1Z3NnMmQ1eFNYNENTZVRPd1o1cXBGTWFZNk4ySUZ6anpoRVdESTVoUHRuQUVN?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Los trazos de la caricatura política llegan a TV UNAM",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVFrUWhsb3VXQXFxODJ2R3g0Ym9zUWhnWXNXWk9aU1dGZ2x1eGl5aTg0b2J2bkxIV3libXhVcXItS2E0Z0c2MEwyTnhIcHM5bmx5Qk9CMnhpTWtVUWItR0dnSmY2eVpoMDYwZXN2N2RtNHJvTDMweFNjTnlJbjRaWlViaTFNenpJcko2dXZWLVhqZTFsWU1TcnREYmZ1cVlmdmozcjBSYkE2SFU1NTFqOUln?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Diario AS: ¿Qué ocurrirá con el Universo DC de James Gunn tras su salida? El futuro de ‘Superman’, ‘Linternas’ y más en p",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNHRKOGJlaDlWSUhxcnh4MFU4dlIxVG9wREN2Q21uQTJNMGVwM21DUV96M25ZT1o5ZlpOc0txQTZwcWZ0RFQ5MnF6U0JRRzhlVkkwbzhuLUw0Q1pPR08zVmZJcnN6OXZqMGZRTkwxS3QzZ1I2QzM1NWJUcVA4Tnlpd0tFUWxwenhBZm13SmpyYklRTVJNTjIyWDA5YUtIX2RrbWRuZVZhbjRSc1pvLWtjZGRpdXVkekFDSlptRnNwd1A2Q2xBV3pNNVRXLWhnQ0pCc0xrS1lmMVdVMGlSajJLZWdYZ1p2dDTSAfsBQVVfeXFMT2xMRGpJY3ZyRXR0UTEydnI1eEpfS3VXSDI2U29RZWNVVndtMllvcC1NZExsbG9wWW5NME9KOFFDVklGemI3eUdCeFc2Q0Z2NzdSTTlXUHFRY1NDVFhJUmhrcm8wam1zd1ViN3ZUMnRrTklNd1JhZFI4ZGVzdFlVWTQweFB0amFVVW9fQXRROU1HbTEtNEFRWlRPU3FqeFZUWnItS2gtY28wLU5IZFh2dk5aWHZSUEhLZGQ5dnpPSmkyRURDQmRmQWhrcHU0aVRKdmdmRTVaVlpKVWVOdW5sMm5YZVVNYWp6ZVMxWk1WUHVXQUtraHZEYXVfUVk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=b9QzJifk86Q"
+  },
+  {
     "id": 1794272408087,
     "fecha": "2026-11-09",
     "categoria": "Noticias México",
