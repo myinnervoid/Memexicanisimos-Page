@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794351606003,
+    "fecha": "2026-11-10",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "PlayStation cancela Fairgames y cierra app de PS Plus en PC",
+    "descripcion": "Sony confirma la cancelación de su shooter como servicio Fairgames y el cierre de la aplicación de PlayStation Plus en PC, mientras Nintendo prepara regalos en Switch 2 con la actualización 23.5.0 y Metaphor: ReFantazio confirma tres modos gráficos.",
+    "narracion": "Sony Interactive Entertainment confirmó la cancelación de Fairgames, el shooter online como servicio que desarrollaba Haven Entertainment, y el cierre de la aplicación de PlayStation Plus para PC lanzada en 2024. La decisión, reportada por 3DJuegos México [VF6] y GamerFocus [VF10], implica la pérdida de años de desarrollo y una reestructuración en el estudio. Aunque Sony no reveló cifras oficiales, fuentes de la industria estiman que el proyecto superó los 100 millones de dólares, una inversión significativa en un mercado saturado de juegos como servicio. La cancelación evidencia la dificultad de sostener títulos de este tipo sin una base de jugadores sólida, y se suma a una serie de fracasos en la estrategia de Sony por los juegos como servicio, como señala 3DJuegos [VF9].\n\nEn paralelo, el cierre de la aplicación de PlayStation Plus en PC reduce las opciones de acceso remoto al catálogo y afecta a suscriptores que utilizaban la función de streaming, según IGN Latinoamérica [VF2]. Esta medida representa un retroceso en la estrategia de Sony de expandir su ecosistema más allá de la consola, y deja a los usuarios de PC sin una vía oficial para acceder a los beneficios de PS Plus en sus equipos.\n\nMientras tanto, Nintendo lanzó la actualización 23.5.0 para Switch y Switch 2, que prepara el sistema para una nueva función de regalos entre usuarios, con mejoras en la interfaz y estabilidad, de acuerdo con Nintenderos [VF1]. Esta actualización busca fortalecer la dimensión social de la plataforma y optimizar la experiencia del usuario en el ecosistema híbrido.\n\nAdemás, Metaphor: ReFantazio confirmó tres modos gráficos en Switch 2: rendimiento, calidad y equilibrado, con resoluciones y tasas de cuadro específicas que buscan adaptarse al hardware híbrido, según Nintenderos [VF4]. Esta flexibilidad permite a los jugadores priorizar fluidez o fidelidad visual según sus preferencias, un enfoque cada vez más común en consolas de nueva generación.\n\nEstas decisiones corporativas reflejan un reajuste en las estrategias de las grandes compañías: Sony recorta riesgos en servicios en vivo y reduce su presencia en PC, mientras Nintendo expande funcionalidades sociales y optimiza su ecosistema. Para los jugadores en México y Latinoamérica, la cancelación de Fairgames significa menos opciones en un género que ya mostraba señales de agotamiento, y el cierre de la app de PS Plus en PC limita el acceso a un servicio que muchos suscriptores utilizaban para jugar en streaming. Por otro lado, la actualización de Switch y los modos gráficos de Metaphor: ReFantazio benefician a los usuarios de Nintendo con nuevas funciones y mejor rendimiento. En un mercado donde los lanzamientos y las cancelaciones marcan el ritmo, los consumidores latinoamericanos deben estar atentos a estos movimientos que afectan directamente su experiencia de juego y su bolsillo.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: Nintendo Switch y Nintendo Switch 2 reciben la actualización 23.5.0 preparándose para su nueva función de regalos y más - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Sony-cierra-app-playstation-plus-pc - IGN Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Informador: Just Dance: Decades of Hits se actualiza en Nintendo Switch; Todas las correcciones aquí - El Informador",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Metaphor: ReFantazio confirma estos tres modos gráficos en Nintendo Switch 2 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Las preventas ya son más baratas en Amazon México: si apartas dos videojuegos recibirás 225 pesos gratis - Xataka México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Es oficial: PlayStation cancela su nuevo juego como servicio, el shooter online Fairgames - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendúo: Nintendo Switch 2 por 300 € y packs con juego desde 355 € en el 11.11 de AliExpress - Nintendúo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Persona 4 Revival iba a lanzarse originalmente en el verano de 2026 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: PlayStation vuelve a demostrar, con otra cancelación, que su apuesta por los juegos como servicio sigue siendo un fracaso - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "GamerFocus: PlayStation canceló Fairgames, otro de los ‘juegos como servicio’ que tenía planeados - GamerFocus",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Novedades de Campeche: Amazon México: preventas de videojuegos ahora más baratas - Novedades de Campeche",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "DiarioBitcoin: Sony cerrará la aplicación de PlayStation Plus para PC el 10 de diciembre - DiarioBitcoin",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "VidaExtra: Confirmados los 10 juegos de PlayStation Plus Extra y Premium de noviembre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa3JrVWx3N3MtMnZjOXVYLVFia2dUQndFUWotWHZXcEdMbXBNZ1Y5UUJQOFcwM1I0OUk3aXdBUVVvWWpWTm9ldjZsandncmVaeVJUTG1qSTJLckNPQThVNEdLUjFZUklCSU0tam5ZeGpRVDFkOVVaRC1rdW9iMDZCeEVIV1BMZTMwdUt4ekJKdGZSdVp4T01GMTlpSGdOQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo Switch y Nintendo Switch 2 reciben la actualización 23.5.0 preparándose para su nueva función de regalos y más",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVHVWRXZqNEU4VjVzRnJqSEdsNXc0anhhclMwd0dSWFlSQXdFei1EblQxVnB4T0tLcG9YMzBuSzI2X2xfS3ZfOHJHdTZHcll0c1ZIWk54U0pVclFKcjRFSWpVRThvcDF1MG1zT1M5UkUyV3p2QjN1eHh1bVVqV2Z3cm9pUUh0TmVJRXBJbi13bWpqeE5NLXc0SmdNN3VXeTVsWGFwOThFbzMtSF9MdnNaVEtLamJieXViVVRtd0xUaDJUTXlDNGZSUmdIaEU4T0Y5Q0lrUVE0MEx2WVRwZkRINkJST3h1S0ZDZEN5bFVMVUZxMUQ0OWdBRTFB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation: Catálogo de juegos de PlayStation Plus para noviembre: Death Stranding 2: On the Beach, Like a Dragon: Pirate Yakuza in Hawaii, Atomfall y Dragon Quest III HD-2D Remake, entre otros",
+        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPYUplcFhEdTNTU00xOU82eWpSQ2NBU3RCLVNoSGJZdjNJazhsZGVzdkhHUzM0WG1FLVNaUUJnSEpycy1xTTlZcUhEMjRQNzVTTlplS2dJYWlUamxIWXo1Nng5MC1BUld3VWZIRUhFaG9iQzhDOU56Ylo2b25XOUoyMExRMVdjdWxhTzBkRjlYZlZ2ZWRkcnVpekZWdmFTdE5xMC1JY0hrSzRRV3NsbUU3SVZxTEt1ZTF3MkYzNnY0MlM4MGhFZGkzZ3hTUWtGQmE5XzUyZE54cG9DTnljWWVUbUgtOWk0V25HeVFMaUQyVVdoU3F1clM0ck1ZajU5UVVQdnNEdXpnSnBwaWUyRlRkcHNXYjFST0ZMMDZpUl9sS0l5QVRwYU9xRkR1ZnVVRDlRUmZvblExMjR5TjFFaDY2Qg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos México: GTA VI se podrá jugar en Xbox One desde el primer día: Cloud Gaming le da una nueva vida a la consola de Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOODBfSnNVbG45VmVrR3JyZ2RlT3ZsSWNxLWp0RkFZM1dRQ19xNUt2TWFRLTNkZl9GMnNYWHJpUzhRaUdOa1N1ZDNrQzkySUtEUkJUTHFKQ04yZFZSaTl4d3pWRmJ0QlBGS1lrX3F3R182dzNGZEhwX251bW1kWDVfMGpMNEFUajI3WWYzSzVQV0Q5cUZBYzdHaDVCRzdFQUNVMjlqcGowdDVNTWRJa3JMZmZFcjRoRTYtX3lQNUctdk1vZnRE0gHKAUFVX3lxTE4yRXpLaHFOdldRZGlfRjdpNjZqUElrRHRnanFfS0lzMDRQazhud0c2TjJvTU5sQ0FaV3FEOEROMlNYU3J4eDdlTDVPZ0xGU1luZGtkdDJpSGJ0OEZaYU1LTE5lR1RldUhtNWVhc1loNEMxMnktQnlQOTE2Mm9QZnFIVU1BZHdBS0pSamVLRVRnMENmZ1pBOGNPVkRHRFVHbWRBbnZHQ29oNTJqSWtrRmpPb1VDY1plLXBFVG9IdEhkc3BfU0JTODN3cEE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Amazon está rematando uno de los mejores videojuegos de 2026: Resident Evil Requiem para PS5 y Nintendo Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNU5tc1VSWGJXTUVXOHVHd3JmTlBTdWYwOTRVTEd3eW9qWjFIOTZDSjUwOXlaTmFqUG5Cd2tsRUh1REN6Z1JsaHNJNHE4SmdBcDFGWW8tUTJBOGhjUXlrVWxxZFpHNDhSYnpNQkU3Rl9xVlZTU1A2TTMyeEFGMEVkWlgyMnVkYkJzU3RLUzVkZFZQUXh4OU1SU0Rab1NmZmt3NXZyUWxKSUZqWlQ4Yjl6NVBPVjRqblliNndyMVJGRW9nOFVtNXpjSWtjQWdaSU840gHWAUFVX3lxTE1FbUtZYnNxTldOYkI0MHhyenFlMmdEMDV4bC0tR0k3QTVWc1dCSF9hc1YzOWF5U3E0ZGlmelJUcC1KeTVBOWh3Wjh0Y0doYlpJaFIwNkhkVHdpQlg0Si16blFDMUZkWU1rR1o3UU03azFyRU1ja3RCWmZqRDFRdVI2VjRUR3lITEdKdDFmM21fTWo5U1BHVVp3d3JEcUhHajZOU0NxaUJZZTlqNU9oZWJ4WDkxQURwSUlJSEI1b3B6YjMwZVJDU2FBNjZvbkRxbHpFOHBUaWc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Es oficial: XBOX confirma un gran acuerdo con los dueños de GTA 6 y una función para el juego de Rockstar que no se verá en otras plataformas",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTlV5MVI5WVJ1UjAtN1hBdHRJU3poZXJLdmxoekNJb2tXLUE3eGJjUjBEQUhoRklILV9VS1R4dWk4NVM1OXN2WHpReFAyZC1fb2ZWa0l5THBjVTJCWlZJTU96RlktN2xxbGluc2VPRjAyZkI3ZFBOZnN5VVdOSlBndDktOXBUZWlPdENGanFiQ0VwZncwNG1VMzM3V3BuaW5IQ2trQmtfVjg5OTlaNHB0SXZlUFlua0x2SG9YM19XLWpHeUtlbzh4ZGladXkzb2dyLU9va3ZOc1ZOX0xMSjlUb0tCNmQ4bXFBWVlFZUMyY2l2cnNQTUkzR2htbVFaQdIBgwJBVV95cUxPd2ZDVVRPZkhYck1teC0zaVdGdlQtbFlzVnlVN2ZoRFpGQmFxM09YWFhDU2pqLS11RWZjaHRBT2p0QkVSb05qc3RSVjlneXJ1ellWSno2elIxcEloVUdXeUNvUXNhME9wcTJoX2w3VFMzRFdRYjVzVy1Jd3lJbjBDS2tjYzBrQkZiNndFd3JIY0NQZlgxSEsxUVdmZncxbkNHZTgzdTJTY0pTMTYyRHBlUDRNdGFNdGhBSjYzTG1jWkhTcVY3TTNObUkza2YxYi0telNuTDNmZnoxTENRcTdjU3JsRlllTjdiWTZlTFJwLXNYSkp0dkdsVXhpYzJMc0N2VHlz?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "IGN España: GTA VI no llegará solo a PS5 y Xbox Series X/S en su lanzamiento, aunque tendrá limitaciones",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN0luWnFRZ0FpMDY2WmJjR2tpMnE4Rm1Yd3A1cTl3alJqbGpVbDdKQ3d6OTFMNm1iMG9ZdU9peWQtVEdDbnl1TXd1MHpwWWJwSVVKdTlVVzYzem9XSzc1RGlGMjlIM2toNFZueGxSUXBLOU40a2JyN01FZE52VlNaZlNaTmtBT0hwTGJRYmRMWlhWSFY3LUVQRURSNGgxaDNfaXV1bVNFUFdSNlFPcWR2Y09sU1Y5ZGlEcWZWWXRoelIyUnJ0MkZqYnRaQmFRZF9yekE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "DiarioBitcoin: Sony cerrará la aplicación de PlayStation Plus para PC el 10 de diciembre",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZVRWYWRrcUdHM0pnRDZZWTVzVmlkbm1tVzI2RWdDV2wyWXdKSGlHVXRMR2NQbmRHNkE4U3FzbDVEbW1xamZERlFyZEI5a0I2RUZucDREYzN6bEZMTDVVVThMN3JvYUZMa1p0c2FpTnlMSHYtR1BUS0ZrUHRZNlhKWXNEOEZoR2hGaFoyalgyRG9kOHctSmozTWdmLXh5NU81Z2tlNWFqNkgwWVJMSkxIN0pkajdSUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=wlJBXaSLF0U"
+  },
+  {
     "id": 1794337207168,
     "fecha": "2026-11-10",
     "categoria": "Tecnología",
