@@ -1,5 +1,135 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794272408087,
+    "fecha": "2026-11-09",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Presión social y laboral sacude a IMSS, INE y reparto digital en México",
+    "descripcion": "Trabajadores del IMSS exigen la renuncia de su líder sindical; el INE enfrenta un paro nacional que paraliza el 64% de sus módulos; repartidores liberan Santa Fe tras bloqueos; Guanajuato proyecta su oferta turística y Andy López Beltrán responde a Salinas Pliego.",
+    "narracion": "La jornada de este 9 de noviembre evidenció una creciente tensión entre las instituciones públicas, los derechos laborales y la ciudadanía. En el primer punto, miles de trabajadores del Instituto Mexicano del Seguro Social (IMSS) avanzaron en una megamarcha hacia el Zócalo de la Ciudad de México para exigir la renuncia de su líder sindical, Rafael Olivos, a quien acusan de imposición y falta de representación. La movilización, que inició en la sede central y recorrió avenidas principales, paralizó servicios administrativos y generó incertidumbre en la atención médica. El conflicto se remonta a la pasada renovación de la dirigencia sindical, cuestionada por diversas corrientes. El Sindicato Nacional de Trabajadores del Seguro Social no ha emitido una postura oficial, mientras la base trabajadora advierte un posible emplazamiento a huelga.\n\nEn el segundo punto, el Instituto Nacional Electoral (INE) enfrenta un paro nacional que ha paralizado el 64% de sus módulos de atención ciudadana. Trabajadores de Jalisco y otras entidades exigen un aumento salarial y la revisión de condiciones laborales. La institución ofreció una revisión para subir sueldos, pero el paro continúa, afectando la credencialización en un contexto de preparación para los comicios federales. La protesta se suma a las tensiones políticas entre el INE y el gobierno federal por el presupuesto, e incluso la presidenta Claudia Sheinbaum pidió a los consejeros del INE bajarse el sueldo, según reportes de prensa nacional.\n\nEn el tercer punto, repartidores de aplicaciones liberaron el bloqueo en Santa Fe tras varias horas de protesta. Los trabajadores exigen mejores condiciones laborales, tarifas justas y seguridad social. El bloqueo afectó la circulación en una de las zonas comerciales más importantes de la Ciudad de México, generando pérdidas económicas. La liberación se dio tras una mesa de diálogo con autoridades locales, aunque no se alcanzaron acuerdos concretos. Las empresas de aplicaciones no han emitido declaraciones, mientras los repartidores advierten que continuarán las movilizaciones.\n\nEn el cuarto punto, Guanajuato proyecta su oferta turística ante el mundo con una estrategia que busca atraer inversión extranjera y visitantes. La entidad, que ha enfrentado desafíos de seguridad, apuesta por promocionar sus destinos culturales y gastronómicos. La Secretaría de Turismo estatal presentó un plan que incluye ferias internacionales y campañas digitales. Guanajuato recibió en el último año a millones de turistas, según cifras oficiales, y busca incrementar la derrama económica. La proyección internacional se da en un contexto de recuperación del sector tras la pandemia, aunque persisten retos en infraestructura y seguridad.\n\nEn el quinto punto, Andy López Beltrán respondió al cuestionario de Salinas Pliego y le lanzó sus propias preguntas. El intercambio se da en el marco de un debate público sobre transparencia y rendición de cuentas. López Beltrán cuestionó al empresario sobre sus prácticas fiscales y su relación con el poder. Salinas Pliego había publicado un cuestionario en redes sociales, y la respuesta generó revuelo. El empresario es conocido por sus litigios fiscales con el gobierno federal. La respuesta incluyó preguntas sobre la condonación de impuestos y la concentración de medios. El intercambio evidencia la tensión entre el sector empresarial y el gobierno, en un contexto de reformas fiscales y mediáticas.\n\nFinalmente, el Buen Fin, el Black Friday mexicano, pondrá a prueba la seguridad de pagos digitales, según reportes de prensa nacional, lo que añade un elemento de atención económica en la semana.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: EN VIVO| Seguridad, narcotráfico y crimen en México hoy 9 de noviembre: un presunto guardia de seguridad reveló oscuros detalles del Cártel de Sin...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Guanajuato proyecta su oferta turística ante el mundo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Ofrece INE revisión para subir sueldos; paró 64% de módulos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: EN VIVO | manifestaciones y bloqueos hoy 9 de noviembre: Avanza Megamarcha del IMSS con destino al Zócalo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Trabajadores del IMSS marchan en CDMX; exigen la renuncia de su líder sindical, Rafael Olivos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Repartidores de Aplicación Liberan Bloqueo en Santa Fe",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Trabajadores del INE en Jalisco se unen a paro nacional",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Andy López Beltrán responde al cuestionario de Salinas Pliego y le lanza sus propias preguntas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: \"El Buen Fin\", el \"Black Friday\" mexicano, pondrá a prueba la seguridad de pagos digitales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Sheinbaum pide a consejeros del INE bajarse el sueldo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Presunto exguardia de Los Rusos revela fiestas gays privadas del Cártel de Sinaloa | VIDEO",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Operativo de captura al 'R2' deja 21 detenidos, entre ellos 'El Fénix' del CJNG, un argentino y un estadunidense",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Diputados discuten el PEF 2027: recortarán 6,000 millones al INE y reestructuran presupuesto al Poder Judicial",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Elimina PJF reglas para evaluación de desempeño",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Caos vial en Santa Fe: Repartidores por aplicación bloquean en rechazo a la placa mercantil - La Prensa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Operativo de captura al 'R2' deja 21 detenidos, entre ellos 'El Fénix' del CJNG, un argentino y un estadunidense",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbklzekoyZnJORXBNYWpRUnUxQXlGR0dxQlh1bUFrTXFkWm9TS2xRVlp5N2oxQWhmRF9qLUQyUUQ5U2JpcWg0OE5taFRPZE9KMlVtR3ZrUk84Q1QyVmtEUmU2WUJlR3cxN1daS3BramItSk8wM2IxMnpvUWs4SUk2V3dRMUEzdzQ0SkhMcXMtenBYaGphYVdBM1lrVnpFc1BfNndqTk1HUTRRWDdYR08xS3pWSDM2QktLWWVsdHpQVm5VaGkwWS1IWlp4ZzdDdUVLQWFWa0pKMG1nUEVUZkR4aU03QVJHcDA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Trabajadores del INE protestan en CDMX para exigir alza salarial",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLWoyd3hndk03U3ljWUE0ZVprNV9rYUN3Sl9yNlFxTDg0QmdXYVJiR2tYR3h3RXBza1JiX2J2SlJOUUxKRi14QTRtclItZEtfR0FralJpTTRSYUtkWjU2TnNILVRpY19lbUpIQ2tveVQzb3BFQlV2WERpN0tQRFR0ZURodkJwZjZWalgwaFNhanNmekhOdTRnV2hlc3VmMUo3Z1c2U0ZUYVJ3enA4ZkRGcG42WGEzcS1uR1NieXZ2ZWdRTnJWb1dNcE5CR3NpYUYzQU9KcENXbHVQd1JWSG9NOTRPNWc1LXFQMVpkQ045YWJpdWotT0E?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Ante crisis en el INE, Sheinbaum llama a consejeros a bajarse el sueldo y ser más transparentes",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUmYtNm4xVkcwV1Y3Ykh0a21VRE4wN3FOZ1RxbzhCR1NoZnp5djlDSTJLWFZ5bEZWVU41NGowTEtuOWM2QmhpRkpUdmxURmRGNlZRc0Y5aE5NbDZoU2Jjb2VIT2doMTZNTG1RYTBrODFKME5hOXQzNGNiRW1qTHlIVnVqV0dVLXdKVmpfLXFEMGNLeGxGaU5jU0g2VmtQSWxqQUJ3X2VIYmluUDhBQVlnTENrUjhXYkUzVXU2SkVfWTJjVUFhSnVMNm13d0V3WDlCdGUyVEZmVV9Vb1h6UHp0alFudw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Siguen los dimes y diretes entre Andy López Beltrán y Salinas Pliego",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQmdyUGw3QkVCZWNyZzgxX1EtTk5CSm1NUENNNGYyUU9CZFdpcVNPb05NTy1HSnhrWGlfeG5sTWxIOXJpWjRJbTVjMTJGQTE5OGh1LUljWElaNGttQnN4eW9JX1FvbFllYTNsT0xWbmRhdXFnbnN4MnJSUGtvdjM2clFKYnk0QmNVZWI4SU5KZndidFNSZ3E4VVJPQXQ2aTRxNDVnZEtyR3RNUUt0YS1UWUlOdlJBSEZvamF6SjhrRFpEZmN6Zk4tSGZ1N1Fia2JXUmRZRnd5M3JFUnd1NFFNUXlCMNIB9wFBVV95cUxOUjdvYXZRdmU4anc1T0R2UXgzMzlqUXhhbFVUcUhhUmpWSl9ZNERqc3FNS29BMjJjdENCNUQtdGdiQUtJTUg0RGJ1cXFUSWI2ZU1DanFwLUNzeXhsSlFoYVRWakd2V29ScVhpdVhMSDdva242b0RXRVN3U0dXb25aT1p2dWtFRy10bXJkWTRsR2h2RjVtcGtNazhTbU9hYnhzc2ZfZDQ5WTkzUlo0TVpCLTZFMXFseGNaaEtOU3RYSVI4eU82aFhwTHNqcmNLMjRoUGxXNnhOZ0pQSU44VWxrQmNnVTk2VFhCbkdWcnhZSndiRUVKdmc0?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ‘Nada más que pasen las elecciones’: Sheinbaum volverá a mandar iniciativa para acabar con ‘pluris’",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcFllZFRUeUh1aTdDOUMwaVg2bmhCUWpvaW1FczVfRWVCZXFWNFpDZDRsZXdLYW9xY0cxU3lNNUdTM0hTQWotUlJFanRQcTlYXzZJeWdaMTF6XzdwUlNpbG1wRmNidkhGZ1cwRy1aaWJJbENZdy1UTTU5ajBLTTlETWZoWVU5SHJzZlVndHNfRmU5MGVaWXptVlJtNlNieVpaNFV1dWN4bm5pTmtnUVRkZExHbU5NYWZRM0hUbA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Crea PRIAN nueva bancada y retoma control de Congreso",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFBvWXcyV1Q1WWIwMGttNGp0WGpnQlVGMkN6NjlBRkg4TXZvYlN2MU1tMmg3UWV5QUh2NnBZWlRIYXRhZUpocElJN1lqN1ZCQUZNdE0zdjFhUVNVTlFheFgtTVVjbXVEZ3U2SXlDYWt4YldEVHJFNlYtM2R6UTI0MURjWnNLTDg0STc2RF9LN3M?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Acuerdan la Corte y sindicato del PJF quitar “punitividad” a evaluación de desempeño",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3BVTzhmS0VxT2QxTE5hWW5pWW4zZTc0V1lHajY2bmJ3c0ExeHBZc0FOaF80bnUwdE9YeWRQSE1fa1JPejdnUHp0UUVkbFJjb0kyVmVpQkpYOUhmUnVLM3NHY1BRWTFMSHdmMlhSY29nWngweU16REVRUXo4alJvcTFBOWFsWDd4d0lQTHIxZ2NpWW9BVms0Q3BWMjlHeUhxV2NaeWZSTzk3RHU2ZW9JRlZqdEtXVFpyY3Bpc3VYeURMRzRaeTMwbTdMcw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "MILENIO: Segundo MEGAPUENTE de noviembre: las FECHAS de DESCANSO para trabajadores y estudiantes en México",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQmxkNEp5b3VGWi1fVTBGbVZVX2JwMmwzR0lkZ0tndmp5QnBJTVlfNkQ4QUF1Z0ZRUi1FU01HWF9VTlZ1Z1JOb09ORXhaWEZMVWNtUWN4QnY2Y05GaC1aYmVxTm80dmZEcHl4TjFSc05odkRRTVI4X2tWMmFRQ3BPM1JZcEhSSXpTd2Z0bDBPVWNUczhFcVHSAZYBQVVfeXFMUDB0VTNTZ0pBNzhNMlo4dFRUY1hRWWhZRGZJdHdQanFKQ0J6ekZyNWdxTjFWQmxpTmprWjE1U3FacEpKTWROVFZkcF85RGgwT2FscnYxdERxU1FCWGkxX2twVGR1WnUtWWppYXZ4R21CcWZrLUZYb2xvSVhULWRyR0xlc3o1VEs2VllTVWMyS1Jua1VsVFB3?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794265208283,
     "fecha": "2026-11-09",
     "categoria": "Gaming",
