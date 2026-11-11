@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794438007510,
+    "fecha": "2026-11-11",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "PS5 llega a 100 millones y Tomb Raider: Catalyst se anuncia para Switch 2",
+    "descripcion": "Sony alcanza 100 millones de PS5 distribuidas en menos de cinco años, mientras Square Enix confirma Tomb Raider: Catalyst para Nintendo Switch 2 en 2028. Microsoft lanza Auto SR en ROG Xbox Ally X y X20 con hasta 120 FPS.",
+    "narracion": "La industria de los videojuegos cierra una semana de movimientos estratégicos que redefinen el equilibrio de poder entre las tres grandes consolas. El dato más contundente proviene de Sony: PlayStation 5 ha alcanzado las 100 millones de unidades distribuidas, según IGN Latinoamérica [VF2]. Esta cifra se logra en menos de cinco años, un hito que la coloca como la consola de Sony más rápida en llegar a ese umbral, superando el ritmo de PS4. El logro refleja una demanda sostenida pese a los precios de hardware, la escasez inicial de componentes y un contexto económico adverso en mercados como México y Latinoamérica, donde el precio de la consola ha sido un factor crítico. La base instalada de 100 millones no solo consolida el dominio de Sony en la generación actual, sino que también garantiza un flujo constante de ingresos por servicios digitales y software, un modelo de negocio que la compañía ha perfeccionado desde PS4.\n\nEn paralelo, Square Enix confirmó Tomb Raider: Catalyst para Nintendo Switch 2, con lanzamiento previsto en 2028, según Nintendúo [VF4]. La noticia implica el regreso de la franquicia a una plataforma Nintendo después de años de ausencia y sugiere que Switch 2 contará con soporte de terceros para títulos AAA. Para los jugadores mexicanos, esto representa una alternativa de acceso a un blockbuster sin necesidad de adquirir una consola de sobremesa tradicional, aunque el precio de los juegos en la eShop de Nintendo suele ser elevado en la región. La confirmación de un título de esta envergadura para 2028 también indica que Nintendo planea una vida útil prolongada para su próxima consola, con un catálogo que buscará competir directamente con PlayStation y Xbox.\n\nMientras tanto, Microsoft no se queda atrás. La compañía lanzó Auto SR en ROG Xbox Ally X y X20, un modo de escalado que alcanza hasta 120 FPS, según Fanáticos del Hardware [VF3]. Esta tecnología busca competir en el segmento de consolas portátiles con Windows, ofreciendo mejoras de rendimiento sin sacrificar calidad visual. Para el mercado latinoamericano, donde las consolas portátiles de PC están ganando terreno debido a su versatilidad, Auto SR podría ser un diferenciador clave frente a la Switch 2, aunque su éxito dependerá de la adopción por parte de los fabricantes y del precio final de los dispositivos.\n\nLos tres hechos configuran un panorama donde la competencia por el rendimiento y la distribución de hardware se intensifica. Sony asegura su liderazgo con una base instalada récord; Nintendo apuesta por atraer a terceros con Switch 2; y Microsoft innova en el segmento portátil con Windows. Para los consumidores mexicanos, la diversidad de opciones es positiva, pero también plantea desafíos: precios elevados, disponibilidad limitada y la necesidad de elegir ecosistemas que garanticen soporte a largo plazo. La industria avanza hacia una era de fragmentación tecnológica donde el rendimiento y la distribución serán los campos de batalla.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Financiero: ¿Había The Legend of Zelda y GTA piratas? IMPI asegura 6 locales con videojuegos en Plaza Meave - El Financiero",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: PlayStation 5 alcanza las 100 millones de unidades distribuidas: ¿Cómo se compara con el resto de las consolas de Sony? - IGN Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Fanáticos del Hardware: Microsoft lanza Auto SR en ROG Xbox Ally X y X20 con un modo de hasta 120 FPS - Fanáticos del Hardware",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendúo: Anunciado Tomb Raider: Catalyst para Nintendo Switch 2 e 2028 - Nintendúo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: “Jugar videojuegos no es una pérdida de tiempo”: compañía dará el día libre a sus trabajadores para que jueguen GTAVI - LEVELUP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "N+: De Peluches a Videojuegos: Así Aseguraron Productos Pirata en Plaza Meabe de CDMX - N+",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Ya sabemos cuánto costará Xbox Cloud Gaming en México: esto tendrás que pagar para jugar GTA VI en la nube sin anuncios - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Revista Semana: Xbox sorprende con anuncio sobre GTA VI: noticia inesperada para los dueños de Xbox One - Revista Semana",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Profesional Review: FSR 4.1.2 aparece en los archivos de precarga de GTA VI para Xbox - Profesional Review",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Tarreo: Lanzan emulador de PlayStation 5 que se ejecuta en una PS4 Pro desbloqueada, y su creador asegura correr God of War Sons of Sparta a 40 FPS, exclusivo de PS5 - Tarreo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Mediotiempo: PlayStation anuncia sus ofertas imperdibles de noviembre 2026: hasta 75% de descuento en juegos, controles y más - Mediotiempo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "WIRED: Zelda: Ocarina of Time ya es el juego de Nintendo Switch 2 que más rápido se ha vendido, y después de jugarlo entiendo por qué - WIRED",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendo: ¿Quieres experimentar una aventura de juego de rol? ¡El mundo te necesita!",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd015eU9IWnR5VUViNzFhX2lIeC1yRWREWEl1RV9ZZkFxNzdZTEFlTTJMbUhPbmNqUFpIeURMeXZPN2ZBMXcwYUlBRHNHMExuYmlfeFl1Y1ZxSVhDcWpfMmxUM1hidlk0bDhweFFDdzFZek5LV2pfcWdvLW0tUFdYR3VKTFdrUkJWQVNfTk9sZmpMMEsxTHNzZmw4YjdncEd5T1I4RlNTYTVnNVFya193RA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo no ve con buenos ojos que dos juegos compartan nombre en Switch, pero un editor indie ha hecho posible su llegada",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVFo5TlV6em9TT1E0TFNEdm84RTFQcWgwb29seW9NRzRBd2FjejFaTTh0TTdIYW1rX1p5N3Jpc25KZ3gzeDZhUF9QcHdRNEJBVUJueXdIcm0yLTBZbUp0UHVBeVN5VVIwRXpaTHVxa3ZZcll1bW52RFZNanJHTHFjMGltek16OTZkZXJCU2lVaTQxb0lrTmVhb25FbHdCTEZ3ZE54ZHVVWFhuU2tXeHNBSVhjU2FVUUZ0X09lOUJuelh0OVNDVHNPeklNZDd2TG5mS0VyTjBFTWVtNFJwdXhEaGJydGE1YmVJaG5YQ0VDTQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: GTA 6 podrá jugarse en Xbox One gracias a la nube, pero los usuarios de PC tendrán que esperar",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ01qM3hYMUJyTmJpaXRWX01kY3lNQ2dVRkQ4MDlmLUZRbVZQZVlmUlNvdmtGNzktWTRELTVtYTdZWGJzZjc0OFVkV0F6bHJKMDFheVowcVRxcjNsTlFvT2tmODBzeGhFVENYNkViUkdZRXBNTXRtYlUxUkhIOXVtNEk4UmZESUpValRxMDh1UGdpTExHLWZmYU54WlhQaW1tSVFZeVZBUF9GQ2o4eGlaNVNBZWlhWlRjR05RVmRTa2Z0RThvbHI2UkJ6eWRFWmtj0gHrAUFVX3lxTE93NzdqcFc5ME4yYXNRMDJNbVNyOGRMTXR4MlFzYUlaQS1CYjQ3V0hsV0I2Nmw5XzdsaERoN3c5T25hMjJpTEF2aVJkYzNfeXhybldqTXdvdGdXRlZCWG84NDdNRk9qTVJURXdrRDMtWHl5T0VVaHRsZC04M3ZrVTZHSDBMeF9rUzR4b1FFLWZTQmFXQzdhRTBzQl9uY0ZjdloxdzE1VDRvVXRMZndXdF9xeFowQ0ZsaTh1d0d1NFhhalIyLVo5NEhrc0VjbnBvdjFzTmd5VVAtM1Z4aEpLeVZvWEFyU0FrWW1QSFE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Catálogo de juegos de PlayStation Plus para noviembre: Death Stranding 2: On the Beach, Like a Dragon: Pirate Yakuza in Hawaii, Atomfall, Dragon Quest III HD-2D",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQMnVBdlRaY1VoVXRTT3BLNFI0VDB3LWtSMTJyNlZ5RUc1V054eXRjMldFUThUbVBzMWgxNUNJZk5KbEZXVGt3a2w3Vjk0MjFDT1NTQmc2cXR4MmNmSl9HV3VMekNjV0pqS1NEbjNycVpBLVZLVHlsUUdwR0IyMnVPRFl4aWdlVVY1OGVxSGJ5RnRhUWoxNHRrZUEyenVYVmt0RU1Fbk9rSnRJYjNNdmpmeGdTSzRFQU5ISXBKVG9EbU52Z2J3eXU5cUxYSnlKUVdaSUQ5cGlpeFdUbERRTW9NRGRCeEFaZ1RPU0pYT0xsbmJkM3UtMDlBamxScHRGS1dlUEFQYTlRcXctS3BMcFE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Financiero: ¿Había The Legend of Zelda y GTA piratas? IMPI asegura 6 locales con videojuegos en Plaza Meave",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV2tzZkdHdzRMUDQ2QmhRQVVtTnVPbXRKVjFnX1NmQmx3eE5Va0lWZkxzM3ZhY1pPR0x0Z3pPbXZFeU9ZQmhXT25HQUFrUUxLcmdtX1lwSXRsN25HQ0dDUGhEQWdmWUh3Zm84dTJyUngxaXZoa0hQWGhhNng5WmU0UVVpWlZCN1NHbEdVVm1HT1pBREtfQlpNeXNYeEczd2xwUFJWN05na2NjUXZwc2EzcE1xbDlNSGdTQnBQZ2VEWFFveHF0Yi1wekhWdGM4bjNjb0pEZ3hDUXVzd05vODJz?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Universal: PlayStation 5 Slim de Sony; la consola baja $4,000 en el Fin Irresistible, perfecta para el GTA VI",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZkNJaGR5amNnSlJvSlVIQW1RaW51V1poNk5zUHdybldBb0VqZU1VcDZ6NUNFV0JSUkZGbHltdkQ4c2hYNURNb05LdXZrQVducEV4bDY0Nmc3aFpHQ2RDMmNQRjFiSVJueDJHaVpwVUlwN1NCN2hwelJ5andzYkV6NGFNTFQ4TjV6NEwydnRjMWJXWHNFTmV2OHRTNnJuMnd2WGx4MS1XcXBVY3JydVplRWMtQ056cWNUZmNRVEZtWTkxREhMM2oyX3p3cGg4clAyb2FZLTlkSGNlODdR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Revista Merca2.0: The Legend of Zelda: Ocarina of Time rompe récord en Nintendo Switch 2; vende 5.2 millones de copias en cuatro días",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMUtibi1DQ2o1S2d3RVBDaERVakc4dEt4b0h0LU9ZdzloTFc3SF85bVVnWWxjQkU0cTZsWWJiMnhPZ3g4T3BrRFJzMUVkN0pIVWhwaUFlTXNtaURkTmJ0UjRIcTZfVXo0Zmd2UnVPUEVObWIyelFCT0RzZTJrNGVWbmZDSU5fTjZFODFEWmlWM2lkYnF4VF8ydzExQnpQc3dDOXhpLWwyWEN1MmNhN29qaC1oejNYdElEOGd2X3NpYk4yaHFBaUdsQklBcnFUdDRFSzRsUg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Nintendo ya ha subido el precio de Switch 2, pero el problema sigue ahí. La paciencia de la compañía no es infinita",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeW5idFZ2OUR1eGtETkVEUGZRYXI5S2ItX1JoOUFsaFgwQndoN2RoRDRld2lrVzNZTmVDUk9jcXJFV1lURWVYTjllU1BWc24zbHBVb1dlSUNOdnQtRldxd3ljZ3FOVmRfMDJhdjBTV3Z4MFdxalUzbmdsN05EU2NocHYzcFlaeDZLU3hjSVY1TmJOOUt4WVVmWWI0MWJRbkhOODltYU9xN1hRbi1rVFJDbEQzTkRMVGJmcVFEbFRKWVJDUUU0OFRVbDJHN2pnTWFoekHSAdcBQVVfeXFMTV93aGxpM0N6cGJ5WWE4Z1VhWFg4c1pXYUhiLUphWG1PbTBGTmkwS0hLMmlNcU01WWVaLW1zVzN3RHEyN1lGOW04Z0FfX1NBN3FjcnBxM1JNamp2amI3QkFBVHhZMkNHOGNvcjdqOUxOdGNjNndpRzFkSFhmVEdYZGhBU3NjTkdUcXpCdmdGWThqSThVX0ExSG1hcEV0ZnJ3TG0xelZqQW1TOXVwRnBYZFJ0SXAxZk54TnZrTll4T0oyVFdSWm0wX1ljRHR4VWhDNXdPTU1taHc?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=H4QByW6113s"
+  },
+  {
     "id": 1794423607063,
     "fecha": "2026-11-11",
     "categoria": "Tecnología",
