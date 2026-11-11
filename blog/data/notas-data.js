@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794423607063,
+    "fecha": "2026-11-11",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "NVIDIA cancela la RTX 5080 de 24 GB por el alto costo de la GDDR7",
+    "descripcion": "NVIDIA habría descartado la versión de 24 GB de la RTX 5080 debido al encarecimiento de la memoria GDDR7, manteniendo el modelo de 16 GB. La decisión evidencia la fragilidad de la cadena de suministro de semiconductores y anticipa precios récord para los consumidores.",
+    "narracion": "La industria de las tarjetas gráficas enfrenta un nuevo episodio de volatilidad. Según reportes de prensa especializada, NVIDIA habría cancelado la GeForce RTX 5080 de 24 GB, dejando únicamente la variante de 16 GB. La causa principal es el elevado precio de la memoria GDDR7, cuyo costo se ha incrementado más del 30 por ciento en el último trimestre, de acuerdo con datos de la industria. Los proveedores dominantes de esta tecnología, Samsung y SK Hynix, han ajustado sus cotizaciones al alza, lo que obliga a NVIDIA a recortar especificaciones para no disparar el precio final de su tarjeta insignia, que podría superar los 1,200 dólares.\n\nLa GDDR7 es un componente crítico para tareas de renderizado, entrenamiento de modelos de inteligencia artificial y gaming de alta fidelidad. Su encarecimiento no es un hecho aislado: refleja la presión sobre la cadena global de semiconductores, afectada por la demanda de centros de datos y la competencia por capacidad de fabricación. La decisión de NVIDIA, aunque no confirmada oficialmente, coincide con múltiples informes que señalan la cancelación del modelo de 24 GB para enero. Fuentes como [VF4] y [VF9] coinciden en que el alto costo de la memoria DRAM es el factor determinante.\n\nEn México, el impacto se siente en el mercado de componentes. Tiendas locales como Cyberpuerta y PCEL han ajustado inventarios ante la incertidumbre de precios, según la cápsula audiovisual. Los creadores de contenido, desarrolladores de IA y gamers que requieren mayor ancho de banda de memoria para sus flujos de trabajo se verán directamente afectados, pues deberán optar por la versión de 16 GB o esperar alternativas de mayor costo. La soberanía tecnológica de la región también resiente la dependencia de proveedores asiáticos de memoria, sin que exista una alternativa local a corto plazo.\n\nEn paralelo, Nintendo confirmó que ya no permitirá el inicio de sesión mediante cuentas de Google o Apple en sus servicios, según la fuente [VF3]. La medida busca centralizar la gestión de identidad digital y reducir dependencias de terceros, argumentando razones de seguridad y control de datos. Sin embargo, analistas advierten un posible revés en la experiencia de usuario, especialmente para quienes utilizaban estos métodos por comodidad. Esta decisión se suma a un contexto de creciente escrutinio sobre la privacidad y la soberanía de datos en la industria del entretenimiento digital.\n\nLa cancelación de la RTX 5080 de 24 GB no es un hecho aislado, sino un síntoma de la guerra tecnológica por el control de la memoria de alta velocidad. Mientras NVIDIA prioriza mantener un precio competitivo, los consumidores mexicanos y la comunidad digital enfrentan un panorama de escasez y encarecimiento de componentes clave para la innovación local.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Stellar Blade cumple las expectativas de ventas en Nintendo Switch 2 y la consola tiene 24 MSI",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¡Cuidado! Por ver películas gratis podrías estar exponiendo tus datos bancarios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nintendo ya no permitirá inicio de sesión mediante Google o Apple",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: NVIDIA habría cancelado la RTX 5080 de 24 GB por el precio de la memoria GDDR7 y mantendría el modelo de 16 GB",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: NVIDIA cancela la GeForce RTX 5080 de 24 GB",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Trucos y consejos para encontrar todas las skulltulas de Zelda Ocarina of Time Remake",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Sólo hoy en MediaMarkt, este portátil gaming con RTX 5070, 16\" y doble descuento es un chollo que se adelanta al Black Friday",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: 'Es fantástica': El CEO de Take-Two aplaude la nota de Zelda Ocarina of Time Remake antes del estreno de GTA 6",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: No habrá RTX 5080 de 24 GB GDDR7 para enero, NVIDIA cancela este modelo por los precios de la memoria DRAM",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Metaphor: ReFantazio contará con modos de rendimiento y gráficos exclusivos para Nintendo Switch 2.",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Phantom Blade Zero ya tiene cientos de mods en PC, y el de 2B de NieR: Automata es la estrella",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Tiendas, precios y economía en Zelda Ocarina of Time Remake: Dónde comprar, vender y usar tus rupias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CNN en Español: ¿Quién es Alice Huang, la supuesta espía en el centro del escándalo de Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOTZZUC1DOXFVNm9ObGZKaDlfUVpUWWNxNnJZbElnTTJpb2FLR2hTbDRoa0FraTN4VTVLNlUweFl1c0FGTjFiZGFQVGoyc21zcXUzOWlYQ3N6TEJ0STV3NEJwa3NKMnAxRVFWbEIzMXFQdU5QQ3RyN05SZ2R4TE4yMjBXZG5TamlzXzV3d1A1cw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Ciberataques bancarios aumentan 70% en México y hackers cambian modus operandi: ¿Cómo roban tu dinero?",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnFMUHVZYzJPVnFvRkhvSVJ2MDA4eVRMbEp2d2Z0UjBFeHpiMS1GTlVrSUw1NTVYRnhxdGwxVTdZbzI3RDUwSzZkaDlwVlh4aGI1X0E3eHZFR20yS3ktUUtvV0x0YzJfdzBSQktHWUcxbGM3STBnbVhOcl9kbTlvaHVTeWhlZmgwak9LOGdMVl9oLWdsWUxPVlEwbU01eWNmeDlSdHRhTl8ySzVWcWhXS1VSOE1ZU0Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El costo de pensar en español",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0trdk9aUGhvbDVnRjhrVWpkUlpSVENXZG5oWncwdHRzSmRNUnViOWlWLWpJcEJfRjkzN0owYzBCaENyWVVCa2MxM2lCTkpoVmRBLVVUMUdmcWctdjIzVlR3QUk3eFJMcTQyMjlIU2JDZzBPa0oybVFYRjJEYTdSb1ZFR3FQeWhVZS1hNXJzVGF5SEN6amtkU3U2cw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum anuncia tres nuevos apoyos para estudiantes de ciencias",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPampDRFlQcFdFSGl0aXRxMmhPVnB1cnhtam1WYmFZY3dMNmJKVFZkci01c3d0Z0dfVjBLZ3gzeVVqazdVRXhiUHk5SWxyZWJ5UmFMV24xbzAwb0NKbDlCWEphX1p2cTNqd281WGdzMy1yZnJlOHI5cnY0QnJ4NXdIOEFLa3ZsNXdYTGRHeWZncWFpVHlkcmhWMzVySGJYU3ZZMnJ2d2E3RjBGV2lUdmdqM0o4YVJKb3g4bVhVZE1lMGltVDRWRDdkdjNhbnRUSUhfOHo3OG9ZSm1VT2FZMW5vWkV0NExRcWd1bXVRcTBB?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: GTA 6 confirma su llegada a Xbox Cloud Gaming desde el primer día, pero bloquea a los usuarios de PC",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwVDZUdHFDc29HcUcyREJLM0puMzVBZEozaDRwYTlpMzdhd0d6RFJsWVlrc1JQSzJHNTN3MFNWM2MwVExLa1FZNnF2WE15NHpzeXB0TE5TVXZKZWNfSDdvanB5MjRIc1UycGFsWFhRYmNVcUROUjZZVGln?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "DW.com: Anthropic sale a bolsa con una valoración de 1,4 billones y pone a prueba el boom de la IA",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTBpdzRra2pxaE1zamNtWGZSeHg2WmdaQmM0Um94Vk4zOE11TFluc2VuZFJtaW1mUXQzeGRoajFfNXg5UDNzUjV2WUZ0Zkx3OTg4Yzk5RnJRSFljX2luVERJNGJodkpnMVVKM2RMdl9nWENkSVlDTlZSYkFCNUJuQVFpdl9hRHJ2Y3NfVHo4SjVWZGN6RjRIQU8yRzVTMjBSVFgzOFlOSDFvalowYWVJZEVSV21UR3hK0gG4AUFVX3lxTE9JaVdLUDBORm5ZOU1IZXJPdEQ0Q1diNTF2YnlCdERtQU1fTHRsOC1ETDFad3N1QXk2NWZXd216a2wzTzhtVF9xMEp2alphdGhBVWpaNm5pa1QtWWJHTmxLM3F5RWd1dkJob0ZoVk1UX1VibHRDcGU3QXNtTjg1MzZZSlp1UGFVU0d1czBGcmVkV05PV1pHLWd6RzkxXzdieldZaUpIWW5hUVFTekNTaGNhWVpRMUM1MzQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Motor EL PAÍS: Tesla tira la toalla con el Cybertruck: así terminó convirtiéndose en uno de los mayores fracasos de Elon Musk",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTWdwQmlfX2kwMmhGZEliVDlsY1BfTDF3cmk0bndTNVZONy0yZFA1bFVIMFN5RW9LRW5aTXhSbkEtQmxjVUg1ZEkwQUlRaG9YbnhJdjdlTFhQZnp3eFMxZG1BekJHeS1FX3plaVFuM2cyNTFRUl9hMmpGS2VjYUw2TFZ3QXNIQ2R0dy1WMHRnZzlWSzN1ZEk4RU1hTjgzblJleEljTm9qbm1ka2UzSExjdWxIdW9NYlQ3dlktTzBRRnBLQUZsaTdtZTJOWlRtdjlkMmlHS3oyTWJGdzJWek11d1RvM2ZsZVp00gHuAUFVX3lxTE1RT3l1TE0wQ1F0aDg2VHh1eWpvbzEtY2lEUUR0cmN4aDlGWkZjcXZPOUhOYmQwbkdZYlBaUzBfY25JcGhvS0dJT1Z1VHk3ZWJsLXVMSXY1b19QbXFIeVpZNkZ4dG1HSWdCclZVVFd4NmVSQ28tSjZSWmc2ajBkM1N2OVpRQWgtLU54N014NXFWcWZnUGVZb1dhakJvdFJOMlpEcUhPMzE0X2p0Z0huRklUOTNpc0FtRDBJb2NPcm5OUkV2S0o5SWl6bEF0cEI0RTJ1UVphbGxFN0E1YnRnX2wwaHBzWjh2dXlQTkE0RVE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: David Garza: “Tenemos que ser autocríticos y pensar cómo será la universidad del futuro para la era de la IA”",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQblIxZ01tSXZjZ1Rncm5HSDN0V0VrUW5sNmZtTndkVXVwTHg1MlhKTFhnRmdULUJIVXdxX3pUUEh6VG9VV1ZNaHdYV0t4OFhCb0QtMlFCb1NTcnhMOUtRTEdPU0ZsTGRrLWhhQW5jVnI4alRndDVxSklpU0o4ekNjTlVGTU5PM1BpemVOalN1ajJJYng5TDRwSjQxVXJjdmMwZ2czdG96MmRGRDFFSE1SMmtNWDB2eDJCQmNqLWhPNHhqcHpRdHRDZjZNTWQtWUxWcmdtdXZ1T3ZMUzM2VWZGNDh6a2pVcWtrazE3THZn0gGCAkFVX3lxTE9HenZJRV93T3kwXzFwUkZxcHZwX3VZN3o0SzExcFBxdGo2ZWNLYi1Ec0pZZXRuVHVpcTBLblNPbFZMZ2NGSjUzc2M1MGpKY2lhN2JQMkc5eFRnQWJxbWhQVTlna290amRQSE9STnhOQ0pVZnpKcEhrbHNqSjZ5Y3FrbU4zUTZiX1ZjNDlVUk1ZMjVUb3VJVE9aNXFNSnU4S09ldUt6M0N5UFE1WHdhclU0ZzVXWTA5QWxlOFozX1ROQ3NIbUM3ZWJEazNXcHE1NDNrOEZoT0ZMaU1PWGhDc1NGUzJGOEJreUlNMjEyelU0RHhEWW9sWGo3R3pfZDdJRWp1UQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=mQUbiabWAWs"
+  },
+  {
     "id": 1794420006743,
     "fecha": "2026-11-11",
     "categoria": "Farándula",
