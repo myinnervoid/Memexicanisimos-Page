@@ -1,5 +1,135 @@
 [
   {
+    "id": 1794358806305,
+    "fecha": "2026-11-10",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Seguridad, corrupción y justicia: los cinco frentes que tensionan a México",
+    "descripcion": "El asesinato de un mando de la Guardia Civil en Morelia, la detención de un jefe del IMSS en Veracruz, la suspensión de clases en Los Cabos, la red de sobornos que protegió a Ryan Wedding y el feminicidio de Danna Itzel evidencian fallas estructurales en instituciones y seguridad.",
+    "narracion": "La jornada informativa de este martes confirmó que la seguridad, la corrupción institucional y la violencia de género marcan la agenda nacional. En Morelia, Michoacán, un mando de la Guardia Civil fue asesinado a tiros durante un operativo en la colonia Villas del Pedregal. La Secretaría de Seguridad Pública estatal desplegó un operativo de búsqueda, pero hasta el momento no hay detenidos. Michoacán acumula más de 2,000 homicidios dolosos en lo que va del año, según el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, y la violencia contra mandos policiales se ha recrudecido. La población exige resultados y la coordinación entre los tres niveles de gobierno se pone a prueba.\n\nEn Veracruz, la Fiscalía General de la República investiga a un jefe de área del IMSS por un posible desvío de recursos que superaría los 15 millones de pesos. La detención, confirmada por fuentes oficiales, representa un golpe a la credibilidad de la institución de seguridad social. El sindicato de trabajadores ha exigido transparencia en el manejo de los fondos, mientras el caso se suma a una serie de irregularidades en el sector salud que han derivado en auditorías y sanciones administrativas.\n\nEn Baja California Sur, la Secretaría de Educación Pública estatal suspendió clases en Los Cabos los días 12 y 13 de noviembre por seguridad vial. La medida, coordinada con el Gobierno del Estado, responde a las afectaciones por las lluvias recientes y el mal estado de las carreteras, que han provocado accidentes. Más de 50,000 estudiantes de nivel básico se verán afectados, y la repercusión económica es significativa para las familias que dependen del transporte escolar y la actividad turística, en un fin de semana en que se prevé una derrama superior a 332 millones de pesos por la Baja 1000.\n\nEn el ámbito de la justicia, investigaciones revelaron una red de sobornos y filtraciones que protegió al presunto narcotraficante Ryan Wedding, detenido en Estados Unidos. Funcionarios mexicanos habrían recibido pagos para alertarlo sobre operativos, lo que permitió su operación durante meses. La Secretaría de la Función Pública inició un procedimiento administrativo contra los servidores públicos involucrados, mientras la DEA mantiene su cooperación con México. El caso expone la penetración del crimen organizado en las instituciones y la necesidad de reforzar los controles de confianza.\n\nFinalmente, en Xalapa, Veracruz, familiares y colectivos feministas dieron el último adiós a Danna Itzel, joven asesinada. La Fiscalía General del Estado investiga el feminicidio, que ha generado protestas y demandas de justicia. Veracruz ocupa el primer lugar nacional en feminicidios, con más de 70 casos en lo que va del año, según el Observatorio Ciudadano Nacional del Feminicidio. La repercusión social es un llamado urgente a las autoridades para garantizar la seguridad de las mujeres y tipificar los casos con perspectiva de género.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Dan último adiós a Danna Itzel, joven asesinada en Xalapa, Veracruz",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: En coordinación con el Gobierno del Estado, por seguridad vial, se suspenden clases en Los Cabos el 12 y 13 de noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Detienen a Pedro Hernández Calderón, exportero de la Liga MX, por presunto tráfico de relojes falsos en EU",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Asesinan a tiros a un mando de la Guardia Civil en Morelia",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El \"R2\" fue detenido con apoyo de la inteligencia de Estados Unidos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Red de sobornos y filtraciones protegió a Ryan Wedding",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Fiscalía de Morelos entrega cuerpo de Edgardo Larrañaga, maestro de Universidad Tecnológica Emilio Zapata, a familiares",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Detienen a jefe de área del IMSS en Veracruz; investigan posibles irregularidades",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: BCS prevé derrama económica superior a 332 mdp durante el fin de semana largo y la Baja 1000",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Diputados prevén aplicar un tercer recorte de 500 mdp al presupuesto del INE para 2027",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tragedia en Texas: Camioneta con una familia a bordo cae de un puente",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: UAM Xochimilco promete atender demandas de estudiantes en 48 horas; detallará acciones y plazos para cumplirlas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Departamento de Justicia de EU acusa a pandillero prófugo en México de proteger a exolímpico canadiense",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Que mejor lo diga a un juez, no al New York Times: Maru a Zuany🎦",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Exfutbolista mexicano es arrestado en EEUU por presunto tráfico de relojes de lujo falsificados",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Financiero: El ‘R2′ frena su extradición a EU: Juez le concede un amparo al líder regional del CJNG",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ3RiOXg1UXJFWW1VcHZ4YzZLNGNKOFZtVlY0M1YwaEVOYXB5dndmbmVsaFkySFlGU3k2TVYwZ2QtcnJSM2hUOFVidUU2SzdVWGgxZUJQV3dWMUNLRXpkaEEyRW1LcEJrQWRwXzRlWjNNdDF3NWJzNkxCVTdVcHBUUVYtX3FoSEIxMXkwdmNSQUVHS2NXUGZNZWJoc3lld3Jud2c5cVRvcVdsRU9rbnhYbW1YQ3U1TG9mb2JwdlJ0SGFKMlFtTWpfeHU1eGY1N1U0eVE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ‘No lo merece’: Lilly Téllez vota en contra de poner a Cuauhtémoc Cárdenas en muro de honor del Senado",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPczJOcy1oVGpPaWJ5dEJaUkJYcDh3RHQ5R1lrUHhqeElWdWVnSW5jc2pQNmtVX1I1eENBLVlSZ0VENHdaUUpQTFFBVHVfSGFhbEJOcDdqMkRWSzI1MzY4dzJncXpWakF6cGpqb0FRLS1RU1RvN0lGRFRvaFhOdFNPbUFSX2FFWXFGMVM5UzQ1cHc2TlU4UkY5SlZEdUhUNmtySDBhNVJyS0NuLVpjaEFaSHg0TW81cWxRcDQ5SUxhRmh4S1huX3NJbVVfV0NfSHdUVkFicndhWkVzS1drWWdZRmEwdkJTNERJYXhLMm5Ca24?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Homicidios dolosos se redujeron 50 por ciento entre septiembre de 2024 y octubre de 2026: Sheinbaum",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd3ppNmhRY21DWk5UXzBrY0JncTk1V2tUVEZqcXJIaVBEMHBNaF9XV1V4aDJ1ajR6X0Q3b0VXcmtWbFJWd1dTcTdKanY3NVBISW0zRlNoeWxZTTUtbFV4Q25xTU5qTGRNUnRVZ3FVa0s2c0VpamttdnlIQlRZZ1ZWZFlYNExZMmpLNWlOaXd0b1FIZ2ZGSzhLZ1BZekxSNm5teXdyZ2l1eHRtLXhxNXFmM3NCWnloV1RPVFJHOG42anc0clA4X1FjdGpyY2Vua1p2VnQ2N05RblVXdndnLTZQRE9FU2JYM2s?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Matan a Bernardino Gómez, exjefe de Seguridad de Uruapan; lo balean afuera de una tienda de abarrotes",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQU3NGZFJ6VkdPNkMxSW5ORVNaQXpvSkhYendrR0RlS04tR25INC1rQ1hyT2hLSi11aGtFQi1zbmtvTzljNWRCVGlzcU1yaFc1ZEp2M0JfdmZpZGJac0UyM1VsRlAzODg5cnZIcTNNNEM0dUxLanNndWhyUkkzT0Y2OEp6MktpY3JKRmlLMVpmZ1E5dnlsWm9feUUyYTctM08zTUdFdWtOOWtGR1pjenRhUktlWW5FWGF4TDZfbzVCT1dEeVlsVE96cW4wc2c0MjRqX1pTWHQ3cXN2SVpCcXItc281ekJTdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Revela EU que red protegió a Wedding a cambio de sobornos",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNakNnbnpXUlFuUV9PbUJQUDl3Z2NfSXIzLXFJVTJHaXRBNjVlRkpEdUd2NHJZb3dwOHB2VlYtSHJMRmtON2hsekdYUWxYckYxXzZydUpUQkZEUGJvSDM3OERXTHhrcmZ3eEdDNUVBemhWd25hRXVZX2JvMFZ1aklMUEZtTS1UOXY0OThKRlBMNFhIbkJlalE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Trabajadores del INE aceptan aumento salarial de 6%; buscarán negociar un incremento mayor",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcXpGMkNQaEc3ZXZLQmtYYlNpbnBUVDNVYmJRdDh6eHRrWmlwSmZzRXc2RmU4OF9fM3hLUmsxaHNQUVNLNWVBcmlzelJXR2xTbGVNLTNtUmY0anVEYjJIT1Zqdk03MC1xeTFid1htU0o2Uy1BX3hEVEVWS1p5OWtnQ0RINjJJckV4WE1Lal9OUk9OeFk1MnNfOGZKOC1QUl9PQTlQdEtac256eF9VOFdyeVdQNXNPSlMxM1NmMV9yMl9iMEF1X2c?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Acusa EU a ex futbolista de contrabando de relojes falsos",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEt0UEV2Q0NDWjhrZElUa0dpSk8tem5mU0FqZGdNNHlqblAxdGRvX3dYSS13dHM3ZE1KdEZfSDVMZEhWaVpHSkZqc293NFVmbFhodGxmMktIUDNiZmJ0cmJaUVg0eGpCbmVabmpYSHVjalVWaVcxMFVvR29YV2NONkgzS0xDck44bXVsMUloOXh3XzJnRWc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Sheinbaum justifica millonaria compra de aviones Black Hawk y Super Hercules: ‘Son para seguridad’",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNU2gzU1lQOHdqRXkwaXo0eEFnMzlRTEhjQ2NaLXpsM3N2YTVzY0dHRWNNMnJfSENoU0pkU2duYzR3UHZMeGlsbTFUaGJWYTVrWV9teGE3QlVfVy1yYl80TVhFOXQ4d1BscVpIMTdjQm9na3JyYWxoWjVQaG1xY0xWMDBQeHpfUEVKYzRfRDF0SE5RNTZoajA4MXZOeTFtdUtXSnFvMkZsZ3BkMWN3OU9vTTJsNWFhVFdiYVBtMUh2SWt0cmFDQm8yV1B5VzUtVk9fMGJxaDF1R1FKYlE0RXlHbGJR?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794351606003,
     "fecha": "2026-11-10",
     "categoria": "Gaming",
