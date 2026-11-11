@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794420006743,
+    "fecha": "2026-11-11",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "James Gunn y Peter Safran dimiten de DC Studios en medio de recortes y tensiones contractuales",
+    "descripcion": "Los codirectores de DC Studios dejan su cargo tras desacuerdos con Warner Bros. Discovery sobre la estrategia de franquicias y un recorte del 30% en el presupuesto para producciones de superhéroes. La dimisión activa cláusulas de indemnización millonarias y deja en suspenso el calendario de estrenos.",
+    "narracion": "La industria del entretenimiento se sacudió este martes con la confirmación de que James Gunn y Peter Safran han presentado su renuncia como codirectores de DC Studios, menos de dos años después de asumir el cargo en octubre de 2022. Según fuentes internas citadas por la prensa nacional, el conflicto se originó por diferencias irreconciliables con la cúpula de Warner Bros. Discovery en torno a la estrategia de franquicias y, particularmente, por un recorte presupuestal del 30% al fondo destinado a producciones de superhéroes. Esta reducción afecta directamente títulos emblemáticos como 'Superman: Legacy', cuyo estreno está previsto para julio de 2025 con un presupuesto de 250 millones de dólares.\n\nLa salida de Gunn y Safran no solo implica un cambio de timón creativo, sino que activa complejas cláusulas contractuales. Ambos tenían contratos por cinco años con salarios anuales de 5 millones de dólares cada uno, por lo que la compañía deberá desembolsar una compensación estimada en 15 millones de dólares. Este tipo de acuerdos, habituales en la industria, buscan proteger a los ejecutivos ante despidos anticipados, pero también evidencian la fragilidad de los planes a largo plazo en un sector cada vez más volátil.\n\nEl calendario de estrenos de DC queda en suspenso. Producciones como 'The Batman Part II' y 'Wonder Woman 3' enfrentan incertidumbre sobre sus fechas de lanzamiento y sus equipos creativos. La noticia ha generado preocupación entre exhibidores y distribuidores, quienes dependen de estos blockbusters para mantener la taquilla. En México, los cines y las cadenas de exhibición ya resienten el impacto de una posible sequía de estrenos, mientras los sindicatos de trabajadores de la industria advierten sobre posibles recortes de empleos técnicos y creativos.\n\nEn paralelo, la polémica por el doblaje de la película animada 'Wildwood' continúa. Se ha confirmado la sustitución de las voces de Javier Ibarreche, Natalia Téllez y Macarena García, decisión que afecta contratos de talento y podría derivar en demandas por incumplimiento. Este caso, aunque distinto, subraya la tensión entre las decisiones corporativas y los derechos de los artistas, un tema recurrente en la industria cultural mexicana.\n\nLa dimisión de Gunn y Safran plantea interrogantes sobre el futuro de DC Studios y la capacidad de Warner Bros. Discovery para competir en el saturado mercado de superhéroes. Mientras tanto, la industria cultural y el público mexicano observan con atención, conscientes de que estas reconfiguraciones corporativas impactan directamente en la oferta de entretenimiento y en las oportunidades laborales para talento nacional.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: La Bruja Escarlata regresa en ‘Avengers: Doomsday’ tras el final de ‘VisionQuest’",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Latin Grammy reúne a estrellas de la música y el deporte en gala de la 27ª edición",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Actor de Juegos de Amor y Poder se compromete con su novio: así fue la romántica propuesta",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: La polémica por el doblaje de Wildwood: Sustituirán las voces de Javier Ibarreche, Natalia Téllez y Macarena García",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Aseguran que Laura Bozzo presenta problemas respiratorios y por eso sigue internada",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Reviven rumores de romance entre Belinda y José Luis García Parra",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Según se informa, James Gunn y Peter Safran dimiten de DC Studios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Así fue el levantamiento de la Gran Carpa de Cirque du Soleil: ECHO",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Donald Trump Jr. defiende a Russell Brand y cuestiona la sentencia de 10 años de prisión",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Alfredo Adame se CASA con Benicia Zúñiga: \"Es la mujer que busqué toda mi vida\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Surgen nuevas denuncias contra Russell Brand, condenado por violación",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: \"Wildwood\" tendrá un nuevo doblaje en México tras las críticas a las voces de Javier Ibarreche y Macarena García",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CNN en Español: “Wildwood” tendrá un nuevo doblaje en México tras las críticas a las voces de Javier Ibarreche y Macarena García",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV1FUME96dnNkVk1oZWlMZ0VqOHhYWm5ZbWVENnY4Q2dGZDZyWlpoa3RibUt6ZmYyV0VRWlZJZXAzbk1hdmoxcnhneXNfbDdYYUtsTlI3ellhenpjeFQ3VWNCMFBXUzgyb3h4Mk5lbHNudnJXWWQ2NEhDN1NoSUEwRTdBOURHdTZGZEFEVDBMZ2YyWUJaa3E0SGVZTDVlRHRFZ3htaU1qUFc4dlppZFRIQUpBTWl3TFk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "People en Español: ¿Por qué buscan a Vadhir Derbez? Los detalles de la presunta orden de aprehensión",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRFZ2N2FuU1ZnWjRYZnBSTmQ3TE13RWtDcGQ5cktLV2JodDZ1cTlJUFVhOUdIb212dUpOY3VMd0pBWHBZVGZjZVhHRmx0SVpHQ0djd2dCZTNvcE9jc2oyaHo2UHRqMHduWTJJTFBZdjhpQlR6VG1paDdiZjZaRVNHSWNUYWMxOElQYXY3Mw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Xataka México: HBO Max y Paramount+ comienzan su fusión. Se ofrecerán como un solo paquete de streaming con un precio reducido en 2027",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRDFJTDdLRkxsVnNwSno1bnExLUc2QmdTWXIwVDhRNWw2V1pIdUotMlByQjRxaU5zM2VrNl96YTh3cUpVenR0UGRFcEg3Q21ma3hSMkdGRkdWUjhqLTRyQ1U0UkVaVVVNNFlhdVRzTU5DVDJXSjhNUjEtRWRaRGJVX0lua3hoWURNMWZ5QWxGUnhGZG9ST0MyZ1p5cV92UW1XYng1U3VIMFV2ZVlqX0tRZ1VGY0w2b1RrcHZTa1JCZlQtQnp4SWNmN1ZFU3lPTEtn0gHWAUFVX3lxTFBBa1RocHg1UGZFSEMwVjRvNzhuWUhoMm1GSnpaZ2I5enNPbW4wSC1wbVYtRW9wYTBSdEJvdkxFdkFoV1FST1FPQk1EU2hnZUFHNFhkVkNLQnlHUmhqLXRwSDJ4OG9zVktRbi1DZENOYW1zeTVscmZ1cU5GSXQxVW9FcWlKcHZTZ3VWYzB5RDlzQUZOYXpkamFDWU1RWXcyRWtqTjFyNWprTkxWSzRtVU9OUU5XbE9PTzBQMmFRcVBPWDVab3J1WmEzNGd0ZnJsdGphaVRobGc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: A punto recibir a su hija María, Cynthia Rodríguez presume su crecida pancita de embarazo en bikini",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGE4UEExajZHbDEwazlxME80RTFBVkFjQnRpemFOZUtMQ0tEajFkeFpnaTk1bGE1MHBsNEhDVVNBaWd4VmN0VnlFT0l5ZXloWFJpS0cwZUl1ZXVfZmNfeGsxc2lqXzJocFFISXlfNzVldkxRZmNjUERvWm9Fb29IM3laUTZCd2ZoTzdJZXVsUjRZLXNBcGp3S3ozVFRoc1hma05jU0FQcUVMXzFOQ1UweFdfOA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Lambda García anuncia su compromiso con Daniel Delgado: \"Me voy a casar con mi mejor amigo\"",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOGt6QmhwN0VVY1RCMUR6djdtWDFkcDFXUUd1N0J5TzVEa2Nfd0hINWJGLUptZTdwSWFrZWJNOFJ6ZFZoRDhneW1FYjR6N1p1cndMUkhTOVYyeEotUDcxcUpxeGNrVVZuRmlPQU1PYV9qSG50OFFUTVM4aHhLeC16ZjdtT2dLdmhTdzZ5cjRkUFdkT21QYWs5cXVzQUFNNDdrSlpYYkdpMDlvbXpVWVRocUFPSDAwVXNfOEUwMnVUZEhJUHJVQTZKTXdqc9IB5gFBVV95cUxNVEtraUc2WmpJaUtqVXNRTXdNSVdsLUh0WFRQUHMyM0xMQTBKbnJQS3QtWkdXREg0SHc1b01CalBhN0lGczRMeWtwa0UteWNweEd3UlhISC1vdmVXUVNjMWxyMTB1alV6dWl2UG5pREJ0LTBhd2NLbFFjdF9WTnJjMXBFbXpKbDVaZHl4dENNSDR5WEpfZFMtWk0yelZtR05ucS1ObHVpN1dCM01jRGJfVHgxcFptaUx0WGVmbEgxcXVnZ21aWkY1LXI2NEJKdXUtNUVhOG5JMGlUUXRaZE5Vek96YkZtdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Quién: Renata Notni y Gonzalo Hevia Baillères son captados juntos en Los Ángeles y desatan rumores de romance",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdnYzNTFQRkNMMU1kbVVDQmpTX1R6WW1za1BzZC1KazduaVNkWkI0bzJJNUE4Nk1hc2ZJWTNtRkNtQmJVQWFqTjd3WFhpQ0llSVVKTi10UXgwOWM2dk5ZWHFfWGR5TEk0YUhFUEFYYlpnWFMxeG10X2d3UktaU2w0MmQyTHp1NHd5a0FsVXpOZVVYMmFIZnE3V1Noc0Zpa3ROZkI4MkNmanh4MlUwYVhucWxXakxncjdaWXdfbGtFcUVoTjNXQk1OVy1rQURaZ2VEQmVwNUx3cDM1b3U2NkEweDln?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Organizó Brand mega fiesta previa a su juicio por violación",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOckRDbl9KTlRuV0FGWkFNOHBJdHpyenBRUTVYY2paTlY0RVo3U0dhTXJSd0hMeVpMU0gzWHVmb3ZGWVVUa1JJdzMwcy1ONXdJWjZsc3R5SlBlb21nSG1PdkJwUjRmNlBPcFJZZ2dOY0YtQmd6LVNqQTJLa0JNU3JaU3ljcmpqNkItYTY1bmtlbHE0d25HTUp0cw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: Ninel Conde defiende sus cambios físicos: “A los 50 años, pocas, mi amor”",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV2EtZlByOGFBWTdTMjAxTk9zQ2d6YlRxNlpBQXh4cEFOM3ZMRlZHRDBiRkdtTFFMS3VLQzVIOVk5UUtiRnpIWm94MFVUVmlHWk1kX08tQzlQdUVKQ0JoVUxaUF9wVW1pU1dlZ3NFT1VqcGppUHhmeDNsMGVhT3FaRFF0MjJfWHhZOTBZVlJSUlhSQWFUdGtfYVQ4TlNxS2lYM0FYaTNOaTRBWGc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=MwHvXB_8YV4"
+  },
+  {
     "id": 1794358806305,
     "fecha": "2026-11-10",
     "categoria": "Noticias México",
