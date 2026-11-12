@@ -1,5 +1,136 @@
 [
   {
+    "id": 1794445206137,
+    "fecha": "2026-11-11",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Seguridad, salario y clima: el pulso de México en cinco frentes",
+    "descripcion": "Golpe al crimen en Chiapas, debate por el salario mínimo 2027, frente frío extremo, brecha digital en pagos y tensión diplomática con Bolivia marcan la agenda nacional.",
+    "narracion": "La edición central del noticiero Memexicanísimos abordó este día cinco asuntos de profunda relevancia para el tablero nacional. En materia de seguridad, la Secretaría de Seguridad y Protección Ciudadana confirmó la detención de 14 personas armadas en Chiapas, incluidos dos líderes criminales, en un operativo conjunto con la Fiscalía estatal y el Ejército. Se aseguraron 12 fusiles de asalto, 3 vehículos blindados artesanales y 2 mil cartuchos útiles. Este golpe se suma a 47 operativos similares en la entidad durante el año, con 312 detenidos, según el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública. Sin embargo, el reto persiste: Chiapas acumula 2 mil 800 homicidios dolosos en lo que va del año, la cifra más alta en una década. La repercusión económica es directa: el corredor comercial de la frontera sur, que aporta el 8.3% del PIB estatal según el INEGI, opera con escoltas privadas y sobrecostos logísticos del 15%.\n\nEn el ámbito laboral, la discusión del salario mínimo 2027 y el papel del MIR (mecanismo de indexación que ajusta el minisalario por inflación y productividad) centra el debate. La Secretaría del Trabajo y Previsión Social informó que el MIR acumula un incremento real del 32% desde 2018, pero el Consejo de Representantes de la Comisión Nacional de los Salarios Mínimos debate si el alza para 2027 debe ser de 12% o 20%. El impacto fiscal es mayúsculo: cada punto porcentual de aumento presiona 4 mil 500 millones de pesos adicionales al gasto público en nómina y pensiones, según Hacienda. Los sectores empresariales advierten sobre 180 mil empleos formales en riesgo, mientras los sindicatos exigen recuperar el poder adquisitivo perdido.\n\nEl tercer punto es el nuevo frente frío que azotará a México con temperaturas de hasta -5 grados en Chihuahua, Durango y Zacatecas, según el Servicio Meteorológico Nacional. La Coordinación Nacional de Protección Civil activó 120 albergues temporales y emitió alerta roja para 14 municipios. El antecedente inmediato son las 38 muertes por hipotermia registradas en la temporada invernal anterior, cifra que las autoridades buscan reducir con la instalación de 500 puntos de calefacción comunitaria. La repercusión social es crítica en zonas rurales donde el 62% de las viviendas carece de aislamiento térmico, de acuerdo con la Encuesta Nacional de Vivienda.\n\nEl cuarto hecho es la batalla entre efectivo y pagos digitales en las tienditas de abarrotes. La herramienta Cuenta Fácil, impulsada por la banca de desarrollo, reporta 85 mil comercios afiliados a nivel nacional, pero en Villahermosa, Tabasco, el 78% de los tenderos prefiere el efectivo por desconfianza en las comisiones y fallas de conectividad. La Comisión Nacional Bancaria y de Valores documenta que solo el 34% de los municipios con alta marginación tiene cobertura de internet móvil estable. El impacto económico es que la inclusión financiera avanza al 67% de la población adulta, pero la brecha digital frena la formalización de 1.2 millones de micronegocios.\n\nFinalmente, la decisión de Bolivia de continuar los procesos judiciales contra el estratega político Cerimedo, tras el asilo otorgado en México a su expareja, tensiona la diplomacia. La Secretaría de Relaciones Exteriores confirmó que la protección diplomática se otorgó bajo la Convención de Caracas de 1954, lo que generó una nota de protesta boliviana. El caso involucra presuntos delitos de sedición y financiamiento irregular por 2.3 millones de dólares, según la fiscalía boliviana. México enfrenta el dilema de 47 solicitudes de asilo político en lo que va del año, un 40% más que en 2025, mientras la Corte Internacional de Justicia revisa precedentes sobre asilo diplomático.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Detienen a 2 líderes criminales y otras 12 personas armadas en Chiapas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Acusa defensa del 'R2' falta de información sobre su salud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Bolivia dice que procesos contra Cerimedo continuarán, tras asilo de su expareja en México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Explicador: ¿Qué es el MIR y por qué es clave en la discusión del salario mínimo 2027?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Llega nuevo frente frío a México con temperaturas de -5 grados y lluvias: cuándo y a qué estados afectará",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Pagos digitales en tienditas: beneficios y características de “Cuenta Fácil”, herramienta para recibir transferencias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tienditas de Villahermosa prefieren el efectivo ante los pagos digitales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Reconoce la Presidenta a alumnos regios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Notifican acusación a abogada procesada por fraude contra Grupo Herdez",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Suman cuatro horas de cierre en la México-Pachuca por volcadura de pipa con gas LP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Bajan asesinatos en México: Homicidios ‘matan’ principalmente a jóvenes",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Despreocupa a Lorena de la Garza destape de “Mike” Flores para Monterrey",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Dos cigüeñas americanas son avistadas por primera vez en el Lago de Texcoco ¬ FOTOS",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Jaulas, cascos y cinturones: así inspeccionan a los participantes de la Baja 1000",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Cuándo son los tres puentes escolares de noviembre en Edomex? Esto dice la SEP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Morena consuma el recorte de 6.000 millones de pesos al presupuesto del INE en plena crisis por el escándalo de Taddei",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONy02aHlHYW1MQVVERFIzZHpqOGZhWWwtNTNzcXR1WVN5WDhWb3dZUW9raVhES0JBTWdmalQtdnN6YnNLUjdKRzFtR0NlVGxjM2czSUl3Ui1HWldSWGcwMWVBYktPR0V3Y1dXM3BlTWtTZllBR05IRThtVDlrbWNSalZWaGlfVmJETFc0WGtYQnpfdmR1enBWZEhlZDJ3aTFYVFAxS284ZzFFT0dkX1ZzWGJlQmJSTFJOaThwQkRBQVdTdDdiR01RZnJBNG9PX3BMNU9BMm5nYW9uODFUc01N?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Renuncia Dámaso Castro a la Fiscalía; es uno de los señalados de nexos con el Cártel de Sinaloa según EU",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMXo0X2YtVFNSaVY4MHAxRGRoY0hweTI2ci1ZaTY0WDVScng0a2lJQnVrcFFjRC1RMkFyQjQ1M3hibEMxTlRWWDBBeE5BNE1RMjhSLXBDaU5sMWZ4MW5qQXRGajBkTjVfZkFwNjl2UUpEVmV1WEp3Y0ItZUNScG5SLVIxcUE3MVQ2ZVNqSGlnM2puZGpMZUY3VllZbEtkNXdocEIxc3J5VFA5OE1XeTFCVDBXQ09hYkJydmd0aWtxMWx1M2FMRmZtVlVRMVhtNFdjR19WODdaRW9EWlVfeGYya2hEQzByTTlRU21B?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Nuevo frente frío causará lluvias en la mayor parte del país este miércoles",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTZETWdKQ05Gekc0UEI1V3A1R2EwT0NYVXA3UTVYc0pzcnVqeGJ6NENRZllTcUZwNzMyLUY5M0JvVEt6Z0FhclllQVNXbEJJRHh6Q1NXWFJUcUtUYVFzSEs5VXRMTV9OQXBiLUoyTHBpS1lvaXl3UlplMlVpQnh0WVZaRXp1RjVSQVhjZldyajJ4MnpwTUVKME9UbFVNWUpKR2xoWnJuZEstX3pjNUxqMkZ2eUNxaTFpRlZvM0tCUE43TzZ5Smc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Daira Martínez, de 9 años, cursa la universidad y está nominada en los Latin American Leaders Awards",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS01LUVhFQ1BGUGtNLWo0ckp2Wl82aER3U0NCUF9nRGlQNkVpRlhQYnRWT05KbllMbEMxeHA2dTRPVnNCNE5PbElUWS1NWUFKNklLb2dOWGd5UGJuTklkMDM2VDlsbnp2dnVHd0JTWWFNbF9GZWcwWHc4Ry0yb1ZkczJyZmFSSWZVX0tKQV83NXVmYVBBdTJoaWhmN2Q5MTVKSkFGNFM0UzVCSmNjSWw0ZjBQZW9kcVhyTDVVT1lxOFJZTHZkejVGdWJUT3hNV0RNN2l3bEdfVVRGSXh0WUNkYk1paGNLb3QycnFNSk5CdDVjR0FnTWVSMNIBjAJBVV95cUxNOE1ONzVsd0JrR2NjSnI0a2tkdFJtZ3AtYWswWmlGNjdPcGlpdFZaVFQzN1NRdVJfZXdUM1FqbmgwYTc0TUlZa3owU0JmaGV1c2xEVnhKNmQxMkJKU2lxUnBRczdoTE0tTXNuR2F6SENGejA0dFZuNkNFNnBSVHQ0dWxPY2ljUGpYalBuTDFqNHZZV0l3aWp1NGQtN3lKTTRLMm5fX2V1UXhSZTBsWjVMaWFDZHlUeUdpQUFKN1Z6cE5wQTJoYlpYeU9sT1lUanBzLXR5S2NqUTRNLTE0ZkNzRHB6cXFFRWlXWk5HNzNmMVBVOVhIYTF1NmE3OWRRSFppaVhKZ1M1NHZzbkI2?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Denuncian presunto juicio fraudulento contra Herdez: abogada procesada habría admitido que el demandante nunca existió",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONEFDUGw3aVZqdnFGVVhqTVg1MFFRTlAxWkwyQnJfanhJMC1jY1JEaW5jVktDNkYxeV9NTGZETHV6NnF6VEs3bjlWY2p4OGVzNkFmRkZ5T3ZpaUY3YWVnMThTQjBROW5xT0tNTG5sODRxZUFlVUxWVjU2RW03YjZkd1RyTlB0R1o2UGdWUFJQUGwtTTJlUHVkU3JlMFBMM0hvZTBUOURXNE9Da0QxNjBYWmJTeHhDc0U5YmpERk9iaHlJalE2UFpRRUxGVEZERlMzT19qTHdTb1NfWXdvNFp1UFN3NE1PeTJxZDFTZTJHWW14b0RLcy05Vw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Oposición busca desacreditar la elección de 2027 con caso Taddei por estar tan baja en encuestas: Sheinbaum",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT1doODJYbWZIMVl0ZzMtcnhCc3dfNS1Fb1NEYkNuM3JoVnlTOXdxMTYyaXczNHFaZ0ZSa0dvNXpmQ2ktQ1U2S3NmajZpblVyTUJvYWxOLWdzelV0amIzeUNEcnhlaHljWFhYQndiSHE4MmxOd1otQ0VZYnpacWU2azJlY0JQN1NZU3NwcnpXMTlvRjdQeG85MDlaYlNpZjNCblRyUjRqMnIyd2s2Z2ExaVVYUmFKN2RzSmYwZ2FxTHpVYVRIQmY5a0FoektTWXRtMjI4b0Q2OFphYk40VnJIWmdjSEp0VjlHbkE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Informador: FGR asegura envases esféricos en cateos realizados en Tonaya",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUViSlM3eGRueU9GVFpqekZrQ1lTOEZ2cndlMzY2SGE0VkxqeUJwcjFSY3pocl9rWmJGREJrVkVzUkR0dHBZWDJYQk00NkdMVlBOUjBoaGEtVEo5TVFEVE56NXZxNTNnX3BsY1F3emRFTWNQWnRLU1BqUUQ1cVR3UW5Lc1cxeHNHbG9qYVdxVVlSSVZ2WWtlQ3VxeGtZOFdRM1hteFlwMVNCcHZqUzJUZ1ppNNIBuAFBVV95cUxNVXZ0WmpPUFZGVlZBMUZvd3J5c2pHUnhRTnVNcTJjekdZMUJPTF92NDJIczBGMGNveXF6NVlGNkU3eEFzQTJLWlpocERucFNlcTVBRGZVRTlhMXZxaE1Tb0ZyQ3JSNm12TDliNkNEUmw3WUJFMTF5M3BNRVFGaGd0ZmY4dmcwdGFEbmVaaHFGSk05aXo2eGdLdTlidU0xRjJiOExrVzVLR2hBMmMxQUFRVVh0bW1tVGpM?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: El ‘R2′ frena su extradición a EU: Juez le concede un amparo al líder regional del CJNG",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ3RiOXg1UXJFWW1VcHZ4YzZLNGNKOFZtVlY0M1YwaEVOYXB5dndmbmVsaFkySFlGU3k2TVYwZ2QtcnJSM2hUOFVidUU2SzdVWGgxZUJQV3dWMUNLRXpkaEEyRW1LcEJrQWRwXzRlWjNNdDF3NWJzNkxCVTdVcHBUUVYtX3FoSEIxMXkwdmNSQUVHS2NXUGZNZWJoc3lld3Jud2c5cVRvcVdsRU9rbnhYbW1YQ3U1TG9mb2JwdlJ0SGFKMlFtTWpfeHU1eGY1N1U0eVE?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=N31jNte1Mcg"
+  },
+  {
     "id": 1794438007510,
     "fecha": "2026-11-11",
     "categoria": "Gaming",
