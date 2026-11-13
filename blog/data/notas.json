@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794592807030,
+    "fecha": "2026-11-13",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Luis de Llano ajusta defensa tras fallo ratificado por daño moral a Sasha Sokol",
+    "descripcion": "Un tribunal colegiado confirma la sentencia que obliga al productor a indemnizar con más de 2 millones de pesos y ofrecer disculpa pública a la cantante por la relación que mantuvieron cuando ella era menor de edad.",
+    "narracion": "La industria del entretenimiento mexicano recibió un golpe de realidad jurídica esta semana. El rechazo de Sasha Sokol a un acuerdo extrajudicial y la ratificación de la sentencia por daño moral contra Luis de Llano marcan un parteaguas en la forma en que se dirimen los conflictos de poder y los contratos de representación. De acuerdo con la Prensa Nacional (VF1), el productor reaccionó al fallo afirmando que su defensa \"se ajusta a la sentencia ratificada, NO al capricho doloso\", lo que evidencia una estrategia legal que busca acotar el impacto de una resolución que ya es definitiva en segunda instancia.\n\nEl caso, originado en 2022, se centra en la relación que De Llano y Sokol mantuvieron cuando ella era menor de edad y él ejercía como productor de Timbiriche, uno de los fenómenos musicales más lucrativos de los años ochenta en México. La sentencia, emitida por el Poder Judicial de la Ciudad de México y confirmada por un tribunal colegiado, establece el pago de una suma superior a los 2 millones de pesos por concepto de indemnización, además de una disculpa pública que el productor deberá ofrecer en medios de comunicación. Asimismo, ordena medidas de reparación que incluyen terapia psicológica para la víctima y obliga a De Llano a abstenerse de emitir declaraciones que revictimicen a Sokol.\n\nEl impacto económico para el productor asciende a más de 5 millones de pesos considerando costos legales y la indemnización, según se desprende de la cobertura periodística. Este fallo sienta un precedente en una industria donde los contratos de representación y las relaciones de poder han sido históricamente opacos. La negativa de Sokol a un acuerdo extrajudicial subraya la falta de consenso y la determinación de la cantante de llevar el caso hasta las últimas consecuencias, lo que ha obligado a De Llano a reajustar su defensa sobre la base de una sentencia ya ratificada.\n\nEl caso también expone las tensiones entre la protección de los derechos de los menores en el ámbito artístico y las prácticas contractuales que durante décadas permanecieron sin escrutinio público. La resolución judicial no solo obliga a una reparación económica, sino que establece un parámetro para futuros litigios en los que se alegue daño moral derivado de relaciones asimétricas de poder. Para la comunidad artística y el público mexicano, el fallo representa un recordatorio de que los recintos, las productoras y los contratos de representación deben someterse a los principios de legalidad y transparencia. La industria cultural, especialmente la música y la televisión, enfrenta ahora el reto de revisar sus prácticas y garantizar entornos seguros para los talentos jóvenes.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: \"Se ajusta a la sentencia ratificada, NO al capricho doloso\": Luis de Llano reacciona al RECHAZO de Sasha Soko",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: La 'Lux' de Rosalía triunfa en el Latin Grammy 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Meghan Markle está destrozada por la detención de su papá; su mamá Doria Ragland la apoya",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Protagonista de 'Malcolm in the Middle' reaparece tras accidente en carrera: esto dijo sobre su salud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Ninel Conde afirma que le tiene envidia por su piel de \"niña coreana\" a sus 50 años",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Luz María Zetina y Lorena Ochoa: las claves de su supuesto romance que van desde un podcast hasta una boda",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Frankie Muniz es hospitalizado tras sufrir un fuerte accidente",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Ariana Grande debuta en la alfombra roja con su novio Ricky Alvarez, pero los fans se fijan en otros detalles",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Tras 23 años, ZZ Top reúne generaciones al ritmo de blues y rock en México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Estrellas, Garbage, libros y hasta Sumo este fin de semana en la Ciudad de México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Revelan causa de muerte de Regina Torné y si su hija que está en prisión ya se enteró",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: El congresista electo Bobby Pulido anuncia su retiro de la música en los Latin Grammy",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Vogue México: Ganadores de los Latin Grammys 2026: Lista completa",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sWUNha3lET3RSNm80SXlFQnI4bk1JVXdFUmFKYW5LVXJ2NWljY29fWk1mUTBwYWNwYkF4aGRKdXp4aEctNFg1Z09HRFJsS2FPUlFNT2Uya2dWRlhfSXh2NS14R24wSWxvLUE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: De qué murió el actor de Televisa Efraín Rosas León: pedía dinero en redes sociales para sobrevivir",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY3F5Z1FsVU5FTFdFejlPRUpoekJzejhFRWxvZ3hQNDNNYzhldndhUEVQbE9kWWV6WjNWeG84ZXpqZmJEcGxoY1J0X3VVcnlUWFpLc2tUbGRncllGbVRzZ3ItOUUwdU5MdUsyME9DdXRNZkRkMm1Cd1ljODUxZUFmU3ZRUlFQY0hmXzB0dXhCcmkwSTUwWTMtRkE1VlkyMW5JazRhaWF4Z3VPbG9nazl0TFQyRUxaMWVPNjZ4bHVVOVFIQko0U0hXUkpKVVFCTHJFbS1FUV9pM3jSAfMBQVVfeXFMT0ZzeC1PMlBzMnMwdzllY09NWnNzZTY4eGNvM1dPSWhLelhvUGpFV2hPWE5ETzNtUEhIcVRfNFhiVTVlSEJOSkNuZS02dzVGZWZnOGVMc0k5S1lRRV9WTXFXdlN4MkNUaEJleEpJUXNYcml2cUo4Z2hCLURRSDdWcTFaSjdKQVVjZ2hoOHNoenNjWEYwc1JsZ3RsR1ZjSEhPTlhmMWRyZGx0RHBjMy1sbDUwSTUxZGFGWjJIM2lPS3pfMGU1QzJMcFpzMFlHRmR1d3RNd3hIanZBRDdPN3FHbGNXYjd0ZnprZFh6WWVIeFlGTlMw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Camila Fernández celebra su primer Latin Grammy con su bebé en camino",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbmEwUWZLSW9SdjRCVGNJY2tuamxWYmRvcjl6VTFzbzgzLVNRX284Ymd1a3lwU05ZdUw0NWdhOGllUWxlWER3OVk5Y3pzZzBtNVVNaHlmcVk0eWNiUnBQdlhEX3lqZ0dCVmtVZDFxdm02TFZWSWxTUzN5X3RaT0FHbm5ncjBpMWlkTEZtT2phTDVicEhiWjh4SkxKdjZ1aHllNU1NOFI2U0o?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Recibe Russell Brand 10 años y medio de cárcel por violación",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ2ZqZ0pocERCZDZfMHBVa3pPZU5ONE94TGxSLXZqc0h2bjJDNG1HSlFLbE1ZZDVXTU1jemJHRU4yeVBXY3dLSXNQenJfaDRhbDR6dFNJWWg2LU5JRmZUT2MtQmVkZDl5S3h6LTk0V0dFQmxuVVFxYk9YQ19aYlNfWHYtV1VjZWk2V2syNGk2RUhGcEl0UEltSTln?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "People en Español: La gran noche de Daddy Yankee en los Latin Grammy, las mejores fotos del homenaje al ícono del género urbano",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS3IzOEY0RFNxa0x5RElFY2E3YlpjR2JydDNuX0Y1Z2h6M2Q4dFoxYUtPdFhOSmNsOVV0VXBZdDdOcFZmWFpyT244YWpieUJlSkxkS282N3NlNi1yX3V5eE8tbkl3WVp6M2NNbWhiUTZPVGtZdjQ3cWFIU2NfN296Z01n?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Informador: ¡Vota por tu favorito! RUGIDO UDG 2026 está por llegar a su gran final",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnRIX2ltMm45QlFLVU44ZGcxdFpISkNSRExmN3lFbDRQODhfbjIzakdqMlhkRzk2TVRmVkRkbmdaaG1DejJNNzlzTUVTSVhZTjR1RDItODRqRTEyX3dUOFFzTXB6bll3ZnVfWllUdlh0TDgyT29uME1PcUtOeFh1NEhNMGdhbzJ1YlVOZ0hUejdmcGNGSzJ5V0Y4YkV3aDRYUzhTam1HUzVvbnYta2NBMUFwTkd5bXF2Vjc4eGJB0gHDAUFVX3lxTE94WWFNbUxoT0o0SE1DUXMzMWRlQ01GRVRPTDJMVG16NlJub1FJRDBlU2poM1hhRzk2Skx5NHBBZ25JdmpoTk9oOHBvckJnYXlIYllBOXptMVRDaG5BRDA0QXlhWHBiaHRuUU1Fb1dHTm5MVE1TaEFVNkozYlBiMHM4SEpqVnZDQjhJR1VHTldtZ0gzNzJxTGM5QzhTckJfVkp5RHBnV3ZGSk9ENklXMVZHd0JpcUVHeC1yTFFfbkwwYWQ4MA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Tras su victoria en las elecciones intermedias, Bobby Pulido gana el Latin Grammy a mejor álbum de música tejana",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkV5MWxfTDQ0eHA1SVYxSFNPR1ZTQmt5aHg2M3RYTzUzUTk1XzVGTmhuOElYTkdFakVhWEstbk5aRDdjdTlHWFlWT3JXaG82UEx5WG1vSkF3SE9VUDBqMHhISjRsWGY5QW9rUVNneTJkWFN4cjVxVVRuUEY4cC0wdWtteFFadU5KbW5pa2EtVUNYUjA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Crítica: el sonido de U2 se revitaliza en ‘Carnaval de Luz’",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVNpUC1fT1N4UnBxSVNLRUcxVTMzWDRGY0tqNm1FUEVrUXcxMGtQTjZHWHpla3U5TU82LW9lQzBvYmVqVkluUnkxZS1XY0J4QVR6aXJpVDJ6Y2p4N3hpMjdBeVdTaElJdTBoTWk2UUdaejV3Z25GUlJNdmEyZW1oTmtSa2JCRmlWallqdmN0ZmwyZXM?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=E3ECBXJCtz4"
+  },
+  {
     "id": 1794531606213,
     "fecha": "2026-11-12",
     "categoria": "Noticias México",
