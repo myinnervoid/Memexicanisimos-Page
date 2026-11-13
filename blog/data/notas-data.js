@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794596406547,
+    "fecha": "2026-11-13",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Endeavour en Los Ángeles y Call of Duty Mobile: infraestructura cultural y eSports",
+    "descripcion": "El transbordador Endeavour abre al público en el Museo de Ciencias de Los Ángeles tras una inversión superior a 400 millones de dólares, mientras Telcel GAMERGY+ confirma la final mundial de Call of Duty: Mobile 2026 en México con una derrama de 150 millones de pesos.",
+    "narracion": "El transbordador espacial Endeavour, primera nave de su tipo en exhibirse en un museo, abrió al público en el Museo de Ciencias de Los Ángeles tras años de restauración y un operativo logístico de precisión para su traslado y montaje en posición vertical. La inversión superó los 400 millones de dólares, según confirmó la prensa especializada. La muestra incluye módulos interactivos sobre misiones espaciales y busca atraer a más de un millón de visitantes anuales, consolidando a Los Ángeles como polo de turismo científico. El Endeavour, que voló 25 misiones antes de su retiro en 2011, requirió grúas de alta capacidad y rutas urbanas acondicionadas para su transporte desde el Aeropuerto Internacional de Los Ángeles hasta el museo, un hito de ingeniería civil que evidencia la coordinación entre agencias federales, estatales y locales.\n\nEn paralelo, Telcel GAMERGY+ será sede de la final del Campeonato Mundial de Call of Duty: Mobile 2026, con la participación de equipos de más de 20 países y una bolsa de premios que supera los 2 millones de dólares. El evento, que se celebrará en la Ciudad de México, proyecta una derrama económica de 150 millones de pesos y mil empleos temporales, impulsando la industria de los eSports en el país. La confirmación de esta sede coloca a México en el mapa de la infraestructura digital para deportes electrónicos, un sector que en 2025 generó ingresos globales superiores a los 1,800 millones de dólares, de acuerdo con datos de la industria. La organización requiere conectividad de baja latencia, servidores dedicados y protocolos de ciberseguridad para garantizar la integridad de la competencia, aspectos que Telcel ha debido certificar ante los organizadores internacionales.\n\nAmbos acontecimientos, aunque distantes geográficamente, comparten un denominador común: la inversión en infraestructura —cultural en un caso, digital en el otro— como detonante de desarrollo económico y turístico. Para México, la final mundial de Call of Duty: Mobile representa una oportunidad para demostrar capacidad logística y técnica en la organización de eventos de talla internacional, así como para atraer inversión en centros de datos y redes de quinta generación. La sinergia entre ciencia y deportes electrónicos evidencia cómo la infraestructura cultural y digital detona desarrollo económico y turístico, un patrón que los analistas de políticas públicas observan con atención. Mientras Los Ángeles capitaliza su patrimonio aeroespacial, la Ciudad de México apuesta por la economía digital del entretenimiento, dos modelos que, en paralelo, subrayan la importancia de la inversión sostenida en capacidades técnicas y logísticas para competir en la economía global.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Strauss Zelnick, CEO de Take-Two, sobre el retraso de GTA 6: “A veces hay que tomar estas decisiones inconvenientes”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: AMD lanza el controlador opcional Adrenalin Edition 26.11.1: qué problemas soluciona",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Transbordador espacial Endeavour abre en museo Los Angeles",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Telcel GAMERGY+ será la sede de la final del Campeonato Mundial de Call of Duty: Mobile 2026 en México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Y la nave espacial aterrizó, para siempre, en Los Ángeles: el ‘Endeavour’, el primer transbordador en verse en un museo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: » Grime II llegará a Nintendo Switch y Switch 2 el 26 de noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Las gafas inteligentes siguen dejando dudas en materia de privacidad. A pesar de ello, Google y Samsung acaban de lanzar las suyas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Judías mágicas y todos los suelos blandos en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Un objeto acelera sin explicación hacia la Tierra: ¿una roca espacial o una nave perdida hace casi 40 años?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Todos los juegos de consolas Xbox retrocompatibles en PC",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Científicos de la USAL colaboran en el proyecto internacional para diseñar el mayor mapa 3D del universo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Xbox anuncia Wolfenstein 3 e Id Software revela que hay un nuevo Doom en camino",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Vanguardia: Los servicios de Microsoft caen en todo el mundo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWVNVUpDWEQ3VU12VVU5ZFhkazJXMkJTTHZTZDNJSDR6UVFDUEtzSG9zXy14UUxxblhyOE5nN2NaT3pQQkJPaWFvOVZvSTVMZUQzdEk4ZU00MTRZZ293ZU9JVGF3eENNcHhlYWJ2bi1nWFRmekZNV3RPQXpELV9QVC0yTGxiVER0aFRLbnFKZlotemk0RjdRdzlwc1pfdkc1R0NPVjlqbEp4VGJjckpSTVpnU3R3Q0hZYlBNcNIBwgFBVV95cUxNTi0tSzNidFh0eFlqUDBpaGtrWEQydG13OUJ3OXJSdmI3Q1picjlxaHZtaExMUVJQRTlHa0c3RllTSDZMc01OWFpwYmxEdGpQUUxQVWtob2V2QUFWRHZ4Q3B6bmh2dm1DRXlIelFZMkEtWV8ySzVJeGNsQ3RYV0dBdUdkR0trLXJlcXl0TnZjbk5DbkdNcTA2YzhOcTdoSFlVT2RmTGRYNHlTd1hiRVJ4cFZRM25JSW55SWdmSFJtSmhUZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Nvidia, más allá del escándalo",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdVBrU2dLbDlLSXNrSUhWTmdEcW92aXdteWJqOUJJNEpfUTlMSXBBMkhyLWJGRjZ3OGN3Sk5hQ3ZxQlB0SF9INURRRG80VFJnd2RuXzdQMDRNR2RrXzdIMEtiV2tTWEVpNk9feFpndDQxbDVQVXdrUmNlVlA1RFMxYWluUVFxQzI4dTFkSDktMGI1dEE2UkEwX2hXc2M2UkE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Elementos de Fiscalía CDMX catean casa de sujeto que amenazó a repartidor en colonia Xoco",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNklIZEVTRk5DVzhnTHRWR3c4cGU0SWZrNHphb2J5d0JOMlM3djlDYzBENVJhQWtPQ3g5MWV5YnJKVzZXaWxjVVhaSF9fQ1RkYy1VdHVKUXB2NGxSTGFqUlBHdFZFTUVQN2N0Ql9iWFd4bWNDRW85OHBncmF5ZTBMZHJkd0FLSjhOVUhJMkRyX2ZqNEtBOE45cG83TkhxY3lzUTNYQkQ5M3hFQ0E4dmJwMjEzTGZwbDFwNXhkakNtX0plcW9JSzN3RXBDeGM2VE5MVmJXMWluaGIzLWYwbXBKamwzLUtjelUzTzUtd3R30gGCAkFVX3lxTE5LM1FXVEV0ZFFtUk5MLTg2SkFtV3Y4ZmozazREdlFvcEQzWnpvSzA5SmNTQ3BYOTBZclo3ZTFYQW5VcVozU1RvNU0tVUZyd3U0QmYyNk5WSXNsWnozSUFtcUVLN0RJZ0ZRTTJTS3YtcF8xeVdDaERnNmF3VHhaZXp5N01vbEM5VWlQRllPaU9PZ0VsdHpRUTYtYzlhWmNORHl5Tmg5VGltaEtqc3Q2OXZKZVdtdUU1RDhWN3dPbklSRDRFd0lJSzJPZTBMdUxVb0pMT2QzZGFCcDR2UkpwZGRSNnBlQnZFRGIzMWdrbmhDTG0wcjh2YW9ZNlU3T2Z4cTZEZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Alistan para 2030 nueva infraestructura energética en México",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdm1fWmk4OXpFNTJOakd0UFJBTHZTbGg5aVZVaks3TVBIZldnSHIwWUtZcEN1MnV0azdqZVB0UFJFMlBuRE1jdTNZWmh0aEpGQ21rZ1JnMVJ3dGZISVJTQWNEdFEzUWYwQXYwOW1ncFVGckxjUndvX1djTkNkRHZ5TFlGdzF4V01GQVNyQUZMYmhiZTRpOGRhZkVHTUtnVWNPcnh0MjZQM2UtYkNURlZMRkpVYw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Infobae: Microsoft corrigió una falla de Outlook que los atacantes ya explotaban para robar datos de acceso",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZE9CR2Z5NlJlcktWS1VZT1JleWlITlVJT3Z3TlljdFhRRUg4VngzVkdSV2xmVW5FRnJlcnFKY2hLbDMzZkZ4ZTNMQ1BWcW44Tzl2THlWajZIeFdGbjVZcnZJeHFQRjBGRjlOOEczbW44OVhubU8yckgzVnNKWmJUSk92cmplbGhwcDJEcGktdzAzNEpxOWZiYWZBUnN0V0FGNVBlSjdsTlJlckM4Qm8teERRaFlUemxOR0ptVjBkQVY3VGFJWXBtUGU0dnRNSUF4NjRWeFZWc9IB8gFBVV95cUxQN3MyNnlXR01OLW1ySHNyM0RrNkR3R09iOGg3VE9BNnQ2S2JiTjVNWDZsM0VjY1lvTXJYeUF0T21hQ3dHSEdBZmVmNm5vZ1NXVVJrcEJTdVhYMWJhN1k3cEhtQkF5OFM1NWI3UFE5dG1jNFNYcGJsNHEwVGRkUmZHa3FGcTlpeklSSkdDYW5ZQlRZVVlvR2tQQ29hYnRXUGE2OXZkdklzZDZoOG4ydnFWNkVhZzRzUnZBMThGRzN1U1NHT1Uwc05yNXZWeWJ2ZUUzcDEwZzBzV1ZnamdRakU4T0JpNlY3cU5IdWtzYjVYYkRuZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Alice Huang, supuesta espía, compró chips prohibidos de Nvidia... y acabaron en centro de datos de China",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcGpZcXh1LWRMOExobFVtNjRuQ1MwbzVWUU93eUI0bE9GOEVqSHNTQ25WMFRwb0lOTTU4NkZUMDBWQ1RLY3dTMEgzTVphRDdaMENDNkYzQU8zXzVfanNvaHB3WE11eGxVRHRtcHlOOE95SkdNMS1EcEhRaTl6aVdsRkZ2czVhLWNMQnhjOUYzcmY1c3NxMElwNVg3U0d1QmI2eS1SeXZHclF2WUpGSmxoTFJMRUpPWVVuc1ZqZFpvcmxPZU9SS2RuaFMwc2tTUHRFSl9IdXVSZTlFYnhTOHBBV1FfUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum anuncia inversión en México de 250 mdd de la brasileña WEG; fabricará equipo eléctrico para centros de datos",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZnpwMVNGb1FUMUppa0hOLXlUcGJCRW9UWFNsX1Jva2pWUElyR21paDFXRWJ0OTVVbExINnBmbVRjX0VWaHI3MUdQeTV4QnNMa1ZqT2cxaEd1MUtENTl1SXBPQnRXVlNRa1FPZlVCVkNQcEZCYzc4OWJval9xNUx1NDRHWGZoeWZJbWFOazRPVVp1SXpHQmwxVWZQZGFmMTdTMElPcjBPMDBrU2FPNTRQQjZLbC1Cc19VMTdwRnd6Zl8wUnNPOFJCNnp6RWRhSUdvbFJqN1A5ek9xMXpWMHUwM2E5T3VFaFlwUTFQb2RwNWtuZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Renuevan app del Banco del Bienestar: ¿Cómo hacer transferencias y cobros desde tu celular?",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaUQ1Y19BZ0RsYVRRLVptSmlxakM2aVFkVFpycFlxc29lYXpGLXpaSVB6UDVIYUQtRnJnZW5XOGVuVGl2Q2RQNXhjaVNjNjA4RzBjb01zMGdseXZuYXo0bE5peVM5dDVEdUYya0o2bWUxTVc0eVRxdVU5UXRMV0ZJem5JUUhtS3lsaUluOXVtSldPYlIyaWFRUk5xLVpZTGFvcmJUQTZrWEljZ1NTdDZsMldNaHZxcGFScU45YW9lRXk1VlNfY2J4enR0ZDlyREpOdXYxb0lZc3M?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Qc_2hpB6Ams"
+  },
+  {
     "id": 1794592807030,
     "fecha": "2026-11-13",
     "categoria": "Farándula",
