@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794610806101,
+    "fecha": "2026-11-13",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Xbox 25 años: Fable, Wolfenstein 3 y Halo regresan; 21 clásicos llegan a PC",
+    "descripcion": "Microsoft celebra su 25 aniversario con anuncios de Fable, Wolfenstein 3 y un nuevo Halo, la recuperación de 21 juegos clásicos para PC y la herramienta Playback. SEGA trabaja en un parche para Metaphor: ReFantazio en Switch 2 y DERELIKT llega a PC y consolas con estética PS1.",
+    "narracion": "La industria de los videojuegos observa con atención el movimiento estratégico de Microsoft en el marco del 25 aniversario de Xbox. La compañía confirmó que Fable, Wolfenstein 3 y un nuevo Halo forman parte de los anuncios centrales de la celebración, aunque no se especificaron fechas de lanzamiento ni plataformas definitivas, según reportó TierraGamer [VF3]. Esta ambigüedad, lejos de ser un descuido, responde a un modelo de negocio que prioriza la expectativa sobre la inmediatez: Microsoft busca mantener el interés en su ecosistema mientras enfrenta la competencia por servicios de suscripción y retrocompatibilidad. En paralelo, la empresa recuperó 21 juegos clásicos de su primera consola para PC, una medida que amplía la biblioteca de títulos históricos y facilita el acceso a un catálogo que llevaba años limitado al hardware original, de acuerdo con TodoJuegos [VF7]. Esta acción tiene un impacto directo en México y Latinoamérica, donde el acceso a consolas retro es limitado y costoso; la disponibilidad en PC reduce barreras económicas y de stock. Además, Microsoft lanzó Playback, una herramienta que permite a los usuarios consultar estadísticas acumuladas durante estos 25 años, como horas jugadas, logros desbloqueados y títulos más utilizados, según 3DJuegos México [VF8]. La iniciativa busca reforzar la identidad de la comunidad Xbox en un momento en que la competencia por servicios de suscripción y retrocompatibilidad se intensifica. En el terreno de las terceras partes, SEGA confirmó que trabaja en un parche para corregir un error en la versión de Metaphor: ReFantazio para Nintendo Switch 2, sin detallar aún la fecha de publicación del parche ni el alcance exacto del fallo, informó Nintenderos [VF6]. Este tipo de incidentes en hardware de nueva generación evidencia los riesgos de las transiciones generacionales y la presión sobre los estudios para entregar productos pulidos. Finalmente, el estudio independiente responsable de DERELIKT anunció su llegada a PC y consolas con una propuesta de terror inspirada en la era de PS1, sumándose a la tendencia de recuperar estéticas retro en el mercado actual, según kopodo [VF4]. Esta corriente no es solo nostálgica: responde a un modelo de producción de bajo costo que encuentra audiencia en plataformas digitales. Para los jugadores mexicanos, estos anuncios representan un doble filo: por un lado, mayor acceso a clásicos y nuevas propuestas; por otro, la incertidumbre sobre precios regionales y disponibilidad de hardware. La causa y efecto es verificable: a mayor apertura de catálogo en PC, menor dependencia de consolas de generaciones pasadas; pero la falta de fechas concretas para Fable, Wolfenstein 3 y Halo deja un vacío que la comunidad llena con especulación. En suma, Xbox celebra 25 años con una estrategia de contenido y retrocompatibilidad, mientras SEGA y los independientes muestran las tensiones y oportunidades de una industria en constante ajuste.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Infobae: ‘Unlimited Maid Works’ mezcla limpieza, cocina y competencia global en Steam - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reporte Indigo: God of War Sons of Sparta llegará pronto a PlayStation 4 con nuevos modos de juego - Reporte Indigo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: Xbox celebra 25 años con Fable, Wolfenstein 3, Halo y grandes anuncios - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "kopodo: » DERELIKT llega a PC y consolas con una propuesta de terror inspirada en la era de PS1 - kopodo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Ruptura360: PS5 QSSR: Mejora visual llega a títulos AAA en consola base - Ruptura360",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: SEGA ya trabaja en un parche para solucionar este error de Metaphor: ReFantazio en Nintendo Switch 2 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TodoJuegos: Xbox recupera 21 juegos clásicos de su primera consola para PC - TodoJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Xbox quiere descubrir qué tipo de gamer has sido durante estos 25 años: esto es Playback y así puedes conocer tus estadísticas - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: ‘Dome Keeper’ llevará su minería y defensa a PlayStation 5 y Nintendo Switch - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Nintendo Switch suma ‘KuloNiku: Bowl Up!’, un simulador de cocina con duelos - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TV Azteca: OFICIAL: Confirman anuncio de nominados a los Game Awards 2026, fecha, hora y dónde verlo desde México y América Latina - TV Azteca",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Cadena Politica: ¿Cuáles son las mejores ofertas de nintendo switch 2 buen fin? - Cadena Politica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendo: STEEL VANGUARD:Project ARES",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVWhqLVlpUVBianBTazBzVTd2YkJ4cnpNazBZcW80cVliN3A0b2dQVk9YLXYtaWJqa3EyakE0RkFLR2FHNU90S0dTY3hMdFBQWXJHUnhjTkszMnRHZ3J3SjI3TjZaS29qWS1zaWlUX0pmdXZfTlZjb3JYZG91WTNYTlpsOEJZTGZm?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Expansión: Estos son los mejores descuentos del Buen Fin 2026 en consolas para jugar GTA VI",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcnI4b3RyRE4xV0pXQnpkWTFQVzZITHhabU1mQVlMR0lUSFo0SmVPZ1dqQ21YNXhzUlJoNEFiSG0tQXJrQWE2VG9rMndmYVVVMFNrM0o4T0xqdlpCLWVYNDhFSm9CODFvcDMtYVBkdjlZQzNRQlU5Rjh2d1hncWN3ZDZzRnVWd3Q4S1JUeDdEODM1MUFJbmfSAaMBQVVfeXFMT3Z1X0hkZ010UHZTbzEtd2NRbFJ3SG4yLXM4d0laZ2JZVV83TzdlZUNJTUx2VlItTkZkTUV6WkxLTlVCTkozMnNMd3N3a180T2ZYazE4bkN2OU9qc2pzLVZVaDltNWpGV1JUUnQ3U2hvN0dzMHpOUU1TSUdwZm05Zm40THFzN3dQSTQ2X1hfOG9aaWpZaFZNM2RmYlF5WThMOFkyYw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Microsoft Source: Creadores latinoamericanos impulsan el futuro del gaming",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTFJtVEpsMG1GR1doZkVvRDVaQUMyNjBhYThaT1o2TlFGZ2dETno5d2ZoN1hpSFNoRHZDT1o4OWdwQXI4M2kyU1ZKZFNHMDRVclZaQ2ZiVnk0Nk9RSms5MXozV01tZURNcnJBekdMQzJPU0M1ZEtuQ2JTU3hJMnE5UklpUTZINWFiVlFfbmVSU0hXVVc4NHBFR2szVms2c2xXczN3RmhR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Buen Fin 2026: así puedes comprar una Nintendo Switch 2 desde 6,498 pesos",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWGZ6Qy1qRjVBd2NLUFI4M0hsRXlnRzlrdUdnbUl1b3MtdjhfcHhwLTFZYVV0cjJJLThOZUFubGg0Z0JpbUEwMnNYSVl5SjhJTjc0RTFsRlo4TURSQzBObTg3RVNpTFdfX1liN0lBRkNQT1FBQVhPZVRhd3VoTl9HbGY1SGR2Z3lsYmJZdVh2N3ByakU5TEtCeU9TVlkzUmvSAaQBQVVfeXFMTTJKcDgxOWhKdVBlYVpETlBTdUpwZHBVaTVZbkh0TWxUVHo5X3VmRHBfQTY1WVBtN2FJbk9wVVlhTE5HLXBPYzBjdkJabWFhTnRzdUwyZ2Fla3piWVA0V2xlZnhIMFZweEdNRW8zNW9sRnhNZC1vaUpuOF9lUHJ6QVQ1N2otaXhoWjJJNmNCOHNoaFBSSkppSGdEM0FDRDIzeFdudHY?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: ¿Nintendo 3DS llega a Switch Online? A Link Between Worlds aparece jugable en el servicio",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQnNlRk5pN0ljRXVDY0Y5WlpUejFnbUZ3bUQ1bG9BQmNqQXhjZE1QeE9OS19wcUs3eGlYTmt0QlR3cG5SbGxEclpXdnNfdTJKMGVuZmtmY1dSZFZtT1BSZGppNHh4NElFdWgyUklRTE5lX3ZKd0VLNWN4RnU2REp1eFUyYjRWUUpsemZmYXNB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Xbox Playback: ya disponible el repaso estadístico a toda tu historia en Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkRlV1NZQXZsbmNweWxZdkFzLVd6WkhNWVVvRFlDX2VQVEZ5cE1mMndLLW45LVVSUThuYUpMMWFRYU41SmYzQ0w5M2RTRlRhSGZ3TVY4cy12c3VhVU52dkZPa19YcjU1SkdTcnJwZW8yLWRRX2RpOEtNSHRkNkdxX2ZCaE5Gc3FCZlE5UUdYckhFZm9lcElFdUY5cTdHSTJvV3ZFYnJlWm0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo menciona que Zelda: A Link Between Worlds es jugable en Switch Online, pero todo apunta a que es un error",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWm1nbFI1aVFwdkE1dmNDdDJxSHZsQzhYeXJqdWFLRkZDbzFZZ3ktNkU3Wi1EeExrMzVvdnBCZzBhSmlxTS01Tk9LaVgxUFl0UW4yT0cwNlVidTBucXVuU2F6WUtnRWJxU1ZSYlc4Q1ByX09va3Rwc3Z5MFMxVFI0WTBnRFhrTUdmakJQdXVSc0tFQ3ptWlBJWng5d2UzeTdralNwWDRubGZLUnYtUzA4VDNQQ2NSVXM1b2ZfUzItMUVWSEVPbEJ6MEROWUxfaHJQMmJyZ2VvbDQ4bk5ibU8ybTZGRQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Xbox Playback, un resumen para comprobar toda nuestra historia a lo largo de los 25 años de Xbox",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdnNLeXBiNmphbXV2TnUwTUxtQ3lTUnFOMy1yak1oeGNNdHJqMFhxVFZTa3hnTVRGMDJOc0diMmpkVllBZWZrTVZCSjNaYUJ6S0ZJNTFDby1waW9zWFF1S21Pdnp1ZlpzU1BWSm4wWTdUa09kcWtxQVRTbGp3YUVzU0o1akhKcEZRY1BXYWg1a20xTnlxRnhXSklGdllTWHgzOHMwWUZLNXh6TEFCZmlWVEtQWDE4LXpHWUlxamhLRWlZYnRLRU1pbGs4clU1cHVKU3dKYzlUTG5EQdIB7gFBVV95cUxONTVCQkV2M1RUbEtPWkFHUkZ3LWVzNUJBT0wzallRbm9yN0lOMTUyOXJyRW1RWXh0RUhhQ0QzLUk0ekpwVEUxWklTV1FtNzNzTHlYbHI2emhfd0t1UHdGellDTk90cjVmOVZ0aHZ1S0N1RHdvOFkwZm1mUThRajN1SVd0T0hadFNKalNoTnVyVkRwaEwwRDFJWjFpcTk0eW1qeWJxMEppV0syMlA4QnBMSS1fZldjQy1BeDExbGgyMHd1WllEaU11Q2dONkVsUFVMOFRWamFDTmZIUjAtVnlDTng4Q21FMDBsbzZHcUlR?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=IstOlbGQZcw"
+  },
+  {
     "id": 1794596406547,
     "fecha": "2026-11-13",
     "categoria": "Tecnología",
