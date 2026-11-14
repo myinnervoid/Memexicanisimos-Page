@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794697205444,
+    "fecha": "2026-11-14",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "UE regula loot boxes, Valve mejora Steam Deck y ataque a InXile",
+    "descripcion": "La Unión Europea prepara una regulación histórica contra las cajas de botín y micropagos, Valve añade estimación de FPS a Steam Deck y un sujeto armado ataca las oficinas de InXile Entertainment.",
+    "narracion": "La Unión Europea ha puesto en la mira uno de los modelos de negocio más controvertidos de la industria: las cajas de botín y los micropagos. Según el plan impulsado por la Comisión Europea, se prohibiría la venta de loot boxes a menores y se clasificarían como juego de azar, lo que obligaría a las empresas a mostrar las probabilidades de obtener cada artículo. La medida, que podría entrar en vigor en 2027, afectaría a títulos como FIFA, Overwatch y Genshin Impact, y contempla multas de hasta el 6% de la facturación global de las compañías infractoras. Esta regulación busca proteger a los consumidores, especialmente a los más jóvenes, de prácticas que han sido criticadas por su similitud con el juego compulsivo. En México y Latinoamérica, donde estos juegos tienen millones de jugadores, las empresas tendrían que adaptar sus modelos de monetización o enfrentar sanciones económicas significativas.\n\nPor otro lado, Valve ha actualizado Steam para incluir una estimación de cuadros por segundo (FPS) en Steam Deck, basada en los datos de rendimiento recopilados de la comunidad. La función, disponible en la versión beta, permite a los usuarios saber si un juego correrá a 30, 60 o más FPS antes de comprarlo. Esto representa un avance en transparencia para los jugadores de PC, que ahora pueden tomar decisiones informadas sobre la compatibilidad de sus títulos con el hardware portátil. La medida llega en un momento en que la competencia en el mercado de consolas portátiles se intensifica, y Valve busca mantener la confianza de su base de usuarios.\n\nFinalmente, un sujeto armado atacó las oficinas de InXile Entertainment, estudio propiedad de Xbox y creadores de Clockwork Revolution, en California. El incidente no dejó heridos, pero la policía detuvo al agresor y la compañía activó protocolos de seguridad. Este hecho pone de relieve la creciente preocupación por la seguridad en los espacios de trabajo de la industria de los videojuegos, especialmente tras casos anteriores de acoso y amenazas. InXile, conocido por su trabajo en juegos de rol como Wasteland 3, se encuentra desarrollando Clockwork Revolution, un título muy esperado para Xbox Series X|S y PC. La comunidad gamer ha expresado su solidaridad con el estudio, mientras las autoridades investigan los motivos del ataque.\n\nEstos tres acontecimientos reflejan la diversidad de desafíos que enfrenta la industria: desde la regulación de prácticas comerciales hasta la seguridad física de los desarrolladores, pasando por la mejora continua de la experiencia del usuario. En Memexicanísimos seguiremos informando sobre cómo estos hechos impactan a los jugadores de México y Latinoamérica.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Ruptura360: Xbox celebra 25 años y lanza Playback para revivir el historial de juego - Ruptura360",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: GOG se une a Steam, Epic Games Store y XBOX para arreglar lo que molesta a los jugadores de PC, y también hay buenas noticias para Linux - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Revista Merca2.0: Razer lleva Honkai: Star Rail a cuatro periféricos gaming: Fecha de lanzamiento y características - Revista Merca2.0",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Valve sabe que te preocupan los FPS en tu Steam Deck y ahora Steam te dirá a cuantos cuadros por segundo te debería ir los juegos - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: La UE quiere meter mano a las cajas de botín. Su plan impediría venderlas a menores e impondría más restricciones a los micropagos - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendo: Hidden Kitten: Anime Waifu - Nintendo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: 7 juegos concretan sus debuts en Nintendo Switch / Nintendo Switch 2, incluyendo The Detectorist Guild y más - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: Sujeto armado atacó las oficinas de InXile Entertainment, estudio de XBOX y creadores de Clockwork Revolution - LEVELUP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Kotaku en Español: Strayward es como Minecraft con armas de fuego: el nuevo juego de supervivencia de Steam ya tiene una demo gratis - Kotaku en Español",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "iXBT.games: Tras 19 años, se estrena en Steam la remasterización en HD del juego de estrategia «Ancient Wars: Sparta», creada por un desarrollador ruso - iXBT.games",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Zelda: Ocarina of Time y Grand Theft Auto: The Trilogy lideran los tops ventas del momento en las eShop de Nintendo Switch 2 y Nintendo Switch (14/11/26) - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: Marvel’s Spider-Man 2 y más videojuegos de PS5 aprovecharán QSSR - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2hJR2MyZ2hzNzBzSGFNRkxaSW1YQVVLclI5RHEtUUVyVGlGYUQyT0ZDY2ktLTE2OEpucEpEZkdWbWxIUk12Yy02NUNLLWJGWlBURnNGcUE4UG9SVXBzaVpkLTJfWXlTOGNmUkxadmxodWttZ0x1QjZzOGxTZzlVSHlVZ1JvblVDXzYxckFDdkd0M3ZFalJNM0NwWkVhd3FxV2dfdTVFZjhqMU8tQ3oxeGpMbzBiamZzTmVrZDVISnRndXRyN1o00gHMAUFVX3lxTE4zNTNlNVB4X3BGdHhaUDV1VnEzc092NEpPY21GbmlYMWtjUDlsd25xSUVoM3o5TzZ1WEIzMW10UnRFcnJCWklTQVpqUUowX0xaTkd2bEEzN3ZJbjNiR2IzS3Zna3ROSURnYjRLSm01Qm50SFRFMkV3OVloa2l0TkIzLTdPMWo4d01IY1h6SGVraDB2Z0E0SXlmaHQ3dWREUkZDeVNFb0tobkltWDhhaXp1QzNXTE9JaHFEY2pDR2M0eW9HYzBPTlBOTnFfOQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: Hidden Kitten: Anime Waifu",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYVlEVjgybFdJSFlIdXhqWV8xV1RtcUtQRE8tQUJ4TGZGOGkzWktQQUJpdmtQOFl6U3JJVzdlY0JMZ1kzU1ptTXlZTEZyQUVOMS1qR3liakp6SWoxUGMtbnVuMHdac0o4Zm1mRHFUZ1RxQUlqWVNlMkhlOU9PU05fZjAyd2xvUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Zelda: Ocarina of Time y Grand Theft Auto: The Trilogy lideran los tops ventas del momento en las eShop de Nintendo Switch 2 y Nintendo Switch (14/11/26)",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNMzE3WlVCZUJLQ0NZUmdvSldHSFNIS2JXM28zbVAtTC1KWGdPZ3lGOVNPMV9NZXVKd3JhUFJaNlAtQVgtRHBsQzg1Sms0UmdkSWJLSm9RUGdMZmkxNkpyY1lRTzY0M213VE5pbnFyTHpUMlNKUzFlOFhhd2xoMklEd3djWFROQUlqQ3EzbkFaUjRpX09fWHFJWDlYZHFMaGpWU29IY21QeWpsUnYxOGZER3F5TkExMzRwc0pLcHR1YklQaGhDNHhLdTZTQTZTZktNUFdqSzNBUmhqTUh4OHJQeEhtS3pTQ2VraTh1UEtVUXIxMlBHaFdrOUpaN1pzTkRjbjE0TkxxcUlVS0QwMUxUS3pKVk8xeUZBN2RKbFZhMWppQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Informador: Así funciona Playback, la nueva herramienta de Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc2hDSTh2UmNBcHJNMXE2b09iSVZtSk5WdGd3UmxvLVgteXRFSmh4cXlsU29RZlozYkpELU45S0UzYVFLVjlaZnNlbGR0WGtSOU1TSU10YXM0TVpMenUzZmFObE1tLVIzOTRqWFM1RWotRTlOdHhJeGRwTkxTMmpQTTg0cmNIcVhUM0N0dmR0bXl4aC1SenExazRkOVFPWU9wU1lremhNQ2d5UdIBrwFBVV95cUxNU0dLVzV3NENUb1pVN1l5VVhHOURqWDlRajQtbVphUkxmdkw3akZScXBvWDJMcWxaRTdUQnZSeUFzNEY3QWMwMHNiZW03NmdPVldFNm1kVnphYS1vTnpjdkRGdEs5Y21SS0MtemE0N2lReDB0dk9HcWNLSTF6b2M1T0t5RHdheEQyWmFiOV9Pa1JoVUpVTDhhOEhENlVhaTJzNmVSdUZRRHBrS25Oc0Mw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Xbox Playback: ya disponible el repaso estadístico a toda tu historia en Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkRlV1NZQXZsbmNweWxZdkFzLVd6WkhNWVVvRFlDX2VQVEZ5cE1mMndLLW45LVVSUThuYUpMMWFRYU41SmYzQ0w5M2RTRlRhSGZ3TVY4cy12c3VhVU52dkZPa19YcjU1SkdTcnJwZW8yLWRRX2RpOEtNSHRkNkdxX2ZCaE5Gc3FCZlE5UUdYckhFZm9lcElFdUY5cTdHSTJvV3ZFYnJlWm0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Ruptura360: Xbox celebra 25 años y lanza Playback para revivir el historial de juego",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX05WQ1JmZUl6TjhhVUp2b2VxMVF5SGtYSUJId3AzSFRMQlhVbUxNRGNSRGctM0FnU1AwNW05UkRGV1JJTHlPcl9OTFFQZmNPMlIwLW9NRzZfTUFqbU8zTEJrT2toRnZuRm81TURPUUFHVllFWDZkVU9Td01uOHlCdA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Xbox Playback, un resumen para comprobar toda nuestra historia a lo largo de los 25 años de Xbox",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdnNLeXBiNmphbXV2TnUwTUxtQ3lTUnFOMy1yak1oeGNNdHJqMFhxVFZTa3hnTVRGMDJOc0diMmpkVllBZWZrTVZCSjNaYUJ6S0ZJNTFDby1waW9zWFF1S21Pdnp1ZlpzU1BWSm4wWTdUa09kcWtxQVRTbGp3YUVzU0o1akhKcEZRY1BXYWg1a20xTnlxRnhXSklGdllTWHgzOHMwWUZLNXh6TEFCZmlWVEtQWDE4LXpHWUlxamhLRWlZYnRLRU1pbGs4clU1cHVKU3dKYzlUTG5EQdIB7gFBVV95cUxONTVCQkV2M1RUbEtPWkFHUkZ3LWVzNUJBT0wzallRbm9yN0lOMTUyOXJyRW1RWXh0RUhhQ0QzLUk0ekpwVEUxWklTV1FtNzNzTHlYbHI2emhfd0t1UHdGellDTk90cjVmOVZ0aHZ1S0N1RHdvOFkwZm1mUThRajN1SVd0T0hadFNKalNoTnVyVkRwaEwwRDFJWjFpcTk0eW1qeWJxMEppV0syMlA4QnBMSS1fZldjQy1BeDExbGgyMHd1WllEaU11Q2dONkVsUFVMOFRWamFDTmZIUjAtVnlDTng4Q21FMDBsbzZHcUlR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: XBOX Game Pass quiere cerrar 2026 a lo grande y ya confirmó estos 5 atractivos juegos para diciembre",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcGtnRTBTOUtpZFRGa2lYdVJuV2FUck5pak5KYTZLY1huTFdPOE1aaHVjZDVuZlJKbmZ3VURaOUxxYlVHM1NlRlBQdDQ0TDNic1JrTXljV2hkMGZlVlhVZWgwVnlWVGtsdnZhdWl6elJWWW11ejB5TUpwbzEtWXE2Z2tBdl9lbWVvM1h5d2x3MzZMMW1ibVBiRHdobHZwT2xuZk54RGlDSDJzd2o0X1N6RUhRbUQwYl9uOHpycTFmRXlwNllYY1hRTDNERzNBVDA?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=a2E9osT6eYk"
+  },
+  {
     "id": 1794682806126,
     "fecha": "2026-11-14",
     "categoria": "Tecnología",
