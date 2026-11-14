@@ -1,5 +1,135 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794618007183,
+    "fecha": "2026-11-13",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Presión al INE, golpe al CJNG y récord de El Buen Fin: el pulso nacional",
+    "descripcion": "Presuntas presiones para la salida de Guadalupe Taddei en el INE, abatimiento de seis presuntos integrantes de 'Los Aldeanos' del CJNG en Silao, y el arranque de El Buen Fin con expectativas de derrama superior a 150 mil millones de pesos marcan la agenda. A ello se suman el frente frío 5 en Chihuahua y la entrega de 40 millones de pesos recuperados por el INDEP para un centro cultural en Tultepec.",
+    "narracion": "La jornada informativa de este martes colocó en el centro del debate la autonomía de las instituciones electorales, la persistencia de la violencia en Guanajuato y el dinamismo del consumo interno. De acuerdo con la columna de Héctor de Mauleón, citada por medios nacionales, habrían existido presiones desde el gobierno federal para que Guadalupe Taddei renunciara a la presidencia del Instituto Nacional Electoral (INE). Taddei, quien asumió el cargo en 2023, ha enfrentado cuestionamientos por el manejo presupuestal y la designación de consejeros. El INE tiene aprobado un presupuesto superior a los 20 mil millones de pesos para el ejercicio fiscal en curso, y cualquier cambio en su cúpula podría retrasar la implementación de la reforma electoral pendiente y generar incertidumbre sobre la organización de los comicios de 2027. La institución también enfrenta impugnaciones por la redistritación y la credencialización, lo que añade presión sobre su desempeño.\n\nEn materia de seguridad, fuerzas federales abatieron a seis presuntos integrantes de 'Los Aldeanos', célula del Cártel Jalisco Nueva Generación (CJNG), durante un operativo en Silao, Guanajuato. La acción, encabezada por la Secretaría de la Defensa Nacional y la Guardia Nacional, buscaba desmantelar una red de extorsión y tráfico de drogas. Guanajuato acumula más de 2 mil homicidios dolosos en lo que va del año, según el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, y es la entidad con mayor número de policías asesinados. La célula operaba en Silao, León y Romita, y se le atribuye el cobro de piso a comerciantes y transportistas. El golpe afecta la estructura financiera del CJNG en el Bajío, pero evidencia la persistencia de grupos armados que disputan el control territorial.\n\nEn el ámbito económico, arrancó El Buen Fin 2026 con la participación de más de 100 mil empresas y una expectativa de derrama superior a los 150 mil millones de pesos, según la Confederación de Cámaras Nacionales de Comercio, Servicios y Turismo (Concanaco-Servytur). El evento, que concluirá el 20 de noviembre, ofrece descuentos y promociones, y se espera que genere más de 500 mil empleos temporales. La Procuraduría Federal del Consumidor ha advertido sobre prácticas engañosas y desplegado operativos de vigilancia. La edición anterior registró ventas por 120 mil millones de pesos, por lo que el crecimiento esperado es del 25 por ciento. El Buen Fin se realiza en un contexto de inflación controlada, con una tasa anual del 4.2 por ciento, y un tipo de cambio que ronda los 17.50 pesos por dólar, lo que favorece el consumo interno.\n\nFinalmente, la presidenta de la República entregó un cheque por más de 40 millones de pesos recuperados por el Instituto para Devolver al Pueblo lo Robado (INDEP), destinados al Conservatorio de Música y Centro Cultural de Tultepec, Estado de México. Los recursos provienen de bienes asegurados y ventas de propiedades decomisadas, y forman parte de la estrategia de recuperación de activos para fines sociales. El INDEP ha recuperado en lo que va del año más de 2 mil millones de pesos, según datos oficiales, y ha destinado parte de esos fondos a proyectos de infraestructura cultural y educativa. El Conservatorio beneficiará a más de 3 mil estudiantes de la región. En tanto, el frente frío número 5 azotará Chihuahua con lluvias, fuertes vientos y bajas temperaturas, de acuerdo con el Servicio Meteorológico Nacional; se esperan rachas de hasta 80 kilómetros por hora y temperaturas mínimas de hasta menos 5 grados centígrados en la zona serrana, mientras que en la capital el termómetro podría descender a los 2 grados. Protección Civil ha emitido recomendaciones y habilitado albergues temporales.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Héctor de Mauleón revela presuntas presiones para que Guadalupe Taddei renunciara al INE",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Abaten a 6 presuntos integrantes de ‘Los Aldeanos’, célula del CJNG en Silao, Guanajuato",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Enfrentamiento entre militares y civiles armados deja dos muertos y varios heridos en Jalisco",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Dijeron que proceso en Michoacán se va a reponer.- Morón",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Inicio de El Buen Fin 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Comercio no va a ser tema central en diálogo con Xi.- CSP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¡Regresa el frío a Chihuahua! Frente frío 5 traerá lluvias, fuertes vientos y bajas temperaturas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: PRESIDENTA ENTREGA CHEQUE POR MÁS DE 40 MDP RECUPERADOS POR EL INDEP PARA EL CONSERVATORIO DE MÚSICA Y CENTRO CULTURAL DE TULTEPEC, EDOMEX",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Propone senador fijar aranceles a EU si Trump cumple amagos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Prevén crezcan 6% ventas del Buen Fin",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tractocamión que circulaba en sentido contrario por la México-Querétaro choca contra combi; 13 heridos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Triple choque deja dos muertos y un lesionado en la Vía Corta; involucra unidad de la FGR",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Sheinbaum envía felicitación a AMLO por su cumpleaños 73",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Caída de árboles, encharcamientos e incendio de poste, incidentes registrados durante las lluvias en Tijuana",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Eran universitarios y tenían 18 y 19 años: así murieron Joanna, José Miguel y Rodrigo tras accidente en Edomex",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Sheinbaum, sobre la protección de Washington al fiscal que dejó entrar a la CIA en Chihuahua: “Está hablado con Estados Unidos”",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOemZHNlRqQldWNmpIMEFibERsN0RyaUZYMkN5OG1OTVYyUk4yVS1IX3dySTk4cWRHMFg1Y2VtOVlOY1RxekVEdUxmVWJqcUZuYktBZlN0bThXNm9BQVVZSkh0d0cyM2pwd2FlU0ZiR0hYWkx0V1RDUjM0ZkVnY0lfV180alAwTndEYVVJZ3BpTGpTdFhydzVUcXlEVXdmUXJTaE85Y2dMcV8wcmFUT1ItSzdFSXFGcFUzN2VkN1pJakFnVFZKQm5zQzBVLU1aVjNybjhybl9nVm1WVDR4M1RfNnJHUERCaDRiOURWY2QyZUV1Sk95alMxSA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum responde al zar fronterizo de EU: ni una caravana migrante se dirige a la frontera norte desde México",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNLWRWSWNHcE5INUh2OWM1OWNROXZDQUNvT2oyMW5qcUJWbk5mSFNiVERYdjJrOTYwQjFzaGlZcmF6QW92VnMyU2NDR0x4ZHJkMlRhSHlVczd2S081cGhPSGdwN2hWNlZnSTJVOThqay0wUnU3ZVRPUTc3c1lmQzByc2RON2xrdUNYc3dHMERWcXI1eVBuclRTNHBTbWExd3BrMHZKUnNBLTlUMTAwTkEzLTVFYmlMLWQyNGphdWVmaWdyc040R1VvQXp2azl1al9OUmVvY0RLVkRxa0Q3OGNNOUJTUVNoZUU1UmdDZkNDMlBlX2lYZm9oMA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: UIF descongela parcialmente las cuentas de Rubén Rocha Moya, gobernador de Sinaloa con licencia",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOei11a3Fka0F2LVFNOGxidVdlc0VwRlJ6dTh6VEN0STMwelQ4NVdHcWx6elEyUlhEdnd3dmVKYTYydnZTLUgwanNINl9oVmtIb09qVk45WnkwakwwZUtWSTVYWVFScmkya1haa0pnbnBxbmxfeEk4Qk1zdzNlMm56QUxFVzJKbHNvalA0R0tSdzQtX3gxSF9vMkkyVDZTb0tMa3RQY1JHVVR4cVo0OVBid0Q1QnVxdGJUOUljeFNBUlJaMi1HOGxZa1NmNHZ2enNLRTNNWF8xSkZGWENwenc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: El Meteorológico pronostica lluvias muy fuertes en zonas de ocho estados y fuertes en cuatro más generadas por el frente frío 5",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNU0lNOWFDWWVLQ3BkT05McHNKUjItQldKWk9nby10VWxzOVJoWlV6aE95UjFNTFI1R0JNaHlHcWdGVV9HT1Z5WWhaZE9pSnV5TDZSNnNWLUd5WDQyeHhqeWY1TmRmazU3VG1RWGlta2NEdXZkTGZpbkRuNUczU2w0d19ZQUhuenBSMUplalFSbE9nQmp6el9kY1Z5SFNvaklBTDFxbmtVZGM0eVEwcGY3QjY1d2Y1MmR5X2pGNWFGbkRZZUpLN0lKWWdJb0VUbGdJUWZOZHBUSGZCdXM4LUpZR2VNVG92Ni1mbmwwVGt5aWVfZldMOTFNTHYwZWQ5YnNNVVBBZGViMFBTMC1RcWc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Agentes de la FGR realizan diligencias en oficinas de la Secretaría Ejecutiva del INE",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbFhaOHJ2SUc5RFRaZHByNzh0X3NESTMtSDZpV21XVnNwQlVxNFZleU1TMXItYkx1SjQ0bm53LVFNbm5sRGswaEpvOW1EYnU4OVAwVS1kYkdUOGlGdFJBUWZxdlpld1NBelJOZ1BDYnRLS3l5Rk9qWnBvNmJDMzQ0VkVyYU80NzA4NndrYm9tbDFnd2JTc0pxbVp6Tmp1b2I3REhvallrSUl6c1oyWXFydWhoaw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Ataque armado en Silao: seis muertos y 13 armas aseguradas",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUExBZXRsdmdxYlhWNzVmZFJmQTk4X3pTdFVxa052WThCWC15QVFjUjB0S3J1aUJ4WUxkZHRtVGlkN2x2d2IydEQyWHhTSmRQZy10cFh3TUtoYnZlMDc1MVB1cE1pYVU5czZrUk1oS3dLcGFOTnEzZUxLaHM1NjRlWXlHSWZDUkw1Q0I0NVZjc3NaTkxBb21uMVJEMXpkTzQ2dEVxa3J0bjI?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum pide a FGR y ASF determinar si corresponde investigar a dirigentes de Somos por irregularidades en INE",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOeXl5MmhQYjhuSDdaaEFzYjFXdko0MHhHcEJhT3NJSTJod004M0NYNWQwTkcwS3pIdndfSS03RXR6ZF80QXU5d3AyUXdtRlBWbTN2U2NLVVlvbVVTd1VITGRRS203TldjTmZzZG5TdUZIQUUzT3ZBNjd3VjVJcFF4Qi1GSzJ4cjlOT0tnZUJTQU1aVDQwc2xiUk9GS2FVYzlYaWxVenZra3kxNlJ1SXhmTllKQ1l0bmNjR09oTVNvUzQtaHRyVlUwT3hyMl9zVWlHOU5uZThuQ0UzaGNNOHZkZTF3MHdDdU9zX21NcjV6WVE4MVNXV3pEejV2SQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: ¡Mañana inicia el FIG 2026! Conoce los horarios, accesos y recomendaciones para asistir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHFtNnFoakcwYnlGLXc5TGxmbkc4R1owWVUxM2M4YTVrVklYUU16bGlKeXlnSDN4bnNrSDRTaWtpdFp4bWZTNEROQkxqbXo1eWdpYmx5UmhDMVBjb2ZTM05aUmc2b2JzcGVzTWJ1UkdrV0tyblRFOHU0MGRRR3NFUXpqdUVGbGtuS1BfcEhGRDJJZW5ING83R3IyaEYzb1JxRG1hV2ltT3g4LXdsVnJjanZrcDlNbW9mZnc?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794610806101,
     "fecha": "2026-11-13",
     "categoria": "Gaming",
