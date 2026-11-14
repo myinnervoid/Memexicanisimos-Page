@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794682806126,
+    "fecha": "2026-11-14",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Zelnick decreta el fin del disco físico y Take-Two acelera la transición digital",
+    "descripcion": "El CEO de Take-Two anticipa que los discos serán un nicho residual en la próxima década, mientras en México la venta física cae 18% anual y el gasto digital crece 12%. La concentración en plataformas como PlayStation Store y Xbox Marketplace redefine la propiedad de las licencias.",
+    "narracion": "Strauss Zelnick, CEO de Take-Two Interactive, ha sentenciado que los discos de videojuegos se convertirán en un nicho residual en la próxima década. La declaración no es un pronóstico aislado: Take-Two controla franquicias como GTA y NBA 2K, y su postura orienta la estrategia de toda la industria. Zelnick argumenta que la distribución digital reduce costos logísticos y permite actualizaciones inmediatas, pero también concentra el control en plataformas como PlayStation Store y Xbox Marketplace, donde las licencias digitales no son propiedad del usuario. En México, la transición ya es visible: cadenas como Walmart y Bodega Aurrerá ofrecen Nintendo Switch 2 desde 6,369 pesos en promociones del Buen Fin 2026, pero el hardware se vende con catálogos que priorizan descargas. El impacto económico es tangible: la venta de discos físicos en el país cayó 18% anual según datos de la industria, mientras el gasto en contenido digital creció 12%. A esto se suma que Google y Samsung anunciaron una alianza para desarrollar lentes inteligentes y competir con los Ray-Ban Meta, lo que evidencia una carrera por el control de interfaces de realidad aumentada. La consecuencia es clara: el usuario pierde capacidad de reventa y préstamo, mientras las empresas ganan control sobre precios y disponibilidad.\n\nLa arquitectura de esta transición no es neutral. El modelo digital elimina la cadena de distribución física —fabricación, empaquetado, logística y retail— y traslada el valor a los servidores de las plataformas. En términos técnicos, esto implica que la licencia de uso queda atada a una cuenta y a un ecosistema cerrado, sin posibilidad de transferencia. Para el mercado mexicano, donde el mercado de segunda mano de videojuegos representa un alivio económico para miles de familias, la pérdida de este derecho es una consecuencia directa. Las cifras oficiales de la industria confirman la tendencia: la caída del 18% en ventas físicas coincide con un aumento del 12% en gasto digital, lo que refleja un cambio de hábito impulsado por promociones y disponibilidad inmediata.\n\nEl caso de Nintendo Switch 2 es paradigmático: su precio promocional de 6,369 pesos en Walmart y Bodega Aurrerá durante el Buen Fin 2026 incentiva la adopción de hardware, pero los catálogos priorizan descargas, lo que acelera la dependencia de la eShop. Mientras tanto, la alianza entre Google y Samsung para lentes inteligentes compite con Ray-Ban Meta, señalando que la próxima frontera de control no es solo el software, sino la interfaz de realidad aumentada. La soberanía digital nacional queda en entredicho: sin discos, no hay reventa, no hay préstamo y no hay conservación fuera de los servidores corporativos. La causa es verificable: decisiones ejecutivas como la de Zelnick, junto con incentivos comerciales y promociones, están reconfigurando el mercado mexicano hacia un modelo donde el usuario alquila, no posee.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Strauss Zelnick anticipa que los discos serán un nicho en los videojuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Google y Samsung se unen para crear sus propios lentes inteligentes y competir con los Ray-Ban Meta",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Metaphor: ReFantazio ya está disponible en Nintendo Switch 2",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Un misterioso objeto espacial está acelerando hacia la Tierra y desconcierta a los científicos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El telescopio espacial Euclid sienta las bases para cartografiar el universo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Starship navega en órbita y SpaceX mantiene el objetivo de capturar la nave a su regreso en un vuelo de prueba inédito",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Zelda y la crisis que casi acaba con la fórmula clásica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Strauss Zelnick (69 años), dueño de Rockstar, sobre el futuro del formato físico en los videojuegos: \"Será una parte muy pequeña del negocio\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nave de SpaceX podría cruzar el espacio aéreo mexicano este 14 de noviembre: Seneam y Afac",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Starship de SpaceX entra en órbita terrestre pero descarta captura del propulsor",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nintendo emociona a los fans al decir que una querida entrega de Zelda para 3DS está disponible en Nintendo Switch Online",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: ¿Pueden rastrear tu celular por anuncios? Así funciona Webloc, herramienta creada por exsoldados de Israel",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLTc5a2ZlVGphc0hTOWs5T0VZVVNlZGo0WnBHM25rbzZrT2hsaDQ3Zi1zSmxramIxNW1aeU4waGlVcE9FSC1BQ05yMUJMd2l2U1drcHVCT3hldGV5STBnY2RhUW9STUUwQ0xDM2VDWXRFWWtNOTIyaFpVSDVXY0JvUmpYbVhKcDdWemEtdlozSl96T0xPV2ZJY1ZQMzlsNThCQ2dNOTZ3eG9UbjV4QWZ0aTNpQjdjampUamlPX1NPUWVYTi1KS3NwTElaaFZ4RDE0T1NfVTA4c3c0NExud3RhRVEydFp3cmM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "UnoTV: ¿Realmente hay ofertas? Algunos productos bajaron solo 109 pesos y otros subieron en el Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVjROWUZpNnppbEQ2a203OGoxT2ZXN0pfejhwQ0RVT1FLQkFTdzRDYllKN1owTVNydkdKTy1pZ1FDc3FUZmI3amRyUTZTWVctTi1yOVh4cGZybThVSDBzSU1VemticzFPM0gwaUFWZU9ObWtFQnZxdVYxeGs1SGJHNGJuT01udU9TaGRZZlJXVGdjNkZTSHBfQjFyWHB2OGhoSjRpdU9TZk1FcjNlcjA1UjExdHlVbFFjTDdGSEphbDZYRU9NckJpRVp5S2d3VzBUTlZvX3E4M2tyZFk?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Seguridad Nacional de EU descarta que cancelación de vuelos se deba a una amenaza contra el país",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPa0pMTkF0YldxWExNSFp6UEpHTl9BbkpXbnBfa1hFX08yWE1nVVdwTjNra1J5WFZ1bUd6bm5qUFc3VFIySU1IMG9uY1Z3SUtnYzNtb1VpQXBWMWZ5RktkWnBFODNCZkhCLWNZeVFMRlYyTENHVTg2b0oxcFcyLW40VVA4akxLdDdjZlpMUk1Zb2FvMHkxV25McnZCNmRGR243bGN2dEFxa09FaWw3eWpaeDRZQ1RWWE00RUhiaXlBOFR6TEh5LW9NZEtIYVc0akpEcmNHVnRaSUpsQlZEMFE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Infobae: \"Soy un pedazo de mierda\": las últimas horas de Jensen Huang en Nvidia",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0lxOXRsVHJ3azk5SWxQMFpzLVVhM3F2cUhla21XS3gydnZYS3ZtTDY0TmVfbHUtOE5YUUVycnBEa2FIcmJTcFlDU1ozamF6V2FMOTJTTXBuZ21XTWxiWFVEajVoZlhKRlJxV1VfbXVJZ0RQRzN3Um14MGI5TDBFXzJ4SlZXZHVmaUNQQ2hOaXJLY1NzMXg4SGFHdEo4ZXhmU1ZWTzRhNlhQcU1pdklpMzA2bzIzZVgtSHfSAdQBQVVfeXFMTzY2Rmt5Tm5sVWRqUmNtZ3lrd2xOOFZLcV9ERXBiOHJLS080dDJvRktQZXlxemNJaUlndWVLVkJZblk1ZnpOTFVWUE41WExsdGRPUW5GdnRuZF9tVDk4eENfd3dUUi1mMG9icGRJdVRBcm52bkR1ZXNlblNtb056VzM2dlNVNmFqTnFCeFc3MnJfNFBRQ3dDdktrZ2JfdU5KTEJkSWJ3eFQzd1dVUWJYNVlicHBIUWMySEJPNFo1djlYMTZTZTMtTGdfcy13QmJ5SzdtWl8?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Qué se sabe sobre la falla global que afectó a Outlook y otros servicios de Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPUlliTGZ4Y2FSaFV2NUhjOC1VUG0xWXc2am5JMGphZDI3aTRLaTBjTURpaHg1ZUVxWl9aVjAxWGRLdW90TldmR0l3eXBnanl3eHpndHdEZm1qVE1E0gFiQVVfeXFMTjI5dHZTQ1lZMDdqRlRiVXVUS2NIdmFSbVIwb0dzeFVlbjZVWllaa01XMlZXbjBVR1MwSXlVeDZ3aHhOUjVmbzZmaUVfRy12QlZUZXkxaUpKNU9UcFpfSVdVM3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El concreto ya no será el mismo",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW05NjVQNlJtc015eEdlT3M1eWtKcjF5TTdrcHgwaEd4QWw4Wm96aWF5RTdXWkNKM2o1MXVCR1F4eGVhR19oUnFPTjlfVjE2UjRoUnhpdlozcDdfVWg0NEF5bmRMZlFoTVhTVXlpcDhJeEdNN1RxWUE1bEx6b1M1QUFFV2YzRHJmazdWNFJfdEZUeVY4YmVrMzMxcXBRcDE3OEFLUU0ybUNUWUdULTRnNw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: EU responde ante sospecha de drones sobre base británica, informa Fuerza Área",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdW1Zd0FrSmhfUmRiS1RudTZUUkpOS1ZhTEdrbjh4ZWdIekpQNDUtVkZPNmV6ekdXbXVoR1dzQkJwVWVKMjBNUG1pdlZxWVlUcXY5dTBGRHljcml3UjFEQ3Y3R0NlYy1HU3RwcUhmRnpKZk0yV0lNUGhuM0dvQkRKMTZVWU5pOXlvamE5cm5LQVlST05fTXNaVWZ6aDlQcTViUU5jS2FXdzZMeVpTZURtYi1POVJ4dUpqR3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Tu IA necesita supervisión. ¿Sabes qué le dejas libre?",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORjJ1c21aNWxYUUhnUmt3alZTN2NzZExJN0ZmYmxQS3MxXzRSazFhZXR4QlRlX295QUJGUmtmMjdjaGpXczdCdWE4amk4ajF4UHhrY05acTQ5Q21DdTRDWmpFWmRuRzQ2UE44UjBBakRzYjF2TDFtbFdkdjEyS2NEN2xOR2lRbFZHTVNRYzZVd1pGMDVvQkNWS1QtN0FWbUZSdy1vT1Z4b1lwXy1WQjBITmVQMnk?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=NllQkNHpqUw"
+  },
+  {
     "id": 1794679207714,
     "fecha": "2026-11-14",
     "categoria": "Farándula",
