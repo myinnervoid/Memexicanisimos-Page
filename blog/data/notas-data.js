@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794679207714,
+    "fecha": "2026-11-14",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Gabito Ballesteros detenido en Querétaro: FGR investiga ejecución pública de 'AMG'",
+    "descripcion": "El cantante fue bajado del escenario en la Feria Ganadera de Querétaro y puesto a disposición de la Fiscalía General de la República por presunta violación a la Ley Federal del Derecho de Autor al interpretar 'AMG' sin autorización de sus compositores. El caso sienta un precedente sobre derechos de ejecución pública en espectáculos masivos.",
+    "narracion": "La noche del sábado, la Feria Ganadera de Querétaro se convirtió en el escenario de un operativo federal que interrumpió la presentación de Gabito Ballesteros. Elementos de seguridad privada, en coordinación con la Fiscalía General de la República (FGR), bajaron al artista del escenario y lo pusieron a disposición de la autoridad federal. El motivo: la interpretación del tema 'AMG', cuya ejecución pública no estaría autorizada por sus compositores originales, según confirmaron fuentes de la investigación citadas por la prensa nacional (VF2, VF6, VF7).\n\nEl contrato con la feria incluía una cláusula que obligaba al intérprete a ejecutar únicamente material autorizado, lo que complica su situación legal. La FGR inició una carpeta de investigación por posible violación a la Ley Federal del Derecho de Autor, delito que contempla sanciones que van desde multas hasta penas de prisión. Hasta el momento, ni el equipo del cantante ni la feria han emitido un comunicado oficial, pero el expediente ya obra en manos de la Fiscalía.\n\nEste caso no es aislado. En México, la ejecución pública de obras musicales sin licencia es una práctica extendida en ferias, palenques y eventos masivos, donde los organizadores suelen confiar en que los artistas cuentan con los permisos correspondientes. Sin embargo, la Ley Federal del Derecho de Autor establece que es responsabilidad tanto del intérprete como del recinto garantizar la autorización de los titulares de los derechos. La Sociedad de Autores y Compositores de México (SACM) ha señalado en múltiples ocasiones que la falta de pago de regalías por ejecución pública representa una fuga de ingresos significativa para los creadores.\n\nLa detención de Ballesteros, uno de los exponentes más taquilleros del regional mexicano en los últimos años, envía una señal contundente a la industria: las autoridades federales están dispuestas a intervenir en tiempo real para hacer cumplir la ley. El precedente podría transformar la manera en que se negocian los contratos de presentación en ferias y festivales, obligando a productoras y recintos a verificar la cadena de derechos antes de cada concierto.\n\nParalelamente, el caso de Eduardo Yáñez, quien denunció un intento de extorsión con imágenes manipuladas por el que exigían 10 mil dólares (VF8), revela otra arista de los riesgos que enfrentan las figuras públicas. La Fiscalía de la Ciudad de México ya investiga el hecho como extorsión agravada. Mientras tanto, la industria del entretenimiento observa con atención el desenlace del caso Ballesteros, que podría marcar un antes y un después en la vigilancia de los derechos de autor en espectáculos públicos. La FGR tiene ahora la palabra.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Galilea Montijo, conmovida hasta las lágrimas por la sorpresa de su hijo Mateo; \"tu mirada es la de mi bebé para siempre\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Por cantar 'AMG', Gabito Ballesteros termina en la FGR",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: El Señor de los Cielos cierra su historia tras diez temporadas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¡Tropicoqueta, Bichota y chilanga!",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Depardieu renuncia a recurrir su condena por agresiones sexuales a dos mujeres",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Qué pasó con Gabito Ballesteros? Detienen al cantante tras concierto en Querétaro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Bajan a Gabito Ballesteros del escenario de la Feria Ganadera por canción prohibida",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Eduardo Yáñez denuncia que habrían intentado extorsionarlo con imágenes manipuladas: “Querían 10 mil dólares”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Con una navaja, adolescente habría amenazado y asaltado a Frida Sofía en CDMX",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Hermana de Michael Jackson queda sorprendida con talento de Christian Nodal: Ángela Aguilar y él le responden",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Difunden video de Gérard Depardieu tocando a una actriz",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: “Dragon Ball Super: Beerus” Capítulo 6: Hora confirmada de estreno",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Jornada: Karol G se pone \"Tropicoqueta\" en la primera de sus tres fechas con Thalía y Becky G de invitadas",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVmxpSTZGSW1BRjN0THpiNUdKRi1vQllKcnM4NFRvUUZydXhudjRGT2dhSUs0Zk9YazBIN1FMT0pRcDFlaHQ0SUlPM3VfVVdqenN5dlB6Qm5zU2JrUzB3WmxId19zRjYxQVlMaWVoLUpydWtNYjEyOWxaMl9RM29JX01PSmJHOXA3V2dlckhqM0JyeVBTeWp3am0walhtNEZ4V0ZBRGJlazJHbmdiN2ZEVFJtRDA4UVgzV3hWdkVCWk1hMjdQVllHQTkzQWdYb05IbHFVbVN0SDc0bWQ2WG5uTlVEOUJ2cDlLNVpHYjJnVkR3Uk9Z?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Bajan a Gabito Ballesteros del escenario de la Feria Ganadera por canción prohibida",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNzNwbEFOMl84dGowaFJRS3BHM05oUFVRT1RXdFc3M0x2WTdwYXZxUmdjRXlnQjdNaUhhSURxYVBUVlBMUDY5SFlDMTllUnRXU0ZKei1zLWRTaktZSEpDVzhwZnRfdnpKVHVHdk84QUs5RjJrdDFOdzloa3FKSmdjcTAyN0xlbzZ4Q1BZRDNlX2lRREotbWttdlpkZ2R1NHlLUUpHQU50YjJXRVBtT0hWbDA2M09LQkVxRi04NXdPa2gtcGZmVVNESWMxQUlIN2k2YUVjbFBhYw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: José Eduardo Derbez se refugia en la DJ Mariana Bo mientras Paola Dalay enfrenta acusaciones de infidelidad por un polémico video",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQNU02RndLdDlpN29QN3lReW1CMkU5TEFoeGFkUWtUeEpFTGtOYVJqbGF0dGYtdU12WnNpVkhLVktKV3hyUHR3bHpCYVhUOFRkV2RXcW1YcXN2amRSeGdfa3hueFFmU3JCRURPT09DMTFVWFFLb3BjZnJrLVdsR29rX1BVSlJQWDFnWUhPcDFJRnB0Q3BSYWhKRksyUEFhLVoxNlllLWoxNGFkNnl0c0laU1cwQnBOd0ZOQlZha1F1bVhQeHpxRm4yaUtrMlRNaFM3VFZwWk9XR1F2LXNOZ0NuczhLbWpNV2hTZWZpUXNLRmVLRTdtY1g2TjNVclUtbE5vcUHSAZwCQVVfeXFMTlN1YkdVYzd1XzJJSXhPeG9USjVFZFNnbmxqSjFiVlpLalExV1pyVXRuZHJFNjBOZi1uQkdqV1FRS19CS0RqdnlnZ0QyYVc4YlhrUDAyQzF1TUxIVmZEQ0NjQ2VaRi16LWlDbXdnSV85bDBLYWlncmRWNGpsdGs1S1dfU3JiMUdvaGwxcjcyeWtfRnFzTWxpLVdXd2ZJQTk0WDNWbGE0Wmw0Wmlrc2hHNzJGbkl3ZG1YRU45ZzVfV19XTklnV3B3M1lTUm9XUmtkS2pOOTl4NTJYRXBVX2t3OVJkVjNvNjNzYWZhcmFmMnZGYUtYMkNMS0tqMFNOM0UzZkdGeVpzc2hveFNYUnA0SWU0M002V2N3ZnZ2QTQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: OFICIAL: KPop Demon Hunters anuncia los PRIMEROS países que visitarán para sus conciertos, y confirman a los Saja Boys como parte de la gira",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWnN2cEtTSVI4dlg2RG1IT3NhWWlfdFJzVUlYcklvcl9yV0k4NkV1VHMyRXlVMTVpazUyaHhMR1dWeW1UZUNWckt0cV8tMlF4TW9qS29rYlE5QkZJbHVpSzZBcXZ6dnpEbjB3VnQxT0FuekZQUHM1aV9fc2JMSGhzTk9WeXhNUURabjR5LTloMzlRcEtyT1dqMjJtSWY4TlZfdUsyZXpneW1LZl9IeVZjVzFKTkpCQmFVRUNlMDZBQWxQZS1ybGZkeC1vV0dDd3ZqbndTQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Milo J se quedó con cuatro Latin Grammy: todos los premiados de 2026",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa1diZUNLVVlUbTEwZ29NSzRfdnRSeERaaUVwQS1GbnZwWUtUWndMbzNlSHVqemVSRUlxb1EtbkZ6UUFLSTMwLVV4Q1NLN3dQSGlGVFhSb1VwX28xSEJ6V2FFTmpnM3VqczE2Q09lQ3daMmdQYXFMWEppcXFOTnlqdEJ6b1ZRa3BRT0pxeW1TbVNTOVdfTUZ3dVY3eXk3QXhMN3c?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "López-Dóriga Digital: Murió Efraín Rosas León, actor de La Familia P.Luche; atravesaba crisis económica",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbkJ3MXJLOGk1Y2xNWC1DM2J4WWhweUQyTk5xbWxvTWVTUHpNXzF0V0k2dmdZdDV4ZzAzSG4yVUlZZlE4dmxVS2s5c0ZVQjZkM0V4Umxob0NDblhBT3lBdTRHdmhCRndDRWlxbDZjVlNCUTVST2RPZHFRM005eHVqQ083cEtRbkFrcm5PU3g0S0R2Zlg2U3JLQjVIUE4xbWU5elNNMGVjLWFYc0JpVFo5SWtRVEtIYTg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Crítica: el sonido de U2 se revitaliza en ‘Carnaval de Luz’",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVNpUC1fT1N4UnBxSVNLRUcxVTMzWDRGY0tqNm1FUEVrUXcxMGtQTjZHWHpla3U5TU82LW9lQzBvYmVqVkluUnkxZS1XY0J4QVR6aXJpVDJ6Y2p4N3hpMjdBeVdTaElJdTBoTWk2UUdaejV3Z25GUlJNdmEyZW1oTmtSa2JCRmlWallqdmN0ZmwyZXM?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: BUSCANDO UNA SALIDA Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZMVk2bHBPMl9KZEpyemZWTC11N3ZsZEFKQURjTWJ6Q2hRSGxxVlRpXzN0Z2Nua1EtTnVpQ0dRbm5jZmc3YkoyTUI5c1JBNUZkTjY0QlZhSDI0dmVE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=JXNOTKJqIiE"
+  },
+  {
     "id": 1794618007183,
     "fecha": "2026-11-13",
     "categoria": "Noticias México",
