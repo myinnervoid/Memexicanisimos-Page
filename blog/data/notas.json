@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794769206753,
+    "fecha": "2026-11-15",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Apple Intelligence en China: soberanía digital y control algorítmico",
+    "descripcion": "Apple obtiene aprobación regulatoria para llevar su IA a iPad y Mac en China, bajo estrictas reglas de seguridad de datos y auditoría de algoritmos. El caso evidencia la tensión entre innovación global y soberanía tecnológica, con lecciones para México.",
+    "narracion": "La Administración del Ciberespacio de China (CAC) ha dado luz verde a Apple para integrar Apple Intelligence en iPad y Mac dentro del territorio chino, según confirmó la prensa especializada este martes. El acuerdo, alcanzado tras meses de negociaciones, permite a la compañía de Cupertino operar sus funciones de inteligencia artificial generativa bajo un marco regulatorio que exige que los algoritmos sean auditables y que los datos de los usuarios permanezcan en servidores nacionales. La aprobación no es un cheque en blanco: implica que las respuestas del modelo estarán sujetas a las leyes locales de seguridad de contenido, lo que en la práctica supone un régimen de censura gubernamental sobre las salidas de la IA.\n\nEl contexto técnico es relevante. China ha venido endureciendo su regulación sobre IA desde 2023, con normas que obligan a los proveedores a registrar sus algoritmos ante la CAC, someterse a evaluaciones de seguridad y garantizar la trazabilidad de los datos. Para Apple, cumplir con estos requisitos ha supuesto adaptar su arquitectura de privacidad, tradicionalmente basada en el procesamiento en el dispositivo y en servidores cifrados fuera de China. La compañía ya fabrica la mayoría de sus dispositivos en el gigante asiático, pero la gestión de datos de IA es un terreno más sensible: Pekín no permite que información de ciudadanos chinos salga del país sin controles.\n\nLa movida responde a una presión competitiva verificable. Huawei y Xiaomi avanzan con modelos propios de IA integrados en sus ecosistemas, y Apple no podía permitirse dejar el mercado chino —su segundo más importante— sin funciones de inteligencia artificial. La aprobación llega después de que la CAC bloqueara inicialmente el despliegue por dudas sobre la seguridad de los datos y la posibilidad de que los modelos entrenados fuera de China introdujeran sesgos o contenido no permitido.\n\nEl impacto para México es indirecto pero aleccionador. Mientras China impone condiciones de auditoría y localización de datos, México carece de una regulación clara de IA y depende de infraestructura extranjera para servicios en la nube. La lección es que la soberanía digital no se decreta: se negocia con capacidad técnica y regulatoria. Las PyMEs mexicanas que usan servicios de Apple o de otros proveedores globales quedarán sujetas a las políticas que esos proveedores acuerden con cada gobierno, sin que el Estado mexicano tenga voz en la mesa. El caso Apple-China demuestra que la tecnología ya no es neutral: es un tablero geopolítico donde las naciones imponen sus reglas, y quienes no las definen, las padecen.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: God of War Ascension ya tiene multijugador online en PC ¡Kratos vuelve a jugar en compañía!",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Un extraño objeto en el espacio aviva la teoría de una sonda soviética",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Mario Kart World podría llegar a PC con un proyecto independiente",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Apple Intelligence llegará al iPad y Mac en China: ya tiene luz verde",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Uno de los juegos más adictivos de 2026 recibe su mayor actualización y sorprende con tres grandes novedades",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Super Meat Boy Again+ Reconstruye Más De 300 Niveles Desde Cero Para Su Regreso A Steam",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Liverpool rebaja casi $4,000 el Motorola Edge 70 Fusion resistente al agua con batería de 5,200 mAh y lo deja en menos de $7,000",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Lista de celulares que se quedarán sin WhatsApp desde el 16 de noviembre de 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ghost of Yōtei ya corre en PC a casi 60 FPS con 4K, FSR 4, FG y Ray Tracing gracias a un Fork de KytyPS5 - Guía y Video",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Super Meat Boy Again+ anunciado para PC con más de 300 Niveles, Nuevos Gráficos y Música de Danny B",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: God of War Ascension ya tiene Port Definitivo de PC con hasta 5K, FSR 3.1 FG, Ultrawide y más – Guía y Video",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Descarga gratis el port para PC de Astro Bot sin emulador, el primer exclusivo de PS5 que supera los 120 FPS con DLSS y mantiene todas las funciones d...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Norte: Demanda madre justicia; pudo morir mi hijo, dice",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1dkaU80YW9fRS1Fakp5Q0o1T05LenZfYXJ3RjAxMkIzODNjMGFPTmxlQjlWNUdKaFVhVXJERFg0WS1vU19GYVJXWEo0MnRoMU84bl9mUGt4eXYxMEpPN1gtQmlMc2pLMHhoNmt1cWVudmtIcmR6MENJNFR6NDRjV2FwMFhkQmc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Pueden rastrear tu celular por anuncios? Así funciona Webloc, herramienta creada por exsoldados de Israel",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLTc5a2ZlVGphc0hTOWs5T0VZVVNlZGo0WnBHM25rbzZrT2hsaDQ3Zi1zSmxramIxNW1aeU4waGlVcE9FSC1BQ05yMUJMd2l2U1drcHVCT3hldGV5STBnY2RhUW9STUUwQ0xDM2VDWXRFWWtNOTIyaFpVSDVXY0JvUmpYbVhKcDdWemEtdlozSl96T0xPV2ZJY1ZQMzlsNThCQ2dNOTZ3eG9UbjV4QWZ0aTNpQjdjampUamlPX1NPUWVYTi1KS3NwTElaaFZ4RDE0T1NfVTA4c3c0NExud3RhRVEydFp3cmM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "GBM: The Idea",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tcjVuUXhQd3NZVWFPWVFxZVdjeFRfZ1BoV05WZDFrbnFZNGNjRE0ybTh0UTlSM2lGMTNPNUVkRWZobnRHRm8zUE9USlBMc0pEQk96bXcyY3ZyV3ZJTkY3Ql9Xd3QxNWFweGxmMFVncW4?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Hay riesgo de una crisis financiera por Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ2lvdFFJZHN6TWh1aW4taXdrejV0QllFcUo0eFFVaHJ6cTktQ0ppbEU5NklXc3hGRUJYRTV4djhzdXQtbGxZRVdfR1BSTGtpTUtfdVJlUlhaMUFfdHVmSW10SWVFXzdEbk5sdG9NUWpDNVkxWjJ2dFlqT3lKU3I0eWRjYVFoT1p5UzRsRmZ0V2N5REJ1Zk5kQVc2VVo1S1BfZ1ZUWmE3MWRSUmhnVUZfdUl5UlR4Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Chips prohibidos de Nvidia terminaron en centro de datos ligado a Alice Huang en China, revelan documentos",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOX1NBSE9IM2dicks4ZWt3cnQxRXVkZlVSaDhreXVVSUY4aFdvUDRfLUFRckQ3VWtEVjFsOUQ3SURTTFJjNTV4N0EwQlk1eGo4akdOaEVCVVlaampqVVVWRTV4cmhrWWFqUi1UeDhWLVppRk5Dd0dIb1oxenFKeU9rYmVPTGlKZWxhWHM4eGJ1emdEa2Ffd0Y4aDdFdHFwQkw4TElYMU9OVlFMV3NBMUNySi1aNktLQXVlNmVQOFVkcl9McnFuNG00WGNucnZLZGlFSjBuSjZ4ZTY5Y052SVU4M2ZGTElfTzg?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: Se fueron a EE.UU. para desarrollar sus carreras. Ahora México busca repatriarlos para recuperar mano de obra calificada",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU0pGOURqY3RDVzd5UlRKaUE3NHVudl9uaWZXckplMkNRYmNZSTVuNVJON191QmpyUkg1OE1HM0gzSnZQUm1IN2tTYzVwcXdQc28yNnR6QXk4VnZaOUEtdm1OeFBqaVBDbTh3UTNqVFExN1dsY1RYckNYV3V4SldKN0hUWXJkb0Y0V0pCbGt5Zlo5Mzd1LUs5LWk5NA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El concreto ya no será el mismo",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW05NjVQNlJtc015eEdlT3M1eWtKcjF5TTdrcHgwaEd4QWw4Wm96aWF5RTdXWkNKM2o1MXVCR1F4eGVhR19oUnFPTjlfVjE2UjRoUnhpdlozcDdfVWg0NEF5bmRMZlFoTVhTVXlpcDhJeEdNN1RxWUE1bEx6b1M1QUFFV2YzRHJmazdWNFJfdEZUeVY4YmVrMzMxcXBRcDE3OEFLUU0ybUNUWUdULTRnNw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Informador: La verdad es que no saben qué sucedió",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRlI5cURwMjg1ejdJYUZRYzVuNTBDdTNDZURrbExES1p1cFpGTWVVakxTc09Ha0RFY2psbE5NMjUycGVFOEdRWGxUcHBnWlJtODB0UGlQdERvYmRyYWpBS3JOY0V2YzZwanR0WmF2RVF1UnAxWUc0STZwY2dOZFV1d1h2dWNzMkhJWWM5elNPSWd2d9IBlwFBVV95cUxNRThyckpTclVKNVI1cVNQdXRJbDVTLXpSZG9xREpNRVB3U2RLQURIUjh3OWg2eXR2N1ByRlNzazhhZ19kbFowdUhMUHcxMnMwZS1xWkYyOEN5WHhjR05kUmdSbnZBRHF5b1I1bnRDVnV5X0JuT2tQS1JIVjRyZlVCd1JYdDRPaEJyVy1sSG53MHVxYW55YzFr?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=RidCLtoPCV4"
+  },
+  {
     "id": 1794765606024,
     "fecha": "2026-11-15",
     "categoria": "Farándula",
