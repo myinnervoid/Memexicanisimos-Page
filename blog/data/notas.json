@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794765606024,
+    "fecha": "2026-11-15",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Eduardo Yáñez denuncia extorsión con IA; Roger Waters enfrenta divorcio millonario",
+    "descripcion": "El actor mexicano Eduardo Yáñez presentó denuncia por extorsión telefónica con una grabación íntima falsificada con inteligencia artificial. En paralelo, Roger Waters enfrenta en Londres un divorcio que pone en juego derechos de autor de Pink Floyd valuados en 300 millones de dólares.",
+    "narracion": "La industria del entretenimiento mexicano y el ámbito legal internacional observan dos casos que marcan precedentes en ciberseguridad y derechos patrimoniales. El actor Eduardo Yáñez denunció ante la Fiscalía General de Justicia de la Ciudad de México un intento de extorsión mediante una llamada telefónica en la que se simuló una conversación íntima con inteligencia artificial. Según la denuncia, el grupo delictivo exigió dinero a cambio de no difundir la grabación manipulada. La Unidad de Delitos Cibernéticos ya rastrea el número de origen, y el Código Penal de la CDMX contempla penas de hasta 12 años de prisión por extorsión agravada. Este caso evidencia la creciente sofisticación de las redes de extorsión que utilizan herramientas de IA para suplantar voces y generar material comprometedor. La Fiscalía capitalina inició una carpeta de investigación, y se espera que en los próximos días se soliciten órdenes de cateo para identificar a los responsables. Para la comunidad artística, el caso subraya la urgencia de protocolos de ciberseguridad y asesoría legal especializada.\n\nEn el Reino Unido, Roger Waters, exlíder de Pink Floyd, enfrenta un proceso de divorcio tras cinco años de matrimonio con su esposa. Los documentos presentados en el Tribunal Superior de Londres revelan que la separación implica la división de bienes valuados en más de 300 millones de dólares, incluidos los derechos de autor sobre el catálogo de Pink Floyd. El contrato de la banda con Sony Music asciende a 400 millones de dólares, y las regalías representan el 60% de los ingresos anuales del músico. La renegociación de la administración de estas regalías será crucial para el futuro financiero de Waters, quien deberá acordar con su exesposa la titularidad y distribución de los ingresos por derechos de autor. Expertos en derecho patrimonial señalan que este divorcio podría sentar un precedente sobre cómo se dividen los derechos intelectuales en casos de separación, especialmente cuando involucran catálogos musicales de alto valor. La industria musical observa con atención, pues las regalías de Pink Floyd son una de las fuentes de ingresos más estables del sector.\n\nAmbos casos, aunque distantes geográficamente, comparten un denominador común: la vulnerabilidad de las figuras públicas ante delitos digitales y disputas contractuales complejas. Mientras Yáñez colabora con las autoridades para desmantelar la red de extorsión, Waters deberá renegociar no solo su patrimonio, sino también el legado de una de las bandas más influyentes de la historia. La crónica de estos acontecimientos será seguida de cerca por abogados, fans y medios especializados, pues las resoluciones podrían redefinir estándares legales en México y el Reino Unido.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Roger Waters enfrenta una nueva separación tras cinco años de matrimonio",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Autoridades de México suspendieron concierto de Gabito Ballesteros. Luego lo arrestaron",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Así celebró Lucero el cumpleaños 25 de su hijo José Manuel",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Samadhi Zendejas reaparece junto a Gabito Ballesteros tras su arresto: \"Gracias por estar\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Famoso galán de novelas Eduardo Yáñez denuncia que intentaron extorsionarlo con una llamada íntima falsa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Listos para volver a Hogwarts? HBO muestra una escena icónica de Harry Potter",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Rosalía arriesga y sale victoriosa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Alejandro felicita a su hija Camila",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Johnny Depp regresa a los cines con «Ebenezer»",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Andrea Valdiri estalló tras las críticas por vencer a La Divaza en ‘Stream Fighters’: “Investiguen”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Es oficial: HBO Max publica una primera escena de la nueva serie de 'Harry Potter' y todos dicen lo mismo en las redes",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Robert Farah aplaudió la fortaleza mental de Emiro Navarro tras su triunfo en ‘Stream Fighters 5’: “Lo que te propones lo logras”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reforma: Indaga FGR a Gabito Ballesteros y otros 4 por arma",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLV9rRFR6U2tvTGdxc3lyTHVtM2tKWHhibmJJLXFBTXo0V1RpQUpmaEIxWjdDSFNkcDQ0M3hhV1p3bGsyTDNwV25ZTlpuYlNielRzS1lRSDlZUUdyalN6OUJpUllrc3dGZVdJZF9RbF8tU3RsMUlyRzMtczcxT2hnUTUtOGxQY20yU2lQUA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Cumple Karol G su sueño con Thalía",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoMHJxWHhEejhNa2ExY2RHd2FLczlHVFNmUGZ3RDFwaTJYSmEtUHVYR29fMER2Ni1uY3U1ejVNZzFkSVFsaG83Tjl4aXkxU1I5Rjc1OHpubVNhem9BMXlkMzVmNmlITzVIUWE3U1hmOTlleTdDV3ZR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Revista Merca2.0: Tributo a KPop Demon Hunters llega a CDMX este 21 de noviembre 2026 con un show en vivo, cuánto cuestan los boletos y dónde comprarlos",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNald4WnZ6NkpxeFM3NC1ZMV9URVBoNXFiLTZabHNTQjlvamlqbzRPbFdLblBQRzQ4ekthUUFOUkxNdlk5STkyd3BlZEFkdDBQczJ6M1JyZHpKWHI5TWFMbnRfV281Nnh0NWl6RUQtcE5IVVpWVjg4TWlrajVOUkdpWWZSbGk3aWJ3T19BekM0aHZ1VHZfR1VidGxsLWhGbWJ5OWU2Rl9BWF94SHZta1NmMS0wakVVcFpRazl6OFNzVXlnbU1sUHV6MkgzUHJGMHQ1RkdWZ3FOaURRUmxYZ2ZyOTBUbXRTT2toZHZpcmxzTQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Sin Embargo: Garbage ofrece noche de rock a más de 90 mil personas en el Zócalo ¬ FOTOS y VIDEOS",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRmhxdUotWTd3SHpqYko1dHBzcjF0LWZtbUl6T2Vhbk1aM2oycFBHSkUydm1lSXFreXZDbDFMQlhBbUFYcERaeV9qTTJ2VGRuSEo4Q2FxZFlUdjMwdEhnQlhQMkc0ZkIwakY0dGtCWU9WY2xQRkFNZ2g4Mk9EOWtkSlBIdnRTUVVRWTQ3ZTlDaS1qT0V5ME9oWnFiVG43S2JDMWotamRBNEMtbExwbDlLQjJ5YTdpelhsaHc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Universal: Chayotubers viajan a China",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbE84SE5iaENtSFI0dnlBdm5GY3ZBWVBudENpNmJQWjdLdkptZGoyTExvXzJpVXRHbzZFSlpIbG1zSEtOdm9yVllyUzJialhpbDNNTTlOVVZGcGpmTjhMUWNRV3BHWWNYS00xRHNhTFhKOFVuREJEQ1F1TzVlZ3hLZE5ZdWNSUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Rosalía vuelve a agradecer a Paquita la del Barrio por ser la causante de la composición de La Perla",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaDljM0NlY09DQ1Z3OUh5M3VZTjNyLXRuZDBreUNxbDc5UWxJUGdSaTBCYUF2ay01djlUTTFUdzhxb05rVVA0T1V6MVRBeTFPRmw4cEFrempmUXNpMnZXSDNzZHdpZDFwVmxtS0FBeE14WnVHNk1uSnVpMGVDRTdGQ3JLWHFsVFpWT1otYlpKTEVjQUNUMUdKZWIyWWJrV2k2bXFTYkw0NEdjM0gyd2NldGw4VjNWWTE3Y3JINTFHSnBudE94eTA1dkRMS2VNbDRnVVplTDR0OGRfQmPSAfYBQVVfeXFMTXUwT184ZnhCQWNVc3IwOFVMd2MtZXZHX2QzZ2hTM2ZoelpiTFg0ZjVLU1hYZ2ZXNFI2d0dmT3A4SlQxN2picmhqV2VVaEFMcUJSWUZxVGxNVXpwejFpb1VHVGFVMl9HSUNZODY2cGx5R3MzTXlnRjl4dnJBOWp4bXlCWXYwZ0dGUVU2MEpPbHlBOWtLc1FDUWpCdFJyYi1tM3QwY3VDOHdCdDVFWFB5TldoUFFwYmtob3VBRGdwekU3Unl5VDFURjFSaEJFTzl1ZDlWMEVVOGZFRTI2Ti04dVBNNzRsaDZUOE9wSHlzcGdlZUZnNHJR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Majo Aguilar debuta en el Auditorio Nacional, acompañada por Lucero, Julieta Venegas, Chetes, Mariana Seoane y Zemmoa",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWEt1NTJhUGVQVkRNSXFWaEhsSkdaZjB1UFVGS0pXdFVva3cxWHJVXzdIaHVCc1dSYzkzSEw0aFQzUTlGVWhjYzhqYU1IZzU3NkRBVXRKZU1sb05rTVEzTlgzT2lKTDJEbjQtZEdpZ1d2S3M2Y00wX2h6X2ZHeFUtQmZsUUxURVRsdkdIMHhOSFJ1cEpUdnF2andYYVhESktfZm9QZThrN2NOZUlFZDZFLWVnM3lTWXpldTRhNkdCVS05bElJQjRhWEpmdERocWd0TEYxZ0ZNMzMwWGJ3VmtUcjZNSDRMVzVFZEtXaWpHTjZJcFhf?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: ¿Captan a ex de José Eduardo Derbez en pleno beso con futbolista?: circula video tras su ruptura con el actor",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd1RlT1BkUG16NWMtUlZPSjRYeGc4eGkwVlVVNGZPNWN4QVVFSGtEZDV4bk9IZWR4a0pvN2lMZkpEbzhBWDN3OVFvUlN5aURuOGM4WW92b1BmY0VZUlJ5MHFwZ0hRUHFwQnMycm1Wc2tHdkxVN3pOd2xZcmVPZmpwdWNZdzNNdTFYc0cwNzgyVXp3RkNwQnVYTUpYNnJoUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=3W5BpDkyIAg"
+  },
+  {
     "id": 1794704406835,
     "fecha": "2026-11-14",
     "categoria": "Noticias México",
