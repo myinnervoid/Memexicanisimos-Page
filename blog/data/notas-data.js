@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794783607484,
+    "fecha": "2026-11-15",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Metaphor: ReFantazio llega a Switch 2 y Microsoft regala 25 juegos de Xbox con PCs Windows 11",
+    "descripcion": "Atlus confirma el port de Metaphor: ReFantazio para Nintendo Switch 2 con mejoras técnicas y contenido adicional, mientras Microsoft lanza una promoción que incluye 25 títulos de Xbox con la compra de nuevos PCs con Windows 11.",
+    "narracion": "La industria de los videojuegos vivió una jornada de anuncios que evidencian las estrategias de expansión de dos gigantes: Atlus y Microsoft. Por un lado, Atlus confirmó que Metaphor: ReFantazio, su aclamado RPG lanzado en 2024 para PS5, Xbox Series y PC, llegará a Nintendo Switch 2 con mejoras técnicas y contenido adicional. La decisión responde a la creciente base instalada de Switch 2, que supera los 20 millones de unidades, y a la estrategia de Atlus de expandir sus franquicias a nuevas plataformas tras el éxito de Persona 5 Royal en Switch. El port promete aprovechar el hardware de la híbrida para ofrecer una experiencia portátil sin sacrificar calidad, aunque no se han detallado aún las especificaciones exactas ni el precio en México.\n\nEn paralelo, Microsoft anunció una promoción que regalará 25 juegos de Xbox a los compradores de nuevos PCs con Windows 11. La lista incluye títulos como Halo Infinite, Forza Horizon 5 y Sea of Thieves, y estará vigente hasta el 31 de diciembre. Esta movida busca impulsar el ecosistema de gaming en PC y competir directamente con Steam, que domina la distribución digital. Según fuentes como Fanáticos del Hardware [VF6], la promoción aplica a PCs nuevos con Windows 11 preinstalado, y los juegos se canjean a través de la aplicación Xbox. Para los jugadores mexicanos, esto representa una oportunidad de acceder a un catálogo valuable si están considerando actualizar su equipo, aunque persisten dudas sobre la región y los métodos de canje.\n\nAmbos anuncios reflejan una competencia por captar usuarios en un mercado donde la portabilidad y la suscripción ganan terreno. Mientras Atlus apuesta por llevar sus RPGs a más plataformas, Microsoft utiliza su ecosistema Windows para atraer a jugadores con incentivos tangibles. La falta de precios oficiales para México y Latinoamérica es una constante que los consumidores de la región deben monitorear, ya que las conversiones y impuestos suelen elevar los costos finales. Además, la promoción de Microsoft podría interpretarse como una respuesta a la creciente popularidad de Steam Deck y otras alternativas portátiles, aunque no se mencionan planes de hardware propio.\n\nEn el ámbito competitivo, Dragon Ball FighterZ recibirá una nueva actualización de balance para PC y consolas, según PC Master Race Latinoamérica [VF8]. Los ajustes buscan equilibrar personajes y mecánicas, un movimiento habitual para mantener viva la escena competitiva. Aunque no se detallan los cambios específicos, la comunidad espera que se corrijan desequilibrios persistentes. Este tipo de actualizaciones son gratuitas y buscan retener a los jugadores activos, especialmente en torneos locales donde el título sigue teniendo presencia.\n\nEn conjunto, estos movimientos subrayan la importancia de la retrocompatibilidad, la portabilidad y las promociones agresivas para atraer a los gamers. Los jugadores mexicanos, atentos a los precios y a la disponibilidad regional, deberán evaluar si estas ofertas justifican la inversión en nuevo hardware o si conviene esperar detalles concretos sobre lanzamientos y soporte local.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos México: Llevo 22 años jugando videojuegos con doblaje latino, y creo que esta es la mejor localización para México: pertenece a un shooter tan controvertido como amado - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "todojuegos.com: Metaphor: ReFantazio desembarca en Nintendo Switch 2 - todojuegos.com",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Tarreo: Jugador de Forza Horizon 6 sigue manejando junto a su mejor amigo fallecido gracias a su Drivatar, la IA que aprendió a conducir como él - Tarreo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Las pantallas de inicio clásicas vuelven a Xbox por su 25 aniversario: así puedes activar la animación de la consola original en Xbox One y Series X/S - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Este juego de Xbox 360 me obsesionó cuando tenía 11 años: trece años después, así se siente volver a Fabletown en The Wolf Among Us Remastered - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Fanáticos del Hardware: Microsoft regala 25 juegos de Xbox con la compra de nuevos PCs con Windows 11 - Fanáticos del Hardware",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Shrek 2 ha vuelto a los videojuegos, pero la nostalgia no es suficiente. Los jugadores no están contentos con el remaster - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: Dragon Ball FighterZ anuncia una Nueva Actualización de Balance para PC y Consolas – Teaser Trailer - PC Master Race Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Nintendo cometió uno de los mayores errores de su historia al aferrarse a los cartuchos: la decisión de Hiroshi Yamauchi que le hizo perder la generación ante PlayStation - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CineMedios: El control original de Xbox: tamaño, disposición y aprendizaje - CineMedios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: GTA 6: Rockstar Games revela cómo aprovechará el poder del PS5 Pro - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Output: Nintendo vende 5,2 millones de Zelda: Ocarina of Time Remake para Switch 2 en solo 4 días - El Output",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2hJR2MyZ2hzNzBzSGFNRkxaSW1YQVVLclI5RHEtUUVyVGlGYUQyT0ZDY2ktLTE2OEpucEpEZkdWbWxIUk12Yy02NUNLLWJGWlBURnNGcUE4UG9SVXBzaVpkLTJfWXlTOGNmUkxadmxodWttZ0x1QjZzOGxTZzlVSHlVZ1JvblVDXzYxckFDdkd0M3ZFalJNM0NwWkVhd3FxV2dfdTVFZjhqMU8tQ3oxeGpMbzBiamZzTmVrZDVISnRndXRyN1o00gHMAUFVX3lxTE4zNTNlNVB4X3BGdHhaUDV1VnEzc092NEpPY21GbmlYMWtjUDlsd25xSUVoM3o5TzZ1WEIzMW10UnRFcnJCWklTQVpqUUowX0xaTkd2bEEzN3ZJbjNiR2IzS3Zna3ROSURnYjRLSm01Qm50SFRFMkV3OVloa2l0TkIzLTdPMWo4d01IY1h6SGVraDB2Z0E0SXlmaHQ3dWREUkZDeVNFb0tobkltWDhhaXp1QzNXTE9JaHFEY2pDR2M0eW9HYzBPTlBOTnFfOQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Sopitas.com: 25 años de Xbox: cómo una consola ayudó a transformar la industria de los videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqUllqSWQzcElEQWMxTl9admVHcU1BQS03LV9ra0QzSGtSYkVWT0oyRTkyN3VxYXMtU0NIMVphSGtnekQ4NlNPdll1ajgtSjhEb0NlX00wVWRXeW5VelIzWkJ4VTMxTVgzdkNUdnFPdmp4dw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: El exjefe de Tekken no se corta con XBOX Series S y la critica delante de un directivo de Microsoft, pero CD Projekt RED encuentra una ventaja en ella",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVHhFS3R4UVdvT0hZOEF6U3lNbV9MZGYwWjlBd1FTVS04TVBjckk3b0JqaEE5bGc4czlEb0NuOV83Y0FMeGYtQUVHd1BfdTRLYWw2MHZLMnRqWHNNck4waXNZb1RaQWNzRWg1MlFGbzJSY18zaTlwY0ZqZmk3UGNyaW9JaEFPcWx6YTNHWkJQVDlvd3owRkhOaHNFbTQ5TmxuTDdONUJLN3ZPSVdnYVliMjFkeUhPMVRZR1h3b003UFdMT3NLVkkybWQ4bE5yM1pLejlXUmdsMkdCb0ZYWW8yMGlvVVhKY3JIamYzNjQ0bm12M0lR0gH6AUFVX3lxTE5WUVFsQ3A0SVlBTTNhVFllWWxBWHZWcDZEYnRMeE9GWlMtWE9FZWlfdWQ1UGwtY19GZG5Ya0d0QWNMOHFudFJLTUlYWXFMdkdZUUZ4RGJTVUN1cC1ZMjJGZDZKWTlJcGF5VGNiZUxmc2NRd3huT0h4Uy1CeXNEdTFxZ0IweldTSjVxbWVQV1pXYlo4blJ4czJVQkVsemdORTJ5ZlZWcUZyWkVLWTRzVU12LWNNWWNIdzFsTXc3Nms1U05ReHZtVWRfaHpYbU1UMkdoRGtmMWVCbGhJRGhYcW9NYVM2R0stYnZ6b2psenFmNWwyektMaWttNHc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Novedades de Campeche: Nintendo Switch 2: promociones en Walmart y Bodega Aurrerá por el Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaTVsX29ydFREeHJKX3N3YzN4MTREQ192V09OZDM2TlVfLXk4VG9OMzl3VzUydF9aRkE5ekdrazdZZjh1X3FGUWd5SGZNNEVnY2hwQmROM3RwZ2p1bnYzbUxMdXJGam83RkFnNFpZZXplTUFYdVR3akVmMFB4am5zQ1JJeFJTYU0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Xbox Playback: ya disponible el repaso estadístico a toda tu historia en Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkRlV1NZQXZsbmNweWxZdkFzLVd6WkhNWVVvRFlDX2VQVEZ5cE1mMndLLW45LVVSUThuYUpMMWFRYU41SmYzQ0w5M2RTRlRhSGZ3TVY4cy12c3VhVU52dkZPa19YcjU1SkdTcnJwZW8yLWRRX2RpOEtNSHRkNkdxX2ZCaE5Gc3FCZlE5UUdYckhFZm9lcElFdUY5cTdHSTJvV3ZFYnJlWm0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: 5 grandes joyas RPG para Nintendo Switch y Switch 2 que han bajado a su precio mínimo histórico",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWDNYY3RNbUVDZHJqVU1iOE83RldmcER3ZGZEMXB6NGxpR1FnY3BOeFNwNVZBLXB4bmZTTnlObF9XT2Z1QTBCTVdOQkpDX1N3SzFUVEd4VXdCMEdXWGNITVk2UFhaZnJQUnpJY0lTSEVqb19tZE9aZFJZTmtUU21HazF6X2RSS3VuRzVIYUZ4Nkh2YzdkNm53REhzN1lnNEdUMUhWcUlDZy1paEo3VHJrV3IzaC1JLTAxTEdkcEpHLUhrZkV2RFhEa19PQm9pdU1IdXhZYi1oZ2ptaW4yRy1Xb1lR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: 6 juegos más detallan sus debuts en Nintendo Switch / Nintendo Switch 2, incluyendo Blood Dungeon, Volcano Princess y más",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYjRMZ0JPYU1NTW9XdjJURlVYd1lXbmJsX2w1ckR4SUZXRXdHeVU2MC1TQkd4c0VaNEZOYVNPdDJkNmZOcFlYRW9oQll3dDdLMzdwVDBmaF9aY090OXg0aFBmaC0zTVI2SHYzb0dRcFp6Z1ZkQ0dJRDljSk5xWWY5bkotckRPZ0NUMUREbjBhdkRGRnRiZVF5dEs1V0VNeHdtN2s3d2xVWE5pdzZuMWN3eVM1SjVDdnVxRVdadEoyY0lpQjBiR2oybm9pQVdJNktETkliU21wSjlwSDVxNnh4X21jN0lYc0ZBdWJUVi1QSUg3SEZZWG5B?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "DiarioBitcoin: Xbox Helix será una consola capaz de ejecutar juegos de PC, asegura Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbE9ibW9CWUl5dDJZbWFYXzlYQzJkVE1Fc3RSeVg2MzJHTXhCSUFvMkQtbWdhNmtJODBsS29CWXRfMnRlOGNxZnRRODdNSThJVUF4bXlVNXc0YWwzMDYyS1djZHlWaFRFLUh1YmNrME1LVmtUWWQyWlhGcy1DUWJOWlZTQklBV01yYWFtbVRtaTh0SHRrWDRRQ25NaTM2QnJaaHdlcWRfYXlqSkEyVzRmN3JVeHU3RkdBYUE?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=MymxHiqj2ZE"
+  },
+  {
     "id": 1794769206753,
     "fecha": "2026-11-15",
     "categoria": "Tecnología",
