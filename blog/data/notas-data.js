@@ -1,5 +1,135 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794704406835,
+    "fecha": "2026-11-14",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Golpe al CJNG, 450 MDP en La Laguna y el grito de justicia por el niño de la mochila roja",
+    "descripcion": "Fuerzas federales aseguran narcolaboratorios del 'Tío Lako'; entregan obra hídrica en La Laguna; madre exige justicia por golpiza en la Prepa 22; senadora cuestiona cifras de homicidios en Zacatecas; Máynez critica selectividad judicial.",
+    "narracion": "La jornada nacional estuvo marcada por acciones contundentes en materia de seguridad, inversión pública en infraestructura y reclamos ciudadanos de justicia. En el occidente del país, la Secretaría de la Defensa Nacional (Sedena) y la Fiscalía General de la República (FGR) aseguraron laboratorios clandestinos atribuidos a 'Tío Lako', jefe del Cártel Jalisco Nueva Generación (CJNG). Estos espacios, utilizados para la síntesis de drogas sintéticas, representan una afectación patrimonial estimada en millones de pesos para la organización criminal. El operativo derivó de investigaciones de inteligencia financiera y se sustenta en la Ley Federal contra la Delincuencia Organizada, que tipifica la producción de narcóticos como delito grave. Expertos en seguridad advierten que, aunque el golpe es estructural, el CJNG tiende a reconfigurar rápidamente sus operaciones, por lo que la desarticulación de estas cadenas reduce la oferta de sustancias adictivas y golpea las finanzas del grupo, pero no garantiza su desaparición inmediata.\n\nEn el norte, la Comisión Nacional del Agua (Conagua), en coordinación con autoridades estatales, entregó una obra de infraestructura hídrica en la región de La Laguna, con una inversión de 450 millones de pesos. El proyecto incluye la rehabilitación de redes de distribución y la construcción de plantas de tratamiento, beneficiando a más de 200 mil habitantes de municipios de Coahuila y Durango. Esta acción se enmarca en el programa de infraestructura hidráulica del sexenio, que prioriza zonas con estrés hídrico. La mejora en el suministro de agua reduce costos operativos para la industria local y disminuye el riesgo de enfermedades gastrointestinales, impactando positivamente en el bienestar colectivo.\n\nEn la Ciudad de México, la madre del menor conocido como 'el niño de la mochila roja' exigió justicia tras la golpiza que sufrió su hijo afuera de la Prepa 22. El caso, que generó indignación en redes sociales, expone la violencia escolar y la lentitud de las autoridades educativas. La Fiscalía General de Justicia de la CDMX atrajo el caso e inició una carpeta de investigación por lesiones dolosas. La Ley General de los Derechos de Niñas, Niños y Adolescentes obliga a las escuelas a implementar protocolos de prevención y actuación ante la violencia, por lo que el caso sienta un precedente para exigir consecuencias legales y reforzar la seguridad en los planteles.\n\nEn Zacatecas, la senadora del PRI cuestionó la discrepancia en las cifras de homicidios reportadas por el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública y las autoridades estatales. Según la legisladora, mientras el registro federal muestra una tendencia a la baja, los datos locales reflejan un incremento en los últimos meses, con más de 50 casos no contabilizados oficialmente. Esta inconsistencia pone en entredicho la veracidad de la información y erosiona la confianza en las instituciones, además de impedir el diseño de políticas de seguridad efectivas. La Ley General del Sistema Nacional de Seguridad Pública obliga a los estados a reportar mensualmente sus cifras, por lo que la discrepancia constituye una falta grave.\n\nFinalmente, el líder de Movimiento Ciudadano, Jorge Álvarez Máynez, afirmó que 'a Gabito Ballesteros lo detienen por cantar, a Taddei y Rocha los protegen para que no canten', avivando el debate sobre la imparcialidad de la justicia. La declaración alude a la detención del cantante y a las investigaciones pendientes contra funcionarios electorales. El marco legal invocado es el principio de presunción de inocencia y la autonomía de los organismos constitucionales autónomos. La repercusión política es inmediata: el pronunciamiento busca posicionar el tema de la selectividad judicial en la agenda pública, en un contexto donde la confianza en las instituciones es clave para la gobernabilidad democrática.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Resultados de la Lotería Nacional en vivo hoy, viernes 13 de noviembre 2026: qué números cayeron en Sorteo Superior 2904, Melate y otros electróni...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: EN VIVO | Bloqueos, accidentes y manifestaciones hoy 14 de noviembre: Se restablece la circulación en Avenida Juárez",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Mamá de “el niño de la mochila roja” exige justicia tras golpiza afuera de la Prepa 22",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Impulsa pintora tabasqueña el surrealismo choco en el Festival del Chocolate",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Entregan gran obra de 450 mdp en la Laguna",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Aseguran narcolaboratorios de 'Tío Lako', jefe del CJNG",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Senadora del PRI por Zacatecas cuestiona discrepancia en cifras de homicidios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: \"A Gabito Ballesteros lo detienen por cantar, a Taddei y Rocha los protegen para que no canten\"; Máynez se lanza contra la 4T",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tras el puente bancario del lunes 16 de noviembre, la Secretaría de Bienestar reanuda depósitos de hasta 6,400 pesos y activa la lista de apellidos ...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: FGR investiga a Gabito Ballesteros por presunta portación de arma de fuego tras detención en Querétaro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Se inscriben al Servicio Universal de Salud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Inauguran en Tulancingo la Muestra Textil y Artesanal 2026 con más de 145 expositores",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Ley Antimemes entra en vigor en México: hasta cinco años de cárcel y multas de 1.17 millones de pesos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Exige madre justicia para su hijo tras riña afuera de la prepa 22",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El cantante Gabito Ballesteros, arrestado tras cantar un corrido en Querétaro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Reforma: Por cantar 'AMG', Gabito Ballesteros termina en la FGR",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd20ybmVxTy1DWVdlZWo5OXpJUWQ0b2NycG94RF9BTlNFREhIT0pSUEdfM2ZUNkVpWWFOQmk3N0dJQXZQd2l1bUgwNEMwV2JiVC1tcU5IcTJfUXJhM3B1bFRJdmMxczZaRUFHU3VWcWM3TldLLXJMcjJ3WEtKdkhfdWFoc1Z3NW1uc3FmRTZ3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Capturan en Guadalajara a 'Raptor', jefe criminal en Colima",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSmt1M1Ata2FmaG1LVUNQLVQySTRWNjNKNXBSelJuUWxqeFdSV1ZodnhINGRzZVROenNIazBQY0dSd0lXZXFKdjJMU1g0Z21wQlVrckNrZnFRWkVRd0hMOGJRNUVWWmlpT1RsR25GUE5LTVB5T0hfcEl3ZHpnSkMwMG1WZ0ptQ2YxblBHdk9Ba3hnWERa?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Trasladan de urgencia a Félix Gallardo a hospital de Guadalajara por problemas de salud",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSFZHT0lxWmhmNE1rWUVvcmlpZnhqT1lXUlZjbzg1LVBQdUVraVVpSmNKU0dFcUFmS3BTbHMxem1iekppcFRYY2NQaU1adkpwSy0yQ21NU0RId00tTEY2WVo3Q2hXUGZDTTBMc2JUelJSOS1GYlR3dktKWDVnYk5YeHV3UC1wbDA5dFdxV0diMWxaM3h3T25iZXR1cGwyLV9BUmctOV9TUktRcFJSdmpJRG1UOTJfOXRlSmxCLVd4WWFBSkdsWHVFVThoa19tMHZRUWRaQzVnazM?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Los cadáveres que Morena no quiere ver, escribe Azucena Uresti",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS2ZXZVJqbWxnS3ZuS1pnZlNMQmNkSUdjY0VPbkxjajJpSlJDNVhEd0EzZVFzdllJbXk4ZDhVZEdEV2UzVmE5N0RweHQ3bXZxQlFPUHBJWEY3RVc2UHZSalNZOC1QVTBEVlJKRVIxeTRTbU1BSE1ZVnRjakdSckpBVU9rTTdVTnpMQ2ZQeGtYQ2dEU24tWnlIYQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Se les pierden 5 mil homicidios; llega subregistro a 17%",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSERfQXpicDlhcVZNUVhiak9SMWw2UjdrUnFsam8ycGRGY3BPbC1NaU5sRzNWazU4TVEzNFZ3QjhHVUlBbVkxUkhURVNmakJqVlY2U3NQU0NEcVVUS3NhdkZaOGl0Zm9SX0tCSTZRekpMbWNscmQzTjNURVdoWlhxT2dTdkhwcDJwVTg1QUZrZ2gzQjBCNzFtOA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum: llevamos a cumbre de APEC visión del bienestar común",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdmExZ1oyZk4tOGdQRzhXa2poZk9TcFplWW5zRVFtOUdCWFRmelFIUEp6YnJsaGg4czFsWWlCdEVkTlBmejROdC03c2p3RzlHQjRQMmtuemhQSkIzRzJSRWhvcGppMkFoZUJhNFZTQUNiSnBGMGt1NmZ6ZmZ1RVRfNFBvakJKU1luUzNxZ0JnQzRZV2xGWHU1X0NkbjNsXzBZeFVWX01aQTFPLWZyNFhWWk5PQ0djelJJRURIa3R3RGh4RjV1WmhINktKZDN1UWtkVDJhWld6YW9NYU5JbEotMHRNeE41ZHRGUU5EZjhCay1JWWgzT3c?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Sin Embargo: Marchas y conciertos hoy 14 de noviembre en la CdMx: ve las calles y zonas afectadas",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeUNSRWo5VDBzbUZ6WjJwYm1VYVZNMzZxbm1SVXZwYS1nWWFjd05fSlZIQi1HQXVncEZ2M05VaGxldVNvWV85Y1czbjdJa2c1ZF9lNzBOeEdsS1czOFdFYzZRN0pGcXBreW9EN2czNm1zWm5NVHlyOEp6UUw5aVgtWUdCUVZWSS1HOWMzWXU4aDNGNjdhUktBOTQyUURvR1VKMlowUHJIVDF4Q0tXMF95SzFBd1IzT3dwOGc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Ensenada activa operativo de emergencia por fuertes lluvias; rescatan a hombre atrapado en Valle Dorado",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNEhGaEhINFdtU3NoendwMzJtUy1zc3M3UllFdUZHZDFHQmpqMHBXSFItLUVMQU5lWHdTY1Q2U01hVjloQ21GNkZ4dGh4WGVUdnktd0ZKUWE0US1nRGs5ZE04Z2JTMnVoUDhDOEZ6dWtwR3hEZGxTUWlLSHNsQ3Vmd184TzFqS0JVWXdZMG01R3RmQ3dNVUVCNWRHeVBjTkJJZElJcU05SVhuamlDNDNpeW9sb0MtLVVGY3pBUHhPWEhfN2NQMl9NNnVXeE5WZ1lpRjRqY1lvLWpzRVJG?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794697205444,
     "fecha": "2026-11-14",
     "categoria": "Gaming",
