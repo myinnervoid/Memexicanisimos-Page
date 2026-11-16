@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794852005842,
+    "fecha": "2026-11-16",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Tonic Fest: portazo y Gloria Trevi al rescate; Karol G lidera Latin Grammy",
+    "descripcion": "El Tonic Fest cerró con un nuevo portazo que dejó a miles fuera del recinto; Gloria Trevi extendió su show para calmar al público. En paralelo, Karol G encabeza las nominaciones latinas a los Grammy con cuatro categorías.",
+    "narracion": "El Tonic Fest, festival que ya arrastraba cancelaciones y una baja venta de boletos, culminó el sábado con un nuevo portazo que dejó a miles de asistentes fuera del recinto, según reportes oficiales. La organización no ha emitido un comunicado sobre reembolsos, pero la Ley Federal de Protección al Consumidor obliga a garantizar el servicio o devolver el monto. Gloria Trevi, con contrato por 45 minutos, extendió su presentación a 90 minutos para calmar al público, aunque no se ha confirmado si recibió un pago adicional. El incidente evidencia fallas logísticas y de comunicación con los asistentes, y plantea un desafío para la industria de eventos masivos en México.\n\nEn paralelo, la Academia Latina de la Grabación confirmó que Karol G lidera las nominaciones latinas con cuatro categorías, seguida por Ca7riel & Paco Amoroso con tres. La ceremonia, que se realizará en noviembre, tendrá transmisión por Univision y cuenta con un presupuesto de 12 millones de dólares. La industria musical mexicana enfrenta así un doble desafío: la logística de eventos masivos y la competencia en premios internacionales.\n\nEl portazo del Tonic Fest no es un hecho aislado. El evento había sufrido cancelaciones y baja venta de boletos, lo que sugiere problemas de gestión y planificación. La organización no ha emitido un comunicado sobre reembolsos, pero la Ley Federal de Protección al Consumidor obliga a garantizar el servicio o devolver el monto. Gloria Trevi, con contrato por 45 minutos, extendió su presentación a 90 minutos para calmar al público, aunque no se ha confirmado si recibió un pago adicional. El incidente evidencia fallas logísticas y de comunicación con los asistentes, y plantea un desafío para la industria de eventos masivos en México.\n\nEn el ámbito internacional, Karol G y Ca7riel & Paco Amoroso destacan en las categorías latinas de los Grammy. La Academia Latina de la Grabación confirmó que Karol G lidera las nominaciones latinas con cuatro categorías, seguida por Ca7riel & Paco Amoroso con tres. La ceremonia, que se realizará en noviembre, tendrá transmisión por Univision y cuenta con un presupuesto de 12 millones de dólares. La industria musical mexicana enfrenta así un doble desafío: la logística de eventos masivos y la competencia en premios internacionales.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Supervivencia ASMR: El corazón de la bestia , con Brad Pitt",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Salva Gloria Trevi el cierre del Tonic Fest que registra un nuevo portazo el sábado",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Karol G y Ca7riel & Paco Amoroso destacan en las categorías latinas de los Grammy",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Quién fue la primera persona eliminada de La Mansión VIP 2?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Creador de El señor de los cielos se confiesa tras final",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Se cumplen 32 años DE LA DESAPARICIÓN del hermano de Ari Telch, Jacobo Grinberg: “Platico con él en las noches”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Video filtrado reaviva rumores de infidelidad de Paola Dalay a José Eduardo Derbez; esto ha dicho ella",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Latin Grammy 2026: Lista completa de todos los ganadores",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: La fuerza femenina que mueve a Belinda",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Horóscopo del Niño Prodigio para este lunes signo por signo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Roger Waters se divorcia por quinta vez (y con contencioso de por medio)",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Mauricio Islas despide a su padre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Univision: Paola Dalay recibe mensaje de César Romo en plena polémica por video y José Eduardo Derbez",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcXRDT2Fpbm52SkQ0S2c0SndXdVRhVlFWUTVRQjhicjNlNTlJelpwUDdEZ2psV3lkeHRsMDBhVlk0R0VZOFdDQVljcnc3ZE4zQXNya0o4VGJOSEh2aDU1S1BSemZ4dGYzbTQ5Q2xRTGVvVXN3V0J6XzRfa3NCZkNOTVJmTG14T1N1M3VwdDBNVF9NZ2ph?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: KPop Demon Hunters Golden World Tour: boletos salen a la venta el 20 de noviembre",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb24tRVdqR2QyYVJiQ2JWaVJLOVVrdl9tV0pqWGtjbTZFaTRuenNWSlIzTng1MV9LQU5BaEE4OEFzVm9XLTFiWjlKaFRnWUFEU0J6bDdBSDFRYWpUNW9wN21Zd2lEUlRWM3FQNmpmbUtwMlRHdHBQcVVFUm11VFRVVEgzVE5ySUZ5RXA1OWFfc1ZxcjFUdEdGMGdFV3psd2NHa0M2eUVoU09mMy1IbjhMaFBYaTJZZHNZOXlqaVZRUTROd0VPb1NzdFZLa05udzRsOFJYZ0x3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Financiero: Karol G reprograma concierto en el Estadio GNP HOY: ‘Se está priorizando su salud’",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTEd2UHhmRDJtb1QzLUpBVVI5OWFZRm05UmFCZkp1dEhMbHRRT2x2UUdWanZUakp3QzBSTFBTSW9xZTFrNE9MWmh5YTdPOFBsN3RmdkNOdS1kclQzbjF3bHN6S2tiN1NhT0xfc2FReHhYX3dfMG1oS0UtUE5nWGJWZGxvSzV3YmpObW9YM2l3dFhWYngzRHUtYUtYZG5BdmdBckZBbDNrbHB5UEk4UklqM1EwZzRSUXZaOUVCdg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Gérard Depardieu retira su apelación y acepta su condena por agresión sexual",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzlaSVR3T1V2WUZqMDZnbXk3Q0RJOEtwb2V0ZXc5SGFLSUsxRlh1Ymt4OHpwY2tKdnpiQTBKU0d6UVlYZFh0MHJzOG4wNnRjbDRfRFZRbTN6emxNaENiVDNVMjYyRHpKTXhDbEVsUE5nc1hUbXdIdGtHSkZUVndXeUROcTJpY3gyUUlPa2NfVEJHdXBaaVQ1Q2VZWlBJQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Las Estrellas: Ve aquí EN VIVO el sexto capítulo de ¿Quién es la Máscara? 2026",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSVYyOE1GXzRxdVJWMzF6aThUSU5JTFU5R1JVaS1MZlJKYWlRV21FS2dVcEJNeERCZ0xMMEFadWNZSUxEUl9NNHNLRUU3aE80dFlvcGF0Q1FOb0haVEdyMC1WczAtbWZ0VFg4LUkwR0RXN2J1M2JpQzVHTUh6Z0FINV9DTFk0VzUyd3dmV2FEcGVjSnVGMmlJRDJBaXVQSlMzbTB6T1RxWlJXRm5CU2FZZGdSTlRmMkRf?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: La Mansión VIP votos: las encuestas que revelarían al primer eliminado de la segunda temporada",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPakJHUXhnei1iQWtBRmhFaURvR2dQMGJOSjM1T1hFZ2FlVzR2eUUxWGZBNTJMRnNnZ3VGQzZxdVRFT1pPQkdMOFBNaVlVSzBDY0N3cFhSbmF3NnVURWVNdlBmcno5Mlp2eklPdnZyZUpRT0NXLXhORG1mRWpITnVqSEZnU0JiUjB4R3NOQ1VZOXFhQ2NQejRRUjdPN1FqT3ZuamszWGlvVEZEVldLZ3M2TFc1bHk0SzJ4dTF3WVdFMktPYXBjaUxmTHhNYUJPSndIT3fSAewBQVVfeXFMUEhjVHF5ZTNHX2ZuYVozTklPdndkWnlJNFNYVDJ1YTh4QUJnVXRMb0hJaE9ETy1uZmVPNFZHVUg1VDhSS3JZX2VtTU9CYWpqUS1IRmhhSjNuT1F2UmZOUnBrT3B1WXdEUnJmaDA0c3BwdThwamRBVHNjMUo0OUk5dFZJaHAtSlBoMm42bXVIWTdXSzloVDJDTW5kQURaOUdwRDFlUXk5RFZmTzVLeFFiWVAwNlFsemhsR1pnUWNjNzIzX2J3RDRBSG1XQzg0YVNTQUx5Yy01MWRpckluX1haWUV2NmFWTXNmYXBydWc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: Latin Grammy 2026: estos son los ganadores de los premios de la música en los que Rosalía ganó mejor álbum y mejor canción",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xU0Q5S0VUUTNKeEpzb2lxMWtacmVuMVpxZzFQaW1oMFg1RkpYTG94d2pQd1hRcUJqQWtRZ1YxQjFXc2JDQnZYck52T2RXcHNDUnpXVjZ3TnJxcmR30gFiQVVfeXFMT0J4cXQ4UWpldTFIRHFZT09fYlhkSk9VSGFFQ2s0TGxuR0sySHVaNm5YQXlJNXVsVzVGR2RrNHNzYXFnZVlUNzhtRUZ6b19WaHBjdzJ4MUJ2M3lnbTVvOUozZGc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Garbage reúne a más de 90 mil personas en concierto gratuito en el Zócalo",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYUxiaGZYbkJHa3Z5OGF6dGx0bVpaZ1VLTWN3NW44RXJRcE1mb1l2VjZtcmNpSXRCRjVqMlo5OEJaX1ZFTmZVNU1heWZWenpqVnlIa0NOZDh1R2tMLVZxeG1OVnJjR282RFBqdll3N25CYkc2NEFMZnFfR1hteVctM1ZoazFBbWJKTmE5Slp0RkRjNHRLdkVJUTN1em5VWHhaU2d0UmppUlV6WDNqVUxmVHozVjZBVzg2eUtQNTdHMkVXc2pMSTI2TWg0bFRaUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=68ai_Y6Tv5U"
+  },
+  {
     "id": 1794790806435,
     "fecha": "2026-11-15",
     "categoria": "Noticias México",
