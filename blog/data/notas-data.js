@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794855606608,
+    "fecha": "2026-11-16",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Xiaomi corrige 216 fallos y WhatsApp deja fuera a celulares antiguos",
+    "descripcion": "Xiaomi despliega un parche crítico con 216 correcciones de seguridad en HyperOS, mientras WhatsApp finaliza el soporte para Android 5.0 e iOS 12 desde el 16 de noviembre, afectando a millones de usuarios en México.",
+    "narracion": "La seguridad digital vuelve a estar en el centro de la agenda tecnológica. Xiaomi ha liberado una actualización acumulativa que corrige 216 vulnerabilidades en su sistema operativo HyperOS y componentes de terceros, según su boletín de seguridad. El parche, distribuido vía OTA, aborda fallos críticos con puntuaciones CVSS superiores a 9.0, lo que permitiría a un atacante ejecutar código de forma remota sin interacción del usuario. La gravedad es máxima: los dispositivos no actualizados quedan expuestos a la exfiltración de credenciales bancarias y datos personales. La firma china, que lidera el mercado de smartphones en México con una cuota cercana al 20%, según datos de Counterpoint, enfrenta así el reto de mantener la integridad de un ecosistema masivo mientras acelera la renovación de hardware.\n\nEn paralelo, WhatsApp actualizó su lista de dispositivos compatibles y desde el 16 de noviembre dejó de funcionar en equipos con Android 5.0 Lollipop o anterior y iOS 12 o inferior. La medida, anunciada por Meta, afecta a millones de terminales en México, donde WhatsApp concentra más del 90% de la mensajería móvil, de acuerdo con la ENDUTIH del INEGI. El impacto es particularmente severo en la base de usuarios de gama baja, que representa una porción significativa del parque instalado. Según la consultora The Competitive Intelligence Unit (CIU), el mercado de smartphones de gama baja en el país mueve más de 2 mil millones de dólares anuales, y la presión por actualizar hardware podría acelerar la renovación de equipos, pero también profundizar la brecha digital entre quienes pueden costear un dispositivo nuevo y quienes no.\n\nLa confluencia de ambos eventos no es casual. Mientras Xiaomi corrige fallos que podrían comprometer la seguridad de sus usuarios, WhatsApp cierra la puerta a sistemas operativos obsoletos que ya no reciben parches de seguridad. La consecuencia es directa: los usuarios que no instalen la actualización de Xiaomi o que se aferren a dispositivos antiguos quedarán en una zona de riesgo. La alternativa de recurrir a versiones modificadas de WhatsApp, como GB WhatsApp o similares, introduce riesgos adicionales de malware y robo de datos, advierten especialistas en ciberseguridad.\n\nPara México, el doble golpe tecnológico subraya la urgencia de políticas de inclusión digital y de una mayor exigencia a los fabricantes para garantizar ciclos de soporte más largos. La seguridad digital ya no es opcional: es un requisito para mantener la comunicación y proteger la información en un entorno donde las transacciones financieras móviles crecen a doble dígito. La actualización de Xiaomi y la decisión de WhatsApp son recordatorios de que la infraestructura digital nacional depende de la vigilancia constante y de la responsabilidad compartida entre empresas, gobierno y usuarios.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Uno de los grandes clásicos del panorama indie tendrá un remake que nadie esperaba, pero llega con polémica bajo el brazo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Celulares que se quedan sin WhatsApp desde hoy 16 de noviembre: cómo saber si el tuyo está",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cleanser Man gana el concurso de diseño de jefes de Mega Man: Dual Override",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: The Legend of Zelda: Ocarina of Time , un mágico remake | BITS",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Judías mágicas y todos los suelos blandos en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El arma secreta de Microsoft: la nueva XBOX no será barata pero Microsoft tiene una estrategia para que sea más asequible",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Tu Xiaomi podría estar en peligro si no instalas esta actualización que ha corregido 216 fallos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ya disponible este nuevo pack de Nintendo Switch 2 + Zelda: Ocarina of Time + Trifuerza ornamental en la Nintendo Store europea",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ya es oficial: Mega Man Dual Override mantendrá la tradición y presenta un nuevo jefe diseñado por un fan",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: XBOX desvela novedades de su nueva consola, y son muy buenas noticias para los que prefieren jugar en PC",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cleanser Man protagoniza este nuevo tráiler de Mega Man: Dual Override",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Amazon España se adelanta a su Semana de Black Friday con estas ofertas en juegos de Nintendo Switch 2 y Nintendo Switch",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Excélsior: Y a todo esto, ¿qué vamos a hacer en China?",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUx0MXZjT1dJOVJtZ29lTkNFNjVwV0Q1OUJzeWNlUEduRW02dDdMejZXSk9EOHpKYjdXQzYyd3pFYTRaNDRrZmU0OFVmMUtCckI2dHFqWVJ3TVNjRW1qWHN3YmpLc2lLbnFvUzI5VFFEd0FlejFXSE56Y095OWVzRjYtc3pUaHJ1bjRaWVJUUk3SAZYBQVVfeXFMT3REblVGbllkLUg0WE83bmlxRmRTa3RRZzFmRE1RM0NKUzNXUVg2VXN5UXBwTEFQSk50MjBZejdlUDN0WUVMQ29JOUJodWp2WWNOaG5xMGhYeU5OYVZ0TDFHS0c1YXFrcXc4Uk9rWFpCNThqT3FRMjBfdHZTbnVXYThjdTVBZVQ2VTZfblpiM0NxNWxReW5n?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: El Ponchis, retrato de la corrupción en Sonora, escribe Héctor De Mauleón",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNDdXSEJFU2VicnVyM1pZQWdyWnlzcjVuZkNGNzhiaWdRZ3lkZVNXS2E5NWVpTS0tcElPeERsdEJaZDlXS0RuQm9IZlJDS09COGl2VmJ6eW9DQ1VxN2dfLVZaTURKa3Y4a29RVjZRZmIwTS1uWTNMdkVicFpjMnRxZS1qSWdQMTZLeVpoTllnbmtZSzVRZHBSUm9VbjhVMmN3TnlwYmR3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Hay riesgo de una crisis financiera por Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ2lvdFFJZHN6TWh1aW4taXdrejV0QllFcUo0eFFVaHJ6cTktQ0ppbEU5NklXc3hGRUJYRTV4djhzdXQtbGxZRVdfR1BSTGtpTUtfdVJlUlhaMUFfdHVmSW10SWVFXzdEbk5sdG9NUWpDNVkxWjJ2dFlqT3lKU3I0eWRjYVFoT1p5UzRsRmZ0V2N5REJ1Zk5kQVc2VVo1S1BfZ1ZUWmE3MWRSUmhnVUZfdUl5UlR4Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Anthropic: la madre de todas las salidas a Bolsa (que puede poner en riesgo a la humanidad con su IA) donde hay más en juego que mucho dinero",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQc21pSVZWeXVJSmJ6aU9UZXhhNkYzdUVGMGxqMDVESC1BZnRkZ3lMV1d5ZXJIUjJqdUs5Ni1HN2pkS0tkXzhEdnZkaGRXZUxkZXdCemt1WEo5VXNyeDJnUU5OcGtTNDZFaVE2Tm1ZRnBDR25sYVFRLXVPM0xIY2IxdVNwakZsSkNrTnl0R0k4WlozNEJ6V0ZzdjNEU09EWmFEYnNEeVNleTI4OW12UlVlc3JxaWR4U015bFNOSWxlVS1KeG9odGxMYmF2UEh0bldLT2Ezb09xeG4yNzFDbV9qU3EwREpSaHdHUm53eHVSZGp4VWNqSUEzdFlKM2VCUEoxSDFDaXRlR2plNTVrZENnN3M2MHVmZUxlM0YtNnhxZHgzMlB0Z19Qdy1hSTAtOHIy?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: De la sierra norte de Puebla a una bodega de Sinaloa, las granjas de criptomonedas se expanden a manos del narco",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeEJlb25kV1U1Tk1fU09xaElPLXJnZFBEb2kwNUNTak1CcVpCVW1CV01PUUVtR0JvRkV2Rm5FX0YyMWNDZnZBdHBpMDlsTERZMWVDZmNwWlEyYWVOWGFRb2tKRXNkZ0ZGemphLXFyVWlBXzllUWZ2ZVM5UGJReHJBRXNpX2FfU1pwNE5wT0FZMEd4Z0V4R20tTm13R2NQQUtyYnlIMmhPSm1vN1laQU9INmtQVl9jMk53bF9zT3UyXzVGMmVoeDMyLTVlYVVPbXR3ZTJGXzBnQnc0QWY2UG1SaTFBWXAxSUw2NEtUX2lRUU50VHFO0gGIAkFVX3lxTFBNYmUzZURscFFEY2hmZ2RieDVmOUxvVzQwWFV5T1NTQUgzWkE1YTkyMksxekZveGtDdTVLVFVVd0RsMnBnVmNTZmZUdm5NTk8wZHJHWFluSHlvWldCdFJicUFEWWpBaU9fUGFDT3JEVF9KUkh6U0JzanRMMzJmcWYxOW90aVQtNVkxZmRiMWdTSnNPdTNLeGJNeEs1OUNqNThfd1N2azZKT2ZrNHBZdUxmWk03UTYwdUtXUVpKT1dtanZBaldSOXBYa2lIanFzR21qZFJTYS1pR2xSNjBQcEp6Y2JoVmxjNU4xX3NOMjVqbFJVX3pNVnBMdlRZWXhjeEdUcVMybTlxYw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Informador: La verdad es que no saben qué sucedió",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRlI5cURwMjg1ejdJYUZRYzVuNTBDdTNDZURrbExES1p1cFpGTWVVakxTc09Ha0RFY2psbE5NMjUycGVFOEdRWGxUcHBnWlJtODB0UGlQdERvYmRyYWpBS3JOY0V2YzZwanR0WmF2RVF1UnAxWUc0STZwY2dOZFV1d1h2dWNzMkhJWWM5elNPSWd2d9IBlwFBVV95cUxNRThyckpTclVKNVI1cVNQdXRJbDVTLXpSZG9xREpNRVB3U2RLQURIUjh3OWg2eXR2N1ByRlNzazhhZ19kbFowdUhMUHcxMnMwZS1xWkYyOEN5WHhjR05kUmdSbnZBRHF5b1I1bnRDVnV5X0JuT2tQS1JIVjRyZlVCd1JYdDRPaEJyVy1sSG53MHVxYW55YzFr?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Crisis en Nvidia se agrava: Taiwán detiene y acusa a empleado de traficar chips de IA a China",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY1JKaC1RVVlKYzlUUFNROC1KREw0b05kTHlNWkNyWW9LNDdZVXNOcmZRVGs0Xy1TazBGaDUzSlNsc1hNODFJMHZRMEx0cXQzRVhvU3FaQVdsODhEeWJQYUV3SXdfSjlRNTYzcWtNT09FMXZKeDU5bUtlYnYtT3FLVGY5U0szMTJQTU9iSmtaMlpkYmdRaVp6eEdWVFdabnlyUi1ibVZFZG9BZFYwQ2xydmlVejIzOC1nR2tFSHlfRkNvMGg0ZUxwOHAxUkdoaVlOaEtKQkZtakM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Cointribune: Ethereum: Vitalik Buterin apoya leanPCS contra el riesgo cuántico",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVng0anlPYnFQbmFJSVB1M0x5QVhwUnFVcE9EMy1xczVJbjBDUHB1NzhEemRZd25MbkE3SmJleXZ2WjZkcnNULXV3VVhZY0trOEpaSmZIdUQwX1dTdElYSTNPSzdZVFpBNEljZnNQbWpheGMxbTk2VXVtaDQzSTdjUHlyVS1OcG1faVZPWXQ5bngtOV9UaEt0YUJ0QXQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=G-hxPo1mLV0"
+  },
+  {
     "id": 1794852005842,
     "fecha": "2026-11-16",
     "categoria": "Farándula",
