@@ -1,5 +1,135 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794790806435,
+    "fecha": "2026-11-15",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Félix Gallardo hospitalizado, Sheinbaum en China y el Buen Fin bajo fuego cibernético",
+    "descripcion": "El fundador del Cártel de Guadalajara cumple 48 horas internado bajo custodia federal; la presidenta inicia gira por China con Bárcena y Ebrard; la Policía Cibernética del Edoméx alerta por fraudes en El Buen Fin; cae 'Raptor', ligado a la masacre de Colima; y la Pensión del Bienestar se difiere por el puente.",
+    "narracion": "La edición central del noticiero Memexicanísimos de hoy colocó en la agenda cinco asuntos que tensan instituciones, economía y seguridad. El primero es la hospitalización de Miguel Ángel Félix Gallardo, fundador del Cártel de Guadalajara y condenado por el homicidio del agente de la DEA Enrique Camarena. A 48 horas de su internamiento en un nosocomio de Guadalajara, la Secretaría de Seguridad y Protección Ciudadana no ha emitido parte médico oficial; fuentes del sector salud confirman que el reo de 78 años permanece bajo custodia federal en un área restringida. Purga una sentencia de 40 años en Puente Grande por delincuencia organizada y homicidio. El dilema institucional es claro: el protocolo de custodia hospitalaria y su costo para el erario, así como la transparencia del sistema penitenciario ante cualquier complicación médica. En paralelo, la presidenta Claudia Sheinbaum inició gira por China con los secretarios Alicia Bárcena, de Relaciones Exteriores, y Marcelo Ebrard, de Economía. El objetivo: renegociar el T-MEC y atraer inversión en electromovilidad. China es el segundo socio comercial de México, con intercambio bilateral superior a 120 mil millones de dólares en 2025, según la Secretaría de Economía. La visita busca equilibrar la balanza deficitaria y asegurar cadenas de suministro de litio y semiconductores; cualquier acuerdo arancelario o tecnológico impactará el tipo de cambio y la competitividad automotriz. El tercer punto es la alerta de la Policía Cibernética del Estado de México por más de 300 sitios apócrifos que suplantan tiendas y bancos durante El Buen Fin, con phishing y clonación de tarjetas. La Procuraduría Federal del Consumidor reporta 4 mil 200 quejas por fraudes en línea en la edición anterior, un alza de 18 por ciento anual. La Ley Federal de Protección al Consumidor no tipifica el fraude digital como delito autónomo, lo que obliga a denunciar ante fiscalías estatales; la Asociación Mexicana de Internet estima pérdidas superiores a 800 millones de pesos. En Jalisco, fuerzas federales detuvieron a 'Raptor', presunto operador del Cártel de Jalisco Nueva Generación y vinculado a la masacre de la panadería 'El Pichón' en Colima, donde seis personas fueron asesinadas en 2024. La captura en Zapopan, según la Fiscalía General de la República, representa el primer eslabón de la cadena de mando en un caso impune por dos años. Finalmente, la Secretaría del Bienestar informó que la Pensión del Bienestar suspenderá pagos durante el puente y reanudará el martes. Los beneficiarios son 12.4 millones de adultos mayores y personas con discapacidad; el monto bimestral es de 6 mil 200 y 3 mil 100 pesos, respectivamente. Los depósitos ya programados no se cancelan, solo se difieren, pero quienes dependen de este ingreso para medicamentos o alimentos deberán ajustar su flujo de efectivo. Estos cinco frentes exigen rigor institucional y datos duros para entender el pulso de México.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Las últimas 48 horas de Miguel Ángel Félix Gallardo en un hospital de Guadalajara",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El Buen Fin: Policía Cibernética del Edoméx ayuda a detectar páginas de internet falsas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Pensión del Bienestar se va de puente: ¿Cuándo reanudan los pagos y a quiénes les depositan esta semana?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Cae en Jalisco Raptor, ligado a masacre en panadería de Colima El Pichón",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Clausuran carnicería y suspenden restaurante en Tampico",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Lamenta Cruz muerte del periodista Francisco Álvarez",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El R2 sigue inconsciente: su audiencia se aplaza mientras cinco de sus escoltas enfrentan cargos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Esperan Bárcena y Ebrard llegada de Sheinbaum a China",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Disputa EU-China: embajador Ronald Johnson acusa a China de \"inundar\" México con \"importaciones de bajo costo\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Presupuesto de Egresos de la Federación (PEF) 2027: Claves de cómo quedó el paquete económico",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Operativos de seguridad en Jalisco dejan nueve detenidos clave y tres presuntos criminales abatidos tras captu",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Hallan muerto a periodista mexicano en ciudad turística Acapulco",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Gabinete señala a El Raptor, detenido el sábado, como autor intelectual de multihomicidio en Colima",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Murió el narcotraficante Miguel Félix Gallardo en Hospital de Guadalajara",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZDYtM19FRG1Tbk9teEY3U3RvVFhvOEVHbjE0emsxVmk2bmJXb1cybUs5NWlUZUhnWWoxbl94QV9HVFlJS0J4YlhINTluUXN4NWhiajBScDY0Q2ZPSEJWZ1daSFpZVUFWbkYxSHVlRVh6LXVSOUxBclJzY05zTmdrOWJqOHNuclZBb0poNGNmMHp6emc5VW1nNWhJNGUwOGgxV1Rfd3lMQnFNeFlyNmVDc3Y5c3hPUQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum ya viaja rumbo a Shenzhen, China, para acudir a la cumbre APEC",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlhSGdoVDZETl9HYXozYmRWMWV1Qzhpb3V5Z3FZMEIzTlJOVlBEaGpNNTkzc2NoQmVmbFh5V1ZQZmhxd3QtMTBqOEFPX3llLWJDSnF2Y0ZRR056M3hHdmpYVy1rb3BlSDBVbURkQ2RHRVVyWEVCdE5pSVRlNXozSWQtV2ZsN1ZVY1BWTnpuMFdyZnRzblg0WVFGUWIySDhDa3pBME1nNGt3UVg5YmdjZ2E4VFZNejM1NjAyVURhaW5QY1E?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Asesinaron al periodista Eduardo Flores Salado; hallan su cuerpo en Acapulco, Guerrero",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaFRTYVdSNVpFcUhuM2ZWVS04V2NPUDFWY3hZUkxXWDBjWjRGMTUxYnRuMm8wcXZxT1liaGZaTzFwcWd1bS15MmZSRS1rTGhGNDNxSW4xVEk0QW9wM245eC1UZ09PWGxYcEJvWGpKZkI5UVM0OVAtRW9LWDhHdXZKQjBwRTdtT3F4TzFrUGtiMHREcWVIT294RWc2dHdrLVMxNlY2NHJOdDdjMklOVkxqLU0zSkpkMHRfbm53RFNHS0NJa0RxZXdPQmNhV0s4Vjljb0hETw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Diario: 'El País se está yendo al carajo'",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeE5wWWloVmtSVFg1ZGVJak5QT3I3SDdjdFczeG5mbVNGWGp2Sy1xMURXbE9odXdoeUpCNGxyaFBUS200dnJSZ21zNjBlTzVzakpjaHRsUk9STU5XNFRQU2w5QmhsTkFXd2huR1VSOS1DYXdMelZqeWZhRWp1TUlBT0hST1MwNE5Pd3Qw0gGQAUFVX3lxTE9FTUlETUdkUTZwMm81UTdxUnNBanZnQmRpMlk1bVdRRG1BcjdqS2dIM2w5LTcxdlNlV0hWMlZaU21vVWRxbGFMdzhDeXVFSXRieE1VcEJVM3dNaTN2SWN3ZWl4X1NGU1RET285bDlyWkZTMERjM3dQcF9pTUZ5U3ZEZ3Q4MU1NSjZEZlNkaWJONA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: SEP responde a denuncia de Dylan, niño que acusó exclusión en encuentro con Sheinbaum: esto aclaró",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUUx0cFVnQkRPMDl1Q29WTEhBZ2ZpbmQ5MmhaWk91WlpjRVcwSlB4QlI2Q2JtSWwxSlg5UGgydUFwX1ZfcnhtZDRJZlpXVV9sQzlCZ1REMFJ2NjlzLUdvbTVoSXpuakNvRGRWVEJUQnlXbFJZOWYtdlNOWWNPRThScjZNdWpSVUlySWxkejVRM290MGxlaXh6YVNVSW1XUnFvUUZPOGFVeUJBa21LUU9sTlBHQWQ1bzhTcGp4Nzk3dlJwa0t4a05xbU9zUmJ3NWM0ZGlpNG1B0gHwAUFVX3lxTFA2QzFONDVMYzdNWGlmclBZX3djMGVzQk1BeWF2aGNab0cwUllDaXNqUi1LU1AxbFBVckhPTEwxVDhSLXZsSGg5alFRRlZWaUpfYTFDbF9wRlBldjdLbGxIRWZEMnE3YjVnb3Z1SjA2WmQ0a0dXWDQ2QUJrYndmSFBpYzdsWXEyQVhLeFZDdDVNU3E3b0gtbEVBZUk4bkIxTnhTMHdPMzNyVWM4WFRPNnRuUWhTaWdDc0VpZW1rYnEyUHY0aHhsSXVPdnlmV21JOElSdFhWVmJYcGh2WmpTUWRoZTQxSnpqNDlpSVNJblhHYQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Capturan en Guadalajara a 'Raptor', jefe criminal en Colima",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSmt1M1Ata2FmaG1LVUNQLVQySTRWNjNKNXBSelJuUWxqeFdSV1ZodnhINGRzZVROenNIazBQY0dSd0lXZXFKdjJMU1g0Z21wQlVrckNrZnFRWkVRd0hMOGJRNUVWWmlpT1RsR25GUE5LTVB5T0hfcEl3ZHpnSkMwMG1WZ0ptQ2YxblBHdk9Ba3hnWERa?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Ambito: Banco del Bienestar alerta a adultos mayores que reciben la Pensión en noviembre 2026 para que no pierdan dinero",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcTJJdlQ0em4xcmFPV2Zmalg5OTF5OEtXenV6VkwtS3JkZGxVYWdpdi0xVHptblhBRzRmRVhkR3RQQVFWTmpBZmRHREhOVjZvMUhLRkdfQVZQZkdVaTdNU1lIYW9Hd1ZZcVVsWXNHTHFVa0I1UHYwaG9VWEtZWDVmUjFIWkNJS3VycndBX25WZHVPWDdqOE85YzFUVXZmVjMxc3BkQ0lmcDZOMzdiSjB5a3NkQlMwX0ZOVDNKdWJ2TmRZci1wYTlxVlh0RjVyREZya29SQ1FlYzFSdDdBVTVRejg3YTPSAeoBQVVfeXFMUEdBTzJHOTdXQnFudWFDbHRHS0JPck93Z05STlNIZHlHMGpfSlVWa3ZGbnVfWGZDdDMwNlFjZ0syZy1yYmdKbDlZcjVtYzd4M2NiTXRtc18xVWNsZU5lWVdsR0RIQXNzcHdKZE5NWFJMNVBJWmQxX1hEY3BKSkpXdUhkWVNkQ2tiZTROVDNWWkhmekp0WERZOFc1U0tYZzVpaXVMYjNjRHJhMXNMeWg2Y1dCQ2xpZmc1RDZXT3RIQlpNaVI0NVRJSVdhZWt6Qkg4bGowUEZlVUZUZ283X213aTVWcTMzeWpqMkN3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: Detienen a Liliana Anel “N”, por presunto abuso sexual contra su propia hija de 12 años en Naucalpan",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLVpvdmlsOU01ZUNGa01rcE9EV3RKZXBSd1NIVzFJN0xpYnNwN0o3VGM5bmxtS1hrTW5RdjYxQmd5U2NhbThiVGwxRU9CbVIwTmwxTXdXbFZKZ0hValV4M3k0UGhTbThQZ3BfRW14ejJXMHRKSUw5bGxaVkN4TGpGZzBsZXlXNVNUWWM4NzNEN0hydElJWGgxei1naW96dkJ2YWJHMmh1dzFQbGZhaFNCNEtkR0pvUGFabjh5WFlSWVdleER1c0l4S0htY2xvUVNNM0xIZThlb9IB8gFBVV95cUxPNDVLR3hjLUg0bUFLcUxsR0FXWmJWMS12SUtiYllJdlJxejQycDJNQWp3MEZfbDJtd1JzejU4RmJfUW9nQURlcER3dkZmUG1fT3F3Zll6ZG83RFo4Z0tXTTJLck12bnhoQjBJQnNPRmR3ZEZFY2dDbnd0UUJEeXBmblpUcnh6TWVPOVZCZFhJRDlLTk5HSXRHMlNCandqNnBfRS02QTBoTHlQRFdteFZZNmppZXRFczRoSzFadklHRkdobndZeGRtNmFpZEtPcnZBeHRGZUN5cXJrSnBISVpCeXNPTlhrQzc1VkVKSk53b1ozZw?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794783607484,
     "fecha": "2026-11-15",
     "categoria": "Gaming",
