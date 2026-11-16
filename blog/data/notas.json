@@ -1,5 +1,121 @@
 [
   {
+    "id": 1794870006460,
+    "fecha": "2026-11-16",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Switch 2 esconde DLSS 4 Transformer y Project Helix apuesta al renderizado neural",
+    "descripcion": "Nintendo Switch 2 integraría el modelo Transformer de DLSS 4 con dos perfiles exclusivos, mientras Project Helix, la próxima Xbox, usaría renderizado neural para contener su precio. La GDC confirma que Switch 2 es la segunda plataforma más deseada por desarrolladores.",
+    "narracion": "La industria de los videojuegos se prepara para una nueva generación de consolas con estrategias técnicas divergentes. Según reportes de Fanáticos del Hardware y Tarreo, Nintendo Switch 2 incluiría el modelo Transformer de NVIDIA DLSS 4, el más avanzado de la tecnología de superresolución por IA, con dos perfiles exclusivos. Esto permitiría a los estudios lograr imágenes más nítidas y eficientes en hardware limitado, aunque su uso dependerá de cada desarrollador. La filtración sugiere que la consola híbrida busca compensar su potencia moderada con inteligencia artificial, un movimiento que podría definir su atractivo frente a PC y consolas rivales.\n\nEn paralelo, HobbyConsolas informa que Project Helix, la próxima Xbox, integraría renderizado neural para reducir costos de producción y evitar un precio astronómico. Esta tecnología, basada en IA, optimizaría el trazado de rayos y la carga gráfica sin encarecer el hardware. Microsoft apostaría así por la eficiencia técnica como ventaja competitiva, en un contexto donde los precios de las consolas se han disparado. La estrategia contrasta con la de Nintendo, que opta por potenciar su hardware limitado mediante DLSS 4 Transformer, mientras que Xbox buscaría abaratar costos desde el diseño del chip.\n\nLa GDC confirma que Switch 2 es la segunda plataforma que más interesa a los desarrolladores, solo detrás de PC, según Nintenderos y NextN. Este dato anticipa un catálogo robusto para la sucesora de Switch, que podría anunciarse oficialmente en los próximos meses. La encuesta de la Game Developers Conference refleja que los estudios ven en la nueva consola un mercado viable, a pesar de las limitaciones técnicas, gracias a la facilidad de desarrollo y al éxito de su predecesora.\n\nMientras tanto, God of War: Sons of Sparta confirma su llegada a PlayStation 4 con fecha y actualización, según Infobae. Este movimiento extiende el ciclo de vida de la consola de octava generación, lanzada en 2013, y sugiere que Sony aún ve valor en el enorme parque instalado de PS4, especialmente en mercados emergentes como México y Latinoamérica, donde el precio de las consolas de nueva generación sigue siendo una barrera. La decisión de mantener viva a PS4 con un título de la talla de God of War podría responder a la necesidad de amortizar costos de desarrollo y mantener ingresos recurrentes.\n\nEn conjunto, estos movimientos redefinen la guerra de consolas: eficiencia técnica y precios contenidos como ventaja competitiva. Para los jugadores mexicanos y latinoamericanos, la posibilidad de una Switch 2 con DLSS 4 Transformer y una Xbox con renderizado neural podría traducirse en hardware más asequible y juegos mejor optimizados, aunque la dependencia de la IA genera interrogantes sobre la preservación del arte original y la carga de trabajo para los estudios. La industria parece encaminarse hacia una generación donde el software inteligente compensará las limitaciones del hardware, y donde el precio final será tan decisivo como la potencia bruta.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "TV Azteca: ¿Cuánto espacio ocupa GTA 6 en PlayStation y Xbox? Paso a paso para instalarlo en tu consola - TV Azteca",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Fanáticos del Hardware: Nintendo Switch 2 incluiría el modelo Transformer de NVIDIA DLSS 4 y dos perfiles exclusivos - Fanáticos del Hardware",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Sol de México: De 500 a 4 mil 800 pesos: 5 consolas portátiles para regalar esta Navidad - El Sol de Cuautla - El Sol de México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Kratos vuelve a PlayStation 4 en ‘God of War: Sons of Sparta’ confirmando fecha y actualización - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo Switch 2 es la segunda plataforma que más interesa a los desarrolladores de videojuegos, según la GDC - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "NextN: Nintendo Switch 2, la consola más querida por los desarrolladores - NextN",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "HobbyConsolas: Project Helix, la Xbox de nueva generación, se guarda un as en la manga para evitar un precio astronómico: el renderizado neural - HobbyConsolas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Tarreo: Nintendo Switch 2 trae escondido el DLSS más avanzado de los PC, y sus juegos podrían verse más nítidos si los estudios deciden usarlo - Tarreo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infosertec: Nintendo elimina el acceso con Google y Apple el 26 de enero de 2027 - Infosertec",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Persona 6 podría presentarse muy pronto, según un nuevo rumor - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "XboxManiac: GTA VI recibe un segundo parche previo a su lanzamiento en Xbox Series X|S y PS5: versión, peso y cómo actualizarlo - XboxManiac",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Comercio Perú: ¿Cuándo sale GTA 6? Fechas y horarios por país para jugarlo en PS5 y Xbox - El Comercio Perú",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: XBOX está regalando “certificados” para que faltes a tu escuela o trabajo y juegues GTA 6 todo el día",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcFZrUjVhdy1RcnpUZlh4bTFyLTc3Y2xuVG12cDFTcGpuQlczYjdQbGlJb0pENjdfUnJZZWJTU3JoZ2JIdUdYUVRoQmtLTDRGcGdPVkQzb1A5cXZSalBpaVVHa2wxanplQ3JpM2lYU1hzZHk0Y2J1MVZ3VGlsMUJjdXZwNGIweXhSX2lhV29SUWNEVGxNY05JU2NUekZiTi1uMVlUY25zdTBWa1EwU05xUmpDeEpaQ1FIMjNHbVZodkFJTFh0TUh6cmNkYlpmZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Ya disponible este nuevo pack de Nintendo Switch 2 + Zelda: Ocarina of Time + Trifuerza ornamental en la Nintendo Store europea",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNc2hBbmFORTBpYUpfNHZiQUE3d2FYWF91Tk50YXYwTjBCZDlZOHRBd1ZVeHFKWE5oZmsydEVLNVQ1cXRtcmNSOFBoaW0tX3pMUmhYSHg0VHdqbnU0VnBod1A5SnBETG9DUnZIQ0pXLXpPY2RLdWRpc2JRdGdaRjYzU1lncE80Y3pjOU9CR1JkSHRYaWpfUUxGSE1EblFDOUJESmZfYU5TbjBLXzU2MWVqWVBEMjd1UVQ1OHVaZDYtUUw5R2hBTzI5SG9WRi11RGw0aFN0WWVVZDV5RUVQOGdlT0RibWFBV0ZBVmlJZkpZT011aFRMenlzS0luSlEzUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: GTA VI se cuela en Nintendo Switch 2 gracias a un nuevo evento de NBA 2K27",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VVFJoenhUa2R5WDBXVVdkMVBuaFM2aXkwTkwwMlVuQWxHSWpvZFp6UlNwUWNoa3dadTZNTTRyRmk1MnRxb0plSmFaOEZSTVVmaV9JZF9DeXlTYVRqTjlLT1FmVmRiV0RQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2hJR2MyZ2hzNzBzSGFNRkxaSW1YQVVLclI5RHEtUUVyVGlGYUQyT0ZDY2ktLTE2OEpucEpEZkdWbWxIUk12Yy02NUNLLWJGWlBURnNGcUE4UG9SVXBzaVpkLTJfWXlTOGNmUkxadmxodWttZ0x1QjZzOGxTZzlVSHlVZ1JvblVDXzYxckFDdkd0M3ZFalJNM0NwWkVhd3FxV2dfdTVFZjhqMU8tQ3oxeGpMbzBiamZzTmVrZDVISnRndXRyN1o00gHMAUFVX3lxTE4zNTNlNVB4X3BGdHhaUDV1VnEzc092NEpPY21GbmlYMWtjUDlsd25xSUVoM3o5TzZ1WEIzMW10UnRFcnJCWklTQVpqUUowX0xaTkd2bEEzN3ZJbjNiR2IzS3Zna3ROSURnYjRLSm01Qm50SFRFMkV3OVloa2l0TkIzLTdPMWo4d01IY1h6SGVraDB2Z0E0SXlmaHQ3dWREUkZDeVNFb0tobkltWDhhaXp1QzNXTE9JaHFEY2pDR2M0eW9HYzBPTlBOTnFfOQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: ¿Cuánto cuesta GTA 6 en PS5 y Xbox? Todos los precios y ediciones disponibles",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbVpNQkthOE93NEhEWTE3bi0wbWdOanl0c3lldmZFbnZXS040MUVqd3dYajlWTV9TRUZSWmhKYjZKY3JwZzgwMk03ZXhfZmlQTm1DR09SMTNlNUs1XzhCWXFVTVk2R2dpMUUtcHBHR2RMbGU5RXJCOHdKbFp4UHlrRU5ITTV1RWFHTDJqZzBGYjJ1V1oyMmczeUJIandLNlRnNUIyN3RDaEdnR2tVZ1kzNE55QVp0dG5vcFhORmRwb9IB0wFBVV95cUxQRU45cFhnVkYweFFGOHhYVjFaUmhRbnM2NFRrbjUxZDhvNmVaM1FUWWZYcEtwS3dFcFFkcHdjODZEV0hqb3VzOHhaalRnbEFkX0FTR2dZZVZzMV9PUTJFWEoxM1hudEt6MHQ2S1REdjV4TU13SmdMLWdfcktXMXBHTHBUN0FHanJFdnpQZXJDOHl4bXp0TWc3UWpQanRseU8wZmVpeWFHTXZGN202VnBlamUwam95X21PY2VkeFVvbEJNU1NwU1Fmemd6VXVoQ1RPaXU0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: GTA 6 recibe un segundo parche día uno en PS5 y Xbox, que pesa 1 GB más en las consolas de Microsoft respecto a la de Sony",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaHVHLURLRnA4SzJsek1LOEViaEdFRm1mR2psQjJSQ1YyYUc0Vl9RY0loUzRTSHVJSzRucWZkbDg3LW44T1g3a3VNUFgxalMzVXFUWlRsdmhSNEx6SHFCbW41Mk1LTjh5SGdwNzJxZmVJdE00cTE4Z2xhMk5pVUhtcjRXZXRHMzNLUkUzSGdWbHEtczBDTEZrUWtiaXlwMEFYeTNuSHNKc1NzTjZwUS1oUnh3YkRManZKa0JTWkJXeHMtOGJveExtU3o0bmJNMEtEUGQwWGJHMkJJWW9fYmE5RXMxUGFoSzd3MUNoVmlvcHJSS3VnU3c?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: Lucky Luke vuelve a los videojuegos con una colección de clásicos de 8, 16 y 32 bits",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdFJhaDg2dmRJWVhEN215YzlZMUs4OWtLR0JYdnhxV3ZSM0Voc01DSjRTWWhHa0N5YVpYLS15UU13UXdLVmlfclptZzNHWDh6YkUzWHJ4a1ZGYmdkdUc2eWlSQUpiakN3S2g5ZXFTOVdkVG5DSHJCTk5WVFQxekhJRkxSWmFaQXNjbTI1NkFVOTJ3UGhrT0xkeWpkWXhIcDFJNk5YUUt2alNxVDBGY0Z0dXMzRG5GQloxdWtCU0ZDcmUxdFZVcUNDekxwMWJab2vSAeoBQVVfeXFMTmdDbWdTNHRKY2RuYTFsMkR5MF9VNllvUklvTnNNQlZIcjZvZHc2SU5IeW01dmNuYlNnZDl2VC1oUUdVWTNYUENiVm5iSTFsOTVHU1diZHB3MFhSNWVWcDVNYWlhcXYwWFp1S3RRZFVHbUpiSWNKdU1HNFVaLVRJcFdFS2E0eXAtT0oyMjhrVnBhcF9sVHdKMnROSFFpT3RnSVgzZ3ZHcGhKZjM2Q29TbTV2WlZQNGJ5bEVaT3ZBZ3dUS3lBYjVTbHV6dXNkR2FzLTQ0ZVpWN2RlVzMycXZJSGU2Y0tMZDRwREh3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: XBOX revela su plan para Project Helix y deja claro que es una consola que tiene mucho que ver con el PC",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbllaVDlhNXhzQUg0RnR6UHhINzM2Qy1mWFZld3FHV3o0eklRd3hQRXFIaXA0eS1ic3FjUFl2b0xhQTFsMFZUdW9kUjh0ZGtrcTE0V3oydUo0WnR5ZjBYLXNKam9WSWRZNmYycFdfRkZqRWs2b2FwT1RMUEF0Vk4tRFpVUE5Jd0FZcEl3VWIzazFkX0hmMlRaX1lob3dKR0dJYTAtUzhmN0JHRTgzVmo2OUx1TzhVNFltMzMzUDBIaU9xT3JlcEHSAcsBQVVfeXFMUG43eHJxVEZsaW5sb2FrUTE4NkN0akF0Y3g2b3dqTWY5R3AwZjFnaGs0RHdYci1NdHNPaGY0NDl1YnVpRUZHb0JCRWQ0U2k1VDcxUnV2OGhjUFJXUWdCc3JwYVljZXZrVWRJUmo3R2RIaUpuQi1GQjNSWjkxcFhYVExHUk9MVmt4UG5wRDE0YmZ0M19OVFB1c1g1SHpDRm1SZDVtOUdST09VRTU5b3BOUExmeEkzQjdQaDlXYk52SU03QjZFMVZFdUpSU3c?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=A6JhkOegXm8"
+  },
+  {
     "id": 1794855606608,
     "fecha": "2026-11-16",
     "categoria": "Tecnología",
