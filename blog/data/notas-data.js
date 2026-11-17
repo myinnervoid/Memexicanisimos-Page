@@ -1,5 +1,121 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794942006430,
+    "fecha": "2026-11-17",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Switch 2 lidera intención de desarrollo global: 38% de estudios la eligen",
+    "descripcion": "La encuesta de la GDC a 2,600 desarrolladores revela que Switch 2 supera a PS5 y Xbox en planes de lanzamiento, solo detrás de PC. El dato anticipa una reconfiguración del mercado de videojuegos.",
+    "narracion": "La Game Developers Conference (GDC) difundió los resultados de su encuesta anual realizada a finales de 2026 a 2,600 profesionales de la industria. El dato central es contundente: el 38% de los estudios planea lanzar su próximo título en Nintendo Switch 2, frente al 32% de PlayStation 5 y el 28% de Xbox Series X|S. Solo PC mantiene el liderazgo histórico, con una preferencia que ronda el 60%, según la misma fuente. La consulta, aplicada a desarrolladores de todos los tamaños, confirma que la sucesora de Switch se posiciona como la consola más atractiva para la inversión de nuevos proyectos.\n\nEl contexto técnico explica el fenómeno. Switch acumuló más de 140 millones de unidades vendidas, una base instalada que reduce el riesgo comercial para cualquier estudio. Su sucesora promete retrocompatibilidad y un rendimiento mejorado, factores que la GDC destaca como decisivos para la decisión de los encuestados. La encuesta también revela que los desarrolladores valoran la arquitectura híbrida —portátil y sobremesa— como un diferenciador frente a los ciclos de vida más largos de PS5 y Xbox. Nintendo capitaliza así su ecosistema cerrado y la demanda de juegos híbridos, mientras Sony y Microsoft enfrentan la recta final de sus consolas actuales.\n\nEn paralelo, la eShop de Switch y Switch 2 ya ofrece las ofertas de Black Friday 2026, con descuentos de hasta el 50% en títulos first-party. Esta campaña comercial, verificada por la prensa especializada, busca impulsar la adopción antes del lanzamiento de la nueva consola, previsto para el próximo año. La combinación de una base instalada récord, retrocompatibilidad y promociones agresivas configura un círculo virtuoso para Nintendo: más usuarios atraen más desarrollos, y más desarrollos atraen más usuarios.\n\nPara México, el impacto es medible. El país es el segundo mercado de videojuegos de América Latina, con una comunidad de jugadores que supera los 70 millones, según datos de la industria. La preferencia de los desarrolladores por Switch 2 anticipa un flujo constante de lanzamientos y promociones en la eShop, lo que beneficia a los usuarios locales con mayor oferta y precios competitivos. Sin embargo, la dependencia de infraestructura digital extranjera y la volatilidad del tipo de cambio siguen siendo riesgos para las PyMEs mexicanas que desarrollan videojuegos: acceder a los kits de desarrollo de Switch 2 y competir en una plataforma dominada por grandes estudios plantea desafíos de soberanía tecnológica. La encuesta de la GDC no es una promesa de ventas, pero sí una señal verificable de hacia dónde se dirige la inversión global en desarrollo. Nintendo refuerza su posición y obliga a sus competidores a replantear estrategias, mientras la comunidad digital mexicana observa un tablero que se reconfigura.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Apple tendría estos 18 productos listos para el año 2027: iPhone 20, gafas inteligentes y hasta robots",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El asteroide que podría ser una nave espacial soviética se queda sin visita: Japón cambia el rumbo de Hayabusa2",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Miami Heat cambiará su logo, nombre y jersey por el GTA VI",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Switch 2 es la consola preferida de los desarrolladores: solo la supera el PC en una encuesta a 2600 profesionales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ya están disponibles las ofertas Black Friday 2026 en la eShop de Switch 2 y Switch",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: A días del estreno de GTA 6, Sony refuerza la seguridad del PS5 con una nueva actualización para evitar la posible piratería del juego",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¿Qué oculta el extraño objeto 1998 KY26? Descubren algo inesperado sobre su origen que desconcierta a los científicos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Los estudios siguen favoreciendo el PC como plataforma para desarrollar videojuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cuándo tiempo tomará terminar GTA 6 al 100%: solo la historia duraría 50 horas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nintendo Switch 2 ha superado a PS5 y XBOX Series X|S en un aspecto totalmente inesperado",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Sony actualiza PS5: ¿Qué cambia exactamente en el firmware 26.07-14.23.00?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: GTA 6 revela su impresionante sistema meteorológico: tormentas tropicales, niebla y un clima que cambia según",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Excélsior: Y a todo esto, ¿qué vamos a hacer en China?",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUx0MXZjT1dJOVJtZ29lTkNFNjVwV0Q1OUJzeWNlUEduRW02dDdMejZXSk9EOHpKYjdXQzYyd3pFYTRaNDRrZmU0OFVmMUtCckI2dHFqWVJ3TVNjRW1qWHN3YmpLc2lLbnFvUzI5VFFEd0FlejFXSE56Y095OWVzRjYtc3pUaHJ1bjRaWVJUUk3SAZYBQVVfeXFMT3REblVGbllkLUg0WE83bmlxRmRTa3RRZzFmRE1RM0NKUzNXUVg2VXN5UXBwTEFQSk50MjBZejdlUDN0WUVMQ29JOUJodWp2WWNOaG5xMGhYeU5OYVZ0TDFHS0c1YXFrcXc4Uk9rWFpCNThqT3FRMjBfdHZTbnVXYThjdTVBZVQ2VTZfblpiM0NxNWxReW5n?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Excélsior: Qué flojera eso de cambiar pañales",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRXNyOVJ5X2VqbkROdV9kbThiTk8wYmdBSGtEcVRCOWt1QWc1dGFTOS1nRHczSDZZckstTDB1OEZnUUlhNFR5YThodi1NaVEyaFhHVi1WRFVYYU94Z2NIak9wZFpEdE91b3VwUlU0cENzN3dmWDNieDNTRkVWOUYwRE1fUmV2VjF30gGOAUFVX3lxTFBDcUFqZFNYRVY0UTJyMTZSX2FzamZLQ2V0Y2JWLTdyaFhZc25QU3RxbG94YTNJbE80REpNYm1XejA2YUVtWTFEdjZKRHhpVi1Db3pDU21sTUNlcmx6bEtIZVk1NDlpTWdaRlpaYUFVMVN0LUowbnY1VTdPQl91VG1vWC0yMmgySlRUcE9OQWc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Primero fueron los aviones y Microsoft... y ahora ‘problema técnico’ paraliza a bancos en EU",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWUxkZFBRNnEwRHp4cmdiMUlJbmZ3bHlsd19ySlVGYTZVXzNqM2FxLWF4cW82dHpSRWxnaUdzdzVNWkFuUTlvcl9fTTUxX0NueEpxQW13Zi0zdE53YUxYeW5CZUNkTXNFWkJoOE5jeHFrNGhQYVFETWFZZ3Q5S3Q1dHIyVTR4UUlKU1BvcHdKSjZaeDM1WmZsaUluX21zaGpSMVBielNqb25QUUx1Y0N5U2x0dGI?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: China recibe a los líderes mundiales en Shenzhen, \"la ciudad de los sueños\": esto es lo que no verán",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPVFVnR3NTTUhHLXZXS2ZrM3NYc0c5b0Y2dXNvWmp5cV9pcTBvS1dvOUQwdmRUaTJTN21leFcxZVpIaUdyanU3V3BpM2xxWk96c1lTcFpfdmFIX1lY0gFiQVVfeXFMT2VWZU1hYTJoTXcxTGdMSW9TRXFPXzNYT3F2TW5OZzFaOVJxM094WGtJbW9SM1dCTUhUUkZyOWYtU0lvajBiS2gzdFI4Ty15cXFiNkkwNGc0b1IzTlhvMVZrVFE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: De la sierra norte de Puebla a una bodega de Sinaloa, las granjas de criptomonedas se expanden a manos del narco",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeEJlb25kV1U1Tk1fU09xaElPLXJnZFBEb2kwNUNTak1CcVpCVW1CV01PUUVtR0JvRkV2Rm5FX0YyMWNDZnZBdHBpMDlsTERZMWVDZmNwWlEyYWVOWGFRb2tKRXNkZ0ZGemphLXFyVWlBXzllUWZ2ZVM5UGJReHJBRXNpX2FfU1pwNE5wT0FZMEd4Z0V4R20tTm13R2NQQUtyYnlIMmhPSm1vN1laQU9INmtQVl9jMk53bF9zT3UyXzVGMmVoeDMyLTVlYVVPbXR3ZTJGXzBnQnc0QWY2UG1SaTFBWXAxSUw2NEtUX2lRUU50VHFO?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: Hackean 178 sitios web importantes para robar criptomonedas",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONkc2Nm5FN3BlNnJHNWlJY0RjMVhhVDZUenNZUGt5TDJaVzhDM0dnRm00R1hka056aUZZX3ZNNERRSVlZeGFhN0ZmZDFaM3lpaUxheVlKUGhXN2tWZUFEeklYOE00RnNGV0NGclpZSkNrVV9ocXlqYkVaUzhQYjV0S1RUWHE2WWZMX3JJMk5TUjhINkRCU3R3bA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Hay riesgo de una crisis financiera por Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ2lvdFFJZHN6TWh1aW4taXdrejV0QllFcUo0eFFVaHJ6cTktQ0ppbEU5NklXc3hGRUJYRTV4djhzdXQtbGxZRVdfR1BSTGtpTUtfdVJlUlhaMUFfdHVmSW10SWVFXzdEbk5sdG9NUWpDNVkxWjJ2dFlqT3lKU3I0eWRjYVFoT1p5UzRsRmZ0V2N5REJ1Zk5kQVc2VVo1S1BfZ1ZUWmE3MWRSUmhnVUZfdUl5UlR4Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Vanguardia: ¿Habrá un apagón mundial este 17 de noviembre? Le explicamos de dónde viene el rumor",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPXzFWVVRQQ1Y2ODczS1k5cy1OTWJzUC1vUmJMR01UQzZQN080Wnp4TlU3RlhuLWFwbG1KX2lUOV9faUZXdDZzTmlreFB5MXlwck1jMENKMGFVdnlHU0JFVi1BNnk3MUcxRjljQjhDVWNZdXA2LW0zQXB2ZFpLTUE0RTRCMWlfai0tNkt5WTF1SmFuZzZGVTlMcU5TeGg0MDZfbFFERld0WmtVTzNHbFpFLXhkcTQyeklqMlRfM195QdIBxAFBVV95cUxPd2kxVXkzSUVQR1h2VnN1LWxPQUhITDJ5VkxoOGRNU0VycnZ5YTRpN0NpMVg5SnEtcEtmeG9aOUNhc3hSaWQ1NUIxVWJPSGpDSVFXUktzWEFkeGFKYjVSSnZKU0ROUzJqaF9ESWtHb3hWM0xNZFlGUklQTUVOa1l6MnRIODZ6alpONVZLaDg5SHlsX1k4VHQxQ1E2NE1kS1Q4OHJHM3FuaGhsM1VMUE55ZzBqa1lZVlhxbG10V0g3RkVTcUVL?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=UO6VazLXgVA"
+  },
+  {
     "id": 1794938407193,
     "fecha": "2026-11-17",
     "categoria": "Farándula",
