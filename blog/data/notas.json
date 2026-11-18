@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795028410984,
+    "fecha": "2026-11-18",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "GTA 6: 99 en Metacritic y la jornada de 40 horas que México no dictamina",
+    "descripcion": "GTA 6 alcanza 99 puntos en Metacritic y supera el récord de Ocarina of Time, mientras en México la reforma de 40 horas sigue sin dictamen y Japón ya tiene empresas para renunciar por trabajadores.",
+    "narracion": "La industria de los videojuegos vive un hito crítico con GTA 6, el título de Rockstar Games que, según las primeras reseñas recopiladas por Metacritic, alcanza un promedio de 99 puntos con más de 150 análisis publicados. Este resultado lo coloca por encima de The Legend of Zelda: Ocarina of Time, que ostentaba el trono desde 1998. El dato no es menor: se trata de un lanzamiento con un presupuesto estimado superior a los 2,000 millones de dólares, una cifra que evidencia la escala industrial y financiera que ha alcanzado el desarrollo de software de entretenimiento. Take-Two Interactive, matriz de Rockstar, ha mostrado volatilidad al alza en sus acciones, y analistas proyectan ventas superiores a los 25 millones de copias en su primera semana. En México, la industria de los videojuegos genera más de 2,500 millones de dólares anuales y emplea a miles de desarrolladores, según datos del sector. Sin embargo, este dinamismo económico contrasta con el estancamiento de la discusión laboral. La iniciativa para reducir la jornada a 40 horas semanales continúa sin dictamen en el Congreso, pese a que estudios de la UNAM señalan que el exceso de trabajo afecta al 40% de los empleados formales. El vínculo entre ambos fenómenos es verificable: la producción de un título de esta magnitud requiere equipos de desarrollo sometidos a jornadas intensivas, y la ausencia de un marco laboral actualizado en México limita la capacidad del país para atraraer inversión en estudios de alto nivel. Japón, por su parte, ya enfrenta un fenómeno extremo: empresas que renuncian por los trabajadores ante jornadas excesivas, un síntoma de la crisis global del modelo laboral tecnológico. La causa y efecto es clara: mientras el capital fluye hacia la creación de productos digitales de escala global, la regulación laboral mexicana permanece anclada en esquemas del siglo pasado. La consecuencia para la soberanía digital nacional es directa: sin condiciones laborales competitivas, el talento mexicano migra o se precariza, y el país pierde la oportunidad de consolidar una industria propia de desarrollo de software. El contraste no es retórico: GTA 6 rompe récords de crítica con un modelo de producción que exige miles de horas de trabajo especializado, y México sigue esperando una reforma que reconozca esa realidad. La jornada de 40 horas no es un tema aislado; es la infraestructura laboral que determina si el país puede participar del negocio global del entretenimiento digital o quedarse como mercado consumidor. La volatilidad de Take-Two y las proyecciones de ventas son indicadores de un mercado que no espera. La pregunta no es si la reforma llegará, sino cuánto talento se habrá perdido antes de que el Congreso decida dictaminarla.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Buen Fin 2026: los nuevos audífonos Sonos Ace Ultra ya son más baratos en Amazon México",
+        "url": "https://www.xataka.com.mx/seleccion/buen-fin-2026-nuevos-audifonos-sonos-ace-ultra-baratos-amazon-mexico",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Últimas horas del Buen Fin 2026: el grandioso Motorola Edge 70 Pro ya tiene precio de remate en Mercado Libre",
+        "url": "https://www.xataka.com.mx/seleccion/ultimas-horas-buen-fin-2026-grandioso-motorola-edge-70-pro-tiene-precio-remate-mercado-libre",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "WIRED en Español: Buen Fin 2026: 10 smart TV desde 1,999 pesos y descuentos de hasta 57%",
+        "url": "https://es.wired.com/articulos/buen-fin-2026-10-smart-tv-desde-1999-pesos-y-descuentos-de-hasta-57",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Los expertos dictan sentencia sobre GTA 6",
+        "url": "https://www.xataka.com.mx/videojuegos/expertos-dictan-sentencia-gta-6",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tiendas 3B vende cada vez más marcas propias, pero Herdez no quiere competir con precios bajos: tiene otra estrategia",
+        "url": "https://www.xataka.com.mx/empresas-y-economia/tiendas-3b-vende-cada-vez-marcas-propias-herdez-no-quiere-competir-precios-bajos-tiene-otra-estrategia",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Amazon tiene a mitad de precio los audífonos con sonido Hi-Res e increíble cancelación de ruido: Soundcore Anker P31i",
+        "url": "https://www.xataka.com.mx/seleccion/amazon-tiene-a-mitad-precio-audifonos-sonido-hi-res-e-increible-cancelacion-ruido-soundcore-anker-p31i",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: En Japón hay tantos trabajadores que no pueden renunciar a sus empleos que ya existen empresas que lo hacen por ellos",
+        "url": "https://www.xataka.com.mx/otros-1/japon-hay-trabajadores-que-no-pueden-renunciar-a-sus-empleos-que-existen-empresas-que-hacen-ellos-1",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: GTA 6 rompe récords con calificaciones casi perfectas. El trono al mejor de la historia puede cambiar después de una leyenda de 1998",
+        "url": "https://www.xataka.com.mx/videojuegos/gta-6-rompe-records-calificaciones-casi-perfectas-trono-al-mejor-historia-puede-cambiar-despues-leyenda-1998",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Amazon tiene por primera vez en oferta la edición completa de uno de los juegos más hermosos de PS5: Ghost of Yotei",
+        "url": "https://www.xataka.com.mx/seleccion/amazon-tiene-primera-vez-oferta-edicion-completa-uno-juegos-hermosos-ps5-ghost-of-yotei",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Millones confiaron su dinero a un banco digital que terminó quebrando. En México existe una protección para evitar perder tus ahorros",
+        "url": "https://www.xataka.com.mx/banca-digital/millones-confiaron-su-dinero-a-banco-digital-que-termino-quebrando-mexico-existe-proteccion-para-evitar-perder-tus-ahorros",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: El Panel Edge de Samsung no tiene por qué verse igual que siempre: así puedes personalizarlo",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/panel-edge-samsung-no-tiene-que-verse-igual-que-siempre-asi-puedes-personalizarlo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Los mexicanos cambian menos de compañía celular y eso está modificando la competencia entre Telcel, Bait y AT&T",
+        "url": "https://www.xataka.com.mx/telecomunicaciones/mexicanos-cambian-compania-celular-eso-esta-modificando-competencia-telcel-bait-at-t",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Hoy en HBO Max: la película de ciencia ficción con viajes en el tiempo que ya es top 1; tiene 86% de aprobación",
+        "url": "https://www.xataka.com.mx/cine-y-tv/hoy-hbo-max-pelicula-ciencia-ficcion-viajes-tiempo-que-top-1-tiene-86-aprobacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: CDMX quiere que las familias produzcan hasta 105 huevos por semana: entregará 15 gallinas para conseguirlo",
+        "url": "https://www.xataka.com.mx/otros-1/cdmx-quiere-que-familias-produzcan-105-huevos-semana-entregara-15-gallinas-para-conseguirlo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "UnoTV: Hackers atacan 200 sitios web en EU: BBC, IKEA y Air France entre los afectados",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd1BhQnlKZVpvWnlFNUY5WHhTR1p2cVpaVERDNlF1cFp3RzRKNlNibU4tam5IU2Uwa3FweGRGQlBWeWQwVDBYMHE1b3VMVU1NN0xaQ05hd1NqNXJtcjBWM0swb3Nrd1Vxb3hzdmVDRGRVMXk0aTBINU00Zm1GcmxxSHd1dVpjY1FmOUd0Y1NvZGVDTmRIdkdoUW5QTmNsMTEwOGlnbVRhMlpmSWF6bGcxNC11ZFRTVUpzMmhBb0Vn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Xi recibe a Trump y Putin en Shenzhen, \"la ciudad de los sueños\" de China: esto es lo que no verán",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPVFVnR3NTTUhHLXZXS2ZrM3NYc0c5b0Y2dXNvWmp5cV9pcTBvS1dvOUQwdmRUaTJTN21leFcxZVpIaUdyanU3V3BpM2xxWk96c1lTcFpfdmFIX1lY0gFiQVVfeXFMT2VWZU1hYTJoTXcxTGdMSW9TRXFPXzNYT3F2TW5OZzFaOVJxM094WGtJbW9SM1dCTUhUUkZyOWYtU0lvajBiS2gzdFI4Ty15cXFiNkkwNGc0b1IzTlhvMVZrVFE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Excélsior: Entre osos pandas y ciberataques",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQXhfS0RYd3loWVNRYU1tWkxsVFpzbjFyOUFtTC05U2E0clZhdW9uXzJiX3NkWDRjclVTWk5PY3ozM3kyUlpud2hCN3pPZk1GWjFnaEpOY0tmN3BlVzJUYVRsNC1Ha3lBN2QxNGpFSVd3QncyR1dYR1ZzVmlhWVU1UVlWZTFCRzdYM0UtTGp1dkVJd9IBlwFBVV95cUxNQzlnUjdMZ2Fvb1VOXzhSUHZULUdIQkkxT3d4X29ndnhMY2J0bWVOcG1nNVpSZHNsc0IzUlFfbFUwcGhBZVhTTlhuc1JMa2ppNlpCQ05jRTJMOFJrelZYTkpUWjRMOHNQT1VKUVF3TUM1XzREX1NwcFQxdXhOZ2NCd2UxOG5RVmxFVnA4WFBCMjZ1NkFSdzY0?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Encuentran una falla crítica en Java, el lenguaje de programación del que dependen el 90% de las grandes compañías del mundo",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xNklicVRTM3owYmdrY05iTFcybXFoUnpkWEJnb2phLXlNQV9ORjNfcDV0SzB1ZGVua2RKZ2RaOVAxR1dMdFFIMEJGQzRXeC1BU0ItcEI3bUlUcVZZ0gFiQVVfeXFMTWhLNlhIa19VTVgwX0tmZWduUDVKRU43YzF4Vkp5M2ZmeDY1amZkU2NBMmQ5RnRxeU0wamp4T2stSklEb1NMbGtJX0FRS09TNlVoUnRMZlB1YU52NUk4SDhqQWc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Tiempo La Noticia Digital: Sufre Apple 'apagones' en Store, pagos, iCloud y más",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaVhoN2Q2T3dwSTBEQ2VLS3hXdGwxWjhCTFFTcHdROVJUd0J2WUU4UC1FWUFHTDY3clVNNnBHd1Q0WVlQajNvRzI0NnZPWnVIYWhTZmFENnRaaXhrd2RiOG9rWEdxSjhPdWtOYnl6a2NTcFdwbTNEVXh5WkstZzlLSElvYVRBRnp5dkhwWnF5bE5RbjlYbG1PWTYtUkwyUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Modelos de IA de Anthropic y OpenAI identifican a civiles como objetivos militares en pruebas",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOEZfbTZrbG8xbVhtLWxTbXhraXIxWGpaMWZfNmh1clVVSnI3c19CTXI3dk9GTEVHajNMeHRTbDNTWXVmQmtpd0x3WGhnb1hHODR5X2l3YXY5emdGanZoNF91RGFveHh5OHQxWHlaSDJGN1ZrcmFRWlpzZmNHUjUwTUJxdy1JOFVxOHRtS2k4V3ZQS3AxS0t4MFVJSmZHd2xQSVJ3UGFnUDdLbFpvY09UTnNIU3VRbHp1Q0toVExBcEJOczk0Y2dpSHZrcW1zNm15eDVuZnFMNU9QQQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: La Nvidia de Huang: fiestas, menosprecios y 'familia real'",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYm9QS3JxU0RsTU9kcERlUlBPclhoUHJPUldqdFVlbDZPSUtVNWZXSWhJYVlyaVFCQk1TS242UlVyazhxREN1TzFRUjlXYWd1aGExbnhreVhKUEtibU1kblljcVl6MnpwWDM2bTl3c2hQeE4tRlN0QlQ4WGxKMFFBU1hUTVpVR2lyRldfTlp2a0xQZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Acusa despojo en predio de Tesla",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNRGhzbTRfYUdUNkdaQWgtUFRXWVNVT3lNN0lEakM4cmdkbWtROFZtNmFKdy03SW9vUktkZUlidms2NEx4LUgxU1oyNE51REhXNjByWmVkcTVkZEQyS19EekRjdDByN2NwRjh5bzlTVFNCVE50?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=BUB0azlCXk0"
+  },
+  {
     "id": 1795024806769,
     "fecha": "2026-11-18",
     "categoria": "Farándula",
