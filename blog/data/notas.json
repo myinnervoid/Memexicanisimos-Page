@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795024806769,
+    "fecha": "2026-11-18",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Will Smith enfrenta demanda civil por agresión sexual; Adria Arjona suena para Bond",
+    "descripcion": "Bilaal Salaam, excolaborador de Will Smith, presentó una demanda por presunta agresión sexual y abuso de poder en un tribunal de Estados Unidos. En paralelo, Adria Arjona figura entre las favoritas para interpretar a la nueva Chica Bond, según Variety.",
+    "narracion": "La industria del entretenimiento vuelve a colocar a Will Smith en el centro del escrutinio legal. Bilaal Salaam, excolaborador y amigo cercano del actor, presentó una demanda civil en un tribunal de Estados Unidos en la que alega conducta sexual no consentida y abuso de poder. La acción legal, que busca una compensación económica no especificada, reactiva las controversias que rodean a Smith desde la bofetada a Chris Rock en los Óscar de 2022. El caso podría derivar en un juicio civil con alto impacto mediático, aunque hasta ahora no se ha fijado una fecha para la audiencia preliminar. La demanda se suma a un historial de tensiones públicas que han afectado la percepción comercial del actor, quien en los últimos años ha visto disminuir sus contratos publicitarios y proyectos cinematográficos de gran presupuesto.\n\nEn paralelo, la franquicia James Bond avanza en la definición de su próximo fichaje femenino. La revista Variety incluyó a Adria Arjona, hija del cantante Ricardo Arjona, en una lista de 12 actrices favoritas para interpretar a la nueva Chica Bond. La actriz guatemalteca, de 32 años, ha participado en producciones como Morbius y Andor, y su nombre cobra fuerza tras el anuncio de Robert Pattinson como el nuevo 007. La franquicia Bond, valuada en más de 7 mil millones de dólares, define así su próximo fichaje femenino, un movimiento que busca renovar la saga tras la salida de Daniel Craig. La elección de la Chica Bond no es un detalle menor: históricamente, este personaje ha sido objeto de debate por su representación de género y su impacto en la taquilla global. La posible incorporación de Arjona, con raíces latinoamericanas, podría ampliar la base de audiencia en mercados hispanohablantes, incluido México, donde la franquicia tiene una presencia consolidada.\n\nEn el ámbito legal, el bajista de Blink-182, Mark Hoppus, ganó una demanda contra su vecino tras tres años de litigio por la poda de árboles que afectaban su propiedad en California. El fallo ordena al vecino asumir los costos de la tala, estimados en 20 mil dólares. Este caso, aunque de menor perfil, ilustra los conflictos de propiedad que enfrentan las figuras públicas y las consecuencias económicas de los litigios vecinales.\n\nPara la industria cultural mexicana, estos acontecimientos subrayan la interconexión de los mercados: las decisiones legales y de casting en Hollywood repercuten en la programación de televisión, las plataformas de streaming y los acuerdos de distribución en México. La demanda contra Smith podría afectar la exhibición de sus próximos proyectos en cines nacionales, mientras que la posible elección de Arjona para Bond generaría expectativas en la audiencia local y abriría oportunidades para actores latinos en franquicias globales.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: De Sean Connery a Daniel Craig, los agentes 007 que han cautivado en el cine",
+        "url": "https://www.eluniversal.com.mx/espectaculos/de-sean-connery-a-daniel-craig-los-agentes-007-que-han-cautivado-en-el-cine/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Horacio Palencia y Banda MS inmortalizan sus nombres en Mazatlán, reciben estrellas",
+        "url": "https://www.eluniversal.com.mx/espectaculos/horacio-palencia-y-banda-ms-inmortalizan-sus-nombres-en-mazatlan-reciben-estrellas/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Mark Hoppus, de Blink-182, gana demanda contra su vecino; busca que pode sus árboles",
+        "url": "https://www.eluniversal.com.mx/espectaculos/mark-hoppus-de-blink-182-gana-demanda-contra-su-vecino-busca-que-pode-sus-arboles/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: De Sean Connery a Robert Pattinson: 7 claves de la historia de James Bond",
+        "url": "https://www.quien.com/espectaculos/2026/11/17/de-sean-connery-a-robert-pattinson-7-claves-de-la-historia-de-james-bond",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Diseccionando la cumbre de la APEC en China",
+        "url": "https://lachispa.mx/diseccionando-la-cumbre-de-la-apec-en-china/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Adria Arjona, hija de Ricardo Arjona, entre las favoritas para convertirse en la nueva Chica Bond",
+        "url": "https://lachispa.mx/adria-arjona-hija-de-ricardo-arjona-entre-las-favoritas-para-convertirse-en-la-nueva-chica-bond/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Will Smith enfrenta demanda por presunta agresión sexual",
+        "url": "https://lachispa.mx/will-smith-enfrenta-demanda-por-presunta-agresion-sexual/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Mauricio Ochmann celebra su cumpleaños en familia y junto a Aislinn Derbez; la actriz le dedica mensaje de amor",
+        "url": "https://www.eluniversal.com.mx/espectaculos/mauricio-ochmann-celebra-su-cumpleanos-en-familia-y-junto-a-aislinn-derbez-la-actriz-le-dedica-mensaje-de-amor/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Cinthia Aparicio comparte primeras imágenes junto a su nuevo galán: \"nos estamos dando el tiempo de enamorarnos\", dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/cinthia-aparicio-comparte-primeras-imagenes-junto-a-su-nuevo-galan-nos-estamos-dando-el-tiempo-de-enamorarnos-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: La música de James Bond tiene historia: subastarán el bajo utilizado en la primera película de 007, protagonizada por Sean Connery",
+        "url": "https://www.eluniversal.com.mx/espectaculos/la-musica-de-james-bond-tiene-historia-subastaran-el-bajo-utilizado-en-la-primera-pelicula-de-007-protagonizada-por-sean-connery/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: José Eduardo Derbez y Mariana BO, ¿nuevo romance?; la DJ revela que ella y el actor están saliendo y disfrutando",
+        "url": "https://www.eluniversal.com.mx/espectaculos/jose-eduardo-derbez-y-mariana-bo-nuevo-romance-la-dj-revela-que-ella-y-el-actor-estan-saliendo-y-disfrutando/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ¡De Thalía a Paulina Rubio! Karol G despide su Tropitour en México con una última invitada de lujo",
+        "url": "https://www.eluniversal.com.mx/espectaculos/de-thalia-a-paulina-rubio-karol-g-despide-su-tropitour-en-mexico-con-una-ultima-invitada-de-lujo/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Jeff Bezos revela cómo eligieron a Robert Pattinson como James Bond; admite que tuvo dudas por su fama",
+        "url": "https://www.eluniversal.com.mx/espectaculos/jeff-bezos-revela-como-eligieron-a-robert-pattinson-como-james-bond-admite-que-tuvo-dudas-por-su-fama/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Anne Hathaway es vista tras el nacimiento de su tercer hijo; la actriz y Adam Shulman amplían la familia",
+        "url": "https://www.eluniversal.com.mx/espectaculos/anne-hathaway-es-vista-tras-el-nacimiento-de-su-tercer-hijo-la-actriz-y-adam-shulman-amplian-la-familia/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Anne Hathaway se convirtió en madre por tercera vez",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPclhVWHR4bjZVSkYxQVdJUDlXTEJlNVZKRnRWTEhGVWZZT2FkUDcza3VWMk9DUy1yWHQzQnBDb1lnNlRzVmRZVG9Mc0ZUdFNldXhGcFJ1aE00b1lZTl9tUER6X05EbFpxRGgwMzU1bVdkZl96Ui10YTc5eURwaFA5R3NGVWk5U0FmcExKblZfT2dtMFk1RUQ1TWQxb1EyQjN5eGVYMnRR0gHAAUFVX3lxTE5LT0tOMDkxMzZpS19uR2o5Y1o0VE4xb1pBcUUzWWJVZGVBWDZfVVFqVGhSWUF3MHRKaTl6NjlTSnJkcjVZbGRYeXJFcmRuT3FZbXBYYnpJajl3SVZqbG40Q0RGTklIYVBxSVVHQW5OOVh1ZUJMaVc5TXdrUlItWkxwcGdjMFI3WGw2Wlk0eXdrajRNZnl6clJONGlqdnBmSFB0OTMwamNpVTAzV2gwdjJmNWRQV1BBQ2RBS202T0FkSQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: ¿Quién será la próxima chica Bond? Hija de Ricardo Arjona, entre las favoritas",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVm5PV2hpLUZlVTljb0s1eVNIb2JPNV9JbFRHRjhHRG0yNDB4X1FlVEdESUF5emtRd2VyQmxOSHl0MGVqUWNPNEhpbXFPZkVoV3ZxQ2FmMEhjWFdIOWd4dmpxQnVlWDZWS1FBcnVqUjgxY3VRSERPRWlZQ2Z0bTZDMmZTSzE1MXdnSXV6aGU0ckdqazNnN3hKcVZjaFk2UHRJdmZHd0lsa1VEc0lvQVc2SVFheXo?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Hay un Frida Kahlo que no se vende (todavía): México paraliza una subasta en Christie’s",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWlU2Mi1pSEItd3F1d3dwWkttV3oxaGViN3gwUUtmWUtqNGZob2pKNVhrSkU1dE9MWk1mM0dJcTlTbE0wVl9vRkZ6TnJOZlVBS2M2TDJaNnJaVzgzYWJ0U0lOQzhSMGVtMFFsZGhXbEI3LWpBeWhMYXpkcEFWZ2pQS3dQVllieTAzdm9Ud3haaEttSXZWNmFqVVZwOWVpd19ISGl6S0xUdy0zVldNVWtNbzdwZmtUUWt5RUlNWGQ5aHJ5TDA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: ¿José Eduardo Derbez estrena nuevo romance?: circulan fotos del actor abrazando a famosa DJ",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRkl2NmFxWE42SlFoTlphd050S0xMaXFzR1VSbFpEdnFVZXB3ck9sNkVwcUlSTmZ0ckRxWGt5ejI2UXBpZlo0VG9ic1RXajc5U0lsNkNZNFEwY05BUmlMUEFQb3FiZE1mbVF1ZU5qN3NJTGNZdVpwaHBNYUI3ZTh1d1dacnZSdU1jZDJPTFQ2TjAzaWFNQmc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: REUNIÓN EN LA CUMBRE-El Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQWRTZ3h3OU55Qjg3U200U09jR2VWcFhtWkR3bjVfR2FYVk84a3B2R3lOS1pMMFhDaEpfanl1SkRSTjhwcnJGc0hfbVNTZUIwOEI4ZHpFcE9JbGFKVzh4WHh4Yzk3SFdCVkhBdTY4b18wcEp3b3lRR25ndXpnN2RsV2RsLVRBQ2QwN1lJOQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Espectáculos",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWM3RLU2xxdFMwSE4wQlJhOEZBYWM0N2RWN0V1N1ZzdGxZRC1yZFZBM19Eemd5U2dXZ2JyMXlBbmNOVlBLcWNtV1NZc1NYbVdYU3A3aEdXd1VDdm5ETUY4?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Vanity Fair España: Kate Middleton en su versión Bollywood: un vestido tradicional y las esmeraldas de Isabel II para la gala en India",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV3RBTTNqVTVFdWdTTzd2M19zMjVvVzlIbkMxd19iVkxPa3Z2R1hxY0NOSXY3OFFwQ2VZSnhGM2pxMjdnMHBNUzUxemRER3R6OEFKRkN5bEdXUExfTXYyekxEWm9PRDlETGVtbHJqLTlhRFFwaVpxYTFyNW1uMzZXR1A1WE5mcExadnlMYm9OdGlUakRW?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Aislinn Derbez celebra el cumpleaños de Mauricio Ochmann con un posado en familia y un tierno mensaje",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQlVVYWlaLWpNcDgwVzBYLXlyVlRkVGt6VjhKMWhPUFFhWDcwdjJDdW1rNXp1VkNDVngzTzlPUXNFNkNXODhlMTZkNUZZcTRzM096ZjJReU16NWk2TGFOSXNRVnVUQ3NnTU5HUnZ6Q3Q1LTJWTDdNWmstNVBjOTlNLUdjRXEtUGRrTTJrQUtlc3JPZU84WENjb0ZMZGpRZ0R6RXVQOFJ0eEFWTF94cjBTd3czMA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=jPrlW1lLQl8"
+  },
+  {
     "id": 1794963606193,
     "fecha": "2026-11-17",
     "categoria": "Noticias México",
