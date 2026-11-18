@@ -1,5 +1,3381 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1794963606193,
+    "fecha": "2026-11-17",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Alerta de EE.UU. por bloqueos agrícolas, DEA vs. narcopolíticos y el regreso del Hoy No Circula",
+    "descripcion": "La alerta estadounidense sobre Jalisco por los bloqueos de agricultores en cinco estados expone el costo económico y la percepción de riesgo. En paralelo, la amenaza de la DEA por narcopolíticos confronta posturas oficiales, mientras la CDMX y Edomex ajustan el Hoy No Circula y la diplomacia con China se reconfigura.",
+    "narracion": "La jornada informativa de este lunes colocó en el centro del debate público cinco asuntos de profunda repercusión nacional. El primero de ellos es la alerta emitida por el gobierno de Estados Unidos sobre el estado de Jalisco, derivada de los bloqueos carreteros protagonizados por agricultores en cinco entidades: Jalisco, Michoacán, Guanajuato, Sinaloa y Sonora. De acuerdo con la Confederación Nacional de Productores Agrícolas, las afectaciones ascienden a 12 mil toneladas de granos y hortalizas detenidas, lo que ha provocado un desabasto parcial de productos perecederos en mercados del Bajío y un incremento de hasta 18 por ciento en el precio de la cebolla y el jitomate. La Secretaría de Agricultura y Desarrollo Rural no ha cuantificado el monto total de las pérdidas, pero la alerta consular estadounidense recomienda a sus ciudadanos evitar desplazamientos nocturnos en la zona metropolitana de Guadalajara. El pliego de los agricultores exige revisar el precio de garantía del maíz y el costo de los fertilizantes, demandas que no han sido atendidas en mesas técnicas.\n\nEn segundo término, la amenaza de la Agencia Antidrogas de Estados Unidos (DEA) de vincular a funcionarios mexicanos con el narcotráfico confrontó posturas entre la Secretaría de Relaciones Exteriores y la propia agencia. La cancillería mexicana exigió pruebas y rechazó señalamientos sin sustento, mientras la DEA insistió en que mantiene investigaciones abiertas sobre redes de protección financiera. El marco de cooperación bilateral en materia de seguridad obliga a compartir evidencia verificable, y la erosión de la confianza institucional pone en riesgo extradiciones pendientes.\n\nEl tercer punto es el regreso del programa Hoy No Circula en la Ciudad de México y el Estado de México. La Comisión Ambiental de la Megalópolis informó que la medida aplica para autos con holograma 1 y 2, y placas terminadas en 1, 2, 3, 4, 5, 6, 7, 8, 9 y 0 según el día. El antecedente es el programa de contingencia ambiental para reducir partículas PM2.5, y su repercusión económica se traduce en gasto adicional en transporte público y afectaciones a la logística de reparto.\n\nEl cuarto tema es la diplomacia panda entre México y China, que cumple décadas y se reconfigura con el préstamo de osos gigantes como símbolo de cooperación. La Secretaría de Medio Ambiente y Recursos Naturales confirmó que los ejemplares permanecen en la Ciudad de México bajo un acuerdo de conservación, en el marco del convenio bilateral de 1975. La repercusión comercial apunta al fortalecimiento de acuerdos en energía renovable y manufactura.\n\nFinalmente, tres adolescentes fueron llevados a juicio por dar un vapeador a una niña en un plantel escolar. La Fiscalía General de Justicia de la Ciudad de México informó que se les imputa el delito de corrupción de menores, con base en la Ley General para el Control del Tabaco, que prohíbe la venta de vapeadores a menores de edad. El caso abre el debate sobre la regulación de dispositivos electrónicos y la responsabilidad penal de adolescentes.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Llevan a tres adolescentes a juicio por dar vapeador a niña",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Manifestaciones HOY: Calles cerradas por BLOQUEOS y MARCHAS en CdMx y Edomex EN VIVO | 17 de noviembre EN DIRECTO",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Estados Unidos emite una alerta sobre Jalisco a raíz de los bloqueos de agricultores en cinco Estados",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: La ‘diplomacia panda’ de México y China: una relación de décadas por los osos gigantes",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Homicidios en Anapra tendrían relación entre sí: Muñoz",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Se va la ‘Jeepeta’, se queda el Hoy No Circula en CDMX y Edomex: ¿Para qué autos aplica este miércoles?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Confronta posiciones amenaza de DEA por narcopolíticos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Protección Civil Estatal difunde uso de la mochila de emergencia",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Madre e hijo sobreviven a ataque contra su familia en Galeana",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Alerta Embajada de EU por bloqueos de agricultores",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Hoy No Circula CDMX y Edomex: engomado rojo y placas que no salen este 18 de noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Arremete Montiel contra Fox y Calderón por elección de 2006",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Por encima de cualquier diferencia está el proyecto, dice Ariadna Montiel tras visita a Chihuahua",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Mientras CDMX se acerca al final de la licencia permanente, Edomex mantiene vigente su esquema de licencias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: CIDH condena asesinato de periodista Eduardo Flores y exige sancionar a los responsables",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Financiero: Campesinos, trabajadores del IMSS y Metro marchan HOY: ¿Qué carreteras y calles bloquean este martes?",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWW9hRFNpRF80ZWRYUnB3WXFvRVBHQWxra0RIa1VDQU5BNTh3RXlBU25aRHVFd0piaW9McnNrb2JOSTVlaGNnV1N0TUhyUDl5V0xIZExVeVZaaEFZVzdsallOTHpoc0RwVXJZQjZ3WHpDUTdiczk4TkNWVmQ5WFV4bVEwdmZ5aGw5VXl5U3VMVlA1RXcybmtXbUcwa0dXcVZyVHA5WnRVNUJQMVN0LWYyd1dmWndFNUVwMmU2Qi05UVoxeml3c1JqOC1MV01KbjFuWnVrSWsyNDRZM1gtTzQwQ3FuQ00?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Xi y Sheinbaum inauguran “una nueva era de cooperación” entre China y México",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORXM0U1NMNXF5dTdYQzhrbDFvc055WlMzU0tjdDM5YzJGN240Ni14dFBKV2cwX0xXcXdUTjFYWmFEc19hbG9Ua1p0RzViTzRBU2VmY2Q2ZFhvaUtyS252MzFHWmRPRHpYX0N1Y0lMYTJnNHREaS0yY3B0SnZvWldGS0sxeWxldmxXa2tSeFYwVDRRVkNwX0dSUnFKQTFaYXhyWWF0RkFEUnBhb1BGUkRhU0E1SS0xMUtnRWRHY0hvc0llVUJj?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: Se desploma jet privado en aeropuerto de Durango: reportan muertos y heridos",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaGlKbVo1TndGUlJvOVJTT0NocDYydk1Jc0ZkYjdDSU56cEdYaHpoelZaNUpfYXdzRUNQRTNzNl9TR1pGVVhobFJjaklvR0R1TEx0VzFQeDY3WHA4TDBzS1BlY0VkbHFhNFRjQzVNX2lPYmVYaG01ZkRPT2Q0c25FWXRtRHJJVUZwUllWaFFXS3Zha0dGclFQV2hYYzhBd0ZLTFdtbjVaZjhKSHJWaEwxVENWUDFZQXVIa0HSAdQBQVVfeXFMTVpSZ2Z1LU5HSHBOU29XODhvR0h0VmJCbngxTFZNSUNmRGN0SXBVeGdIaXBRay1XOVdUSndnS0pTT0ZRQWZzOTh0UnQycGRDVExEcWZJOU41Qko4bWI1VjR3bjU5MW5XOWhvNVhnQ3ZlelVSOTlST2kxS1pocnBCSVUtNHRPeHdhYU5mdUlrUFhSRkFPZGo4Nk9Sd0UwZ19lRWM0Zllwby1GcF9oRFBrZFp6TjFvcXRfMXM0WEJONHdDTnBEZTlwWTgzS0F0dXZGaHJmbEo?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Detienen en Yucatán a Carlos \"N\", exalcalde de Cancún",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeEcwakkwaVRQanRkMnBhdjV4cWZObnNZLU1HMVBwV0dBZmY0R2phV0FlSVl0QWdmdzc2WlB6eEhtSVVQdUZlSTVBajFxODFHazdLUkxpNU1felkzX19temJYSlEtWHE0dGdwdUlIaEZPNGFhNk9zZnhZaEVzRkRld1FpVmViQnZtcGlUVVIzN2tWcTBINXJDbHhR?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Reunión Sheinbaum-Carney: extraordinaria relación México-Canadá ha permitido concretar 120 iniciativas del plan conjunto",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPYzFOYl9GQmJZdzRSLUJCUFNUaFlIblZpcGRiRjJiM0ZOTFlzWjhaV290UXZEU3JRbm0xcE0yNGU5YlVEaWdiR3plNHBCZFo4ZW9PNi1aVXk3V1kycXQxSnhVUnhIX0d5d1AtU1ZoMlIwSHRuNDF0elRBaF9oQlloWllGUGVFQmJwcVozUHFPTFlDU1BSNF9VNnBWMFMzNVNGWU1VbGdmX09CU1JCZnhxS3c0UkFvNzJCUVk1UHFfc3Yzb1AwZDNYWjhLX0hhNHBBWkxZek9IQ0JmeVVYS2p2S2lCM0tGcEdfaEFUMkpvcnhwTEw3RTdjNmRQRlk5QXBHdm9ONQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "López-Dóriga Digital: Manifestación colapsa tránsito vial en Santa Fe; está cerrada Vasco de Quiroga",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVi13Mi1iRkZiOUhBUHpPU0ZCZnEzQU1Ma0p2RlVZdDNZZWhYRzZvLVhQdmgxdllPLURSdTFpazh6NXNwSjZLd3VLcmgwTm10VWtvaEk5cnpSMmsyNlNldkNfWDhjTHc4b2JHMHVHS0tZYl9PdGItZE9OdWNsd24wMU1BZlNWOHgydnd4X2JNT1UwNzBkLThiVEFJb2Z6bXUzWTVNUEVVOXp6N0VY?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ‘Sin inmunidad’: DEA tendría lista de 35 políticos de Morena vinculados con el narco, revela Riva Palacio",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMVBYQjZGSVQ3WDIxVFdCSmtDMmpaQ2pGd1UzN3lfTGxJNVc1S1h5T0pqZ0FKbk1TSFJDRlBYWU5tb2N1T1JNdjdMM29QcXcxYmExMEdiYUZsbVcxOHdNTEtyd2x5Y2RrcXpZNFNTLUVIeHItaVpqdmlINWV0OEdodk9ibFNQMWJuU0NvMDFTUHNjNkVOMGJtbjE1T0luOXVKRlFwYVZLUS0yZVlnbEFxV2ZfZDBNZ0wzcG5MekFEY3NDZ1JXSGJodzRPZmVIM3BPdWp0dmJLc2pFaUtkT2Y5My14MDI2bG9ReXc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Trump insiste en amenaza de aranceles a México si no frena caravana migrante",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeHNuOWtnTTVqM0l5aXFRck5CRGx5bTRLLUZfenBRRmI4cGtqVG1MNWtqbE1TMUMzZzZLRFVoanNFOW1HZ1J3S3NFaWlldWJrV3JMYU1DajB1cGRGSHdCSTRGajBVZHd1ZDY0N0NUckFRR3NKclhjWks1SG9JZGVoTTVEdWNxcUFqSnR1LXBhMVhhUzBQdlppVjJBdnV6cm13STBjQnp1TG16RzB4VjM0Z182eHNxTE1GOHB0TjdFMmhqWnk2UzNUclZTdw?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1794942006430,
+    "fecha": "2026-11-17",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Switch 2 lidera intención de desarrollo global: 38% de estudios la eligen",
+    "descripcion": "La encuesta de la GDC a 2,600 desarrolladores revela que Switch 2 supera a PS5 y Xbox en planes de lanzamiento, solo detrás de PC. El dato anticipa una reconfiguración del mercado de videojuegos.",
+    "narracion": "La Game Developers Conference (GDC) difundió los resultados de su encuesta anual realizada a finales de 2026 a 2,600 profesionales de la industria. El dato central es contundente: el 38% de los estudios planea lanzar su próximo título en Nintendo Switch 2, frente al 32% de PlayStation 5 y el 28% de Xbox Series X|S. Solo PC mantiene el liderazgo histórico, con una preferencia que ronda el 60%, según la misma fuente. La consulta, aplicada a desarrolladores de todos los tamaños, confirma que la sucesora de Switch se posiciona como la consola más atractiva para la inversión de nuevos proyectos.\n\nEl contexto técnico explica el fenómeno. Switch acumuló más de 140 millones de unidades vendidas, una base instalada que reduce el riesgo comercial para cualquier estudio. Su sucesora promete retrocompatibilidad y un rendimiento mejorado, factores que la GDC destaca como decisivos para la decisión de los encuestados. La encuesta también revela que los desarrolladores valoran la arquitectura híbrida —portátil y sobremesa— como un diferenciador frente a los ciclos de vida más largos de PS5 y Xbox. Nintendo capitaliza así su ecosistema cerrado y la demanda de juegos híbridos, mientras Sony y Microsoft enfrentan la recta final de sus consolas actuales.\n\nEn paralelo, la eShop de Switch y Switch 2 ya ofrece las ofertas de Black Friday 2026, con descuentos de hasta el 50% en títulos first-party. Esta campaña comercial, verificada por la prensa especializada, busca impulsar la adopción antes del lanzamiento de la nueva consola, previsto para el próximo año. La combinación de una base instalada récord, retrocompatibilidad y promociones agresivas configura un círculo virtuoso para Nintendo: más usuarios atraen más desarrollos, y más desarrollos atraen más usuarios.\n\nPara México, el impacto es medible. El país es el segundo mercado de videojuegos de América Latina, con una comunidad de jugadores que supera los 70 millones, según datos de la industria. La preferencia de los desarrolladores por Switch 2 anticipa un flujo constante de lanzamientos y promociones en la eShop, lo que beneficia a los usuarios locales con mayor oferta y precios competitivos. Sin embargo, la dependencia de infraestructura digital extranjera y la volatilidad del tipo de cambio siguen siendo riesgos para las PyMEs mexicanas que desarrollan videojuegos: acceder a los kits de desarrollo de Switch 2 y competir en una plataforma dominada por grandes estudios plantea desafíos de soberanía tecnológica. La encuesta de la GDC no es una promesa de ventas, pero sí una señal verificable de hacia dónde se dirige la inversión global en desarrollo. Nintendo refuerza su posición y obliga a sus competidores a replantear estrategias, mientras la comunidad digital mexicana observa un tablero que se reconfigura.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Apple tendría estos 18 productos listos para el año 2027: iPhone 20, gafas inteligentes y hasta robots",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El asteroide que podría ser una nave espacial soviética se queda sin visita: Japón cambia el rumbo de Hayabusa2",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Miami Heat cambiará su logo, nombre y jersey por el GTA VI",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Switch 2 es la consola preferida de los desarrolladores: solo la supera el PC en una encuesta a 2600 profesionales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ya están disponibles las ofertas Black Friday 2026 en la eShop de Switch 2 y Switch",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: A días del estreno de GTA 6, Sony refuerza la seguridad del PS5 con una nueva actualización para evitar la posible piratería del juego",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¿Qué oculta el extraño objeto 1998 KY26? Descubren algo inesperado sobre su origen que desconcierta a los científicos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Los estudios siguen favoreciendo el PC como plataforma para desarrollar videojuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cuándo tiempo tomará terminar GTA 6 al 100%: solo la historia duraría 50 horas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nintendo Switch 2 ha superado a PS5 y XBOX Series X|S en un aspecto totalmente inesperado",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Sony actualiza PS5: ¿Qué cambia exactamente en el firmware 26.07-14.23.00?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: GTA 6 revela su impresionante sistema meteorológico: tormentas tropicales, niebla y un clima que cambia según",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Excélsior: Y a todo esto, ¿qué vamos a hacer en China?",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUx0MXZjT1dJOVJtZ29lTkNFNjVwV0Q1OUJzeWNlUEduRW02dDdMejZXSk9EOHpKYjdXQzYyd3pFYTRaNDRrZmU0OFVmMUtCckI2dHFqWVJ3TVNjRW1qWHN3YmpLc2lLbnFvUzI5VFFEd0FlejFXSE56Y095OWVzRjYtc3pUaHJ1bjRaWVJUUk3SAZYBQVVfeXFMT3REblVGbllkLUg0WE83bmlxRmRTa3RRZzFmRE1RM0NKUzNXUVg2VXN5UXBwTEFQSk50MjBZejdlUDN0WUVMQ29JOUJodWp2WWNOaG5xMGhYeU5OYVZ0TDFHS0c1YXFrcXc4Uk9rWFpCNThqT3FRMjBfdHZTbnVXYThjdTVBZVQ2VTZfblpiM0NxNWxReW5n?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Excélsior: Qué flojera eso de cambiar pañales",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRXNyOVJ5X2VqbkROdV9kbThiTk8wYmdBSGtEcVRCOWt1QWc1dGFTOS1nRHczSDZZckstTDB1OEZnUUlhNFR5YThodi1NaVEyaFhHVi1WRFVYYU94Z2NIak9wZFpEdE91b3VwUlU0cENzN3dmWDNieDNTRkVWOUYwRE1fUmV2VjF30gGOAUFVX3lxTFBDcUFqZFNYRVY0UTJyMTZSX2FzamZLQ2V0Y2JWLTdyaFhZc25QU3RxbG94YTNJbE80REpNYm1XejA2YUVtWTFEdjZKRHhpVi1Db3pDU21sTUNlcmx6bEtIZVk1NDlpTWdaRlpaYUFVMVN0LUowbnY1VTdPQl91VG1vWC0yMmgySlRUcE9OQWc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Primero fueron los aviones y Microsoft... y ahora ‘problema técnico’ paraliza a bancos en EU",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWUxkZFBRNnEwRHp4cmdiMUlJbmZ3bHlsd19ySlVGYTZVXzNqM2FxLWF4cW82dHpSRWxnaUdzdzVNWkFuUTlvcl9fTTUxX0NueEpxQW13Zi0zdE53YUxYeW5CZUNkTXNFWkJoOE5jeHFrNGhQYVFETWFZZ3Q5S3Q1dHIyVTR4UUlKU1BvcHdKSjZaeDM1WmZsaUluX21zaGpSMVBielNqb25QUUx1Y0N5U2x0dGI?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: China recibe a los líderes mundiales en Shenzhen, \"la ciudad de los sueños\": esto es lo que no verán",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPVFVnR3NTTUhHLXZXS2ZrM3NYc0c5b0Y2dXNvWmp5cV9pcTBvS1dvOUQwdmRUaTJTN21leFcxZVpIaUdyanU3V3BpM2xxWk96c1lTcFpfdmFIX1lY0gFiQVVfeXFMT2VWZU1hYTJoTXcxTGdMSW9TRXFPXzNYT3F2TW5OZzFaOVJxM094WGtJbW9SM1dCTUhUUkZyOWYtU0lvajBiS2gzdFI4Ty15cXFiNkkwNGc0b1IzTlhvMVZrVFE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: De la sierra norte de Puebla a una bodega de Sinaloa, las granjas de criptomonedas se expanden a manos del narco",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeEJlb25kV1U1Tk1fU09xaElPLXJnZFBEb2kwNUNTak1CcVpCVW1CV01PUUVtR0JvRkV2Rm5FX0YyMWNDZnZBdHBpMDlsTERZMWVDZmNwWlEyYWVOWGFRb2tKRXNkZ0ZGemphLXFyVWlBXzllUWZ2ZVM5UGJReHJBRXNpX2FfU1pwNE5wT0FZMEd4Z0V4R20tTm13R2NQQUtyYnlIMmhPSm1vN1laQU9INmtQVl9jMk53bF9zT3UyXzVGMmVoeDMyLTVlYVVPbXR3ZTJGXzBnQnc0QWY2UG1SaTFBWXAxSUw2NEtUX2lRUU50VHFO?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: Hackean 178 sitios web importantes para robar criptomonedas",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONkc2Nm5FN3BlNnJHNWlJY0RjMVhhVDZUenNZUGt5TDJaVzhDM0dnRm00R1hka056aUZZX3ZNNERRSVlZeGFhN0ZmZDFaM3lpaUxheVlKUGhXN2tWZUFEeklYOE00RnNGV0NGclpZSkNrVV9ocXlqYkVaUzhQYjV0S1RUWHE2WWZMX3JJMk5TUjhINkRCU3R3bA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Hay riesgo de una crisis financiera por Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ2lvdFFJZHN6TWh1aW4taXdrejV0QllFcUo0eFFVaHJ6cTktQ0ppbEU5NklXc3hGRUJYRTV4djhzdXQtbGxZRVdfR1BSTGtpTUtfdVJlUlhaMUFfdHVmSW10SWVFXzdEbk5sdG9NUWpDNVkxWjJ2dFlqT3lKU3I0eWRjYVFoT1p5UzRsRmZ0V2N5REJ1Zk5kQVc2VVo1S1BfZ1ZUWmE3MWRSUmhnVUZfdUl5UlR4Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Vanguardia: ¿Habrá un apagón mundial este 17 de noviembre? Le explicamos de dónde viene el rumor",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPXzFWVVRQQ1Y2ODczS1k5cy1OTWJzUC1vUmJMR01UQzZQN080Wnp4TlU3RlhuLWFwbG1KX2lUOV9faUZXdDZzTmlreFB5MXlwck1jMENKMGFVdnlHU0JFVi1BNnk3MUcxRjljQjhDVWNZdXA2LW0zQXB2ZFpLTUE0RTRCMWlfai0tNkt5WTF1SmFuZzZGVTlMcU5TeGg0MDZfbFFERld0WmtVTzNHbFpFLXhkcTQyeklqMlRfM195QdIBxAFBVV95cUxPd2kxVXkzSUVQR1h2VnN1LWxPQUhITDJ5VkxoOGRNU0VycnZ5YTRpN0NpMVg5SnEtcEtmeG9aOUNhc3hSaWQ1NUIxVWJPSGpDSVFXUktzWEFkeGFKYjVSSnZKU0ROUzJqaF9ESWtHb3hWM0xNZFlGUklQTUVOa1l6MnRIODZ6alpONVZLaDg5SHlsX1k4VHQxQ1E2NE1kS1Q4OHJHM3FuaGhsM1VMUE55ZzBqa1lZVlhxbG10V0g3RkVTcUVL?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=UO6VazLXgVA"
+  },
+  {
+    "id": 1794938407193,
+    "fecha": "2026-11-17",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Rocky a 50 años: el contrato que redefinió el poder de las estrellas en Hollywood",
+    "descripcion": "Medio siglo después de su estreno, Rocky revela cómo Sylvester Stallone rechazó 360,000 dólares por su guion para protagonizarla, vendió a su perro por 40 dólares y convirtió un filme de un millón en una franquicia de 1,700 millones.",
+    "narracion": "A cincuenta años de su estreno, Rocky no solo es un hito del cine independiente: es un caso de estudio sobre cláusulas contractuales, derechos de autor y el poder de negociación de las estrellas. Sylvester Stallone escribió el guion en tres días y lo vendió a United Artists en 1976 bajo una condición irrenunciable: protagonizarla. El estudio ofreció 360,000 dólares por el texto si otro actor encabezaba el reparto; Stallone rechazó la oferta y aceptó 20,000 dólares por el guion más 35,000 por actuar. Para financiar la producción, vendió su perro Butkus por 40 dólares y luego lo recuperó pagando 15,000. La cinta costó un millón de dólares y recaudó 225 millones globales, un retorno de 225 a 1. Ganó el Óscar a Mejor Película en 1977, imponiéndose a Taxi Driver y Network, y consolidó el modelo de estrellas con participación creativa y financiera. El contrato de Stallone incluyó derechos sobre secuelas, lo que le permitió negociar porcentajes brutos en las cinco continuaciones. La franquicia acumula más de 1,700 millones en taquilla mundial y convirtió a su protagonista en el actor mejor pagado de la década de 1980. El legado contractual de Rocky sigue vigente en los acuerdos de propiedad intelectual de Hollywood.\n\nEl antecedente contractual es preciso: United Artists, subsidiaria de Transamerica, buscaba un proyecto de bajo presupuesto tras una racha de fracasos. Los productores Irwin Winkler y Robert Chartoff adquirieron el guion con la condición de que Stallone fuera el protagonista, una cláusula que el actor impuso pese a la presión del estudio por contratar a una figura consagrada. La negociación incluyó derechos sobre secuelas, un porcentaje de las ganancias brutas y participación creativa, elementos que en 1976 no eran estándar para un actor desconocido. Según la prensa nacional (VF6), el filme se rodó en locaciones de Filadelfia y Los Ángeles con un presupuesto ajustado, y el propio Stallone vendió a su perro Butkus por 40 dólares para cubrir gastos, recuperándolo después por 15,000.\n\nEl impacto en la industria cultural fue inmediato: Rocky demostró que una estrella podía controlar su propiedad intelectual y capitalizar el éxito. El Óscar a Mejor Película en 1977, imponiéndose a Taxi Driver y Network, validó el modelo y abrió la puerta a que actores como Stallone negociaran porcentajes brutos en las cinco secuelas. La franquicia acumula más de 1,700 millones en taquilla mundial y convirtió a su protagonista en el actor mejor pagado de la década de 1980. En México, el filme se estrenó en 1977 y se convirtió en un fenómeno de taquilla que consolidó la distribución de United Artists en el país. El legado contractual de Rocky sigue vigente en los acuerdos de propiedad intelectual de Hollywood y en la forma en que las estrellas negocian hoy sus contratos.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: ¿Quién es la Máscara? 2026: Conoce a los personajes que participarán en el sexto programa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Eduardo Santamarina destapa en vivo qué tiene Mayrín Villanueva: conductores de Hoy dicen esto",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Paola Dalay reacciona a posible nuevo romance de José Eduardo Derbez con DJ en medio de polémica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Gary Sinise (71 años), el inolvidable teniente Dan de Forrest Gump, cambió Hollywood por cuidar de miles de hijos de militares caídos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere Tina Simmons, actriz de 'Star Wars' y 'James Bond'; esto sabemos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Rocky, 50 años después: el guion rechazado, el perro vendido y el Oscar que cambió la historia del cine",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: De Connery a Craig: un ranking del peor al mejor James Bond del cine",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Todos los nominados a los Grammys 2027",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Más de 400 trabajadores de la industria del entretenimiento en el Reino Unido reclaman acabar con la impunidad de personajes como Russell Brand",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Aretes repetidos, un vestido azul cobalto y zapatos café, Kate Middleton deslumbra en la India con este look otoñal",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Qué les espera a los signos este 17 de noviembre? El Niño Prodigio lanza una advertencia sobre el amor, el dinero y la familia",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Eduardo Santamarina revela que Mayrín Villanueva padece esta fuerte enfermedad; este es el estado de salud de la actriz",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "BBC: \"Es Pattinson, Robert Pattinson\": el actor británico será el nuevo James Bond",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZOXhiQnl2ZmVtLUktc1NwWWxZUXYtQ0wxX3Q5SUIwVWlBSWxsb1BSWjBYaDI4X3FQMUdITTJPeFJlX1Z0Z3dRdUZqMTZ1aDZ6WENYTl9yMlRuSEk30gFiQVVfeXFMTm5WalFIMVZoN2RWYVJDdGotc3lJblNEU2xkSkdaRmFkYlVWUXJ3NjYtbmxReTBvOEVhS3NKaEY5bkxBTVltWjkwd2ZXODFVS2lsRzRfc0VSZ2ZOMkFtMXhyanc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: ¿José Eduardo Derbez estrena nuevo romance?: circulan fotos del actor abrazando a famosa DJ",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRkl2NmFxWE42SlFoTlphd050S0xMaXFzR1VSbFpEdnFVZXB3ck9sNkVwcUlSTmZ0ckRxWGt5ejI2UXBpZlo0VG9ic1RXajc5U0lsNkNZNFEwY05BUmlMUEFQb3FiZE1mbVF1ZU5qN3NJTGNZdVpwaHBNYUI3ZTh1d1dacnZSdU1jZDJPTFQ2TjAzaWFNQmc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "MariskalRock.com: Los Grammy nominan a Megadeth, The Rolling Stones, Foo Fighters, Aerosmith, Muse, Mastodon o Anthrax para optar por un premio en las secciones de rock y metal",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPRm5qcUtfSFRIVEhRLWU1U1QzblVUU1RQckx1cU53N29DQVVuWVczRklYcW15WGctRElBV2duM3Rsdm5EYU1MV2hGTkkxTVRrWTF3eWx0eF9Uc0tjcWpMVTJ5QWpKeG1IVXhlMW5uclNqcmZDSzNwTXgwckIyOUhoRGNSQVMxQXc2bjlLcHYtS1dkY1dYNnNnQWNHcEhSaktpMXlHMmc2RkhGZFRaS2VxMzloa1hHWllxZDNBcGw2a2o5TTNGS0sybmZubTJ2M1J4c2dsck8xUC1INzVrM1FLNWx2c3JIeVd4VmRuM0RmbEJwSjJSbHhMRWttbmFGY3hvby1BMEJ2d2lEX3ZvUmw0Y2JQQ2lDY2RyRlE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Subastarán en Nueva York una pintura de Frida Kahlo valuada hasta en 3.5 millones de dólares",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRjgzUW14UmYxM2RNejhjaDhfMEsxUXJpdnBuSVZCTEoyblg4bE1pQ1Bsd09DaVlNd2VGb3AxcXZYLUl3eGNiNXNaMHNIVDZqV2FINmhiMG9kWnRYR3VuTUVWMWtQWW5yb2V5NDZXb0tEQU5MaVllWDdRNEZheEh5cmVWc2VXYU15RTVlX1d5NEdRellyZU85QkpXZUlCbk81aGR0LW1SRmx0eXEwMHZCVDl2T3ZabzZPcXlOV2R3Mi1Qb09qeFNPU1hSNjBfbFhkOGd6THhxcGhnQzM5cHc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Entre mariachis y pirotecnia, Camila Fernández revela el sexo de su segundo bebé: ¿niño o niña?",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVUVaWnFtbVl6X0hCbUJ1dnJrbi0yQzd3N2RKZFhSTEdJZGJVT2lPcHp1ckcyc3Q5TktEWExpNjNwZlEyRW9zVFdaYnJTSU12bVJkWlNkTWN2dDllcklBcXhQWkctQlRUbDFONFZwdDhOUjFKT1lOa3dSSmtmMmlZbzJNQllfUGZ0Ym9pZ1Y5WUFuZUFlOEQwdnpEa2xvTGNZVS16UUxLcHZOX3gwcEIyUkMwSjFVYzFZ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Cartones",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtSEtaZnBwQ3phZ0s4aTFyUTRFX3BVRzJlQk4tMjcwSm5fNGlRS0s5dFRpdmF2eXd2MG9mRkxQQ1RoWnJ3UDNzOW1QTTRDV0ZWZjZLM0dtYzNzdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "DW.com: \"Todo se me fue de las manos\": Depardieu acepta su condena y pide perdón a sus víctimas",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQmZJWWEzWW9uNjZjanZVMmZmTEtfVDFacXk2SmZyY3dDWVFFaEIzVllsSEVMZTZ0VmVjT3JzUzU3NWVMSjBxNzU5cHIwUS1SdnVEUjJYSGNZdWxCSEI3RVdXTm1GS1kzUzFrVDlMYW93TGtZRHhLZ1VIcGNLc2hLNG1DQ1otUDU5b0VSZEcxbjgtV0xsUEdSZkFiY3BEOEsyOGVnSWFvc2Vzb18zWmVlbmdlTHVhd3fSAbcBQVVfeXFMT0dabVUyMy1CQmc0S0NrTGcwZjlfZlRIM2dRbjFLUnNxSjZMTThGQ2hUWkk0Zkc2TEk4Zlo4RTQyVnJKWWpIM2p5cFV6ZVdwS3hrVmhnZjBIVE9UOXNKOUVDNGZIMW1xa1JmOXlORlREdGJSank3TFRFc0Q5WF9ib1RDamRmdUd3UWQtMVpLSkNGODd6dFZQNTZsSllRaXJhdy1VUTVyc0JWVExhZUFPU0dWQ2llY1g4?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Exatlón México hoy 16 de noviembre: ¿Quién gana la Villa 360?",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUldrUEE1UWl2ai0yRThkZjNIbXpLaWJ2akdObDU4WUVrZk1zbkpEdkZOTkc2SWdEaXBOMWFxckdQTEZWZ0tMYkVBQTFTa2JSeVlCV3ZJS3ZKU0J0Uy0zLUpncWo4OGpFd3p5a21iM0pZQmF0VUxXdWZ0M1NWX0FWQjRrSUFuZE9DRWxUeGtDbmRWU2RZS0FCdkl0S3I?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=xilz2ylyxEk"
+  },
+  {
+    "id": 1794870006460,
+    "fecha": "2026-11-16",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Switch 2 esconde DLSS 4 Transformer y Project Helix apuesta al renderizado neural",
+    "descripcion": "Nintendo Switch 2 integraría el modelo Transformer de DLSS 4 con dos perfiles exclusivos, mientras Project Helix, la próxima Xbox, usaría renderizado neural para contener su precio. La GDC confirma que Switch 2 es la segunda plataforma más deseada por desarrolladores.",
+    "narracion": "La industria de los videojuegos se prepara para una nueva generación de consolas con estrategias técnicas divergentes. Según reportes de Fanáticos del Hardware y Tarreo, Nintendo Switch 2 incluiría el modelo Transformer de NVIDIA DLSS 4, el más avanzado de la tecnología de superresolución por IA, con dos perfiles exclusivos. Esto permitiría a los estudios lograr imágenes más nítidas y eficientes en hardware limitado, aunque su uso dependerá de cada desarrollador. La filtración sugiere que la consola híbrida busca compensar su potencia moderada con inteligencia artificial, un movimiento que podría definir su atractivo frente a PC y consolas rivales.\n\nEn paralelo, HobbyConsolas informa que Project Helix, la próxima Xbox, integraría renderizado neural para reducir costos de producción y evitar un precio astronómico. Esta tecnología, basada en IA, optimizaría el trazado de rayos y la carga gráfica sin encarecer el hardware. Microsoft apostaría así por la eficiencia técnica como ventaja competitiva, en un contexto donde los precios de las consolas se han disparado. La estrategia contrasta con la de Nintendo, que opta por potenciar su hardware limitado mediante DLSS 4 Transformer, mientras que Xbox buscaría abaratar costos desde el diseño del chip.\n\nLa GDC confirma que Switch 2 es la segunda plataforma que más interesa a los desarrolladores, solo detrás de PC, según Nintenderos y NextN. Este dato anticipa un catálogo robusto para la sucesora de Switch, que podría anunciarse oficialmente en los próximos meses. La encuesta de la Game Developers Conference refleja que los estudios ven en la nueva consola un mercado viable, a pesar de las limitaciones técnicas, gracias a la facilidad de desarrollo y al éxito de su predecesora.\n\nMientras tanto, God of War: Sons of Sparta confirma su llegada a PlayStation 4 con fecha y actualización, según Infobae. Este movimiento extiende el ciclo de vida de la consola de octava generación, lanzada en 2013, y sugiere que Sony aún ve valor en el enorme parque instalado de PS4, especialmente en mercados emergentes como México y Latinoamérica, donde el precio de las consolas de nueva generación sigue siendo una barrera. La decisión de mantener viva a PS4 con un título de la talla de God of War podría responder a la necesidad de amortizar costos de desarrollo y mantener ingresos recurrentes.\n\nEn conjunto, estos movimientos redefinen la guerra de consolas: eficiencia técnica y precios contenidos como ventaja competitiva. Para los jugadores mexicanos y latinoamericanos, la posibilidad de una Switch 2 con DLSS 4 Transformer y una Xbox con renderizado neural podría traducirse en hardware más asequible y juegos mejor optimizados, aunque la dependencia de la IA genera interrogantes sobre la preservación del arte original y la carga de trabajo para los estudios. La industria parece encaminarse hacia una generación donde el software inteligente compensará las limitaciones del hardware, y donde el precio final será tan decisivo como la potencia bruta.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "TV Azteca: ¿Cuánto espacio ocupa GTA 6 en PlayStation y Xbox? Paso a paso para instalarlo en tu consola - TV Azteca",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Fanáticos del Hardware: Nintendo Switch 2 incluiría el modelo Transformer de NVIDIA DLSS 4 y dos perfiles exclusivos - Fanáticos del Hardware",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Sol de México: De 500 a 4 mil 800 pesos: 5 consolas portátiles para regalar esta Navidad - El Sol de Cuautla - El Sol de México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Kratos vuelve a PlayStation 4 en ‘God of War: Sons of Sparta’ confirmando fecha y actualización - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo Switch 2 es la segunda plataforma que más interesa a los desarrolladores de videojuegos, según la GDC - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "NextN: Nintendo Switch 2, la consola más querida por los desarrolladores - NextN",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "HobbyConsolas: Project Helix, la Xbox de nueva generación, se guarda un as en la manga para evitar un precio astronómico: el renderizado neural - HobbyConsolas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Tarreo: Nintendo Switch 2 trae escondido el DLSS más avanzado de los PC, y sus juegos podrían verse más nítidos si los estudios deciden usarlo - Tarreo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infosertec: Nintendo elimina el acceso con Google y Apple el 26 de enero de 2027 - Infosertec",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Persona 6 podría presentarse muy pronto, según un nuevo rumor - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "XboxManiac: GTA VI recibe un segundo parche previo a su lanzamiento en Xbox Series X|S y PS5: versión, peso y cómo actualizarlo - XboxManiac",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Comercio Perú: ¿Cuándo sale GTA 6? Fechas y horarios por país para jugarlo en PS5 y Xbox - El Comercio Perú",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: XBOX está regalando “certificados” para que faltes a tu escuela o trabajo y juegues GTA 6 todo el día",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcFZrUjVhdy1RcnpUZlh4bTFyLTc3Y2xuVG12cDFTcGpuQlczYjdQbGlJb0pENjdfUnJZZWJTU3JoZ2JIdUdYUVRoQmtLTDRGcGdPVkQzb1A5cXZSalBpaVVHa2wxanplQ3JpM2lYU1hzZHk0Y2J1MVZ3VGlsMUJjdXZwNGIweXhSX2lhV29SUWNEVGxNY05JU2NUekZiTi1uMVlUY25zdTBWa1EwU05xUmpDeEpaQ1FIMjNHbVZodkFJTFh0TUh6cmNkYlpmZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Ya disponible este nuevo pack de Nintendo Switch 2 + Zelda: Ocarina of Time + Trifuerza ornamental en la Nintendo Store europea",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNc2hBbmFORTBpYUpfNHZiQUE3d2FYWF91Tk50YXYwTjBCZDlZOHRBd1ZVeHFKWE5oZmsydEVLNVQ1cXRtcmNSOFBoaW0tX3pMUmhYSHg0VHdqbnU0VnBod1A5SnBETG9DUnZIQ0pXLXpPY2RLdWRpc2JRdGdaRjYzU1lncE80Y3pjOU9CR1JkSHRYaWpfUUxGSE1EblFDOUJESmZfYU5TbjBLXzU2MWVqWVBEMjd1UVQ1OHVaZDYtUUw5R2hBTzI5SG9WRi11RGw0aFN0WWVVZDV5RUVQOGdlT0RibWFBV0ZBVmlJZkpZT011aFRMenlzS0luSlEzUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: GTA VI se cuela en Nintendo Switch 2 gracias a un nuevo evento de NBA 2K27",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VVFJoenhUa2R5WDBXVVdkMVBuaFM2aXkwTkwwMlVuQWxHSWpvZFp6UlNwUWNoa3dadTZNTTRyRmk1MnRxb0plSmFaOEZSTVVmaV9JZF9DeXlTYVRqTjlLT1FmVmRiV0RQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2hJR2MyZ2hzNzBzSGFNRkxaSW1YQVVLclI5RHEtUUVyVGlGYUQyT0ZDY2ktLTE2OEpucEpEZkdWbWxIUk12Yy02NUNLLWJGWlBURnNGcUE4UG9SVXBzaVpkLTJfWXlTOGNmUkxadmxodWttZ0x1QjZzOGxTZzlVSHlVZ1JvblVDXzYxckFDdkd0M3ZFalJNM0NwWkVhd3FxV2dfdTVFZjhqMU8tQ3oxeGpMbzBiamZzTmVrZDVISnRndXRyN1o00gHMAUFVX3lxTE4zNTNlNVB4X3BGdHhaUDV1VnEzc092NEpPY21GbmlYMWtjUDlsd25xSUVoM3o5TzZ1WEIzMW10UnRFcnJCWklTQVpqUUowX0xaTkd2bEEzN3ZJbjNiR2IzS3Zna3ROSURnYjRLSm01Qm50SFRFMkV3OVloa2l0TkIzLTdPMWo4d01IY1h6SGVraDB2Z0E0SXlmaHQ3dWREUkZDeVNFb0tobkltWDhhaXp1QzNXTE9JaHFEY2pDR2M0eW9HYzBPTlBOTnFfOQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: ¿Cuánto cuesta GTA 6 en PS5 y Xbox? Todos los precios y ediciones disponibles",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbVpNQkthOE93NEhEWTE3bi0wbWdOanl0c3lldmZFbnZXS040MUVqd3dYajlWTV9TRUZSWmhKYjZKY3JwZzgwMk03ZXhfZmlQTm1DR09SMTNlNUs1XzhCWXFVTVk2R2dpMUUtcHBHR2RMbGU5RXJCOHdKbFp4UHlrRU5ITTV1RWFHTDJqZzBGYjJ1V1oyMmczeUJIandLNlRnNUIyN3RDaEdnR2tVZ1kzNE55QVp0dG5vcFhORmRwb9IB0wFBVV95cUxQRU45cFhnVkYweFFGOHhYVjFaUmhRbnM2NFRrbjUxZDhvNmVaM1FUWWZYcEtwS3dFcFFkcHdjODZEV0hqb3VzOHhaalRnbEFkX0FTR2dZZVZzMV9PUTJFWEoxM1hudEt6MHQ2S1REdjV4TU13SmdMLWdfcktXMXBHTHBUN0FHanJFdnpQZXJDOHl4bXp0TWc3UWpQanRseU8wZmVpeWFHTXZGN202VnBlamUwam95X21PY2VkeFVvbEJNU1NwU1Fmemd6VXVoQ1RPaXU0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: GTA 6 recibe un segundo parche día uno en PS5 y Xbox, que pesa 1 GB más en las consolas de Microsoft respecto a la de Sony",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaHVHLURLRnA4SzJsek1LOEViaEdFRm1mR2psQjJSQ1YyYUc0Vl9RY0loUzRTSHVJSzRucWZkbDg3LW44T1g3a3VNUFgxalMzVXFUWlRsdmhSNEx6SHFCbW41Mk1LTjh5SGdwNzJxZmVJdE00cTE4Z2xhMk5pVUhtcjRXZXRHMzNLUkUzSGdWbHEtczBDTEZrUWtiaXlwMEFYeTNuSHNKc1NzTjZwUS1oUnh3YkRManZKa0JTWkJXeHMtOGJveExtU3o0bmJNMEtEUGQwWGJHMkJJWW9fYmE5RXMxUGFoSzd3MUNoVmlvcHJSS3VnU3c?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: Lucky Luke vuelve a los videojuegos con una colección de clásicos de 8, 16 y 32 bits",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdFJhaDg2dmRJWVhEN215YzlZMUs4OWtLR0JYdnhxV3ZSM0Voc01DSjRTWWhHa0N5YVpYLS15UU13UXdLVmlfclptZzNHWDh6YkUzWHJ4a1ZGYmdkdUc2eWlSQUpiakN3S2g5ZXFTOVdkVG5DSHJCTk5WVFQxekhJRkxSWmFaQXNjbTI1NkFVOTJ3UGhrT0xkeWpkWXhIcDFJNk5YUUt2alNxVDBGY0Z0dXMzRG5GQloxdWtCU0ZDcmUxdFZVcUNDekxwMWJab2vSAeoBQVVfeXFMTmdDbWdTNHRKY2RuYTFsMkR5MF9VNllvUklvTnNNQlZIcjZvZHc2SU5IeW01dmNuYlNnZDl2VC1oUUdVWTNYUENiVm5iSTFsOTVHU1diZHB3MFhSNWVWcDVNYWlhcXYwWFp1S3RRZFVHbUpiSWNKdU1HNFVaLVRJcFdFS2E0eXAtT0oyMjhrVnBhcF9sVHdKMnROSFFpT3RnSVgzZ3ZHcGhKZjM2Q29TbTV2WlZQNGJ5bEVaT3ZBZ3dUS3lBYjVTbHV6dXNkR2FzLTQ0ZVpWN2RlVzMycXZJSGU2Y0tMZDRwREh3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: XBOX revela su plan para Project Helix y deja claro que es una consola que tiene mucho que ver con el PC",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbllaVDlhNXhzQUg0RnR6UHhINzM2Qy1mWFZld3FHV3o0eklRd3hQRXFIaXA0eS1ic3FjUFl2b0xhQTFsMFZUdW9kUjh0ZGtrcTE0V3oydUo0WnR5ZjBYLXNKam9WSWRZNmYycFdfRkZqRWs2b2FwT1RMUEF0Vk4tRFpVUE5Jd0FZcEl3VWIzazFkX0hmMlRaX1lob3dKR0dJYTAtUzhmN0JHRTgzVmo2OUx1TzhVNFltMzMzUDBIaU9xT3JlcEHSAcsBQVVfeXFMUG43eHJxVEZsaW5sb2FrUTE4NkN0akF0Y3g2b3dqTWY5R3AwZjFnaGs0RHdYci1NdHNPaGY0NDl1YnVpRUZHb0JCRWQ0U2k1VDcxUnV2OGhjUFJXUWdCc3JwYVljZXZrVWRJUmo3R2RIaUpuQi1GQjNSWjkxcFhYVExHUk9MVmt4UG5wRDE0YmZ0M19OVFB1c1g1SHpDRm1SZDVtOUdST09VRTU5b3BOUExmeEkzQjdQaDlXYk52SU03QjZFMVZFdUpSU3c?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=A6JhkOegXm8"
+  },
+  {
+    "id": 1794855606608,
+    "fecha": "2026-11-16",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Xiaomi corrige 216 fallos y WhatsApp deja fuera a celulares antiguos",
+    "descripcion": "Xiaomi despliega un parche crítico con 216 correcciones de seguridad en HyperOS, mientras WhatsApp finaliza el soporte para Android 5.0 e iOS 12 desde el 16 de noviembre, afectando a millones de usuarios en México.",
+    "narracion": "La seguridad digital vuelve a estar en el centro de la agenda tecnológica. Xiaomi ha liberado una actualización acumulativa que corrige 216 vulnerabilidades en su sistema operativo HyperOS y componentes de terceros, según su boletín de seguridad. El parche, distribuido vía OTA, aborda fallos críticos con puntuaciones CVSS superiores a 9.0, lo que permitiría a un atacante ejecutar código de forma remota sin interacción del usuario. La gravedad es máxima: los dispositivos no actualizados quedan expuestos a la exfiltración de credenciales bancarias y datos personales. La firma china, que lidera el mercado de smartphones en México con una cuota cercana al 20%, según datos de Counterpoint, enfrenta así el reto de mantener la integridad de un ecosistema masivo mientras acelera la renovación de hardware.\n\nEn paralelo, WhatsApp actualizó su lista de dispositivos compatibles y desde el 16 de noviembre dejó de funcionar en equipos con Android 5.0 Lollipop o anterior y iOS 12 o inferior. La medida, anunciada por Meta, afecta a millones de terminales en México, donde WhatsApp concentra más del 90% de la mensajería móvil, de acuerdo con la ENDUTIH del INEGI. El impacto es particularmente severo en la base de usuarios de gama baja, que representa una porción significativa del parque instalado. Según la consultora The Competitive Intelligence Unit (CIU), el mercado de smartphones de gama baja en el país mueve más de 2 mil millones de dólares anuales, y la presión por actualizar hardware podría acelerar la renovación de equipos, pero también profundizar la brecha digital entre quienes pueden costear un dispositivo nuevo y quienes no.\n\nLa confluencia de ambos eventos no es casual. Mientras Xiaomi corrige fallos que podrían comprometer la seguridad de sus usuarios, WhatsApp cierra la puerta a sistemas operativos obsoletos que ya no reciben parches de seguridad. La consecuencia es directa: los usuarios que no instalen la actualización de Xiaomi o que se aferren a dispositivos antiguos quedarán en una zona de riesgo. La alternativa de recurrir a versiones modificadas de WhatsApp, como GB WhatsApp o similares, introduce riesgos adicionales de malware y robo de datos, advierten especialistas en ciberseguridad.\n\nPara México, el doble golpe tecnológico subraya la urgencia de políticas de inclusión digital y de una mayor exigencia a los fabricantes para garantizar ciclos de soporte más largos. La seguridad digital ya no es opcional: es un requisito para mantener la comunicación y proteger la información en un entorno donde las transacciones financieras móviles crecen a doble dígito. La actualización de Xiaomi y la decisión de WhatsApp son recordatorios de que la infraestructura digital nacional depende de la vigilancia constante y de la responsabilidad compartida entre empresas, gobierno y usuarios.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Uno de los grandes clásicos del panorama indie tendrá un remake que nadie esperaba, pero llega con polémica bajo el brazo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Celulares que se quedan sin WhatsApp desde hoy 16 de noviembre: cómo saber si el tuyo está",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cleanser Man gana el concurso de diseño de jefes de Mega Man: Dual Override",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: The Legend of Zelda: Ocarina of Time , un mágico remake | BITS",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Judías mágicas y todos los suelos blandos en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El arma secreta de Microsoft: la nueva XBOX no será barata pero Microsoft tiene una estrategia para que sea más asequible",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Tu Xiaomi podría estar en peligro si no instalas esta actualización que ha corregido 216 fallos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ya disponible este nuevo pack de Nintendo Switch 2 + Zelda: Ocarina of Time + Trifuerza ornamental en la Nintendo Store europea",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ya es oficial: Mega Man Dual Override mantendrá la tradición y presenta un nuevo jefe diseñado por un fan",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: XBOX desvela novedades de su nueva consola, y son muy buenas noticias para los que prefieren jugar en PC",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cleanser Man protagoniza este nuevo tráiler de Mega Man: Dual Override",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Amazon España se adelanta a su Semana de Black Friday con estas ofertas en juegos de Nintendo Switch 2 y Nintendo Switch",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Excélsior: Y a todo esto, ¿qué vamos a hacer en China?",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUx0MXZjT1dJOVJtZ29lTkNFNjVwV0Q1OUJzeWNlUEduRW02dDdMejZXSk9EOHpKYjdXQzYyd3pFYTRaNDRrZmU0OFVmMUtCckI2dHFqWVJ3TVNjRW1qWHN3YmpLc2lLbnFvUzI5VFFEd0FlejFXSE56Y095OWVzRjYtc3pUaHJ1bjRaWVJUUk3SAZYBQVVfeXFMT3REblVGbllkLUg0WE83bmlxRmRTa3RRZzFmRE1RM0NKUzNXUVg2VXN5UXBwTEFQSk50MjBZejdlUDN0WUVMQ29JOUJodWp2WWNOaG5xMGhYeU5OYVZ0TDFHS0c1YXFrcXc4Uk9rWFpCNThqT3FRMjBfdHZTbnVXYThjdTVBZVQ2VTZfblpiM0NxNWxReW5n?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: El Ponchis, retrato de la corrupción en Sonora, escribe Héctor De Mauleón",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNDdXSEJFU2VicnVyM1pZQWdyWnlzcjVuZkNGNzhiaWdRZ3lkZVNXS2E5NWVpTS0tcElPeERsdEJaZDlXS0RuQm9IZlJDS09COGl2VmJ6eW9DQ1VxN2dfLVZaTURKa3Y4a29RVjZRZmIwTS1uWTNMdkVicFpjMnRxZS1qSWdQMTZLeVpoTllnbmtZSzVRZHBSUm9VbjhVMmN3TnlwYmR3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Hay riesgo de una crisis financiera por Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ2lvdFFJZHN6TWh1aW4taXdrejV0QllFcUo0eFFVaHJ6cTktQ0ppbEU5NklXc3hGRUJYRTV4djhzdXQtbGxZRVdfR1BSTGtpTUtfdVJlUlhaMUFfdHVmSW10SWVFXzdEbk5sdG9NUWpDNVkxWjJ2dFlqT3lKU3I0eWRjYVFoT1p5UzRsRmZ0V2N5REJ1Zk5kQVc2VVo1S1BfZ1ZUWmE3MWRSUmhnVUZfdUl5UlR4Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Anthropic: la madre de todas las salidas a Bolsa (que puede poner en riesgo a la humanidad con su IA) donde hay más en juego que mucho dinero",
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQc21pSVZWeXVJSmJ6aU9UZXhhNkYzdUVGMGxqMDVESC1BZnRkZ3lMV1d5ZXJIUjJqdUs5Ni1HN2pkS0tkXzhEdnZkaGRXZUxkZXdCemt1WEo5VXNyeDJnUU5OcGtTNDZFaVE2Tm1ZRnBDR25sYVFRLXVPM0xIY2IxdVNwakZsSkNrTnl0R0k4WlozNEJ6V0ZzdjNEU09EWmFEYnNEeVNleTI4OW12UlVlc3JxaWR4U015bFNOSWxlVS1KeG9odGxMYmF2UEh0bldLT2Ezb09xeG4yNzFDbV9qU3EwREpSaHdHUm53eHVSZGp4VWNqSUEzdFlKM2VCUEoxSDFDaXRlR2plNTVrZENnN3M2MHVmZUxlM0YtNnhxZHgzMlB0Z19Qdy1hSTAtOHIy?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: De la sierra norte de Puebla a una bodega de Sinaloa, las granjas de criptomonedas se expanden a manos del narco",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeEJlb25kV1U1Tk1fU09xaElPLXJnZFBEb2kwNUNTak1CcVpCVW1CV01PUUVtR0JvRkV2Rm5FX0YyMWNDZnZBdHBpMDlsTERZMWVDZmNwWlEyYWVOWGFRb2tKRXNkZ0ZGemphLXFyVWlBXzllUWZ2ZVM5UGJReHJBRXNpX2FfU1pwNE5wT0FZMEd4Z0V4R20tTm13R2NQQUtyYnlIMmhPSm1vN1laQU9INmtQVl9jMk53bF9zT3UyXzVGMmVoeDMyLTVlYVVPbXR3ZTJGXzBnQnc0QWY2UG1SaTFBWXAxSUw2NEtUX2lRUU50VHFO0gGIAkFVX3lxTFBNYmUzZURscFFEY2hmZ2RieDVmOUxvVzQwWFV5T1NTQUgzWkE1YTkyMksxekZveGtDdTVLVFVVd0RsMnBnVmNTZmZUdm5NTk8wZHJHWFluSHlvWldCdFJicUFEWWpBaU9fUGFDT3JEVF9KUkh6U0JzanRMMzJmcWYxOW90aVQtNVkxZmRiMWdTSnNPdTNLeGJNeEs1OUNqNThfd1N2azZKT2ZrNHBZdUxmWk03UTYwdUtXUVpKT1dtanZBaldSOXBYa2lIanFzR21qZFJTYS1pR2xSNjBQcEp6Y2JoVmxjNU4xX3NOMjVqbFJVX3pNVnBMdlRZWXhjeEdUcVMybTlxYw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Informador: La verdad es que no saben qué sucedió",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRlI5cURwMjg1ejdJYUZRYzVuNTBDdTNDZURrbExES1p1cFpGTWVVakxTc09Ha0RFY2psbE5NMjUycGVFOEdRWGxUcHBnWlJtODB0UGlQdERvYmRyYWpBS3JOY0V2YzZwanR0WmF2RVF1UnAxWUc0STZwY2dOZFV1d1h2dWNzMkhJWWM5elNPSWd2d9IBlwFBVV95cUxNRThyckpTclVKNVI1cVNQdXRJbDVTLXpSZG9xREpNRVB3U2RLQURIUjh3OWg2eXR2N1ByRlNzazhhZ19kbFowdUhMUHcxMnMwZS1xWkYyOEN5WHhjR05kUmdSbnZBRHF5b1I1bnRDVnV5X0JuT2tQS1JIVjRyZlVCd1JYdDRPaEJyVy1sSG53MHVxYW55YzFr?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Crisis en Nvidia se agrava: Taiwán detiene y acusa a empleado de traficar chips de IA a China",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY1JKaC1RVVlKYzlUUFNROC1KREw0b05kTHlNWkNyWW9LNDdZVXNOcmZRVGs0Xy1TazBGaDUzSlNsc1hNODFJMHZRMEx0cXQzRVhvU3FaQVdsODhEeWJQYUV3SXdfSjlRNTYzcWtNT09FMXZKeDU5bUtlYnYtT3FLVGY5U0szMTJQTU9iSmtaMlpkYmdRaVp6eEdWVFdabnlyUi1ibVZFZG9BZFYwQ2xydmlVejIzOC1nR2tFSHlfRkNvMGg0ZUxwOHAxUkdoaVlOaEtKQkZtakM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Cointribune: Ethereum: Vitalik Buterin apoya leanPCS contra el riesgo cuántico",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVng0anlPYnFQbmFJSVB1M0x5QVhwUnFVcE9EMy1xczVJbjBDUHB1NzhEemRZd25MbkE3SmJleXZ2WjZkcnNULXV3VVhZY0trOEpaSmZIdUQwX1dTdElYSTNPSzdZVFpBNEljZnNQbWpheGMxbTk2VXVtaDQzSTdjUHlyVS1OcG1faVZPWXQ5bngtOV9UaEt0YUJ0QXQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=G-hxPo1mLV0"
+  },
+  {
+    "id": 1794852005842,
+    "fecha": "2026-11-16",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Robert Pattinson asume el 007: Amazon MGM reconfigura la franquicia con 250 millones y estreno en 2028",
+    "descripcion": "El actor británico Robert Pattinson será el séptimo James Bond en una producción de Amazon MGM Studios valuada en 250 millones de dólares, con rodaje en 2027 y estreno en la temporada de premios 2028. En paralelo, Alejandro Marcovich prepara una demanda contra Sony Music por regalías no pagadas que podría alcanzar los 2 millones de pesos.",
+    "narracion": "La designación de Robert Pattinson como el séptimo intérprete de James Bond no es un anuncio menor: representa la primera gran decisión creativa de Amazon MGM Studios desde que en 2022 adquiriera los derechos de distribución de la franquicia por 8.500 millones de dólares, en un acuerdo de licencia con Barbara Broccoli y Michael G. Wilson, quienes mantienen la producción ejecutiva. El movimiento busca renovar la audiencia tras la salida de Daniel Craig en 2021 con 'Sin tiempo para morir', cinta que recaudó 774 millones de dólares globalmente, según las cifras oficiales difundidas.\n\nEl fichaje de Pattinson, de 40 años, se produce después de una carrera que lo llevó de la saga 'Crepúsculo' a papeles de autor como 'El faro' o 'Tenet', y ahora al espía más longevo del cine. La producción ejecutiva estará a cargo de Broccoli y Wilson, quienes conservan un acuerdo de licencia con Amazon MGM Studios valuado en 8.500 millones de dólares desde 2022. El rodaje comenzará en el segundo semestre de 2027, con un presupuesto estimado de 250 millones de dólares, y se espera un estreno en la temporada de premios 2028. La cifra supera en más del doble el costo promedio de las cintas de Craig y coloca a la franquicia en la liga de las superproducciones de riesgo controlado.\n\nEl impacto para la industria cultural mexicana es indirecto pero tangible: las salas nacionales dependen de los estrenos de gran escala para sostener la taquilla anual, y un Bond con presupuesto récord suele arrastrar acuerdos de exhibición y promoción que benefician a cadenas como Cinépolis y Cineplex. Además, la elección de Pattinson, un actor con perfil de cine de autor, podría atraer a un público más joven y cinéfilo, diversificando la audiencia tradicional de 007.\n\nEn paralelo, la cápsula audiovisual informa que el guitarrista Alejandro Marcovich prepara una demanda contra Sony Music por regalías no pagadas, según declaraciones de su esposa, quien confirmó que el músico ya volvió a tocar la guitarra tras su reciente hospitalización. La disputa legal con la disquera podría alcanzar los 2 millones de pesos. El caso, que se suma a una serie de conflictos entre artistas mexicanos y las grandes disqueras por derechos de autor y regalías, evidencia la necesidad de contratos más transparentes y de una revisión de las prácticas de cobro en la era del streaming.\n\nAmbos hechos, aunque distantes en geografía y sector, comparten un hilo: la reconfiguración de las industrias del entretenimiento por parte de corporaciones globales que ajustan sus modelos de negocio. Mientras Amazon MGM apuesta por una inversión millonaria para revitalizar una franquicia de más de sesenta años, Marcovich recurre a la vía legal para exigir lo que considera un pago justo. La industria cultural mexicana observa con atención ambos desenlaces, pues marcan pautas sobre cómo se negocian los derechos y se distribuyen las ganancias en el cine y la música.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Mark Hoppus, de Blink-182, gana demanda contra su vecino; busca que pode sus árboles",
+        "url": "https://www.eluniversal.com.mx/espectaculos/mark-hoppus-de-blink-182-gana-demanda-contra-su-vecino-busca-que-pode-sus-arboles/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: De Sean Connery a Daniel Craig, los agentes 007 que han cautivado en el cine",
+        "url": "https://www.eluniversal.com.mx/espectaculos/de-sean-connery-a-daniel-craig-los-agentes-007-que-han-cautivado-en-el-cine/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Dos nuevos personajes desenmascarados: Marisol del Olmo y Marcus Ornellas sorprendieron al público",
+        "url": "https://lachispa.mx/dos-nuevos-personajes-desenmascarados-marisol-del-olmo-y-marcus-ornellas-sorprendieron-al-publico/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Jorge D'Alessio ya terminó su noviazgo: \"son decisiones de sensatez\"; dice que ya ha aprendido a estar solo",
+        "url": "https://www.eluniversal.com.mx/espectaculos/jorge-dalessio-ya-termino-su-noviazgo-son-decisiones-de-sensatez-dice-que-ya-ha-aprendido-a-estar-solo/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Alejandro Marcovich ya volvió a tocar la guitarra y prepara demanda en contra de Sony Music, cuenta su esposa",
+        "url": "https://www.eluniversal.com.mx/espectaculos/alejandro-marcovich-ya-volvio-a-tocar-la-guitarra-y-prepara-demanda-en-contra-de-sony-music/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Marie Claire: Hailey Bieber da la bienvenida a los 30 años con una nueva colección de edición limitada de Rhode",
+        "url": "https://marieclaire.com.mx/hailey-bieber-30-coleccion-rhode/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hailey-bieber-30-coleccion-rhode",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Marie Claire: Ella Langley: La cantante country que suma siete nominaciones a los Grammy 2027",
+        "url": "https://marieclaire.com.mx/ella-langley-cantante-country-grammy-2027/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ella-langley-cantante-country-grammy-2027",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Marie Claire: Robert Pattinson se convierte en el nuevo James Bond",
+        "url": "https://marieclaire.com.mx/robert-pattinson-nuevo-james-bond/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=robert-pattinson-nuevo-james-bond",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Marie Claire: Conoce a los artistas nominados a los Grammy 2027",
+        "url": "https://marieclaire.com.mx/nominados-grammy-2027/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=nominados-grammy-2027",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: De Crepúsculo a James Bond: así ha sido la carrera de Robert Pattinson",
+        "url": "https://www.eluniversal.com.mx/espectaculos/de-crepusculo-a-james-bond-asi-ha-sido-la-carrera-de-robert-pattinson/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Los Grammy estrenan categorías, entre ellas \"Mejor interpretación de pop asiática\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/los-grammy-estrenan-categorias-entre-ellas-mejor-interpretacion-de-pop-asiatica/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ⁠El mexicano Edgar Barrera, nominado a los Grammy internacionales como Compositor del año",
+        "url": "https://www.eluniversal.com.mx/espectaculos/el-mexicano-edgar-barrera-nominado-a-los-grammy-internacionales-como-compositor-del-ano/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Daniel Boaventura convierte el Auditorio Nacional en una pista de baile con jazz, romance y clásicos",
+        "url": "https://www.eluniversal.com.mx/espectaculos/daniel-boaventura-convierte-el-auditorio-nacional-en-una-pista-de-baile-con-jazz-romance-y-clasicos/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Lista de nominados a los Grammy 2027; Rosalía y Taylor Swift se enfrentarán por Álbum del año",
+        "url": "https://www.eluniversal.com.mx/espectaculos/lista-de-nominados-a-los-grammy-2027-rosalia-y-taylor-swift-se-enfrentaran-por-album-del-ano/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Robert Pattinson será el nuevo James Bond: \"es el honor de mi vida\", dice el actor",
+        "url": "https://www.eluniversal.com.mx/espectaculos/robert-pattinson-sera-el-nuevo-james-bond-es-el-honor-de-mi-vida-dice-el-actor/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Univision: Paola Dalay recibe mensaje de César Romo en plena polémica por video y José Eduardo Derbez",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcXRDT2Fpbm52SkQ0S2c0SndXdVRhVlFWUTVRQjhicjNlNTlJelpwUDdEZ2psV3lkeHRsMDBhVlk0R0VZOFdDQVljcnc3ZE4zQXNya0o4VGJOSEh2aDU1S1BSemZ4dGYzbTQ5Q2xRTGVvVXN3V0J6XzRfa3NCZkNOTVJmTG14T1N1M3VwdDBNVF9NZ2ph?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: KPop Demon Hunters Golden World Tour: boletos salen a la venta el 20 de noviembre",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb24tRVdqR2QyYVJiQ2JWaVJLOVVrdl9tV0pqWGtjbTZFaTRuenNWSlIzTng1MV9LQU5BaEE4OEFzVm9XLTFiWjlKaFRnWUFEU0J6bDdBSDFRYWpUNW9wN21Zd2lEUlRWM3FQNmpmbUtwMlRHdHBQcVVFUm11VFRVVEgzVE5ySUZ5RXA1OWFfc1ZxcjFUdEdGMGdFV3psd2NHa0M2eUVoU09mMy1IbjhMaFBYaTJZZHNZOXlqaVZRUTROd0VPb1NzdFZLa05udzRsOFJYZ0x3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Financiero: Karol G reprograma concierto en el Estadio GNP HOY: ‘Se está priorizando su salud’",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTEd2UHhmRDJtb1QzLUpBVVI5OWFZRm05UmFCZkp1dEhMbHRRT2x2UUdWanZUakp3QzBSTFBTSW9xZTFrNE9MWmh5YTdPOFBsN3RmdkNOdS1kclQzbjF3bHN6S2tiN1NhT0xfc2FReHhYX3dfMG1oS0UtUE5nWGJWZGxvSzV3YmpObW9YM2l3dFhWYngzRHUtYUtYZG5BdmdBckZBbDNrbHB5UEk4UklqM1EwZzRSUXZaOUVCdg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Gérard Depardieu retira su apelación y acepta su condena por agresión sexual",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzlaSVR3T1V2WUZqMDZnbXk3Q0RJOEtwb2V0ZXc5SGFLSUsxRlh1Ymt4OHpwY2tKdnpiQTBKU0d6UVlYZFh0MHJzOG4wNnRjbDRfRFZRbTN6emxNaENiVDNVMjYyRHpKTXhDbEVsUE5nc1hUbXdIdGtHSkZUVndXeUROcTJpY3gyUUlPa2NfVEJHdXBaaVQ1Q2VZWlBJQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Las Estrellas: Ve aquí EN VIVO el sexto capítulo de ¿Quién es la Máscara? 2026",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSVYyOE1GXzRxdVJWMzF6aThUSU5JTFU5R1JVaS1MZlJKYWlRV21FS2dVcEJNeERCZ0xMMEFadWNZSUxEUl9NNHNLRUU3aE80dFlvcGF0Q1FOb0haVEdyMC1WczAtbWZ0VFg4LUkwR0RXN2J1M2JpQzVHTUh6Z0FINV9DTFk0VzUyd3dmV2FEcGVjSnVGMmlJRDJBaXVQSlMzbTB6T1RxWlJXRm5CU2FZZGdSTlRmMkRf?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: La Mansión VIP votos: las encuestas que revelarían al primer eliminado de la segunda temporada",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPakJHUXhnei1iQWtBRmhFaURvR2dQMGJOSjM1T1hFZ2FlVzR2eUUxWGZBNTJMRnNnZ3VGQzZxdVRFT1pPQkdMOFBNaVlVSzBDY0N3cFhSbmF3NnVURWVNdlBmcno5Mlp2eklPdnZyZUpRT0NXLXhORG1mRWpITnVqSEZnU0JiUjB4R3NOQ1VZOXFhQ2NQejRRUjdPN1FqT3ZuamszWGlvVEZEVldLZ3M2TFc1bHk0SzJ4dTF3WVdFMktPYXBjaUxmTHhNYUJPSndIT3fSAewBQVVfeXFMUEhjVHF5ZTNHX2ZuYVozTklPdndkWnlJNFNYVDJ1YTh4QUJnVXRMb0hJaE9ETy1uZmVPNFZHVUg1VDhSS3JZX2VtTU9CYWpqUS1IRmhhSjNuT1F2UmZOUnBrT3B1WXdEUnJmaDA0c3BwdThwamRBVHNjMUo0OUk5dFZJaHAtSlBoMm42bXVIWTdXSzloVDJDTW5kQURaOUdwRDFlUXk5RFZmTzVLeFFiWVAwNlFsemhsR1pnUWNjNzIzX2J3RDRBSG1XQzg0YVNTQUx5Yy01MWRpckluX1haWUV2NmFWTXNmYXBydWc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: Latin Grammy 2026: estos son los ganadores de los premios de la música en los que Rosalía ganó mejor álbum y mejor canción",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xU0Q5S0VUUTNKeEpzb2lxMWtacmVuMVpxZzFQaW1oMFg1RkpYTG94d2pQd1hRcUJqQWtRZ1YxQjFXc2JDQnZYck52T2RXcHNDUnpXVjZ3TnJxcmR30gFiQVVfeXFMT0J4cXQ4UWpldTFIRHFZT09fYlhkSk9VSGFFQ2s0TGxuR0sySHVaNm5YQXlJNXVsVzVGR2RrNHNzYXFnZVlUNzhtRUZ6b19WaHBjdzJ4MUJ2M3lnbTVvOUozZGc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Garbage reúne a más de 90 mil personas en concierto gratuito en el Zócalo",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYUxiaGZYbkJHa3Z5OGF6dGx0bVpaZ1VLTWN3NW44RXJRcE1mb1l2VjZtcmNpSXRCRjVqMlo5OEJaX1ZFTmZVNU1heWZWenpqVnlIa0NOZDh1R2tMLVZxeG1OVnJjR282RFBqdll3N25CYkc2NEFMZnFfR1hteVctM1ZoazFBbWJKTmE5Slp0RkRjNHRLdkVJUTN1em5VWHhaU2d0UmppUlV6WDNqVUxmVHozVjZBVzg2eUtQNTdHMkVXc2pMSTI2TWg0bFRaUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=68ai_Y6Tv5U"
+  },
+  {
+    "id": 1794790806435,
+    "fecha": "2026-11-15",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Félix Gallardo hospitalizado, Sheinbaum en China y el Buen Fin bajo fuego cibernético",
+    "descripcion": "El fundador del Cártel de Guadalajara cumple 48 horas internado bajo custodia federal; la presidenta inicia gira por China con Bárcena y Ebrard; la Policía Cibernética del Edoméx alerta por fraudes en El Buen Fin; cae 'Raptor', ligado a la masacre de Colima; y la Pensión del Bienestar se difiere por el puente.",
+    "narracion": "La edición central del noticiero Memexicanísimos de hoy colocó en la agenda cinco asuntos que tensan instituciones, economía y seguridad. El primero es la hospitalización de Miguel Ángel Félix Gallardo, fundador del Cártel de Guadalajara y condenado por el homicidio del agente de la DEA Enrique Camarena. A 48 horas de su internamiento en un nosocomio de Guadalajara, la Secretaría de Seguridad y Protección Ciudadana no ha emitido parte médico oficial; fuentes del sector salud confirman que el reo de 78 años permanece bajo custodia federal en un área restringida. Purga una sentencia de 40 años en Puente Grande por delincuencia organizada y homicidio. El dilema institucional es claro: el protocolo de custodia hospitalaria y su costo para el erario, así como la transparencia del sistema penitenciario ante cualquier complicación médica. En paralelo, la presidenta Claudia Sheinbaum inició gira por China con los secretarios Alicia Bárcena, de Relaciones Exteriores, y Marcelo Ebrard, de Economía. El objetivo: renegociar el T-MEC y atraer inversión en electromovilidad. China es el segundo socio comercial de México, con intercambio bilateral superior a 120 mil millones de dólares en 2025, según la Secretaría de Economía. La visita busca equilibrar la balanza deficitaria y asegurar cadenas de suministro de litio y semiconductores; cualquier acuerdo arancelario o tecnológico impactará el tipo de cambio y la competitividad automotriz. El tercer punto es la alerta de la Policía Cibernética del Estado de México por más de 300 sitios apócrifos que suplantan tiendas y bancos durante El Buen Fin, con phishing y clonación de tarjetas. La Procuraduría Federal del Consumidor reporta 4 mil 200 quejas por fraudes en línea en la edición anterior, un alza de 18 por ciento anual. La Ley Federal de Protección al Consumidor no tipifica el fraude digital como delito autónomo, lo que obliga a denunciar ante fiscalías estatales; la Asociación Mexicana de Internet estima pérdidas superiores a 800 millones de pesos. En Jalisco, fuerzas federales detuvieron a 'Raptor', presunto operador del Cártel de Jalisco Nueva Generación y vinculado a la masacre de la panadería 'El Pichón' en Colima, donde seis personas fueron asesinadas en 2024. La captura en Zapopan, según la Fiscalía General de la República, representa el primer eslabón de la cadena de mando en un caso impune por dos años. Finalmente, la Secretaría del Bienestar informó que la Pensión del Bienestar suspenderá pagos durante el puente y reanudará el martes. Los beneficiarios son 12.4 millones de adultos mayores y personas con discapacidad; el monto bimestral es de 6 mil 200 y 3 mil 100 pesos, respectivamente. Los depósitos ya programados no se cancelan, solo se difieren, pero quienes dependen de este ingreso para medicamentos o alimentos deberán ajustar su flujo de efectivo. Estos cinco frentes exigen rigor institucional y datos duros para entender el pulso de México.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Las últimas 48 horas de Miguel Ángel Félix Gallardo en un hospital de Guadalajara",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El Buen Fin: Policía Cibernética del Edoméx ayuda a detectar páginas de internet falsas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Pensión del Bienestar se va de puente: ¿Cuándo reanudan los pagos y a quiénes les depositan esta semana?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Cae en Jalisco Raptor, ligado a masacre en panadería de Colima El Pichón",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Clausuran carnicería y suspenden restaurante en Tampico",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Lamenta Cruz muerte del periodista Francisco Álvarez",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El R2 sigue inconsciente: su audiencia se aplaza mientras cinco de sus escoltas enfrentan cargos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Esperan Bárcena y Ebrard llegada de Sheinbaum a China",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Disputa EU-China: embajador Ronald Johnson acusa a China de \"inundar\" México con \"importaciones de bajo costo\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Presupuesto de Egresos de la Federación (PEF) 2027: Claves de cómo quedó el paquete económico",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Operativos de seguridad en Jalisco dejan nueve detenidos clave y tres presuntos criminales abatidos tras captu",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Hallan muerto a periodista mexicano en ciudad turística Acapulco",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Gabinete señala a El Raptor, detenido el sábado, como autor intelectual de multihomicidio en Colima",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Murió el narcotraficante Miguel Félix Gallardo en Hospital de Guadalajara",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Muere el narco Miguel Ángel Félix Gallardo, el Jefe de Jefes, a los 80 años",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZDYtM19FRG1Tbk9teEY3U3RvVFhvOEVHbjE0emsxVmk2bmJXb1cybUs5NWlUZUhnWWoxbl94QV9HVFlJS0J4YlhINTluUXN4NWhiajBScDY0Q2ZPSEJWZ1daSFpZVUFWbkYxSHVlRVh6LXVSOUxBclJzY05zTmdrOWJqOHNuclZBb0poNGNmMHp6emc5VW1nNWhJNGUwOGgxV1Rfd3lMQnFNeFlyNmVDc3Y5c3hPUQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum ya viaja rumbo a Shenzhen, China, para acudir a la cumbre APEC",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlhSGdoVDZETl9HYXozYmRWMWV1Qzhpb3V5Z3FZMEIzTlJOVlBEaGpNNTkzc2NoQmVmbFh5V1ZQZmhxd3QtMTBqOEFPX3llLWJDSnF2Y0ZRR056M3hHdmpYVy1rb3BlSDBVbURkQ2RHRVVyWEVCdE5pSVRlNXozSWQtV2ZsN1ZVY1BWTnpuMFdyZnRzblg0WVFGUWIySDhDa3pBME1nNGt3UVg5YmdjZ2E4VFZNejM1NjAyVURhaW5QY1E?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Asesinaron al periodista Eduardo Flores Salado; hallan su cuerpo en Acapulco, Guerrero",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaFRTYVdSNVpFcUhuM2ZWVS04V2NPUDFWY3hZUkxXWDBjWjRGMTUxYnRuMm8wcXZxT1liaGZaTzFwcWd1bS15MmZSRS1rTGhGNDNxSW4xVEk0QW9wM245eC1UZ09PWGxYcEJvWGpKZkI5UVM0OVAtRW9LWDhHdXZKQjBwRTdtT3F4TzFrUGtiMHREcWVIT294RWc2dHdrLVMxNlY2NHJOdDdjMklOVkxqLU0zSkpkMHRfbm53RFNHS0NJa0RxZXdPQmNhV0s4Vjljb0hETw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Diario: 'El País se está yendo al carajo'",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeE5wWWloVmtSVFg1ZGVJak5QT3I3SDdjdFczeG5mbVNGWGp2Sy1xMURXbE9odXdoeUpCNGxyaFBUS200dnJSZ21zNjBlTzVzakpjaHRsUk9STU5XNFRQU2w5QmhsTkFXd2huR1VSOS1DYXdMelZqeWZhRWp1TUlBT0hST1MwNE5Pd3Qw0gGQAUFVX3lxTE9FTUlETUdkUTZwMm81UTdxUnNBanZnQmRpMlk1bVdRRG1BcjdqS2dIM2w5LTcxdlNlV0hWMlZaU21vVWRxbGFMdzhDeXVFSXRieE1VcEJVM3dNaTN2SWN3ZWl4X1NGU1RET285bDlyWkZTMERjM3dQcF9pTUZ5U3ZEZ3Q4MU1NSjZEZlNkaWJONA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: SEP responde a denuncia de Dylan, niño que acusó exclusión en encuentro con Sheinbaum: esto aclaró",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUUx0cFVnQkRPMDl1Q29WTEhBZ2ZpbmQ5MmhaWk91WlpjRVcwSlB4QlI2Q2JtSWwxSlg5UGgydUFwX1ZfcnhtZDRJZlpXVV9sQzlCZ1REMFJ2NjlzLUdvbTVoSXpuakNvRGRWVEJUQnlXbFJZOWYtdlNOWWNPRThScjZNdWpSVUlySWxkejVRM290MGxlaXh6YVNVSW1XUnFvUUZPOGFVeUJBa21LUU9sTlBHQWQ1bzhTcGp4Nzk3dlJwa0t4a05xbU9zUmJ3NWM0ZGlpNG1B0gHwAUFVX3lxTFA2QzFONDVMYzdNWGlmclBZX3djMGVzQk1BeWF2aGNab0cwUllDaXNqUi1LU1AxbFBVckhPTEwxVDhSLXZsSGg5alFRRlZWaUpfYTFDbF9wRlBldjdLbGxIRWZEMnE3YjVnb3Z1SjA2WmQ0a0dXWDQ2QUJrYndmSFBpYzdsWXEyQVhLeFZDdDVNU3E3b0gtbEVBZUk4bkIxTnhTMHdPMzNyVWM4WFRPNnRuUWhTaWdDc0VpZW1rYnEyUHY0aHhsSXVPdnlmV21JOElSdFhWVmJYcGh2WmpTUWRoZTQxSnpqNDlpSVNJblhHYQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Capturan en Guadalajara a 'Raptor', jefe criminal en Colima",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSmt1M1Ata2FmaG1LVUNQLVQySTRWNjNKNXBSelJuUWxqeFdSV1ZodnhINGRzZVROenNIazBQY0dSd0lXZXFKdjJMU1g0Z21wQlVrckNrZnFRWkVRd0hMOGJRNUVWWmlpT1RsR25GUE5LTVB5T0hfcEl3ZHpnSkMwMG1WZ0ptQ2YxblBHdk9Ba3hnWERa?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Ambito: Banco del Bienestar alerta a adultos mayores que reciben la Pensión en noviembre 2026 para que no pierdan dinero",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcTJJdlQ0em4xcmFPV2Zmalg5OTF5OEtXenV6VkwtS3JkZGxVYWdpdi0xVHptblhBRzRmRVhkR3RQQVFWTmpBZmRHREhOVjZvMUhLRkdfQVZQZkdVaTdNU1lIYW9Hd1ZZcVVsWXNHTHFVa0I1UHYwaG9VWEtZWDVmUjFIWkNJS3VycndBX25WZHVPWDdqOE85YzFUVXZmVjMxc3BkQ0lmcDZOMzdiSjB5a3NkQlMwX0ZOVDNKdWJ2TmRZci1wYTlxVlh0RjVyREZya29SQ1FlYzFSdDdBVTVRejg3YTPSAeoBQVVfeXFMUEdBTzJHOTdXQnFudWFDbHRHS0JPck93Z05STlNIZHlHMGpfSlVWa3ZGbnVfWGZDdDMwNlFjZ0syZy1yYmdKbDlZcjVtYzd4M2NiTXRtc18xVWNsZU5lWVdsR0RIQXNzcHdKZE5NWFJMNVBJWmQxX1hEY3BKSkpXdUhkWVNkQ2tiZTROVDNWWkhmekp0WERZOFc1U0tYZzVpaXVMYjNjRHJhMXNMeWg2Y1dCQ2xpZmc1RDZXT3RIQlpNaVI0NVRJSVdhZWt6Qkg4bGowUEZlVUZUZ283X213aTVWcTMzeWpqMkN3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: Detienen a Liliana Anel “N”, por presunto abuso sexual contra su propia hija de 12 años en Naucalpan",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLVpvdmlsOU01ZUNGa01rcE9EV3RKZXBSd1NIVzFJN0xpYnNwN0o3VGM5bmxtS1hrTW5RdjYxQmd5U2NhbThiVGwxRU9CbVIwTmwxTXdXbFZKZ0hValV4M3k0UGhTbThQZ3BfRW14ejJXMHRKSUw5bGxaVkN4TGpGZzBsZXlXNVNUWWM4NzNEN0hydElJWGgxei1naW96dkJ2YWJHMmh1dzFQbGZhaFNCNEtkR0pvUGFabjh5WFlSWVdleER1c0l4S0htY2xvUVNNM0xIZThlb9IB8gFBVV95cUxPNDVLR3hjLUg0bUFLcUxsR0FXWmJWMS12SUtiYllJdlJxejQycDJNQWp3MEZfbDJtd1JzejU4RmJfUW9nQURlcER3dkZmUG1fT3F3Zll6ZG83RFo4Z0tXTTJLck12bnhoQjBJQnNPRmR3ZEZFY2dDbnd0UUJEeXBmblpUcnh6TWVPOVZCZFhJRDlLTk5HSXRHMlNCandqNnBfRS02QTBoTHlQRFdteFZZNmppZXRFczRoSzFadklHRkdobndZeGRtNmFpZEtPcnZBeHRGZUN5cXJrSnBISVpCeXNPTlhrQzc1VkVKSk53b1ozZw?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1794783607484,
+    "fecha": "2026-11-15",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Metaphor: ReFantazio llega a Switch 2 y Microsoft regala 25 juegos de Xbox con PCs Windows 11",
+    "descripcion": "Atlus confirma el port de Metaphor: ReFantazio para Nintendo Switch 2 con mejoras técnicas y contenido adicional, mientras Microsoft lanza una promoción que incluye 25 títulos de Xbox con la compra de nuevos PCs con Windows 11.",
+    "narracion": "La industria de los videojuegos vivió una jornada de anuncios que evidencian las estrategias de expansión de dos gigantes: Atlus y Microsoft. Por un lado, Atlus confirmó que Metaphor: ReFantazio, su aclamado RPG lanzado en 2024 para PS5, Xbox Series y PC, llegará a Nintendo Switch 2 con mejoras técnicas y contenido adicional. La decisión responde a la creciente base instalada de Switch 2, que supera los 20 millones de unidades, y a la estrategia de Atlus de expandir sus franquicias a nuevas plataformas tras el éxito de Persona 5 Royal en Switch. El port promete aprovechar el hardware de la híbrida para ofrecer una experiencia portátil sin sacrificar calidad, aunque no se han detallado aún las especificaciones exactas ni el precio en México.\n\nEn paralelo, Microsoft anunció una promoción que regalará 25 juegos de Xbox a los compradores de nuevos PCs con Windows 11. La lista incluye títulos como Halo Infinite, Forza Horizon 5 y Sea of Thieves, y estará vigente hasta el 31 de diciembre. Esta movida busca impulsar el ecosistema de gaming en PC y competir directamente con Steam, que domina la distribución digital. Según fuentes como Fanáticos del Hardware [VF6], la promoción aplica a PCs nuevos con Windows 11 preinstalado, y los juegos se canjean a través de la aplicación Xbox. Para los jugadores mexicanos, esto representa una oportunidad de acceder a un catálogo valuable si están considerando actualizar su equipo, aunque persisten dudas sobre la región y los métodos de canje.\n\nAmbos anuncios reflejan una competencia por captar usuarios en un mercado donde la portabilidad y la suscripción ganan terreno. Mientras Atlus apuesta por llevar sus RPGs a más plataformas, Microsoft utiliza su ecosistema Windows para atraer a jugadores con incentivos tangibles. La falta de precios oficiales para México y Latinoamérica es una constante que los consumidores de la región deben monitorear, ya que las conversiones y impuestos suelen elevar los costos finales. Además, la promoción de Microsoft podría interpretarse como una respuesta a la creciente popularidad de Steam Deck y otras alternativas portátiles, aunque no se mencionan planes de hardware propio.\n\nEn el ámbito competitivo, Dragon Ball FighterZ recibirá una nueva actualización de balance para PC y consolas, según PC Master Race Latinoamérica [VF8]. Los ajustes buscan equilibrar personajes y mecánicas, un movimiento habitual para mantener viva la escena competitiva. Aunque no se detallan los cambios específicos, la comunidad espera que se corrijan desequilibrios persistentes. Este tipo de actualizaciones son gratuitas y buscan retener a los jugadores activos, especialmente en torneos locales donde el título sigue teniendo presencia.\n\nEn conjunto, estos movimientos subrayan la importancia de la retrocompatibilidad, la portabilidad y las promociones agresivas para atraer a los gamers. Los jugadores mexicanos, atentos a los precios y a la disponibilidad regional, deberán evaluar si estas ofertas justifican la inversión en nuevo hardware o si conviene esperar detalles concretos sobre lanzamientos y soporte local.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos México: Llevo 22 años jugando videojuegos con doblaje latino, y creo que esta es la mejor localización para México: pertenece a un shooter tan controvertido como amado - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "todojuegos.com: Metaphor: ReFantazio desembarca en Nintendo Switch 2 - todojuegos.com",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Tarreo: Jugador de Forza Horizon 6 sigue manejando junto a su mejor amigo fallecido gracias a su Drivatar, la IA que aprendió a conducir como él - Tarreo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Las pantallas de inicio clásicas vuelven a Xbox por su 25 aniversario: así puedes activar la animación de la consola original en Xbox One y Series X/S - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Este juego de Xbox 360 me obsesionó cuando tenía 11 años: trece años después, así se siente volver a Fabletown en The Wolf Among Us Remastered - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Fanáticos del Hardware: Microsoft regala 25 juegos de Xbox con la compra de nuevos PCs con Windows 11 - Fanáticos del Hardware",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Shrek 2 ha vuelto a los videojuegos, pero la nostalgia no es suficiente. Los jugadores no están contentos con el remaster - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: Dragon Ball FighterZ anuncia una Nueva Actualización de Balance para PC y Consolas – Teaser Trailer - PC Master Race Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Nintendo cometió uno de los mayores errores de su historia al aferrarse a los cartuchos: la decisión de Hiroshi Yamauchi que le hizo perder la generación ante PlayStation - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CineMedios: El control original de Xbox: tamaño, disposición y aprendizaje - CineMedios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: GTA 6: Rockstar Games revela cómo aprovechará el poder del PS5 Pro - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Output: Nintendo vende 5,2 millones de Zelda: Ocarina of Time Remake para Switch 2 en solo 4 días - El Output",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2hJR2MyZ2hzNzBzSGFNRkxaSW1YQVVLclI5RHEtUUVyVGlGYUQyT0ZDY2ktLTE2OEpucEpEZkdWbWxIUk12Yy02NUNLLWJGWlBURnNGcUE4UG9SVXBzaVpkLTJfWXlTOGNmUkxadmxodWttZ0x1QjZzOGxTZzlVSHlVZ1JvblVDXzYxckFDdkd0M3ZFalJNM0NwWkVhd3FxV2dfdTVFZjhqMU8tQ3oxeGpMbzBiamZzTmVrZDVISnRndXRyN1o00gHMAUFVX3lxTE4zNTNlNVB4X3BGdHhaUDV1VnEzc092NEpPY21GbmlYMWtjUDlsd25xSUVoM3o5TzZ1WEIzMW10UnRFcnJCWklTQVpqUUowX0xaTkd2bEEzN3ZJbjNiR2IzS3Zna3ROSURnYjRLSm01Qm50SFRFMkV3OVloa2l0TkIzLTdPMWo4d01IY1h6SGVraDB2Z0E0SXlmaHQ3dWREUkZDeVNFb0tobkltWDhhaXp1QzNXTE9JaHFEY2pDR2M0eW9HYzBPTlBOTnFfOQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Sopitas.com: 25 años de Xbox: cómo una consola ayudó a transformar la industria de los videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqUllqSWQzcElEQWMxTl9admVHcU1BQS03LV9ra0QzSGtSYkVWT0oyRTkyN3VxYXMtU0NIMVphSGtnekQ4NlNPdll1ajgtSjhEb0NlX00wVWRXeW5VelIzWkJ4VTMxTVgzdkNUdnFPdmp4dw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: El exjefe de Tekken no se corta con XBOX Series S y la critica delante de un directivo de Microsoft, pero CD Projekt RED encuentra una ventaja en ella",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVHhFS3R4UVdvT0hZOEF6U3lNbV9MZGYwWjlBd1FTVS04TVBjckk3b0JqaEE5bGc4czlEb0NuOV83Y0FMeGYtQUVHd1BfdTRLYWw2MHZLMnRqWHNNck4waXNZb1RaQWNzRWg1MlFGbzJSY18zaTlwY0ZqZmk3UGNyaW9JaEFPcWx6YTNHWkJQVDlvd3owRkhOaHNFbTQ5TmxuTDdONUJLN3ZPSVdnYVliMjFkeUhPMVRZR1h3b003UFdMT3NLVkkybWQ4bE5yM1pLejlXUmdsMkdCb0ZYWW8yMGlvVVhKY3JIamYzNjQ0bm12M0lR0gH6AUFVX3lxTE5WUVFsQ3A0SVlBTTNhVFllWWxBWHZWcDZEYnRMeE9GWlMtWE9FZWlfdWQ1UGwtY19GZG5Ya0d0QWNMOHFudFJLTUlYWXFMdkdZUUZ4RGJTVUN1cC1ZMjJGZDZKWTlJcGF5VGNiZUxmc2NRd3huT0h4Uy1CeXNEdTFxZ0IweldTSjVxbWVQV1pXYlo4blJ4czJVQkVsemdORTJ5ZlZWcUZyWkVLWTRzVU12LWNNWWNIdzFsTXc3Nms1U05ReHZtVWRfaHpYbU1UMkdoRGtmMWVCbGhJRGhYcW9NYVM2R0stYnZ6b2psenFmNWwyektMaWttNHc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Novedades de Campeche: Nintendo Switch 2: promociones en Walmart y Bodega Aurrerá por el Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaTVsX29ydFREeHJKX3N3YzN4MTREQ192V09OZDM2TlVfLXk4VG9OMzl3VzUydF9aRkE5ekdrazdZZjh1X3FGUWd5SGZNNEVnY2hwQmROM3RwZ2p1bnYzbUxMdXJGam83RkFnNFpZZXplTUFYdVR3akVmMFB4am5zQ1JJeFJTYU0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Xbox Playback: ya disponible el repaso estadístico a toda tu historia en Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkRlV1NZQXZsbmNweWxZdkFzLVd6WkhNWVVvRFlDX2VQVEZ5cE1mMndLLW45LVVSUThuYUpMMWFRYU41SmYzQ0w5M2RTRlRhSGZ3TVY4cy12c3VhVU52dkZPa19YcjU1SkdTcnJwZW8yLWRRX2RpOEtNSHRkNkdxX2ZCaE5Gc3FCZlE5UUdYckhFZm9lcElFdUY5cTdHSTJvV3ZFYnJlWm0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "HobbyConsolas: 5 grandes joyas RPG para Nintendo Switch y Switch 2 que han bajado a su precio mínimo histórico",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWDNYY3RNbUVDZHJqVU1iOE83RldmcER3ZGZEMXB6NGxpR1FnY3BOeFNwNVZBLXB4bmZTTnlObF9XT2Z1QTBCTVdOQkpDX1N3SzFUVEd4VXdCMEdXWGNITVk2UFhaZnJQUnpJY0lTSEVqb19tZE9aZFJZTmtUU21HazF6X2RSS3VuRzVIYUZ4Nkh2YzdkNm53REhzN1lnNEdUMUhWcUlDZy1paEo3VHJrV3IzaC1JLTAxTEdkcEpHLUhrZkV2RFhEa19PQm9pdU1IdXhZYi1oZ2ptaW4yRy1Xb1lR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: 6 juegos más detallan sus debuts en Nintendo Switch / Nintendo Switch 2, incluyendo Blood Dungeon, Volcano Princess y más",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYjRMZ0JPYU1NTW9XdjJURlVYd1lXbmJsX2w1ckR4SUZXRXdHeVU2MC1TQkd4c0VaNEZOYVNPdDJkNmZOcFlYRW9oQll3dDdLMzdwVDBmaF9aY090OXg0aFBmaC0zTVI2SHYzb0dRcFp6Z1ZkQ0dJRDljSk5xWWY5bkotckRPZ0NUMUREbjBhdkRGRnRiZVF5dEs1V0VNeHdtN2s3d2xVWE5pdzZuMWN3eVM1SjVDdnVxRVdadEoyY0lpQjBiR2oybm9pQVdJNktETkliU21wSjlwSDVxNnh4X21jN0lYc0ZBdWJUVi1QSUg3SEZZWG5B?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "DiarioBitcoin: Xbox Helix será una consola capaz de ejecutar juegos de PC, asegura Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbE9ibW9CWUl5dDJZbWFYXzlYQzJkVE1Fc3RSeVg2MzJHTXhCSUFvMkQtbWdhNmtJODBsS29CWXRfMnRlOGNxZnRRODdNSThJVUF4bXlVNXc0YWwzMDYyS1djZHlWaFRFLUh1YmNrME1LVmtUWWQyWlhGcy1DUWJOWlZTQklBV01yYWFtbVRtaTh0SHRrWDRRQ25NaTM2QnJaaHdlcWRfYXlqSkEyVzRmN3JVeHU3RkdBYUE?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=MymxHiqj2ZE"
+  },
+  {
+    "id": 1794769206753,
+    "fecha": "2026-11-15",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Apple Intelligence en China: soberanía digital y control algorítmico",
+    "descripcion": "Apple obtiene aprobación regulatoria para llevar su IA a iPad y Mac en China, bajo estrictas reglas de seguridad de datos y auditoría de algoritmos. El caso evidencia la tensión entre innovación global y soberanía tecnológica, con lecciones para México.",
+    "narracion": "La Administración del Ciberespacio de China (CAC) ha dado luz verde a Apple para integrar Apple Intelligence en iPad y Mac dentro del territorio chino, según confirmó la prensa especializada este martes. El acuerdo, alcanzado tras meses de negociaciones, permite a la compañía de Cupertino operar sus funciones de inteligencia artificial generativa bajo un marco regulatorio que exige que los algoritmos sean auditables y que los datos de los usuarios permanezcan en servidores nacionales. La aprobación no es un cheque en blanco: implica que las respuestas del modelo estarán sujetas a las leyes locales de seguridad de contenido, lo que en la práctica supone un régimen de censura gubernamental sobre las salidas de la IA.\n\nEl contexto técnico es relevante. China ha venido endureciendo su regulación sobre IA desde 2023, con normas que obligan a los proveedores a registrar sus algoritmos ante la CAC, someterse a evaluaciones de seguridad y garantizar la trazabilidad de los datos. Para Apple, cumplir con estos requisitos ha supuesto adaptar su arquitectura de privacidad, tradicionalmente basada en el procesamiento en el dispositivo y en servidores cifrados fuera de China. La compañía ya fabrica la mayoría de sus dispositivos en el gigante asiático, pero la gestión de datos de IA es un terreno más sensible: Pekín no permite que información de ciudadanos chinos salga del país sin controles.\n\nLa movida responde a una presión competitiva verificable. Huawei y Xiaomi avanzan con modelos propios de IA integrados en sus ecosistemas, y Apple no podía permitirse dejar el mercado chino —su segundo más importante— sin funciones de inteligencia artificial. La aprobación llega después de que la CAC bloqueara inicialmente el despliegue por dudas sobre la seguridad de los datos y la posibilidad de que los modelos entrenados fuera de China introdujeran sesgos o contenido no permitido.\n\nEl impacto para México es indirecto pero aleccionador. Mientras China impone condiciones de auditoría y localización de datos, México carece de una regulación clara de IA y depende de infraestructura extranjera para servicios en la nube. La lección es que la soberanía digital no se decreta: se negocia con capacidad técnica y regulatoria. Las PyMEs mexicanas que usan servicios de Apple o de otros proveedores globales quedarán sujetas a las políticas que esos proveedores acuerden con cada gobierno, sin que el Estado mexicano tenga voz en la mesa. El caso Apple-China demuestra que la tecnología ya no es neutral: es un tablero geopolítico donde las naciones imponen sus reglas, y quienes no las definen, las padecen.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: God of War Ascension ya tiene multijugador online en PC ¡Kratos vuelve a jugar en compañía!",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Un extraño objeto en el espacio aviva la teoría de una sonda soviética",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Mario Kart World podría llegar a PC con un proyecto independiente",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Apple Intelligence llegará al iPad y Mac en China: ya tiene luz verde",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Uno de los juegos más adictivos de 2026 recibe su mayor actualización y sorprende con tres grandes novedades",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Super Meat Boy Again+ Reconstruye Más De 300 Niveles Desde Cero Para Su Regreso A Steam",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Liverpool rebaja casi $4,000 el Motorola Edge 70 Fusion resistente al agua con batería de 5,200 mAh y lo deja en menos de $7,000",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Lista de celulares que se quedarán sin WhatsApp desde el 16 de noviembre de 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Ghost of Yōtei ya corre en PC a casi 60 FPS con 4K, FSR 4, FG y Ray Tracing gracias a un Fork de KytyPS5 - Guía y Video",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Super Meat Boy Again+ anunciado para PC con más de 300 Niveles, Nuevos Gráficos y Música de Danny B",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: God of War Ascension ya tiene Port Definitivo de PC con hasta 5K, FSR 3.1 FG, Ultrawide y más – Guía y Video",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Descarga gratis el port para PC de Astro Bot sin emulador, el primer exclusivo de PS5 que supera los 120 FPS con DLSS y mantiene todas las funciones d...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Norte: Demanda madre justicia; pudo morir mi hijo, dice",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1dkaU80YW9fRS1Fakp5Q0o1T05LenZfYXJ3RjAxMkIzODNjMGFPTmxlQjlWNUdKaFVhVXJERFg0WS1vU19GYVJXWEo0MnRoMU84bl9mUGt4eXYxMEpPN1gtQmlMc2pLMHhoNmt1cWVudmtIcmR6MENJNFR6NDRjV2FwMFhkQmc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Pueden rastrear tu celular por anuncios? Así funciona Webloc, herramienta creada por exsoldados de Israel",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLTc5a2ZlVGphc0hTOWs5T0VZVVNlZGo0WnBHM25rbzZrT2hsaDQ3Zi1zSmxramIxNW1aeU4waGlVcE9FSC1BQ05yMUJMd2l2U1drcHVCT3hldGV5STBnY2RhUW9STUUwQ0xDM2VDWXRFWWtNOTIyaFpVSDVXY0JvUmpYbVhKcDdWemEtdlozSl96T0xPV2ZJY1ZQMzlsNThCQ2dNOTZ3eG9UbjV4QWZ0aTNpQjdjampUamlPX1NPUWVYTi1KS3NwTElaaFZ4RDE0T1NfVTA4c3c0NExud3RhRVEydFp3cmM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "GBM: The Idea",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tcjVuUXhQd3NZVWFPWVFxZVdjeFRfZ1BoV05WZDFrbnFZNGNjRE0ybTh0UTlSM2lGMTNPNUVkRWZobnRHRm8zUE9USlBMc0pEQk96bXcyY3ZyV3ZJTkY3Ql9Xd3QxNWFweGxmMFVncW4?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Hay riesgo de una crisis financiera por Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ2lvdFFJZHN6TWh1aW4taXdrejV0QllFcUo0eFFVaHJ6cTktQ0ppbEU5NklXc3hGRUJYRTV4djhzdXQtbGxZRVdfR1BSTGtpTUtfdVJlUlhaMUFfdHVmSW10SWVFXzdEbk5sdG9NUWpDNVkxWjJ2dFlqT3lKU3I0eWRjYVFoT1p5UzRsRmZ0V2N5REJ1Zk5kQVc2VVo1S1BfZ1ZUWmE3MWRSUmhnVUZfdUl5UlR4Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Chips prohibidos de Nvidia terminaron en centro de datos ligado a Alice Huang en China, revelan documentos",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOX1NBSE9IM2dicks4ZWt3cnQxRXVkZlVSaDhreXVVSUY4aFdvUDRfLUFRckQ3VWtEVjFsOUQ3SURTTFJjNTV4N0EwQlk1eGo4akdOaEVCVVlaampqVVVWRTV4cmhrWWFqUi1UeDhWLVppRk5Dd0dIb1oxenFKeU9rYmVPTGlKZWxhWHM4eGJ1emdEa2Ffd0Y4aDdFdHFwQkw4TElYMU9OVlFMV3NBMUNySi1aNktLQXVlNmVQOFVkcl9McnFuNG00WGNucnZLZGlFSjBuSjZ4ZTY5Y052SVU4M2ZGTElfTzg?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: Se fueron a EE.UU. para desarrollar sus carreras. Ahora México busca repatriarlos para recuperar mano de obra calificada",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU0pGOURqY3RDVzd5UlRKaUE3NHVudl9uaWZXckplMkNRYmNZSTVuNVJON191QmpyUkg1OE1HM0gzSnZQUm1IN2tTYzVwcXdQc28yNnR6QXk4VnZaOUEtdm1OeFBqaVBDbTh3UTNqVFExN1dsY1RYckNYV3V4SldKN0hUWXJkb0Y0V0pCbGt5Zlo5Mzd1LUs5LWk5NA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El concreto ya no será el mismo",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW05NjVQNlJtc015eEdlT3M1eWtKcjF5TTdrcHgwaEd4QWw4Wm96aWF5RTdXWkNKM2o1MXVCR1F4eGVhR19oUnFPTjlfVjE2UjRoUnhpdlozcDdfVWg0NEF5bmRMZlFoTVhTVXlpcDhJeEdNN1RxWUE1bEx6b1M1QUFFV2YzRHJmazdWNFJfdEZUeVY4YmVrMzMxcXBRcDE3OEFLUU0ybUNUWUdULTRnNw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Informador: La verdad es que no saben qué sucedió",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRlI5cURwMjg1ejdJYUZRYzVuNTBDdTNDZURrbExES1p1cFpGTWVVakxTc09Ha0RFY2psbE5NMjUycGVFOEdRWGxUcHBnWlJtODB0UGlQdERvYmRyYWpBS3JOY0V2YzZwanR0WmF2RVF1UnAxWUc0STZwY2dOZFV1d1h2dWNzMkhJWWM5elNPSWd2d9IBlwFBVV95cUxNRThyckpTclVKNVI1cVNQdXRJbDVTLXpSZG9xREpNRVB3U2RLQURIUjh3OWg2eXR2N1ByRlNzazhhZ19kbFowdUhMUHcxMnMwZS1xWkYyOEN5WHhjR05kUmdSbnZBRHF5b1I1bnRDVnV5X0JuT2tQS1JIVjRyZlVCd1JYdDRPaEJyVy1sSG53MHVxYW55YzFr?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=RidCLtoPCV4"
+  },
+  {
+    "id": 1794765606024,
+    "fecha": "2026-11-15",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Eduardo Yáñez denuncia extorsión con IA; Roger Waters enfrenta divorcio millonario",
+    "descripcion": "El actor mexicano Eduardo Yáñez presentó denuncia por extorsión telefónica con una grabación íntima falsificada con inteligencia artificial. En paralelo, Roger Waters enfrenta en Londres un divorcio que pone en juego derechos de autor de Pink Floyd valuados en 300 millones de dólares.",
+    "narracion": "La industria del entretenimiento mexicano y el ámbito legal internacional observan dos casos que marcan precedentes en ciberseguridad y derechos patrimoniales. El actor Eduardo Yáñez denunció ante la Fiscalía General de Justicia de la Ciudad de México un intento de extorsión mediante una llamada telefónica en la que se simuló una conversación íntima con inteligencia artificial. Según la denuncia, el grupo delictivo exigió dinero a cambio de no difundir la grabación manipulada. La Unidad de Delitos Cibernéticos ya rastrea el número de origen, y el Código Penal de la CDMX contempla penas de hasta 12 años de prisión por extorsión agravada. Este caso evidencia la creciente sofisticación de las redes de extorsión que utilizan herramientas de IA para suplantar voces y generar material comprometedor. La Fiscalía capitalina inició una carpeta de investigación, y se espera que en los próximos días se soliciten órdenes de cateo para identificar a los responsables. Para la comunidad artística, el caso subraya la urgencia de protocolos de ciberseguridad y asesoría legal especializada.\n\nEn el Reino Unido, Roger Waters, exlíder de Pink Floyd, enfrenta un proceso de divorcio tras cinco años de matrimonio con su esposa. Los documentos presentados en el Tribunal Superior de Londres revelan que la separación implica la división de bienes valuados en más de 300 millones de dólares, incluidos los derechos de autor sobre el catálogo de Pink Floyd. El contrato de la banda con Sony Music asciende a 400 millones de dólares, y las regalías representan el 60% de los ingresos anuales del músico. La renegociación de la administración de estas regalías será crucial para el futuro financiero de Waters, quien deberá acordar con su exesposa la titularidad y distribución de los ingresos por derechos de autor. Expertos en derecho patrimonial señalan que este divorcio podría sentar un precedente sobre cómo se dividen los derechos intelectuales en casos de separación, especialmente cuando involucran catálogos musicales de alto valor. La industria musical observa con atención, pues las regalías de Pink Floyd son una de las fuentes de ingresos más estables del sector.\n\nAmbos casos, aunque distantes geográficamente, comparten un denominador común: la vulnerabilidad de las figuras públicas ante delitos digitales y disputas contractuales complejas. Mientras Yáñez colabora con las autoridades para desmantelar la red de extorsión, Waters deberá renegociar no solo su patrimonio, sino también el legado de una de las bandas más influyentes de la historia. La crónica de estos acontecimientos será seguida de cerca por abogados, fans y medios especializados, pues las resoluciones podrían redefinir estándares legales en México y el Reino Unido.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Roger Waters enfrenta una nueva separación tras cinco años de matrimonio",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Autoridades de México suspendieron concierto de Gabito Ballesteros. Luego lo arrestaron",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Así celebró Lucero el cumpleaños 25 de su hijo José Manuel",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Samadhi Zendejas reaparece junto a Gabito Ballesteros tras su arresto: \"Gracias por estar\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Famoso galán de novelas Eduardo Yáñez denuncia que intentaron extorsionarlo con una llamada íntima falsa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Listos para volver a Hogwarts? HBO muestra una escena icónica de Harry Potter",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Rosalía arriesga y sale victoriosa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Alejandro felicita a su hija Camila",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Johnny Depp regresa a los cines con «Ebenezer»",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Andrea Valdiri estalló tras las críticas por vencer a La Divaza en ‘Stream Fighters’: “Investiguen”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Es oficial: HBO Max publica una primera escena de la nueva serie de 'Harry Potter' y todos dicen lo mismo en las redes",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Robert Farah aplaudió la fortaleza mental de Emiro Navarro tras su triunfo en ‘Stream Fighters 5’: “Lo que te propones lo logras”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reforma: Indaga FGR a Gabito Ballesteros y otros 4 por arma",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLV9rRFR6U2tvTGdxc3lyTHVtM2tKWHhibmJJLXFBTXo0V1RpQUpmaEIxWjdDSFNkcDQ0M3hhV1p3bGsyTDNwV25ZTlpuYlNielRzS1lRSDlZUUdyalN6OUJpUllrc3dGZVdJZF9RbF8tU3RsMUlyRzMtczcxT2hnUTUtOGxQY20yU2lQUA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Cumple Karol G su sueño con Thalía",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoMHJxWHhEejhNa2ExY2RHd2FLczlHVFNmUGZ3RDFwaTJYSmEtUHVYR29fMER2Ni1uY3U1ejVNZzFkSVFsaG83Tjl4aXkxU1I5Rjc1OHpubVNhem9BMXlkMzVmNmlITzVIUWE3U1hmOTlleTdDV3ZR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Revista Merca2.0: Tributo a KPop Demon Hunters llega a CDMX este 21 de noviembre 2026 con un show en vivo, cuánto cuestan los boletos y dónde comprarlos",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNald4WnZ6NkpxeFM3NC1ZMV9URVBoNXFiLTZabHNTQjlvamlqbzRPbFdLblBQRzQ4ekthUUFOUkxNdlk5STkyd3BlZEFkdDBQczJ6M1JyZHpKWHI5TWFMbnRfV281Nnh0NWl6RUQtcE5IVVpWVjg4TWlrajVOUkdpWWZSbGk3aWJ3T19BekM0aHZ1VHZfR1VidGxsLWhGbWJ5OWU2Rl9BWF94SHZta1NmMS0wakVVcFpRazl6OFNzVXlnbU1sUHV6MkgzUHJGMHQ1RkdWZ3FOaURRUmxYZ2ZyOTBUbXRTT2toZHZpcmxzTQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Sin Embargo: Garbage ofrece noche de rock a más de 90 mil personas en el Zócalo ¬ FOTOS y VIDEOS",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRmhxdUotWTd3SHpqYko1dHBzcjF0LWZtbUl6T2Vhbk1aM2oycFBHSkUydm1lSXFreXZDbDFMQlhBbUFYcERaeV9qTTJ2VGRuSEo4Q2FxZFlUdjMwdEhnQlhQMkc0ZkIwakY0dGtCWU9WY2xQRkFNZ2g4Mk9EOWtkSlBIdnRTUVVRWTQ3ZTlDaS1qT0V5ME9oWnFiVG43S2JDMWotamRBNEMtbExwbDlLQjJ5YTdpelhsaHc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Universal: Chayotubers viajan a China",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbE84SE5iaENtSFI0dnlBdm5GY3ZBWVBudENpNmJQWjdLdkptZGoyTExvXzJpVXRHbzZFSlpIbG1zSEtOdm9yVllyUzJialhpbDNNTTlOVVZGcGpmTjhMUWNRV3BHWWNYS00xRHNhTFhKOFVuREJEQ1F1TzVlZ3hLZE5ZdWNSUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Rosalía vuelve a agradecer a Paquita la del Barrio por ser la causante de la composición de La Perla",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaDljM0NlY09DQ1Z3OUh5M3VZTjNyLXRuZDBreUNxbDc5UWxJUGdSaTBCYUF2ay01djlUTTFUdzhxb05rVVA0T1V6MVRBeTFPRmw4cEFrempmUXNpMnZXSDNzZHdpZDFwVmxtS0FBeE14WnVHNk1uSnVpMGVDRTdGQ3JLWHFsVFpWT1otYlpKTEVjQUNUMUdKZWIyWWJrV2k2bXFTYkw0NEdjM0gyd2NldGw4VjNWWTE3Y3JINTFHSnBudE94eTA1dkRMS2VNbDRnVVplTDR0OGRfQmPSAfYBQVVfeXFMTXUwT184ZnhCQWNVc3IwOFVMd2MtZXZHX2QzZ2hTM2ZoelpiTFg0ZjVLU1hYZ2ZXNFI2d0dmT3A4SlQxN2picmhqV2VVaEFMcUJSWUZxVGxNVXpwejFpb1VHVGFVMl9HSUNZODY2cGx5R3MzTXlnRjl4dnJBOWp4bXlCWXYwZ0dGUVU2MEpPbHlBOWtLc1FDUWpCdFJyYi1tM3QwY3VDOHdCdDVFWFB5TldoUFFwYmtob3VBRGdwekU3Unl5VDFURjFSaEJFTzl1ZDlWMEVVOGZFRTI2Ti04dVBNNzRsaDZUOE9wSHlzcGdlZUZnNHJR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Majo Aguilar debuta en el Auditorio Nacional, acompañada por Lucero, Julieta Venegas, Chetes, Mariana Seoane y Zemmoa",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWEt1NTJhUGVQVkRNSXFWaEhsSkdaZjB1UFVGS0pXdFVva3cxWHJVXzdIaHVCc1dSYzkzSEw0aFQzUTlGVWhjYzhqYU1IZzU3NkRBVXRKZU1sb05rTVEzTlgzT2lKTDJEbjQtZEdpZ1d2S3M2Y00wX2h6X2ZHeFUtQmZsUUxURVRsdkdIMHhOSFJ1cEpUdnF2andYYVhESktfZm9QZThrN2NOZUlFZDZFLWVnM3lTWXpldTRhNkdCVS05bElJQjRhWEpmdERocWd0TEYxZ0ZNMzMwWGJ3VmtUcjZNSDRMVzVFZEtXaWpHTjZJcFhf?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: ¿Captan a ex de José Eduardo Derbez en pleno beso con futbolista?: circula video tras su ruptura con el actor",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd1RlT1BkUG16NWMtUlZPSjRYeGc4eGkwVlVVNGZPNWN4QVVFSGtEZDV4bk9IZWR4a0pvN2lMZkpEbzhBWDN3OVFvUlN5aURuOGM4WW92b1BmY0VZUlJ5MHFwZ0hRUHFwQnMycm1Wc2tHdkxVN3pOd2xZcmVPZmpwdWNZdzNNdTFYc0cwNzgyVXp3RkNwQnVYTUpYNnJoUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=3W5BpDkyIAg"
+  },
+  {
+    "id": 1794704406835,
+    "fecha": "2026-11-14",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Golpe al CJNG, 450 MDP en La Laguna y el grito de justicia por el niño de la mochila roja",
+    "descripcion": "Fuerzas federales aseguran narcolaboratorios del 'Tío Lako'; entregan obra hídrica en La Laguna; madre exige justicia por golpiza en la Prepa 22; senadora cuestiona cifras de homicidios en Zacatecas; Máynez critica selectividad judicial.",
+    "narracion": "La jornada nacional estuvo marcada por acciones contundentes en materia de seguridad, inversión pública en infraestructura y reclamos ciudadanos de justicia. En el occidente del país, la Secretaría de la Defensa Nacional (Sedena) y la Fiscalía General de la República (FGR) aseguraron laboratorios clandestinos atribuidos a 'Tío Lako', jefe del Cártel Jalisco Nueva Generación (CJNG). Estos espacios, utilizados para la síntesis de drogas sintéticas, representan una afectación patrimonial estimada en millones de pesos para la organización criminal. El operativo derivó de investigaciones de inteligencia financiera y se sustenta en la Ley Federal contra la Delincuencia Organizada, que tipifica la producción de narcóticos como delito grave. Expertos en seguridad advierten que, aunque el golpe es estructural, el CJNG tiende a reconfigurar rápidamente sus operaciones, por lo que la desarticulación de estas cadenas reduce la oferta de sustancias adictivas y golpea las finanzas del grupo, pero no garantiza su desaparición inmediata.\n\nEn el norte, la Comisión Nacional del Agua (Conagua), en coordinación con autoridades estatales, entregó una obra de infraestructura hídrica en la región de La Laguna, con una inversión de 450 millones de pesos. El proyecto incluye la rehabilitación de redes de distribución y la construcción de plantas de tratamiento, beneficiando a más de 200 mil habitantes de municipios de Coahuila y Durango. Esta acción se enmarca en el programa de infraestructura hidráulica del sexenio, que prioriza zonas con estrés hídrico. La mejora en el suministro de agua reduce costos operativos para la industria local y disminuye el riesgo de enfermedades gastrointestinales, impactando positivamente en el bienestar colectivo.\n\nEn la Ciudad de México, la madre del menor conocido como 'el niño de la mochila roja' exigió justicia tras la golpiza que sufrió su hijo afuera de la Prepa 22. El caso, que generó indignación en redes sociales, expone la violencia escolar y la lentitud de las autoridades educativas. La Fiscalía General de Justicia de la CDMX atrajo el caso e inició una carpeta de investigación por lesiones dolosas. La Ley General de los Derechos de Niñas, Niños y Adolescentes obliga a las escuelas a implementar protocolos de prevención y actuación ante la violencia, por lo que el caso sienta un precedente para exigir consecuencias legales y reforzar la seguridad en los planteles.\n\nEn Zacatecas, la senadora del PRI cuestionó la discrepancia en las cifras de homicidios reportadas por el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública y las autoridades estatales. Según la legisladora, mientras el registro federal muestra una tendencia a la baja, los datos locales reflejan un incremento en los últimos meses, con más de 50 casos no contabilizados oficialmente. Esta inconsistencia pone en entredicho la veracidad de la información y erosiona la confianza en las instituciones, además de impedir el diseño de políticas de seguridad efectivas. La Ley General del Sistema Nacional de Seguridad Pública obliga a los estados a reportar mensualmente sus cifras, por lo que la discrepancia constituye una falta grave.\n\nFinalmente, el líder de Movimiento Ciudadano, Jorge Álvarez Máynez, afirmó que 'a Gabito Ballesteros lo detienen por cantar, a Taddei y Rocha los protegen para que no canten', avivando el debate sobre la imparcialidad de la justicia. La declaración alude a la detención del cantante y a las investigaciones pendientes contra funcionarios electorales. El marco legal invocado es el principio de presunción de inocencia y la autonomía de los organismos constitucionales autónomos. La repercusión política es inmediata: el pronunciamiento busca posicionar el tema de la selectividad judicial en la agenda pública, en un contexto donde la confianza en las instituciones es clave para la gobernabilidad democrática.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Resultados de la Lotería Nacional en vivo hoy, viernes 13 de noviembre 2026: qué números cayeron en Sorteo Superior 2904, Melate y otros electróni...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: EN VIVO | Bloqueos, accidentes y manifestaciones hoy 14 de noviembre: Se restablece la circulación en Avenida Juárez",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Mamá de “el niño de la mochila roja” exige justicia tras golpiza afuera de la Prepa 22",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Impulsa pintora tabasqueña el surrealismo choco en el Festival del Chocolate",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Entregan gran obra de 450 mdp en la Laguna",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Aseguran narcolaboratorios de 'Tío Lako', jefe del CJNG",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Senadora del PRI por Zacatecas cuestiona discrepancia en cifras de homicidios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: \"A Gabito Ballesteros lo detienen por cantar, a Taddei y Rocha los protegen para que no canten\"; Máynez se lanza contra la 4T",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tras el puente bancario del lunes 16 de noviembre, la Secretaría de Bienestar reanuda depósitos de hasta 6,400 pesos y activa la lista de apellidos ...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: FGR investiga a Gabito Ballesteros por presunta portación de arma de fuego tras detención en Querétaro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Se inscriben al Servicio Universal de Salud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Inauguran en Tulancingo la Muestra Textil y Artesanal 2026 con más de 145 expositores",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Ley Antimemes entra en vigor en México: hasta cinco años de cárcel y multas de 1.17 millones de pesos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Exige madre justicia para su hijo tras riña afuera de la prepa 22",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El cantante Gabito Ballesteros, arrestado tras cantar un corrido en Querétaro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Reforma: Por cantar 'AMG', Gabito Ballesteros termina en la FGR",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd20ybmVxTy1DWVdlZWo5OXpJUWQ0b2NycG94RF9BTlNFREhIT0pSUEdfM2ZUNkVpWWFOQmk3N0dJQXZQd2l1bUgwNEMwV2JiVC1tcU5IcTJfUXJhM3B1bFRJdmMxczZaRUFHU3VWcWM3TldLLXJMcjJ3WEtKdkhfdWFoc1Z3NW1uc3FmRTZ3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Capturan en Guadalajara a 'Raptor', jefe criminal en Colima",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSmt1M1Ata2FmaG1LVUNQLVQySTRWNjNKNXBSelJuUWxqeFdSV1ZodnhINGRzZVROenNIazBQY0dSd0lXZXFKdjJMU1g0Z21wQlVrckNrZnFRWkVRd0hMOGJRNUVWWmlpT1RsR25GUE5LTVB5T0hfcEl3ZHpnSkMwMG1WZ0ptQ2YxblBHdk9Ba3hnWERa?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Trasladan de urgencia a Félix Gallardo a hospital de Guadalajara por problemas de salud",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSFZHT0lxWmhmNE1rWUVvcmlpZnhqT1lXUlZjbzg1LVBQdUVraVVpSmNKU0dFcUFmS3BTbHMxem1iekppcFRYY2NQaU1adkpwSy0yQ21NU0RId00tTEY2WVo3Q2hXUGZDTTBMc2JUelJSOS1GYlR3dktKWDVnYk5YeHV3UC1wbDA5dFdxV0diMWxaM3h3T25iZXR1cGwyLV9BUmctOV9TUktRcFJSdmpJRG1UOTJfOXRlSmxCLVd4WWFBSkdsWHVFVThoa19tMHZRUWRaQzVnazM?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Los cadáveres que Morena no quiere ver, escribe Azucena Uresti",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS2ZXZVJqbWxnS3ZuS1pnZlNMQmNkSUdjY0VPbkxjajJpSlJDNVhEd0EzZVFzdllJbXk4ZDhVZEdEV2UzVmE5N0RweHQ3bXZxQlFPUHBJWEY3RVc2UHZSalNZOC1QVTBEVlJKRVIxeTRTbU1BSE1ZVnRjakdSckpBVU9rTTdVTnpMQ2ZQeGtYQ2dEU24tWnlIYQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Se les pierden 5 mil homicidios; llega subregistro a 17%",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSERfQXpicDlhcVZNUVhiak9SMWw2UjdrUnFsam8ycGRGY3BPbC1NaU5sRzNWazU4TVEzNFZ3QjhHVUlBbVkxUkhURVNmakJqVlY2U3NQU0NEcVVUS3NhdkZaOGl0Zm9SX0tCSTZRekpMbWNscmQzTjNURVdoWlhxT2dTdkhwcDJwVTg1QUZrZ2gzQjBCNzFtOA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum: llevamos a cumbre de APEC visión del bienestar común",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdmExZ1oyZk4tOGdQRzhXa2poZk9TcFplWW5zRVFtOUdCWFRmelFIUEp6YnJsaGg4czFsWWlCdEVkTlBmejROdC03c2p3RzlHQjRQMmtuemhQSkIzRzJSRWhvcGppMkFoZUJhNFZTQUNiSnBGMGt1NmZ6ZmZ1RVRfNFBvakJKU1luUzNxZ0JnQzRZV2xGWHU1X0NkbjNsXzBZeFVWX01aQTFPLWZyNFhWWk5PQ0djelJJRURIa3R3RGh4RjV1WmhINktKZDN1UWtkVDJhWld6YW9NYU5JbEotMHRNeE41ZHRGUU5EZjhCay1JWWgzT3c?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Sin Embargo: Marchas y conciertos hoy 14 de noviembre en la CdMx: ve las calles y zonas afectadas",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeUNSRWo5VDBzbUZ6WjJwYm1VYVZNMzZxbm1SVXZwYS1nWWFjd05fSlZIQi1HQXVncEZ2M05VaGxldVNvWV85Y1czbjdJa2c1ZF9lNzBOeEdsS1czOFdFYzZRN0pGcXBreW9EN2czNm1zWm5NVHlyOEp6UUw5aVgtWUdCUVZWSS1HOWMzWXU4aDNGNjdhUktBOTQyUURvR1VKMlowUHJIVDF4Q0tXMF95SzFBd1IzT3dwOGc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Ensenada activa operativo de emergencia por fuertes lluvias; rescatan a hombre atrapado en Valle Dorado",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNEhGaEhINFdtU3NoendwMzJtUy1zc3M3UllFdUZHZDFHQmpqMHBXSFItLUVMQU5lWHdTY1Q2U01hVjloQ21GNkZ4dGh4WGVUdnktd0ZKUWE0US1nRGs5ZE04Z2JTMnVoUDhDOEZ6dWtwR3hEZGxTUWlLSHNsQ3Vmd184TzFqS0JVWXdZMG01R3RmQ3dNVUVCNWRHeVBjTkJJZElJcU05SVhuamlDNDNpeW9sb0MtLVVGY3pBUHhPWEhfN2NQMl9NNnVXeE5WZ1lpRjRqY1lvLWpzRVJG?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1794697205444,
+    "fecha": "2026-11-14",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "UE regula loot boxes, Valve mejora Steam Deck y ataque a InXile",
+    "descripcion": "La Unión Europea prepara una regulación histórica contra las cajas de botín y micropagos, Valve añade estimación de FPS a Steam Deck y un sujeto armado ataca las oficinas de InXile Entertainment.",
+    "narracion": "La Unión Europea ha puesto en la mira uno de los modelos de negocio más controvertidos de la industria: las cajas de botín y los micropagos. Según el plan impulsado por la Comisión Europea, se prohibiría la venta de loot boxes a menores y se clasificarían como juego de azar, lo que obligaría a las empresas a mostrar las probabilidades de obtener cada artículo. La medida, que podría entrar en vigor en 2027, afectaría a títulos como FIFA, Overwatch y Genshin Impact, y contempla multas de hasta el 6% de la facturación global de las compañías infractoras. Esta regulación busca proteger a los consumidores, especialmente a los más jóvenes, de prácticas que han sido criticadas por su similitud con el juego compulsivo. En México y Latinoamérica, donde estos juegos tienen millones de jugadores, las empresas tendrían que adaptar sus modelos de monetización o enfrentar sanciones económicas significativas.\n\nPor otro lado, Valve ha actualizado Steam para incluir una estimación de cuadros por segundo (FPS) en Steam Deck, basada en los datos de rendimiento recopilados de la comunidad. La función, disponible en la versión beta, permite a los usuarios saber si un juego correrá a 30, 60 o más FPS antes de comprarlo. Esto representa un avance en transparencia para los jugadores de PC, que ahora pueden tomar decisiones informadas sobre la compatibilidad de sus títulos con el hardware portátil. La medida llega en un momento en que la competencia en el mercado de consolas portátiles se intensifica, y Valve busca mantener la confianza de su base de usuarios.\n\nFinalmente, un sujeto armado atacó las oficinas de InXile Entertainment, estudio propiedad de Xbox y creadores de Clockwork Revolution, en California. El incidente no dejó heridos, pero la policía detuvo al agresor y la compañía activó protocolos de seguridad. Este hecho pone de relieve la creciente preocupación por la seguridad en los espacios de trabajo de la industria de los videojuegos, especialmente tras casos anteriores de acoso y amenazas. InXile, conocido por su trabajo en juegos de rol como Wasteland 3, se encuentra desarrollando Clockwork Revolution, un título muy esperado para Xbox Series X|S y PC. La comunidad gamer ha expresado su solidaridad con el estudio, mientras las autoridades investigan los motivos del ataque.\n\nEstos tres acontecimientos reflejan la diversidad de desafíos que enfrenta la industria: desde la regulación de prácticas comerciales hasta la seguridad física de los desarrolladores, pasando por la mejora continua de la experiencia del usuario. En Memexicanísimos seguiremos informando sobre cómo estos hechos impactan a los jugadores de México y Latinoamérica.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Ruptura360: Xbox celebra 25 años y lanza Playback para revivir el historial de juego - Ruptura360",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: GOG se une a Steam, Epic Games Store y XBOX para arreglar lo que molesta a los jugadores de PC, y también hay buenas noticias para Linux - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Revista Merca2.0: Razer lleva Honkai: Star Rail a cuatro periféricos gaming: Fecha de lanzamiento y características - Revista Merca2.0",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Valve sabe que te preocupan los FPS en tu Steam Deck y ahora Steam te dirá a cuantos cuadros por segundo te debería ir los juegos - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: La UE quiere meter mano a las cajas de botín. Su plan impediría venderlas a menores e impondría más restricciones a los micropagos - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendo: Hidden Kitten: Anime Waifu - Nintendo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: 7 juegos concretan sus debuts en Nintendo Switch / Nintendo Switch 2, incluyendo The Detectorist Guild y más - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: Sujeto armado atacó las oficinas de InXile Entertainment, estudio de XBOX y creadores de Clockwork Revolution - LEVELUP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Kotaku en Español: Strayward es como Minecraft con armas de fuego: el nuevo juego de supervivencia de Steam ya tiene una demo gratis - Kotaku en Español",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "iXBT.games: Tras 19 años, se estrena en Steam la remasterización en HD del juego de estrategia «Ancient Wars: Sparta», creada por un desarrollador ruso - iXBT.games",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Zelda: Ocarina of Time y Grand Theft Auto: The Trilogy lideran los tops ventas del momento en las eShop de Nintendo Switch 2 y Nintendo Switch (14/11/26) - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: Marvel’s Spider-Man 2 y más videojuegos de PS5 aprovecharán QSSR - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2hJR2MyZ2hzNzBzSGFNRkxaSW1YQVVLclI5RHEtUUVyVGlGYUQyT0ZDY2ktLTE2OEpucEpEZkdWbWxIUk12Yy02NUNLLWJGWlBURnNGcUE4UG9SVXBzaVpkLTJfWXlTOGNmUkxadmxodWttZ0x1QjZzOGxTZzlVSHlVZ1JvblVDXzYxckFDdkd0M3ZFalJNM0NwWkVhd3FxV2dfdTVFZjhqMU8tQ3oxeGpMbzBiamZzTmVrZDVISnRndXRyN1o00gHMAUFVX3lxTE4zNTNlNVB4X3BGdHhaUDV1VnEzc092NEpPY21GbmlYMWtjUDlsd25xSUVoM3o5TzZ1WEIzMW10UnRFcnJCWklTQVpqUUowX0xaTkd2bEEzN3ZJbjNiR2IzS3Zna3ROSURnYjRLSm01Qm50SFRFMkV3OVloa2l0TkIzLTdPMWo4d01IY1h6SGVraDB2Z0E0SXlmaHQ3dWREUkZDeVNFb0tobkltWDhhaXp1QzNXTE9JaHFEY2pDR2M0eW9HYzBPTlBOTnFfOQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: Hidden Kitten: Anime Waifu",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYVlEVjgybFdJSFlIdXhqWV8xV1RtcUtQRE8tQUJ4TGZGOGkzWktQQUJpdmtQOFl6U3JJVzdlY0JMZ1kzU1ptTXlZTEZyQUVOMS1qR3liakp6SWoxUGMtbnVuMHdac0o4Zm1mRHFUZ1RxQUlqWVNlMkhlOU9PU05fZjAyd2xvUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Zelda: Ocarina of Time y Grand Theft Auto: The Trilogy lideran los tops ventas del momento en las eShop de Nintendo Switch 2 y Nintendo Switch (14/11/26)",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNMzE3WlVCZUJLQ0NZUmdvSldHSFNIS2JXM28zbVAtTC1KWGdPZ3lGOVNPMV9NZXVKd3JhUFJaNlAtQVgtRHBsQzg1Sms0UmdkSWJLSm9RUGdMZmkxNkpyY1lRTzY0M213VE5pbnFyTHpUMlNKUzFlOFhhd2xoMklEd3djWFROQUlqQ3EzbkFaUjRpX09fWHFJWDlYZHFMaGpWU29IY21QeWpsUnYxOGZER3F5TkExMzRwc0pLcHR1YklQaGhDNHhLdTZTQTZTZktNUFdqSzNBUmhqTUh4OHJQeEhtS3pTQ2VraTh1UEtVUXIxMlBHaFdrOUpaN1pzTkRjbjE0TkxxcUlVS0QwMUxUS3pKVk8xeUZBN2RKbFZhMWppQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Informador: Así funciona Playback, la nueva herramienta de Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc2hDSTh2UmNBcHJNMXE2b09iSVZtSk5WdGd3UmxvLVgteXRFSmh4cXlsU29RZlozYkpELU45S0UzYVFLVjlaZnNlbGR0WGtSOU1TSU10YXM0TVpMenUzZmFObE1tLVIzOTRqWFM1RWotRTlOdHhJeGRwTkxTMmpQTTg0cmNIcVhUM0N0dmR0bXl4aC1SenExazRkOVFPWU9wU1lremhNQ2d5UdIBrwFBVV95cUxNU0dLVzV3NENUb1pVN1l5VVhHOURqWDlRajQtbVphUkxmdkw3akZScXBvWDJMcWxaRTdUQnZSeUFzNEY3QWMwMHNiZW03NmdPVldFNm1kVnphYS1vTnpjdkRGdEs5Y21SS0MtemE0N2lReDB0dk9HcWNLSTF6b2M1T0t5RHdheEQyWmFiOV9Pa1JoVUpVTDhhOEhENlVhaTJzNmVSdUZRRHBrS25Oc0Mw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Xbox Playback: ya disponible el repaso estadístico a toda tu historia en Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkRlV1NZQXZsbmNweWxZdkFzLVd6WkhNWVVvRFlDX2VQVEZ5cE1mMndLLW45LVVSUThuYUpMMWFRYU41SmYzQ0w5M2RTRlRhSGZ3TVY4cy12c3VhVU52dkZPa19YcjU1SkdTcnJwZW8yLWRRX2RpOEtNSHRkNkdxX2ZCaE5Gc3FCZlE5UUdYckhFZm9lcElFdUY5cTdHSTJvV3ZFYnJlWm0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Ruptura360: Xbox celebra 25 años y lanza Playback para revivir el historial de juego",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX05WQ1JmZUl6TjhhVUp2b2VxMVF5SGtYSUJId3AzSFRMQlhVbUxNRGNSRGctM0FnU1AwNW05UkRGV1JJTHlPcl9OTFFQZmNPMlIwLW9NRzZfTUFqbU8zTEJrT2toRnZuRm81TURPUUFHVllFWDZkVU9Td01uOHlCdA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Xbox Playback, un resumen para comprobar toda nuestra historia a lo largo de los 25 años de Xbox",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdnNLeXBiNmphbXV2TnUwTUxtQ3lTUnFOMy1yak1oeGNNdHJqMFhxVFZTa3hnTVRGMDJOc0diMmpkVllBZWZrTVZCSjNaYUJ6S0ZJNTFDby1waW9zWFF1S21Pdnp1ZlpzU1BWSm4wWTdUa09kcWtxQVRTbGp3YUVzU0o1akhKcEZRY1BXYWg1a20xTnlxRnhXSklGdllTWHgzOHMwWUZLNXh6TEFCZmlWVEtQWDE4LXpHWUlxamhLRWlZYnRLRU1pbGs4clU1cHVKU3dKYzlUTG5EQdIB7gFBVV95cUxONTVCQkV2M1RUbEtPWkFHUkZ3LWVzNUJBT0wzallRbm9yN0lOMTUyOXJyRW1RWXh0RUhhQ0QzLUk0ekpwVEUxWklTV1FtNzNzTHlYbHI2emhfd0t1UHdGellDTk90cjVmOVZ0aHZ1S0N1RHdvOFkwZm1mUThRajN1SVd0T0hadFNKalNoTnVyVkRwaEwwRDFJWjFpcTk0eW1qeWJxMEppV0syMlA4QnBMSS1fZldjQy1BeDExbGgyMHd1WllEaU11Q2dONkVsUFVMOFRWamFDTmZIUjAtVnlDTng4Q21FMDBsbzZHcUlR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: XBOX Game Pass quiere cerrar 2026 a lo grande y ya confirmó estos 5 atractivos juegos para diciembre",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcGtnRTBTOUtpZFRGa2lYdVJuV2FUck5pak5KYTZLY1huTFdPOE1aaHVjZDVuZlJKbmZ3VURaOUxxYlVHM1NlRlBQdDQ0TDNic1JrTXljV2hkMGZlVlhVZWgwVnlWVGtsdnZhdWl6elJWWW11ejB5TUpwbzEtWXE2Z2tBdl9lbWVvM1h5d2x3MzZMMW1ibVBiRHdobHZwT2xuZk54RGlDSDJzd2o0X1N6RUhRbUQwYl9uOHpycTFmRXlwNllYY1hRTDNERzNBVDA?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=a2E9osT6eYk"
+  },
+  {
+    "id": 1794682806126,
+    "fecha": "2026-11-14",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Zelnick decreta el fin del disco físico y Take-Two acelera la transición digital",
+    "descripcion": "El CEO de Take-Two anticipa que los discos serán un nicho residual en la próxima década, mientras en México la venta física cae 18% anual y el gasto digital crece 12%. La concentración en plataformas como PlayStation Store y Xbox Marketplace redefine la propiedad de las licencias.",
+    "narracion": "Strauss Zelnick, CEO de Take-Two Interactive, ha sentenciado que los discos de videojuegos se convertirán en un nicho residual en la próxima década. La declaración no es un pronóstico aislado: Take-Two controla franquicias como GTA y NBA 2K, y su postura orienta la estrategia de toda la industria. Zelnick argumenta que la distribución digital reduce costos logísticos y permite actualizaciones inmediatas, pero también concentra el control en plataformas como PlayStation Store y Xbox Marketplace, donde las licencias digitales no son propiedad del usuario. En México, la transición ya es visible: cadenas como Walmart y Bodega Aurrerá ofrecen Nintendo Switch 2 desde 6,369 pesos en promociones del Buen Fin 2026, pero el hardware se vende con catálogos que priorizan descargas. El impacto económico es tangible: la venta de discos físicos en el país cayó 18% anual según datos de la industria, mientras el gasto en contenido digital creció 12%. A esto se suma que Google y Samsung anunciaron una alianza para desarrollar lentes inteligentes y competir con los Ray-Ban Meta, lo que evidencia una carrera por el control de interfaces de realidad aumentada. La consecuencia es clara: el usuario pierde capacidad de reventa y préstamo, mientras las empresas ganan control sobre precios y disponibilidad.\n\nLa arquitectura de esta transición no es neutral. El modelo digital elimina la cadena de distribución física —fabricación, empaquetado, logística y retail— y traslada el valor a los servidores de las plataformas. En términos técnicos, esto implica que la licencia de uso queda atada a una cuenta y a un ecosistema cerrado, sin posibilidad de transferencia. Para el mercado mexicano, donde el mercado de segunda mano de videojuegos representa un alivio económico para miles de familias, la pérdida de este derecho es una consecuencia directa. Las cifras oficiales de la industria confirman la tendencia: la caída del 18% en ventas físicas coincide con un aumento del 12% en gasto digital, lo que refleja un cambio de hábito impulsado por promociones y disponibilidad inmediata.\n\nEl caso de Nintendo Switch 2 es paradigmático: su precio promocional de 6,369 pesos en Walmart y Bodega Aurrerá durante el Buen Fin 2026 incentiva la adopción de hardware, pero los catálogos priorizan descargas, lo que acelera la dependencia de la eShop. Mientras tanto, la alianza entre Google y Samsung para lentes inteligentes compite con Ray-Ban Meta, señalando que la próxima frontera de control no es solo el software, sino la interfaz de realidad aumentada. La soberanía digital nacional queda en entredicho: sin discos, no hay reventa, no hay préstamo y no hay conservación fuera de los servidores corporativos. La causa es verificable: decisiones ejecutivas como la de Zelnick, junto con incentivos comerciales y promociones, están reconfigurando el mercado mexicano hacia un modelo donde el usuario alquila, no posee.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Strauss Zelnick anticipa que los discos serán un nicho en los videojuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Desde 6,369 pesos: Nintendo Switch 2 ya es más barato en Walmart México y Bodega Aurrerá por las promociones del Buen Fin 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Google y Samsung se unen para crear sus propios lentes inteligentes y competir con los Ray-Ban Meta",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Metaphor: ReFantazio ya está disponible en Nintendo Switch 2",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Un misterioso objeto espacial está acelerando hacia la Tierra y desconcierta a los científicos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El telescopio espacial Euclid sienta las bases para cartografiar el universo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Starship navega en órbita y SpaceX mantiene el objetivo de capturar la nave a su regreso en un vuelo de prueba inédito",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Zelda y la crisis que casi acaba con la fórmula clásica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Strauss Zelnick (69 años), dueño de Rockstar, sobre el futuro del formato físico en los videojuegos: \"Será una parte muy pequeña del negocio\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nave de SpaceX podría cruzar el espacio aéreo mexicano este 14 de noviembre: Seneam y Afac",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Starship de SpaceX entra en órbita terrestre pero descarta captura del propulsor",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nintendo emociona a los fans al decir que una querida entrega de Zelda para 3DS está disponible en Nintendo Switch Online",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: ¿Pueden rastrear tu celular por anuncios? Así funciona Webloc, herramienta creada por exsoldados de Israel",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLTc5a2ZlVGphc0hTOWs5T0VZVVNlZGo0WnBHM25rbzZrT2hsaDQ3Zi1zSmxramIxNW1aeU4waGlVcE9FSC1BQ05yMUJMd2l2U1drcHVCT3hldGV5STBnY2RhUW9STUUwQ0xDM2VDWXRFWWtNOTIyaFpVSDVXY0JvUmpYbVhKcDdWemEtdlozSl96T0xPV2ZJY1ZQMzlsNThCQ2dNOTZ3eG9UbjV4QWZ0aTNpQjdjampUamlPX1NPUWVYTi1KS3NwTElaaFZ4RDE0T1NfVTA4c3c0NExud3RhRVEydFp3cmM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "UnoTV: ¿Realmente hay ofertas? Algunos productos bajaron solo 109 pesos y otros subieron en el Buen Fin 2026",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVjROWUZpNnppbEQ2a203OGoxT2ZXN0pfejhwQ0RVT1FLQkFTdzRDYllKN1owTVNydkdKTy1pZ1FDc3FUZmI3amRyUTZTWVctTi1yOVh4cGZybThVSDBzSU1VemticzFPM0gwaUFWZU9ObWtFQnZxdVYxeGs1SGJHNGJuT01udU9TaGRZZlJXVGdjNkZTSHBfQjFyWHB2OGhoSjRpdU9TZk1FcjNlcjA1UjExdHlVbFFjTDdGSEphbDZYRU9NckJpRVp5S2d3VzBUTlZvX3E4M2tyZFk?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Seguridad Nacional de EU descarta que cancelación de vuelos se deba a una amenaza contra el país",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPa0pMTkF0YldxWExNSFp6UEpHTl9BbkpXbnBfa1hFX08yWE1nVVdwTjNra1J5WFZ1bUd6bm5qUFc3VFIySU1IMG9uY1Z3SUtnYzNtb1VpQXBWMWZ5RktkWnBFODNCZkhCLWNZeVFMRlYyTENHVTg2b0oxcFcyLW40VVA4akxLdDdjZlpMUk1Zb2FvMHkxV25McnZCNmRGR243bGN2dEFxa09FaWw3eWpaeDRZQ1RWWE00RUhiaXlBOFR6TEh5LW9NZEtIYVc0akpEcmNHVnRaSUpsQlZEMFE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Infobae: \"Soy un pedazo de mierda\": las últimas horas de Jensen Huang en Nvidia",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0lxOXRsVHJ3azk5SWxQMFpzLVVhM3F2cUhla21XS3gydnZYS3ZtTDY0TmVfbHUtOE5YUUVycnBEa2FIcmJTcFlDU1ozamF6V2FMOTJTTXBuZ21XTWxiWFVEajVoZlhKRlJxV1VfbXVJZ0RQRzN3Um14MGI5TDBFXzJ4SlZXZHVmaUNQQ2hOaXJLY1NzMXg4SGFHdEo4ZXhmU1ZWTzRhNlhQcU1pdklpMzA2bzIzZVgtSHfSAdQBQVVfeXFMTzY2Rmt5Tm5sVWRqUmNtZ3lrd2xOOFZLcV9ERXBiOHJLS080dDJvRktQZXlxemNJaUlndWVLVkJZblk1ZnpOTFVWUE41WExsdGRPUW5GdnRuZF9tVDk4eENfd3dUUi1mMG9icGRJdVRBcm52bkR1ZXNlblNtb056VzM2dlNVNmFqTnFCeFc3MnJfNFBRQ3dDdktrZ2JfdU5KTEJkSWJ3eFQzd1dVUWJYNVlicHBIUWMySEJPNFo1djlYMTZTZTMtTGdfcy13QmJ5SzdtWl8?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Qué se sabe sobre la falla global que afectó a Outlook y otros servicios de Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPUlliTGZ4Y2FSaFV2NUhjOC1VUG0xWXc2am5JMGphZDI3aTRLaTBjTURpaHg1ZUVxWl9aVjAxWGRLdW90TldmR0l3eXBnanl3eHpndHdEZm1qVE1E0gFiQVVfeXFMTjI5dHZTQ1lZMDdqRlRiVXVUS2NIdmFSbVIwb0dzeFVlbjZVWllaa01XMlZXbjBVR1MwSXlVeDZ3aHhOUjVmbzZmaUVfRy12QlZUZXkxaUpKNU9UcFpfSVdVM3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El concreto ya no será el mismo",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW05NjVQNlJtc015eEdlT3M1eWtKcjF5TTdrcHgwaEd4QWw4Wm96aWF5RTdXWkNKM2o1MXVCR1F4eGVhR19oUnFPTjlfVjE2UjRoUnhpdlozcDdfVWg0NEF5bmRMZlFoTVhTVXlpcDhJeEdNN1RxWUE1bEx6b1M1QUFFV2YzRHJmazdWNFJfdEZUeVY4YmVrMzMxcXBRcDE3OEFLUU0ybUNUWUdULTRnNw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: EU responde ante sospecha de drones sobre base británica, informa Fuerza Área",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdW1Zd0FrSmhfUmRiS1RudTZUUkpOS1ZhTEdrbjh4ZWdIekpQNDUtVkZPNmV6ekdXbXVoR1dzQkJwVWVKMjBNUG1pdlZxWVlUcXY5dTBGRHljcml3UjFEQ3Y3R0NlYy1HU3RwcUhmRnpKZk0yV0lNUGhuM0dvQkRKMTZVWU5pOXlvamE5cm5LQVlST05fTXNaVWZ6aDlQcTViUU5jS2FXdzZMeVpTZURtYi1POVJ4dUpqR3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Tu IA necesita supervisión. ¿Sabes qué le dejas libre?",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORjJ1c21aNWxYUUhnUmt3alZTN2NzZExJN0ZmYmxQS3MxXzRSazFhZXR4QlRlX295QUJGUmtmMjdjaGpXczdCdWE4amk4ajF4UHhrY05acTQ5Q21DdTRDWmpFWmRuRzQ2UE44UjBBakRzYjF2TDFtbFdkdjEyS2NEN2xOR2lRbFZHTVNRYzZVd1pGMDVvQkNWS1QtN0FWbUZSdy1vT1Z4b1lwXy1WQjBITmVQMnk?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=NllQkNHpqUw"
+  },
+  {
+    "id": 1794679207714,
+    "fecha": "2026-11-14",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Gabito Ballesteros detenido en Querétaro: FGR investiga ejecución pública de 'AMG'",
+    "descripcion": "El cantante fue bajado del escenario en la Feria Ganadera de Querétaro y puesto a disposición de la Fiscalía General de la República por presunta violación a la Ley Federal del Derecho de Autor al interpretar 'AMG' sin autorización de sus compositores. El caso sienta un precedente sobre derechos de ejecución pública en espectáculos masivos.",
+    "narracion": "La noche del sábado, la Feria Ganadera de Querétaro se convirtió en el escenario de un operativo federal que interrumpió la presentación de Gabito Ballesteros. Elementos de seguridad privada, en coordinación con la Fiscalía General de la República (FGR), bajaron al artista del escenario y lo pusieron a disposición de la autoridad federal. El motivo: la interpretación del tema 'AMG', cuya ejecución pública no estaría autorizada por sus compositores originales, según confirmaron fuentes de la investigación citadas por la prensa nacional (VF2, VF6, VF7).\n\nEl contrato con la feria incluía una cláusula que obligaba al intérprete a ejecutar únicamente material autorizado, lo que complica su situación legal. La FGR inició una carpeta de investigación por posible violación a la Ley Federal del Derecho de Autor, delito que contempla sanciones que van desde multas hasta penas de prisión. Hasta el momento, ni el equipo del cantante ni la feria han emitido un comunicado oficial, pero el expediente ya obra en manos de la Fiscalía.\n\nEste caso no es aislado. En México, la ejecución pública de obras musicales sin licencia es una práctica extendida en ferias, palenques y eventos masivos, donde los organizadores suelen confiar en que los artistas cuentan con los permisos correspondientes. Sin embargo, la Ley Federal del Derecho de Autor establece que es responsabilidad tanto del intérprete como del recinto garantizar la autorización de los titulares de los derechos. La Sociedad de Autores y Compositores de México (SACM) ha señalado en múltiples ocasiones que la falta de pago de regalías por ejecución pública representa una fuga de ingresos significativa para los creadores.\n\nLa detención de Ballesteros, uno de los exponentes más taquilleros del regional mexicano en los últimos años, envía una señal contundente a la industria: las autoridades federales están dispuestas a intervenir en tiempo real para hacer cumplir la ley. El precedente podría transformar la manera en que se negocian los contratos de presentación en ferias y festivales, obligando a productoras y recintos a verificar la cadena de derechos antes de cada concierto.\n\nParalelamente, el caso de Eduardo Yáñez, quien denunció un intento de extorsión con imágenes manipuladas por el que exigían 10 mil dólares (VF8), revela otra arista de los riesgos que enfrentan las figuras públicas. La Fiscalía de la Ciudad de México ya investiga el hecho como extorsión agravada. Mientras tanto, la industria del entretenimiento observa con atención el desenlace del caso Ballesteros, que podría marcar un antes y un después en la vigilancia de los derechos de autor en espectáculos públicos. La FGR tiene ahora la palabra.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Galilea Montijo, conmovida hasta las lágrimas por la sorpresa de su hijo Mateo; \"tu mirada es la de mi bebé para siempre\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Por cantar 'AMG', Gabito Ballesteros termina en la FGR",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: El Señor de los Cielos cierra su historia tras diez temporadas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¡Tropicoqueta, Bichota y chilanga!",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Depardieu renuncia a recurrir su condena por agresiones sexuales a dos mujeres",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Qué pasó con Gabito Ballesteros? Detienen al cantante tras concierto en Querétaro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Bajan a Gabito Ballesteros del escenario de la Feria Ganadera por canción prohibida",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Eduardo Yáñez denuncia que habrían intentado extorsionarlo con imágenes manipuladas: “Querían 10 mil dólares”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Con una navaja, adolescente habría amenazado y asaltado a Frida Sofía en CDMX",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Hermana de Michael Jackson queda sorprendida con talento de Christian Nodal: Ángela Aguilar y él le responden",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Difunden video de Gérard Depardieu tocando a una actriz",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: “Dragon Ball Super: Beerus” Capítulo 6: Hora confirmada de estreno",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Jornada: Karol G se pone \"Tropicoqueta\" en la primera de sus tres fechas con Thalía y Becky G de invitadas",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVmxpSTZGSW1BRjN0THpiNUdKRi1vQllKcnM4NFRvUUZydXhudjRGT2dhSUs0Zk9YazBIN1FMT0pRcDFlaHQ0SUlPM3VfVVdqenN5dlB6Qm5zU2JrUzB3WmxId19zRjYxQVlMaWVoLUpydWtNYjEyOWxaMl9RM29JX01PSmJHOXA3V2dlckhqM0JyeVBTeWp3am0walhtNEZ4V0ZBRGJlazJHbmdiN2ZEVFJtRDA4UVgzV3hWdkVCWk1hMjdQVllHQTkzQWdYb05IbHFVbVN0SDc0bWQ2WG5uTlVEOUJ2cDlLNVpHYjJnVkR3Uk9Z?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Bajan a Gabito Ballesteros del escenario de la Feria Ganadera por canción prohibida",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNzNwbEFOMl84dGowaFJRS3BHM05oUFVRT1RXdFc3M0x2WTdwYXZxUmdjRXlnQjdNaUhhSURxYVBUVlBMUDY5SFlDMTllUnRXU0ZKei1zLWRTaktZSEpDVzhwZnRfdnpKVHVHdk84QUs5RjJrdDFOdzloa3FKSmdjcTAyN0xlbzZ4Q1BZRDNlX2lRREotbWttdlpkZ2R1NHlLUUpHQU50YjJXRVBtT0hWbDA2M09LQkVxRi04NXdPa2gtcGZmVVNESWMxQUlIN2k2YUVjbFBhYw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: José Eduardo Derbez se refugia en la DJ Mariana Bo mientras Paola Dalay enfrenta acusaciones de infidelidad por un polémico video",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQNU02RndLdDlpN29QN3lReW1CMkU5TEFoeGFkUWtUeEpFTGtOYVJqbGF0dGYtdU12WnNpVkhLVktKV3hyUHR3bHpCYVhUOFRkV2RXcW1YcXN2amRSeGdfa3hueFFmU3JCRURPT09DMTFVWFFLb3BjZnJrLVdsR29rX1BVSlJQWDFnWUhPcDFJRnB0Q3BSYWhKRksyUEFhLVoxNlllLWoxNGFkNnl0c0laU1cwQnBOd0ZOQlZha1F1bVhQeHpxRm4yaUtrMlRNaFM3VFZwWk9XR1F2LXNOZ0NuczhLbWpNV2hTZWZpUXNLRmVLRTdtY1g2TjNVclUtbE5vcUHSAZwCQVVfeXFMTlN1YkdVYzd1XzJJSXhPeG9USjVFZFNnbmxqSjFiVlpLalExV1pyVXRuZHJFNjBOZi1uQkdqV1FRS19CS0RqdnlnZ0QyYVc4YlhrUDAyQzF1TUxIVmZEQ0NjQ2VaRi16LWlDbXdnSV85bDBLYWlncmRWNGpsdGs1S1dfU3JiMUdvaGwxcjcyeWtfRnFzTWxpLVdXd2ZJQTk0WDNWbGE0Wmw0Wmlrc2hHNzJGbkl3ZG1YRU45ZzVfV19XTklnV3B3M1lTUm9XUmtkS2pOOTl4NTJYRXBVX2t3OVJkVjNvNjNzYWZhcmFmMnZGYUtYMkNMS0tqMFNOM0UzZkdGeVpzc2hveFNYUnA0SWU0M002V2N3ZnZ2QTQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: OFICIAL: KPop Demon Hunters anuncia los PRIMEROS países que visitarán para sus conciertos, y confirman a los Saja Boys como parte de la gira",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWnN2cEtTSVI4dlg2RG1IT3NhWWlfdFJzVUlYcklvcl9yV0k4NkV1VHMyRXlVMTVpazUyaHhMR1dWeW1UZUNWckt0cV8tMlF4TW9qS29rYlE5QkZJbHVpSzZBcXZ6dnpEbjB3VnQxT0FuekZQUHM1aV9fc2JMSGhzTk9WeXhNUURabjR5LTloMzlRcEtyT1dqMjJtSWY4TlZfdUsyZXpneW1LZl9IeVZjVzFKTkpCQmFVRUNlMDZBQWxQZS1ybGZkeC1vV0dDd3ZqbndTQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Milo J se quedó con cuatro Latin Grammy: todos los premiados de 2026",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa1diZUNLVVlUbTEwZ29NSzRfdnRSeERaaUVwQS1GbnZwWUtUWndMbzNlSHVqemVSRUlxb1EtbkZ6UUFLSTMwLVV4Q1NLN3dQSGlGVFhSb1VwX28xSEJ6V2FFTmpnM3VqczE2Q09lQ3daMmdQYXFMWEppcXFOTnlqdEJ6b1ZRa3BRT0pxeW1TbVNTOVdfTUZ3dVY3eXk3QXhMN3c?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "López-Dóriga Digital: Murió Efraín Rosas León, actor de La Familia P.Luche; atravesaba crisis económica",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbkJ3MXJLOGk1Y2xNWC1DM2J4WWhweUQyTk5xbWxvTWVTUHpNXzF0V0k2dmdZdDV4ZzAzSG4yVUlZZlE4dmxVS2s5c0ZVQjZkM0V4Umxob0NDblhBT3lBdTRHdmhCRndDRWlxbDZjVlNCUTVST2RPZHFRM005eHVqQ083cEtRbkFrcm5PU3g0S0R2Zlg2U3JLQjVIUE4xbWU5elNNMGVjLWFYc0JpVFo5SWtRVEtIYTg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Crítica: el sonido de U2 se revitaliza en ‘Carnaval de Luz’",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVNpUC1fT1N4UnBxSVNLRUcxVTMzWDRGY0tqNm1FUEVrUXcxMGtQTjZHWHpla3U5TU82LW9lQzBvYmVqVkluUnkxZS1XY0J4QVR6aXJpVDJ6Y2p4N3hpMjdBeVdTaElJdTBoTWk2UUdaejV3Z25GUlJNdmEyZW1oTmtSa2JCRmlWallqdmN0ZmwyZXM?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: BUSCANDO UNA SALIDA Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZMVk2bHBPMl9KZEpyemZWTC11N3ZsZEFKQURjTWJ6Q2hRSGxxVlRpXzN0Z2Nua1EtTnVpQ0dRbm5jZmc3YkoyTUI5c1JBNUZkTjY0QlZhSDI0dmVE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=JXNOTKJqIiE"
+  },
+  {
+    "id": 1794618007183,
+    "fecha": "2026-11-13",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Presión al INE, golpe al CJNG y récord de El Buen Fin: el pulso nacional",
+    "descripcion": "Presuntas presiones para la salida de Guadalupe Taddei en el INE, abatimiento de seis presuntos integrantes de 'Los Aldeanos' del CJNG en Silao, y el arranque de El Buen Fin con expectativas de derrama superior a 150 mil millones de pesos marcan la agenda. A ello se suman el frente frío 5 en Chihuahua y la entrega de 40 millones de pesos recuperados por el INDEP para un centro cultural en Tultepec.",
+    "narracion": "La jornada informativa de este martes colocó en el centro del debate la autonomía de las instituciones electorales, la persistencia de la violencia en Guanajuato y el dinamismo del consumo interno. De acuerdo con la columna de Héctor de Mauleón, citada por medios nacionales, habrían existido presiones desde el gobierno federal para que Guadalupe Taddei renunciara a la presidencia del Instituto Nacional Electoral (INE). Taddei, quien asumió el cargo en 2023, ha enfrentado cuestionamientos por el manejo presupuestal y la designación de consejeros. El INE tiene aprobado un presupuesto superior a los 20 mil millones de pesos para el ejercicio fiscal en curso, y cualquier cambio en su cúpula podría retrasar la implementación de la reforma electoral pendiente y generar incertidumbre sobre la organización de los comicios de 2027. La institución también enfrenta impugnaciones por la redistritación y la credencialización, lo que añade presión sobre su desempeño.\n\nEn materia de seguridad, fuerzas federales abatieron a seis presuntos integrantes de 'Los Aldeanos', célula del Cártel Jalisco Nueva Generación (CJNG), durante un operativo en Silao, Guanajuato. La acción, encabezada por la Secretaría de la Defensa Nacional y la Guardia Nacional, buscaba desmantelar una red de extorsión y tráfico de drogas. Guanajuato acumula más de 2 mil homicidios dolosos en lo que va del año, según el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, y es la entidad con mayor número de policías asesinados. La célula operaba en Silao, León y Romita, y se le atribuye el cobro de piso a comerciantes y transportistas. El golpe afecta la estructura financiera del CJNG en el Bajío, pero evidencia la persistencia de grupos armados que disputan el control territorial.\n\nEn el ámbito económico, arrancó El Buen Fin 2026 con la participación de más de 100 mil empresas y una expectativa de derrama superior a los 150 mil millones de pesos, según la Confederación de Cámaras Nacionales de Comercio, Servicios y Turismo (Concanaco-Servytur). El evento, que concluirá el 20 de noviembre, ofrece descuentos y promociones, y se espera que genere más de 500 mil empleos temporales. La Procuraduría Federal del Consumidor ha advertido sobre prácticas engañosas y desplegado operativos de vigilancia. La edición anterior registró ventas por 120 mil millones de pesos, por lo que el crecimiento esperado es del 25 por ciento. El Buen Fin se realiza en un contexto de inflación controlada, con una tasa anual del 4.2 por ciento, y un tipo de cambio que ronda los 17.50 pesos por dólar, lo que favorece el consumo interno.\n\nFinalmente, la presidenta de la República entregó un cheque por más de 40 millones de pesos recuperados por el Instituto para Devolver al Pueblo lo Robado (INDEP), destinados al Conservatorio de Música y Centro Cultural de Tultepec, Estado de México. Los recursos provienen de bienes asegurados y ventas de propiedades decomisadas, y forman parte de la estrategia de recuperación de activos para fines sociales. El INDEP ha recuperado en lo que va del año más de 2 mil millones de pesos, según datos oficiales, y ha destinado parte de esos fondos a proyectos de infraestructura cultural y educativa. El Conservatorio beneficiará a más de 3 mil estudiantes de la región. En tanto, el frente frío número 5 azotará Chihuahua con lluvias, fuertes vientos y bajas temperaturas, de acuerdo con el Servicio Meteorológico Nacional; se esperan rachas de hasta 80 kilómetros por hora y temperaturas mínimas de hasta menos 5 grados centígrados en la zona serrana, mientras que en la capital el termómetro podría descender a los 2 grados. Protección Civil ha emitido recomendaciones y habilitado albergues temporales.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Héctor de Mauleón revela presuntas presiones para que Guadalupe Taddei renunciara al INE",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Abaten a 6 presuntos integrantes de ‘Los Aldeanos’, célula del CJNG en Silao, Guanajuato",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Enfrentamiento entre militares y civiles armados deja dos muertos y varios heridos en Jalisco",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Dijeron que proceso en Michoacán se va a reponer.- Morón",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Inicio de El Buen Fin 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Comercio no va a ser tema central en diálogo con Xi.- CSP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¡Regresa el frío a Chihuahua! Frente frío 5 traerá lluvias, fuertes vientos y bajas temperaturas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: PRESIDENTA ENTREGA CHEQUE POR MÁS DE 40 MDP RECUPERADOS POR EL INDEP PARA EL CONSERVATORIO DE MÚSICA Y CENTRO CULTURAL DE TULTEPEC, EDOMEX",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Propone senador fijar aranceles a EU si Trump cumple amagos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Prevén crezcan 6% ventas del Buen Fin",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tractocamión que circulaba en sentido contrario por la México-Querétaro choca contra combi; 13 heridos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Triple choque deja dos muertos y un lesionado en la Vía Corta; involucra unidad de la FGR",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Sheinbaum envía felicitación a AMLO por su cumpleaños 73",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Caída de árboles, encharcamientos e incendio de poste, incidentes registrados durante las lluvias en Tijuana",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Eran universitarios y tenían 18 y 19 años: así murieron Joanna, José Miguel y Rodrigo tras accidente en Edomex",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Sheinbaum, sobre la protección de Washington al fiscal que dejó entrar a la CIA en Chihuahua: “Está hablado con Estados Unidos”",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOemZHNlRqQldWNmpIMEFibERsN0RyaUZYMkN5OG1OTVYyUk4yVS1IX3dySTk4cWRHMFg1Y2VtOVlOY1RxekVEdUxmVWJqcUZuYktBZlN0bThXNm9BQVVZSkh0d0cyM2pwd2FlU0ZiR0hYWkx0V1RDUjM0ZkVnY0lfV180alAwTndEYVVJZ3BpTGpTdFhydzVUcXlEVXdmUXJTaE85Y2dMcV8wcmFUT1ItSzdFSXFGcFUzN2VkN1pJakFnVFZKQm5zQzBVLU1aVjNybjhybl9nVm1WVDR4M1RfNnJHUERCaDRiOURWY2QyZUV1Sk95alMxSA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum responde al zar fronterizo de EU: ni una caravana migrante se dirige a la frontera norte desde México",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNLWRWSWNHcE5INUh2OWM1OWNROXZDQUNvT2oyMW5qcUJWbk5mSFNiVERYdjJrOTYwQjFzaGlZcmF6QW92VnMyU2NDR0x4ZHJkMlRhSHlVczd2S081cGhPSGdwN2hWNlZnSTJVOThqay0wUnU3ZVRPUTc3c1lmQzByc2RON2xrdUNYc3dHMERWcXI1eVBuclRTNHBTbWExd3BrMHZKUnNBLTlUMTAwTkEzLTVFYmlMLWQyNGphdWVmaWdyc040R1VvQXp2azl1al9OUmVvY0RLVkRxa0Q3OGNNOUJTUVNoZUU1UmdDZkNDMlBlX2lYZm9oMA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: UIF descongela parcialmente las cuentas de Rubén Rocha Moya, gobernador de Sinaloa con licencia",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOei11a3Fka0F2LVFNOGxidVdlc0VwRlJ6dTh6VEN0STMwelQ4NVdHcWx6elEyUlhEdnd3dmVKYTYydnZTLUgwanNINl9oVmtIb09qVk45WnkwakwwZUtWSTVYWVFScmkya1haa0pnbnBxbmxfeEk4Qk1zdzNlMm56QUxFVzJKbHNvalA0R0tSdzQtX3gxSF9vMkkyVDZTb0tMa3RQY1JHVVR4cVo0OVBid0Q1QnVxdGJUOUljeFNBUlJaMi1HOGxZa1NmNHZ2enNLRTNNWF8xSkZGWENwenc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: El Meteorológico pronostica lluvias muy fuertes en zonas de ocho estados y fuertes en cuatro más generadas por el frente frío 5",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNU0lNOWFDWWVLQ3BkT05McHNKUjItQldKWk9nby10VWxzOVJoWlV6aE95UjFNTFI1R0JNaHlHcWdGVV9HT1Z5WWhaZE9pSnV5TDZSNnNWLUd5WDQyeHhqeWY1TmRmazU3VG1RWGlta2NEdXZkTGZpbkRuNUczU2w0d19ZQUhuenBSMUplalFSbE9nQmp6el9kY1Z5SFNvaklBTDFxbmtVZGM0eVEwcGY3QjY1d2Y1MmR5X2pGNWFGbkRZZUpLN0lKWWdJb0VUbGdJUWZOZHBUSGZCdXM4LUpZR2VNVG92Ni1mbmwwVGt5aWVfZldMOTFNTHYwZWQ5YnNNVVBBZGViMFBTMC1RcWc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Agentes de la FGR realizan diligencias en oficinas de la Secretaría Ejecutiva del INE",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbFhaOHJ2SUc5RFRaZHByNzh0X3NESTMtSDZpV21XVnNwQlVxNFZleU1TMXItYkx1SjQ0bm53LVFNbm5sRGswaEpvOW1EYnU4OVAwVS1kYkdUOGlGdFJBUWZxdlpld1NBelJOZ1BDYnRLS3l5Rk9qWnBvNmJDMzQ0VkVyYU80NzA4NndrYm9tbDFnd2JTc0pxbVp6Tmp1b2I3REhvallrSUl6c1oyWXFydWhoaw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Ataque armado en Silao: seis muertos y 13 armas aseguradas",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUExBZXRsdmdxYlhWNzVmZFJmQTk4X3pTdFVxa052WThCWC15QVFjUjB0S3J1aUJ4WUxkZHRtVGlkN2x2d2IydEQyWHhTSmRQZy10cFh3TUtoYnZlMDc1MVB1cE1pYVU5czZrUk1oS3dLcGFOTnEzZUxLaHM1NjRlWXlHSWZDUkw1Q0I0NVZjc3NaTkxBb21uMVJEMXpkTzQ2dEVxa3J0bjI?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum pide a FGR y ASF determinar si corresponde investigar a dirigentes de Somos por irregularidades en INE",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOeXl5MmhQYjhuSDdaaEFzYjFXdko0MHhHcEJhT3NJSTJod004M0NYNWQwTkcwS3pIdndfSS03RXR6ZF80QXU5d3AyUXdtRlBWbTN2U2NLVVlvbVVTd1VITGRRS203TldjTmZzZG5TdUZIQUUzT3ZBNjd3VjVJcFF4Qi1GSzJ4cjlOT0tnZUJTQU1aVDQwc2xiUk9GS2FVYzlYaWxVenZra3kxNlJ1SXhmTllKQ1l0bmNjR09oTVNvUzQtaHRyVlUwT3hyMl9zVWlHOU5uZThuQ0UzaGNNOHZkZTF3MHdDdU9zX21NcjV6WVE4MVNXV3pEejV2SQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: ¡Mañana inicia el FIG 2026! Conoce los horarios, accesos y recomendaciones para asistir",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHFtNnFoakcwYnlGLXc5TGxmbkc4R1owWVUxM2M4YTVrVklYUU16bGlKeXlnSDN4bnNrSDRTaWtpdFp4bWZTNEROQkxqbXo1eWdpYmx5UmhDMVBjb2ZTM05aUmc2b2JzcGVzTWJ1UkdrV0tyblRFOHU0MGRRR3NFUXpqdUVGbGtuS1BfcEhGRDJJZW5ING83R3IyaEYzb1JxRG1hV2ltT3g4LXdsVnJjanZrcDlNbW9mZnc?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1794610806101,
+    "fecha": "2026-11-13",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Xbox 25 años: Fable, Wolfenstein 3 y Halo regresan; 21 clásicos llegan a PC",
+    "descripcion": "Microsoft celebra su 25 aniversario con anuncios de Fable, Wolfenstein 3 y un nuevo Halo, la recuperación de 21 juegos clásicos para PC y la herramienta Playback. SEGA trabaja en un parche para Metaphor: ReFantazio en Switch 2 y DERELIKT llega a PC y consolas con estética PS1.",
+    "narracion": "La industria de los videojuegos observa con atención el movimiento estratégico de Microsoft en el marco del 25 aniversario de Xbox. La compañía confirmó que Fable, Wolfenstein 3 y un nuevo Halo forman parte de los anuncios centrales de la celebración, aunque no se especificaron fechas de lanzamiento ni plataformas definitivas, según reportó TierraGamer [VF3]. Esta ambigüedad, lejos de ser un descuido, responde a un modelo de negocio que prioriza la expectativa sobre la inmediatez: Microsoft busca mantener el interés en su ecosistema mientras enfrenta la competencia por servicios de suscripción y retrocompatibilidad. En paralelo, la empresa recuperó 21 juegos clásicos de su primera consola para PC, una medida que amplía la biblioteca de títulos históricos y facilita el acceso a un catálogo que llevaba años limitado al hardware original, de acuerdo con TodoJuegos [VF7]. Esta acción tiene un impacto directo en México y Latinoamérica, donde el acceso a consolas retro es limitado y costoso; la disponibilidad en PC reduce barreras económicas y de stock. Además, Microsoft lanzó Playback, una herramienta que permite a los usuarios consultar estadísticas acumuladas durante estos 25 años, como horas jugadas, logros desbloqueados y títulos más utilizados, según 3DJuegos México [VF8]. La iniciativa busca reforzar la identidad de la comunidad Xbox en un momento en que la competencia por servicios de suscripción y retrocompatibilidad se intensifica. En el terreno de las terceras partes, SEGA confirmó que trabaja en un parche para corregir un error en la versión de Metaphor: ReFantazio para Nintendo Switch 2, sin detallar aún la fecha de publicación del parche ni el alcance exacto del fallo, informó Nintenderos [VF6]. Este tipo de incidentes en hardware de nueva generación evidencia los riesgos de las transiciones generacionales y la presión sobre los estudios para entregar productos pulidos. Finalmente, el estudio independiente responsable de DERELIKT anunció su llegada a PC y consolas con una propuesta de terror inspirada en la era de PS1, sumándose a la tendencia de recuperar estéticas retro en el mercado actual, según kopodo [VF4]. Esta corriente no es solo nostálgica: responde a un modelo de producción de bajo costo que encuentra audiencia en plataformas digitales. Para los jugadores mexicanos, estos anuncios representan un doble filo: por un lado, mayor acceso a clásicos y nuevas propuestas; por otro, la incertidumbre sobre precios regionales y disponibilidad de hardware. La causa y efecto es verificable: a mayor apertura de catálogo en PC, menor dependencia de consolas de generaciones pasadas; pero la falta de fechas concretas para Fable, Wolfenstein 3 y Halo deja un vacío que la comunidad llena con especulación. En suma, Xbox celebra 25 años con una estrategia de contenido y retrocompatibilidad, mientras SEGA y los independientes muestran las tensiones y oportunidades de una industria en constante ajuste.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Infobae: ‘Unlimited Maid Works’ mezcla limpieza, cocina y competencia global en Steam - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reporte Indigo: God of War Sons of Sparta llegará pronto a PlayStation 4 con nuevos modos de juego - Reporte Indigo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TierraGamer: Xbox celebra 25 años con Fable, Wolfenstein 3, Halo y grandes anuncios - TierraGamer",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "kopodo: » DERELIKT llega a PC y consolas con una propuesta de terror inspirada en la era de PS1 - kopodo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Ruptura360: PS5 QSSR: Mejora visual llega a títulos AAA en consola base - Ruptura360",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: SEGA ya trabaja en un parche para solucionar este error de Metaphor: ReFantazio en Nintendo Switch 2 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TodoJuegos: Xbox recupera 21 juegos clásicos de su primera consola para PC - TodoJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Xbox quiere descubrir qué tipo de gamer has sido durante estos 25 años: esto es Playback y así puedes conocer tus estadísticas - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: ‘Dome Keeper’ llevará su minería y defensa a PlayStation 5 y Nintendo Switch - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Nintendo Switch suma ‘KuloNiku: Bowl Up!’, un simulador de cocina con duelos - Infobae",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TV Azteca: OFICIAL: Confirman anuncio de nominados a los Game Awards 2026, fecha, hora y dónde verlo desde México y América Latina - TV Azteca",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Cadena Politica: ¿Cuáles son las mejores ofertas de nintendo switch 2 buen fin? - Cadena Politica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendo: STEEL VANGUARD:Project ARES",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVWhqLVlpUVBianBTazBzVTd2YkJ4cnpNazBZcW80cVliN3A0b2dQVk9YLXYtaWJqa3EyakE0RkFLR2FHNU90S0dTY3hMdFBQWXJHUnhjTkszMnRHZ3J3SjI3TjZaS29qWS1zaWlUX0pmdXZfTlZjb3JYZG91WTNYTlpsOEJZTGZm?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Expansión: Estos son los mejores descuentos del Buen Fin 2026 en consolas para jugar GTA VI",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcnI4b3RyRE4xV0pXQnpkWTFQVzZITHhabU1mQVlMR0lUSFo0SmVPZ1dqQ21YNXhzUlJoNEFiSG0tQXJrQWE2VG9rMndmYVVVMFNrM0o4T0xqdlpCLWVYNDhFSm9CODFvcDMtYVBkdjlZQzNRQlU5Rjh2d1hncWN3ZDZzRnVWd3Q4S1JUeDdEODM1MUFJbmfSAaMBQVVfeXFMT3Z1X0hkZ010UHZTbzEtd2NRbFJ3SG4yLXM4d0laZ2JZVV83TzdlZUNJTUx2VlItTkZkTUV6WkxLTlVCTkozMnNMd3N3a180T2ZYazE4bkN2OU9qc2pzLVZVaDltNWpGV1JUUnQ3U2hvN0dzMHpOUU1TSUdwZm05Zm40THFzN3dQSTQ2X1hfOG9aaWpZaFZNM2RmYlF5WThMOFkyYw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Microsoft Source: Creadores latinoamericanos impulsan el futuro del gaming",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTFJtVEpsMG1GR1doZkVvRDVaQUMyNjBhYThaT1o2TlFGZ2dETno5d2ZoN1hpSFNoRHZDT1o4OWdwQXI4M2kyU1ZKZFNHMDRVclZaQ2ZiVnk0Nk9RSms5MXozV01tZURNcnJBekdMQzJPU0M1ZEtuQ2JTU3hJMnE5UklpUTZINWFiVlFfbmVSU0hXVVc4NHBFR2szVms2c2xXczN3RmhR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Buen Fin 2026: así puedes comprar una Nintendo Switch 2 desde 6,498 pesos",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWGZ6Qy1qRjVBd2NLUFI4M0hsRXlnRzlrdUdnbUl1b3MtdjhfcHhwLTFZYVV0cjJJLThOZUFubGg0Z0JpbUEwMnNYSVl5SjhJTjc0RTFsRlo4TURSQzBObTg3RVNpTFdfX1liN0lBRkNQT1FBQVhPZVRhd3VoTl9HbGY1SGR2Z3lsYmJZdVh2N3ByakU5TEtCeU9TVlkzUmvSAaQBQVVfeXFMTTJKcDgxOWhKdVBlYVpETlBTdUpwZHBVaTVZbkh0TWxUVHo5X3VmRHBfQTY1WVBtN2FJbk9wVVlhTE5HLXBPYzBjdkJabWFhTnRzdUwyZ2Fla3piWVA0V2xlZnhIMFZweEdNRW8zNW9sRnhNZC1vaUpuOF9lUHJ6QVQ1N2otaXhoWjJJNmNCOHNoaFBSSkppSGdEM0FDRDIzeFdudHY?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: ¿Nintendo 3DS llega a Switch Online? A Link Between Worlds aparece jugable en el servicio",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQnNlRk5pN0ljRXVDY0Y5WlpUejFnbUZ3bUQ1bG9BQmNqQXhjZE1QeE9OS19wcUs3eGlYTmt0QlR3cG5SbGxEclpXdnNfdTJKMGVuZmtmY1dSZFZtT1BSZGppNHh4NElFdWgyUklRTE5lX3ZKd0VLNWN4RnU2REp1eFUyYjRWUUpsemZmYXNB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Xbox Playback: ya disponible el repaso estadístico a toda tu historia en Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkRlV1NZQXZsbmNweWxZdkFzLVd6WkhNWVVvRFlDX2VQVEZ5cE1mMndLLW45LVVSUThuYUpMMWFRYU41SmYzQ0w5M2RTRlRhSGZ3TVY4cy12c3VhVU52dkZPa19YcjU1SkdTcnJwZW8yLWRRX2RpOEtNSHRkNkdxX2ZCaE5Gc3FCZlE5UUdYckhFZm9lcElFdUY5cTdHSTJvV3ZFYnJlWm0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo menciona que Zelda: A Link Between Worlds es jugable en Switch Online, pero todo apunta a que es un error",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWm1nbFI1aVFwdkE1dmNDdDJxSHZsQzhYeXJqdWFLRkZDbzFZZ3ktNkU3Wi1EeExrMzVvdnBCZzBhSmlxTS01Tk9LaVgxUFl0UW4yT0cwNlVidTBucXVuU2F6WUtnRWJxU1ZSYlc4Q1ByX09va3Rwc3Z5MFMxVFI0WTBnRFhrTUdmakJQdXVSc0tFQ3ptWlBJWng5d2UzeTdralNwWDRubGZLUnYtUzA4VDNQQ2NSVXM1b2ZfUzItMUVWSEVPbEJ6MEROWUxfaHJQMmJyZ2VvbDQ4bk5ibU8ybTZGRQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Xbox Playback, un resumen para comprobar toda nuestra historia a lo largo de los 25 años de Xbox",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdnNLeXBiNmphbXV2TnUwTUxtQ3lTUnFOMy1yak1oeGNNdHJqMFhxVFZTa3hnTVRGMDJOc0diMmpkVllBZWZrTVZCSjNaYUJ6S0ZJNTFDby1waW9zWFF1S21Pdnp1ZlpzU1BWSm4wWTdUa09kcWtxQVRTbGp3YUVzU0o1akhKcEZRY1BXYWg1a20xTnlxRnhXSklGdllTWHgzOHMwWUZLNXh6TEFCZmlWVEtQWDE4LXpHWUlxamhLRWlZYnRLRU1pbGs4clU1cHVKU3dKYzlUTG5EQdIB7gFBVV95cUxONTVCQkV2M1RUbEtPWkFHUkZ3LWVzNUJBT0wzallRbm9yN0lOMTUyOXJyRW1RWXh0RUhhQ0QzLUk0ekpwVEUxWklTV1FtNzNzTHlYbHI2emhfd0t1UHdGellDTk90cjVmOVZ0aHZ1S0N1RHdvOFkwZm1mUThRajN1SVd0T0hadFNKalNoTnVyVkRwaEwwRDFJWjFpcTk0eW1qeWJxMEppV0syMlA4QnBMSS1fZldjQy1BeDExbGgyMHd1WllEaU11Q2dONkVsUFVMOFRWamFDTmZIUjAtVnlDTng4Q21FMDBsbzZHcUlR?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=IstOlbGQZcw"
+  },
+  {
+    "id": 1794596406547,
+    "fecha": "2026-11-13",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Endeavour en Los Ángeles y Call of Duty Mobile: infraestructura cultural y eSports",
+    "descripcion": "El transbordador Endeavour abre al público en el Museo de Ciencias de Los Ángeles tras una inversión superior a 400 millones de dólares, mientras Telcel GAMERGY+ confirma la final mundial de Call of Duty: Mobile 2026 en México con una derrama de 150 millones de pesos.",
+    "narracion": "El transbordador espacial Endeavour, primera nave de su tipo en exhibirse en un museo, abrió al público en el Museo de Ciencias de Los Ángeles tras años de restauración y un operativo logístico de precisión para su traslado y montaje en posición vertical. La inversión superó los 400 millones de dólares, según confirmó la prensa especializada. La muestra incluye módulos interactivos sobre misiones espaciales y busca atraer a más de un millón de visitantes anuales, consolidando a Los Ángeles como polo de turismo científico. El Endeavour, que voló 25 misiones antes de su retiro en 2011, requirió grúas de alta capacidad y rutas urbanas acondicionadas para su transporte desde el Aeropuerto Internacional de Los Ángeles hasta el museo, un hito de ingeniería civil que evidencia la coordinación entre agencias federales, estatales y locales.\n\nEn paralelo, Telcel GAMERGY+ será sede de la final del Campeonato Mundial de Call of Duty: Mobile 2026, con la participación de equipos de más de 20 países y una bolsa de premios que supera los 2 millones de dólares. El evento, que se celebrará en la Ciudad de México, proyecta una derrama económica de 150 millones de pesos y mil empleos temporales, impulsando la industria de los eSports en el país. La confirmación de esta sede coloca a México en el mapa de la infraestructura digital para deportes electrónicos, un sector que en 2025 generó ingresos globales superiores a los 1,800 millones de dólares, de acuerdo con datos de la industria. La organización requiere conectividad de baja latencia, servidores dedicados y protocolos de ciberseguridad para garantizar la integridad de la competencia, aspectos que Telcel ha debido certificar ante los organizadores internacionales.\n\nAmbos acontecimientos, aunque distantes geográficamente, comparten un denominador común: la inversión en infraestructura —cultural en un caso, digital en el otro— como detonante de desarrollo económico y turístico. Para México, la final mundial de Call of Duty: Mobile representa una oportunidad para demostrar capacidad logística y técnica en la organización de eventos de talla internacional, así como para atraer inversión en centros de datos y redes de quinta generación. La sinergia entre ciencia y deportes electrónicos evidencia cómo la infraestructura cultural y digital detona desarrollo económico y turístico, un patrón que los analistas de políticas públicas observan con atención. Mientras Los Ángeles capitaliza su patrimonio aeroespacial, la Ciudad de México apuesta por la economía digital del entretenimiento, dos modelos que, en paralelo, subrayan la importancia de la inversión sostenida en capacidades técnicas y logísticas para competir en la economía global.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Strauss Zelnick, CEO de Take-Two, sobre el retraso de GTA 6: “A veces hay que tomar estas decisiones inconvenientes”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: AMD lanza el controlador opcional Adrenalin Edition 26.11.1: qué problemas soluciona",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Transbordador espacial Endeavour abre en museo Los Angeles",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Telcel GAMERGY+ será la sede de la final del Campeonato Mundial de Call of Duty: Mobile 2026 en México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Y la nave espacial aterrizó, para siempre, en Los Ángeles: el ‘Endeavour’, el primer transbordador en verse en un museo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: » Grime II llegará a Nintendo Switch y Switch 2 el 26 de noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Las gafas inteligentes siguen dejando dudas en materia de privacidad. A pesar de ello, Google y Samsung acaban de lanzar las suyas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Judías mágicas y todos los suelos blandos en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Un objeto acelera sin explicación hacia la Tierra: ¿una roca espacial o una nave perdida hace casi 40 años?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Todos los juegos de consolas Xbox retrocompatibles en PC",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Científicos de la USAL colaboran en el proyecto internacional para diseñar el mayor mapa 3D del universo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Xbox anuncia Wolfenstein 3 e Id Software revela que hay un nuevo Doom en camino",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Vanguardia: Los servicios de Microsoft caen en todo el mundo",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWVNVUpDWEQ3VU12VVU5ZFhkazJXMkJTTHZTZDNJSDR6UVFDUEtzSG9zXy14UUxxblhyOE5nN2NaT3pQQkJPaWFvOVZvSTVMZUQzdEk4ZU00MTRZZ293ZU9JVGF3eENNcHhlYWJ2bi1nWFRmekZNV3RPQXpELV9QVC0yTGxiVER0aFRLbnFKZlotemk0RjdRdzlwc1pfdkc1R0NPVjlqbEp4VGJjckpSTVpnU3R3Q0hZYlBNcNIBwgFBVV95cUxNTi0tSzNidFh0eFlqUDBpaGtrWEQydG13OUJ3OXJSdmI3Q1picjlxaHZtaExMUVJQRTlHa0c3RllTSDZMc01OWFpwYmxEdGpQUUxQVWtob2V2QUFWRHZ4Q3B6bmh2dm1DRXlIelFZMkEtWV8ySzVJeGNsQ3RYV0dBdUdkR0trLXJlcXl0TnZjbk5DbkdNcTA2YzhOcTdoSFlVT2RmTGRYNHlTd1hiRVJ4cFZRM25JSW55SWdmSFJtSmhUZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Nvidia, más allá del escándalo",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdVBrU2dLbDlLSXNrSUhWTmdEcW92aXdteWJqOUJJNEpfUTlMSXBBMkhyLWJGRjZ3OGN3Sk5hQ3ZxQlB0SF9INURRRG80VFJnd2RuXzdQMDRNR2RrXzdIMEtiV2tTWEVpNk9feFpndDQxbDVQVXdrUmNlVlA1RFMxYWluUVFxQzI4dTFkSDktMGI1dEE2UkEwX2hXc2M2UkE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Elementos de Fiscalía CDMX catean casa de sujeto que amenazó a repartidor en colonia Xoco",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNklIZEVTRk5DVzhnTHRWR3c4cGU0SWZrNHphb2J5d0JOMlM3djlDYzBENVJhQWtPQ3g5MWV5YnJKVzZXaWxjVVhaSF9fQ1RkYy1VdHVKUXB2NGxSTGFqUlBHdFZFTUVQN2N0Ql9iWFd4bWNDRW85OHBncmF5ZTBMZHJkd0FLSjhOVUhJMkRyX2ZqNEtBOE45cG83TkhxY3lzUTNYQkQ5M3hFQ0E4dmJwMjEzTGZwbDFwNXhkakNtX0plcW9JSzN3RXBDeGM2VE5MVmJXMWluaGIzLWYwbXBKamwzLUtjelUzTzUtd3R30gGCAkFVX3lxTE5LM1FXVEV0ZFFtUk5MLTg2SkFtV3Y4ZmozazREdlFvcEQzWnpvSzA5SmNTQ3BYOTBZclo3ZTFYQW5VcVozU1RvNU0tVUZyd3U0QmYyNk5WSXNsWnozSUFtcUVLN0RJZ0ZRTTJTS3YtcF8xeVdDaERnNmF3VHhaZXp5N01vbEM5VWlQRllPaU9PZ0VsdHpRUTYtYzlhWmNORHl5Tmg5VGltaEtqc3Q2OXZKZVdtdUU1RDhWN3dPbklSRDRFd0lJSzJPZTBMdUxVb0pMT2QzZGFCcDR2UkpwZGRSNnBlQnZFRGIzMWdrbmhDTG0wcjh2YW9ZNlU3T2Z4cTZEZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Alistan para 2030 nueva infraestructura energética en México",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdm1fWmk4OXpFNTJOakd0UFJBTHZTbGg5aVZVaks3TVBIZldnSHIwWUtZcEN1MnV0azdqZVB0UFJFMlBuRE1jdTNZWmh0aEpGQ21rZ1JnMVJ3dGZISVJTQWNEdFEzUWYwQXYwOW1ncFVGckxjUndvX1djTkNkRHZ5TFlGdzF4V01GQVNyQUZMYmhiZTRpOGRhZkVHTUtnVWNPcnh0MjZQM2UtYkNURlZMRkpVYw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Infobae: Microsoft corrigió una falla de Outlook que los atacantes ya explotaban para robar datos de acceso",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZE9CR2Z5NlJlcktWS1VZT1JleWlITlVJT3Z3TlljdFhRRUg4VngzVkdSV2xmVW5FRnJlcnFKY2hLbDMzZkZ4ZTNMQ1BWcW44Tzl2THlWajZIeFdGbjVZcnZJeHFQRjBGRjlOOEczbW44OVhubU8yckgzVnNKWmJUSk92cmplbGhwcDJEcGktdzAzNEpxOWZiYWZBUnN0V0FGNVBlSjdsTlJlckM4Qm8teERRaFlUemxOR0ptVjBkQVY3VGFJWXBtUGU0dnRNSUF4NjRWeFZWc9IB8gFBVV95cUxQN3MyNnlXR01OLW1ySHNyM0RrNkR3R09iOGg3VE9BNnQ2S2JiTjVNWDZsM0VjY1lvTXJYeUF0T21hQ3dHSEdBZmVmNm5vZ1NXVVJrcEJTdVhYMWJhN1k3cEhtQkF5OFM1NWI3UFE5dG1jNFNYcGJsNHEwVGRkUmZHa3FGcTlpeklSSkdDYW5ZQlRZVVlvR2tQQ29hYnRXUGE2OXZkdklzZDZoOG4ydnFWNkVhZzRzUnZBMThGRzN1U1NHT1Uwc05yNXZWeWJ2ZUUzcDEwZzBzV1ZnamdRakU4T0JpNlY3cU5IdWtzYjVYYkRuZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Alice Huang, supuesta espía, compró chips prohibidos de Nvidia... y acabaron en centro de datos de China",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcGpZcXh1LWRMOExobFVtNjRuQ1MwbzVWUU93eUI0bE9GOEVqSHNTQ25WMFRwb0lOTTU4NkZUMDBWQ1RLY3dTMEgzTVphRDdaMENDNkYzQU8zXzVfanNvaHB3WE11eGxVRHRtcHlOOE95SkdNMS1EcEhRaTl6aVdsRkZ2czVhLWNMQnhjOUYzcmY1c3NxMElwNVg3U0d1QmI2eS1SeXZHclF2WUpGSmxoTFJMRUpPWVVuc1ZqZFpvcmxPZU9SS2RuaFMwc2tTUHRFSl9IdXVSZTlFYnhTOHBBV1FfUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum anuncia inversión en México de 250 mdd de la brasileña WEG; fabricará equipo eléctrico para centros de datos",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZnpwMVNGb1FUMUppa0hOLXlUcGJCRW9UWFNsX1Jva2pWUElyR21paDFXRWJ0OTVVbExINnBmbVRjX0VWaHI3MUdQeTV4QnNMa1ZqT2cxaEd1MUtENTl1SXBPQnRXVlNRa1FPZlVCVkNQcEZCYzc4OWJval9xNUx1NDRHWGZoeWZJbWFOazRPVVp1SXpHQmwxVWZQZGFmMTdTMElPcjBPMDBrU2FPNTRQQjZLbC1Cc19VMTdwRnd6Zl8wUnNPOFJCNnp6RWRhSUdvbFJqN1A5ek9xMXpWMHUwM2E5T3VFaFlwUTFQb2RwNWtuZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Renuevan app del Banco del Bienestar: ¿Cómo hacer transferencias y cobros desde tu celular?",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaUQ1Y19BZ0RsYVRRLVptSmlxakM2aVFkVFpycFlxc29lYXpGLXpaSVB6UDVIYUQtRnJnZW5XOGVuVGl2Q2RQNXhjaVNjNjA4RzBjb01zMGdseXZuYXo0bE5peVM5dDVEdUYya0o2bWUxTVc0eVRxdVU5UXRMV0ZJem5JUUhtS3lsaUluOXVtSldPYlIyaWFRUk5xLVpZTGFvcmJUQTZrWEljZ1NTdDZsMldNaHZxcGFScU45YW9lRXk1VlNfY2J4enR0ZDlyREpOdXYxb0lZc3M?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=Qc_2hpB6Ams"
+  },
+  {
+    "id": 1794592807030,
+    "fecha": "2026-11-13",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Luis de Llano ajusta defensa tras fallo ratificado por daño moral a Sasha Sokol",
+    "descripcion": "Un tribunal colegiado confirma la sentencia que obliga al productor a indemnizar con más de 2 millones de pesos y ofrecer disculpa pública a la cantante por la relación que mantuvieron cuando ella era menor de edad.",
+    "narracion": "La industria del entretenimiento mexicano recibió un golpe de realidad jurídica esta semana. El rechazo de Sasha Sokol a un acuerdo extrajudicial y la ratificación de la sentencia por daño moral contra Luis de Llano marcan un parteaguas en la forma en que se dirimen los conflictos de poder y los contratos de representación. De acuerdo con la Prensa Nacional (VF1), el productor reaccionó al fallo afirmando que su defensa \"se ajusta a la sentencia ratificada, NO al capricho doloso\", lo que evidencia una estrategia legal que busca acotar el impacto de una resolución que ya es definitiva en segunda instancia.\n\nEl caso, originado en 2022, se centra en la relación que De Llano y Sokol mantuvieron cuando ella era menor de edad y él ejercía como productor de Timbiriche, uno de los fenómenos musicales más lucrativos de los años ochenta en México. La sentencia, emitida por el Poder Judicial de la Ciudad de México y confirmada por un tribunal colegiado, establece el pago de una suma superior a los 2 millones de pesos por concepto de indemnización, además de una disculpa pública que el productor deberá ofrecer en medios de comunicación. Asimismo, ordena medidas de reparación que incluyen terapia psicológica para la víctima y obliga a De Llano a abstenerse de emitir declaraciones que revictimicen a Sokol.\n\nEl impacto económico para el productor asciende a más de 5 millones de pesos considerando costos legales y la indemnización, según se desprende de la cobertura periodística. Este fallo sienta un precedente en una industria donde los contratos de representación y las relaciones de poder han sido históricamente opacos. La negativa de Sokol a un acuerdo extrajudicial subraya la falta de consenso y la determinación de la cantante de llevar el caso hasta las últimas consecuencias, lo que ha obligado a De Llano a reajustar su defensa sobre la base de una sentencia ya ratificada.\n\nEl caso también expone las tensiones entre la protección de los derechos de los menores en el ámbito artístico y las prácticas contractuales que durante décadas permanecieron sin escrutinio público. La resolución judicial no solo obliga a una reparación económica, sino que establece un parámetro para futuros litigios en los que se alegue daño moral derivado de relaciones asimétricas de poder. Para la comunidad artística y el público mexicano, el fallo representa un recordatorio de que los recintos, las productoras y los contratos de representación deben someterse a los principios de legalidad y transparencia. La industria cultural, especialmente la música y la televisión, enfrenta ahora el reto de revisar sus prácticas y garantizar entornos seguros para los talentos jóvenes.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: \"Se ajusta a la sentencia ratificada, NO al capricho doloso\": Luis de Llano reacciona al RECHAZO de Sasha Soko",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: La 'Lux' de Rosalía triunfa en el Latin Grammy 2026",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Meghan Markle está destrozada por la detención de su papá; su mamá Doria Ragland la apoya",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Protagonista de 'Malcolm in the Middle' reaparece tras accidente en carrera: esto dijo sobre su salud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Ninel Conde afirma que le tiene envidia por su piel de \"niña coreana\" a sus 50 años",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Luz María Zetina y Lorena Ochoa: las claves de su supuesto romance que van desde un podcast hasta una boda",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Frankie Muniz es hospitalizado tras sufrir un fuerte accidente",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Ariana Grande debuta en la alfombra roja con su novio Ricky Alvarez, pero los fans se fijan en otros detalles",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Tras 23 años, ZZ Top reúne generaciones al ritmo de blues y rock en México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Estrellas, Garbage, libros y hasta Sumo este fin de semana en la Ciudad de México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Revelan causa de muerte de Regina Torné y si su hija que está en prisión ya se enteró",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: El congresista electo Bobby Pulido anuncia su retiro de la música en los Latin Grammy",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Vogue México: Ganadores de los Latin Grammys 2026: Lista completa",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sWUNha3lET3RSNm80SXlFQnI4bk1JVXdFUmFKYW5LVXJ2NWljY29fWk1mUTBwYWNwYkF4aGRKdXp4aEctNFg1Z09HRFJsS2FPUlFNT2Uya2dWRlhfSXh2NS14R24wSWxvLUE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: De qué murió el actor de Televisa Efraín Rosas León: pedía dinero en redes sociales para sobrevivir",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY3F5Z1FsVU5FTFdFejlPRUpoekJzejhFRWxvZ3hQNDNNYzhldndhUEVQbE9kWWV6WjNWeG84ZXpqZmJEcGxoY1J0X3VVcnlUWFpLc2tUbGRncllGbVRzZ3ItOUUwdU5MdUsyME9DdXRNZkRkMm1Cd1ljODUxZUFmU3ZRUlFQY0hmXzB0dXhCcmkwSTUwWTMtRkE1VlkyMW5JazRhaWF4Z3VPbG9nazl0TFQyRUxaMWVPNjZ4bHVVOVFIQko0U0hXUkpKVVFCTHJFbS1FUV9pM3jSAfMBQVVfeXFMT0ZzeC1PMlBzMnMwdzllY09NWnNzZTY4eGNvM1dPSWhLelhvUGpFV2hPWE5ETzNtUEhIcVRfNFhiVTVlSEJOSkNuZS02dzVGZWZnOGVMc0k5S1lRRV9WTXFXdlN4MkNUaEJleEpJUXNYcml2cUo4Z2hCLURRSDdWcTFaSjdKQVVjZ2hoOHNoenNjWEYwc1JsZ3RsR1ZjSEhPTlhmMWRyZGx0RHBjMy1sbDUwSTUxZGFGWjJIM2lPS3pfMGU1QzJMcFpzMFlHRmR1d3RNd3hIanZBRDdPN3FHbGNXYjd0ZnprZFh6WWVIeFlGTlMw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Camila Fernández celebra su primer Latin Grammy con su bebé en camino",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbmEwUWZLSW9SdjRCVGNJY2tuamxWYmRvcjl6VTFzbzgzLVNRX284Ymd1a3lwU05ZdUw0NWdhOGllUWxlWER3OVk5Y3pzZzBtNVVNaHlmcVk0eWNiUnBQdlhEX3lqZ0dCVmtVZDFxdm02TFZWSWxTUzN5X3RaT0FHbm5ncjBpMWlkTEZtT2phTDVicEhiWjh4SkxKdjZ1aHllNU1NOFI2U0o?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Recibe Russell Brand 10 años y medio de cárcel por violación",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ2ZqZ0pocERCZDZfMHBVa3pPZU5ONE94TGxSLXZqc0h2bjJDNG1HSlFLbE1ZZDVXTU1jemJHRU4yeVBXY3dLSXNQenJfaDRhbDR6dFNJWWg2LU5JRmZUT2MtQmVkZDl5S3h6LTk0V0dFQmxuVVFxYk9YQ19aYlNfWHYtV1VjZWk2V2syNGk2RUhGcEl0UEltSTln?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "People en Español: La gran noche de Daddy Yankee en los Latin Grammy, las mejores fotos del homenaje al ícono del género urbano",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS3IzOEY0RFNxa0x5RElFY2E3YlpjR2JydDNuX0Y1Z2h6M2Q4dFoxYUtPdFhOSmNsOVV0VXBZdDdOcFZmWFpyT244YWpieUJlSkxkS282N3NlNi1yX3V5eE8tbkl3WVp6M2NNbWhiUTZPVGtZdjQ3cWFIU2NfN296Z01n?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Informador: ¡Vota por tu favorito! RUGIDO UDG 2026 está por llegar a su gran final",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnRIX2ltMm45QlFLVU44ZGcxdFpISkNSRExmN3lFbDRQODhfbjIzakdqMlhkRzk2TVRmVkRkbmdaaG1DejJNNzlzTUVTSVhZTjR1RDItODRqRTEyX3dUOFFzTXB6bll3ZnVfWllUdlh0TDgyT29uME1PcUtOeFh1NEhNMGdhbzJ1YlVOZ0hUejdmcGNGSzJ5V0Y4YkV3aDRYUzhTam1HUzVvbnYta2NBMUFwTkd5bXF2Vjc4eGJB0gHDAUFVX3lxTE94WWFNbUxoT0o0SE1DUXMzMWRlQ01GRVRPTDJMVG16NlJub1FJRDBlU2poM1hhRzk2Skx5NHBBZ25JdmpoTk9oOHBvckJnYXlIYllBOXptMVRDaG5BRDA0QXlhWHBiaHRuUU1Fb1dHTm5MVE1TaEFVNkozYlBiMHM4SEpqVnZDQjhJR1VHTldtZ0gzNzJxTGM5QzhTckJfVkp5RHBnV3ZGSk9ENklXMVZHd0JpcUVHeC1yTFFfbkwwYWQ4MA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Tras su victoria en las elecciones intermedias, Bobby Pulido gana el Latin Grammy a mejor álbum de música tejana",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkV5MWxfTDQ0eHA1SVYxSFNPR1ZTQmt5aHg2M3RYTzUzUTk1XzVGTmhuOElYTkdFakVhWEstbk5aRDdjdTlHWFlWT3JXaG82UEx5WG1vSkF3SE9VUDBqMHhISjRsWGY5QW9rUVNneTJkWFN4cjVxVVRuUEY4cC0wdWtteFFadU5KbW5pa2EtVUNYUjA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Crítica: el sonido de U2 se revitaliza en ‘Carnaval de Luz’",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVNpUC1fT1N4UnBxSVNLRUcxVTMzWDRGY0tqNm1FUEVrUXcxMGtQTjZHWHpla3U5TU82LW9lQzBvYmVqVkluUnkxZS1XY0J4QVR6aXJpVDJ6Y2p4N3hpMjdBeVdTaElJdTBoTWk2UUdaejV3Z25GUlJNdmEyZW1oTmtSa2JCRmlWallqdmN0ZmwyZXM?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=E3ECBXJCtz4"
+  },
+  {
+    "id": 1794531606213,
+    "fecha": "2026-11-12",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Seguridad, justicia y clima extremo marcan la agenda nacional",
+    "descripcion": "La UNAM investiga la muerte de un docente en el CCH Sur; un exfiscal vinculado a la CIA huye a EU; la caravana migrante rechaza presiones de Trump; el chorro polar amenaza al norte; y se exige protección para candidatos.",
+    "narracion": "La jornada informativa de este martes concentró la atención en cinco frentes que ponen a prueba la capacidad institucional del Estado mexicano: la seguridad universitaria, la cooperación en materia de inteligencia, la política migratoria frente a presiones externas, los fenómenos meteorológicos extremos y la protección de quienes participan en la contienda electoral.\n\nEl primer punto focal fue la Universidad Nacional Autónoma de México (UNAM), que confirmó la muerte de un profesor de 58 años dentro del Colegio de Ciencias y Humanidades (CCH) plantel Sur. La Fiscalía General de Justicia de la Ciudad de México (FGJCDMX) inició una carpeta de investigación por homicidio, luego de que el cuerpo presentara heridas por arma blanca. El CCH Sur, con más de 12 mil alumnos, suspendió clases en el turno matutino mientras se analizan videos de cámaras de seguridad y se interroga a personal administrativo. Este es el segundo incidente violento en instalaciones universitarias en lo que va del año, tras el reportado en la Facultad de Química en marzo. La comunidad exige mayor vigilancia y presupuesto para seguridad interna, que en 2026 ascendió a 450 millones de pesos para la UNAM, insuficiente según expertos.\n\nEn el ámbito de la justicia y la seguridad nacional, trascendió que un exfiscal de un estado del norte del país, quien presuntamente colaboró con la Agencia Central de Inteligencia (CIA) para operar en secreto, huyó a Estados Unidos. Según documentos judiciales obtenidos por medios nacionales, el exfuncionario salió del país el pasado fin de semana vía Tijuana. La CIA habría utilizado instalaciones estatales para operaciones encubiertas entre 2023 y 2025, según una investigación del Departamento de Justicia de Estados Unidos. La Secretaría de Relaciones Exteriores no ha recibido solicitud formal de extradición. El caso pone en entredicho la soberanía y la cooperación en seguridad, que en el marco del T-MEC asciende a 1,200 millones de dólares anuales.\n\nEl tercer tema fue la caravana migrante. Miembros de la caravana, integrada por más de 3,500 personas según la Comisión Mexicana de Ayuda a Refugiados (Comar), criticaron la petición del expresidente Donald Trump de frenar su avance en México. La caravana partió de Tapachula el 5 de noviembre y avanza hacia la Ciudad de México, donde se espera su llegada en dos semanas. Trump exigió al gobierno mexicano detener el flujo migratorio so pena de aranceles. El canciller Marcelo Ebrard afirmó que el tema migratorio no pone en peligro las conversiones comerciales, pero organizaciones civiles denuncian presión política.\n\nEl cuarto punto lo constituyó la alerta del Servicio Meteorológico Nacional (SMN) sobre la entrada de un chorro polar al norte del país, con pronóstico de lluvias intensas y temperaturas de hasta -10 grados Celsius en zonas montañosas de Chihuahua, Durango y Coahuila. Protección Civil emitió recomendaciones para evitar intoxicaciones por monóxido de carbono. El frente frío número 12 afectará a 15 estados.\n\nFinalmente, el senador Quiroz exigió protección para candidatos ante el inicio del proceso electoral de 2027. La solicitud se da tras el asesinato de un aspirante a diputado en Guerrero la semana pasada. El Instituto Nacional Electoral (INE) reportó que 32 candidatos han solicitado seguridad especial. La Secretaría de Seguridad y Protección Ciudadana (SSPC) destinó 200 elementos de la Guardia Nacional para proteger a políticos en zonas de riesgo.\n\nEstos cinco asuntos configuran un tablero nacional donde la seguridad, la justicia, la migración, el clima extremo y la protección electoral exigen respuestas institucionales coordinadas y transparentes.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: ¿Qué sabemos de la muerte de un profesor al interior del CCH Sur?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El exfiscal mexicano que ayudó a la CIA a operar en secreto en su estado huye a EE. UU.",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Miembros de caravana migrante critican petición de Trump de frenar su avance en México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El tema migratorio no pone en peligro las conversiones comerciales: Marcelo Ebrard",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Entrará chorro polar al estado; pronostican lluvias en el norte🎦",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Exige Quiroz protección para candidatos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Muere maestro dentro de las instalaciones de CCH Sur de la UNAM",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: PAOT realiza acciones de vigilancia ambiental en el Río Lerma",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Caravana de migrantes hondureños pide al gobierno que \"que no nos detenga\" para llegar a EU",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Morena va por comisión de la verdad sobre fraude el 2006; Fox admitió que intervino contra López Obrador",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Hay clases el viernes 13 de noviembre? Esto dice el calendario OFICIAL de la SEP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Coincide Higinio Martínez en investigar a fondo todos los ilícitos que se hayan cometido en el INE",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: EN VIVO | Bloqueos, accidentes y manifestaciones hoy 12 de noviembre: se registra protesta sobre Periférico Sur",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Banco del Bienestar tiene nueva App: Cómo descargarla y las nuevas opciones que ofrece",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Qué sabemos de Israel González Villegas, el profesor del CCH Sur que murió en las instalaciones de la escuela?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "BBC: Trump amenaza a México con duplicar aranceles si no detiene las caravanas de migrantes con destino a la frontera",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UZWhiTGZTdlpvMjVnaHA0TmdpWGJ4azMwWUVsZHVCMWpFVHpFbFZFOWpuLW9KUmVMQnJ6NWdJenVlYktub3E4Y19rNlV4RUdBbkFBZUp4aWlHSk1J0gFiQVVfeXFMT29fRG05MFg1NW1kMi1XOUFVVGl0Ym13eF8tMkFmRmdKMzhGNkpleHl2eFpLeVhUeDV0QTVVdU9GLXlxcFpzVHVzT282SDk1cHVId25yYnlKY1htUldyeHFyY2c?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Sheinbaum y Pedro Sánchez resaltan en una videollamada “la etapa renovada” de la relación bilateral",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQzRqdkV5TEtEUE0tNF9BTkNPSVRQSE5yb0JPNEVnZ2ZEQU0zVFRIdUtDb2NJUUNQQVowNE5MSFNRUmNDNFpiYkxoWTJ5bm1XYkNoVG55U3c4OUdfOXIwRVEwbXFFOTFSR1p5S2Z0YldFRGxrNlRWZUk4UEl1SEtKRjdUMW5MeHNZQ05wb1NjY1c1VC1fSkZqZm4wS21nWWtmQm44?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Morena va por comisión de la verdad sobre fraude el 2006; Fox admitió que intervino contra López Obrador",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaUltc2ZvTm1MbERvWjJHaExGSVJVaDNfUUZ0ak40azZSSHNoWHdrZGJYYXFLR00tR3lHTUxDdk5TWFNqYi1VWWVYMGhMZ1pGaExyeHdBbjZSejBPZlp3d3kzU09zQWE3SXl5M3pqUjVseHdobkJ4VlBMaW5XRWkxWm92QzVyN3k5UkNzdl9mNkxvMUVVOF9jR0x2aGlRbzRxcUtxWTZDLXlRS1RtOHRLYm5JZzRhZ3FtdmgwR05JYmtYMXMtWFlN?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Harfuch confirma detención del presunto autor material del homicidio de Gabriel Rivas, regidor de Morena en Cuernavaca",
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQMkJmRm5QLVBEREhEU2dCakFSVTRMYndkZW1FVXhMLVZfcFpBbzJNQjFjd3hWeDFSRGJ3UTlDenF4ZWI5OEJzbFJ1SDZVVnBjTDQtMXpPc3owV3NkRzZqMmVUVnhwREE3cUZBRW1zNm01MjZlbV8yQjdUa3BsaWJYWE9jZjEyM1Zvbmo3cXQ4OEJPQnhOcV9RX19Gb0t6RzFtWHFqZHdqaW45ckxEM3F0bWlJdWpvdWNPSmxDbzJZVXdCdm01RklpUmpSZ3ZfdFhEb3FZa2dqTXcxNzZocmRDUkJpY2JtQnR1UTVsQ0R3aklUdzB3aTRONy1SeDBDYUdUWVE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Se enfrentan militares y civiles armados en Ocotlán, Jalisco",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDk1RWNyVVJLcmFOa1QtREhJQWZscnVoa0MzU1VXcUdZSmN4MzFTR2QxMmNERm1GR1JQOTlfcEdYbmNFdzN4aEhxLWlaZE5heFVEMndlazloLVZPVlBOY0RrcXQ3cEs1NzdGaENYbDlRTHBEeWFYOXVFZzYtaDNxTWN2SGdadWtxSTQwcjVrbWxfM2dWYlFFRg?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Ejército y Guardia Nacional repelen agresión armada del Cártel Santa Rosa de Lima en Irapuato",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQN1JZUkFGNlU3MFZfVEc0RE05MnVpdjJMZlRWVExIYllOWDA2eGlfeGZCQ2dlb3h3VGdXZkF6a3FBZmQ1UV9kdzdwNkNOSkttdU5tUmh1YVBRQ014c1JYM3RTa0VUZU1vOXl6dnp1QkFDV2xzZUcyNVR0ZlBwN3Z1TkNxVGMtdE13X29iNWRqM0VzTlIyR2REQ3FzeEdnT1plbWtKOVhxZXYyTkVFV2UxNFc5UVlfOTZsanNCc09xT3NfdnFsSEZoQ1Rsd2hFYnZpYlkwZG1xWGNaVHQyeEdpaXAyTmRVSEhXOEHSAf4BQVVfeXFMTzRpUTNPNERKT1pOekoxeU0tVzgtV1ZWamxfd0xCNmx4UHplSEZ0NElBQ3NNQnFKa2RKN3N4clg3MG9oM1d5R2JDeHlhT1QwajYxeWtsUVF6NzVQUkRhMW1KNVYtd1IzWnFFWlFOSllCQTY1b0ZpcDdGbmhDWG9saFNqN3JBTFM5d0VmczE2THd3ZmxEeW54YXRoOTd1SDFyUWF6S3ZDYlBmTWZFSlhGbzdwVmtIVWNTQUFRVmMtel9HZzZ1ZTlEM2VnZDA1U21Ec0lCcUc2bkplNnBocERjb3ZOd2R6cUt5UmpBUjNuY0NtcklqaGpwZnB5anI0R3c?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Muere profesor dentro de las instalaciones del CCH Sur de la UNAM",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTy1KQjBDRmkzaWlEX3BRcXY2eFFyZU01RjdkdENzQVRoRFc3LW95QnJqVjlNRXhtS3hiRklqbDZGNHNHdVpTUHpzUE5kckx5NHlIeHp4N0p5TG5fMEVqbDVZUC1hWXBXaDEtaTdLLVR6aTNrRUpNWEFPZ1hYX1lXbFdiY3U0ZGtNNWVBV19kakFRLTdNVlN4TUJnOGxKTjR1YkhRUnpKdFJNWVYybmRpUUxyU2RlcE1EOXk3R1JKaTlWR2YtNkhsRVdBZVVmbk5JTENXWWVB?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Reabren la México-Querétaro tras choque de autobuses con escolares que dejó 27 lesionados",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUHA5c3JoV3JGSTNHWlpyaVV0NXRiVVI1SFdsYnRSWXB1UG8tR3J4SkFtUmZRTEJyQjFMQ09MekU4QWxXUHpIVW1scVlBRHI5UTdSV3pqcF9RQ1VrdTRMYUpWMGVNbi1IMUYwOTlvaWtBeWtUMkxpOHloSTVtUVpXM2tvWkhQbEp5RUJUSzRkUDN3RXpGblRrYVFpbFJoZEdHSVJBbUt4d3MxZ3ZRTXNrV3FIUjZHM3E3RzF4UVJnTjdTc0J3Nlc3ejlmdFFiU1NuNWt4MnB0TEpGYkZRTlE?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1794445206137,
+    "fecha": "2026-11-11",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Seguridad, salario y clima: el pulso de México en cinco frentes",
+    "descripcion": "Golpe al crimen en Chiapas, debate por el salario mínimo 2027, frente frío extremo, brecha digital en pagos y tensión diplomática con Bolivia marcan la agenda nacional.",
+    "narracion": "La edición central del noticiero Memexicanísimos abordó este día cinco asuntos de profunda relevancia para el tablero nacional. En materia de seguridad, la Secretaría de Seguridad y Protección Ciudadana confirmó la detención de 14 personas armadas en Chiapas, incluidos dos líderes criminales, en un operativo conjunto con la Fiscalía estatal y el Ejército. Se aseguraron 12 fusiles de asalto, 3 vehículos blindados artesanales y 2 mil cartuchos útiles. Este golpe se suma a 47 operativos similares en la entidad durante el año, con 312 detenidos, según el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública. Sin embargo, el reto persiste: Chiapas acumula 2 mil 800 homicidios dolosos en lo que va del año, la cifra más alta en una década. La repercusión económica es directa: el corredor comercial de la frontera sur, que aporta el 8.3% del PIB estatal según el INEGI, opera con escoltas privadas y sobrecostos logísticos del 15%.\n\nEn el ámbito laboral, la discusión del salario mínimo 2027 y el papel del MIR (mecanismo de indexación que ajusta el minisalario por inflación y productividad) centra el debate. La Secretaría del Trabajo y Previsión Social informó que el MIR acumula un incremento real del 32% desde 2018, pero el Consejo de Representantes de la Comisión Nacional de los Salarios Mínimos debate si el alza para 2027 debe ser de 12% o 20%. El impacto fiscal es mayúsculo: cada punto porcentual de aumento presiona 4 mil 500 millones de pesos adicionales al gasto público en nómina y pensiones, según Hacienda. Los sectores empresariales advierten sobre 180 mil empleos formales en riesgo, mientras los sindicatos exigen recuperar el poder adquisitivo perdido.\n\nEl tercer punto es el nuevo frente frío que azotará a México con temperaturas de hasta -5 grados en Chihuahua, Durango y Zacatecas, según el Servicio Meteorológico Nacional. La Coordinación Nacional de Protección Civil activó 120 albergues temporales y emitió alerta roja para 14 municipios. El antecedente inmediato son las 38 muertes por hipotermia registradas en la temporada invernal anterior, cifra que las autoridades buscan reducir con la instalación de 500 puntos de calefacción comunitaria. La repercusión social es crítica en zonas rurales donde el 62% de las viviendas carece de aislamiento térmico, de acuerdo con la Encuesta Nacional de Vivienda.\n\nEl cuarto hecho es la batalla entre efectivo y pagos digitales en las tienditas de abarrotes. La herramienta Cuenta Fácil, impulsada por la banca de desarrollo, reporta 85 mil comercios afiliados a nivel nacional, pero en Villahermosa, Tabasco, el 78% de los tenderos prefiere el efectivo por desconfianza en las comisiones y fallas de conectividad. La Comisión Nacional Bancaria y de Valores documenta que solo el 34% de los municipios con alta marginación tiene cobertura de internet móvil estable. El impacto económico es que la inclusión financiera avanza al 67% de la población adulta, pero la brecha digital frena la formalización de 1.2 millones de micronegocios.\n\nFinalmente, la decisión de Bolivia de continuar los procesos judiciales contra el estratega político Cerimedo, tras el asilo otorgado en México a su expareja, tensiona la diplomacia. La Secretaría de Relaciones Exteriores confirmó que la protección diplomática se otorgó bajo la Convención de Caracas de 1954, lo que generó una nota de protesta boliviana. El caso involucra presuntos delitos de sedición y financiamiento irregular por 2.3 millones de dólares, según la fiscalía boliviana. México enfrenta el dilema de 47 solicitudes de asilo político en lo que va del año, un 40% más que en 2025, mientras la Corte Internacional de Justicia revisa precedentes sobre asilo diplomático.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Detienen a 2 líderes criminales y otras 12 personas armadas en Chiapas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Acusa defensa del 'R2' falta de información sobre su salud",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Bolivia dice que procesos contra Cerimedo continuarán, tras asilo de su expareja en México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Explicador: ¿Qué es el MIR y por qué es clave en la discusión del salario mínimo 2027?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Llega nuevo frente frío a México con temperaturas de -5 grados y lluvias: cuándo y a qué estados afectará",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Pagos digitales en tienditas: beneficios y características de “Cuenta Fácil”, herramienta para recibir transferencias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tienditas de Villahermosa prefieren el efectivo ante los pagos digitales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Reconoce la Presidenta a alumnos regios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Notifican acusación a abogada procesada por fraude contra Grupo Herdez",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Suman cuatro horas de cierre en la México-Pachuca por volcadura de pipa con gas LP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Bajan asesinatos en México: Homicidios ‘matan’ principalmente a jóvenes",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Despreocupa a Lorena de la Garza destape de “Mike” Flores para Monterrey",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Dos cigüeñas americanas son avistadas por primera vez en el Lago de Texcoco ¬ FOTOS",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Jaulas, cascos y cinturones: así inspeccionan a los participantes de la Baja 1000",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: ¿Cuándo son los tres puentes escolares de noviembre en Edomex? Esto dice la SEP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Morena consuma el recorte de 6.000 millones de pesos al presupuesto del INE en plena crisis por el escándalo de Taddei",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONy02aHlHYW1MQVVERFIzZHpqOGZhWWwtNTNzcXR1WVN5WDhWb3dZUW9raVhES0JBTWdmalQtdnN6YnNLUjdKRzFtR0NlVGxjM2czSUl3Ui1HWldSWGcwMWVBYktPR0V3Y1dXM3BlTWtTZllBR05IRThtVDlrbWNSalZWaGlfVmJETFc0WGtYQnpfdmR1enBWZEhlZDJ3aTFYVFAxS284ZzFFT0dkX1ZzWGJlQmJSTFJOaThwQkRBQVdTdDdiR01RZnJBNG9PX3BMNU9BMm5nYW9uODFUc01N?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Renuncia Dámaso Castro a la Fiscalía; es uno de los señalados de nexos con el Cártel de Sinaloa según EU",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMXo0X2YtVFNSaVY4MHAxRGRoY0hweTI2ci1ZaTY0WDVScng0a2lJQnVrcFFjRC1RMkFyQjQ1M3hibEMxTlRWWDBBeE5BNE1RMjhSLXBDaU5sMWZ4MW5qQXRGajBkTjVfZkFwNjl2UUpEVmV1WEp3Y0ItZUNScG5SLVIxcUE3MVQ2ZVNqSGlnM2puZGpMZUY3VllZbEtkNXdocEIxc3J5VFA5OE1XeTFCVDBXQ09hYkJydmd0aWtxMWx1M2FMRmZtVlVRMVhtNFdjR19WODdaRW9EWlVfeGYya2hEQzByTTlRU21B?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Nuevo frente frío causará lluvias en la mayor parte del país este miércoles",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTZETWdKQ05Gekc0UEI1V3A1R2EwT0NYVXA3UTVYc0pzcnVqeGJ6NENRZllTcUZwNzMyLUY5M0JvVEt6Z0FhclllQVNXbEJJRHh6Q1NXWFJUcUtUYVFzSEs5VXRMTV9OQXBiLUoyTHBpS1lvaXl3UlplMlVpQnh0WVZaRXp1RjVSQVhjZldyajJ4MnpwTUVKME9UbFVNWUpKR2xoWnJuZEstX3pjNUxqMkZ2eUNxaTFpRlZvM0tCUE43TzZ5Smc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Daira Martínez, de 9 años, cursa la universidad y está nominada en los Latin American Leaders Awards",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS01LUVhFQ1BGUGtNLWo0ckp2Wl82aER3U0NCUF9nRGlQNkVpRlhQYnRWT05KbllMbEMxeHA2dTRPVnNCNE5PbElUWS1NWUFKNklLb2dOWGd5UGJuTklkMDM2VDlsbnp2dnVHd0JTWWFNbF9GZWcwWHc4Ry0yb1ZkczJyZmFSSWZVX0tKQV83NXVmYVBBdTJoaWhmN2Q5MTVKSkFGNFM0UzVCSmNjSWw0ZjBQZW9kcVhyTDVVT1lxOFJZTHZkejVGdWJUT3hNV0RNN2l3bEdfVVRGSXh0WUNkYk1paGNLb3QycnFNSk5CdDVjR0FnTWVSMNIBjAJBVV95cUxNOE1ONzVsd0JrR2NjSnI0a2tkdFJtZ3AtYWswWmlGNjdPcGlpdFZaVFQzN1NRdVJfZXdUM1FqbmgwYTc0TUlZa3owU0JmaGV1c2xEVnhKNmQxMkJKU2lxUnBRczdoTE0tTXNuR2F6SENGejA0dFZuNkNFNnBSVHQ0dWxPY2ljUGpYalBuTDFqNHZZV0l3aWp1NGQtN3lKTTRLMm5fX2V1UXhSZTBsWjVMaWFDZHlUeUdpQUFKN1Z6cE5wQTJoYlpYeU9sT1lUanBzLXR5S2NqUTRNLTE0ZkNzRHB6cXFFRWlXWk5HNzNmMVBVOVhIYTF1NmE3OWRRSFppaVhKZ1M1NHZzbkI2?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Denuncian presunto juicio fraudulento contra Herdez: abogada procesada habría admitido que el demandante nunca existió",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONEFDUGw3aVZqdnFGVVhqTVg1MFFRTlAxWkwyQnJfanhJMC1jY1JEaW5jVktDNkYxeV9NTGZETHV6NnF6VEs3bjlWY2p4OGVzNkFmRkZ5T3ZpaUY3YWVnMThTQjBROW5xT0tNTG5sODRxZUFlVUxWVjU2RW03YjZkd1RyTlB0R1o2UGdWUFJQUGwtTTJlUHVkU3JlMFBMM0hvZTBUOURXNE9Da0QxNjBYWmJTeHhDc0U5YmpERk9iaHlJalE2UFpRRUxGVEZERlMzT19qTHdTb1NfWXdvNFp1UFN3NE1PeTJxZDFTZTJHWW14b0RLcy05Vw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Oposición busca desacreditar la elección de 2027 con caso Taddei por estar tan baja en encuestas: Sheinbaum",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT1doODJYbWZIMVl0ZzMtcnhCc3dfNS1Fb1NEYkNuM3JoVnlTOXdxMTYyaXczNHFaZ0ZSa0dvNXpmQ2ktQ1U2S3NmajZpblVyTUJvYWxOLWdzelV0amIzeUNEcnhlaHljWFhYQndiSHE4MmxOd1otQ0VZYnpacWU2azJlY0JQN1NZU3NwcnpXMTlvRjdQeG85MDlaYlNpZjNCblRyUjRqMnIyd2s2Z2ExaVVYUmFKN2RzSmYwZ2FxTHpVYVRIQmY5a0FoektTWXRtMjI4b0Q2OFphYk40VnJIWmdjSEp0VjlHbkE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Informador: FGR asegura envases esféricos en cateos realizados en Tonaya",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUViSlM3eGRueU9GVFpqekZrQ1lTOEZ2cndlMzY2SGE0VkxqeUJwcjFSY3pocl9rWmJGREJrVkVzUkR0dHBZWDJYQk00NkdMVlBOUjBoaGEtVEo5TVFEVE56NXZxNTNnX3BsY1F3emRFTWNQWnRLU1BqUUQ1cVR3UW5Lc1cxeHNHbG9qYVdxVVlSSVZ2WWtlQ3VxeGtZOFdRM1hteFlwMVNCcHZqUzJUZ1ppNNIBuAFBVV95cUxNVXZ0WmpPUFZGVlZBMUZvd3J5c2pHUnhRTnVNcTJjekdZMUJPTF92NDJIczBGMGNveXF6NVlGNkU3eEFzQTJLWlpocERucFNlcTVBRGZVRTlhMXZxaE1Tb0ZyQ3JSNm12TDliNkNEUmw3WUJFMTF5M3BNRVFGaGd0ZmY4dmcwdGFEbmVaaHFGSk05aXo2eGdLdTlidU0xRjJiOExrVzVLR2hBMmMxQUFRVVh0bW1tVGpM?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: El ‘R2′ frena su extradición a EU: Juez le concede un amparo al líder regional del CJNG",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ3RiOXg1UXJFWW1VcHZ4YzZLNGNKOFZtVlY0M1YwaEVOYXB5dndmbmVsaFkySFlGU3k2TVYwZ2QtcnJSM2hUOFVidUU2SzdVWGgxZUJQV3dWMUNLRXpkaEEyRW1LcEJrQWRwXzRlWjNNdDF3NWJzNkxCVTdVcHBUUVYtX3FoSEIxMXkwdmNSQUVHS2NXUGZNZWJoc3lld3Jud2c5cVRvcVdsRU9rbnhYbW1YQ3U1TG9mb2JwdlJ0SGFKMlFtTWpfeHU1eGY1N1U0eVE?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=N31jNte1Mcg"
+  },
+  {
+    "id": 1794438007510,
+    "fecha": "2026-11-11",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "PS5 llega a 100 millones y Tomb Raider: Catalyst se anuncia para Switch 2",
+    "descripcion": "Sony alcanza 100 millones de PS5 distribuidas en menos de cinco años, mientras Square Enix confirma Tomb Raider: Catalyst para Nintendo Switch 2 en 2028. Microsoft lanza Auto SR en ROG Xbox Ally X y X20 con hasta 120 FPS.",
+    "narracion": "La industria de los videojuegos cierra una semana de movimientos estratégicos que redefinen el equilibrio de poder entre las tres grandes consolas. El dato más contundente proviene de Sony: PlayStation 5 ha alcanzado las 100 millones de unidades distribuidas, según IGN Latinoamérica [VF2]. Esta cifra se logra en menos de cinco años, un hito que la coloca como la consola de Sony más rápida en llegar a ese umbral, superando el ritmo de PS4. El logro refleja una demanda sostenida pese a los precios de hardware, la escasez inicial de componentes y un contexto económico adverso en mercados como México y Latinoamérica, donde el precio de la consola ha sido un factor crítico. La base instalada de 100 millones no solo consolida el dominio de Sony en la generación actual, sino que también garantiza un flujo constante de ingresos por servicios digitales y software, un modelo de negocio que la compañía ha perfeccionado desde PS4.\n\nEn paralelo, Square Enix confirmó Tomb Raider: Catalyst para Nintendo Switch 2, con lanzamiento previsto en 2028, según Nintendúo [VF4]. La noticia implica el regreso de la franquicia a una plataforma Nintendo después de años de ausencia y sugiere que Switch 2 contará con soporte de terceros para títulos AAA. Para los jugadores mexicanos, esto representa una alternativa de acceso a un blockbuster sin necesidad de adquirir una consola de sobremesa tradicional, aunque el precio de los juegos en la eShop de Nintendo suele ser elevado en la región. La confirmación de un título de esta envergadura para 2028 también indica que Nintendo planea una vida útil prolongada para su próxima consola, con un catálogo que buscará competir directamente con PlayStation y Xbox.\n\nMientras tanto, Microsoft no se queda atrás. La compañía lanzó Auto SR en ROG Xbox Ally X y X20, un modo de escalado que alcanza hasta 120 FPS, según Fanáticos del Hardware [VF3]. Esta tecnología busca competir en el segmento de consolas portátiles con Windows, ofreciendo mejoras de rendimiento sin sacrificar calidad visual. Para el mercado latinoamericano, donde las consolas portátiles de PC están ganando terreno debido a su versatilidad, Auto SR podría ser un diferenciador clave frente a la Switch 2, aunque su éxito dependerá de la adopción por parte de los fabricantes y del precio final de los dispositivos.\n\nLos tres hechos configuran un panorama donde la competencia por el rendimiento y la distribución de hardware se intensifica. Sony asegura su liderazgo con una base instalada récord; Nintendo apuesta por atraer a terceros con Switch 2; y Microsoft innova en el segmento portátil con Windows. Para los consumidores mexicanos, la diversidad de opciones es positiva, pero también plantea desafíos: precios elevados, disponibilidad limitada y la necesidad de elegir ecosistemas que garanticen soporte a largo plazo. La industria avanza hacia una era de fragmentación tecnológica donde el rendimiento y la distribución serán los campos de batalla.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Financiero: ¿Había The Legend of Zelda y GTA piratas? IMPI asegura 6 locales con videojuegos en Plaza Meave - El Financiero",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: PlayStation 5 alcanza las 100 millones de unidades distribuidas: ¿Cómo se compara con el resto de las consolas de Sony? - IGN Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Fanáticos del Hardware: Microsoft lanza Auto SR en ROG Xbox Ally X y X20 con un modo de hasta 120 FPS - Fanáticos del Hardware",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendúo: Anunciado Tomb Raider: Catalyst para Nintendo Switch 2 e 2028 - Nintendúo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "LEVELUP: “Jugar videojuegos no es una pérdida de tiempo”: compañía dará el día libre a sus trabajadores para que jueguen GTAVI - LEVELUP",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "N+: De Peluches a Videojuegos: Así Aseguraron Productos Pirata en Plaza Meabe de CDMX - N+",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Ya sabemos cuánto costará Xbox Cloud Gaming en México: esto tendrás que pagar para jugar GTA VI en la nube sin anuncios - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Revista Semana: Xbox sorprende con anuncio sobre GTA VI: noticia inesperada para los dueños de Xbox One - Revista Semana",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Profesional Review: FSR 4.1.2 aparece en los archivos de precarga de GTA VI para Xbox - Profesional Review",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Tarreo: Lanzan emulador de PlayStation 5 que se ejecuta en una PS4 Pro desbloqueada, y su creador asegura correr God of War Sons of Sparta a 40 FPS, exclusivo de PS5 - Tarreo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Mediotiempo: PlayStation anuncia sus ofertas imperdibles de noviembre 2026: hasta 75% de descuento en juegos, controles y más - Mediotiempo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "WIRED: Zelda: Ocarina of Time ya es el juego de Nintendo Switch 2 que más rápido se ha vendido, y después de jugarlo entiendo por qué - WIRED",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendo: ¿Quieres experimentar una aventura de juego de rol? ¡El mundo te necesita!",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd015eU9IWnR5VUViNzFhX2lIeC1yRWREWEl1RV9ZZkFxNzdZTEFlTTJMbUhPbmNqUFpIeURMeXZPN2ZBMXcwYUlBRHNHMExuYmlfeFl1Y1ZxSVhDcWpfMmxUM1hidlk0bDhweFFDdzFZek5LV2pfcWdvLW0tUFdYR3VKTFdrUkJWQVNfTk9sZmpMMEsxTHNzZmw4YjdncEd5T1I4RlNTYTVnNVFya193RA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo no ve con buenos ojos que dos juegos compartan nombre en Switch, pero un editor indie ha hecho posible su llegada",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVFo5TlV6em9TT1E0TFNEdm84RTFQcWgwb29seW9NRzRBd2FjejFaTTh0TTdIYW1rX1p5N3Jpc25KZ3gzeDZhUF9QcHdRNEJBVUJueXdIcm0yLTBZbUp0UHVBeVN5VVIwRXpaTHVxa3ZZcll1bW52RFZNanJHTHFjMGltek16OTZkZXJCU2lVaTQxb0lrTmVhb25FbHdCTEZ3ZE54ZHVVWFhuU2tXeHNBSVhjU2FVUUZ0X09lOUJuelh0OVNDVHNPeklNZDd2TG5mS0VyTjBFTWVtNFJwdXhEaGJydGE1YmVJaG5YQ0VDTQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: GTA 6 podrá jugarse en Xbox One gracias a la nube, pero los usuarios de PC tendrán que esperar",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ01qM3hYMUJyTmJpaXRWX01kY3lNQ2dVRkQ4MDlmLUZRbVZQZVlmUlNvdmtGNzktWTRELTVtYTdZWGJzZjc0OFVkV0F6bHJKMDFheVowcVRxcjNsTlFvT2tmODBzeGhFVENYNkViUkdZRXBNTXRtYlUxUkhIOXVtNEk4UmZESUpValRxMDh1UGdpTExHLWZmYU54WlhQaW1tSVFZeVZBUF9GQ2o4eGlaNVNBZWlhWlRjR05RVmRTa2Z0RThvbHI2UkJ6eWRFWmtj0gHrAUFVX3lxTE93NzdqcFc5ME4yYXNRMDJNbVNyOGRMTXR4MlFzYUlaQS1CYjQ3V0hsV0I2Nmw5XzdsaERoN3c5T25hMjJpTEF2aVJkYzNfeXhybldqTXdvdGdXRlZCWG84NDdNRk9qTVJURXdrRDMtWHl5T0VVaHRsZC04M3ZrVTZHSDBMeF9rUzR4b1FFLWZTQmFXQzdhRTBzQl9uY0ZjdloxdzE1VDRvVXRMZndXdF9xeFowQ0ZsaTh1d0d1NFhhalIyLVo5NEhrc0VjbnBvdjFzTmd5VVAtM1Z4aEpLeVZvWEFyU0FrWW1QSFE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Catálogo de juegos de PlayStation Plus para noviembre: Death Stranding 2: On the Beach, Like a Dragon: Pirate Yakuza in Hawaii, Atomfall, Dragon Quest III HD-2D",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQMnVBdlRaY1VoVXRTT3BLNFI0VDB3LWtSMTJyNlZ5RUc1V054eXRjMldFUThUbVBzMWgxNUNJZk5KbEZXVGt3a2w3Vjk0MjFDT1NTQmc2cXR4MmNmSl9HV3VMekNjV0pqS1NEbjNycVpBLVZLVHlsUUdwR0IyMnVPRFl4aWdlVVY1OGVxSGJ5RnRhUWoxNHRrZUEyenVYVmt0RU1Fbk9rSnRJYjNNdmpmeGdTSzRFQU5ISXBKVG9EbU52Z2J3eXU5cUxYSnlKUVdaSUQ5cGlpeFdUbERRTW9NRGRCeEFaZ1RPU0pYT0xsbmJkM3UtMDlBamxScHRGS1dlUEFQYTlRcXctS3BMcFE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Financiero: ¿Había The Legend of Zelda y GTA piratas? IMPI asegura 6 locales con videojuegos en Plaza Meave",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPV2tzZkdHdzRMUDQ2QmhRQVVtTnVPbXRKVjFnX1NmQmx3eE5Va0lWZkxzM3ZhY1pPR0x0Z3pPbXZFeU9ZQmhXT25HQUFrUUxLcmdtX1lwSXRsN25HQ0dDUGhEQWdmWUh3Zm84dTJyUngxaXZoa0hQWGhhNng5WmU0UVVpWlZCN1NHbEdVVm1HT1pBREtfQlpNeXNYeEczd2xwUFJWN05na2NjUXZwc2EzcE1xbDlNSGdTQnBQZ2VEWFFveHF0Yi1wekhWdGM4bjNjb0pEZ3hDUXVzd05vODJz?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Universal: PlayStation 5 Slim de Sony; la consola baja $4,000 en el Fin Irresistible, perfecta para el GTA VI",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZkNJaGR5amNnSlJvSlVIQW1RaW51V1poNk5zUHdybldBb0VqZU1VcDZ6NUNFV0JSUkZGbHltdkQ4c2hYNURNb05LdXZrQVducEV4bDY0Nmc3aFpHQ2RDMmNQRjFiSVJueDJHaVpwVUlwN1NCN2hwelJ5andzYkV6NGFNTFQ4TjV6NEwydnRjMWJXWHNFTmV2OHRTNnJuMnd2WGx4MS1XcXBVY3JydVplRWMtQ056cWNUZmNRVEZtWTkxREhMM2oyX3p3cGg4clAyb2FZLTlkSGNlODdR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Revista Merca2.0: The Legend of Zelda: Ocarina of Time rompe récord en Nintendo Switch 2; vende 5.2 millones de copias en cuatro días",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMUtibi1DQ2o1S2d3RVBDaERVakc4dEt4b0h0LU9ZdzloTFc3SF85bVVnWWxjQkU0cTZsWWJiMnhPZ3g4T3BrRFJzMUVkN0pIVWhwaUFlTXNtaURkTmJ0UjRIcTZfVXo0Zmd2UnVPUEVObWIyelFCT0RzZTJrNGVWbmZDSU5fTjZFODFEWmlWM2lkYnF4VF8ydzExQnpQc3dDOXhpLWwyWEN1MmNhN29qaC1oejNYdElEOGd2X3NpYk4yaHFBaUdsQklBcnFUdDRFSzRsUg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Nintendo ya ha subido el precio de Switch 2, pero el problema sigue ahí. La paciencia de la compañía no es infinita",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeW5idFZ2OUR1eGtETkVEUGZRYXI5S2ItX1JoOUFsaFgwQndoN2RoRDRld2lrVzNZTmVDUk9jcXJFV1lURWVYTjllU1BWc24zbHBVb1dlSUNOdnQtRldxd3ljZ3FOVmRfMDJhdjBTV3Z4MFdxalUzbmdsN05EU2NocHYzcFlaeDZLU3hjSVY1TmJOOUt4WVVmWWI0MWJRbkhOODltYU9xN1hRbi1rVFJDbEQzTkRMVGJmcVFEbFRKWVJDUUU0OFRVbDJHN2pnTWFoekHSAdcBQVVfeXFMTV93aGxpM0N6cGJ5WWE4Z1VhWFg4c1pXYUhiLUphWG1PbTBGTmkwS0hLMmlNcU01WWVaLW1zVzN3RHEyN1lGOW04Z0FfX1NBN3FjcnBxM1JNamp2amI3QkFBVHhZMkNHOGNvcjdqOUxOdGNjNndpRzFkSFhmVEdYZGhBU3NjTkdUcXpCdmdGWThqSThVX0ExSG1hcEV0ZnJ3TG0xelZqQW1TOXVwRnBYZFJ0SXAxZk54TnZrTll4T0oyVFdSWm0wX1ljRHR4VWhDNXdPTU1taHc?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=H4QByW6113s"
+  },
+  {
+    "id": 1794423607063,
+    "fecha": "2026-11-11",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "NVIDIA cancela la RTX 5080 de 24 GB por el alto costo de la GDDR7",
+    "descripcion": "NVIDIA habría descartado la versión de 24 GB de la RTX 5080 debido al encarecimiento de la memoria GDDR7, manteniendo el modelo de 16 GB. La decisión evidencia la fragilidad de la cadena de suministro de semiconductores y anticipa precios récord para los consumidores.",
+    "narracion": "La industria de las tarjetas gráficas enfrenta un nuevo episodio de volatilidad. Según reportes de prensa especializada, NVIDIA habría cancelado la GeForce RTX 5080 de 24 GB, dejando únicamente la variante de 16 GB. La causa principal es el elevado precio de la memoria GDDR7, cuyo costo se ha incrementado más del 30 por ciento en el último trimestre, de acuerdo con datos de la industria. Los proveedores dominantes de esta tecnología, Samsung y SK Hynix, han ajustado sus cotizaciones al alza, lo que obliga a NVIDIA a recortar especificaciones para no disparar el precio final de su tarjeta insignia, que podría superar los 1,200 dólares.\n\nLa GDDR7 es un componente crítico para tareas de renderizado, entrenamiento de modelos de inteligencia artificial y gaming de alta fidelidad. Su encarecimiento no es un hecho aislado: refleja la presión sobre la cadena global de semiconductores, afectada por la demanda de centros de datos y la competencia por capacidad de fabricación. La decisión de NVIDIA, aunque no confirmada oficialmente, coincide con múltiples informes que señalan la cancelación del modelo de 24 GB para enero. Fuentes como [VF4] y [VF9] coinciden en que el alto costo de la memoria DRAM es el factor determinante.\n\nEn México, el impacto se siente en el mercado de componentes. Tiendas locales como Cyberpuerta y PCEL han ajustado inventarios ante la incertidumbre de precios, según la cápsula audiovisual. Los creadores de contenido, desarrolladores de IA y gamers que requieren mayor ancho de banda de memoria para sus flujos de trabajo se verán directamente afectados, pues deberán optar por la versión de 16 GB o esperar alternativas de mayor costo. La soberanía tecnológica de la región también resiente la dependencia de proveedores asiáticos de memoria, sin que exista una alternativa local a corto plazo.\n\nEn paralelo, Nintendo confirmó que ya no permitirá el inicio de sesión mediante cuentas de Google o Apple en sus servicios, según la fuente [VF3]. La medida busca centralizar la gestión de identidad digital y reducir dependencias de terceros, argumentando razones de seguridad y control de datos. Sin embargo, analistas advierten un posible revés en la experiencia de usuario, especialmente para quienes utilizaban estos métodos por comodidad. Esta decisión se suma a un contexto de creciente escrutinio sobre la privacidad y la soberanía de datos en la industria del entretenimiento digital.\n\nLa cancelación de la RTX 5080 de 24 GB no es un hecho aislado, sino un síntoma de la guerra tecnológica por el control de la memoria de alta velocidad. Mientras NVIDIA prioriza mantener un precio competitivo, los consumidores mexicanos y la comunidad digital enfrentan un panorama de escasez y encarecimiento de componentes clave para la innovación local.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: Stellar Blade cumple las expectativas de ventas en Nintendo Switch 2 y la consola tiene 24 MSI",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ¡Cuidado! Por ver películas gratis podrías estar exponiendo tus datos bancarios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Nintendo ya no permitirá inicio de sesión mediante Google o Apple",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: NVIDIA habría cancelado la RTX 5080 de 24 GB por el precio de la memoria GDDR7 y mantendría el modelo de 16 GB",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: NVIDIA cancela la GeForce RTX 5080 de 24 GB",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Trucos y consejos para encontrar todas las skulltulas de Zelda Ocarina of Time Remake",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Sólo hoy en MediaMarkt, este portátil gaming con RTX 5070, 16\" y doble descuento es un chollo que se adelanta al Black Friday",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: 'Es fantástica': El CEO de Take-Two aplaude la nota de Zelda Ocarina of Time Remake antes del estreno de GTA 6",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: No habrá RTX 5080 de 24 GB GDDR7 para enero, NVIDIA cancela este modelo por los precios de la memoria DRAM",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Metaphor: ReFantazio contará con modos de rendimiento y gráficos exclusivos para Nintendo Switch 2.",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Phantom Blade Zero ya tiene cientos de mods en PC, y el de 2B de NieR: Automata es la estrella",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Tiendas, precios y economía en Zelda Ocarina of Time Remake: Dónde comprar, vender y usar tus rupias",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CNN en Español: ¿Quién es Alice Huang, la supuesta espía en el centro del escándalo de Nvidia?",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOTZZUC1DOXFVNm9ObGZKaDlfUVpUWWNxNnJZbElnTTJpb2FLR2hTbDRoa0FraTN4VTVLNlUweFl1c0FGTjFiZGFQVGoyc21zcXUzOWlYQ3N6TEJ0STV3NEJwa3NKMnAxRVFWbEIzMXFQdU5QQ3RyN05SZ2R4TE4yMjBXZG5TamlzXzV3d1A1cw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Ciberataques bancarios aumentan 70% en México y hackers cambian modus operandi: ¿Cómo roban tu dinero?",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnFMUHVZYzJPVnFvRkhvSVJ2MDA4eVRMbEp2d2Z0UjBFeHpiMS1GTlVrSUw1NTVYRnhxdGwxVTdZbzI3RDUwSzZkaDlwVlh4aGI1X0E3eHZFR20yS3ktUUtvV0x0YzJfdzBSQktHWUcxbGM3STBnbVhOcl9kbTlvaHVTeWhlZmgwak9LOGdMVl9oLWdsWUxPVlEwbU01eWNmeDlSdHRhTl8ySzVWcWhXS1VSOE1ZU0Zw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El costo de pensar en español",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0trdk9aUGhvbDVnRjhrVWpkUlpSVENXZG5oWncwdHRzSmRNUnViOWlWLWpJcEJfRjkzN0owYzBCaENyWVVCa2MxM2lCTkpoVmRBLVVUMUdmcWctdjIzVlR3QUk3eFJMcTQyMjlIU2JDZzBPa0oybVFYRjJEYTdSb1ZFR3FQeWhVZS1hNXJzVGF5SEN6amtkU3U2cw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum anuncia tres nuevos apoyos para estudiantes de ciencias",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPampDRFlQcFdFSGl0aXRxMmhPVnB1cnhtam1WYmFZY3dMNmJKVFZkci01c3d0Z0dfVjBLZ3gzeVVqazdVRXhiUHk5SWxyZWJ5UmFMV24xbzAwb0NKbDlCWEphX1p2cTNqd281WGdzMy1yZnJlOHI5cnY0QnJ4NXdIOEFLa3ZsNXdYTGRHeWZncWFpVHlkcmhWMzVySGJYU3ZZMnJ2d2E3RjBGV2lUdmdqM0o4YVJKb3g4bVhVZE1lMGltVDRWRDdkdjNhbnRUSUhfOHo3OG9ZSm1VT2FZMW5vWkV0NExRcWd1bXVRcTBB?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: GTA 6 confirma su llegada a Xbox Cloud Gaming desde el primer día, pero bloquea a los usuarios de PC",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwVDZUdHFDc29HcUcyREJLM0puMzVBZEozaDRwYTlpMzdhd0d6RFJsWVlrc1JQSzJHNTN3MFNWM2MwVExLa1FZNnF2WE15NHpzeXB0TE5TVXZKZWNfSDdvanB5MjRIc1UycGFsWFhRYmNVcUROUjZZVGln?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "DW.com: Anthropic sale a bolsa con una valoración de 1,4 billones y pone a prueba el boom de la IA",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTBpdzRra2pxaE1zamNtWGZSeHg2WmdaQmM0Um94Vk4zOE11TFluc2VuZFJtaW1mUXQzeGRoajFfNXg5UDNzUjV2WUZ0Zkx3OTg4Yzk5RnJRSFljX2luVERJNGJodkpnMVVKM2RMdl9nWENkSVlDTlZSYkFCNUJuQVFpdl9hRHJ2Y3NfVHo4SjVWZGN6RjRIQU8yRzVTMjBSVFgzOFlOSDFvalowYWVJZEVSV21UR3hK0gG4AUFVX3lxTE9JaVdLUDBORm5ZOU1IZXJPdEQ0Q1diNTF2YnlCdERtQU1fTHRsOC1ETDFad3N1QXk2NWZXd216a2wzTzhtVF9xMEp2alphdGhBVWpaNm5pa1QtWWJHTmxLM3F5RWd1dkJob0ZoVk1UX1VibHRDcGU3QXNtTjg1MzZZSlp1UGFVU0d1czBGcmVkV05PV1pHLWd6RzkxXzdieldZaUpIWW5hUVFTekNTaGNhWVpRMUM1MzQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Motor EL PAÍS: Tesla tira la toalla con el Cybertruck: así terminó convirtiéndose en uno de los mayores fracasos de Elon Musk",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTWdwQmlfX2kwMmhGZEliVDlsY1BfTDF3cmk0bndTNVZONy0yZFA1bFVIMFN5RW9LRW5aTXhSbkEtQmxjVUg1ZEkwQUlRaG9YbnhJdjdlTFhQZnp3eFMxZG1BekJHeS1FX3plaVFuM2cyNTFRUl9hMmpGS2VjYUw2TFZ3QXNIQ2R0dy1WMHRnZzlWSzN1ZEk4RU1hTjgzblJleEljTm9qbm1ka2UzSExjdWxIdW9NYlQ3dlktTzBRRnBLQUZsaTdtZTJOWlRtdjlkMmlHS3oyTWJGdzJWek11d1RvM2ZsZVp00gHuAUFVX3lxTE1RT3l1TE0wQ1F0aDg2VHh1eWpvbzEtY2lEUUR0cmN4aDlGWkZjcXZPOUhOYmQwbkdZYlBaUzBfY25JcGhvS0dJT1Z1VHk3ZWJsLXVMSXY1b19QbXFIeVpZNkZ4dG1HSWdCclZVVFd4NmVSQ28tSjZSWmc2ajBkM1N2OVpRQWgtLU54N014NXFWcWZnUGVZb1dhakJvdFJOMlpEcUhPMzE0X2p0Z0huRklUOTNpc0FtRDBJb2NPcm5OUkV2S0o5SWl6bEF0cEI0RTJ1UVphbGxFN0E1YnRnX2wwaHBzWjh2dXlQTkE0RVE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: David Garza: “Tenemos que ser autocríticos y pensar cómo será la universidad del futuro para la era de la IA”",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQblIxZ01tSXZjZ1Rncm5HSDN0V0VrUW5sNmZtTndkVXVwTHg1MlhKTFhnRmdULUJIVXdxX3pUUEh6VG9VV1ZNaHdYV0t4OFhCb0QtMlFCb1NTcnhMOUtRTEdPU0ZsTGRrLWhhQW5jVnI4alRndDVxSklpU0o4ekNjTlVGTU5PM1BpemVOalN1ajJJYng5TDRwSjQxVXJjdmMwZ2czdG96MmRGRDFFSE1SMmtNWDB2eDJCQmNqLWhPNHhqcHpRdHRDZjZNTWQtWUxWcmdtdXZ1T3ZMUzM2VWZGNDh6a2pVcWtrazE3THZn0gGCAkFVX3lxTE9HenZJRV93T3kwXzFwUkZxcHZwX3VZN3o0SzExcFBxdGo2ZWNLYi1Ec0pZZXRuVHVpcTBLblNPbFZMZ2NGSjUzc2M1MGpKY2lhN2JQMkc5eFRnQWJxbWhQVTlna290amRQSE9STnhOQ0pVZnpKcEhrbHNqSjZ5Y3FrbU4zUTZiX1ZjNDlVUk1ZMjVUb3VJVE9aNXFNSnU4S09ldUt6M0N5UFE1WHdhclU0ZzVXWTA5QWxlOFozX1ROQ3NIbUM3ZWJEazNXcHE1NDNrOEZoT0ZMaU1PWGhDc1NGUzJGOEJreUlNMjEyelU0RHhEWW9sWGo3R3pfZDdJRWp1UQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=mQUbiabWAWs"
+  },
+  {
+    "id": 1794420006743,
+    "fecha": "2026-11-11",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "James Gunn y Peter Safran dimiten de DC Studios en medio de recortes y tensiones contractuales",
+    "descripcion": "Los codirectores de DC Studios dejan su cargo tras desacuerdos con Warner Bros. Discovery sobre la estrategia de franquicias y un recorte del 30% en el presupuesto para producciones de superhéroes. La dimisión activa cláusulas de indemnización millonarias y deja en suspenso el calendario de estrenos.",
+    "narracion": "La industria del entretenimiento se sacudió este martes con la confirmación de que James Gunn y Peter Safran han presentado su renuncia como codirectores de DC Studios, menos de dos años después de asumir el cargo en octubre de 2022. Según fuentes internas citadas por la prensa nacional, el conflicto se originó por diferencias irreconciliables con la cúpula de Warner Bros. Discovery en torno a la estrategia de franquicias y, particularmente, por un recorte presupuestal del 30% al fondo destinado a producciones de superhéroes. Esta reducción afecta directamente títulos emblemáticos como 'Superman: Legacy', cuyo estreno está previsto para julio de 2025 con un presupuesto de 250 millones de dólares.\n\nLa salida de Gunn y Safran no solo implica un cambio de timón creativo, sino que activa complejas cláusulas contractuales. Ambos tenían contratos por cinco años con salarios anuales de 5 millones de dólares cada uno, por lo que la compañía deberá desembolsar una compensación estimada en 15 millones de dólares. Este tipo de acuerdos, habituales en la industria, buscan proteger a los ejecutivos ante despidos anticipados, pero también evidencian la fragilidad de los planes a largo plazo en un sector cada vez más volátil.\n\nEl calendario de estrenos de DC queda en suspenso. Producciones como 'The Batman Part II' y 'Wonder Woman 3' enfrentan incertidumbre sobre sus fechas de lanzamiento y sus equipos creativos. La noticia ha generado preocupación entre exhibidores y distribuidores, quienes dependen de estos blockbusters para mantener la taquilla. En México, los cines y las cadenas de exhibición ya resienten el impacto de una posible sequía de estrenos, mientras los sindicatos de trabajadores de la industria advierten sobre posibles recortes de empleos técnicos y creativos.\n\nEn paralelo, la polémica por el doblaje de la película animada 'Wildwood' continúa. Se ha confirmado la sustitución de las voces de Javier Ibarreche, Natalia Téllez y Macarena García, decisión que afecta contratos de talento y podría derivar en demandas por incumplimiento. Este caso, aunque distinto, subraya la tensión entre las decisiones corporativas y los derechos de los artistas, un tema recurrente en la industria cultural mexicana.\n\nLa dimisión de Gunn y Safran plantea interrogantes sobre el futuro de DC Studios y la capacidad de Warner Bros. Discovery para competir en el saturado mercado de superhéroes. Mientras tanto, la industria cultural y el público mexicano observan con atención, conscientes de que estas reconfiguraciones corporativas impactan directamente en la oferta de entretenimiento y en las oportunidades laborales para talento nacional.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: La Bruja Escarlata regresa en ‘Avengers: Doomsday’ tras el final de ‘VisionQuest’",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Latin Grammy reúne a estrellas de la música y el deporte en gala de la 27ª edición",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Actor de Juegos de Amor y Poder se compromete con su novio: así fue la romántica propuesta",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: La polémica por el doblaje de Wildwood: Sustituirán las voces de Javier Ibarreche, Natalia Téllez y Macarena García",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Aseguran que Laura Bozzo presenta problemas respiratorios y por eso sigue internada",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Reviven rumores de romance entre Belinda y José Luis García Parra",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Según se informa, James Gunn y Peter Safran dimiten de DC Studios",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Así fue el levantamiento de la Gran Carpa de Cirque du Soleil: ECHO",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Donald Trump Jr. defiende a Russell Brand y cuestiona la sentencia de 10 años de prisión",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Alfredo Adame se CASA con Benicia Zúñiga: \"Es la mujer que busqué toda mi vida\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Surgen nuevas denuncias contra Russell Brand, condenado por violación",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: \"Wildwood\" tendrá un nuevo doblaje en México tras las críticas a las voces de Javier Ibarreche y Macarena García",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "CNN en Español: “Wildwood” tendrá un nuevo doblaje en México tras las críticas a las voces de Javier Ibarreche y Macarena García",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV1FUME96dnNkVk1oZWlMZ0VqOHhYWm5ZbWVENnY4Q2dGZDZyWlpoa3RibUt6ZmYyV0VRWlZJZXAzbk1hdmoxcnhneXNfbDdYYUtsTlI3ellhenpjeFQ3VWNCMFBXUzgyb3h4Mk5lbHNudnJXWWQ2NEhDN1NoSUEwRTdBOURHdTZGZEFEVDBMZ2YyWUJaa3E0SGVZTDVlRHRFZ3htaU1qUFc4dlppZFRIQUpBTWl3TFk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "People en Español: ¿Por qué buscan a Vadhir Derbez? Los detalles de la presunta orden de aprehensión",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRFZ2N2FuU1ZnWjRYZnBSTmQ3TE13RWtDcGQ5cktLV2JodDZ1cTlJUFVhOUdIb212dUpOY3VMd0pBWHBZVGZjZVhHRmx0SVpHQ0djd2dCZTNvcE9jc2oyaHo2UHRqMHduWTJJTFBZdjhpQlR6VG1paDdiZjZaRVNHSWNUYWMxOElQYXY3Mw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Xataka México: HBO Max y Paramount+ comienzan su fusión. Se ofrecerán como un solo paquete de streaming con un precio reducido en 2027",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRDFJTDdLRkxsVnNwSno1bnExLUc2QmdTWXIwVDhRNWw2V1pIdUotMlByQjRxaU5zM2VrNl96YTh3cUpVenR0UGRFcEg3Q21ma3hSMkdGRkdWUjhqLTRyQ1U0UkVaVVVNNFlhdVRzTU5DVDJXSjhNUjEtRWRaRGJVX0lua3hoWURNMWZ5QWxGUnhGZG9ST0MyZ1p5cV92UW1XYng1U3VIMFV2ZVlqX0tRZ1VGY0w2b1RrcHZTa1JCZlQtQnp4SWNmN1ZFU3lPTEtn0gHWAUFVX3lxTFBBa1RocHg1UGZFSEMwVjRvNzhuWUhoMm1GSnpaZ2I5enNPbW4wSC1wbVYtRW9wYTBSdEJvdkxFdkFoV1FST1FPQk1EU2hnZUFHNFhkVkNLQnlHUmhqLXRwSDJ4OG9zVktRbi1DZENOYW1zeTVscmZ1cU5GSXQxVW9FcWlKcHZTZ3VWYzB5RDlzQUZOYXpkamFDWU1RWXcyRWtqTjFyNWprTkxWSzRtVU9OUU5XbE9PTzBQMmFRcVBPWDVab3J1WmEzNGd0ZnJsdGphaVRobGc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: A punto recibir a su hija María, Cynthia Rodríguez presume su crecida pancita de embarazo en bikini",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGE4UEExajZHbDEwazlxME80RTFBVkFjQnRpemFOZUtMQ0tEajFkeFpnaTk1bGE1MHBsNEhDVVNBaWd4VmN0VnlFT0l5ZXloWFJpS0cwZUl1ZXVfZmNfeGsxc2lqXzJocFFISXlfNzVldkxRZmNjUERvWm9Fb29IM3laUTZCd2ZoTzdJZXVsUjRZLXNBcGp3S3ozVFRoc1hma05jU0FQcUVMXzFOQ1UweFdfOA?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Lambda García anuncia su compromiso con Daniel Delgado: \"Me voy a casar con mi mejor amigo\"",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOGt6QmhwN0VVY1RCMUR6djdtWDFkcDFXUUd1N0J5TzVEa2Nfd0hINWJGLUptZTdwSWFrZWJNOFJ6ZFZoRDhneW1FYjR6N1p1cndMUkhTOVYyeEotUDcxcUpxeGNrVVZuRmlPQU1PYV9qSG50OFFUTVM4aHhLeC16ZjdtT2dLdmhTdzZ5cjRkUFdkT21QYWs5cXVzQUFNNDdrSlpYYkdpMDlvbXpVWVRocUFPSDAwVXNfOEUwMnVUZEhJUHJVQTZKTXdqc9IB5gFBVV95cUxNVEtraUc2WmpJaUtqVXNRTXdNSVdsLUh0WFRQUHMyM0xMQTBKbnJQS3QtWkdXREg0SHc1b01CalBhN0lGczRMeWtwa0UteWNweEd3UlhISC1vdmVXUVNjMWxyMTB1alV6dWl2UG5pREJ0LTBhd2NLbFFjdF9WTnJjMXBFbXpKbDVaZHl4dENNSDR5WEpfZFMtWk0yelZtR05ucS1ObHVpN1dCM01jRGJfVHgxcFptaUx0WGVmbEgxcXVnZ21aWkY1LXI2NEJKdXUtNUVhOG5JMGlUUXRaZE5Vek96YkZtdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Quién: Renata Notni y Gonzalo Hevia Baillères son captados juntos en Los Ángeles y desatan rumores de romance",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdnYzNTFQRkNMMU1kbVVDQmpTX1R6WW1za1BzZC1KazduaVNkWkI0bzJJNUE4Nk1hc2ZJWTNtRkNtQmJVQWFqTjd3WFhpQ0llSVVKTi10UXgwOWM2dk5ZWHFfWGR5TEk0YUhFUEFYYlpnWFMxeG10X2d3UktaU2w0MmQyTHp1NHd5a0FsVXpOZVVYMmFIZnE3V1Noc0Zpa3ROZkI4MkNmanh4MlUwYVhucWxXakxncjdaWXdfbGtFcUVoTjNXQk1OVy1rQURaZ2VEQmVwNUx3cDM1b3U2NkEweDln?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Reforma: Organizó Brand mega fiesta previa a su juicio por violación",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOckRDbl9KTlRuV0FGWkFNOHBJdHpyenBRUTVYY2paTlY0RVo3U0dhTXJSd0hMeVpMU0gzWHVmb3ZGWVVUa1JJdzMwcy1ONXdJWjZsc3R5SlBlb21nSG1PdkJwUjRmNlBPcFJZZ2dOY0YtQmd6LVNqQTJLa0JNU3JaU3ljcmpqNkItYTY1bmtlbHE0d25HTUp0cw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: Ninel Conde defiende sus cambios físicos: “A los 50 años, pocas, mi amor”",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV2EtZlByOGFBWTdTMjAxTk9zQ2d6YlRxNlpBQXh4cEFOM3ZMRlZHRDBiRkdtTFFMS3VLQzVIOVk5UUtiRnpIWm94MFVUVmlHWk1kX08tQzlQdUVKQ0JoVUxaUF9wVW1pU1dlZ3NFT1VqcGppUHhmeDNsMGVhT3FaRFF0MjJfWHhZOTBZVlJSUlhSQWFUdGtfYVQ4TlNxS2lYM0FYaTNOaTRBWGc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=MwHvXB_8YV4"
+  },
+  {
+    "id": 1794358806305,
+    "fecha": "2026-11-10",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Seguridad, corrupción y justicia: los cinco frentes que tensionan a México",
+    "descripcion": "El asesinato de un mando de la Guardia Civil en Morelia, la detención de un jefe del IMSS en Veracruz, la suspensión de clases en Los Cabos, la red de sobornos que protegió a Ryan Wedding y el feminicidio de Danna Itzel evidencian fallas estructurales en instituciones y seguridad.",
+    "narracion": "La jornada informativa de este martes confirmó que la seguridad, la corrupción institucional y la violencia de género marcan la agenda nacional. En Morelia, Michoacán, un mando de la Guardia Civil fue asesinado a tiros durante un operativo en la colonia Villas del Pedregal. La Secretaría de Seguridad Pública estatal desplegó un operativo de búsqueda, pero hasta el momento no hay detenidos. Michoacán acumula más de 2,000 homicidios dolosos en lo que va del año, según el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, y la violencia contra mandos policiales se ha recrudecido. La población exige resultados y la coordinación entre los tres niveles de gobierno se pone a prueba.\n\nEn Veracruz, la Fiscalía General de la República investiga a un jefe de área del IMSS por un posible desvío de recursos que superaría los 15 millones de pesos. La detención, confirmada por fuentes oficiales, representa un golpe a la credibilidad de la institución de seguridad social. El sindicato de trabajadores ha exigido transparencia en el manejo de los fondos, mientras el caso se suma a una serie de irregularidades en el sector salud que han derivado en auditorías y sanciones administrativas.\n\nEn Baja California Sur, la Secretaría de Educación Pública estatal suspendió clases en Los Cabos los días 12 y 13 de noviembre por seguridad vial. La medida, coordinada con el Gobierno del Estado, responde a las afectaciones por las lluvias recientes y el mal estado de las carreteras, que han provocado accidentes. Más de 50,000 estudiantes de nivel básico se verán afectados, y la repercusión económica es significativa para las familias que dependen del transporte escolar y la actividad turística, en un fin de semana en que se prevé una derrama superior a 332 millones de pesos por la Baja 1000.\n\nEn el ámbito de la justicia, investigaciones revelaron una red de sobornos y filtraciones que protegió al presunto narcotraficante Ryan Wedding, detenido en Estados Unidos. Funcionarios mexicanos habrían recibido pagos para alertarlo sobre operativos, lo que permitió su operación durante meses. La Secretaría de la Función Pública inició un procedimiento administrativo contra los servidores públicos involucrados, mientras la DEA mantiene su cooperación con México. El caso expone la penetración del crimen organizado en las instituciones y la necesidad de reforzar los controles de confianza.\n\nFinalmente, en Xalapa, Veracruz, familiares y colectivos feministas dieron el último adiós a Danna Itzel, joven asesinada. La Fiscalía General del Estado investiga el feminicidio, que ha generado protestas y demandas de justicia. Veracruz ocupa el primer lugar nacional en feminicidios, con más de 70 casos en lo que va del año, según el Observatorio Ciudadano Nacional del Feminicidio. La repercusión social es un llamado urgente a las autoridades para garantizar la seguridad de las mujeres y tipificar los casos con perspectiva de género.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Dan último adiós a Danna Itzel, joven asesinada en Xalapa, Veracruz",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: En coordinación con el Gobierno del Estado, por seguridad vial, se suspenden clases en Los Cabos el 12 y 13 de noviembre",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Detienen a Pedro Hernández Calderón, exportero de la Liga MX, por presunto tráfico de relojes falsos en EU",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Asesinan a tiros a un mando de la Guardia Civil en Morelia",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: El \"R2\" fue detenido con apoyo de la inteligencia de Estados Unidos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Red de sobornos y filtraciones protegió a Ryan Wedding",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Fiscalía de Morelos entrega cuerpo de Edgardo Larrañaga, maestro de Universidad Tecnológica Emilio Zapata, a familiares",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Detienen a jefe de área del IMSS en Veracruz; investigan posibles irregularidades",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: BCS prevé derrama económica superior a 332 mdp durante el fin de semana largo y la Baja 1000",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Diputados prevén aplicar un tercer recorte de 500 mdp al presupuesto del INE para 2027",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Tragedia en Texas: Camioneta con una familia a bordo cae de un puente",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: UAM Xochimilco promete atender demandas de estudiantes en 48 horas; detallará acciones y plazos para cumplirlas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Departamento de Justicia de EU acusa a pandillero prófugo en México de proteger a exolímpico canadiense",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Que mejor lo diga a un juez, no al New York Times: Maru a Zuany🎦",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Exfutbolista mexicano es arrestado en EEUU por presunto tráfico de relojes de lujo falsificados",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Financiero: El ‘R2′ frena su extradición a EU: Juez le concede un amparo al líder regional del CJNG",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ3RiOXg1UXJFWW1VcHZ4YzZLNGNKOFZtVlY0M1YwaEVOYXB5dndmbmVsaFkySFlGU3k2TVYwZ2QtcnJSM2hUOFVidUU2SzdVWGgxZUJQV3dWMUNLRXpkaEEyRW1LcEJrQWRwXzRlWjNNdDF3NWJzNkxCVTdVcHBUUVYtX3FoSEIxMXkwdmNSQUVHS2NXUGZNZWJoc3lld3Jud2c5cVRvcVdsRU9rbnhYbW1YQ3U1TG9mb2JwdlJ0SGFKMlFtTWpfeHU1eGY1N1U0eVE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ‘No lo merece’: Lilly Téllez vota en contra de poner a Cuauhtémoc Cárdenas en muro de honor del Senado",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPczJOcy1oVGpPaWJ5dEJaUkJYcDh3RHQ5R1lrUHhqeElWdWVnSW5jc2pQNmtVX1I1eENBLVlSZ0VENHdaUUpQTFFBVHVfSGFhbEJOcDdqMkRWSzI1MzY4dzJncXpWakF6cGpqb0FRLS1RU1RvN0lGRFRvaFhOdFNPbUFSX2FFWXFGMVM5UzQ1cHc2TlU4UkY5SlZEdUhUNmtySDBhNVJyS0NuLVpjaEFaSHg0TW81cWxRcDQ5SUxhRmh4S1huX3NJbVVfV0NfSHdUVkFicndhWkVzS1drWWdZRmEwdkJTNERJYXhLMm5Ca24?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Homicidios dolosos se redujeron 50 por ciento entre septiembre de 2024 y octubre de 2026: Sheinbaum",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd3ppNmhRY21DWk5UXzBrY0JncTk1V2tUVEZqcXJIaVBEMHBNaF9XV1V4aDJ1ajR6X0Q3b0VXcmtWbFJWd1dTcTdKanY3NVBISW0zRlNoeWxZTTUtbFV4Q25xTU5qTGRNUnRVZ3FVa0s2c0VpamttdnlIQlRZZ1ZWZFlYNExZMmpLNWlOaXd0b1FIZ2ZGSzhLZ1BZekxSNm5teXdyZ2l1eHRtLXhxNXFmM3NCWnloV1RPVFJHOG42anc0clA4X1FjdGpyY2Vua1p2VnQ2N05RblVXdndnLTZQRE9FU2JYM2s?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Matan a Bernardino Gómez, exjefe de Seguridad de Uruapan; lo balean afuera de una tienda de abarrotes",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQU3NGZFJ6VkdPNkMxSW5ORVNaQXpvSkhYendrR0RlS04tR25INC1rQ1hyT2hLSi11aGtFQi1zbmtvTzljNWRCVGlzcU1yaFc1ZEp2M0JfdmZpZGJac0UyM1VsRlAzODg5cnZIcTNNNEM0dUxLanNndWhyUkkzT0Y2OEp6MktpY3JKRmlLMVpmZ1E5dnlsWm9feUUyYTctM08zTUdFdWtOOWtGR1pjenRhUktlWW5FWGF4TDZfbzVCT1dEeVlsVE96cW4wc2c0MjRqX1pTWHQ3cXN2SVpCcXItc281ekJTdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Revela EU que red protegió a Wedding a cambio de sobornos",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNakNnbnpXUlFuUV9PbUJQUDl3Z2NfSXIzLXFJVTJHaXRBNjVlRkpEdUd2NHJZb3dwOHB2VlYtSHJMRmtON2hsekdYUWxYckYxXzZydUpUQkZEUGJvSDM3OERXTHhrcmZ3eEdDNUVBemhWd25hRXVZX2JvMFZ1aklMUEZtTS1UOXY0OThKRlBMNFhIbkJlalE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Trabajadores del INE aceptan aumento salarial de 6%; buscarán negociar un incremento mayor",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcXpGMkNQaEc3ZXZLQmtYYlNpbnBUVDNVYmJRdDh6eHRrWmlwSmZzRXc2RmU4OF9fM3hLUmsxaHNQUVNLNWVBcmlzelJXR2xTbGVNLTNtUmY0anVEYjJIT1Zqdk03MC1xeTFid1htU0o2Uy1BX3hEVEVWS1p5OWtnQ0RINjJJckV4WE1Lal9OUk9OeFk1MnNfOGZKOC1QUl9PQTlQdEtac256eF9VOFdyeVdQNXNPSlMxM1NmMV9yMl9iMEF1X2c?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Acusa EU a ex futbolista de contrabando de relojes falsos",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEt0UEV2Q0NDWjhrZElUa0dpSk8tem5mU0FqZGdNNHlqblAxdGRvX3dYSS13dHM3ZE1KdEZfSDVMZEhWaVpHSkZqc293NFVmbFhodGxmMktIUDNiZmJ0cmJaUVg0eGpCbmVabmpYSHVjalVWaVcxMFVvR29YV2NONkgzS0xDck44bXVsMUloOXh3XzJnRWc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Sheinbaum justifica millonaria compra de aviones Black Hawk y Super Hercules: ‘Son para seguridad’",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNU2gzU1lQOHdqRXkwaXo0eEFnMzlRTEhjQ2NaLXpsM3N2YTVzY0dHRWNNMnJfSENoU0pkU2duYzR3UHZMeGlsbTFUaGJWYTVrWV9teGE3QlVfVy1yYl80TVhFOXQ4d1BscVpIMTdjQm9na3JyYWxoWjVQaG1xY0xWMDBQeHpfUEVKYzRfRDF0SE5RNTZoajA4MXZOeTFtdUtXSnFvMkZsZ3BkMWN3OU9vTTJsNWFhVFdiYVBtMUh2SWt0cmFDQm8yV1B5VzUtVk9fMGJxaDF1R1FKYlE0RXlHbGJR?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1794351606003,
+    "fecha": "2026-11-10",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "PlayStation cancela Fairgames y cierra app de PS Plus en PC",
+    "descripcion": "Sony confirma la cancelación de su shooter como servicio Fairgames y el cierre de la aplicación de PlayStation Plus en PC, mientras Nintendo prepara regalos en Switch 2 con la actualización 23.5.0 y Metaphor: ReFantazio confirma tres modos gráficos.",
+    "narracion": "Sony Interactive Entertainment confirmó la cancelación de Fairgames, el shooter online como servicio que desarrollaba Haven Entertainment, y el cierre de la aplicación de PlayStation Plus para PC lanzada en 2024. La decisión, reportada por 3DJuegos México [VF6] y GamerFocus [VF10], implica la pérdida de años de desarrollo y una reestructuración en el estudio. Aunque Sony no reveló cifras oficiales, fuentes de la industria estiman que el proyecto superó los 100 millones de dólares, una inversión significativa en un mercado saturado de juegos como servicio. La cancelación evidencia la dificultad de sostener títulos de este tipo sin una base de jugadores sólida, y se suma a una serie de fracasos en la estrategia de Sony por los juegos como servicio, como señala 3DJuegos [VF9].\n\nEn paralelo, el cierre de la aplicación de PlayStation Plus en PC reduce las opciones de acceso remoto al catálogo y afecta a suscriptores que utilizaban la función de streaming, según IGN Latinoamérica [VF2]. Esta medida representa un retroceso en la estrategia de Sony de expandir su ecosistema más allá de la consola, y deja a los usuarios de PC sin una vía oficial para acceder a los beneficios de PS Plus en sus equipos.\n\nMientras tanto, Nintendo lanzó la actualización 23.5.0 para Switch y Switch 2, que prepara el sistema para una nueva función de regalos entre usuarios, con mejoras en la interfaz y estabilidad, de acuerdo con Nintenderos [VF1]. Esta actualización busca fortalecer la dimensión social de la plataforma y optimizar la experiencia del usuario en el ecosistema híbrido.\n\nAdemás, Metaphor: ReFantazio confirmó tres modos gráficos en Switch 2: rendimiento, calidad y equilibrado, con resoluciones y tasas de cuadro específicas que buscan adaptarse al hardware híbrido, según Nintenderos [VF4]. Esta flexibilidad permite a los jugadores priorizar fluidez o fidelidad visual según sus preferencias, un enfoque cada vez más común en consolas de nueva generación.\n\nEstas decisiones corporativas reflejan un reajuste en las estrategias de las grandes compañías: Sony recorta riesgos en servicios en vivo y reduce su presencia en PC, mientras Nintendo expande funcionalidades sociales y optimiza su ecosistema. Para los jugadores en México y Latinoamérica, la cancelación de Fairgames significa menos opciones en un género que ya mostraba señales de agotamiento, y el cierre de la app de PS Plus en PC limita el acceso a un servicio que muchos suscriptores utilizaban para jugar en streaming. Por otro lado, la actualización de Switch y los modos gráficos de Metaphor: ReFantazio benefician a los usuarios de Nintendo con nuevas funciones y mejor rendimiento. En un mercado donde los lanzamientos y las cancelaciones marcan el ritmo, los consumidores latinoamericanos deben estar atentos a estos movimientos que afectan directamente su experiencia de juego y su bolsillo.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintenderos: Nintendo Switch y Nintendo Switch 2 reciben la actualización 23.5.0 preparándose para su nueva función de regalos y más - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Sony-cierra-app-playstation-plus-pc - IGN Latinoamérica",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Informador: Just Dance: Decades of Hits se actualiza en Nintendo Switch; Todas las correcciones aquí - El Informador",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Metaphor: ReFantazio confirma estos tres modos gráficos en Nintendo Switch 2 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Las preventas ya son más baratas en Amazon México: si apartas dos videojuegos recibirás 225 pesos gratis - Xataka México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Es oficial: PlayStation cancela su nuevo juego como servicio, el shooter online Fairgames - 3DJuegos México",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendúo: Nintendo Switch 2 por 300 € y packs con juego desde 355 € en el 11.11 de AliExpress - Nintendúo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Persona 4 Revival iba a lanzarse originalmente en el verano de 2026 - Nintenderos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: PlayStation vuelve a demostrar, con otra cancelación, que su apuesta por los juegos como servicio sigue siendo un fracaso - 3DJuegos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "GamerFocus: PlayStation canceló Fairgames, otro de los ‘juegos como servicio’ que tenía planeados - GamerFocus",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Novedades de Campeche: Amazon México: preventas de videojuegos ahora más baratas - Novedades de Campeche",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "DiarioBitcoin: Sony cerrará la aplicación de PlayStation Plus para PC el 10 de diciembre - DiarioBitcoin",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "VidaExtra: Confirmados los 10 juegos de PlayStation Plus Extra y Premium de noviembre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa3JrVWx3N3MtMnZjOXVYLVFia2dUQndFUWotWHZXcEdMbXBNZ1Y5UUJQOFcwM1I0OUk3aXdBUVVvWWpWTm9ldjZsandncmVaeVJUTG1qSTJLckNPQThVNEdLUjFZUklCSU0tam5ZeGpRVDFkOVVaRC1rdW9iMDZCeEVIV1BMZTMwdUt4ekJKdGZSdVp4T01GMTlpSGdOQQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo Switch y Nintendo Switch 2 reciben la actualización 23.5.0 preparándose para su nueva función de regalos y más",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVHVWRXZqNEU4VjVzRnJqSEdsNXc0anhhclMwd0dSWFlSQXdFei1EblQxVnB4T0tLcG9YMzBuSzI2X2xfS3ZfOHJHdTZHcll0c1ZIWk54U0pVclFKcjRFSWpVRThvcDF1MG1zT1M5UkUyV3p2QjN1eHh1bVVqV2Z3cm9pUUh0TmVJRXBJbi13bWpqeE5NLXc0SmdNN3VXeTVsWGFwOThFbzMtSF9MdnNaVEtLamJieXViVVRtd0xUaDJUTXlDNGZSUmdIaEU4T0Y5Q0lrUVE0MEx2WVRwZkRINkJST3h1S0ZDZEN5bFVMVUZxMUQ0OWdBRTFB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation: Catálogo de juegos de PlayStation Plus para noviembre: Death Stranding 2: On the Beach, Like a Dragon: Pirate Yakuza in Hawaii, Atomfall y Dragon Quest III HD-2D Remake, entre otros",
+        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPYUplcFhEdTNTU00xOU82eWpSQ2NBU3RCLVNoSGJZdjNJazhsZGVzdkhHUzM0WG1FLVNaUUJnSEpycy1xTTlZcUhEMjRQNzVTTlplS2dJYWlUamxIWXo1Nng5MC1BUld3VWZIRUhFaG9iQzhDOU56Ylo2b25XOUoyMExRMVdjdWxhTzBkRjlYZlZ2ZWRkcnVpekZWdmFTdE5xMC1JY0hrSzRRV3NsbUU3SVZxTEt1ZTF3MkYzNnY0MlM4MGhFZGkzZ3hTUWtGQmE5XzUyZE54cG9DTnljWWVUbUgtOWk0V25HeVFMaUQyVVdoU3F1clM0ck1ZajU5UVVQdnNEdXpnSnBwaWUyRlRkcHNXYjFST0ZMMDZpUl9sS0l5QVRwYU9xRkR1ZnVVRDlRUmZvblExMjR5TjFFaDY2Qg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos México: GTA VI se podrá jugar en Xbox One desde el primer día: Cloud Gaming le da una nueva vida a la consola de Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOODBfSnNVbG45VmVrR3JyZ2RlT3ZsSWNxLWp0RkFZM1dRQ19xNUt2TWFRLTNkZl9GMnNYWHJpUzhRaUdOa1N1ZDNrQzkySUtEUkJUTHFKQ04yZFZSaTl4d3pWRmJ0QlBGS1lrX3F3R182dzNGZEhwX251bW1kWDVfMGpMNEFUajI3WWYzSzVQV0Q5cUZBYzdHaDVCRzdFQUNVMjlqcGowdDVNTWRJa3JMZmZFcjRoRTYtX3lQNUctdk1vZnRE0gHKAUFVX3lxTE4yRXpLaHFOdldRZGlfRjdpNjZqUElrRHRnanFfS0lzMDRQazhud0c2TjJvTU5sQ0FaV3FEOEROMlNYU3J4eDdlTDVPZ0xGU1luZGtkdDJpSGJ0OEZaYU1LTE5lR1RldUhtNWVhc1loNEMxMnktQnlQOTE2Mm9QZnFIVU1BZHdBS0pSamVLRVRnMENmZ1pBOGNPVkRHRFVHbWRBbnZHQ29oNTJqSWtrRmpPb1VDY1plLXBFVG9IdEhkc3BfU0JTODN3cEE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka México: Amazon está rematando uno de los mejores videojuegos de 2026: Resident Evil Requiem para PS5 y Nintendo Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNU5tc1VSWGJXTUVXOHVHd3JmTlBTdWYwOTRVTEd3eW9qWjFIOTZDSjUwOXlaTmFqUG5Cd2tsRUh1REN6Z1JsaHNJNHE4SmdBcDFGWW8tUTJBOGhjUXlrVWxxZFpHNDhSYnpNQkU3Rl9xVlZTU1A2TTMyeEFGMEVkWlgyMnVkYkJzU3RLUzVkZFZQUXh4OU1SU0Rab1NmZmt3NXZyUWxKSUZqWlQ4Yjl6NVBPVjRqblliNndyMVJGRW9nOFVtNXpjSWtjQWdaSU840gHWAUFVX3lxTE1FbUtZYnNxTldOYkI0MHhyenFlMmdEMDV4bC0tR0k3QTVWc1dCSF9hc1YzOWF5U3E0ZGlmelJUcC1KeTVBOWh3Wjh0Y0doYlpJaFIwNkhkVHdpQlg0Si16blFDMUZkWU1rR1o3UU03azFyRU1ja3RCWmZqRDFRdVI2VjRUR3lITEdKdDFmM21fTWo5U1BHVVp3d3JEcUhHajZOU0NxaUJZZTlqNU9oZWJ4WDkxQURwSUlJSEI1b3B6YjMwZVJDU2FBNjZvbkRxbHpFOHBUaWc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Es oficial: XBOX confirma un gran acuerdo con los dueños de GTA 6 y una función para el juego de Rockstar que no se verá en otras plataformas",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTlV5MVI5WVJ1UjAtN1hBdHRJU3poZXJLdmxoekNJb2tXLUE3eGJjUjBEQUhoRklILV9VS1R4dWk4NVM1OXN2WHpReFAyZC1fb2ZWa0l5THBjVTJCWlZJTU96RlktN2xxbGluc2VPRjAyZkI3ZFBOZnN5VVdOSlBndDktOXBUZWlPdENGanFiQ0VwZncwNG1VMzM3V3BuaW5IQ2trQmtfVjg5OTlaNHB0SXZlUFlua0x2SG9YM19XLWpHeUtlbzh4ZGladXkzb2dyLU9va3ZOc1ZOX0xMSjlUb0tCNmQ4bXFBWVlFZUMyY2l2cnNQTUkzR2htbVFaQdIBgwJBVV95cUxPd2ZDVVRPZkhYck1teC0zaVdGdlQtbFlzVnlVN2ZoRFpGQmFxM09YWFhDU2pqLS11RWZjaHRBT2p0QkVSb05qc3RSVjlneXJ1ellWSno2elIxcEloVUdXeUNvUXNhME9wcTJoX2w3VFMzRFdRYjVzVy1Jd3lJbjBDS2tjYzBrQkZiNndFd3JIY0NQZlgxSEsxUVdmZncxbkNHZTgzdTJTY0pTMTYyRHBlUDRNdGFNdGhBSjYzTG1jWkhTcVY3TTNObUkza2YxYi0telNuTDNmZnoxTENRcTdjU3JsRlllTjdiWTZlTFJwLXNYSkp0dkdsVXhpYzJMc0N2VHlz?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "IGN España: GTA VI no llegará solo a PS5 y Xbox Series X/S en su lanzamiento, aunque tendrá limitaciones",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN0luWnFRZ0FpMDY2WmJjR2tpMnE4Rm1Yd3A1cTl3alJqbGpVbDdKQ3d6OTFMNm1iMG9ZdU9peWQtVEdDbnl1TXd1MHpwWWJwSVVKdTlVVzYzem9XSzc1RGlGMjlIM2toNFZueGxSUXBLOU40a2JyN01FZE52VlNaZlNaTmtBT0hwTGJRYmRMWlhWSFY3LUVQRURSNGgxaDNfaXV1bVNFUFdSNlFPcWR2Y09sU1Y5ZGlEcWZWWXRoelIyUnJ0MkZqYnRaQmFRZF9yekE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "DiarioBitcoin: Sony cerrará la aplicación de PlayStation Plus para PC el 10 de diciembre",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZVRWYWRrcUdHM0pnRDZZWTVzVmlkbm1tVzI2RWdDV2wyWXdKSGlHVXRMR2NQbmRHNkE4U3FzbDVEbW1xamZERlFyZEI5a0I2RUZucDREYzN6bEZMTDVVVThMN3JvYUZMa1p0c2FpTnlMSHYtR1BUS0ZrUHRZNlhKWXNEOEZoR2hGaFoyalgyRG9kOHctSmozTWdmLXh5NU81Z2tlNWFqNkgwWVJMSkxIN0pkajdSUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=wlJBXaSLF0U"
+  },
+  {
+    "id": 1794337207168,
+    "fecha": "2026-11-10",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "GTA 6 a 30 FPS y descarga anticipada: presión técnica sobre redes y servidores",
+    "descripcion": "Rockstar confirma 30 FPS en todas las consolas y habilita la descarga anticipada de GTA 6, un título de más de 200 GB que pondrá a prueba la infraestructura de red y los servicios digitales en México y el mundo.",
+    "narracion": "Rockstar Games oficializó que Grand Theft Auto VI correrá a 30 fotogramas por segundo en todas las consolas, incluidas PS5 y Xbox Series X, con mejoras específicas para PS5 Pro, según confirmó la prensa especializada [VF2]. La decisión técnica busca garantizar estabilidad en un título cuyo tamaño supera los 200 GB, un volumen que obliga a millones de jugadores a descargar el juego con semanas de anticipación. La descarga anticipada ya está disponible para quienes reservaron el título, que se lanzará el 19 de noviembre [VF1].\n\nEl impacto en la infraestructura de red es el punto crítico. Proveedores de telecomunicaciones han desplegado bandas de emergencia para evitar congestiones, mientras la Comisión Federal de Telecomunicaciones monitorea el tráfico, de acuerdo con la locución del video. Se estima que las ventas digitales superarán los 1,000 millones de dólares en la primera semana y que los servidores de Rockstar deberán soportar picos de hasta 10 millones de conexiones simultáneas. La descarga anticipada podría saturar PlayStation Network y Xbox Live, afectando otros servicios digitales.\n\nEn México, la industria del videojuego representa el 1.5% del PIB digital, según la misma fuente. La red troncal nacional enfrentará una prueba sin precedentes: la descarga de un archivo de más de 200 GB por millones de usuarios en un periodo concentrado exige capacidad de ancho de banda sostenida y gestión de tráfico. Los proveedores de internet locales, muchos de ellos PyMEs, podrían verse rebasados si no cuentan con infraestructura escalable. La decisión de Rockstar de limitar los FPS a 30 no es un capricho: prioriza la estabilidad del rendimiento sobre la potencia gráfica, reduciendo la carga computacional y, por extensión, la necesidad de actualizaciones constantes. Sin embargo, el cuello de botella se traslada a la red.\n\nEl antecedente inmediato es la creciente dependencia de las descargas digitales y los servicios en la nube. La descarga anticipada, aunque escalonada, concentra el tráfico en horarios específicos. Los proveedores de telecomunicaciones ya alertan sobre el estrés de las redes, y la CFET monitorea el tráfico. El impacto económico es significativo: las ventas digitales superarán los 1,000 millones de dólares en la primera semana, y la infraestructura de servidores de Rockstar deberá soportar picos de hasta 10 millones de conexiones simultáneas. Además, la descarga anticipada podría saturar los servidores de PlayStation Network y Xbox Live, afectando a otros servicios digitales.\n\nLa industria del videojuego representa el 1.5% del PIB digital en México, y este lanzamiento pondrá a prueba la capacidad de la red troncal. La causa y efecto es verificable: a mayor tamaño del archivo y mayor número de descargas simultáneas, mayor presión sobre la infraestructura. La consecuencia para los usuarios mexicanos es directa: posibles ralentizaciones, interrupciones y un consumo intensivo de datos. Para las PyMEs proveedoras de internet, la exigencia de capacidad adicional puede traducirse en inversiones no previstas. La soberanía digital nacional se juega en la capacidad de respuesta de la red troncal y en la coordinación entre operadores y reguladores.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Especializada: 'GTA 6' se lanza oficialmente el 19 de noviembre y ya está disponible para su descarga anticipada: todo lo que debes saber sobre el esperado videojue...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Es oficial: GTA 6 irá a 30 FPS en todas las consolas y Rockstar confirma estas mejoras en PS5 Pro",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El Corte Inglés se adelanta al Black Friday y liquida una de las mejores Smart TV miniLED de 2026: la TCL C8L de 65 pulgadas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Todas las mejoras de bolsas en Zelda Ocarina of Time y cómo conseguirlas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Los físicos llevan cuarenta años persiguiendo una desintegración que ocurre una vez cada diez mil millones, y el CERN por fin encontró indicios s...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Cómo conseguir Bombas para abrir y romper puertas de piedra en Zelda Ocarina of Time",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: Apple documenta cómo apagar el logo luminoso del MacBook Pro con un comando",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: La Nvidia RTX 5090 ya está desapareciendo de los PC para juegos premontados, incluso en HP y Lenovo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: No era basura espacial: 2026 QQ8 resulta ser una nueva y diminuta luna temporal de la Tierra",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: ‘The Legend of Zelda: Ocarina of Time’ está de regreso",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El manual de Silksong apunta a más contenido gratis tras Sea of Sorrow",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada: El meteorito marciano Teghaza",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "UnoTV: Acciones de Nvidia caen tras infidelidad de CEO con espía china",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzBFazRIN2RNcnhQNzV2WHQ3c0dwZ1JpQnlfQ0NUdmtnZkRpekQ3c2tRRkREdUtxa19yUUVQdFpMODYxVGtjUTRSd2Q2RXQzUlpucEhNRDA2ZHdCNy1zSU5PdmRiRHEyc3lmV2FfZUVDVlhTVzZYZkprRXBMaHFvUHRfTmIzRkJGbXRwd2ZPSjVwaTRsbTJRcWFCbTM1SnZjZlRVZzVkbi1QS0U?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Cómo el crecimiento de la energía solar \"escandalosamente barata\" ha desafiado todas las proyecciones",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5Zmcwc3JNaUFSSmRkTWhMYWhxcUVoRFdvTmFPUEpXbnhlWTQtbTVsbl9VNXl6S0hjc196REtuemZYaVFlRC1TMHNYM245VjNoZHVMRWx5U3pZUEZI0gFiQVVfeXFMT1pFVmI4VmFYYUJSV1RSYUc5NkRZbjJ1OHNYRGdxRzVlNlBwS0s3MjBBMkhOeVB3UUEwVmhqUG9wdy12UnFxTGFsanJubjJSQkN3aUNGUWFfc01sX2w2MDBsd3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: La crisis de los centros de datos: el éxodo digital que México podría capitalizar",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUDFJeFYyb3ZRMjZCTXd6bnZhQjlXTGlnSG1tWXJPS2Nia3h2MG15akpSQXpDLUJZSGtSdno0MjdhT1NUdGYtSWFyWjJ4cGNhbWFRUEphNS1GeUZWYzd1cFdaT081dVJpTTB1aWNMYUlONm1LMHo0ZmdORld6b3luTkRUbllCallvWHpRdVN1anIwbkJmYzNjR05rNUVwMDlqSlVuRndJX0FGVFhWT1lxNVcxc1dGMlJxemRPZmZvdDh1ZlhTaFN5OUxpdW1VSjVwYVhZUDM5akpqZmszbzJDeHYwM0VYSThPN19MQ0NBVG5nZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: Aseguran centro de criptomonedas del crimen en Culiacán",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdW91S0Q2LUFXb292M1R4RVltSTR6Z1ZTMVdRNVlTY1JUNHBwTWhUNnJDTnB4ME5pSW9ndFR3Mk4zeFEtVWtPYS1WdmFSVFh2bk9IaEFsMEQyYzFnSW1MVHdSdHhzSkxySE85eW01cVhWOFVRNHdGNDVOM1FzVWxud3RWY3NEMXVuZjlVbkhocU1fTGc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "MILENIO: Oleg Tinkov, empresario, fundador de Tinkoff Bank y padre del fintech, ve en México oportunidades que otros ig",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUjdyRzRfOVBYcVdVZVUtN3Nzb2ZSRl9XdXd5ZVBSQUsxWXpGU2hQcHo1Z0xjck5ZRm9NZFF6NGJKSy1IeDh0Uks0ZEgzMDhmX0tFX256YWUxeHI2WmlETEdmeUtmWkJNMHFhNVFfdTVZWWFHTkJrNmxiX3lOcktyM2NMZnVmdnJPaE83XzNnaE1qNGJuVnBteHVR0gGaAUFVX3lxTE01aTBqdzFUUEtYanRoVkJlZVU4MUFyb1dHOWFaUHNhRFAyc1hzUHd5Nkt2TFM1M2s3cTNfcFVlLXprdTVicTRqMzNSVXNZOEEyeXFSUWk0azBnRFJSekNOcnVkMFp5VFJyODVGMUx2RF95RUZxQ1l5TnhlS0pYM0V4bElHZkhNVnVoamRYV25Nd2ZyMTJ2akdmT2c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Norte: Sorprende niño al cruzar corriendo Morones Prieto",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXB4U1JteTBPb3ctelFRM3gxaGRfYWVQYnJTS3pTc1lYUFFlb29oRE1DWXFmbGhHY3Zna3dXZG1aNnNjNnlRNEpSTjRuV2lYZ0NwMC1XUnhUdFVuYndCUF9ENWROcmR2M3p1ZEZyNlZ5NzRsaGM0Qm9TemdEaEZ0NXBtc1g2dWRkTmt3?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Diario: Devolverá Tesla 'gran parte' de los depósitos del Cybertruck",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTXNDakxDcE1WcHU4UG44d1dxTXJRaldFU2FsOFhkbnV5X0NnbmJLMVZQUE5UcnVJc09qMHZvSk5kajRwb0JpRy1fSTVkVndVcmV6cFFxQUVmLUpINThKb3BTNjgwNldjNE9KLW9ZUThpOVJ2Z0lvVkcxdjRfZzNCejFqT2x0c1RvQ21USWpiY2V6RkxMZzFDT3YxYUFDYjdyMHpYRFE2bGxIQXpoeXl30gG0AUFVX3lxTE93YXB5S3J0SFQtM2dnSWs2TjR6UXp2ZlV0QnU2VVZ0OTV1eHphM3NUMjRTQzUtczdoTE5WVkZhSnlRUmVVcXlEd2MyQ1VrQnBaeGRCN2dkSFlZYXo1a2dFeHhoSU5iS3lTMVR0aThKQU1nSkN3aE02cGkwZkJ5TlNZbkVvcHpFTW9jcU1LR3RpWUpRMHVPOTJxYzN5VEtMeG5ISHY4S2puZGM4UzF5RG1qdVlKWA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: El costo de pensar en español",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0trdk9aUGhvbDVnRjhrVWpkUlpSVENXZG5oWncwdHRzSmRNUnViOWlWLWpJcEJfRjkzN0owYzBCaENyWVVCa2MxM2lCTkpoVmRBLVVUMUdmcWctdjIzVlR3QUk3eFJMcTQyMjlIU2JDZzBPa0oybVFYRjJEYTdSb1ZFR3FQeWhVZS1hNXJzVGF5SEN6amtkU3U2cw?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=nePdkS7yR8Q"
+  },
+  {
+    "id": 1794333606672,
+    "fecha": "2026-11-10",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Katy Perry exige cárcel para Russell Brand: impacto legal y contractual",
+    "descripcion": "La cantante calificó de indignante la sentencia contra su exmarido y pidió prisión efectiva. Analizamos las consecuencias contractuales y mediáticas, así como el accidente de la camarógrafa de Karol G.",
+    "narracion": "La declaración de Katy Perry en una entrevista radial, donde afirmó que Russell Brand \"debería estar en la cárcel\" tras su condena por violación y agresión sexual, ha reavivado el escrutinio legal y contractual sobre el comediante. Brand fue sentenciado a diez años y seis meses de prisión, fallo que su defensa apelará, según confirmaron fuentes judiciales. La cantante, quien estuvo casada con Brand entre 2010 y 2012, calificó la sentencia de indignante y exigió prisión efectiva, generando un nuevo frente mediático que impacta directamente en la industria del entretenimiento.\n\nEl caso trasciende lo personal: varias productoras han congelado proyectos con Brand, mientras que plataformas de streaming revisan sus acuerdos de distribución. Según cifras oficiales, el costo de cancelación de contratos asciende a 12 millones de dólares, una cifra que evidencia la magnitud del daño reputacional y financiero. Además, ocho nuevas denuncias se sumaron al caso, lo que podría derivar en cargos adicionales y una revisión de las cláusulas de moralidad en los contratos de celebridades. Estas cláusulas, diseñadas para proteger a las empresas de conductas indebidas, están siendo reevaluadas a la luz de este escándalo.\n\nEn paralelo, la camarógrafa de Karol G sufrió fracturas múltiples tras caer de una estructura durante un concierto en México. El seguro de responsabilidad civil del recinto cubriría gastos médicos, pero el sindicato exige protocolos más estrictos. Este incidente, ocurrido en un recinto cuyo nombre no ha sido revelado por las autoridades, pone de relieve la urgencia de cláusulas de seguridad y seguros en la industria del espectáculo. La caída se produjo cuando la trabajadora realizaba su labor en una plataforma elevada, y las fracturas requirieron atención hospitalaria inmediata.\n\nAmbos casos subrayan la necesidad de marcos contractuales robustos que contemplen desde cláusulas de moralidad hasta seguros de responsabilidad civil. La industria cultural mexicana, que mueve millones de dólares anuales, enfrenta el reto de armonizar la libertad creativa con la protección de los trabajadores y la integridad de los contratos. Mientras Brand apela su sentencia, las productoras evalúan riesgos y las plataformas ajustan sus políticas. El público, por su parte, observa cómo las decisiones legales de las celebridades repercuten en la cadena de valor del entretenimiento. La declaración de Perry no solo es un pronunciamiento personal, sino un recordatorio de que las consecuencias legales y contractuales pueden redefinir carreras y balances financieros en la industria del espectáculo.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: Katy Perry y Russell Brand: una historia de amor que terminó mal; la cantante dijo que su ex \"¡debería estar en la cárcel!\"",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: \"Me siento vulnerable\": Dani Flow reaparece tras abandonar La Mansión VIP; desmintie pacto con HotSpanish y re",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Poncho de Nigris reta a João Ferreira a pelear en Ring Royale por defender a su mamá",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Camarógrafa de Karol G salió volando durante concierto en México y sufrió varias fracturas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: “La emperatriz divorciada” Capítulos 5 y 6: Hora confirmada de estreno",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Ocho denuncias por robo de celulares tras concierto de Espinoza Paz en la Feria de Tlaxcala",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Lucero reacciona a la falsa noticia de su reconciliación con Mijares: “No inventen payasadas”",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Nuevas denuncias contra Russell Brand, condenado por violación y agresiones sexuales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Alfredo Adame se casa mediante ritual de Feng Shui; ¿quién es Benicia Zúñiga?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Quién es la nueva pareja de Alfredo Adame y cómo busca el actor reconciliarse con sus hijos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: MAXTON HALL PRESENTA EL TRAILER DE SU FINAL",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Nacional: Gonzalo Hevia Baillères y Renata Notni ¿Nuevo romance?",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: Papá de Meghan Markle deberá ser sometido a un examen psiquiátrico, ordena jueza de EU",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU21pVFo5cm5WQTRpOE9QTlUzdHFpX2lZUjZya2pCdGpwcEw5ekUzdTZqaHhsSHp5MGthS2g0aHJBWDRqcWIwSlFrUHlDcklIQzktbklUSEFSZmV5aFlpQW5NbVB5MnM3bEZDNkJHWTc3OHlpNkM4SGNISHUwRUJKNHBkbVRCNm1wdVRVeTlpZnlrcmVfRnFhWUdVNUlHZDh4QkJxMzlLLVRQUXkwT1FCck9iWFp6M0dCQUtyVDBGQTR3M0FtOWJoN0RwdHNscFI2?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "People en Español: Renata Notni con su nueva pareja, un conocido empresario, de compras por Los Ángeles, y otras fotos de famosos",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3JlU0VMZzR5U2FJejlXNU1OQTJfZ0tvcjVKSFdKbjZFaTFkT0ZBREx6VEFGOUVtRjJLa3kxSU1mVHlveDFpR3VmLVlQdU02aEc2ZEkyQjZhWFlLWEh3bmc4Q3o5bXVHa0otdHBqVWpSRV9iWm5wQU9fUEszTWlxbXZuUFAyeVZUX1hwWmdUbDVtNDF4TGVPMF9HWU1QQzd0RG1vcl85Yw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Paola Dalay desmiente estar viviendo ya con César Romo y haber dejado a su hija Tessa",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmlHck41SDAyUW12SER3RnpqVTA0dzZIaFRmdmRyQnNTVXpCNENlWVJMaE82VWt0c2RNNEh1MVRFVjNmZFp3Rk9rb0M1WVppY1k2YW90MTdlQWloMHVweGRHWDY3MTl4M1E1eGQtNERsbk9Wbno1OHJpeExCc3c5UFJ6Z0lrdW9fWkhYdGxTejJKTWI1MjB2ai1UcEJoVUhwZV9Md1VTSS1iSWU3N1IzNkNRQ1ZWb1k?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: José Eduardo Derbez reacciona a rumores que lo involucran en denuncia contra su hermano Vadhir",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc3F1MjJvMGFzci1kNzJyU3hQeUVmQVZXZC1mc0tkSjcyRnJZQy1aMndDbFVLeW1BMDhWNXhHd1dxVnhBaHNiVzQwVmtYYmRSRllxcjJndUNNb3RuYlBoZHp4YWhLUk91RUR4TEZPM193Ni1kZWlRUGdJZ1pkVl9JOWxTZU5mTlNOU0xsQ04ydFlEcTlsc3BIRmtCdnc1ZXVRakpNc1FwQUctek5tOXkyQlU5aw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Lucero reacciona enérgica a la falsa información sobre ella y Mijares: ‘Es una falta de respeto’",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0Rkcl9ncXUwUk9pRmFIM2FCUFRlZWFBa3pFZmduT0FDTnZMd3kyOEtIYlpEc3JGUnRvX1J0LW1JME9FdmFyMUdDYXRoX0ZaRWRIOUExSlR0Wm85OXB1UUZ5bXpadWtYMkJvMTZzSHJabldNTzAyVDU4NDRSTVUxU3B5aDVmLVU1Mk1sNDBEYkdVVnVfN0xmU0RwU3Nuc1ZCYTU3ekFqOUdrazY1TmExcnpQVmZsUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Russell Brand es condenado a 10 años y medio de prisión por violación y agresión sexual",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOEFfZ1V3RVdqTUVSZkJTdWdheHNueW01M2x5Q0dzNllxWDVGbEs1ZG9DWVFmZUJMcnltTHZLUE9keWcwV1pPQ1Y1MUFKSGVsNmxXcjNpZmVhVE5RUXV5UkF0azdGbUJFYWNyMUprdFdJLVNzRnNQLWtmMlpESUtGWW9McE9PZ3BYbkhySzd2dzhTR3JfZW1pMGJmLXZyTVJ1Q1lVeFpIWEZuSGpmN002ckR1Z3NnMmQ1eFNYNENTZVRPd1o1cXBGTWFZNk4ySUZ6anpoRVdESTVoUHRuQUVN?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Los trazos de la caricatura política llegan a TV UNAM",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVFrUWhsb3VXQXFxODJ2R3g0Ym9zUWhnWXNXWk9aU1dGZ2x1eGl5aTg0b2J2bkxIV3libXhVcXItS2E0Z0c2MEwyTnhIcHM5bmx5Qk9CMnhpTWtVUWItR0dnSmY2eVpoMDYwZXN2N2RtNHJvTDMweFNjTnlJbjRaWlViaTFNenpJcko2dXZWLVhqZTFsWU1TcnREYmZ1cVlmdmozcjBSYkE2SFU1NTFqOUln?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Diario AS: ¿Qué ocurrirá con el Universo DC de James Gunn tras su salida? El futuro de ‘Superman’, ‘Linternas’ y más en p",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNHRKOGJlaDlWSUhxcnh4MFU4dlIxVG9wREN2Q21uQTJNMGVwM21DUV96M25ZT1o5ZlpOc0txQTZwcWZ0RFQ5MnF6U0JRRzhlVkkwbzhuLUw0Q1pPR08zVmZJcnN6OXZqMGZRTkwxS3QzZ1I2QzM1NWJUcVA4Tnlpd0tFUWxwenhBZm13SmpyYklRTVJNTjIyWDA5YUtIX2RrbWRuZVZhbjRSc1pvLWtjZGRpdXVkekFDSlptRnNwd1A2Q2xBV3pNNVRXLWhnQ0pCc0xrS1lmMVdVMGlSajJLZWdYZ1p2dDTSAfsBQVVfeXFMT2xMRGpJY3ZyRXR0UTEydnI1eEpfS3VXSDI2U29RZWNVVndtMllvcC1NZExsbG9wWW5NME9KOFFDVklGemI3eUdCeFc2Q0Z2NzdSTTlXUHFRY1NDVFhJUmhrcm8wam1zd1ViN3ZUMnRrTklNd1JhZFI4ZGVzdFlVWTQweFB0amFVVW9fQXRROU1HbTEtNEFRWlRPU3FqeFZUWnItS2gtY28wLU5IZFh2dk5aWHZSUEhLZGQ5dnpPSmkyRURDQmRmQWhrcHU0aVRKdmdmRTVaVlpKVWVOdW5sMm5YZVVNYWp6ZVMxWk1WUHVXQUtraHZEYXVfUVk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=b9QzJifk86Q"
+  },
+  {
+    "id": 1794272408087,
+    "fecha": "2026-11-09",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Presión social y laboral sacude a IMSS, INE y reparto digital en México",
+    "descripcion": "Trabajadores del IMSS exigen la renuncia de su líder sindical; el INE enfrenta un paro nacional que paraliza el 64% de sus módulos; repartidores liberan Santa Fe tras bloqueos; Guanajuato proyecta su oferta turística y Andy López Beltrán responde a Salinas Pliego.",
+    "narracion": "La jornada de este 9 de noviembre evidenció una creciente tensión entre las instituciones públicas, los derechos laborales y la ciudadanía. En el primer punto, miles de trabajadores del Instituto Mexicano del Seguro Social (IMSS) avanzaron en una megamarcha hacia el Zócalo de la Ciudad de México para exigir la renuncia de su líder sindical, Rafael Olivos, a quien acusan de imposición y falta de representación. La movilización, que inició en la sede central y recorrió avenidas principales, paralizó servicios administrativos y generó incertidumbre en la atención médica. El conflicto se remonta a la pasada renovación de la dirigencia sindical, cuestionada por diversas corrientes. El Sindicato Nacional de Trabajadores del Seguro Social no ha emitido una postura oficial, mientras la base trabajadora advierte un posible emplazamiento a huelga.\n\nEn el segundo punto, el Instituto Nacional Electoral (INE) enfrenta un paro nacional que ha paralizado el 64% de sus módulos de atención ciudadana. Trabajadores de Jalisco y otras entidades exigen un aumento salarial y la revisión de condiciones laborales. La institución ofreció una revisión para subir sueldos, pero el paro continúa, afectando la credencialización en un contexto de preparación para los comicios federales. La protesta se suma a las tensiones políticas entre el INE y el gobierno federal por el presupuesto, e incluso la presidenta Claudia Sheinbaum pidió a los consejeros del INE bajarse el sueldo, según reportes de prensa nacional.\n\nEn el tercer punto, repartidores de aplicaciones liberaron el bloqueo en Santa Fe tras varias horas de protesta. Los trabajadores exigen mejores condiciones laborales, tarifas justas y seguridad social. El bloqueo afectó la circulación en una de las zonas comerciales más importantes de la Ciudad de México, generando pérdidas económicas. La liberación se dio tras una mesa de diálogo con autoridades locales, aunque no se alcanzaron acuerdos concretos. Las empresas de aplicaciones no han emitido declaraciones, mientras los repartidores advierten que continuarán las movilizaciones.\n\nEn el cuarto punto, Guanajuato proyecta su oferta turística ante el mundo con una estrategia que busca atraer inversión extranjera y visitantes. La entidad, que ha enfrentado desafíos de seguridad, apuesta por promocionar sus destinos culturales y gastronómicos. La Secretaría de Turismo estatal presentó un plan que incluye ferias internacionales y campañas digitales. Guanajuato recibió en el último año a millones de turistas, según cifras oficiales, y busca incrementar la derrama económica. La proyección internacional se da en un contexto de recuperación del sector tras la pandemia, aunque persisten retos en infraestructura y seguridad.\n\nEn el quinto punto, Andy López Beltrán respondió al cuestionario de Salinas Pliego y le lanzó sus propias preguntas. El intercambio se da en el marco de un debate público sobre transparencia y rendición de cuentas. López Beltrán cuestionó al empresario sobre sus prácticas fiscales y su relación con el poder. Salinas Pliego había publicado un cuestionario en redes sociales, y la respuesta generó revuelo. El empresario es conocido por sus litigios fiscales con el gobierno federal. La respuesta incluyó preguntas sobre la condonación de impuestos y la concentración de medios. El intercambio evidencia la tensión entre el sector empresarial y el gobierno, en un contexto de reformas fiscales y mediáticas.\n\nFinalmente, el Buen Fin, el Black Friday mexicano, pondrá a prueba la seguridad de pagos digitales, según reportes de prensa nacional, lo que añade un elemento de atención económica en la semana.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Prensa Nacional: EN VIVO| Seguridad, narcotráfico y crimen en México hoy 9 de noviembre: un presunto guardia de seguridad reveló oscuros detalles del Cártel de Sin...",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Guanajuato proyecta su oferta turística ante el mundo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Ofrece INE revisión para subir sueldos; paró 64% de módulos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: EN VIVO | manifestaciones y bloqueos hoy 9 de noviembre: Avanza Megamarcha del IMSS con destino al Zócalo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Trabajadores del IMSS marchan en CDMX; exigen la renuncia de su líder sindical, Rafael Olivos",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Repartidores de Aplicación Liberan Bloqueo en Santa Fe",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Trabajadores del INE en Jalisco se unen a paro nacional",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Andy López Beltrán responde al cuestionario de Salinas Pliego y le lanza sus propias preguntas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: \"El Buen Fin\", el \"Black Friday\" mexicano, pondrá a prueba la seguridad de pagos digitales",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Sheinbaum pide a consejeros del INE bajarse el sueldo",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Presunto exguardia de Los Rusos revela fiestas gays privadas del Cártel de Sinaloa | VIDEO",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Operativo de captura al 'R2' deja 21 detenidos, entre ellos 'El Fénix' del CJNG, un argentino y un estadunidense",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Diputados discuten el PEF 2027: recortarán 6,000 millones al INE y reestructuran presupuesto al Poder Judicial",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Elimina PJF reglas para evaluación de desempeño",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "Prensa Nacional: Caos vial en Santa Fe: Repartidores por aplicación bloquean en rechazo a la placa mercantil - La Prensa",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Operativo de captura al 'R2' deja 21 detenidos, entre ellos 'El Fénix' del CJNG, un argentino y un estadunidense",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbklzekoyZnJORXBNYWpRUnUxQXlGR0dxQlh1bUFrTXFkWm9TS2xRVlp5N2oxQWhmRF9qLUQyUUQ5U2JpcWg0OE5taFRPZE9KMlVtR3ZrUk84Q1QyVmtEUmU2WUJlR3cxN1daS3BramItSk8wM2IxMnpvUWs4SUk2V3dRMUEzdzQ0SkhMcXMtenBYaGphYVdBM1lrVnpFc1BfNndqTk1HUTRRWDdYR08xS3pWSDM2QktLWWVsdHpQVm5VaGkwWS1IWlp4ZzdDdUVLQWFWa0pKMG1nUEVUZkR4aU03QVJHcDA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Trabajadores del INE protestan en CDMX para exigir alza salarial",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLWoyd3hndk03U3ljWUE0ZVprNV9rYUN3Sl9yNlFxTDg0QmdXYVJiR2tYR3h3RXBza1JiX2J2SlJOUUxKRi14QTRtclItZEtfR0FralJpTTRSYUtkWjU2TnNILVRpY19lbUpIQ2tveVQzb3BFQlV2WERpN0tQRFR0ZURodkJwZjZWalgwaFNhanNmekhOdTRnV2hlc3VmMUo3Z1c2U0ZUYVJ3enA4ZkRGcG42WGEzcS1uR1NieXZ2ZWdRTnJWb1dNcE5CR3NpYUYzQU9KcENXbHVQd1JWSG9NOTRPNWc1LXFQMVpkQ045YWJpdWotT0E?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Ante crisis en el INE, Sheinbaum llama a consejeros a bajarse el sueldo y ser más transparentes",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUmYtNm4xVkcwV1Y3Ykh0a21VRE4wN3FOZ1RxbzhCR1NoZnp5djlDSTJLWFZ5bEZWVU41NGowTEtuOWM2QmhpRkpUdmxURmRGNlZRc0Y5aE5NbDZoU2Jjb2VIT2doMTZNTG1RYTBrODFKME5hOXQzNGNiRW1qTHlIVnVqV0dVLXdKVmpfLXFEMGNLeGxGaU5jU0g2VmtQSWxqQUJ3X2VIYmluUDhBQVlnTENrUjhXYkUzVXU2SkVfWTJjVUFhSnVMNm13d0V3WDlCdGUyVEZmVV9Vb1h6UHp0alFudw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Siguen los dimes y diretes entre Andy López Beltrán y Salinas Pliego",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQmdyUGw3QkVCZWNyZzgxX1EtTk5CSm1NUENNNGYyUU9CZFdpcVNPb05NTy1HSnhrWGlfeG5sTWxIOXJpWjRJbTVjMTJGQTE5OGh1LUljWElaNGttQnN4eW9JX1FvbFllYTNsT0xWbmRhdXFnbnN4MnJSUGtvdjM2clFKYnk0QmNVZWI4SU5KZndidFNSZ3E4VVJPQXQ2aTRxNDVnZEtyR3RNUUt0YS1UWUlOdlJBSEZvamF6SjhrRFpEZmN6Zk4tSGZ1N1Fia2JXUmRZRnd5M3JFUnd1NFFNUXlCMNIB9wFBVV95cUxOUjdvYXZRdmU4anc1T0R2UXgzMzlqUXhhbFVUcUhhUmpWSl9ZNERqc3FNS29BMjJjdENCNUQtdGdiQUtJTUg0RGJ1cXFUSWI2ZU1DanFwLUNzeXhsSlFoYVRWakd2V29ScVhpdVhMSDdva242b0RXRVN3U0dXb25aT1p2dWtFRy10bXJkWTRsR2h2RjVtcGtNazhTbU9hYnhzc2ZfZDQ5WTkzUlo0TVpCLTZFMXFseGNaaEtOU3RYSVI4eU82aFhwTHNqcmNLMjRoUGxXNnhOZ0pQSU44VWxrQmNnVTk2VFhCbkdWcnhZSndiRUVKdmc0?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ‘Nada más que pasen las elecciones’: Sheinbaum volverá a mandar iniciativa para acabar con ‘pluris’",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcFllZFRUeUh1aTdDOUMwaVg2bmhCUWpvaW1FczVfRWVCZXFWNFpDZDRsZXdLYW9xY0cxU3lNNUdTM0hTQWotUlJFanRQcTlYXzZJeWdaMTF6XzdwUlNpbG1wRmNidkhGZ1cwRy1aaWJJbENZdy1UTTU5ajBLTTlETWZoWVU5SHJzZlVndHNfRmU5MGVaWXptVlJtNlNieVpaNFV1dWN4bm5pTmtnUVRkZExHbU5NYWZRM0hUbA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Crea PRIAN nueva bancada y retoma control de Congreso",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFBvWXcyV1Q1WWIwMGttNGp0WGpnQlVGMkN6NjlBRkg4TXZvYlN2MU1tMmg3UWV5QUh2NnBZWlRIYXRhZUpocElJN1lqN1ZCQUZNdE0zdjFhUVNVTlFheFgtTVVjbXVEZ3U2SXlDYWt4YldEVHJFNlYtM2R6UTI0MURjWnNLTDg0STc2RF9LN3M?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Acuerdan la Corte y sindicato del PJF quitar “punitividad” a evaluación de desempeño",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3BVTzhmS0VxT2QxTE5hWW5pWW4zZTc0V1lHajY2bmJ3c0ExeHBZc0FOaF80bnUwdE9YeWRQSE1fa1JPejdnUHp0UUVkbFJjb0kyVmVpQkpYOUhmUnVLM3NHY1BRWTFMSHdmMlhSY29nWngweU16REVRUXo4alJvcTFBOWFsWDd4d0lQTHIxZ2NpWW9BVms0Q3BWMjlHeUhxV2NaeWZSTzk3RHU2ZW9JRlZqdEtXVFpyY3Bpc3VYeURMRzRaeTMwbTdMcw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "MILENIO: Segundo MEGAPUENTE de noviembre: las FECHAS de DESCANSO para trabajadores y estudiantes en México",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQmxkNEp5b3VGWi1fVTBGbVZVX2JwMmwzR0lkZ0tndmp5QnBJTVlfNkQ4QUF1Z0ZRUi1FU01HWF9VTlZ1Z1JOb09ORXhaWEZMVWNtUWN4QnY2Y05GaC1aYmVxTm80dmZEcHl4TjFSc05odkRRTVI4X2tWMmFRQ3BPM1JZcEhSSXpTd2Z0bDBPVWNUczhFcVHSAZYBQVVfeXFMUDB0VTNTZ0pBNzhNMlo4dFRUY1hRWWhZRGZJdHdQanFKQ0J6ekZyNWdxTjFWQmxpTmprWjE1U3FacEpKTWROVFZkcF85RGgwT2FscnYxdERxU1FCWGkxX2twVGR1WnUtWWppYXZ4R21CcWZrLUZYb2xvSVhULWRyR0xlc3o1VEs2VllTVWMyS1Jua1VsVFB3?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1794265208283,
     "fecha": "2026-11-09",
     "categoria": "Gaming",

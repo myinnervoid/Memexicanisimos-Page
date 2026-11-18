@@ -75,13 +75,18 @@ function initTabsNavigation() {
     }
 
     const targetSection = document.getElementById(target);
-    if (targetSection) {
-      const headerOffset = window.innerWidth <= 640 ? 16 : 100;
-      const targetOffset = targetSection.getBoundingClientRect().top + window.scrollY - headerOffset;
-      window.scrollTo({
-        top: targetOffset,
-        behavior: 'smooth'
-      });
+    if (targetSection && tabsContainer) {
+      const headerEl = document.querySelector('.main-header');
+      const headerHeight = headerEl ? headerEl.getBoundingClientRect().height + 16 : 88;
+      const tabsRect = tabsContainer.getBoundingClientRect();
+      // Solo desplazar si la barra de pestañas está fuera de la zona cómoda superior
+      if (tabsRect.top < 50 || tabsRect.top > window.innerHeight * 0.45) {
+        const targetOffset = tabsRect.top + window.scrollY - headerHeight;
+        window.scrollTo({
+          top: Math.max(0, targetOffset),
+          behavior: 'smooth'
+        });
+      }
     }
   }
 
@@ -444,35 +449,50 @@ function initPrivacyConsent() {
 
   function renderFacebookWidgetSecure() {
     if (!fbContainer) return;
-    fbContainer.innerHTML = '';
+    fbContainer.innerHTML = `
+      <div class="fb-community-showcase">
+        <div class="fb-community-header">
+          <div class="fb-community-badge"><span class="pulse-muertos"></span> COMUNIDAD ACTIVA · +28,000 SEGUIDORES</div>
+          <h4>Memexicanísimos en Facebook</h4>
+          <p>Barra diaria desde Cancún (GMT-5): Farándula 12:30 · Tecnología 13:30 · Gaming 17:30 · Noticiero Estelar 20:00 hrs.</p>
+        </div>
+        <div class="fb-iframe-frame" id="fb-iframe-slot"></div>
+        <div class="fb-community-schedule">
+          <div class="fb-sched-pill"><span>🎭 12:30</span> Farándula</div>
+          <div class="fb-sched-pill"><span>💻 13:30</span> Tecnología</div>
+          <div class="fb-sched-pill"><span>🎮 17:30</span> Gaming</div>
+          <div class="fb-sched-pill"><span>🇲🇽 20:00</span> Noticiero</div>
+        </div>
+        <div class="fb-community-actions">
+          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-gold">
+            <i class="fab fa-facebook-f"></i> Abrir Página en Facebook
+          </a>
+          <a href="https://facebook.com/Memexicanisimos/reels" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fas fa-film"></i> Ver Reels y Videos
+          </a>
+        </div>
+      </div>
+    `;
+
+    const slot = fbContainer.querySelector('#fb-iframe-slot');
+    if (!slot) return;
 
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMemexicanisimos&tabs=timeline&width=500&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true';
-    iframe.width = '100%';
-    iframe.height = '550';
+    iframe.src = 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMemexicanisimos&tabs=timeline&width=500&height=340&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true';
+    iframe.width = '500';
+    iframe.height = '340';
+    iframe.title = 'Feed Oficial de Facebook de Memexicanisimos';
     iframe.style.border = 'none';
     iframe.style.overflow = 'hidden';
-    iframe.style.borderRadius = '16px';
+    iframe.style.borderRadius = '8px';
+    iframe.style.maxWidth = '100%';
     iframe.setAttribute('scrolling', 'no');
     iframe.setAttribute('frameborder', '0');
     iframe.setAttribute('allowfullscreen', 'true');
     iframe.setAttribute('allow', 'autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share');
     iframe.setAttribute('loading', 'lazy');
 
-    iframe.onerror = () => {
-      fbContainer.innerHTML = `
-        <div class="fb-blocked-placeholder">
-          <i class="fab fa-facebook-f"></i>
-          <h4>Conexión Segura con Facebook</h4>
-          <p>Tu navegador o bloqueador de rastreadores impidió la conexión directa con Meta.</p>
-          <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="btn btn-patrio-green mt-12">
-            <i class="fas fa-external-link-alt"></i> Abrir Facebook Oficial
-          </a>
-        </div>
-      `;
-    };
-
-    fbContainer.appendChild(iframe);
+    slot.appendChild(iframe);
   }
 
   function checkCookieConsent() {

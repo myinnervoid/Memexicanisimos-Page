@@ -14,56 +14,58 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   
   <!-- Hojas de Estilos Locales -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20261117-wada" />
   
   <style>
-    /* Estilos específicos para la sección de lectura legal */
+    /* Estilos específicos para la sección de lectura legal (Sanzo Wada) */
     .legal-container {
-      max-width: 800px;
+      max-width: 860px;
       margin: 40px auto 80px;
       padding: 0 24px;
     }
     .legal-card {
-      background-color: var(--bg-card);
-      border: 2px solid var(--border-color);
-      border-radius: 24px;
+      background-color: #111519;
+      border: 2px solid var(--slate-ferrocarril);
+      border-top: 4px solid var(--rojo-patrio);
+      border-radius: 8px;
       padding: 40px;
-      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+      box-shadow: 2px 2px 0px #111314, 4px 4px 0px #000000, 6px 6px 24px rgba(0, 0, 0, 0.75);
     }
     .legal-card h1 {
+      font-family: var(--font-display);
       font-size: 2rem;
       font-weight: 900;
       margin-bottom: 8px;
-      color: var(--gold);
-      text-shadow: 0 0 10px var(--gold-glow);
+      color: var(--oro-charro);
+      text-shadow: 1px 1px 0px #051230, 2px 2px 0px #000000;
       text-align: center;
     }
     .legal-subtitle {
       text-align: center;
-      color: #A08BB5;
-      font-size: 0.9rem;
+      color: var(--blanco-pergamino);
+      font-size: 0.92rem;
       margin-bottom: 30px;
     }
     .legal-nav-back {
       margin-bottom: 24px;
     }
     .legal-nav-back a {
-      color: var(--rose);
+      color: var(--oro-charro);
       text-decoration: none;
       font-weight: 800;
-      font-size: 0.9rem;
+      font-size: 0.92rem;
       display: inline-flex;
       align-items: center;
       gap: 8px;
       transition: var(--transition);
     }
     .legal-nav-back a:hover {
-      color: var(--gold);
+      color: #ffffff;
       transform: translateX(-3px);
     }
     .legal-section-block {
       margin-bottom: 36px;
-      border-bottom: 1px solid var(--border-color);
+      border-bottom: 1.5px solid var(--slate-ferrocarril);
       padding-bottom: 24px;
     }
     .legal-section-block:last-child {
@@ -72,20 +74,21 @@
       margin-bottom: 0;
     }
     .legal-section-block h2 {
-      font-size: 1.3rem;
+      font-family: var(--font-display);
+      font-size: 1.35rem;
       font-weight: 800;
-      color: var(--rose);
+      color: var(--oro-charro);
       margin-bottom: 16px;
     }
     .legal-section-block h3 {
-      font-size: 1rem;
+      font-size: 1.02rem;
       font-weight: 700;
       color: #FFFFFF;
       margin: 16px 0 8px;
     }
     .legal-section-block p, .legal-section-block li {
-      font-size: 0.9rem;
-      color: #F4F6FF;
+      font-size: 0.94rem;
+      color: var(--blanco-hueso);
       line-height: 1.7;
       margin-bottom: 12px;
     }
@@ -94,16 +97,18 @@
       margin-bottom: 16px;
     }
     .legal-section-block code {
-      font-family: 'JetBrains Mono', monospace;
-      background-color: var(--bg-dark);
+      font-family: var(--font-mono);
+      background-color: #182026;
+      border: 1px solid var(--slate-ferrocarril);
       padding: 2px 6px;
       border-radius: 4px;
-      color: var(--cyan);
-      font-size: 0.82rem;
+      color: var(--oro-charro);
+      font-size: 0.84rem;
     }
     .legal-date {
+      font-family: var(--font-mono);
       font-size: 0.8rem;
-      color: #A08BB5;
+      color: var(--blanco-pergamino);
       text-align: right;
       margin-top: 20px;
       font-weight: 600;
@@ -111,21 +116,25 @@
   </style>
 </head>
 <body>
+  <div class="bandera-tri-line"></div>
 
-  <!-- HEADER GLOBAL (ESTILO FOLCLÓRICO PICADO) -->
+  <!-- HEADER GLOBAL PATRIO -->
   <header class="main-header">
     <div class="header-container">
-      <a href="index.html" class="logo">
-        <span class="logo-emoji">🇲🇽</span>
-        <span class="logo-text">Memexicanisimos<span>.com</span></span>
+      <a href="index.html" class="logo logo-rotulo">
+        <img src="assets/rotulo_cabecera_revolucion.jpg" alt="Memexicanísimos — Rótulo Tradicional" class="logo-rotulo-img" width="180" height="45">
       </a>
       <nav class="header-nav">
-        <a href="index.html" class="nav-github-link">
-          <i class="fas fa-arrow-left"></i> Volver al Hub
+        <a href="index.html" class="btn-rotulo btn-gaceta">
+          <span class="rotulo-corner c-tl"></span>
+          <span class="rotulo-corner c-tr"></span>
+          <span class="rotulo-corner c-bl"></span>
+          <span class="rotulo-corner c-br"></span>
+          <span class="btn-icon">🏠</span>
+          <span class="btn-label">Volver al Hub</span>
         </a>
       </nav>
     </div>
-    <div class="papel-picado-divider"></div>
   </header>
 
   <div class="legal-container">

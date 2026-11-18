@@ -34,6 +34,18 @@
   --wada-forest-nopal: #1a7444;
   --wada-cobalto: #006eb8;
 
+  /* ── TRÍADA DE RECONSTRUCCIÓN DEL ROSA MEXICANO (SANZO WADA) ── */
+  --wada-indian-lake: #c53c69;
+  --wada-pomegranate: #b71f57;
+  --wada-spinel-red: #f27291;
+  --rosa-mexicano: #b71f57;
+  --rosa-glow: rgba(183, 31, 87, 0.35);
+
+  /* ── AZULES DE RÓTULO Y TALAVERA (TOKENS CANÓNICOS §8.1) ── */
+  --azul-cobalto: #006eb8;
+  --azul-cenote: #007190;
+  --azul-maya: #0093a5;
+
   /* ── TOKENS SEMÁNTICOS DEL PERIÓDICO DIGITAL (ALINEADOS A PORTADA) ── */
   --obsidiana: var(--wada-obsidian);
   --metate-bg: #181c1e;
