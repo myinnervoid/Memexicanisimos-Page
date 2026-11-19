@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795114807056,
+    "fecha": "2026-11-19",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "SCJN avala retención de metadatos telefónicos por 24 meses: Telcel y el precedente de vigilancia",
+    "descripcion": "La Primera Sala de la Suprema Corte negó un amparo contra la Ley en Materia de Telecomunicaciones, obligando a Telcel a conservar por dos años los registros de tráfico de llamadas de sus más de 80 millones de líneas, incluidos usuarios de recarga.",
+    "narracion": "La Suprema Corte de Justicia de la Nación (SCJN) validó la obligación de los concesionarios de telecomunicaciones de conservar durante 24 meses los datos de tráfico de llamadas: a qué número se marcó, fecha, hora y duración. La Primera Sala negó por mayoría un amparo contra el artículo correspondiente de la Ley en Materia de Telecomunicaciones, confirmando que la medida no viola la Constitución. La distinción técnica es crucial: se trata de metadatos, no del contenido de las comunicaciones. No se graba la voz, pero sí se almacena la información que permite reconstruir patrones de comunicación, como horarios, frecuencias y redes de contacto. Telcel, con más de 80 millones de líneas móviles en México, deberá mantener infraestructura de almacenamiento para cumplir con la retención, que aplica tanto a usuarios de plan como de recarga. El fallo obliga a los operadores a entregar esos datos cuando una autoridad judicial lo solicite, lo que en la práctica amplía las capacidades de vigilancia sin necesidad de intervenir el contenido. La resolución ocurre en un contexto de debate sobre soberanía digital y control de metadatos. Los metadatos permiten inferir relaciones sociales, ubicaciones aproximadas y rutinas sin escuchar una sola palabra. La SCJN no encontró una violación constitucional en la medida, pero el precedente sienta las bases para que el resto de los concesionarios —AT&T, Movistar y operadores virtuales— repliquen la retención. El impacto es mayúsculo: cada llamada, incluso desde un chip de recarga, genera un registro que debe almacenarse por dos años. Esto implica costos de infraestructura y riesgos de ciberseguridad, pues los datos retenidos se convierten en un objetivo para ataques o filtraciones. La decisión también plantea interrogantes sobre la proporcionalidad de la medida y la protección de datos personales, en un país donde la Ley Federal de Protección de Datos Personales en Posesión de Particulares establece principios de finalidad y consentimiento. La retención masiva de metadatos no es un tema menor: permite reconstruir patrones de comunicación sin escuchar el contenido, y su almacenamiento prolongado incrementa la exposición a accesos no autorizados. El fallo obliga a los operadores a mantener infraestructura de almacenamiento y a entregar esos datos cuando una autoridad judicial lo solicite. La consecuencia práctica es mayor vigilancia sobre comunicaciones y un precedente para el resto de los concesionarios. La decisión de la SCJN se produce mientras el país discute soberanía digital y control de metadatos, y deja abierta la pregunta sobre quién custodia esa información y bajo qué estándares de seguridad. Para los usuarios mexicanos, la medida implica que sus patrones de llamada quedan registrados por dos años, independientemente de si usan plan o recarga. Para las PyMEs, que dependen de la telefonía móvil para operar, el almacenamiento de metadatos representa un riesgo adicional de exposición de su información comercial. La causa y efecto es verificable: la SCJN negó el amparo, la ley sigue vigente y Telcel deberá conservar los registros por 24 meses. El precedente afecta a todos los concesionarios y coloca a México en la senda de otros países que ya aplican retención de datos de tráfico, pero sin un debate público suficiente sobre sus implicaciones para la privacidad y la seguridad nacional.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Telcel puede guardar durante dos años a qué números llamaste en México. La Suprema Corte acaba de avalarlo",
+        "url": "https://www.xataka.com.mx/telecomunicaciones/telcel-puede-guardar-durante-dos-anos-a-que-numeros-llamaste-mexico-suprema-corte-acaba-avalarlo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Esta es la tienda en México donde puedes comprar el control DualSense edición limitada de GTA 6 para PS5 durante su estreno",
+        "url": "https://www.xataka.com.mx/seleccion/esta-tienda-mexico-donde-puedes-comprar-control-dualsense-edicion-limitada-gta-6-para-ps5-durante-su-estreno",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Un hombre de 32 años se fue a vivir al campo y rompe el mito de la vida rural: \"hay falta de trabajo y carencia de servicios básicos\"",
+        "url": "https://www.xataka.com.mx/otros-1/hombre-32-anos-se-fue-a-vivir-al-campo-rompe-mito-vida-rural-hay-falta-trabajo-carencia-servicios-basicos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Si compraste una Nintendo Switch 2 durante el Buen Fin 2026, este es el mejor paquete para proteger tu consola por menos de 299 pesos",
+        "url": "https://www.xataka.com.mx/seleccion/compraste-nintendo-switch-2-durante-buen-fin-2026-este-mejor-paquete-para-proteger-tu-consola-299-pesos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: CDMX quiere que la vivienda de interés social tenga al menos 60 metros cuadrados. La propuesta también aplica a quienes rentan",
+        "url": "https://www.xataka.com.mx/otros-1/cdmx-quiere-que-vivienda-interes-social-tenga-al-60-metros-cuadrados-propuesta-tambien-aplica-a-quienes-rentan",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tu Galaxy tiene un truco para combatir los mareos cuando lees o revisas redes sociales en el auto",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/tu-galaxy-tiene-truco-para-combatir-mareos-cuando-lees-revisas-redes-sociales-auto",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Mercado Pago tiene un cambio importante para diciembre en México: ya no podrás ingresar dinero desde tarjetas de débito",
+        "url": "https://www.xataka.com.mx/banca-digital/mercado-pago-tiene-cambio-importante-para-diciembre-mexico-no-podras-ingresar-dinero-tarjetas-debito",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tiene solo 6 episodios y está en Netflix: la nueva joyita del creador de Black Mirror se puede ver en un solo día",
+        "url": "https://www.xataka.com.mx/cine-y-tv/hoy-netflix-dura-dos-horas-miniseries-divertidas-tiene-83-aprobacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Banco Azteca podría despedirse de sus 15,000 cajeros ante las 40 horas: Salinas Pliego quiere sustituirlos con robots",
+        "url": "https://www.xataka.com.mx/empresas-y-economia/banco-azteca-podria-despedirse-sus-15-000-cajeros-40-horas-salinas-pliego-quiere-sustituirlos-robots",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Después de 21 años, la secuela de una de las mejores películas de Nicolas Cage es una realidad: aquí está el tráiler y la fecha de estreno",
+        "url": "https://www.xataka.com.mx/cine-y-tv/despues-21-anos-secuela-mejores-peliculas-nicolas-cage-realidad-aqui-esta-trailer-fecha-estreno",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: GTA 6 tiene un efecto secundario que nunca habíamos visto. Los demás estudios prefieren hacerle publicidad gratis antes que competir con él",
+        "url": "https://www.xataka.com.mx/videojuegos/gta-6-tiene-efecto-secundario-que-nunca-habiamos-visto-demas-estudios-prefieren-hacerle-publicidad-gratis-competir",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Este botón de Samsung te permite vigilar la seguridad de tu celular sin perderte entre los menús",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/este-boton-samsung-te-permite-vigilar-seguridad-tu-celular-perderte-menus",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Un padre y su hijo trabajaron ocho años en un contenedor marítimo: construyeron su propio Lancia Stratos con motor V6 de Alfa Romeo",
+        "url": "https://www.xataka.com.mx/automovil/padre-su-hijo-trabajaron-ocho-anos-contenedor-maritimo-construyeron-su-propio-lancia-stratos-motor-v6-alfa-romeo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: GTA 6 tardó 13 años en llegar y necesitó 4,700 empleados: la excepción absoluta en la industria de los videojuegos",
+        "url": "https://www.xataka.com.mx/videojuegos/gta-6-tardo-13-anos-llegar-necesito-4-700-empleados-excepcion-absoluta-industria-videojuegos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Aristegui Noticias: Si visitaste alguna de estas 178 páginas entre el 16 y 17 de noviembre, cambia tus contraseñas: Rivera",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYm16cEw1aDVPUnR1TzBQaG9QLUk4R1BWNnJFYlQzdTQtRk02UlJScWthRWhnMTFOSFpkVS1paVhWdXVrUEFZbDFLTUFZc3ZLVHBTblBZb2VLUUlfVk9PR3oyVVlIRGhTWF9SbHloeXNTNWQtblREMThPdXJFcmVhMlktdmdnR202RTM5cHhJX1JHNEpPM3J2aEhHeWp3Qmo2aUdTUmNfakIzVEZRU2ZscDlRTWRKSXVGUUxGSjFOWE5mazVCSmhmdzBZOFpRUFZ6X3VrenBocXdJTnc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Excélsior: Entre osos pandas y ciberataques",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQXhfS0RYd3loWVNRYU1tWkxsVFpzbjFyOUFtTC05U2E0clZhdW9uXzJiX3NkWDRjclVTWk5PY3ozM3kyUlpud2hCN3pPZk1GWjFnaEpOY0tmN3BlVzJUYVRsNC1Ha3lBN2QxNGpFSVd3QncyR1dYR1ZzVmlhWVU1UVlWZTFCRzdYM0UtTGp1dkVJd9IBlwFBVV95cUxNQzlnUjdMZ2Fvb1VOXzhSUHZULUdIQkkxT3d4X29ndnhMY2J0bWVOcG1nNVpSZHNsc0IzUlFfbFUwcGhBZVhTTlhuc1JMa2ppNlpCQ05jRTJMOFJrelZYTkpUWjRMOHNQT1VKUVF3TUM1XzREX1NwcFQxdXhOZ2NCd2UxOG5RVmxFVnA4WFBCMjZ1NkFSdzY0?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: ¿Ciberataques o vulnerabilidades?",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDcwWUtJUVQyd0VDR1VleW1ucmRIN3NTNzNpYXFhQmFYUmRNQkNaVFQxckpYTGsweVpJLThTcTFYbW1iT3RielJ6MU1jLVdFX3RIdW4zMVViT1VUazlpOVFmM2taQTBiY2JuSjU0SnpWWlZPekM4WXJBZC11VlBNOW1SWWJ5QjJheVpWRlFhM1E1blRnWGN3S1ZxbVJQd19fdHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "TierraGamer: Xiaomi presenta los nuevos Xiaomi 18 Pro y Xiaomi 18 Pro Max",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLWRaenptQUFWZmt0NFY2NmZ5YlA2NXlKd1RNekVHbWJpVHN3OWFHYzNPT0d5THJEZ3dLallFY085aUxjTG5LVERmemVEbjVPc09mVEVkLTJPSV9zM0xtUzVqaEtqNlVwY1pkRENUUGpPdWVBd2x0MWRCRXIxOEJMdlBxWGJXMmlCWGc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Quiénes son los 7 fundadores de Anthropic que están a punto de convertirse en multimillonarios",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRSUZhNlQtaUZvNjdQckNzQ0dfN3RfMzZEOEdJYW85TWJJbjZ6UnN1OC12RFBIUUZ1cHU5YVZISGFDRTZzRHc3YUMyUWtGTVFCS1ZHQXNjYnJyNXlG0gFiQVVfeXFMT2VGNlNBblBFUjBTTHBDU2hiLUVZTVRhRkd3dXlxekkwOFc5c1FBbk9HVWRyOXNIOUZUUndsellHTDhCdVl0a3p1NEJRb1lpcEZFdFQ2a0FhTy0taGxuYkxxdWc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: La Nvidia de Huang: fiestas, menosprecios y 'familia real'",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYm9QS3JxU0RsTU9kcERlUlBPclhoUHJPUldqdFVlbDZPSUtVNWZXSWhJYVlyaVFCQk1TS242UlVyazhxREN1TzFRUjlXYWd1aGExbnhreVhKUEtibU1kblljcVl6MnpwWDM2bTl3c2hQeE4tRlN0QlQ4WGxKMFFBU1hUTVpVR2lyRldfTlp2a0xQZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "DW.com: Nueva alerta global por fallo crítico y vulnerabilidad, esta vez en Java",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONFh6YXNJRzA2dFFOX1RDRkNPTThnUlZDSGlwNHJRLW9uX0V3Wnc2QktuRHRvMUVoVm9UQUZESVpJOWJER1dpTkJnZEhnWlFna0VibnRDa3AySFZkdWgyTXA4UHQweXFPdDU4YXFSSUpkdE52cEdCWWRkeVBVU3RnSERUVXkxMW9KNDg1NnhianpYTXNm0gGUAUFVX3lxTE9hWmJJMWhWbEM1SnRoa3pSZzB3eFVQNGtsTk1Sc1diVE5VZkl5empjc2plQVc2bmdOY3A4ckJqQnFVVndBNG1VbzRoWFlvcDhkU3lzZGNuQkJPV1B2Wl94a2lpRzZEQlVLZElFYzV4TFYwTTdhNzY1d1ZGYVFwcDhuX0tITzRjTk4xWHlXNXcxWlEweTU?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: \"Amigos\" autoritarios, el potencial de la IA y otras claves del viaje de Trump a China y su cumbre con Putin y Xi Jinping",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOREl4TEc0TU4yOTZWSjJnWkxUMjY3WkdSeUZ2ZkxtMGZBQlN1TU9oQkxJd0VOeFhlajFtNTg4TmhuU0ZqeW9YMjFLMnpnWWFYamR5SF9tbFJjS1BMdkk1QlVrVWpQTEZJQ055aWZKUGN0eTRWQ1JGUDFkZU5VdEptZGJ6c1VBQ1RQNG9CZW05OGNHYjg3SFNNTU5iMElPZw?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=jLJgqLfSfqM"
+  },
+  {
     "id": 1795111206438,
     "fecha": "2026-11-19",
     "categoria": "Farándula",
