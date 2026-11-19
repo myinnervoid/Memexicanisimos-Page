@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795111206438,
+    "fecha": "2026-11-19",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Nodal vs. su padre: batalla legal por la marca 'Christian Nodal' en el IMPI",
+    "descripcion": "El cantante presentó oposición formal para impedir que su progenitor registre su nombre artístico. El conflicto escala al IMPI con implicaciones millonarias y pone en tensión los derechos de identidad comercial en la industria musical mexicana.",
+    "narracion": "La disputa legal entre Christian Nodal y su padre, Jesús Jaime González Terrazas, por el registro de la marca 'Christian Nodal' ante el Instituto Mexicano de la Propiedad Industrial (IMPI) representa un caso paradigmático sobre la titularidad de la identidad artística en la industria del entretenimiento mexicano. El cantante presentó una oposición formal para impedir que su progenitor registre su nombre artístico, argumentando ser el titular legítimo por uso continuo desde el inicio de su carrera. Según expertos en propiedad intelectual, el registro de una marca artística puede generar ingresos por merchandising, licencias y presentaciones que superan los cincuenta millones de pesos anuales, lo que dimensiona el conflicto más allá de lo familiar.\n\nLa Ley Federal de Protección a la Propiedad Industrial establece que el nombre artístico es susceptible de registro si cumple con los requisitos de novedad y distintividad. En este caso, Nodal sostiene que su uso continuo y notorio le confiere el derecho sobre la marca, mientras que su padre busca el registro a su nombre. El IMPI deberá resolver en los próximos meses tras analizar las pruebas presentadas por ambas partes, en un proceso que sentará precedente sobre los derechos de imagen y identidad comercial en la música regional mexicana.\n\nEl conflicto involucra contratos, regalías y el control de una identidad comercial valuada en millones de pesos. La carrera de Christian Nodal, quien ha consolidado una base de fans internacional y una agenda de giras constante, depende en gran medida de la explotación controlada de su nombre. Mientras el litigio avanza, el cantante continúa con su gira y sus proyectos musicales, pero la incertidumbre sobre la titularidad de la marca podría afectar futuras negociaciones comerciales y acuerdos de licencia.\n\nEn paralelo, la industria cultural mexicana observa con atención este caso, pues evidencia la necesidad de que los artistas formalicen desde etapas tempranas la protección de sus nombres artísticos. La resolución del IMPI no solo definirá el futuro de la marca 'Christian Nodal', sino que también establecerá criterios sobre la relación entre artistas y familiares en la gestión de derechos de propiedad industrial.\n\nEn otro frente, Bad Bunny tendrá su propia estación de radio en GTA VI, llamada Cocoteo FM, llevando la música latina a las calles virtuales del videojuego. La noticia emociona a fanáticos del reguetón y los videojuegos por igual, y confirma la expansión de la cultura latina en plataformas de entretenimiento digital global.\n\nFinalmente, falleció la actriz Mona Guilmáin, integrante de una reconocida familia artística mexicana. Su partida representa una pérdida para el legado de Ofelia Guilmáin en cine, teatro y televisión, y deja un vacío en la escena cultural del país.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Pierce Brosnan da su bendición a Robert Pattinson como el nuevo James Bond; “Vas a ser magnífico”, dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/pierce-brosnan-da-su-bendicion-a-robert-pattinson-como-el-nuevo-james-bond-vas-a-ser-magnifico-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Will Smith enfrenta nueva demanda por agresión sexual; es acusado por un examigo",
+        "url": "https://www.eluniversal.com.mx/espectaculos/will-smith-enfrenta-nueva-demanda-por-agresion-sexual-es-acusado-por-un-examigo/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Cinthia Aparicio comparte primeras imágenes junto a su nuevo galán: \"nos estamos dando el tiempo de enamorarnos\", dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/cinthia-aparicio-comparte-primeras-imagenes-junto-a-su-nuevo-galan-nos-estamos-dando-el-tiempo-de-enamorarnos-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Will Smith enfrenta demanda por presunta agresión sexual: su excolaborador revela detalles de la acusación",
+        "url": "https://www.quien.com/espectaculos/2026/11/18/will-smith-enfrenta-demanda-por-presunta-agresion-sexual-su-excolaborador-revela-detalles-de-la-acusacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Bad Bunny tendrá su propia estación de radio en GTA VI",
+        "url": "https://lachispa.mx/bad-bunny-tendra-su-propia-estacion-de-radio-en-gta-vi/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Fallece la actriz Mona Guilmáin: ¿Qué pasó?",
+        "url": "https://lachispa.mx/fallece-la-actriz-mona-guilmain-que-paso/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: CUANDO LOS DOS NO ERAN NOBEL",
+        "url": "https://lachispa.mx/cuando-los-dos-no-eran-nobel/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Christian Nodal enfrenta legalmente a su padre",
+        "url": "https://lachispa.mx/christian-nodal-enfrenta-legalmente-a-su-padre/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Larry Poindexter, actor de \"Days of Our Lives\", muere a los 66 años tras ser atropellado; esperaba una cirugía por fracturas en las costillas",
+        "url": "https://www.eluniversal.com.mx/espectaculos/larry-poindexter-actor-de-days-of-our-lives-muere-a-los-66-anos-tras-ser-atropellado-esperaba-una-cirugia-por-fracturas-en-las-costillas/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Julián Gil, molesto por entrevista de Marjorie de Sousa, en donde no se le cuestiona sobre él y su distanciamiento con Matías",
+        "url": "https://www.eluniversal.com.mx/espectaculos/julian-gil-molesto-por-entrevista-de-marjorie-de-sousa-en-donde-no-se-le-cuestiona-sobre-el-y-su-distanciamiento-con-matias/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: \"Echo\", el nuevo espectáculo de Cirque du Soleil, deslumbra en su estreno en la Ciudad de México; así es la experiencia",
+        "url": "https://www.eluniversal.com.mx/espectaculos/echo-el-nuevo-espectaculo-de-cirque-du-soleil-deslumbra-en-su-estreno-en-la-ciudad-de-mexico-asi-es-la-experiencia/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Caifanes, Vivir Quintana y Diego Luna se unen a madres buscadoras en concierto por desaparecidos: “No están solos”",
+        "url": "https://www.eluniversal.com.mx/espectaculos/caifanes-vivir-quintana-y-diego-luna-se-unen-a-madres-buscadoras-en-concierto-por-desaparecidos-no-estan-solos/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Carlos Rivera celebra a su bebé con Grammy bajo el brazo",
+        "url": "https://www.eluniversal.com.mx/espectaculos/carlos-rivera-celebra-a-su-bebe-con-grammy-bajo-el-brazo/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: \"Los juegos del hambre\", un espejo de la realidad",
+        "url": "https://www.eluniversal.com.mx/espectaculos/los-juegos-del-hambre-un-espejo-de-la-realidad/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Reforma: Rechaza juzgado disculpa de De Llano y le impone arresto",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZVdsYUdCZGs2V2IzR0xTUzM3TTVuWm54eXpSWkJfRXRpQmJrRzRMUnZLbU5FQ1lHT0tCTlVBTHVjUDlKajdqdXFwNU5KRFNaUVZCYUxTejlrbXBQeEhVZFo4MUpTOTNQM1VieGNtaThtVFFIVS1xa3d2VEFZT0VPaDhmei1QOE9xSDhEbGwwMVktY3FH?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Yahoo en Español Vida y Estilo: El inesperado casting de James Bond parece romper la regla de oro de la franquicia que ha estado en vigor durante los últimos 64 años",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZWozOHhaOVNiWkJleWJuUFpKcjNGUm5UZnFoelViUi1YNHBtTWtWNTY5Uklqa0dNT01WanJXa3B3MmNoMkFRN3lLcGVXUzFFV3YtWFVLUjA1RHJMTzVaZkt2V3NaLWVjVzNJTHc1QVBobW4tb1ZTYjlZaTdMRXZ1MVAxZGhhYUpNLVF3bXhMRmw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: Muere la actriz Mona Guilmáin, hija de Ofelia Guilmáin y hermana de Juan Ferrara",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRUV3VVFMZzBJc1Y0dGswUW9UWUZEems2UkE1Qld5b0JlTVFJa082QzBjbTc0WEVDZGphQ2RmSWk1R0ZDblE1N25SejFLakdkc19HNlZDVXNQcUJmdUNublZBbHdoX1lqcGVTclpQQlA4T3A1VFhhRlQ2Z1E1TFBsMTJ6T3E5cWVDNl9JNVhMbFdlcTNxRXJBZVRxeEgxeUZzLWFLN1ZGTTAyZ1FmSG5R?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Murió Larry Poindexter, actor de 'General Hospital' y 'Days of Our Lives', tras ser atropellado en su barrio de Los Ángeles",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVU5neXB2STNnU0ZJTGpFSlNNYTdrVHg3U2VJaEVyR3gxNjVOWFJ4ZE8tUnlYTGNfYUQ5MkYzZmpBMWdoSzVpMlItWjBSd3VCc1JhZ0ZTbzlLd1FsR1Q4M0dFTnlBS0hlV2tzUXJpeE9rY1NIVmE4ZHdkekcwU3dyNkw0enZoS2hOZ0Y4a3JxdE5va1RPbksyTllpV2lhMmlBT1J5a3Qxdl9Pc3JfVUc0VllLcnR0N19FWmZ4OF9GT29aTkw0U2tJSHZBZjBQMVZaeFZmN1QxbU1hVGpzQWR3NHZYMkJMdWd5YzlaeENvME1NTFFycDFDcjk2UnBfd9IBmAJBVV95cUxOWFFITWFiYTRZYnM3YTlVR0x1ejE5SmpkTWVhd1B5LWw4UTBVdlM4aU9QMU00QUdsaDdlc2VSSkpjUzkxNHJqUjcySEFBTE50dzFKSHMxTUY3Q1RKOU5Mbm1Ob0pheXh2aktoYVA5Y1hqZktzOVlVTW04eklIc0VsbXFyZGw1S2xySmI2Uk1CX2dNU3BTWlhJV0EyZEdFZXlpUmFnREJNUWhBTlREQ3hERDFuYXN3dlY2RV9TajZTZ190WFUtN01JekoteUpyT1RpX2l6Z0ZJLUc2ZzJwb2NFZVZmX05qdmZJUzQ2SGdCS2RqMXVhYTJTV3ZUTlAzWTg0YmNyR3gtZWxlM1ozSndXZEpNQktiRF9m?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Rolling Stone en Español: Crítica: Yo soy Rocky (I Play Rocky)",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UV2lQTXB5QlkxVkwyXy1kNHItdzJlZF91WVc3akVzcjlWbFEtNHlDNFhQd1VPNEFBbm5pT3dqeV9iRE53bW5SaTFFU2hpVTVBZWRFOVJZaTIxTW13MHFoTTlGUU0wYXlTOFdwUGVyYw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP",
+        "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcDVheGZjTDFjQnhhNXg4QmlCZUxuaGZjX2dwQS1CVUdoeTJ1anNGQkFBN0Ywb09jU185NTA5LVdWT2V6RDAtTTF1d1BKZTNuYnk1TG1UMU84MTNkYXRRczVMNGpUOUhvWFBPLWpVSXJjME5lcjh6VHQxZVhlSnVidFJnWUlXblM5Tl9CY0UzSTVRMlMtYWNmUEx2WTJMdkhoN211QWhtVWlCZl9zM3ExV2NOQmV6SWwtdDNLR1pvWlgtRFlLclJEajdOeVQ0RW5QaWt4eWttUkhvZTQ3c0lKTEVkS0lUWG5yNnhJZERIV0NxeEVIbjQwVWN0aWxzLTNyVGJmVHlQZEcxVWZ3Z192OFppTmRtaXF5TDN0UHhKZ2hES2UwZkltOFFtbFhQQlltTFZMYmwwbW5KZ3o5LV9jWV9PZUQ4aEdyQ0c4cUxUbEhSYU93TFJwYndiSG1fejVUWXdnZXZ3YWh2cVJBMWFNZXVYSy0tcGdpRnBnN1pUT2d2WGRHYk4zelF6SGhaalVL0gGkA0FVX3lxTE9xU1hJbU0xYnRzS0hSWHA4T3E0T0thbVpzOGpLeEdHRk44N2VMNE1fc0JZX1ZSdERlUU5UNmNnbVljTEpCZDNvMHBMenVfSjRidl82c0tpdERCZG8zV3ZkUmJETWxjd2ZfOE16YlN2RU9jS0lZdm8wNFRTVzdjdEpsN25ycE53dUZ0WlBfN3FQR0ZWN3VuVXpLekVreE5tXzN5U3JfS1p2czZFTVY4eG9udnVDT1IzOFA5d2Fua1pPRExzODRJLVpidFBPQ2lhcDFfRmtXbk5yOEswRmM1MTZmdmZiUnNjSFNjdVBPNUdYZzNjaGpRZ3dRSWw1M2VCd3NNaGloTDFTYmlqUnZTRjk0RUFSVU1reWV5eF9jdnVkUXBLYmlLZ2M4SmhtMEYwZGc4dWNISWFHLTk1ZEMzWnlpWVRpQWdVX2dwUkQ3a1lvcDNZWXhvdWx2dmNEbnctQXIzN1FuYU1Bd0EwVm1LbEJ0RWpzbThRN2thUHNDLTlGT1FQRTJrdm1kZTQwdkQtMzVBWjU5UDhGemx2ZHBqVEdveVFPTQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: RETRATO HABLADO EN ROSA Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NUFNTS3BwTnltTUdpU2h5SVdFS0owT3hwdTR3aFVnOEFRT1pqQkR2aTRCOEFBUXU0VmhyZU4xdGhQLWRmR0tPS052aU5rYjlKMHBEampJOGRHZjNu?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Norte: Retiran de subasta el Frida polémico",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vSkl0M3V3SE40Z0c5eWdqMHlSTVFaOWxkNDVBVUI2SnVJTFZVaU5xeHZXdE1aUlhONUlPb04waWdlUGRuanBjMWkyWVFCN3BReFF3aEp1OWNsWWlNYWN1cHJqekNnc2RzM1N0OHp3TmZFNWhhOFpLQXpR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=ZZ3P_XLDfvQ"
+  },
+  {
     "id": 1795050013057,
     "fecha": "2026-11-18",
     "categoria": "Noticias México",
