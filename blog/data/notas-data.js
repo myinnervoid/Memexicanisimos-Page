@@ -1,5 +1,130 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795050013057,
+    "fecha": "2026-11-18",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Red contra reclutamiento de menores, denuncia PAN por INE y avances legislativos marcan la agenda nacional",
+    "descripcion": "Asamblea de Seguridad acuerda red nacional contra reclutamiento de menores; PAN denuncia omisión del INE ante el TEPJF; SCJN invalida trabas a candidaturas independientes en San Luis Potosí; Senado avala reforma contra violencia docente y Diputados aprueban Ley de Protección Animal; transportistas y gobierno firman acuerdo de seguridad carretera.",
+    "narracion": "La edición central del noticiero Memexicanísimos presentó este día cinco desarrollos de alto impacto para el tablero nacional. En materia de seguridad ciudadana, la Asamblea de Seguridad acordó crear una red nacional contra el reclutamiento de menores, encabezada por Omar García Harfuch, titular de Seguridad Ciudadana. La estrategia coordinará a las 32 entidades para prevenir el enganche de menores por grupos criminales, con un presupuesto de 500 millones de pesos etiquetados en el Presupuesto de Egresos 2025, protocolos de alerta temprana en escuelas y centros comunitarios, capacitación a 10 mil policías municipales y fiscalías especializadas en los 10 estados con mayor incidencia. Según datos oficiales, en 2023 se registraron más de 2 mil casos de menores reclutados, con un subregistro estimado del 40 por ciento por la Secretaría de Gobernación. Los gobiernos estatales deberán entregar informes trimestrales con sanciones administrativas por omisión.\n\nEn el ámbito electoral, diputados del PAN presentaron una denuncia de juicio de protección de derechos político-electorales para obligar al INE a publicar la convocatoria para elegir a su nuevo presidente, vacante desde la renuncia de Guadalupe Taddei hace 26 días. El Tribunal Electoral del Poder Judicial de la Federación admitió la denuncia y deberá resolver en un plazo máximo de 15 días hábiles. Los panistas argumentan que la omisión viola el artículo 41 constitucional y la Ley General de Instituciones y Procedimientos Electorales. El presidente de la Cámara de Diputados, Bolaños Cacho, rechazó acelerar la convocatoria sin consenso, mientras el INE opera con un presidente interino y recortes del 20 por ciento en su presupuesto operativo, afectando la credencialización en zonas rurales.\n\nLa Suprema Corte de Justicia de la Nación invalidó porciones de la reforma electoral de San Luis Potosí que reducían de 60 a 30 días el plazo para recolectar firmas de candidaturas independientes, al considerar que viola el derecho a ser votado. La entidad deberá restituir el plazo original y permitir el registro de al menos 15 aspirantes independientes rechazados. La resolución se sustenta en jurisprudencia de la Corte Interamericana de Derechos Humanos sobre participación política.\n\nEl Senado avaló una reforma contra la violencia docente hacia niñas y adolescentes, turnada a la Cámara de Diputados, que establece protocolos obligatorios en todas las escuelas para denunciar agresiones físicas, psicológicas y sexuales del personal educativo. Según la Secretaría de Educación Pública, en 2024 se reportaron 3 mil 200 quejas por violencia docente, pero solo el 12 por ciento terminó en sanción. La reforma crea un registro nacional de docentes sancionados y multas de hasta 50 mil pesos para directores que omitan denuncias, con comités de vigilancia en un plazo de 90 días.\n\nLa Cámara de Diputados aprobó la Ley de Protección Animal con 470 votos a favor y dos abstenciones, que reconoce a los animales como seres sintientes y crea un padrón de infractores con multas de hasta 234 mil pesos. La ley faculta a la Procuraduría Federal de Protección al Ambiente para inspeccionar criaderos y centros de entretenimiento, y obliga a rastros y criaderos a certificarse en un año, con un costo estimado de 15 mil pesos por unidad que impactará a 2 mil 500 establecimientos. Además, transportistas y gobierno suscribieron un acuerdo para fortalecer la seguridad carretera, con una inversión de 8 mil millones de pesos en 12 tramos carreteros y la instalación de 500 cámaras de vigilancia en nodos logísticos, para reducir los robos al transporte de carga que en 2024 sumaron 12 mil casos, según la Asociación Mexicana de Instituciones de Seguros.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Acuerdan crear red nacional contra el reclutamiento de menores; Harfuch encabeza asamblea de Seguridad",
+        "url": "https://www.eluniversal.com.mx/nacion/acuerdan-crear-red-nacional-contra-el-reclutamiento-de-menores-harfuch-encabeza-asamblea-de-seguridad/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Diputados del PAN presenta denuncia para obligar a publicar convocatoria de presidencia del INE; \"no seremos cómplices\", dicen",
+        "url": "https://www.eluniversal.com.mx/nacion/diputados-del-pan-presenta-denuncia-para-obligar-a-publicar-convocatoria-de-presidencia-del-ine-no-seremos-complices-dicen/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Suprema Corte elimina trabas a candidaturas independientes en San Luis Potosí; invalida porciones de reforma electoral",
+        "url": "https://www.eluniversal.com.mx/nacion/suprema-corte-elimina-trabas-a-candidaturas-independientes-en-san-luis-potosi-invalida-porciones-de-reforma-electoral/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Senado avala reforma contra violencia docente hacia niñas y adolescentes; turna a Diputados",
+        "url": "https://www.eluniversal.com.mx/nacion/senado-avala-reforma-contra-violencia-docente-hacia-ninas-y-adolescentes-turna-a-diputados/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Diputados aprueban Ley de Protección Animal; crea padrón de infractores y establece multas de hasta 234 mil pesos",
+        "url": "https://www.eluniversal.com.mx/nacion/diputados-aprueban-ley-de-proteccion-animal-crea-padron-de-infractores-y-establece-multas-de-hasta-234-mil-pesos/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Bolaños Cacho rechaza llamado de exconsejeros sobre acelerar presidencia del INE; pide priorizar el consenso",
+        "url": "https://www.eluniversal.com.mx/nacion/bolanos-cacho-rechaza-llamado-de-exconsejeros-sobre-acelerar-presidencia-del-ine-pide-priorizar-el-consenso/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Senado declara el 18 de diciembre como Día Nacional de Personas Migrantes; recuerdan tragedia en alberge de Ciudad Juárez",
+        "url": "https://www.eluniversal.com.mx/nacion/senado-declara-el-18-de-diciembre-como-dia-nacional-de-personas-migrantes-recuerdan-tragedia-en-alberge-de-ciudad-juarez/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Transportistas y gobierno suscriben acuerdo para fortalecer seguridad carretera; alistan mejoras en infraestructura vial",
+        "url": "https://www.eluniversal.com.mx/nacion/transportistas-y-gobierno-suscriben-acuerdo-para-fortalecer-seguridad-carretera-alistan-mejoras-en-infraestructura-vial/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Zoé Robledo y Senado analizan posible reforma a Modalidad 40; buscan evitar fraudes y abusos en pensiones",
+        "url": "https://www.eluniversal.com.mx/nacion/zoe-robledo-y-senado-analizan-posible-reforma-a-modalidad-40-buscan-evitar-fraudes-y-abusos-en-pensiones/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: \"Maquío\" en letras de oro; PAN propone inscribir a Manuel J. Clouthier en el muro de honor del Senado",
+        "url": "https://www.eluniversal.com.mx/nacion/maquio-en-letras-de-oro-pan-propone-inscribir-a-manuel-j-clouthier-en-el-muro-de-honor-del-senado/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Segob presenta propuesta para fortalecer Talleres Gráficos; descarta riesgos a autonomía del INE",
+        "url": "https://www.eluniversal.com.mx/nacion/segob-presenta-propuesta-para-fortalecer-talleres-graficos-descarta-riesgos-a-autonomia-del-ine/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Rechaza Segob que en México se elabore fentanilo con ingredientes de China; pide informe a Gabinete de Seguridad",
+        "url": "https://www.eluniversal.com.mx/nacion/rechaza-segob-que-en-mexico-se-elabore-fentanilo-con-ingredientes-de-china-pide-informe-a-gabinete-de-seguridad/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Segob confirma pagos del crimen a encapuchados para manifestarse en Santa Fe; \"se va a proceder\", dice",
+        "url": "https://www.eluniversal.com.mx/nacion/segob-confirma-pagos-del-crimen-a-encapuchados-para-manifestarse-en-santa-fe-se-va-a-proceder-dice/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum se reúne con To Lam, presidente de Vietnam; abordan comercio e inversiones",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-se-reune-con-to-lam-presidente-de-vietnam-abordan-comercio-e-inversiones/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Trump se reúne brevemente con Sheinbaum tras aterrizar en Shenzhen para la cumbre de la APEC",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaFdiRHpYT3l3ZEVHVXpLLUEzTWFydWcwSTc3TlhPdU9YM1dkb2NMVU94ZWF2TXg4Sk9BRmNjbjMtTm01aUpnUEJJMG51cHZRbURnS0xoVDBKdkNtRmpRMncxdXc3cXJic29tZTVGUXo2eDJMSEhmbzdYd3ZKN1llR3plamNsUGFrblN2cWtCWUYxMWdmdmhDVmYxQnNZeVBzWjlNRWJxOVhjV0JmRlRUMTQzeWhsVmcta0d5cEVTQVFXczZZTVhVVTAtYVhfa04yS19CbjRXSFY?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Diputados aprueban Ley General de Protección Animal; prohíben peleas de perros y corridas de toros",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb0JVeUlzU3pwUEdTbmljQldVQl9OanVadnhNMXFkYW8wZjVoZjFLNkYtY1djbDg4SHZfSTczZXN4UkJZbmVneWRqX3l6MTh0Ynl3T3hPUWtUNUlBTHZpWmgteFNnV1dldmNjSi1ac1lWamxWRTR3d3N0VEhwQjgwQ0s1eVBTbTF6Mms0Nk8wWnBoVjRDQ0RUMXRDS3hvbDE5dngxX1FxNnJnTGc2ckdnbWhuNDZCSEptdjEzWTNXZGlQaVJmYUF1QndR?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Detienen a ‘El Topo’, líder de ‘Los Deltas’ del CJNG, acusado del secuestro del periodista Jaime Barrera",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRUZEeEJ4ZWM4RjhjNFlyeV9ib01EdGFFeFE2VE5nazgwaWFXekRzeUsxNjJHUnZpNHc4Z1Y5MHpZQ1QzQ3FUcjJYQzRISFZ2TlV0S2lSTXVzYUluY0ZIVUg5SHRDQWRpcTk3Sm5qOU9KejFZZFpRMjhFOEFJNmktQnJrUGdkVWRjdEVfMGdmczhHd0FSeFZNWHppaDA4eGYzQXN1N0VJc3hJSzVhZF9JMVIyNXc1cWotazB2azlZNkJzR1BmTmNkanl1OW5ZUzZXTEdGeTh4T0xZdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Se estrella y arde aeronave frente al Aeropuerto del Norte",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamp0Z3U4Qi1TV3RTRlJiZEtha3V3c1pUSEN5OElkbW5TVXEtU2U2NERQSEZjRWRPdjc2dVFMSmpwVk50OG52cTZ5QWlqd0NneUppY2VHQ3hXalg4Wm0tYzBBd1BkX0dJTWQ1T3JtVEQ1REFTRTNlM0ZzcUdkNU5Kc2U4WEtabHNfdWM4dUtWS0ZmbHVEcFdr?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Perfil: ella es Viridiana Gabriela Yáñez, nueva titular de Talleres Gráficos",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUjdoNjBkT0pWN2RSTTljU0dVRU1Qd2VsM1RSSjVzb0MtWGNwWEVPWGFSQ0kzNGNCdmlUaGxaUWNQcUw2V2owYnhXTW5QUnkzYmVSaXZhU1ZyX04yRnc5YUh0ZS1vdV9zdEVkcTBzUWZNWUg2UVJRMWwtUUpCbVpGcDV2ZXNycWl5c29XZWVFYldCb0RaRTdvZm5fRDdpVERGQ2lTMEJTc0ZfeWdsMi1jWnc1QXQtR2EtZV9pSWdMa0F0a2o4MVNWUjh3aWtJbWZLWlpYOWdYcnd5VnhYTGN1SzZ1YTN6YzJCcEZIZTV4SdIBgwJBVV95cUxNYkIxR2N2M3pzLVFTUTZBdEJhWWc3VmE0cF83WDRfZXZLWXFEeXByNHdxYVRoNlFMRkRpU2NQY3pfX2ctUjZrLWVUUmxTa2hKSDlPUGNVS0RUZDBZV0lJTi15MkgyNjgwandycW84U0V1Mk1ESndBcVhKc2tMMDJTNndJekdlUXpYS1cyNkVBMVdxemxJV1ppLV9jaUZqVzBqR0dTdTNQNS1pcllfb2l5c0JsUUQwOHJhQ1hJR3kwSUlBX3luc1JOVlh4YUtWZXVGTVZWaW45dmNwR1NWY2dtY3NrdnE3TTBBS3lWQjNVYnA3S1FXTndUVll5SFRMSUx2c2Jz?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: (VIDEO) ‘Arde’ Veracruz: Queman autos y colocan ponchallantas en Poza Rica, Papantla, Cazones y Tihuatlán",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcXo5dnNFbnNFdFhLaEVwVXdnRkRMZGJwS3JERV9ubFdXTXFGVTFNNXBrbzliRWozLWpMZkI0cWtYMWRMU2ZUWm51ek9zYWdtRUNiMkdlVzAxb3Z6SU5IVjdFWk1rNFdseHFnVmFsb2szOC00SGxhLVA0d1U3MzRGRU1LYS1PZHEzNHN4TzZRUFJJMkxYQldHbmtUQThHNzYzazJSVHlIRnowZXVueFNnaTJQWDh1R2Ita0JWa0l2N2VYVUlVcDJTX2M0cDBmVWpLNnlvbFpMcjFqa19CeW9tM0RNVUs?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Pagaron criminales a manifestantes de Santa Fe.- Segob",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2I5cWprZzlJeGtHWTY3Q3dxMEwyUm9zWjR3SEJFZGVuT3J2cklubE5PLXBrUjVGNnJ4UjQ2NzB2UzZXVmk4V216NFl3UEZlcENYenVlLWlDT2FmTUFnQWpkempEQXdkMHltcG9fR2RaWGpsV3pSanI0SkFkcXJsMUxlTGF5SjJkOEhyX0t5QQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Avanzan los trabajos para trasladar restos de Cuauhtémoc Cárdenas a la Rotonda de las Personas Ilustres",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPa19wSGZsd0V2U3lKSFNodjVwUm95Q3hqNlJsMEdGWUtsRjV6enpWQ3dJRGNiSDl3b1J6a1d5b3dHVnJXOHd5ZldYRWY2ZmlvaUVSREVURlRxdFd6RWRHa1Q3blRKLV9DalVOYzFRMGlsMjk2R0F2RjhOMFI4MTJTdzJkMkJ5LXJhVHVYLW1MN2RvXzQyX3UwM2VjOTIxa1phaktZOHVkbnQ4eHlkaXRFYmFaX0ZBQzI4TWdHRUlmOHpmUWxwaG9GbUh5eGNrLVBtUDR2VWctcVNPZTRtN3RKd1BBNW54OFlFVGxTOFFRcw?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1795028410984,
     "fecha": "2026-11-18",
     "categoria": "Tecnología",
