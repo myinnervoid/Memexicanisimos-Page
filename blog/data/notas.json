@@ -1,5 +1,60 @@
 [
   {
+    "id": 1795136410043,
+    "fecha": "2026-11-19",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Justicia, economía y agenda social marcan la jornada nacional",
+    "descripcion": "Sentencia histórica por Ayotzinapa, volatilidad cambiaria y avances legislativos en protección animal y escrituración definen el balance del día.",
+    "narracion": "La jornada de este 19 de noviembre de 2026 estuvo marcada por resoluciones judiciales de gran calado, movimientos en los mercados financieros y decisiones legislativas que impactan la vida cotidiana de los mexicanos. En el ámbito de la justicia, un tribunal federal dictó sentencia condenatoria de 60 años de prisión contra José Abarca y de 25 años para otros implicados en el caso Ayotzinapa, según confirmó Reforma. Esta resolución representa un paso significativo en la búsqueda de verdad y reparación para las familias de los 43 normalistas desaparecidos en 2014, y envía un mensaje claro sobre la obligación del Estado de perseguir los delitos de lesa humanidad. La decisión judicial, aunque no cierra el caso, fortalece la confianza en las instituciones de procuración de justicia y subraya la necesidad de continuar con las investigaciones pendientes.\n\nEn el plano económico, el peso mexicano registró su peor caída intradía frente al dólar en 19 meses, de acuerdo con El Economista. La depreciación cambiaria se produce en un contexto de volatilidad global y factores internos que los analistas atribuyen a la incertidumbre sobre la política monetaria y el entorno geopolítico. Este movimiento afecta directamente el poder adquisitivo de los hogares y eleva el costo de los insumos importados, lo que podría trasladarse a los precios al consumidor en las próximas semanas. El Banco de México mantiene su compromiso de monitorear la inflación y actuar con prudencia, pero el episodio recuerda la vulnerabilidad de la economía mexicana ante choques externos.\n\nEn materia legislativa, la Cámara de Diputados aprobó la Ley General de Protección Animal, que prohíbe el sacrificio de animales en espectáculos públicos, informó La Jornada. Esta norma, que aún debe ser discutida en el Senado, representa un avance en el reconocimiento de los derechos de los animales y responde a una demanda social creciente. La legislación establece sanciones para quienes incurran en maltrato y promueve la tenencia responsable, alineándose con estándares internacionales. Su implementación requerirá de presupuesto y coordinación entre los tres niveles de gobierno para garantizar su eficacia.\n\nEn el ámbito social, el gobierno de la Ciudad de México entregó más de 12 mil escrituras y testamentos, y anunció un programa de escrituración masiva para 2027, según El Sol de México. Esta acción brinda certeza jurídica patrimonial a miles de familias y contribuye a la reducción de conflictos por la tenencia de la tierra. La regularización de la propiedad es una herramienta clave para el desarrollo urbano ordenado y la inversión en vivienda.\n\nFinalmente, la presidenta Claudia Sheinbaum regresó a México tras participar en la APEC para encabezar el desfile de la Revolución mexicana, informó La Jornada. Su presencia en el evento cívico reafirma la importancia de las tradiciones nacionales y la unidad en torno a los símbolos patrios. En conjunto, estos hechos configuran un día de contrastes: avances en derechos y justicia, pero también desafíos económicos que exigen atención puntual de las autoridades.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Sheinbaum inicia su regreso a México tras participar en la APEC para encabezar el desfile de la Revolución mexicana",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNbFJNTVhGLWFQOVNLU2xCMlo3elZMQlY3VUE2SkM5aDFlVGlhN2pkY25DOFZvZUxjOVNBY0xWQzlDZWhsaGJ4b1MtZFplTTRmRXFlekVRR0pnemxLSnhQYkQ4S3did2RLQjJQY2FsQmoyd3FwTDJXZlluclhVVG5ac0U3R3EwZE14WVp1MjhQdUM4SGZaWmZ1eXZoSFZEcm9mSEhXeFB3WWtEZ3lFUUdIOGlROUpHNU9CREJOTURWZldMVXM2YkxqLTFnV2VDWXExcGF6czY0LTdUQ2dGcmdtd3B4YlNrOXhYWGFvaVpvRlpKX1lVcnNia1R3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Dan 60 años de cárcel a Abarca y 25 más por caso Ayotzinapa",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVkptdnFPMnJ5VHh0QThGQ3pvMUJmek5WWmgzU2tqZDlmdFBmSWFrMmJwanVleGViLXZqbVg2d1c1T1hmTm9mX3J4SDItYjJQX3U1UEw2MG5aMU9ONzFzZ3g5RlVQYy1WY2xlUVByYm5HSWtpV1JoU0tpWFNMMjZack8wdW9sQktiblh6eTJDeElPaEpFSlpIRQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: Peso tiene su peor caída intradía frente al dólar en 19 meses",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZWl4WDhmQnZzdVBhMy1GNm8yUEJqNWJyazhsQTJQMXBfUEdEMWZCUVJlU0ZZY1VBYXl6elA5NElKcEEtOUNPWWtzV2hzMk9wUXBvb1BuRlRDNVB6dFpkY0RsR0pnLVBGcFZXUkJBM08zbVI2RG1KX1dSeVZaMHVnTkNlSnhjazNLMTc2Z1dsMWRHTkNNZndYWVh3cHpSWFN2Uzc0RGJvYUtsaDZr0gGyAUFVX3lxTE1VQy1XT01PN1B2Z0V6NHcwdGZ1djByUXp0b002SHo4dEw5TzQ5eE5vUlZVRm14emJYRFloWnkwNEwycEdhcDBKTnZVV0FDMFNmNVJ5b3BuR1pXRElKYUxBRl96WUxMY2JfU0NjeHppMFNRaF8xU0xFMW5tWUlETk1QTXgwd2kzUTlWdzlORmF0WTFmS2NXRjRFaXBNRVQtcDd2Vk9RYjFrM0VWdHN0M1puMmc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Sol de México: CDMX entrega más de 12 mil escrituras y testamentos; anuncian programa de escrituración masiva para 2027",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSlV1TE1rdVFsMzc1cEZGQ2NhS3ItcWdINkxjaWh6Z2xUS0V3ZVphc1FiZDhWMklOWm85R05Tem5sd0ZCazEwaUlXeXo0VHB1Qjh6bWtZVEREUXBoYnB1b2xORklfenF5RVBKRnhxZUhTVjhnZjd6enl1ckFldmFPa1E4djJiZkt0Y0l0eV9xQUVZaFJ1eEhUTTZ1YTROckczVS0wUEhlbEZFSmNsN0d6dEZVT3Z5ampaTGFTNUctZzBLRUI4aHpHb3VfYUtWOGpyY2RiVFFUT05lTXl4b1RtVmRnaXFQQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Injusto que hayan tapado el socavón después de su muerte: esposa de motociclista",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR09mbURhN0VrdVVPZzFaQjM0d1lQVVF6N0xjQ0hGUHc3eVdrNEtaTDlZc0JCdGNtSlVRbGlyLW4zdm9GN3FuU3pMU2Z2TG1iMGlmTm9na1NEWnFlSDFGOFE4SE81TkhORTIxVTREX1JPMmdMX2xWc1pWNUViRkZaOXQtNkg1MEt6S2F4bEd5b0VkNzRVTVh1Z1JDVThIZFhrdy1BcjlYU3VvQ1lGb3JzbXFDWnlfUjNmeENtNDVBMUF5QmRFeS1WMnd3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Norte: Muestra video momento previo al avionazo",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ2RYVVZUZlhST3F2Q2J0VjQ3UDRWS0xPcUZPRk5XalVBNV9IcFJiMG1pTEFpY2p6d3VXWmFZOGRhdFpOdkY2V3pjT3BqSS1JZXVsSUZ2Ul9kNGRtaUpON193QnJ5TE9NRk12V3VQLWJpUWRHU2s5T3o4RUdRa3JWUnVCQzU?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ¿El narco está detrás de las caravanas migrantes? Esto dijo Rosa Icela Rodríguez",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTDhqS3Nnem5qUlNOU2VpSFJDakx5M2hoOTFlOFMtaDFiRktIN01iaTdWMUkxVmFzS1JmYkYySzIwbUx3UHhhVnowTjNpQko5TXZYZ1Ntb2hPdHFXZzMwdjNDbzZMbG1hcGxzc00yZXMwemY4ZzRMNXZnSGxackRwRmRpUm5yX2RRNlNQYk9zZVJqMkxTQmxxZW5TRFlOd2ptMVpybzJpYWVWVVJNZV9wSUl5WHYzSXNYWERGQi1B?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Diputados aprueban Ley General de Protección Animal; prohíbe su sacrificio en espectáculos",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb0JVeUlzU3pwUEdTbmljQldVQl9OanVadnhNMXFkYW8wZjVoZjFLNkYtY1djbDg4SHZfSTczZXN4UkJZbmVneWRqX3l6MTh0Ynl3T3hPUWtUNUlBTHZpWmgteFNnV1dldmNjSi1ac1lWamxWRTR3d3N0VEhwQjgwQ0s1eVBTbTF6Mms0Nk8wWnBoVjRDQ0RUMXRDS3hvbDE5dngxX1FxNnJnTGc2ckdnbWhuNDZCSEptdjEzWTNXZGlQaVJmYUF1QndR?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1795114807056,
     "fecha": "2026-11-19",
     "categoria": "Tecnología",
