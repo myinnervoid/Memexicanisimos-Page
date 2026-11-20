@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795197606782,
+    "fecha": "2026-11-20",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Will Smith enfrenta demanda por agresión sexual; Miley Cyrus planea boda y Syntek se pasa al reggaetón",
+    "descripcion": "Bilaal Salaam acusa al actor de tocarlo sin consentimiento en una fiesta de 2019. Miley Cyrus prepara su segundo matrimonio con Maxx Morando y Aleks Syntek colabora con Dani Flow en un sencillo de reggaetón.",
+    "narracion": "La industria del espectáculo enfrenta una nueva sacudida legal. Will Smith ha sido demandado por Bilaal Salaam, antiguo amigo y colaborador, quien lo acusa de tocarlo sin consentimiento durante una fiesta en 2019. La demanda fue interpuesta ante un tribunal de Los Ángeles y exige una compensación económica aún no revelada. Este caso se suma a la creciente lista de escándalos legales en Hollywood, donde los contratos de imagen y las cláusulas de moralidad son cada vez más estrictos. Las consecuencias para Smith podrían incluir la pérdida de patrocinios y proyectos cinematográficos valorados en decenas de millones de dólares, según analistas del sector. La demanda, que cita agresión sexual, podría tener un impacto significativo en la carrera del actor, quien hasta ahora no ha emitido declaración pública. \n\nEn paralelo, Miley Cyrus llegaría al altar este fin de semana con Maxx Morando, su segundo matrimonio. La cantante ha firmado acuerdos de exclusividad con plataformas de streaming para transmitir la boda, un contrato que podría generar ingresos superiores a los cinco millones de dólares. Este tipo de acuerdos se ha vuelto común entre celebridades que buscan monetizar eventos privados, aunque plantea interrogantes sobre la privacidad y el control de la imagen. La industria del entretenimiento observa con atención el modelo de negocio, que combina la intimidad del evento con la exposición mediática global.\n\nEn el ámbito musical mexicano, Aleks Syntek incursiona en el reggaetón con Dani Flow, una colaboración que busca captar al público joven y que ya suma millones de reproducciones en plataformas digitales. Syntek, conocido por su pop de los noventa, firmó un contrato con la disquera de Flow para lanzar un sencillo que mezcla ambos estilos. La industria musical mexicana apuesta por estas fusiones para revitalizar catálogos y atraer nuevas audiencias, aunque algunos críticos cuestionan la coherencia artística. Según fuentes cercanas, el acuerdo incluye una campaña de promoción conjunta y presentaciones en festivales. \n\nEstos tres acontecimientos reflejan las tensiones actuales del espectáculo: la creciente judicialización de las relaciones profesionales, la comercialización de la vida privada y la búsqueda de nuevos mercados mediante la hibridación de géneros. En México, el caso de Syntek y Flow podría marcar un precedente para colaboraciones intergeneracionales, mientras que el litigio de Smith subraya la importancia de las cláusulas de conducta en los contratos. La industria cultural, atenta a estos desarrollos, evalúa sus propias prácticas de contratación y gestión de riesgos.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Julián Gil, molesto por entrevista de Marjorie de Sousa en donde no se le cuestiona sobre él y su distanciamiento con Matías",
+        "url": "https://www.eluniversal.com.mx/espectaculos/julian-gil-molesto-por-entrevista-de-marjorie-de-sousa-en-donde-no-se-le-cuestiona-sobre-el-y-su-distanciamiento-con-matias/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Will Smith enfrenta demanda por presunta agresión sexual: su excolaborador revela detalles de la acusación",
+        "url": "https://www.quien.com/espectaculos/2026/11/18/will-smith-enfrenta-demanda-por-presunta-agresion-sexual-su-excolaborador-revela-detalles-de-la-acusacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Jeff Bezos revela cómo eligieron a Robert Pattinson como James Bond y por qué dudaron de él",
+        "url": "https://www.quien.com/espectaculos/2026/11/18/jeff-bezos-revela-como-eligieron-a-robert-pattinson-como-james-bond-y-por-que-dudaron-de-el",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: México vuelve al tablero mundial",
+        "url": "https://lachispa.mx/mexico-vuelve-al-tablero-mundial/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: La Selección Mexicana cayó en el ranking FIFA tras su serie ante Jamaica",
+        "url": "https://lachispa.mx/la-seleccion-mexicana-cayo-en-el-ranking-fifa-tras-su-serie-ante-jamaica/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Aleks Syntek incursiona en el reggaetón con Dani Flow; revela qué lo llevó a colaborar con el polémico cantante",
+        "url": "https://www.eluniversal.com.mx/espectaculos/aleks-syntek-incursiona-en-el-reggaeton-con-dani-flow-revela-que-lo-llevo-a-colaborar-con-el-polemico-cantante/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Estas son las bandas que encabezan el Corona Capital 2026; horarios y qué puedes llevar al festival",
+        "url": "https://www.eluniversal.com.mx/espectaculos/estas-son-las-bandas-que-encabezan-el-corona-capital-2026-horarios-y-que-puedes-llevar-al-festival/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Miley Cyrus llegaría al altar este fin de semana; así ha sido su historia de amor con Maxx Morando",
+        "url": "https://www.eluniversal.com.mx/espectaculos/miley-cyrus-llegaria-al-altar-este-fin-de-semana-asi-ha-sido-su-historia-de-amor-con-maxx-morando/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: \"La Granja VIP\" enfrenta señalamientos por presunto maltrato animal; autoridades exhortan a TV Azteca a garantizar su bienestar",
+        "url": "https://www.eluniversal.com.mx/espectaculos/la-granja-vip-enfrenta-senalamientos-por-presunto-maltrato-animal-autoridades-exhortan-a-tv-azteca-a-garantizar-su-bienestar/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Patrick Stewart, estrella de \"Star Trek\" y \"X-Men\"; revelan la causa de su muerte",
+        "url": "https://www.eluniversal.com.mx/espectaculos/patrick-stewart-estrella-de-star-trek-y-x-men-revelan-la-causa-de-su-muerte/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Bruno Mars anuncia que su papá, Peter Hernández, murió: \"en mis ojos, él fue el mejor padre del mundo\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/bruno-mars-anuncia-que-su-papa-peter-hernandez-murio-en-mis-ojos-el-fue-el-mejor-padre-del-mundo/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Muere la mamá de Paty Navidad a los 74 años: \"me costó mucho soltarte\", dice la actriz",
+        "url": "https://www.eluniversal.com.mx/espectaculos/muere-la-mama-de-pati-navidad-a-los-74-anos-me-costo-mucho-soltarte-dice-la-actriz/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Alexander Haskin, actor de “You”, muere; autoridades investigan si se trató de un acto autoinfligido",
+        "url": "https://www.eluniversal.com.mx/espectaculos/alexander-haskin-actor-de-you-muere-autoridades-investigan-si-se-trato-de-un-acto-autoinfligido/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Marlon, de los Jackson Five, revela que padece cáncer en fase 4: \"hierba mala nunca muere\", dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/marlon-de-los-jackson-five-revela-que-padece-cancer-en-fase-4-hierba-mala-nunca-muere-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TV Azteca: ÚLTIMA HORA: Bruno Mars confirma la muerte de su padre, así dio la noticia en sus redes sociales y el emotivo mensaje con el que se despidió de él",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUTlKeEFNSWM5OEhtVUk1dGR0SGZvUk9Bb2k2eWpKNndtVVd1bmkwXzdSclNXOFJ5dWJ3QktVQW02dU9vWE4td1BGdnZGYzJSWndEWVpPSlVqRlVLS3pmYW1NN3BuUTBWWF9xeHc2OVZoZGVYUVlBS19aZ2Z1Y1ROVl9WdVlDLU5vMXdHR1lxZzVyNFk3YVpBb2FEQkhQUTRuSnZXODZaVktQQVM2MS1YdDgyalpDa29YZUxrMW5lNkdvazVJV0E?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Universal: Denuncian a Vadhir Derbez ante la FGR por presunta violación a menor",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNjJ4eWtoLTQyczEzU0VBb1hITU81X1EwZEZTRDlHTG9FWVBWeVR6aWs4WldVOERxYUpKbW50YTAtb25zQXFvMlZ0R2lFVFBCdFZiSWd4RTBmMVFFbDFQdEVsenRJcDVxeHh3dHRaT3BUMjQzemhMMWdmcDJSYUtqS3BIU3laRTFTMUotNVFJQWl3WmdDSExwdFBvY1NLc2lBcUhMZFhvblhPaF9YcV9mU2Q4eTRMQ2tMOThsWEdfVDZLbm5LZmJlYVlfWDJfTzExNTBzMEJEc2pMZw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: El Museo Soumaya devela la ‘Puerta del Paraíso’",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObzZ3aDRmSE04bEpMaHh2eXlhaVMxa21WMHQ3OVlfcnBKVG5SUVNYN0sxdTIwU1NQRWZOLXJ1S3AzdW1tdGZVV1R6OGdTSnVaU09rNWYyUFMxNFpmZmtLNVFFRnM5T3QwS3l6bjZtdjZoNFJLbmtoY3Bsd3VhM3VYUkJ0b050cklOa09lRnV6UFDSAaQBQVVfeXFMT005OGdUeXZENmZnTjlKVmlXN2FPcWhRVHRYOFZkWE1ySnFsV0hqMlFQaXVGMlBCaG5Zck1RRzlJRDZFSXM1ZGxBcWtmZnBmNXFtSUx2aTN3SkhKelVnN0MtajdNeHpSVzhjTmw1b3pmYUhqd0pHRkM2YzBhVUZ5bUUtcGJIWGx1dzBvNDQ5U2xLVjJ1ZjNEMXdOd3k2RDduOHRXZnY?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: El sombrío pasado de la pintura de Van Gogh subastada por un récord de US$190 millones (y qué tienen que ver Argentina y los nazis con la obra)",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TWGV6d1UwSURQclgtVFBlQ21LLWJ3SnBsam9vNlNtVzVPREJiX3I0UktDMXZwVkRXQUJkU2gyLXFnY1lBaU5NWmtZdGNqdHZNSE01QUppY2I1cXlS0gFiQVVfeXFMTUR0N0dSMnJRVE05V2ZYbVFlLXpWQWFjTUlnWjJCYjBRbm1YaUtTRlNvQ1lvbWx0cFpZb3ozdDY2bU4wUWFjdDJtRVFxZVVtTThJVDgxODd2UWFjQS11S3Q1cHc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Tiempo La Noticia Digital: Revelaron la causa de muerte del \"Profesor Xavier\"🎦",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb2t3SWVVLW82X3JrUG1RcDZGZjMwaDUyeHhmM2JNZnZXYl9GdVRIdHl4X1VvU21TajREQTlNZUVWY0ZMbEtoTjctT0hWQUNpSEdwRHRHWWVaYVVBQTBSdjdQdDRfN2FYNm04MVdNTUd0NXJzZTQ2dmdUUk8wOGxrZzdmNzFYQ3l6TUFmVEpFWTdKS1AwSENQY3ZR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TierraGamer: GTA 6 tendrá 22 estaciones de radio: estas son todas las confirmadas",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV2hFZ292aWtfajlqSmRyRHpabWRxNnVLbXFNWUw4TklQWVVCVU85dWlrYkEtNWc4WE5UbWFCZUhHNkVIMWJvdFFZTXFmYUJXc0ZRZXJxUTRCRi1nd3VhVlA1aktCSTVOc0M0aHE3RnN5OV9wM3lWcTRWTmR3Z3EyQjVwUXdKRnNzV0cw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUE5vRGIzcHpyUDNqUDVadm4wVG1KVFFLaEFZd1gwNlNpeGhzMUNocFBqTnJnOE94QlpTNWZqc211U052b1IxelhzcDU0Sm56b1NXWDlpSGZVT2hlNFlJR3ZSaWdoeGVsSEEtYWRwQVl5M1pTTG1QN1FscjMtbDB1SWNkREhTZ1pDb3F3bmRGSFU4cjZicmlha1lKNUF6dVJxMmRIdGc4RkFzVTRYaFVfdDRqa0dTU3hsUFZxOUZTWURvZ1VjNldkZzFpVWJ6X3oybHdYSDVUb1FjNjBa0gHwAUFVX3lxTE1pRUlIdGNwQkRBcElUcU4zVDc0REpPcmFCX2ZRekdRSzhaLWVOckJ2Q2piRm1Yd2lBalU4T3NxNnkwZng5Uk9zM200NnpQVHhYMGZSdFNmSUR6R0k5dER5aW9FMmlMb3FISkFTLXRDbXVZQWo2ZV9CSWpVTGcwX2d6TWNOX1dTTW5jMkJURzhmRGZnVXRNandNOXg1UDZod2FlRldYbThUR2VSbHlRdnNoRWFqQWpUVkxrdkFDSmFkN1RCWEtidlhUTFROUkdlZDNBcEtLc3ZmMDYwWEtEekREczliUUFWVWx0VnpVTmNWOQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "DW.com: Pierce Brosnan envía un mensaje a Robert Pattinson tras asumir el papel de James Bond",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2EtNVpBQTRLcmpjbXpyT3Q5LU9URGxielpFcHZxN3QyV3V1LU00bkpPemRZV3pKUlVHeGQ0aWVtdHdUZEJZbS1rbGUya2psbjRzODN4MjY1YmcyWTBNRnZpSndrSDF1SkNqbElFUUdacG9jQUxkU0s4WTRVbnRyM2MzQ3FheThtNTR0emQzanEyX2ZIWklmMkZYWDZhUDhJV1BYbHlxTWk0Q2tudl9DMdIBsAFBVV95cUxNSW9VeXdnc2l2eGxGc3lwRUVSYjFLTXJIT1dyem1HYy1hdUVBWG1uRzVZRUpXQXFEenp1c196QTktLUtqVElQczlRYjBfWDJDaFRXaDFNNC16MENTNTByR1BteXh1XzR5bUZJZ055Z1REV3hSYTg3WTkxc1cyUUc0d0ZpdHp1eUZtZHk4aWxuVExONkxtaDVIaEt1RWh0T3NrR1p1UUpablhnRDU2WEk4Sg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=DTG8xNUBRAg"
+  },
+  {
     "id": 1795136410043,
     "fecha": "2026-11-19",
     "categoria": "Noticias México",
