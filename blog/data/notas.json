@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795201205379,
+    "fecha": "2026-11-20",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Nissan advierte: dos años antes de que autos chinos se fabriquen en México",
+    "descripcion": "Nissan Americas alerta que la producción china de vehículos en México es inminente y usará al país como laboratorio para abaratar costos, mientras la inversión automotriz china crece 35% y las marcas asiáticas ya controlan 20% del mercado mexicano.",
+    "narracion": "La advertencia de Christian Meunier, presidente de Nissan Americas, en Detroit ante proveedores, no es una profecía: es un cálculo industrial. La marca que lidera ventas en México desde hace años enfrenta una cuenta regresiva de dos años antes de que los fabricantes chinos comiencen a producir vehículos en territorio mexicano. La estrategia de Nissan es convertir a México en su campo de pruebas para aprender a fabricar autos baratos, reducir costos con proveedores locales y optimizar plataformas en sus plantas de Aguascalientes y Morelos. El dato duro: México es el séptimo productor mundial de vehículos, con más de tres millones de unidades anuales y exportaciones superiores a los 130 mil millones de dólares. Pero la amenaza china no es menor. En 2025, las marcas asiáticas ya controlan el 20% del mercado mexicano de autos nuevos. La inversión extranjera directa china en el sector automotriz creció 35% en el último año, según cifras oficiales. El gobierno mexicano mantiene aranceles del 20% a vehículos chinos, pero eso no frena la inversión. La consecuencia es clara: presión para toda la cadena automotriz nacional, que emplea a casi un millón de personas. Nissan busca blindarse con proveedores locales y plataformas más eficientes, pero la carrera por el mercado de autos accesibles ya comenzó y México es el campo de batalla. La nota, publicada por Xataka México y titulada 'Nissan tiene dos años antes de que los coches chinos se fabriquen en México y va a usar el país como campo de pruebas para abaratar los suyos', cita textualmente la revelación de Meunier. El video de Memexicanísimos resume: 'Nissan advierte que tiene solo dos años antes de que los autos chinos se fabriquen en México y usará al país como laboratorio para abaratar costos'. La competencia industrial se intensifica y la soberanía tecnológica de México está en juego: no se trata solo de autos baratos, sino de quién controlará la cadena de suministro, la propiedad intelectual y los empleos del futuro. La inversión china crece, los aranceles no bastan y la industria nacional debe reaccionar. La carrera ya comenzó.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: A los 26 años dejó su empleo en la ciudad para construir con su pareja una cabaña de ventanas recicladas en la montaña: gastaron solo 500 dólares",
+        "url": "https://www.xataka.com.mx/ecologia-y-naturaleza/a-26-anos-dejo-su-empleo-ciudad-para-construir-su-pareja-cabana-ventanas-recicladas-montana-gastaron-solo-500-dolares",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Miles de murciélagos convirtieron una casa de México en su refugio: en vez de expulsarlos, los dueños prefirieron cuidarlos",
+        "url": "https://www.xataka.com.mx/ecologia-y-naturaleza/miles-murcielagos-convirtieron-casa-mexico-su-refugio-vez-expulsarlos-duenos-prefirieron-cuidarlos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Paula Sumasi, cocinera: \"las sardinas enlatadas son más saludables, y el sabor mejora si se usa su propio aceite\"",
+        "url": "https://www.xataka.com.mx/home/paula-sumasi-cocinera-sardinas-enlatadas-saludables-sabor-mejora-se-usa-su-propio-aceite",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Prepárate para un fin de semana helado: frentes fríos 6 y 8 provocarán temperaturas de hasta -10°C en México",
+        "url": "https://www.xataka.com.mx/ecologia-y-naturaleza/preparate-para-fin-semana-helado-frentes-frios-6-ocho-provocaran-temperaturas-10-c-mexico",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tu Samsung puede tener un teclado con orejas de gato y estas son las opciones para conseguirlo",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/tu-samsung-puede-tener-teclado-orejas-gato-estas-opciones-para-conseguirlo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Los ganadores de los Premios Xataka México 2026: esta es la mejor tecnología del año",
+        "url": "https://www.xataka.com.mx/xataka-mexico/ganadores-premios-xataka-mexico-2026-esta-mejor-tecnologia-ano",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Faltan 27 días para Avengers: Doomsday, pero para entenderla antes tienes que ver esta joyita con 93% de aprobación",
+        "url": "https://www.xataka.com.mx/cine-y-tv/faltan-27-dias-para-avengers-doomsday-para-entenderla-antes-tienes-que-ver-esta-joyita-93-aprobacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Nissan tiene dos años antes de que los coches chinos se fabriquen en México y va a usar el país como campo de pruebas para abaratar los suyos",
+        "url": "https://www.xataka.com.mx/automovil/nissan-tiene-dos-anos-coches-chinos-se-fabriquen-mexico-va-a-usar-pais-como-campo-pruebas-para-abaratar-suyos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Samsung encontró una forma de hacer que decorar tu pantalla también sirva para automatizar tareas",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/samsung-encontro-forma-hacer-que-decorar-tu-pantalla-tambien-sirva-para-automatizar-tareas",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: La psicología lo explica: Hay personas que prefieren quedarse calladas antes que ser juzgadas",
+        "url": "https://www.xataka.com.mx/medicina-y-salud/psicologia-explica-quedarse-callado-no-siempre-significa-desinteres-tambien-puede-ser-miedo-a-ser-juzgado",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: El ruido de los aviones podría disminuir en algunas zonas de la CDMX por un cambio en las rutas del AICM",
+        "url": "https://www.xataka.com.mx/otros-1/cdmx-podria-volver-a-escuchar-aviones-algunas-zonas-evaluan-modificar-rutas-aicm",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Anthropic cierra su primer día de cotización tras la mayor salida a bolsa de la historia. Su verdadero desafío empieza ahora",
+        "url": "https://www.xataka.com.mx/empresas-y-economia/anthropic-cierra-su-primer-dia-cotizacion-mayor-salida-a-bolsa-historia-su-verdadero-desafio-empieza-ahora",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Me fui de viaje sin laptop y solo llevé una tablet Samsung: después de probarla, no estoy seguro de volver a cargar una computadora",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/me-fui-viaje-laptop-solo-lleve-tablet-samsung-despues-probarla-no-estoy-seguro-volver-a-cargar-computadora",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Telcel enfrenta una multa de 90 millones de pesos por vender solo sus líneas en tiendas: la Corte dejó el caso en manos de otro tribunal",
+        "url": "https://www.xataka.com.mx/telecomunicaciones/telcel-enfrenta-multa-90-millones-pesos-vender-solo-sus-lineas-tiendas-corte-dejo-caso-manos-otro-tribunal",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: ¿Ciberataques o vulnerabilidades?",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDcwWUtJUVQyd0VDR1VleW1ucmRIN3NTNzNpYXFhQmFYUmRNQkNaVFQxckpYTGsweVpJLThTcTFYbW1iT3RielJ6MU1jLVdFX3RIdW4zMVViT1VUazlpOVFmM2taQTBiY2JuSjU0SnpWWlZPekM4WXJBZC11VlBNOW1SWWJ5QjJheVpWRlFhM1E1blRnWGN3S1ZxbVJQd19fdHc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Anthropic: por qué el mayor debut bursátil de la historia pone a prueba \"la burbuja\" de la IA y la posibilidad de que estalle",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVc1E4b0M2TDQ2d0xUTVBnS2QySUJHMHVCV2RtbTZPVU1mUlZSSGg4R0ZES05PWVhlVlRBUVdsUFpfcW9MckdUYWhMa1JNdXNGZVQxZWFwSFJmSEhC0gFiQVVfeXFMTVZXeFNxd3QybGNxQjQ4Y1NkWWJhT2tYa2NIbllHYlUxdVlHOExPX3gtV21oQTRuSnNEYjVadFlic0RMRVNOSFFQaXNZUVplRjN0R3JKLU8xSzNPQURvT29zOUE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: Reportan Visa y Mastercard filtración de datos de clientes",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWmRrV0FKY0I3V0JoV3R6bm8tOTJOX2ZObFppVjVnX0pYYUM0eVJsV1dobHFyaGEtaERpV3F4NnFYRDYzYjh2c05FUFVyN3pZdkxHUlZaZnlxeFN0LW5TM2lXYzZwMmtxR1VUYktaeXhUZURzdEQ4aFM0d05McmJEcTZyNDU4bjFKYllIUTNzMTNkUURxT0dj?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: JEDEC presenta las memorias DDR6 con módulos un 44% más pequeños que DDR5 y velocidades de hasta 14.400 MT/s",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SSjdWSWdLMHBGd1V3RmlwU1FWZ1RwUF8zUWsyZ0UwWmhHWXdlWkt6M1E4djFaandRdEhxUkJ2T0VPZUtrbnh6VWstSUJkbDNLT2NBdUxzcTdFLVRQenRzQlh1Um4xQWZiN3Rrd04waGZqMmxfU1E?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Despiden a jefe de ciberseguridad de la Casa Blanca tras fallas tecnológicas",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR1VGanYyeXBRTjdHOWJaM0JuWnNjVy1LT3FKbnVCTEYwS1lzOFBOSnkwLWFHOTJ4VWtBUVV4SHhIbV95RjlzOTVvbW9zbmkyOFdaejNYYWlwZUh1MFA0bFRQRUVzOFJmWFpMb1otTkxuM2FjNXE1OWNHSnJTRjlXSGZ1NkFXcXQ2WXNQcjlxWXFuTi1YbDR4NDhkRncta2p5T0FiNHZva3JkanhJNVJzNjhkeXhMOG1NUHBpMVlqajloRmx1UTdv?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: \"Amigos\" autoritarios, el potencial de la IA y otras claves del viaje de Trump a China y su cumbre con Putin y Xi Jinping",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOREl4TEc0TU4yOTZWSjJnWkxUMjY3WkdSeUZ2ZkxtMGZBQlN1TU9oQkxJd0VOeFhlajFtNTg4TmhuU0ZqeW9YMjFLMnpnWWFYamR5SF9tbFJjS1BMdkk1QlVrVWpQTEZJQ055aWZKUGN0eTRWQ1JGUDFkZU5VdEptZGJ6c1VBQ1RQNG9CZW05OGNHYjg3SFNNTU5iMElPZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: Port de GTA 6 para PC basado en PS5 da sus primeras señales de vida y ya llega al menú (Update: FAKE)",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UVkh6cUN0cUtZbDd6TmFRbF8zM0JmSkxRRXpqaFNYbGhaS1dVS094cDhsZGdmSWttOUhiUVlHYmk5OWI5UUxxVGZkMU1JYzl2MXVxbzd1bE1hc2Iyd2VnXzRDQllZWnFMYXZfY1RaLVZ4V1hqSE9ZZ0UteVM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "UnoTV: ¡Cuidado con los stickers y fotos que recibes por WhatsApp! Podrían contener códigos maliciosos, alerta la SSC",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSEcycnN1REpYU0poRVJ3dnRoUGNuVFBJZXVRMDl6SWdBN0NBWGpXeEhoM2sxU0ZOcVUtMkRyRUJVYUM2UWU3TmZvVER1QXVfZkEzckU3MEJxZlZ6QkZzd3hLZzFnU2xKT1o0ZFd1LU1td1ZpVnY1UDJWZzRvbHItemhLZ3A3bGNsczg3RDBmdk5MeExNYV9TOWRZLXFyRTBQQWhkY2sxSE9qbjllVGpqRW9ndnpmckZPY3VCMlBiY2YxV3k3eEtzbGRGWTl0cVI0a3NrQnV3ZkppbnBNS19ZZFNrOTYyZw?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=tqi9KySBqwE"
+  },
+  {
     "id": 1795197606782,
     "fecha": "2026-11-20",
     "categoria": "Farándula",
