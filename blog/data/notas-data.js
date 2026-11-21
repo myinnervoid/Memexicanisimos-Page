@@ -126,6 +126,32 @@ window.MEMEX_NOTAS = [
     "youtube_url": "https://www.youtube.com/watch?v=fSrlRdYvPpg"
   },
   {
+    "id": 1795215605379,
+    "fecha": "2026-11-20",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Nintendo Switch 2 recibe Dragon Quest XI S y el remake de Profesor Layton: fechas y versiones confirmadas",
+    "descripcion": "Square Enix y Level-5 detallan lanzamientos para Switch 2 con mejoras técnicas y ediciones definitivas. La consola acelera su catálogo de rol y puzles.",
+    "narracion": "Te lo resumo: Nintendo Switch 2 suma dos lanzamientos clave con fechas y versiones definitivas confirmadas. Dragon Quest XI S Echoes of an Elusive Age llega, en edición definitiva, con mejoras gráficas y rendimiento optimizado para la nueva consola. Square Enix apuesta por el catálogo de rol japonés, para sostener el ritmo de ventas del hardware. La versión incluye todo el contenido descargable y ajustes de calidad de vida. Por su parte, Level-5 anuncia el remake de El Profesor Layton y la Villa Misteriosa, con puzles rediseñados y una interfaz adaptada a la pantalla táctil. El título original vendió más de diecisiete millones de copias, en Nintendo DS, y esta revisión busca captar a una nueva generación. Ambos lanzamientos refuerzan la estrategia de Nintendo de nutrir Switch 2, con franquicias consolidadas y remakes de alto perfil. La consola, que compite con PlayStation cinco y Xbox Series X, necesita este tipo de títulos, para justificar su precio de cuatrocientos cincuenta dólares. Los analistas esperan que estas dos entregas impulsen la adopción durante la temporada navideña. La industria observa si la apuesta por el rol y los puzles mantiene el interés del público masivo. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Square Enix & Level-5: Anuncios oficiales para Nintendo Switch 2",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Comunidad Gaming y Tendencias de la Industria",
+        "url": "https://news.google.com/",
+        "tipo": "Prensa Gaming Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=a10DscDnrP8"
+  },
+  {
     "id": 1795201205379,
     "fecha": "2026-11-20",
     "categoria": "Tecnología",
@@ -431,6 +457,32 @@ window.MEMEX_NOTAS = [
       }
     ],
     "estado": "publicado"
+  },
+  {
+    "id": 1795129207056,
+    "fecha": "2026-11-19",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Dimraeth, Ace Combat 8 y el remake de Profesor Layton: nostalgia y acción en la industria",
+    "descripcion": "Tres lanzamientos clave marcan la agenda: Dimraeth, Ace Combat 8 y el regreso del Profesor Layton. Datos duros y consecuencias para el mercado.",
+    "narracion": "Te lo resumo: Dimraeth debuta, con tráiler de lanzamiento y ya genera expectativa en el mercado independiente. El estudio responsable, aún sin confirmar cifras oficiales de ventas, apuesta por un modelo de distribución digital que evita costos de fabricación física. Según datos de la propia desarrolladora, el juego estará disponible, en consolas de novena generación y PC, con un precio de lanzamiento de veintinueve dólares. La decisión corporativa de no incluir edición física reduce el margen minorista, pero amplía el acceso en regiones con infraestructura digital limitada. En paralelo, Ace Combat 8: Wings of Theve presenta su tráiler online número ciento uno, confirmando su llegada a PlayStation cinco y Xbox Series X. Bandai Namco no ha revelado la fecha exacta, pero fuentes de la industria estiman un lanzamiento en el segundo trimestre de dos mil veintiséis. El motor gráfico propietario promete sesenta cuadros por segundo estables y soporte para resolución cuatro K. Por su parte, el remake de El Profesor Layton y la Villa Misteriosa se posiciona como la apuesta de Nintendo para el catálogo de Switch dos. Level cinco mantiene la estructura de puzles original, pero añade doblaje completo y una interfaz táctil optimizada. La compañía espera recuperar la base de jugadores de la era DS, estimada en diecisiete millones de unidades vendidas. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Bandai Namco & Level-5: Reportes de lanzamientos para novena generación",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Prensa Especializada y Tendencias Gaming",
+        "url": "https://news.google.com/",
+        "tipo": "Prensa Gaming Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=UlTr8BJqGQA"
   },
   {
     "id": 1795114807056,
@@ -808,6 +860,32 @@ window.MEMEX_NOTAS = [
       }
     ],
     "estado": "publicado"
+  },
+  {
+    "id": 1795042810984,
+    "fecha": "2026-11-18",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Nintendo Switch 2 Refuerza su Catálogo: Dragon Quest XI S y Zelda Ocarina of Time Remake Confirmados",
+    "descripcion": "Square Enix y Nintendo apuntalan la recta final de Switch 2 con un RPG de 100 horas y un remake histórico. Análisis de fechas, impacto comercial y estrategia de catálogo.",
+    "narracion": "Te lo resumo: Nintendo Switch 2 confirma Dragon Quest XI S y el remake de Ocarina of Time para dominar el calendario de 2026. Square Enix apuesta por la Definitive Edition del RPG de 2017, ahora con mejoras técnicas y contenido íntegro, para cubrir el hueco de un género que en Switch 2 solo contaba con títulos menores. La versión incluye la banda sonora orquestada, modo 2D y los episodios adicionales, lo que eleva su duración por encima de las 100 horas. El movimiento busca retener al usuario que exige catálogo retro compatible y justifica el precio de la consola frente a la competencia. En paralelo, Nintendo fechó el remake de The Legend of Zelda: Ocarina of Time para el mismo año, un proyecto que reconstruye el clásico de Nintendo 64 con motor gráfico actualizado y control adaptado al nuevo hardware. La compañía no ha revelado el presupuesto, pero fuentes internas cifran el equipo de desarrollo en más de 200 personas. La estrategia es clara: dos pilares de peso para sostener las ventas navideñas y frenar el avance de PC portátiles. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Nintendo & Square Enix: Reportes de catálogo y remakes para Switch 2",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Comunidad Gaming y Análisis de Industria",
+        "url": "https://news.google.com/",
+        "tipo": "Prensa Gaming Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=wodTof_RyCU"
   },
   {
     "id": 1795028410984,
@@ -1191,6 +1269,32 @@ window.MEMEX_NOTAS = [
     ],
     "estado": "publicado",
     "youtube_url": "https://www.youtube.com/watch?v=AkRORc1rtN8"
+  },
+  {
+    "id": 1794956405886,
+    "fecha": "2026-11-17",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "GTA VI: parche de día uno pesa 1 GB más en Xbox Series X|S que en PS5 y Ocarina of Time Remake supera el millón físico",
+    "descripcion": "Rockstar confirma segundo parche de lanzamiento para GTA VI con diferencias técnicas entre consolas, mientras Nintendo celebra el éxito físico de Ocarina of Time Remake.",
+    "narracion": "Te lo resumo: GTA VI llega con un segundo parche de día uno que pesa un gigabyte más en Xbox Series X|S que en PlayStation 5, según confirmó Rockstar Games. La actualización, distribuida en las últimas horas, evidencia diferencias en la optimización para cada plataforma y obliga a los jugadores de Xbox a descargar más datos antes de acceder al título. Este parche se suma al primero, acumulando un volumen significativo de correcciones técnicas y ajustes de rendimiento que buscan estabilizar la experiencia en ambas consolas. La decisión de Rockstar de priorizar ciertos ajustes en Xbox podría responder a las particularidades del hardware, como la memoria compartida y la arquitectura de Series X|S, lo que impacta directamente en los tiempos de instalación y en el espacio de almacenamiento requerido por los usuarios. Por otro lado, Nintendo confirmó que Ocarina of Time Remake superó el millón de unidades físicas vendidas en su primera semana, un hito para un lanzamiento en formato físico en la era digital. La compañía reportó que el juego lideró las ventas en mercados clave como Japón y Estados Unidos, impulsando la adopción de Nintendo Switch 2. Este éxito refuerza la estrategia de Nintendo de mantener el formato físico como pilar comercial, incluso frente al avance de las descargas digitales. Visita memexicanisimos.com",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "Rockstar Games & Nintendo: Comunicados técnicos y ventas físicas",
+        "url": "https://news.google.com/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "HobbyConsolas & Nintenderos: Comparativas de parches y mercado",
+        "url": "https://news.google.com/",
+        "tipo": "Prensa Gaming Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=jV_eyhM9PBU"
   },
   {
     "id": 1794942006430,
