@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795222808905,
+    "fecha": "2026-11-20",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Sheinbaum, el desfile y los retos institucionales: piratería, INE y salud",
+    "descripcion": "La presidenta encabezó el desfile por la Revolución y criticó a la oposición; mientras, la aduana de Michoacán incautó 17 mil peluches pirata, la CNDH acreditó negligencia en el Hospital Naval de Campeche y Monreal denunció trabas en la renovación del INE.",
+    "narracion": "La conmemoración del 116 aniversario de la Revolución Mexicana estuvo marcada por el desfile militar encabezado por la presidenta Claudia Sheinbaum, quien regresó de su gira por China tras participar en la APEC. Durante el evento, la mandataria advirtió que la oposición volverá a fracasar en su intento por deslegitimar las elecciones de 2027, y destacó que México vive una nueva etapa de democracia y libertades. El desfile contó con más de diez mil elementos de las Fuerzas Armadas, vehículos blindados y aeronaves, con un costo operativo de 50 millones de pesos. Senadores de Morena respaldaron la participación de Sheinbaum en la APEC, subrayando que México tiene una voz propia y fuerte. La oposición criticó el uso político del evento.\n\nEn el ámbito de seguridad y comercio, el Gabinete de Seguridad informó la incautación de 17 mil peluches pirata en la aduana de Michoacán, entre ellos personajes como Kitty, Pikachu, Don Cangrejo y Stitch. La mercancía ingresó sin cumplir las normas de etiquetado y su valor supera los dos millones de pesos. La Secretaría de Economía advirtió que la piratería afecta a mil 200 empresas formales y el sector juguetero emplea a más de 80 mil personas, con pérdidas anuales de cinco mil millones de pesos. Las autoridades intensificaron revisiones en puertos y fronteras.\n\nEn materia de derechos humanos, la CNDH emitió la recomendación 35/2026 contra la Secretaría de Marina por la muerte de un paciente en el Hospital Naval de Campeche debido a la falta de material quirúrgico. El expediente acredita negligencia médica y desabasto, y la dependencia tiene diez días para responder y reparar el daño. Este caso expone fallas en el suministro de insumos y la urgencia de garantizar el derecho a la salud.\n\nRespecto al Instituto Nacional Electoral, el senador Ricardo Monreal acusó que la denuncia del PAN atrasa la resolución para renovar la presidencia del INE, proceso que está en manos del Poder Judicial. Monreal señaló que la denuncia carece de sustento legal, mientras el PAN argumenta irregularidades en la terna. La renovación debe concretarse antes de diciembre para no afectar la organización de los comicios de 2027.\n\nFinalmente, jubilados de la Cámara de Diputados liberaron San Lázaro tras más de 20 horas de bloqueo, luego de dialogar con la Mesa Directiva, que se comprometió a reagendar una reunión para atender sus demandas, entre ellas la restitución de un apoyo económico mensual de tres mil pesos. El acuerdo incluye una mesa de trabajo con la Secretaría de Hacienda, y los manifestantes advirtieron que volverán a protestar si no hay respuesta.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Jubilados de la Cámara de Diputados liberan San Lázaro tras diálogo con Mesa Directiva; reagendan reunión para atender demandas",
+        "url": "https://www.eluniversal.com.mx/nacion/jubilados-de-la-camara-de-diputados-liberan-san-lazaro-tras-dialogo-con-mesa-directiva-reagendan-reunion-para-atender-demandas/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Jubilados de la Cámara de Diputados vuelven a bloquear San Lázaro; personal, estudiantes y periodistas quedan encerrados",
+        "url": "https://www.eluniversal.com.mx/nacion/trabajadores-jubilados-de-la-camara-de-diputados-vuelven-a-bloquear-san-lazaro-exigen-restituir-apoyo-economico/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Kitty, Pikachu, Don Cangrejo y Stitch quedan detenidos en aduana de Michoacán; incautan 17 mil peluches pirata",
+        "url": "https://www.eluniversal.com.mx/nacion/kitty-pikachu-don-cangrejo-y-stich-quedan-detenidos-en-aduana-de-michoacan-incautan-17-mil-peluches-pirata/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Monreal acusa que denuncia del PAN atrasa resolución para renovar presidencia del INE; esperan resolución del Poder Judicial",
+        "url": "https://www.eluniversal.com.mx/nacion/monreal-acusa-que-denuncia-del-pan-atrasa-resolucion-para-renovar-presidencia-del-ine-esperan-resolucion-del-poder-judicial/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Fallece paciente en Hospital Naval de Campeche por falta de material quirúrgico; CNDH acredita violación al derecho a la salud",
+        "url": "https://www.eluniversal.com.mx/nacion/fallece-paciente-en-hospital-naval-de-campeche-por-falta-de-material-quirurgico-cndh-acredita-violacion-al-derecho-a-la-salud/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Senadores de Morena reconocen participación de Sheinbaum en la APEC; \"México tiene una voz propia y fuerte, una voz de mujer\", afirman",
+        "url": "https://www.eluniversal.com.mx/nacion/senadores-de-morena-reconocen-participacion-de-sheinbaum-en-la-apec-mexico-tiene-una-voz-propia-y-fuerte-una-voz-de-mujer-afirman/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum encabeza desfile militar por el 116 aniversario de la Revolución Mexicana; regresa de China tras participar en la APEC",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-encabeza-desfile-militar-por-el-116-aniversario-de-la-revolucion-mexicana-regresa-de-china-tras-participar-en-la-apec/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum se lanza contra la oposición durante desfile por la Revolución; \"van a volver a fracasar en su intento por deslegitimar las elecciones del 2027\", dice",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-se-lanza-contra-la-oposicion-durante-desfile-por-la-revolucion-van-a-volver-a-fracasar-en-su-intento-por-deslegitimar-las-elecciones-del-2027-dice/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Perrito \"Comando Chihuahua\" presente en el desfile de la Revolución Mexicana; fue adoptado por la Guardia Nacional",
+        "url": "https://www.eluniversal.com.mx/nacion/perrito-comando-chihuahua-presente-en-el-desfile-de-la-revolucion-mexicana-fue-adoptado-por-la-guardia-nacional/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: FGR atrae tres carpetas de investigación tras protesta de madres buscadoras; garantiza atención en todos los casos",
+        "url": "https://www.eluniversal.com.mx/nacion/fgr-atrae-tres-carpetas-de-investigacion-tras-protesta-de-madres-buscadoras-garantiza-atencion-en-todos-los-casos/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Marx Arriaga alista caminata de Ciudad Juárez a CDMX para exigir indemnización a la SEP; pide \"dignidad y justicia laboral\"",
+        "url": "https://www.eluniversal.com.mx/nacion/marx-arriaga-alista-caminata-de-ciudad-juarez-a-cdmx-para-exigir-indemnizacion-a-la-sep-pide-dignidad-y-justicia-laboral/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: ¿Quién es Xu Jin?; la agente china que resguardó a Sheinbaum durante la APEC 2026",
+        "url": "https://www.eluniversal.com.mx/nacion/quien-es-xu-jin-la-agente-china-que-resguardo-a-sheinbaum-durante-la-apec-2026/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Advierten riesgo de pérdida de autonomía en universidades; seis instituciones reforman elección de rectores",
+        "url": "https://www.eluniversal.com.mx/nacion/advierten-riesgo-de-perdida-de-autonomia-en-universidades-seis-instituciones-reforman-eleccion-de-rectores/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Claudia Sheinbaum se viraliza en redes sociales de China; captan a taxista escuchando su discurso",
+        "url": "https://www.eluniversal.com.mx/nacion/claudia-sheinbaum-se-viraliza-en-redes-sociales-de-china-captan-a-taxista-escuchando-su-discurso/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "EL PAÍS: Una intensa semana en China consolida al México de Sheinbaum en la escena internacional",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOVBRNXNpdmE4VnpQd0JzMUk5VVY3VjBacWhaX0ExTEF1Szd2Ni0tNzIyV2MzWlVmLWRXUTNRcFdJRVA1Tjh5QWFmQTNaZ2lfU1I5VzJRYzh6X25MUkZpaUNYeGY1bU5xUVNSVGY0MmFmTXJ4dW9YOTJQQk9ZSFFjaW13azRaaGI4MnE4MkMtcEpJaWlDb3hUbXZKMVFxZ1lRZWtyUkk5ekNDRmcxQkpQbFVhcTh6X2xBMzhYVGZ2YXNpWE96bWRKMw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Militares y civiles que desfilan este 20 de noviembre portarán brazalete tricolor, distintivo de los leales revolucionarios al Ejecutivo",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOOUlPVUJqWFNJRktacDV3NDR2eGZTM1BOUDJ6QXF1amlSekxXS25UdHQ0czQ0VmdGbHVfc1dTMWRDajdNVTJuMHpkYlRPVS1KTGtVd0hXTUw1T25CbnRsOVd4TnFGRlRWWUhYSC1FMnBwXzJfc3ZnWXhfX3pPQWRKdUctTC05R0xBNkJyREk3N1p0Z3V3Y2xfdGwwcWp6LTFFSHpmMmxUTEFvdVBoZjlmVnMxTkFyeWlUSjFXeEM0N1Z4WGZpcUJjRnFjTS10eDNfQ3EwdEVHN01GellQMGhYZk9RT0dJRzNMaDNwbVZKZzBtd2VqZERReWxwSlJ6bWN1S2J5Y3pDXzdlWW05My1mdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum se lanza contra la oposición durante desfile por la Revolución",
+        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQdGJDYVp0dzZKZG1DcXZjVUpKR2NMMEk2V1FrbXBfNXJkYm4yMzBwQ3kxWlIwQ2VGSmRORzVHczk1VVU3MFU4LUJic2xNT2JVNE16Q2N5ckR4MjZURHZYVHp4clkza0Q1MzF6Y1RCbVF5LUtzVE54LVozQ2k2UndlNWotZ3lSZk53b0VTa19WbXZ0a2dHVW52cURILVMwaHBDUnIzWWpZNkY4OGlHTlllalo4Mk5OMUJ3TW9VdW1LWko4VUxYY2NEY0JBbXFoeFhzNDZwUUtEbVR3VzhsalVYOVljejR1NzlRMExaa2JOeTYtU0J1eFh1WUxpNW5DLTN3RkxJY2dsTEluNU91SEJpQ1dtWjl2d2VSZzBpUVpTQlPSAbQCQVVfeXFMT0gyWjduN1BBNmZoWGdiUkZkNHJsTFV1SzUtODd3blJIRjY5M0RNajVLYmRUNGJSYjMtYzZMSVZISjRjbkZuMHY0ZHpaWjJiaUZxN0N3LWs2U2ExNzhJcHVLamxQZE56X2FKM1BxLVRMUU9KNlE3OU11LWRVQkpCOVlKVmpuMUtRY0c3ODdjcTd6a2VsT0FLbmJ2VmFBR0l5dXdrWjRKdzFTNU13cXdnbW5iaVVjdjNoWlhnZFlTZDBBbmpaeHV1dlFUSkh6R0E4VzZMcnI3US1NSzVNbzEtLXhYYXZYZVlBQmo3bGhLQUdHaWZYRHhTMHY5WmU0VV95LVlzRjUwV0xtcGdleUVvYi1oX0lUek5jOWE5VC1HbGtEbWhuZXBpR1Q0QjJsN3dHN2ppTEw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Tras agresiones, deja Rojo de la Vega comparecencia",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMWFlQ0Mtb1gwUmlKcUI2Tm5tQWE5ZXIyRVUwTDZwOGNuZks1VmFRZDZsRWNSQkZiWi1EbDNxaWFVV0tSUWVsRkNmaHE3YU80bmtDTnNxbS1HQ2doaTVJdG5QbkhlLVB4TGpyOXBiNUd5SzRFZlc0WkFXSUdzY2ZhaC1nQ1dqb1d6Rzl0aQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: ¿Qué provocó la caída de Telcel HOY? Servicios no funcionan por ‘degradación en la red’",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSnA5Wm1WY3dnNGN1MzRJbm10VWRjNjBhMFFoU0o0OFJQY3ZRUXgzc0xsZG1OQk9Ma0dUSXpxR2dfRV9xTjRzd3gxaUlLOEVEUXJaNGE5M2lXdVduNlRsUkNHcUc4V054NnNZUGowYlFnc3ZWbHNwa3c4cGI4MjZSSS1QaGpRbDlkTnFWclNyVzFrWS0wdHpEdi13NW12YnpqUW9OekpxRWFNMF9zRUsyMGhWZmduVDk1YzZ5X3ZXX21pZw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: Detienen en la CDMX a Lili Campos, exalcaldesa de Playa del Carmen",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUDdPRkd6RkhNZmxCS3QyWHZqU3VUd0pGTVdqeGJIZnRnZnExbTRTRUlra3pkQzM0TW1YSlNwSlhOa3YzeWl4dTBVbkFxa2VEUkRnd1dpZXlwSDZYRDJxenVmcmxwWUZtSXJyMkhhVXR5d1RQQThjUFVSWGZXZEJjV2E3T2EyUUp6V3pxVm9hY0gwUmxsM1ZHNVdSU2dfWFR4bHZkcXRMUVd1bm0yb24xa9IBtgFBVV95cUxOX0w2RlpzUkZnMXBJRGlydlhQVk1sSFdyTVNyeGRGZHUzUjFaV09fOHVwSXF6SEVEU0p2REg1N1BqR1owQmFaMlBUc2g2ZGdkd3lXSVVmNlZrVkV0ejVMZFB1XzJ3WUdxOHVkbFRuemtNeHhjSDdLaThLM3pZNnBMSHdxVFQ3OEw1c0YxdzZULTV2YWJoTmxhVzh0V01NYlI4LVlNODNUaUdVMjVpTGEwWm8tVlptQQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Detienen en exclusivo complejo de Cancún a Francisco Gerardo ‘N’, ligado al tráfico de drogas y armas a EU",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTnlYN0VIdkxONWRObkdnUlliNmc0WDRrTlNZSFVOSVQ5cXc5eENSaEltNGM3bHFnNHJwYUg2TkZzVnRod3g2TmU5ZDNJUWpibXVPOXlkOW5wRXE2NDF1VlB1RVhpNjg3UHNoREZwaWdPTTNEckFpcXhMV3lCNzdwSFE0d19ERWJJRG11bDI2VHJacnlVX21LOFB5TTNieHhpNnBzSEZTNzFfeEJBcHFIc1E0c0tVU0prVlZiY0EtWW52dWxPYUFoYXk4WnEyc19oRVM4eEFfVEU4Tm90Tm16eVFTVW43QQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Trump, sobre su reunión con Sheinbaum: “Le dije: ‘Claudia, no les permitiremos tener un superávit comercial”",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM1JvblN1UFYwTkFHa18zX1hLNll4aFQxallpVXVqTnNtdWY0VzJsMU42Z0FHVTJ5VHE3cjMwejV3Ny1pQk5MN0xFanktWE5Sd2V6R0E4Vm9YaTRPY1QzRUhJZjhWUHQ0YWE0MmJWbVNWZDVtQW80QUpWTWJWZ0lEbzA4cTBNQjFjTHdvLXJ1ZTFncDhoSzBYQURIWDU5Vzh3U3J6dTNmTmd1QUZ3ZFNKZHUwTnNBUXNfOUNuZGhxYkRKV2VBaHdkT1FKVzZ0OWtzaFRQTGhwTXpwSjDSAe8BQVVfeXFMTnRVblRiUzNvd0xqanAtb3FhVW5RSU5JQW50SE11S1NpVHdWbW5NY1hOSjdrdmxPamp5TVdEcDRZN1F0NnRRTml1LTdXR1plaktOZ09QVzFVUDVMVnNId013RU5SZlNVSTUzWEFBZ1J2cG1NcnVZWmxIWm5vaDg3UWFBTHgySGxZRHdFSmVKWFRQYUJzWUQzMEdsdmtWMnZWV3NBa3BycE5Ja3pCcGEyR0JLVi11WUhaX3ctY25ORTdxUk9CQjFqNWF6WklIWEw2blhfNmRpXzV6cmlfcEhWLWRYcmJGN0lKaEV1QnRwM3M?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=fSrlRdYvPpg"
+  },
+  {
     "id": 1795201205379,
     "fecha": "2026-11-20",
     "categoria": "Tecnología",
