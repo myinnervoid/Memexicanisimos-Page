@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795284006692,
+    "fecha": "2026-11-21",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Fiscalía capitalina sostiene que carpeta contra Vadhir Derbez acredita violación; actor alega extorsión",
+    "descripcion": "La Fiscalía General de Justicia de la CDMX afirmó que el expediente contra Vadhir Derbez contiene elementos para acreditar violación y lo acusó de revictimizar a la denunciante. El actor niega las imputaciones, denuncia extorsión y su defensa impugnará la determinación. En paralelo, el Corona Capital 2026 arrancó con Gorillaz y el elogio de Damon Albarn a Claudia Sheinbaum.",
+    "narracion": "La Fiscalía General de Justicia de la Ciudad de México (FGJCDMX) informó que la carpeta de investigación contra el actor Vadhir Derbez contiene elementos suficientes para acreditar el delito de violación, según confirmó La Chispa. La dependencia también acusó al imputado de revictimizar a la denunciante y sostuvo que no ha recibido las pruebas que su defensa presume. El actor rechazó ser un agresor sexual y afirmó que enfrenta una extorsión, de acuerdo con El Universal. Su equipo legal anunció que impugnará la determinación. El caso escaló en menos de veinticuatro horas y el conflicto judicial definirá si avanza a juicio o se desestima, con consecuencias directas para su carrera y contratos publicitarios.\n\nEl expediente, cuyo contenido no ha sido público en su totalidad, se sustenta en la valoración inicial de la fiscalía. La acusación de revictimización añade un componente procesal relevante: la dependencia capitalina cuestiona la conducta de la defensa durante las diligencias. Hasta el momento no se ha fijado fecha para la audiencia de impugnación ni se conocen los argumentos específicos que presentará el equipo legal de Derbez. La industria del espectáculo observa el caso con cautela, pues un proceso penal de este tipo puede afectar la contratación de talento en campañas comerciales y producciones audiovisuales.\n\nEn paralelo, el Corona Capital 2026 arrancó en el Autódromo Hermanos Rodríguez con Gorillaz como cabeza de cartel, según El Universal. Durante su presentación, Damon Albarn elogió a la presidenta Claudia Sheinbaum y destacó el espíritu revolucionario de México. El festival reúne a decenas de miles de asistentes y activa la economía de la zona. La organización del evento no se pronunció sobre el caso Derbez, pero el contraste entre ambos hechos ilustra la diversidad de frentes que atiende la industria cultural: uno legal y otro comercial.\n\nLa FGJCDMX no ha detallado si solicitará medidas cautelares adicionales. La defensa del actor insiste en que las pruebas que ofrece no han sido valoradas. El desenlace dependerá de la revisión judicial de la carpeta y de la capacidad de ambas partes para sostener sus versiones ante un juez. Mientras tanto, el caso permanece bajo escrutinio público y mediático, con implicaciones que trascienden la esfera individual y tocan la credibilidad de los procesos penales en delitos sexuales.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Estas son las bandas que encabezan el Corona Capital 2026; horarios y qué puedes llevar al festival",
+        "url": "https://www.eluniversal.com.mx/espectaculos/estas-son-las-bandas-que-encabezan-el-corona-capital-2026-horarios-y-que-puedes-llevar-al-festival/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Muere Larry Poindexter, actor de 'Friends' y 'CSI', tras ser atropellado en Los Ángeles",
+        "url": "https://www.quien.com/espectaculos/2026/11/20/muere-larry-poindexter-actor-de-friends-y-csi-tras-ser-atropellado-en-los-angeles",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Bruno Mars despide a su papá Peter Hernandez con emotivo mensaje: “Fue el mejor padre del mundo”",
+        "url": "https://www.quien.com/espectaculos/2026/11/20/bruno-mars-despide-a-su-papa-peter-hernandez-con-emotivo-mensaje-fue-el-mejor-padre-del-mundo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Will Smith enfrenta demanda por presunta agresión sexual: su excolaborador revela detalles de la acusación",
+        "url": "https://www.quien.com/espectaculos/2026/11/18/will-smith-enfrenta-demanda-por-presunta-agresion-sexual-su-excolaborador-revela-detalles-de-la-acusacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Fiscalía afirma que carpeta contra Vadhir N acredita violación",
+        "url": "https://lachispa.mx/fiscalia-afirma-que-carpeta-contra-vadhir-n-acredita-violacion/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Vadhir Derbez niega ser un agresor sexual",
+        "url": "https://www.eluniversal.com.mx/espectaculos/vadhir-derbez-niega-ser-un-agresor-sexual/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: María Rojo se vuelca a la política familiar",
+        "url": "https://www.eluniversal.com.mx/espectaculos/maria-rojo-se-vuelca-a-la-politica-familiar/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Damon Albarn elogia a Claudia Sheinbaum durante su presentación en Corona Capital; halaga \"espíritu revolucionario\" de México",
+        "url": "https://www.eluniversal.com.mx/espectaculos/damon-albarn-elogia-a-claudia-sheinbaum-durante-su-presentacion-en-corona-capital-elogia-espiritu-revolucionario-de-mexico/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Mandy causa furor en GTA 6: ¿quién es Lexie Shoaibi, la actriz detrás del personaje que intenta seducir a Jason?",
+        "url": "https://www.eluniversal.com.mx/espectaculos/lexie-shoaibi-interpreta-a-mandy-en-gta-vi-esto-se-sabe-de-la-actriz-y-modelo/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Miley Cyrus se prepararía para casarse este fin de semana; la cantante habría rechazado proyectos por su boda",
+        "url": "https://www.eluniversal.com.mx/espectaculos/miley-cyrus-se-prepararia-para-casarse-esta-semana-la-cantante-habria-rechazado-proyectos-por-su-boda/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Cineasta mexicano retira su corto de festival en Múnich en protesta por película proisraelí; denuncia ataques",
+        "url": "https://www.eluniversal.com.mx/espectaculos/cineasta-mexicano-retira-su-corto-de-festival-en-munich-en-protesta-por-pelicula-proisraeli-denuncia-ataques/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Muere Roberto Ruy, actor de \"Rubí\" y \"Clase 406\"; participó en varias telenovelas mexicanas",
+        "url": "https://www.eluniversal.com.mx/espectaculos/muere-roberto-ruy-actor-de-rubi-y-clase-406-participo-en-varias-telenovelas-mexicanas/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Macaulay Culkin podría regresar como Kevin McCallister; Disney prepara una secuela de \"Mi pobre angelito\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/macaulay-culkin-podria-regresar-como-kevin-mccallister-disney-prepara-una-secuela-de-mi-pobre-angelito/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Estrenos de cine para este fin de semana: vuelve \"Los juegos del hambre\" y llega una aventura por el mundo prehispánico",
+        "url": "https://www.eluniversal.com.mx/espectaculos/estrenos-de-cine-para-este-fin-de-semana-vuelve-los-juegos-del-hambre-y-llega-una-aventura-por-el-mundo-prehispanico/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Sopitas.com: En fotos y videos: Lo mejor del Corona Capital 2026 – Día 1, viernes 20",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR2MtSHZwOUpYVVRXUmpaM3E3NDNaQ00tX0pDWkFoejgyaElObVFSYkFIZEZEWVV2OXlxU1FTY3h1UmNnT3M1Xy1FOGpYRGZoVlp5eTVWTjFGX05WNVZUZFdTM1Ffd05JMU5LRGYzMlV4R1B0UXcyell6blpHLUN5QmpSUl8yd014V1ZNbTFR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: Abogados confirman nueva denuncia contra Vadhir Derbez por presunta “violación” a menor: se revelan supuestos detalles",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONDc5dElSTWhoejdZREhtVWRNNTNEZmxRUjlZMXUxSHBoR09KYTlZT3ViT1hjamwtTGZpNnhkb3FMaGtBbm9faFJsU2RETERiekowZVM2bTloTUJ0cmJZLVB6Mkt1OHZJRUk3czY3OFJibXoxWHJkTDJQeW9ocEp1ZnI0MWxCRi02ZUs2cXFKRjZsRVMtYUFObmFvYXg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: \"La Puerta del Paraíso\", de Lorenzo Ghiberti, llega al Museo Soumaya: mide 6 metros y pesa más de 8 toneladas",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb2xWSGRaRThoOEhxR0pENjlLd0RyY2RnVXdLLU9tSGNqczdNYy14Tmk4VnRQSndXX0ZEdWFXMTdUSjZWMWhjVHVzX3dEdmxKMUx3VVJuY3ItR1g5MWM2ampoMXVwclNybXYwc0NFRDFNbkdqRldDQkpXUFhLYnU0SUtrSmg2UHR4cTVUS216ZlZXa3NwRm4ydTczLTM3NUd1WDdkRWFSMUw1X0RfdENyLVVvYkFOQ2FKaWFZMW83MUpuc2RwUDFOY09teHZCZkxW?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "MILENIO: Muere querido actor mexicano de las telenovelas 'Rubí' y 'Clase 406'",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWWExemUwcEJYTWhWaFQyUHdjYWx3bHJESXZyd1J5Nmd6RkRCUXVYVm9PanN3X1BwVGNuenNGX1RYTUNXWUpSTGxod0J5bVZNaW1lYkR2RnJ1d0U3bUlvX2lDOXlyOF9VV2d6RVVnY2JubjNvaE1PcUhwcF82RU5oSmFrQXFyMEl3akRNUllZOFBsMW11RU9n0gGXAUFVX3lxTE9fMlpGV0RHVEtHcDJ3eGJwX3cxTk40VzBIcnhFNGQ1alltSWJIYndSTVpiWkYwY2hfTUFDaEtJRElXam1OXzlrcjNBZmxFMDZMem1rTFd2RjM5V28xSWZzTC0wZ2xzQVlWMm5ZSkVMMmI5VS1WeFBMN3F6aDZ6aGxFOXZnLVVaZldzSjFjTTdjeHdEYnF1bWs?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "DW.com: Pierce Brosnan envía un mensaje a Robert Pattinson tras asumir el papel de James Bond",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa2EtNVpBQTRLcmpjbXpyT3Q5LU9URGxielpFcHZxN3QyV3V1LU00bkpPemRZV3pKUlVHeGQ0aWVtdHdUZEJZbS1rbGUya2psbjRzODN4MjY1YmcyWTBNRnZpSndrSDF1SkNqbElFUUdacG9jQUxkU0s4WTRVbnRyM2MzQ3FheThtNTR0emQzanEyX2ZIWklmMkZYWDZhUDhJV1BYbHlxTWk0Q2tudl9DMdIBsAFBVV95cUxNSW9VeXdnc2l2eGxGc3lwRUVSYjFLTXJIT1dyem1HYy1hdUVBWG1uRzVZRUpXQXFEenp1c196QTktLUtqVElQczlRYjBfWDJDaFRXaDFNNC16MENTNTByR1BteXh1XzR5bUZJZ055Z1REV3hSYTg3WTkxc1cyUUc0d0ZpdHp1eUZtZHk4aWxuVExONkxtaDVIaEt1RWh0T3NrR1p1UUpablhnRDU2WEk4Sg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: ESOS EX PRESIDENTES DEL INE Fisgón",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01aVF4ZlZzZFNhSmdFeWEzTWFHa1hlaUZFdU1aVjdNcDlxX0FtMFJ0TWdwUzhGZlkxTUwtWDRvYzBXX2I3ME1Eb29HWURPLUhBUUZDX2tVY19kWWtJ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Cultura",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ac1lLREdHVFVPczZ6LTgyVjVyOEpyc1NBWDFlbk5LNnhxS056QXpDbU5lVGdKRWVxVGYwSVVrcDVfSFIzVEVWQ0dLV0JodXpWQXgxYVZMSk4?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Mía Rubín revela por qué terminó su relación con Tarik Othón, tras más de 3 años juntos",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE1KeGNnYXRKM3NpYlV6SmFxNTEyX0FfR0M2d282dTRTR1ZJVnFNQ3RGYlRDT2w0ZFlrU2ZzOUFqUVZVVG5nSUtkOGVLMmltejRJcDktWmRNMlVVWWdTU0s4bDdLN0ZsMzQyNllEV1JTSVo3cDlqTzBFWkx3aXpkYUF0UzhtNmtYanBZVGFFOFVkZDhCU3UwYlJmRWNSVDh4bS1ZQkwyNHoyMXM?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=5Q1HnKamx5A"
+  },
+  {
     "id": 1795222808905,
     "fecha": "2026-11-20",
     "categoria": "Noticias México",
