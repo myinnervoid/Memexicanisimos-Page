@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795370404701,
+    "fecha": "2026-11-22",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Pattinson firma como James Bond y Raphael cancela por salud: contratos y reembolsos",
+    "descripcion": "Robert Pattinson confirma su elección como nuevo 007 con un contrato de tres películas y 200 millones de dólares iniciales, mientras Raphael activa el protocolo de reembolso tras cancelar su concierto en La Coruña por prescripción médica.",
+    "narracion": "La industria del entretenimiento vivió una jornada de contrastes entre la maquinaria contractual de una franquicia global y la fragilidad logística de una gira. Robert Pattinson confirmó en Londres su elección como el nuevo James Bond, según la reacción recogida por Quién (VF4). El actor británico, de 39 años, asumirá el papel que Daniel Craig dejó tras cinco filmes y mil millones de dólares en taquilla. La productora Eon Productions y Amazon MGM Studios apuestan por rejuvenecer la saga con una audiencia menor de 35 años: el contrato contempla tres películas y una inversión inicial de 200 millones de dólares, con estreno previsto en 2026 bajo la dirección de un cineasta aún no confirmado. La noticia, adelantada por la cápsula audiovisual de Memexicanísimos, coloca a Pattinson en el centro de un relevo generacional que exige equilibrar el legado británico con las nuevas exigencias del mercado global. En paralelo, Raphael fue dado de alta tras una indisposición que obligó a cancelar su concierto en La Coruña, España, según El Universal (VF6). El cantante de 78 años lamentó los hechos y confirmó que su estado de salud no le permitía actuar: \"mi estado de salud no me permitía\". La cancelación activó el protocolo de reembolso para diez mil asistentes y una penalización contractual para el promotor, lo que evidencia las tensiones entre seguros, derechos de transmisión y obligaciones legales que enfrenta el espectáculo en vivo. Para la industria cultural en México, ambos casos son espejo: la franquicia británica redefine el star system con contratos de largo aliento y fuerte inversión, mientras que la cancelación de Raphael recuerda la necesidad de cláusulas de fuerza mayor y coberturas médicas en los recintos. La crónica de farándula de Memexicanísimos examina estos hechos desde sus causas contractuales y sus consecuencias reales para el público y los trabajadores de la cultura.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Vadhir Derbez niega ser un agresor sexual",
+        "url": "https://www.eluniversal.com.mx/espectaculos/vadhir-derbez-niega-ser-un-agresor-sexual/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: María Rojo se vuelca a la política familiar",
+        "url": "https://www.eluniversal.com.mx/espectaculos/maria-rojo-se-vuelca-a-la-politica-familiar/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Damon Albarn elogia a Claudia Sheinbaum durante su presentación en Corona Capital; halaga \"espíritu revolucionario\" de México",
+        "url": "https://www.eluniversal.com.mx/espectaculos/damon-albarn-elogia-a-claudia-sheinbaum-durante-su-presentacion-en-corona-capital-elogia-espiritu-revolucionario-de-mexico/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Robert Pattinson reacciona por primera vez a su elección como el nuevo James Bond",
+        "url": "https://www.quien.com/espectaculos/2026/11/22/robert-pattinson-reacciona-por-primera-vez-a-su-eleccion-como-el-nuevo-james-bond",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Fans de Twenty One Pilots despiden a la banda",
+        "url": "https://lachispa.mx/fans-de-twenty-one-pilots-despiden-a-la-banda/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Raphael ya fue dado de alta; el cantante lamenta la cancelación de su concierto: \"mi estado de salud no me permitía\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/raphael-ya-fue-dado-de-alta-el-cantante-lamenta-la-cancelacion-de-su-concierto-mi-estado-de-salud-no-me-permitia/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Ana de la Reguera revela los sacrificios de hacer cine: “El actor sí vive de sus ahorros”",
+        "url": "https://www.eluniversal.com.mx/espectaculos/ana-de-la-reguera-revela-los-sacrificios-de-hacer-cine-el-actor-si-vive-de-sus-ahorros/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Festival de Cine de Barrio le aplica un corte inesperado al CCC",
+        "url": "https://www.eluniversal.com.mx/espectaculos/festival-de-cine-de-barrio-le-aplica-un-corte-inesperado-al-ccc/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: \"No se nos ocurre un lugar mejor que la CDMX para hacerlo\"; Twenty One Pilots se despide de los escenarios en el Corona Capital",
+        "url": "https://www.eluniversal.com.mx/espectaculos/no-se-nos-ocurre-un-lugar-mejor-que-la-cdmx-para-hacerlo-twenty-one-pilots-se-despide-de-los-escenarios-en-el-corona-capital/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Miley Cyrus y Maxx Morando ya son marido y mujer; celebran su boda junto a familiares y amigos cercanos",
+        "url": "https://www.eluniversal.com.mx/espectaculos/miley-cyrus-y-maxx-morando-ya-son-marido-y-mujer-celebran-su-boda-junto-a-familiares-y-amigos-cercanos/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Raphael cancela concierto en España por problemas de salud; lo trasladan en ambulancia al hospital",
+        "url": "https://www.eluniversal.com.mx/espectaculos/raphael-cancela-concierto-en-espana-por-problemas-de-salud-lo-trasladan-en-ambulancia-al-hospital/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Jennifer Lopez presenta \"The JLo Show: Live in Las Vegas\" en Los Ángeles; luce diseño de Dolce & Gabbana en el estreno",
+        "url": "https://www.eluniversal.com.mx/espectaculos/jennifer-lopez-celebra-el-estreno-de-the-jlo-show-live-in-las-vegas-en-los-angeles-asi-fue-su-paso-por-la-alfombra-roja/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Dolly Parton rompe récord después de su muerte; \"Jolene\" supera los mil millones de reproducciones en Spotify",
+        "url": "https://www.eluniversal.com.mx/espectaculos/dolly-parton-rompe-record-despues-de-su-muerte-jolene-supera-los-mil-millones-de-reproducciones-en-spotify/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Miley Cyrus podría celebrar su boda en Palm Springs; reportan que ya tuvo lugar el ensayo de la ceremonia",
+        "url": "https://www.eluniversal.com.mx/espectaculos/miley-cyrus-celebraria-su-boda-en-palm-springs-reportan-que-ya-tuvo-lugar-el-ensayo-de-la-ceremonia/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Jornada: Raphael suspende su actuación en La Coruña minutos antes de salir al escenario",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZzNRbFBUUlYzZkNROENyRXRVaTN6anVJTjFpQWdsNy1fakZDdzJzQkV2SFRfdlgzell5eEJMNWdrc1JScGVGbmdjem9XSFBXWko2UndJTEZyWGJTemdxakktVlpzX1VHV3NKMkJmcjVSSkF4QUFMRWpTUXpJSG1pa0dUQ2Y0OW5qckEzZzVMWVlmZG96X25aLThBdVlKQmt3bGpXUDFSMUhvVTY4MUFpYVROdGY4dlM3VHdJcmlNWVQxM3NlTVVIajdMQlJCOVZZU3c?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: Fans de Twenty One Pilots despiden a la banda en el Corona Capital",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa2g4OVcxU2lRcWdPaC1ySWZqbUpxdm03a1k1Ui1TdG9HUl9odmE1ZU5RN3hxeHh0ei1wUjNfOVRwMGxIcDVFZFN2cUtwSGctZmxiX1RQc1gtbXVJQjJBbmJCY3p5c04wTVJRUDBFWmRvZjNYd2tiMVRtZ0RzM2lFMG9kTGs1SnBGVV9YNW53OTZTb082TTE4MGI4NW11V2VkZklONzFnVjBPUDJrVk5qSmlaUHhkZw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Tiempo La Noticia Digital: Robert Pattinson será el nuevo James Bond",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQTgwdEZ1d0hpUUp5UVpzUEQtTHRNQWhWbzJYeHI0N1ViOHVvTUQ5R0Nqand1dWtrbmM0SUcyNVJyWnNFQjJXQVYyZ2I3MjU3MVVYQkE0UWxMU0ZsMHdpd2pPMk5RVGRwdlNlTjEwZUkwNGc5XzFQYnVlNEVyVGhSVlBEX2t3M2JqVVlxdnZvSXFnTk1SWVYtLW55VzJYVXRxQndrbVd3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: La princesa de Gales, Kate Middleton, habla abiertamente sobre cómo el cáncer cambió su vida en un documental de la BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50dWhCdENMVXVsU3ZfSk02X1F0SkVNeG45NzBwMXEwNVZ0dnB0cXdfT1JGN2dNRXpPSmlWSmNnel9XbjA1dEMyNWV0eXpPQUhBa2ItSm1obktuV2JO0gFiQVVfeXFMTzFaTEcyZGNSNFk2SkFHeHRuUDZoUjBVNVdSM3F5dDdlNThhY1NQSUNtWWJSVnRaVjhaNzB4Q2xlVnhTYXRxYXFEaG44Tm5iM0xDUGhyWjk2dW1vNUxuc09oRmc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "MILENIO: ¿Cómo lucía María Vargas antes de participar en Miss Universo? Así fue el cambio físico de la mexicana",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN2NsNjVxbTJ6SkhkOHYtdktfZ3lKc3BLUVpUcmdNbXdkZENLMGdra1U4SWc0TWJnemJpRE1tdmlfR3VoY19UcUlmcnA3bG1aYUMyLXRrZXhzeGdId0c5TW5aODNyN1pvUTBnb3ZsdU1WWFZlMmQ3T3ZpWU5HRVRvTjRsczgtQ0pheEVTd9IBjAFBVV95cUxOd3ZzdU1oaWhOUjNxTDRLX3NnTjlFbS1pUVBsaldHemlPN3NEeHdKdHdQNGltMkg1MUdvSjRhZkFlcG9YMDVaX1RaUlZUU0s4M3RJNjZBU05TNGpCdUZNbFpkWjhGbXVGbTBKQVJPMElnUlBNdGcyTnJ5anBqUkdPU1VMbUgtUUc2eUN6Sg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Univision: Periodista responde señalamientos de Vadhir Derbez y asegura que sus abogados intentaron sobornarlo",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZThnQUZZWldwUDFKUTBSUjNCZ3FtaHBnMi1CYUhzSFJTSUNDaXUzVnNTUkhNcTNSS1dPN1lKeWxjY1QwaWpwaW9IT2ltakROcU1ZN2hWYWliZ003dE1Ha0hWdF9DZlc5SEE4cU1yQ3VjQ3dLRGNPeDQweU9VRk5YNGs3Q3hMdlpjOFlWdFBmQV96S1VqSHZJ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Cultura",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoWlI1Nm1mangxRTE1Y3Q0VDRUQWQybWZ6V09HZFlDTUZSX3JwUXFCWGJXZUFudkZlZ05QZFVPVGs1N1h1M3RndnlFQ3A5N2V4SmF0RHVUdWk?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: \"La Puerta del Paraíso\", de Lorenzo Ghiberti, llega al Museo Soumaya: mide 6 metros y pesa más de 8 toneladas",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb2xWSGRaRThoOEhxR0pENjlLd0RyY2RnVXdLLU9tSGNqczdNYy14Tmk4VnRQSndXX0ZEdWFXMTdUSjZWMWhjVHVzX3dEdmxKMUx3VVJuY3ItR1g5MWM2ampoMXVwclNybXYwc0NFRDFNbkdqRldDQkpXUFhLYnU0SUtrSmg2UHR4cTVUS216ZlZXa3NwRm4ydTczLTM3NUd1WDdkRWFSMUw1X0RfdENyLVVvYkFOQ2FKaWFZMW83MUpuc2RwUDFOY09teHZCZkxW?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=LLcZsQWwQTs"
+  },
+  {
     "id": 1795284006692,
     "fecha": "2026-11-21",
     "categoria": "Farándula",
