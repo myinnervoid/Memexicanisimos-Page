@@ -6,10 +6,11 @@
   <title>Memexicanisimos — Humor, Noticias Populares &amp; Software Soberano</title>
   <meta name="description" content="Portal oficial de Memexicanisimos y Estudio Memexicanisimos. Noticias populares 'Memexicanisimos News', herramientas locales de código abierto (Rótulos Web, Aetheria, MASV, Files) y comunidad mexicana nacida en 2012.">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; frame-src 'self' https://www.facebook.com https://web.facebook.com;">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600&amp;family=Space+Grotesk:wght@500;600;700;800&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600;700;800&amp;family=Oswald:wght@600;700&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="style.css?v=20261117-wada">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Memexicanisimos — Humor, Noticias Populares &amp; Software Soberano">
@@ -111,35 +112,35 @@
   <!-- CONTENEDOR PRINCIPAL: NAVEGACIÓN Y TABS REGIONALES -->
   <main id="main-content" class="main-layout">
     <div role="tablist" aria-label="Navegación regional y productos" class="tabs-container">
-      <button role="tab" aria-selected="true" aria-controls="noticias-news" data-target="noticias-news" tabindex="0" class="tab-button active" aria-label="📰 Noticias &amp; Humor Memexicanisimos News">
+      <button id="tab-noticias-news" role="tab" aria-selected="true" aria-controls="noticias-news" data-target="noticias-news" tabindex="0" class="tab-button active" aria-label="📰 Noticias &amp; Humor Memexicanisimos News">
         <span class="tab-icon">📰</span>
         <div class="tab-info">
           <span class="tab-title">Noticias &amp; Humor</span>
           <span class="tab-desc">Memexicanisimos News</span>
         </div>
       </button>
-      <button role="tab" aria-selected="false" aria-controls="perfiles" data-target="perfiles" tabindex="-1" class="tab-button" aria-label="⚙️ Suite de Apps 4 Herramientas .io">
+      <button id="tab-perfiles" role="tab" aria-selected="false" aria-controls="perfiles" data-target="perfiles" tabindex="-1" class="tab-button" aria-label="⚙️ Suite de Apps 5 Herramientas Web">
         <span class="tab-icon">⚙️</span>
         <div class="tab-info">
           <span class="tab-title">Suite de Apps</span>
-          <span class="tab-desc">4 Herramientas .io</span>
+          <span class="tab-desc">5 Herramientas Web</span>
         </div>
       </button>
-      <button role="tab" aria-selected="false" aria-controls="redes-sociales" data-target="redes-sociales" tabindex="-1" class="tab-button" aria-label="📱 Redes &amp; Live FB 28k, X, TikTok">
+      <button id="tab-redes-sociales" role="tab" aria-selected="false" aria-controls="redes-sociales" data-target="redes-sociales" tabindex="-1" class="tab-button" aria-label="📱 Redes &amp; Live FB 28k, X, TikTok">
         <span class="tab-icon">📱</span>
         <div class="tab-info">
           <span class="tab-title">Redes &amp; Live</span>
           <span class="tab-desc">FB 28k, X, TikTok</span>
         </div>
       </button>
-      <button role="tab" aria-selected="false" aria-controls="nosotros-apoyo" data-target="nosotros-apoyo" tabindex="-1" class="tab-button" aria-label="🌮 Nosotros &amp; Apoyo Historia &amp; Tacos">
+      <button id="tab-nosotros-apoyo" role="tab" aria-selected="false" aria-controls="nosotros-apoyo" data-target="nosotros-apoyo" tabindex="-1" class="tab-button" aria-label="🌮 Nosotros &amp; Apoyo Historia &amp; Tacos">
         <span class="tab-icon">🌮</span>
         <div class="tab-info">
           <span class="tab-title">Nosotros &amp; Apoyo</span>
           <span class="tab-desc">Historia &amp; Tacos</span>
         </div>
       </button>
-      <button role="tab" aria-selected="false" aria-controls="creador-contacto" data-target="creador-contacto" tabindex="-1" class="tab-button" aria-label="🤠 Creador &amp; Contacto Eduardo F. (Cancún)">
+      <button id="tab-creador-contacto" role="tab" aria-selected="false" aria-controls="creador-contacto" data-target="creador-contacto" tabindex="-1" class="tab-button" aria-label="🤠 Creador &amp; Contacto Eduardo F. (Cancún)">
         <span class="tab-icon">🤠</span>
         <div class="tab-info">
           <span class="tab-title">Creador &amp; Contacto</span>
@@ -775,8 +776,7 @@
   </footer>
 
   <!-- Scripts de la plataforma -->
-  <script src="blog/data/notas-data.js"></script>
-  <script src="assets/data/publicaciones-data.js"></script>
-  <script src="app.js"></script>
+  <script src="blog/data/notas-data.js" defer></script>
+  <script src="app.js" defer></script>
 </body>
 </html>
