@@ -1,5 +1,331 @@
 [
   {
+    "id": 1795405114201,
+    "fecha": "2026-11-22",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Sheinbaum en APEC, reforma de género y el alto costo de la captura en Sinaloa",
+    "descripcion": "La presidenta Claudia Sheinbaum cierra su gira por China con la cumbre APEC; el Senado aprueba reformas contra la violencia de género; y expertos advierten que la captura del Chapo Isidro no desmantela al Cártel de Guasave.",
+    "narracion": "La presidenta Claudia Sheinbaum concluyó su participación en la cumbre de Cooperación Económica Asia-Pacífico (APEC) en China, donde sostuvo reuniones bilaterales con líderes de las 21 economías del foro. Según la Secretaría de Economía, el comercio entre México y los países de APEC superó los 130 mil millones de dólares en 2024. La mandataria también compartió un video practicando Chi Kung, disciplina que adoptó por sus beneficios para la salud. La oposición criticó el costo del viaje y la falta de resultados concretos, mientras el gobierno defendió la presencia como estratégica para diversificar mercados y atraer inversión. En el Senado, se aprobaron por unanimidad reformas para ampliar el reconocimiento de la violencia docente y proteger los datos personales de las víctimas. De acuerdo con el INEGI, el 65 por ciento de las mujeres estudiantes ha sufrido algún tipo de violencia en el ámbito escolar. Las reformas obligan a las autoridades educativas a implementar protocolos de atención y establecen sanciones para docentes que incurran en estas conductas. Organizaciones civiles celebraron la medida, pero exigieron presupuesto para su implementación. En materia de seguridad, la captura de Fausto Isidro Meza Flores, el Chapo Isidro, dejó un saldo de siete agresores y cuatro militares muertos. El secretario de Seguridad, Omar García Harfuch, lamentó el deceso de los soldados. Expertos consultados por EL UNIVERSAL coincidieron en que la detención no desmantela al Cártel de Guasave, que cuenta con al menos 300 integrantes activos según la Secretaría de la Defensa Nacional. Los especialistas advirtieron que se requiere un operativo enjambre para desmantelar las células restantes y que la violencia en la región podría recrudecerse. La Comisión de Asuntos de la Frontera Norte del Senado alista una reunión con legisladores de Estados Unidos para abordar la agenda fronteriza, incluyendo comercio, migración y seguridad. Según la Secretaría de Relaciones Exteriores, el comercio bilateral superó los 800 mil millones de dólares en 2024. El encuentro busca fortalecer la cooperación aduanal y revisar el T-MEC. Finalmente, el gremio periodístico despidió a Humberto Padgett, reconocido reportero de investigación. Ciro Gómez Leyva destacó su legado en redes sociales. Padgett falleció tras una enfermedad. La Secretaría de Gobernación lamentó su muerte y reconoció su contribución al periodismo. Según el Mecanismo de Protección para Personas Defensoras de Derechos Humanos y Periodistas, en 2024 se registraron 120 agresiones contra comunicadores, lo que evidencia los riesgos para la prensa en México.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Captura del \"Chapo Isidro\", un operativo \"exitoso con alto costo\", coinciden expertos; \"es momento de un operativo enjambre\": Saucedo",
+        "url": "https://www.eluniversal.com.mx/nacion/captura-del-chapo-isidro-un-operativo-exitoso-pero-con-alto-costo-dicen-expertos-preven-que-trump-siga-presionando-a-mexico/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Mueren 7 agresores y 4 militares durante captura de \"Chapo Isidro\" en Sinaloa; Harfuch lamenta deceso de soldados",
+        "url": "https://www.eluniversal.com.mx/nacion/mueren-7-agresores-y-4-militares-durante-captura-de-chapo-isidro-en-sinaloa-harfuch-lamenta-deceso-de-soldados/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: De Guasave a la Guerrero, así transcurren las primeras horas de detención del \"Chapo Isidro\"; militares resguardan la FEMDO",
+        "url": "https://www.eluniversal.com.mx/nacion/de-guasave-a-la-guerrero-asi-transcurren-las-primeras-horas-de-detencion-del-chapo-isidro-militares-resguardan-la-femdo/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum: Becas son entregadas por el pueblo, no por la Presidenta; atribuye inseguridad a abandono a la educación",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-becas-son-entregadas-por-el-pueblo-no-por-la-presidenta-atribuye-inseguridad-a-abandono-a-la-educacion/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Despiden a Humberto Padgett tras su muerte; Ciro Gómez Leyva destaca su legado periodístico",
+        "url": "https://www.eluniversal.com.mx/nacion/despiden-a-humberto-padgett-tras-su-muerte-ciro-gomez-leyva-destaca-su-legado-periodistico/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Senado aprueba reformas contra la violencia de género; amplían reconocimiento de violencia docente",
+        "url": "https://www.eluniversal.com.mx/nacion/senado-aprueba-reformas-contra-la-violencia-de-genero-amplian-reconocimiento-de-violencia-docente/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum practica Chi Kung en China durante gira por APEC; comparte video de su clase",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-practica-chi-kung-en-china-durante-gira-por-apec-comparte-video-de-su-clase/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Alistan en el Senado reunión con legisladores de EU; abordarán agenda fronteriza",
+        "url": "https://www.eluniversal.com.mx/nacion/alistan-en-el-senado-reunion-con-legisladores-de-eu-abordaran-agenda-fronteriza/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: PAN exige no aplazar renovación de presidencia del INE; pide a la Cámara de Diputados emitir convocatoria",
+        "url": "https://www.eluniversal.com.mx/nacion/pan-exige-no-aplazar-renovacion-de-presidencia-del-ine-pide-a-la-camara-de-diputados-emitir-convocatoria/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Iglesia pide al gobierno proteger libertad religiosa; “nadie tiene que esconder su amor a Dios”, expresa",
+        "url": "https://www.eluniversal.com.mx/nacion/iglesia-pide-al-gobierno-proteger-libertad-religiosa-nadie-tiene-que-esconder-su-amor-a-dios-expresa/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Identifican a sucesores en el Cártel de los Beltrán Leyva",
+        "url": "https://www.eluniversal.com.mx/nacion/identifican-a-sucesores-en-el-cartel-de-los-beltran-leyva/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Concluye reunión Interparlamentaria México-Cuba; Higinio Martínez reitera rechazo al bloqueo económico",
+        "url": "https://www.eluniversal.com.mx/nacion/concluye-reunion-interparlamentaria-mexico-cuba-higinio-martinez-reitera-rechazo-al-bloqueo-economico/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Editorial: Vivienda: mercado excluyente",
+        "url": "https://www.jornada.com.mx/2026/11/22/opinion/002a1edi?partner=rss",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: En la gestión de Córdova, compra de materiales a sobreprecio: ex contralor",
+        "url": "https://www.jornada.com.mx/2026/11/22/politica/008n1pol?partner=rss",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Retornan a Veracruz cuerpos de soldados caídos en operativo para detener al 'Chapo Isidro' en Guasave, Sinaloa",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNR2hyTFVXc0kyTHBHc3FERnU4UTQtc25qSTRGRjRfQmx0TkhocmhQSGFiNzhfQVJXWVlWNVBMcm8xbkd3RVVYVFB6ZHU4dmNrQXNwc0NJX293TTdUaXYzYWRGbTUzU3EzaGZya3J3anJVRk1Yb0hTS0tVbkN0enRkZXd1QTZzWmtLMmNOTmxiZXN0YlY4TWxWNUNrZkRXd3ZiMktqYm56cVRqVUNUN3M1N1RIM09hcG5TcG1tNzF4UEhKTWlOYzAwSGdxckFSamwyYzFMOVhoWlhwekp3cFVSelBSZ2dCUHA5NDcwOTFoRzJqRUk?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Muere el periodista Humberto Padgett tras un año de lucha contra el cáncer de lengua",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWWo4UWFybmxYZjNEZHFfbnBfMWc2TGgwVFN0dFU3ZklueFlDczNmZVJqN0NDSFpsX3Z0Y2NtdEtsMjk2SUxJTnI5X1hSZFl2U18yVXhKeURmbWlVWVhtbm5VSHhCUVFMUE5pc1Q1MThUX1lrMG8zVEE0UFBSeGFLMDdzUWh6NGVDY1ZMYnpueVprTzZOajFMQVQ5T1BaUFVqZ2tGY3RJOTJNSkY1U2VmT01CNWFFMDJmUW8xTS13a3l6NThHZUxRSTFOQ1hEYWh4bDVF?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum practica Chi Kung en China durante gira por APEC; comparte video de su clase",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTjNiZjZ4ZnRFX3pFVUxtYk9XUEI0dnpfU0VVNnBOajBRdVIzUERNTjd5MG83ZWtwRjJzTVJUaUN5cU5zRzlXZDRzWTdkQ2RQYzhkd3lRYzNPZ2ZPeWl6bDdGcmtsWDE3UFh6aWtDQ3JJUGxFM0EtYmVaenlidF9BaW0tVVd0WkRnMndQZ19pRGdTR2wyNVJxdHhPbG5paGdEdU1fSEJQMjJHRXNoNDN5Qkl6SmlHLXhMLTd6Z1p2ZzBOZw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: Omar García Harfuch y los rumores sobre su renuncia: qué dijo y por qué se habla de su salida",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUXdSNmdDRjYxZmJkTE81TWZtSWpJdnhnQ190VFBoX0JrZ3dyNzNGU2lVMnhNay1BY1lVY1lKVDNvZmdQTy1KMWgyenRFek1Uak9Od0NYY0hNMDBOd0xfNk5sNXlQR3RndmllTVdaNmdVenRJSng2b2RrT2hOdU1IN01wMm9rN1duS1dHTzNvLXlYRDVlVjVSV1k1T1hVQkNYc0lueHZrbGhWWENwR2VVTFFRdGQ0T0prTXYySFlSdmVQRExJdm5hRC1WRURCNjA30gHrAUFVX3lxTE80RkZqT29GZmNXVlJhZkZwSW5DMGZjemwyWDVmRU4yRm83OExQTWZMWXZGWXJJVDMzUWV2QmFEWmxLSWZVbXF3VzVHd0lDUjQzN05lc0VrdWgwQzRQUk5BTE1fWkF1dU8tQ0tSRG1DTGRnTGFBU2RHdzNRZjhGRWNvbWZhd0VReGd1VXdBLTE0YUp3Q3RQX1Q3Qy1ibmNoMWFvaVpiWjRhd2dPbU5UQXNiQnFxVEpoeVQwdXRBd2FPYWdCNG1taDBscVB6cDJrYndJc0JnM3BuenVQTmo5UTJDMUN3elpCaEJGcU0?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "UnoTV: Sube a 21 cifra de muertos tras captura del “Chapo\" Isidro en Sinaloa; reportan saqueos y más militares heridos",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRDN5ZzA5anVrS2NTS1h1YWZRVXlBSFNEM0xtaDdBb0NObWlLLUhQTHZFa1J2WC0xNERpUFZRZnhwSXlVWHFFOTVOS3RFc3J4YU0tU1BYbDRDdU5PdXVkQ2pjbkFsMG5pN3hYc0VQSjZJOUpGN2JLVzk0alZFSVcwNHdlVVNWMnQzSXBub1NNbE1kX3JEdHBKemVB?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "vanguardia.com.mx: Se pronostica Frente Frío 8 con lluvias muy fuertes a chubascos en Tamaulipas, NL y Coahuila; temperaturas de hasta -10 °C",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNHh2ekRuWnU1NUxQcTVWNDlvQmZQUFVOWnpCMDBfVVdQNkdwZXphZ3dfcGVLYlFmamk5LVRiaFAyNm1iZGNMY0ZYTDRucXBfWVZHX2VXMi1HV3pvYXhsdWlrbzE3M3ZZcnNuU21td29obGpkNWFsQkt6VUhEMUJYamxxRmY5SDk2dTZDT3Y3UVhrdXdwTHlmaXdRalVPM2ZVSHB0VnNFdUNnOEhHcW9uRjRPR2V6WFNiMHcwLWZLam9raDJQbUQ1bFpYZ1lSQXE3RXA1VmYzMFQzVk9CZTQzaHVCOFk5YWx4S2RGVlpuLTJRYjF0ajY0VEZ5bw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Golpe a mercado negro de relojes de lujo en CDMX: Detienen a banda dedicada al robo en Coyoacán y Tlalpan",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMDZWMVBORGd1NTQ1Nkczb2s3azUwQ0JMVm9QOVdmMGNFOHJDQTBJemdBUF9ONXVxSzFncEVxcTVMZU4tcE9vUTJiU180UXk3RmVzNWhLQnFwZFdnUktjaGcyU0dLNzBDV28wcUFaTzItcElPbE9zaUlZdHdBbmdzTGJRM3JaYWI2QjFOeEh5WmVDUWlzemRLbnY5blJxVmxlQ09RSlFNeHZoUDc4T1hsTE1uSm5NT0FLaEE4VEl3TnZSeGc0RHpSVWNxOHM0aG5LS212c1BMbzZYbkFjd0tvTDFkMi1Ma2s3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Informador: Tapatíos se movilizan en nueva manifestación por el agua en Guadalajara | VIDEOS",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOX1hLcmN5dGlVRHo4UE1iSVl4RW96TF95cmh1VVFXTlF0UEJielF6QUJNWGdLSlNaN3I2aFVZR1d1aUZBOWRXOFY0eVl3OHBGUEJjUlRLLV93TEFVWjdRYkhHNVFOWHNjVzdxSlFVMF9Gdnd0ZDFHTTBqNEtEUUhwWS13SzQ4SDdjQUZZckZCb0pPRWZoMW96UGI3UExGNHBUV3dESnQ2TmZZeTE0bWJHVFJfb19pSy0xNldLdnZNNHRieUpFMjVXaElCdE1jWGltQVRVaTBYdFhtZ0NKTEdZTUk2VUtzNW9uNHFvY3FDeGUtRkU?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1795405095893,
+    "fecha": "2026-11-22",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Dragon Quest XI S en Switch 2: catálogo de lanzamiento y modelo de negocio",
+    "descripcion": "Square Enix confirma Dragon Quest XI S Definitive Edition para Nintendo Switch 2 con mejoras técnicas y contenido adicional, mientras Nintendo busca consolidar su catálogo third party en el primer año de la consola.",
+    "narracion": "Square Enix ha confirmado el lanzamiento de Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition para Nintendo Switch 2, un movimiento estratégico que busca consolidar el catálogo de la nueva consola en su primer año. La versión incluye mejoras técnicas sustanciales: resolución de 1800p en modo dock y 1080p en portátil, tasa de 60 cuadros por segundo y tiempos de carga reducidos a la mitad gracias al almacenamiento SSD de la consola. Además, integra todo el contenido descargable y la banda sonora orquestada, que en la versión original de Switch requería compra adicional. Square Enix no ha revelado el precio de lanzamiento, pero fuentes del sector apuntan a 60 euros, alineado con los relanzamientos de la generación actual. Este anuncio se suma a la estrategia de Nintendo por atraer estudios third party a su plataforma, tras confirmar acuerdos con Capcom y Bandai Namco para los próximos doce meses. La compañía busca repetir el éxito de Switch original, que vendió más de 130 millones de unidades, y para ello necesita un catálogo robusto desde el día uno. El lanzamiento de Dragon Quest XI S en Switch 2 representa un paso firme en esa dirección, aunque queda por ver si el público masivo responde con la misma fuerza que en 2017.\n\nEl contexto de esta decisión se enmarca en la transición generacional hacia Switch 2, donde Nintendo enfrenta el desafío de mantener el ritmo de ventas de su predecesora. La inclusión de un título de la talla de Dragon Quest XI S, originalmente lanzado en 2017 para PlayStation 4 y Nintendo 3DS, y luego portado a Switch en 2019, refuerza la percepción de que Switch 2 contará con un soporte third party más sólido desde el inicio. La versión Definitive Edition ya había sido lanzada en otras plataformas con mejoras similares, pero su llegada a Switch 2 con estas especificaciones técnicas supone un salto cualitativo respecto a la versión de Switch original, que corría a 900p en dock y 720p en portátil, con 30 fps y tiempos de carga más largos. La reducción de los tiempos de carga a la mitad es posible gracias al SSD de Switch 2, una característica que Nintendo ha destacado como clave para la experiencia de juego.\n\nPara los jugadores en México y Latinoamérica, este anuncio implica una mayor disponibilidad de títulos de rol japonés en la nueva plataforma, aunque el precio de 60 euros podría traducirse en un costo elevado debido a los impuestos y tipos de cambio locales. La región ha mostrado un creciente interés por los juegos de Square Enix, y la inclusión de la banda sonora orquestada y todos los DLC en la versión base podría ser un incentivo para quienes no adquirieron la versión original de Switch. Sin embargo, la falta de un precio oficial en pesos mexicanos deja incertidumbre sobre el costo final. Además, la estrategia de Nintendo de atraer third parties podría traducirse en más lanzamientos simultáneos y menos exclusividades temporales, beneficiando a los consumidores latinoamericanos que suelen recibir los juegos con retraso o precios más altos.\n\nEl impacto en la industria es claro: Nintendo necesita demostrar que Switch 2 no repetirá los problemas de escasez de lanzamiento de otras consolas, y un catálogo fuerte desde el día uno es fundamental. La confirmación de acuerdos con Capcom y Bandai Namco sugiere que la compañía está dispuesta a invertir en relaciones con terceros, algo que en el pasado fue una debilidad de sus plataformas. Queda por ver si el público masivo responde con la misma fuerza que en 2017, cuando Switch sorprendió con ventas récord. Por ahora, Dragon Quest XI S en Switch 2 es una señal positiva para los jugadores que buscan una consola híbrida con soporte continuo.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos: Tráiler de lanzamiento de Well Dweller",
+        "url": "https://www.3djuegos.com/48814f60602/video/trailer-lanzamiento-well-dweller/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: DRAGON QUEST XI S Echoes of an Elusive Age - Definitive Editionï½œTráiler de lanzamiento en Nintendo Switch 2",
+        "url": "https://www.3djuegos.com/48803f60600/video/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-editionitrailer-lanzamiento-nintendo-switch-2/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de anuncio y lanzamiento de Dimraeth",
+        "url": "https://www.3djuegos.com/48788f60596/video/trailer-anuncio-lanzamiento-dimraeth/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de presentación del remake de Profesor Layton y la Villa Misteriosa Remake",
+        "url": "https://www.3djuegos.com/48777f60589/video/trailer-presentacion-remake-profesor-layton-villa-misteriosa/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: XBOX necesitaba buenas noticias sobre sus ventas y acaba de recibir una en su mercado más importante",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckd3UzA3eE9nQjAwaGFraVU0MHdNT1NYTmFxOXRBZlhmU0lkaVMzaUtHXzdhbzI2ZlY4R0hFcWUyZE56SkpDQVVNbHV1bk52ay0wMmpNVVktbHZGQmJrcmlGb2tXMTN1dTNxdzRma1d4Mk1mNGdUUkJVVjVPWjExM3JTQ2F5QXJNYWJDZzRhUTF2QVBNbFB1Z243a1poV1hSbmczVTRCSmxXamJhUnB0dHk2N3R5Wmh6ODNxQlI0Wm5PLVJtSmfSAcsBQVVfeXFMT1ZPSkFjdDVqeV9OUmR3R01SM3FHUTJsYlJWUkpFc3IwdDgzaVFaVHloQjZiN3hoS1VmUWxHdy1GOW8yVkEzX0E1UnZMZHZWY00tRGJ4X3gwN0lZVDRpSG5MZ1hqeFR5a0JnQ1RZVnQyaktPdWNLVTY2QWlWYUJmTEJKRmZlcjlGN3RFWmFuaDNReGk4MmluWkw2MGRqRldUdnlUWkJwZkRmM25jUmdLUWhVQ0xWM0FvaHhVeDdGQnVHR1JueEk1dGpCZFk?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: Luz y sombra en XBOX: Gears of War: E-Day es un éxito, mientras Call of Duty: Modern Warfare 4 no alcanzó una meta muy importante",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZkdUSXRLWFYzcVNhTE9ibENwNG5UR0huR3RERnJsQ1RRRW9UUzdKMzBjSFN1MS1qZFBXV2poM2RBTER4MkJtcDJaNkZfSmlfMFlzYWp6Smc0c2pnUkhOUkxoMzJOLU1nMEt0S1BnS3NQNzlmLVotaVIybzU4X1ktNHBMTUE4SzY0NXFEczZHMnZnVk55Mm5Yc2h5SmFsMEJNNjI5b2ZmM2VDeG1RUzhXdHJPYUprU2huWk5EVmJrN2k1cVhObGp4Qmc3eG1CMGQ3RV9NTExQWGtnamJkajZadmlDWEEzTUxObEJsNDBNdGo?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Mundo: Lo de los videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU2ZWS0U1N1JBY1UzcXFpdk94VFNBb1Nrc0F5aGpYZkxFd05DZnJqQ0tnT3VJTjlTSEVzS0xLMUpjc094VFJ5RUFxZTA5elZTVWpNUXpDOGZKaF9xSDFubktydUlrZmZpUi0tTFgyMjAxbjhpT2oxUmFPNVJwZVRQM0h4ONIBgwFBVV95cUxNLTBvVW9EUlpFS0hUdXFhTmlKRERlMllGcUZfcW01SjFwampqMEd6WDRIelJKSktuWjNYbXZSclFmNTlLcEU0Rzc2YTZXS19YdWsyajZzZlo5b1BvUFRDNkF2RGs2Vm03eXRvXzhtREhpSzZLRkZISDVoRERXUEZTZDllOA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Hobbyconsolas: GTA 6 alcanza los 60 FPS en Xbox Series X por un error del sistema Quick Resume, pero también duplica la velocidad",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTU41b0puS2FWRkc5eHlhUGcxRFNRNkVfeUJtMUZuNFo5bDhMUGlxZkhGWVI0US1FWjIzT0hZeHMyR3huSzNNbTJXaXVmMFRhYWZZWjY2WkFqa1hLeklUSHJYVGlUczNUYUpGdU5odU1OaEp1NDZiY24tSzNIN2xiM040U3FYY3B1T2RUSU5SRkVuQ0h4SUFqU3BQS1V0WXZQV1ZZRDBBcTRLb0FUd3B3cFNoRlpCeEFrZVZBY1FoenhjZldGY2l5ZWhza0F1eVVPSWRVaDFoT3VjRF9qSzUxbVZHSDhXZVFyZGpVU0JsMFYzZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: Inscríbete para recibir notificaciones y tener la oportunidad de comprar en Nintendo Store estos productos.",
+        "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxNRDUtRkswcTJLRktkQjdIdzhSVWVqU3lRVlBudlZyTmdhMlFTZmhJZ0JwZk1LVmFnV3FCY0dzejBGdXZHcmtxbkVQV0J1TWNXbmhZY05lakZNM1BvbnNQSjNsSVdpRjdWcWhLeWZZRFJMQm4xbC1FRWIxc3lPSHdfOTBzMTBKVjRSQ3V5alFHWm1YbjFtOVlYSlNuNE5HdFdhamFWTmtjQTZ4Ny1kUDlsZ29seW02bmFDQW9Ddl9Ca2hZckR5ZnU3NzJ3ZnZZM19hbkZWR0xjelFhLUNLMTlmV3J2QWc3VllhUXg0Zm50UGNmN0xIR1FrRU5SLTVsNkJ5dHUwb1VtaVhaLXJqd0JIUWMxLTlEX0w3S0NTaFp5d3h5REQ5Q01KVHBFZE1XZnExUzR4X1I4dzc1c2R6dHYwdnNKYlNSM1Z3LW9Jb1h6YWpOWklwV0RmSTFnUUtTTHMzaWh5TDgyVC1iYlVhTFB6LWxrMG0xc0tsVjRQaUxzX3BZcWFrZGF3ejRLYWpNaGRaLUV6LUtoMW9YN3YyWUVTNXJR?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Desarrollador de Naughty Dog: \"Llevo 19 años creando videojuegos y GTA 6 me parece lo mismo que le parecería un Bugatti Veyron a un niño victoriano\"",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPb3VaN2ZFSWZndVgyU2EyajBkaE0wckxsNFh4WEZfVVhLRjBlSjBvLVRkZERIQkpuQlFsLUpXbGppWFpkTmpKcEtWbDdRNTVHVU5Zc2RtUjdIVlBpdkNvaDladklRbnV2UFRRUHBKOUVvNzNxYTNMZW5ud3d5TmdJSjRNUmlVNEtmLThKN2pHVjBITVJ4Wm9ZdzVLdzU5a1VUclJLMHJUYnp2VjJmYkNNbGJIX1R3dDVpbzlEb0dMclE3SUhsd1dUUzR2UE15ZW1VTnFfYUJEU3BTQWZqVU1QX3NoU1ZEX3J5ZHc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Ecosistema Startup: GTA VI: 50 millones de consolas y 9 GW de demanda",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaG1IOGxKd3R5ZmtuYVdvLTFlS3F1NVg4VDBNVExrakZ3RXB0S2swbWpPQlZ3RldMM09hMkYwa1hTbnY5X1BuUFVsQl9VbzhLMFdwdmIyTS0ySno2YXlmalVZLXdld2pMQzFUTmd3dVY4RjlaS3JkV3dFN2dQX1FRMnVEbk9kdw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "EL PAÍS: Un clic para ser adulto: así llegan los menores a 3.930 videojuegos pornográficos",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMnJKZEZUQ05LdjBOUnN4b296WnNFbll6d1RuRFFXLXVId1FGOS14SmZ3aV9LekNRLTBiVWQ0dWlSM0Z5Mkt6RG1uNG5fZV95dVdUc0R5eVZKbU5uWmgxWWcwcV9XRWZKYVA0MFhHSGlFdVhqSGtwMG4wTGpPWlY0b1dRMURLNy1xTWh6Wmt3RktwbER3dVZyRjdPbEVMcGttc2FPbGp3YWg0dFhjNXV3LW9vZzVQQVY4MHNZeXphc0hHUTjSAdcBQVVfeXFMUFJwYUtXNzhWc3lsVVA1LWdwWlAyNTV5blhSVHBCLW52LWJQaDl5aUM5R3pveEd0c3M5QXQ4Ym42Y3pFQUVVaC1EZEhKSjRud044NGVTVGNMbENkbzdiUnlBck1IbHlyOGJfRHVLOG5zZ2tUeEpfMFI1a0tmdWNCbmVGMDI3UFlHMlpCclMzelJGWE45ZnJCeE1pMldSUEZhMXE1R3JkSmxlMDczT3QwYnFQc2I2TVFZMkN0VkRKdFk1SkhFYXMyUkQ5ZWVleW5rVHNja2dZNHc?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1795405078059,
+    "fecha": "2026-11-22",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "IPN desarrolla sopa instantánea plant-based con maíz, frijol y chipilín",
+    "descripcion": "Cinco estudiantes del IPN crearon MILPA'MÍ, una sopa instantánea saludable y sustentable con ingredientes chiapanecos, que ganó el concurso Diseño de prototipos Plant-Based. El proyecto busca recuperar el valor de la milpa y ofrece una alternativa a los ultraprocesados.",
+    "narracion": "En un contexto donde la soberanía alimentaria y la innovación tecnológica convergen, cinco estudiantes del Instituto Politécnico Nacional (IPN) desarrollaron MILPA'MÍ, una sopa instantánea plant-based elaborada con maíz, frijol y chipilín, ingredientes tradicionales de Chiapas. El prototipo obtuvo el primer lugar en el concurso Diseño de prototipos Plant-Based, organizado por la propia institución, que evaluó criterios de innovación, viabilidad y aporte nutricional. La fórmula busca recuperar el valor de la milpa chiapaneca sin renunciar a la practicidad de una sopa de vaso, posicionándose como una alternativa saludable y sustentable frente a los alimentos ultraprocesados. El premio incluye apoyo para el desarrollo del producto y vinculación con posibles inversionistas, lo que podría facilitar su escalamiento comercial.\n\nEl proyecto se suma a otros esfuerzos del IPN por fomentar la innovación tecnológica con impacto social. En paralelo, la industria tecnológica sigue avanzando: Samsung presentó novedades de One UI 9.5 para sus Galaxy, con bloqueo nativo de aplicaciones, mejoras en cámara y registro emocional. Estas actualizaciones buscan reforzar la privacidad y la experiencia de usuario. Mientras tanto, el mercado de accesorios también se mueve: Amazon México ofrece la batería portátil Anker Zolo de 20,000 mAh y 30 W con más del 50% de descuento, quedando en 487 pesos. Estos hechos muestran la diversidad de innovaciones que impactan la vida cotidiana.\n\nEl desarrollo de MILPA'MÍ no solo representa un logro académico, sino una respuesta concreta a problemáticas nacionales: la dependencia de alimentos ultraprocesados y la pérdida de cultivos tradicionales. Según datos de la Secretaría de Agricultura, México importa cerca del 30% del maíz que consume, a pesar de ser centro de origen del grano. La propuesta del IPN, al utilizar insumos locales como el chipilín, una planta nativa de Chiapas, fomenta la cadena de valor regional y reduce la huella de carbono asociada al transporte de ingredientes. Además, el enfoque plant-based atiende la creciente demanda de alimentos de origen vegetal, un mercado que en México creció un 12% en 2024, según la Asociación Nacional de Alimentos Vegetales.\n\nEl concurso Diseño de prototipos Plant-Based evaluó aspectos técnicos como la formulación nutricional, la viabilidad de producción a escala y el impacto ambiental. MILPA'MÍ destacó por su equilibrio entre tradición e innovación, al integrar procesos de deshidratación que preservan las propiedades de los ingredientes. El apoyo del IPN para vincular el proyecto con inversionistas es crucial para transitar del prototipo a la comercialización, un paso donde muchos desarrollos académicos fracasan. La institución ha impulsado otros proyectos similares, como el desarrollo de bioplásticos a partir de residuos agroindustriales, lo que demuestra un ecosistema de innovación con enfoque social.\n\nEn el ámbito digital, las actualizaciones de One UI 9.5 de Samsung incorporan bloqueo de aplicaciones mediante reconocimiento facial y un registro emocional que utiliza inteligencia artificial para analizar patrones de uso. Estas funciones plantean debates sobre privacidad y almacenamiento de datos biométricos, regulados en México por la Ley Federal de Protección de Datos Personales. Por otro lado, la oferta de la batería Anker Zolo refleja la competencia en el mercado de accesorios, donde la autonomía energética se vuelve crítica para usuarios móviles. Estos lanzamientos, aunque dispares, coinciden en su objetivo de mejorar la experiencia cotidiana mediante tecnología accesible.\n\nLa convergencia de estos hechos evidencia que la innovación tecnológica no se limita a dispositivos electrónicos, sino que abarca soluciones alimentarias con base científica. El IPN, con MILPA'MÍ, demuestra que la academia puede generar propiedad intelectual y modelos de negocio sostenibles, contribuyendo a la soberanía alimentaria y al desarrollo económico local. El reto será escalar la producción sin perder la esencia artesanal y garantizar precios competitivos frente a las marcas transnacionales de sopas instantáneas, que dominan el mercado mexicano con márgenes ajustados. La vinculación con inversionistas y el apoyo institucional serán determinantes para que este prototipo se convierta en un producto comercial viable.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Amazon tiene a mitad de precio la batería portátil que tu celular necesita: Anker Zolo power bank de 30W",
+        "url": "https://www.xataka.com.mx/seleccion/amazon-tiene-a-mitad-precio-bateria-portatil-que-tu-celular-necesita-anker-zolo-power-bank-30w",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Daniel Amen, psiquiatra: \"Dormir menos de siete horas provoca problemas de memoria\"",
+        "url": "https://www.xataka.com.mx/medicina-y-salud/daniel-amen-psiquiatra-dormir-siete-horas-provoca-problemas-memoria",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Hoy en streaming: la serie de ciencia ficción con viajes en el tiempo que después de 60 años aún sorprende a los fans",
+        "url": "https://www.xataka.com.mx/cine-y-tv/hoy-streaming-serie-ciencia-ficcion-viajes-tiempo-que-despues-60-anos-sorprende-a-fans",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Bodega Aurrera está rematando el celular bueno, bonito y barato de Xiaomi: POCO M7 de 256 GB",
+        "url": "https://www.xataka.com.mx/seleccion/bodega-aurrera-esta-rematando-celular-bueno-bonito-barato-xiaomi-poco-m7-256-gb",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Estudiantes del IPN hicieron su propia “Maruchan”: lleva maíz, frijol y chipilín",
+        "url": "https://www.xataka.com.mx/otros-1/estudiantes-ipn-hicieron-su-propia-maruchan-lleva-maiz-frijol-chipilin",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Hoy en Prime Video: la película de ciencia ficción basada en un libro de 1922, avalada por el legendario director David Fincher",
+        "url": "https://www.xataka.com.mx/cine-y-tv/hoy-prime-video-pelicula-ciencia-ficcion-basada-libro-1922-avalada-legendario-director-david-fincher-1",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: El método de Arnold Schwarzenegger para mantenerse fuerte a sus 79 años: \"Puede aplicarse fácilmente a casi cualquier programa\"",
+        "url": "https://www.xataka.com.mx/medicina-y-salud/metodo-arnold-schwarzenegger-para-mantenerse-fuerte-a-sus-79-anos-puede-aplicarse-facilmente-a-casi-cualquier-programa",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Novedades de One UI 9.5 para Samsung Galaxy: bloqueo de apps, cámara mejorada y registro emocional",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/novedades-one-ui-9-5-para-samsung-galaxy-bloqueo-apps-camara-mejorada-registro-emocional",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Los mexicanos están volviendo al transporte público, pero hay ciudades donde los pasajeros siguen desapareciendo",
+        "url": "https://www.xataka.com.mx/otros-1/mexicanos-estan-volviendo-al-transporte-publico-hay-ciudades-donde-pasajeros-siguen-desapareciendo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tras 233 días por fin llegó a HBO Max una de las adaptaciones de videojuegos más esperadas: tiene 87% de aprobación",
+        "url": "https://www.xataka.com.mx/cine-y-tv/233-dias-fin-llego-a-hbo-max-adaptaciones-videojuegos-esperadas-tiene-87-aprobacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Esta obra maestra de Clint Eastwood se estrenó hace 20 años y es considerada una de las películas bélicas más realistas de la historia",
+        "url": "https://www.xataka.com.mx/cine-y-tv/esta-obra-maestra-clint-eastwood-se-estreno-hace-20-anos-considerada-peliculas-belicas-realistas-historia",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Netflix se despide de más de 80 series originales en 2027. Una de sus mayores bajas será una trilogía de fantasía creada por Guillermo del Toro",
+        "url": "https://www.xataka.com.mx/cine-y-tv/netflix-se-despide-80-series-originales-2027-sus-mayores-bajas-sera-trilogia-fantasia-creada-guillermo-toro",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: El auto más vendido del mundo ahora tiene versión pick-up con la nueva Toyota Corolla Deck híbrida que rivaliza directamente con la Ford Maverick",
+        "url": "https://www.xataka.com.mx/automovil/auto-vendido-mundo-ahora-tiene-version-pick-up-nueva-toyota-corolla-deck-hibrida-que-rivaliza-directamente-ford-maverick",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Samsung esconde una herramienta para escuchar cualquier texto de tu celular sin instalar aplicaciones",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/samsung-esconde-herramienta-para-escuchar-cualquier-texto-tu-celular-instalar-aplicaciones",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Jornada: Fallan servicios de Telcel y AT&amp;T en CDMX, Edomex, Hidalgo y Morelos",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdHNleElwS2V1S0E3MEp3aTRZOEVwZVBJTXFCWk5JU1FjZzZCWFh5MExNUVVlWVlEZlN1ak1IajRVZFY5cmNVME9xQjhzX0k2NGRHUlNLRnJWaDJFcDV4eHRhckdkV2JZbmVnQVVQOXlkMnFDaW9NODNsQ3RoYVQwNUp1d3pYandpY0lFanNNV0tBR2ZXRTQ0Mzh5d0tZWkZjOVZENEpMMThwVFdIanRRbWJ4R3ppeEJrY3ByNDV2QVJ0QQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: \"Estamos pagando con atención\": académicas de la UNAM analizan por qué no podemos soltar el celular",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObWlIR0wzaHFwWnhzQnJ3SDdFa3E1Xzd5cGVtdTBmOWplN3BnMGVBMFg4UWUzSTFoSm5ISFlueVpIV1BrZ2p4cjZYcGItRm5LTW9PdWVyTERJMXhKS3JZZGlLdU92X1J0cUViaEFVaW1wQXBGb1BEOEZ5eFhPVzBHTjlwaHIyQ1RMWWRqVEZkdUR4cmNZR0FaSGZWbHJMM2FjaEs0QmZCamZObHhQUTZTYm5MNlpwYWpOVkUyd0N6R1dtVXVSZk9GQm5FcFZWRnhnTm1LejVPOE0wTmotQlNyUWoxNGE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Diario: Frena IA... y tiembla empleo en maquilas",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNajZTTmRkaV9IREpIaDVqMUd3bENweXpQSWJOZXd2elN1VzlXcThhRnVGQ255ZFNtU3ZMb2RIcnRIOXllT2tUSm0zU09KdzA3bndIRFNzTVZ1WDdRWjFFMVZVMEZhSWJoZzFvWnlRSFlpSFlzV2pzTU55TnNmOEszeWZRSl8wQlNHWlotaVVBMU03VTQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: NVIDIA lanza GeForce Hotfix 621.35 para corregir escrituras excesivas en los SSD que podían alcanzar 30 GB por hora",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wYW1kdm5EVm9KUUhESVk2emswWk05XzNQZlMtemxjVEFfdFN6aGdaYW1lU19kdEFRR3lYMG10RTMwV1ZaZzFKN2t2LVUwbVJDT0IwenFEaUZwbThJRmZwSVpoMWxESU1td0lzU1F0ZjcwdXAzUmlwOHBKekE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Reforma: Afirman que EU voló drones en captura de 'El Chapo Isidro'",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTWl3U1c2aHBYbmt1VEhOZTJMbmo4amlab1hFcS1tc0RHZDBrUlJpbVpINjZHTVFyTmpNMHBVTUs0UGtQakpCX1FENTB4aEZlWmZzNU9tanhLTDF3bjZOOVNseUdQX2RZQnduOF9iT0JISEZBUS1TY3Z2ZjM3eEtIdjk3SGRqS1V1VUZoVEdpdzVPaTFN?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka México: Cómo activar la carga rápida en tu Samsung Galaxy: el ajuste que suele venir desactivado",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd193QjVKYUR1ZkJsV0hjdDZNTHVnUGxXMTJtYUdvekxaZ214S0ZocnRRMjNNNk5zNHN5T2ZydXpjaG5KeVZSMjkycVNWUGh2NVY0ZGFZejJkandWc21iN0hCdHVKMF9abUlxS3VjUElEWkRfTjQxVmJfWEh3dlN1ZmlPcXJ2UmkwTWhtdWxxb0owaEtNQWdDaFFrd1IxYXJEQ3lhYWFNTUlqZTdHWTJNdGoxRDhNZGdUWHlUYlB3SVk0Zi03TzdERklB0gHPAUFVX3lxTE5mZ1hTZ2JNSFRKcUN0dWRva1dzLW1wcHdNWTN2WWY4aVNrX29LUzNiZncwWmxYT0xrYXlaTF8xMG8zVEItQzE5RWdjN0JPb2U1VHp4cFo0MlljbWtsY3MwS1gwUzE1OGJ6WFdZT0xOczNiQlYweGhwQlpWeVhZcmlmRXQwd2s1VjVsanNlMGNjQkt4ZF9kT0E4T0FvamlpTmtQVFRxTThjaHlyYmQzbzliWENSLUdPcGNERlpXcFRhaG9wRk5wdm85bzVwR0lpbw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Tiempo La Noticia Digital: Así se ven los barcos del Pacífico desde el espacio 🎦📸",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeGw1WTBjUlNnQnUtbkxiRFZTRHM5QnNDM0FjOF9taGYtU2p5TTV2RmVCRUdsblpweXBQVkRDZ0l1cldEN2JNY1RKQzd0VngzZjBFNVk3d2VKeDZhVm0yT3lSRHowNGdMV05kWjZsSE9XNzhnZHhlMWVJWnZjUC1LVjFFbjUzRmxtY3VhQnNnbjFuRHpYNmNDbU04aGxVZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: Un empleado de Anthropic afirma haber resuelto el \"Santo Grial\" de los problemas matemáticos con ayuda de la IA",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeDhhZ0pwMWJNbkR2VTZhRjZTQmllVURNTzdlR0htZVAwUW13akZUNnlwc2FaaE1PcWh5eVlEX1Z2dDlFclhHalVRNVJwek1LNkVzcm5HcjdoeFdNWEVWc29rMmV3U3lKNmh5b01tcWdxZk1LN2hua1ktcWVTRzVLMWc0cUQ5WnoyMGc?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=zAJjJpJGbrs"
+  },
+  {
     "id": 1795370404701,
     "fecha": "2026-11-22",
     "categoria": "Farándula",
