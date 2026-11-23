@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795460406240,
+    "fecha": "2026-11-23",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "IPN diseña sopa instantánea de milpa; Samsung rompe récord con monitor de 1,100 Hz",
+    "descripcion": "Estudiantes del IPN ganan concurso nacional con MILPA'MÍ, sopa instantánea de maíz, frijol y chipilín que revaloriza la milpa chiapaneca. En paralelo, Samsung presenta el monitor Odyssey G6 G60H, el primero en alcanzar 1,100 Hz, exhibido en CES 2026.",
+    "narracion": "Cinco estudiantes del Instituto Politécnico Nacional (IPN) obtuvieron el primer lugar en el concurso nacional 'Diseño de prototipos Plant-Based' con MILPA'MÍ, una sopa instantánea que sustituye los fideos tradicionales por maíz, frijol y chipilín, ingredientes endémicos de Chiapas. El desarrollo, que rescata el valor nutricional y cultural de la milpa chiapaneca, se presenta como una alternativa práctica al formato de vaso, solo requiere agua caliente y unos minutos de espera. El certamen evaluó innovación, sostenibilidad y viabilidad comercial, según informó Xataka México en su nota 'México ya tiene su propia “Maruchan”, pero en lugar de fideos lleva maíz, frijol y chipilín'.\n\nLa propuesta no es un simple ejercicio académico: responde a la creciente demanda de alimentos plant-based en México y a la necesidad de soberanía alimentaria. El maíz y el frijol son pilares de la dieta nacional, pero su consumo ha caído frente a los ultraprocesados. MILPA'MÍ busca revertir esa tendencia con un producto listo para comer que mantiene el perfil nutricional de la milpa. El equipo politécnico no reveló aún el costo de producción ni la estrategia de distribución, pero su victoria en el concurso sugiere que podría acceder a financiamiento o incubación para escalar el prototipo.\n\nEn el terreno del hardware, Samsung presentó el monitor Odyssey G6 G60H, el primero en alcanzar una tasa de refresco de 1,100 Hz. El dispositivo, exhibido en el CES 2026, está dirigido a jugadores profesionales que requieren respuesta inmediata. Xataka México detalla en su nota 'Samsung presume tener el monitor más rápido del mundo: su nuevo Odyssey G6 alcanza los 1,100 Hz' que el precio aún no se ha confirmado para el mercado mexicano. La tecnología de 1,100 Hz supone un salto frente a los monitores de 500 Hz o 360 Hz disponibles actualmente, pero también plantea desafíos: se necesita una GPU capaz de generar tantos fotogramas por segundo y un cableado de altísimo ancho de banda. Para el mercado mexicano, la llegada de este tipo de dispositivos suele ser tardía y con sobreprecio, lo que limita su acceso a nichos de esports y entusiastas con presupuesto alto.\n\nAmbos hechos, aunque distantes, reflejan la diversidad de frentes en los que la tecnología y la ciencia mexicanas buscan incidir: desde la innovación alimentaria con base científica hasta la adopción de hardware de vanguardia. Mientras el IPN apuesta por rescatar la milpa con un producto comercializable, Samsung empuja los límites de la velocidad de refresco. La diferencia es que el primero nace de una necesidad local y el segundo llega como un artículo de lujo tecnológico. El concurso plant-based y el CES 2026 son escaparates distintos, pero ambos evidencian que la innovación no es monopolio de unos cuantos: también los estudiantes mexicanos pueden competir con propuestas que combinan tradición y tecnología.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: México ya tiene su propia “Maruchan”, pero en lugar de fideos lleva maíz, frijol y chipilín",
+        "url": "https://www.xataka.com.mx/otros-1/estudiantes-ipn-hicieron-su-propia-maruchan-lleva-maiz-frijol-chipilin",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Hoy en Prime Video: la película de ciencia ficción basada en un libro de 1922, avalada por el legendario director David Fincher",
+        "url": "https://www.xataka.com.mx/cine-y-tv/hoy-prime-video-pelicula-ciencia-ficcion-basada-libro-1922-avalada-legendario-director-david-fincher-1",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Amazon tiene a mitad de precio la batería portátil que tu celular necesita: Anker Zolo power bank de 30W",
+        "url": "https://www.xataka.com.mx/seleccion/amazon-tiene-a-mitad-precio-bateria-portatil-que-tu-celular-necesita-anker-zolo-power-bank-30w",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: El método de Arnold Schwarzenegger para mantenerse fuerte a sus 79 años: \"Puede aplicarse fácilmente a casi cualquier programa\"",
+        "url": "https://www.xataka.com.mx/medicina-y-salud/metodo-arnold-schwarzenegger-para-mantenerse-fuerte-a-sus-79-anos-puede-aplicarse-facilmente-a-casi-cualquier-programa",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: En 1984, Países Bajos ideó una insólita solución de vivienda: un vecindario de pelotas de golf gigantes que todavía desafía a la arquitectura",
+        "url": "https://www.xataka.com.mx/otros-1/1984-paises-bajos-ideo-insolita-solucion-vivienda-vecindario-pelotas-golf-gigantes-que-todavia-desafia-a-arquitectura",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Una jaguar viajó 2,100 kilómetros a través de Brasil con una misión: salvar a su especie de la extinción",
+        "url": "https://www.xataka.com.mx/otros-1/jaguar-viajo-2-100-kilometros-a-traves-brasil-mision-salvar-a-su-especie-extincion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Samsung presume tener el monitor más rápido del mundo: su nuevo Odyssey G6 alcanza los 1,100 Hz",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/samsung-presume-tener-monitor-rapido-mundo-su-nuevo-odyssey-g6-alcanza-1-100-hz",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Amazon tiene a precio de remate el monitor ideal para jugar videojuegos: AOC curvo de 27 pulgadas y 200 Hz",
+        "url": "https://www.xataka.com.mx/seleccion/amazon-tiene-a-precio-remate-monitor-ideal-para-jugar-videojuegos-aoc-curvo-27-pulgadas-200-hz",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: \"No veo la hora de volver a trabajar\": Jensen Huang retoma el mando de Nvidia con poder absoluto tras once días de turbulencia",
+        "url": "https://www.xataka.com.mx/robotica-e-ia/no-veo-hora-volver-a-trabajar-jensen-huang-retoma-mando-nvidia-poder-absoluto-once-dias-turbulencia",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Frío de hasta -10°C, heladas y granizo: así estará el clima en México del 23 al 26 noviembre",
+        "url": "https://www.xataka.com.mx/ecologia-y-naturaleza/frio-10-c-heladas-granizo-asi-estara-clima-mexico-23-al-26-noviembre",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: México tiene un problema con los pasaportes electrónicos: el gobierno no consigue contratar quién lo emita",
+        "url": "https://www.xataka.com.mx/otros-1/mexico-tiene-problema-pasaportes-electronicos-gobierno-no-consigue-contratar-quien-emita",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Se va de Netflix: la película de ciencia ficción avalada por Christopher Nolan que los fans volvieron de culto",
+        "url": "https://www.xataka.com.mx/cine-y-tv/se-va-netflix-pelicula-superheroes-que-fans-volvieron-culto-tiene-15-anos-christopher-nolan-respalda",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Hace 34 años Demi Moore puso incómodo a Tom Cruise en la grabación de su única película juntos: \"creo que se sintió bastante avergonzado\"",
+        "url": "https://www.xataka.com.mx/cine-y-tv/hace-34-anos-demi-moore-puso-incomodo-a-tom-cruise-grabacion-su-unica-pelicula-juntos-creo-que-se-sintio-bastante-avergonzado",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Una de las pantallas QLED más vendidas de Motorola ya tiene precio de remate en Mercado Libre; también se puede comprar a 15 MSI",
+        "url": "https://www.xataka.com.mx/seleccion/pantallas-qled-vendidas-motorola-tiene-precio-remate-mercado-libre-tambien-se-puede-comprar-a-15-msi",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: ¡Volvió! Nvidia reinstala a Jensen Huang como CEO tras escándalo con supuesta espía china",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1RjajUwdi1pemFNakJ6a000eDZTd09XY0wxeXJLZUZFdTJKa1I3RVE5QTBZRENqXzdrUnpJQlRMSWpQNkdONDNxOGpJenZ4cTZxQUI5eUVnWlFQd0d2SWJhZFBuOW5UU1piNFp2aEp5SXBlRTVSWldzY0FnTHFHd3RtUmJhTHNxa3gyLXNqa05OdzRSWkJyR04xeWFhUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Así se despidió Humberto Padgett en un video hecho con IA: ‘La bestia del cáncer me venció’",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY3VoMHBVZFRheVFxcEJyZWpUQkM0SXNHU21NYXFBdTFyREFFTy05YXJZbldXZFF1YVpSbnRiamItdUJDZG1wQUJDeHhNVUFFcGc3Q1kzMlExdE5relZjNFZTcDRNMEtjRFVodk93T2tWRVVtNFBoMHM1STN6SmxHNV9SY2ZMNVVNaHRSczliZGNyTmJ0dVp4SmRmMERkOFpJeGJhN2NjS2FfQVQ3WVhjUDBFSmVyREIyTkV2Tmh1MlFvc3Z0OTVLSll4SHZvenNIeU1rZmQwbFA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Recelo a la IA evapora 3 billones de dólares y pega a los ultrarricos",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1NZakw0UE9wNHhLNkd1eDlfN01JV3NzZjRVMmhUcVBMN2ppbEFqNEFRMnAxcm4wQ0FBUVhGV3A2b2xmZVJzd2JHQlZzdDJDRTRiQkNKV2dmaXhHUklaQXhFNmhsbTVXcG9xVXBFTU5zZ25sZnZLX2w1eF9wYkc1ZXhQZjRtTV9iOU5sdGpMM2IwR3pmdTMwRXNxSFNFbkQxUmxRQ1VCVjRBZlZQcTlZTHlTTXdxSmhvSFdBTzlDUExTUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Zenón y Carroll en la IA - Paradojas",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNekNlcEs2dXVKdEI3OWFDM0FOUktibHFZaUppclNYQk40LTFwdEIxYlZlOXVzOUhFRDFTN3FMM2ZZenZjZ0R1cjBkb1RtSFNndzZPRllIMmJQZ2N1RF9ubHgyekREUUFlT2ZRTU1QV05QSzFrOTBvN24zX1hMZTd0SXc2X2JwRV9fSE1lZDlhUU00MG8?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Gabinete de Seguridad irá a Sinaloa; Harfuch anuncia vehículos, drones, cámaras y capacitación de seguridad",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOcFZzblpNWDhtTVJvSFNabzYyUnkxc1pNdHNQZDZobDRoQmYyTWMyVEJfdGRCbFpZWk9VOGVCTUd2R1k2YjJwN3o3VVJJb05UUkkwVWVTNGE2T1Q1NFZueTJxZzFfSDU2WGNlaWNZOERyZ3RqSGdPTFBUX1dIdlBiVTVDNC1sdGZqRlYyLWZUSzFaUnVEQ1BUMmJXbnVVRU5OSXNkVGp2ZGVlVVFoTnppbkhZeWxsaERwTkZXZ3d2SWc1LUVWNHhIRkVQdFFBRHUyQ2JtSnBBamRxT214Zk9iUlQycHNrM2ZvcU9tVFgta1FPemxXeF9xUTRFRXJsUDFLRm4tUXpoeXduZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Informador: Faltan ingenieros para sector electrónico",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQlg1R19VbWxJaVJzZ0t3MGNOUjR6WnZ6N1JEODhrYjdYT19QRU1Gcm5IQjYtV01KT2ZmZ2J4dUpuSHhjbVg1LUkzanNJVlQ1NmVMdkZrSEowOUR0NktGc29VeFVabllEZW55ZzZOWDYtR01HcnZPOFlMUU5SRmNHcnlqVk1qR3BhU1pGLXQ4UVVHODJrT2x6Q21iTGZvNHFNS0QzRmMtdw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: \"Estamos pagando con atención\": académicas de la UNAM analizan por qué no podemos soltar el celular",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObWlIR0wzaHFwWnhzQnJ3SDdFa3E1Xzd5cGVtdTBmOWplN3BnMGVBMFg4UWUzSTFoSm5ISFlueVpIV1BrZ2p4cjZYcGItRm5LTW9PdWVyTERJMXhKS3JZZGlLdU92X1J0cUViaEFVaW1wQXBGb1BEOEZ5eFhPVzBHTjlwaHIyQ1RMWWRqVEZkdUR4cmNZR0FaSGZWbHJMM2FjaEs0QmZCamZObHhQUTZTYm5MNlpwYWpOVkUyd0N6R1dtVXVSZk9GQm5FcFZWRnhnTm1LejVPOE0wTmotQlNyUWoxNGE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Fallan servicios de Telcel y AT&amp;T en CDMX, Edomex, Hidalgo y Morelos",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdHNleElwS2V1S0E3MEp3aTRZOEVwZVBJTXFCWk5JU1FjZzZCWFh5MExNUVVlWVlEZlN1ak1IajRVZFY5cmNVME9xQjhzX0k2NGRHUlNLRnJWaDJFcDV4eHRhckdkV2JZbmVnQVVQOXlkMnFDaW9NODNsQ3RoYVQwNUp1d3pYandpY0lFanNNV0tBR2ZXRTQ0Mzh5d0tZWkZjOVZENEpMMThwVFdIanRRbWJ4R3ppeEJrY3ByNDV2QVJ0QQ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=TZ164Vp3aXo"
+  },
+  {
     "id": 1795456806818,
     "fecha": "2026-11-23",
     "categoria": "Farándula",
