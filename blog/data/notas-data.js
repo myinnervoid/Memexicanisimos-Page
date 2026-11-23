@@ -122,7 +122,8 @@ window.MEMEX_NOTAS = [
         "tipo": "Prensa Nacional"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=dM5ElHF21mc"
   },
   {
     "id": 1795405095893,
