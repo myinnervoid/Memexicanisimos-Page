@@ -1,5 +1,81 @@
 [
   {
+    "id": 1795474804861,
+    "fecha": "2026-11-23",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Dragon Quest XI S en Switch 2: Square Enix apuesta por el RPG japonés en el nuevo hardware",
+    "descripcion": "Square Enix relanza Dragon Quest XI S en Nintendo Switch 2 con mejoras técnicas y todo el contenido descargable, buscando capitalizar la base instalada de más de 140 millones de consolas Switch originales y posicionar la nueva plataforma en el género de rol japonés.",
+    "narracion": "Square Enix ha confirmado el lanzamiento de Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition para Nintendo Switch 2, según el tráiler de lanzamiento difundido por 3DJuegos [VF2]. Esta versión incluye mejoras gráficas sustanciales, tiempos de carga reducidos y todo el contenido descargable previamente publicado, según la locución oficial. La franquicia Dragon Quest supera los 85 millones de unidades vendidas globalmente, y la decisión de relanzar el título en el nuevo sistema busca capitalizar la base instalada de más de 140 millones de consolas Switch originales. Analistas financieros proyectan que esta edición podría generar ingresos superiores a los 120 millones de dólares en su primer trimestre fiscal.\n\nEl movimiento responde a una estrategia clara: posicionar a Switch 2 como plataforma clave para el género de rol japonés durante su primer año de vida. Square Enix también anunció que Dimraeth, su nuevo proyecto de rol táctico, llegará a finales de este año con una propuesta de estrategia por turnos [VF3]. Además, el remake de El Profesor Layton y la Villa Misteriosa se suma al catálogo de Switch 2 con un enfoque en puzles y narrativa [VF4]. La industria observa estas decisiones como una señal de que Nintendo apuesta por la retrocompatibilidad y la continuidad de sus franquicias más rentables.\n\nEn México y Latinoamérica, el impacto se traduce en un costo elevado para los jugadores: se espera que el precio de lanzamiento ronde los 70 dólares, una cifra que, sumada a la inflación y los impuestos locales, podría superar los 1,500 pesos mexicanos. La disponibilidad de Switch 2 en la región ha sido históricamente limitada, con preventas agotadas en minutos y sobreprecios en revendedores. Este relanzamiento, aunque atractivo para los fanáticos del RPG, plantea un desafío económico para una comunidad que ya enfrenta barreras de acceso. La apuesta de Square Enix por Switch 2 refuerza la competencia con PlayStation y Xbox en el segmento de rol, pero también evidencia la dependencia de las grandes publishers hacia los lanzamientos recurrentes y las ediciones definitivas para sostener ingresos. El éxito de esta estrategia dependerá de la recepción del público y de la capacidad de Nintendo para asegurar stock suficiente en el mercado latinoamericano.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos: Tráiler de lanzamiento de Well Dweller",
+        "url": "https://www.3djuegos.com/48814f60602/video/trailer-lanzamiento-well-dweller/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: DRAGON QUEST XI S Echoes of an Elusive Age - Definitive Editionï½œTráiler de lanzamiento en Nintendo Switch 2",
+        "url": "https://www.3djuegos.com/48803f60600/video/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-editionitrailer-lanzamiento-nintendo-switch-2/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de anuncio y lanzamiento de Dimraeth",
+        "url": "https://www.3djuegos.com/48788f60596/video/trailer-anuncio-lanzamiento-dimraeth/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de presentación del remake de Profesor Layton y la Villa Misteriosa Remake",
+        "url": "https://www.3djuegos.com/48777f60589/video/trailer-presentacion-remake-profesor-layton-villa-misteriosa/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: XBOX necesitaba buenas noticias sobre sus ventas y acaba de recibir una en su mercado más importante",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckd3UzA3eE9nQjAwaGFraVU0MHdNT1NYTmFxOXRBZlhmU0lkaVMzaUtHXzdhbzI2ZlY4R0hFcWUyZE56SkpDQVVNbHV1bk52ay0wMmpNVVktbHZGQmJrcmlGb2tXMTN1dTNxdzRma1d4Mk1mNGdUUkJVVjVPWjExM3JTQ2F5QXJNYWJDZzRhUTF2QVBNbFB1Z243a1poV1hSbmczVTRCSmxXamJhUnB0dHk2N3R5Wmh6ODNxQlI0Wm5PLVJtSmfSAcsBQVVfeXFMT1ZPSkFjdDVqeV9OUmR3R01SM3FHUTJsYlJWUkpFc3IwdDgzaVFaVHloQjZiN3hoS1VmUWxHdy1GOW8yVkEzX0E1UnZMZHZWY00tRGJ4X3gwN0lZVDRpSG5MZ1hqeFR5a0JnQ1RZVnQyaktPdWNLVTY2QWlWYUJmTEJKRmZlcjlGN3RFWmFuaDNReGk4MmluWkw2MGRqRldUdnlUWkJwZkRmM25jUmdLUWhVQ0xWM0FvaHhVeDdGQnVHR1JueEk1dGpCZFk?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Ojo, porque GTA 6 ya tiene su primer parche: todo lo que cambia en la actualización de Vice City en PS5 y Xbox Series",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYllnb2RzVXJOWlQ3eGxJa0E4Wm55VV9IU0FsOTV4N2JuakNyMTRiN3dCdXpFZEVleUgwMGd2UEdJUWFvSlNyR0FGaE9XRE5xc0pUUEptMVhUckt0M2hxZEFkZzZZVk1BRlNiT3gtZDJQdjdILTZ6Tkp5dVZ4REtKRUxkLWNHVERYZEEwVUNMWm5XMlZqaDhycUxDUzZSVGNENWZZeVdhVE53eG1WSlJ1SFpCT19BS2t0N1VWWjhHVkMtXzZVeFpV?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendúo: Splatoon Crossing llega a Nintendo Store con siete productos nuevos de pulpos y calamares",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBnYmpCS2xnX2xiLXU4OTZoYWpzeUF3SU85Q040RGlZazBBU0ZGa0tiZ3c1SEc3bWlkcHFpbG8xSUR1QjZMLTRpZUZVSHkzMmFKZkl4YVo4OHBjM3YtbGowZTRpR0R1VThaZHVLT3ZpS3RQemtGUFF2ZFF5U1BOZw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: La Nintendo Store europea añade estos nuevos artículos de Splatoon como parte de Nintendo Pop-Up Store",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbFB3ekVHcDhmT1RXbkliWWtrSURtUy0zd3dqZEkxQmpXaXFWbElMaXFEM0QyM25DVHlneTFGbE5iYnNmWlRDNGFPaF84X0ZOa19PUEgtTDctU1lCYjN3WG9CVDctZFdReGxJLU1fMV8wMDZXQUhwNVBpVklfRzVNVWVOaTR2b2JLVUJTY0xKcy1QWUJOMWJNLXZtUjBPSGNjVTRtejVpaEhsSnVzM1pRdlpjcER4MFVPX0pIUXZ4NWZTM1RFUWxSR0FGY3ZrbFliSUR6ZFZn?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: Project Helix: XBOX propuso un cambio que haría temblar a PlayStation, pero Asha Sharma y Microsoft cambiaron los planes, revela fuente confiable",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQSmk2N1c4WmJyZTJWQzctZTlkR1FkaFlWZ3RqTTdnWEJpVmNla01jU0FtODdxS29qUkNQelJoTzZfLUpTdGpCSWMyUzR3NEl2Ri0yeGdodHVGYUpOczZ5dHRVS3lHVU5Pc3BCUVhMUVowR3lIMWpycnVScFhQTE1hcFpRclZHNEJzLWFBSnhIbVR4WnNBOEVxNTVPdUNwV3Vxc0hIUnRQa1JqUHl6SVNFRDcxRTE3ZGZBNV94SkRHSEI0X0pNN0NiX0dWRlVtYTlja2FUNUpfQXoza1p3cDg5MHFkLURnSk1oVWhSd0xyUTJxSF9FZHhWUmJRdzVPdXpYcTJ5NHpuUQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: Cómo cancelar la suscripción de Nintendo Switch Online sin perder el acceso hasta el último día pagado",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcTlBeE5PSjVRWFRkTGdfZm4tT044bkkzbVRCazZDWFdjR2FpWGY5UnNBMEtiSzNqLXoyRWZ3UDRFQ0lEUFJReG1pLUdyTU9Va2l3cjl4dTcydXI3ZGdEcnRsbFFMdEQyb1B6b09WU05rOFlneE9XX3otZ2Y4MzNsVWNKMzNvLUU0VHRoWkF1WEM5bzRZV1J2SHljbFFUZzF5LUtTZXJnT3ZJa2k1Mk9pRjllYjNZNFRFLUZuMlE2Z3p6NVJoZDZTcWpvdldFS203MnZ6Q2dfY0ZuTk420gH3AUFVX3lxTE9sYnJzckpZak96Wnd6NExER2pubE5NYzk4dVJ6VVp6NzFqX3I4MDBoOE9KcG9xSVpKb19RY2YtbG9zSjRUXzhlRGNNSTlacVpnMS1aSWYzQ2FXSE5fQ0hIZVg5bEZFSjFDVmdvcTBvZ2twX09hc05KVnpJREhjSWNNNHlXdTNkY2R1RXBlQjdMSjR1Y1Qxd1MyVHFjNmlYRlltWlhPTzNobl80VjN0TkNucDloay1kNDYtLTNmMjkzZm42ZGEyRXRzUVVoSTRDU3d1bHNlSXNJazFsUVBzRXpXYXBySHdRcG9nQ0VyVjRuOTlwS01HdGc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Howl.Link: Videojuegos, tecnología y audición: la importancia de reconocer los cambios auditivos después de jugar",
+        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9Oa3d2SDN5SkUxOERWQ1hSV0h4bzhkYXdaQUl6YXEyQXFDek9EZ0x2bU1sQzZaNXVkQlk0?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Diario AS: Es uno de los Zelda más oscuros, ha cumplido 20 años y todo el mundo quiere que vuelva en Nintendo Switch 2",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMVZtaG9wOHJPcmpZc0F1Vmp5b0NVZ19CNk1iRVVJbUpPU3Q2dFhXZWtDTnZWSm5CcWdfQXY4OEFtSTFVa1MzdVc5OG1QN05YdFlWUE9hRU03YU5MbjNOb0dkT0l0d0hFWE1rN3ZfWDdsekh1aUtlTm1SZjItVkV0ZlVoaG81bU9XalRLVWc2blBUX3VSblh2MmN3Z21hQ1k0MlBYS004aGNyVDBYamFhYktkOVRURFBxTDQtSXE4Mko0SW11aXpfSkl2YWxrRkJuemZldWpqQmNySDdTMUlzWndfLXFsNHhG0gH8AUFVX3lxTE1mR1lQaWRsNnNzUUVfTjVwb3BEWW5Iem53bDl5ZVZLcV9VYXdhMkFEak1PbWVvVm5UOS1iZ09ZRnh0YjlsYlkzZXpVSXZFMEZiSWx3RjJpQ3U5UmpEOEE3QlNTYlVrbnBoblhod3Vsdi05cEhfV0Q0cmNwSEtJZjBzdGdMVHh2RkFGSmlfcmtVaW1oOFJKTlQxaldQZTRyOTdpN3VzUXk2MnY2Z0doVUhuN2RPZkhUaERxRmptZ01zZU0ySm1ZbFNHTkRUd0htR0ZTY0kxdVpYZjF4SG1GQThvT0JoYjFxSTdGeTdIOXpERklUa0xvdllxUjJyZg?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=4XhoXdf1J1c"
+  },
+  {
     "id": 1795460406240,
     "fecha": "2026-11-23",
     "categoria": "Tecnología",
