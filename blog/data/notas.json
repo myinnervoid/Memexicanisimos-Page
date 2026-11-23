@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795456806818,
+    "fecha": "2026-11-23",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Taquilla récord de The Hunger Games y cancelaciones por salud presionan a la industria del entretenimiento",
+    "descripcion": "The Hunger Games recauda 120 mdd en su estreno y se convierte en el quinto lanzamiento del año en superar los 100 mdd a nivel nacional, mientras Raphael cancela un concierto en La Coruña por una indisposición y Don Toliver suspende su show en Manchester por una sustancia desconocida.",
+    "narracion": "La industria del entretenimiento vivió una jornada de contrastes: un éxito de taquilla que confirma la rentabilidad de las sagas juveniles y dos cancelaciones que exponen la fragilidad logística y sanitaria de los grandes eventos. De acuerdo con El Universal, The Hunger Games cazó 120 millones de dólares en su estreno y se convirtió en la quinta película del año en superar los 100 millones a nivel nacional. La franquicia, distribuida por Lionsgate, demuestra que las adaptaciones de novelas juveniles siguen siendo un activo seguro para los cines, pero también obliga a los exhibidores a renegociar contratos de exhibición ante la presión de una taquilla que concentra cada vez más ingresos en pocos títulos. El fenómeno no es aislado: la cinta se coloca en la cima de la taquilla y desplaza a producciones que aspiraban a un mejor desempeño, lo que reconfigura la programación de las salas y el reparto de utilidades entre distribuidoras y cadenas. En el plano de los espectáculos en vivo, Raphael fue dado de alta tras una indisposición que lo obligó a cancelar su concierto en La Coruña, España. El cantante lamentó la cancelación y afirmó textualmente: \"mi estado de salud no me permitía\" ofrecer el espectáculo, según recogió El Universal. La decisión, aunque comprensible, implica pérdidas económicas para promotores, recintos y seguros, y evidencia la necesidad de protocolos de salud más estrictos en giras de artistas de trayectoria. Horas después, en Manchester, el concierto del rapero Don Toliver fue suspendido por la liberación de una sustancia desconocida que afectó a varias personas. Las autoridades investigan si se trató de gas lacrimógeno, de acuerdo con El Universal. El incidente, ocurrido en un recinto masivo, activó los protocolos de emergencia y dejó a miles de asistentes sin espectáculo, además de abrir una investigación que podría derivar en sanciones para los organizadores. Estos hechos, leídos en conjunto, muestran que la industria del entretenimiento enfrenta pérdidas millonarias por cancelaciones y la urgencia de protocolos más estrictos. Mientras la taquilla celebra cifras récord, los escenarios en vivo lidian con la incertidumbre sanitaria y logística. Para el público mexicano, el caso de Raphael y Don Toliver recuerda que los conciertos son eventos complejos donde confluyen contratos, seguros, recintos y derechos de autor. La industria cultural no solo vive de éxitos de taquilla; también de la capacidad de responder con transparencia y rigor cuando la salud o la seguridad se interponen. La jornada deja una lección: la rentabilidad de una saga juvenil no exime al sector de revisar sus protocolos de cancelación y su relación con los asistentes.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Twenty One Pilots se despide de los escenarios en el Corona Capital; \"No se nos ocurre un lugar mejor que la CDMX para hacerlo\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/no-se-nos-ocurre-un-lugar-mejor-que-la-cdmx-para-hacerlo-twenty-one-pilots-se-despide-de-los-escenarios-en-el-corona-capital/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Raphael ya fue dado de alta; el cantante lamenta la cancelación de su concierto: \"mi estado de salud no me permitía\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/raphael-ya-fue-dado-de-alta-el-cantante-lamenta-la-cancelacion-de-su-concierto-mi-estado-de-salud-no-me-permitia/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Ana de la Reguera revela los sacrificios de hacer cine: “El actor sí vive de sus ahorros”",
+        "url": "https://www.eluniversal.com.mx/espectaculos/ana-de-la-reguera-revela-los-sacrificios-de-hacer-cine-el-actor-si-vive-de-sus-ahorros/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Miley Cyrus y Maxx Morando se hacen tatuajes a juego para celebrar su boda",
+        "url": "https://www.quien.com/espectaculos/2026/11/23/miley-cyrus-y-maxx-morando-se-hacen-tatuajes-a-juego-para-celebrar-su-boda",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Más dinero para difundir noticias falsas",
+        "url": "https://lachispa.mx/mas-dinero-para-difundir-noticias-falsas/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Fotógrafo estrella",
+        "url": "https://lachispa.mx/fotografo-estrella/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: \"The Hunger Games\" caza 120 mdd en la taquilla",
+        "url": "https://www.eluniversal.com.mx/espectaculos/the-hunger-games-caza-120-mdd-en-la-taquilla/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Suspenden concierto de rapero Don Toliver en Manchester por liberación de sustancia desconocida",
+        "url": "https://www.eluniversal.com.mx/espectaculos/suspenden-concierto-de-rapero-don-toliver-en-manchester-por-liberacion-de-sustancia-desconocida/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: The Strokes cierra el Corona Capital 2026 ante 71 mil fans; \"Last Nite\" desata la euforia de la multitud",
+        "url": "https://www.eluniversal.com.mx/espectaculos/the-strokes-cierra-el-corona-capital-2026-ante-71-mil-fans-last-nite-desata-la-euforia-de-la-multitud/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Lola Young se despide entre aplausos y The xx celebra su regreso a México; así se vivió la recta final del Corona Capital",
+        "url": "https://www.eluniversal.com.mx/espectaculos/lola-young-se-despide-entre-aplausos-y-the-xx-celebra-su-regreso-a-mexico-asi-se-vivio-la-recta-final-del-corona-capital/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ¿Christian Nodal se despide de los escenarios mexicanos?; “Hasta nuevo aviso”, dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/christian-nodal-se-despide-de-los-escenarios-mexicanos-hasta-nuevo-aviso-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Britney Spears desata rumores sobre un posible regreso a la música, ¿Qué pasó con la carrera de la \"Princesa del pop\"?",
+        "url": "https://www.eluniversal.com.mx/espectaculos/britney-spears-desata-rumores-sobre-un-posible-regreso-a-la-musica-que-paso-con-la-carrera-de-la-princesa-del-pop/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Santos Bravos hechiza a sus fans de la CDMX con música y mensajes de amor; presentan su tema para Disney",
+        "url": "https://www.eluniversal.com.mx/espectaculos/santos-bravos-hechiza-a-sus-fans-de-la-cdmx-con-musica-y-mensajes-de-amor-presentan-su-tema-para-disney/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: El Corona Capital recibe una visita \"extraterrestre\"; Angine de Poitrine sorprende al público",
+        "url": "https://www.eluniversal.com.mx/espectaculos/el-corona-capital-recibe-una-visita-extraterrestre-angine-de-poitrine-sorprende-al-publico/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Cinemascomics.com: Vengadores: Doomsday deja fuera a 8 superhéroes de su mejor póster",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CTEdUeDJNM2xfYmNQNm9HX1htbzR6cEtyb1Rhak9MRWIwVWtGWHIzYUNJRXZPTkR5WGZkODBKYzY1dGZ3d1FxbWNWdWxGckRfOFI2NmgtVThMNC01Ym5vRjM1M3BPeW5lZmJabS1ES0E1UFhFTHpJMnIyTmQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP Eliminado: ¿Dónde ver EN VIVO y GRATIS la Eliminación y entrada de NUEVOS GRANJEROS HOY, domingo 22 de noviembre, la transmisión online para ver la Gala",
+        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxObDFiWFY4RkZPdnpuQ0VZa1dDY0J4NTZYT2ZvQmxjWlhYaWJDd3FnbWEtbXdsRS10UENPMmRELW14WDJKQ2NTdVNOX3VKRHJTbHo0VnNLNE03N2VvY1k0MU9ZWEgwTE5vMTdRLXNtc1p0M1RvTWh3YnJnYVZOVDV0UTBKd1BSSGdELU9EUmU4TGk3M3lmWHdaUVpnOWd3bW9BZDFQMnB1cE9qWF95akdNWU9iZGxqX1NyU0o1b1Aybk9FUFZKWVZUUm5GUFFWalZ6Q0pWMFFxV2s1MHFTWDFTR2s5MVRBYU5DMU9uTkNKT3ZLbTVwdDMxMjhLNkpJLU5ETmh1VG0zczJiNHpUMDRSUHFHVy1WUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "People en Español: Miley Cyrus, una novia rockera y elegante: todos los detalles de su vestido Saint Laurent",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlFhSFBiSGFRX09kQ0ZQVUQ1c1I3b0s4NGpLTzB5cFhyN2NfbklibXM4QUJXbW51TzUzemZEZTB0Qnk4b3FxMkNwTzlRTVlMOHZadF9WYVBub2xQU2dMeFZMdUhXSi12YnFncC03S2ZTRFdmVmxDM3MxS0dRMEYxRnptR0tPNV93bEE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "SinEmbargo MX: La carpeta de investigación contra Vadhir Derbez incluye pruebas sólidas: Fiscalía",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcGZZME00SmZ3cHlTZ3dIbFk4Z3pEdk00QTdPZ1g1czBpeFJTVzZHWjZjRmRQanBZb0VqU3JVOF9FMEM4WTdudUMwZjl3eDJhNkR0QTNxb0w3NWxRcTY4d25ONzBDTmZJeEg2ak5ZenZubnh3SDNHTFJiYmhrRkwxNXRHMV95aDlKMXd6TTlsRmt3RUVHdTJZRFVBeDh4aVN3YUVuV0t1S09WY0VnQ3VONG5RclJhc28?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Yahoo en Español Vida y Estilo: Tallulah Willis, hija de Bruce Willis, pide disculpas por compartir una foto \"demasiado íntima\" de su padre",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM2Y0ejVacDhLTmNtN1JqSnd4MjdIS0t6dnY0MU94eFN0Q2dQaFlDSXNGOWtxdkV6bko1eXROOUNkS0RNS3dxd09nZjZlbTNKT0ZjWHJTU3VfdFdMUHVCS2NOSXZOVVVUSVZOdTF0TjA0Z0ZObVB2NTllUXlMNW9TckQwS1ZSNjlhTk90dw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Christian Nodal anuncia pausa en su carrera y se despide de los escenarios mexicanos",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMC1lQnRmOUstMzlYQ0RUN1hIM2NJSW1Pek5GY0ZYdy1KMjdxUmxUU1RjeENFdy1xY2huejE1MC1yaGp2UEV6LWVsaVoyMGFKeVNKYlU5TDJUX0hiLTF0NkFrTm93VmxtdnhFT0sxMFV0dk12cm03MmpyNXJ1d25MLUQ1aUFXUWl5blNhVVViWHlpRUtyOVR4YnFqQWxZWjNId3Zndjg4d0RIOVo0WDNoOVBWMks1V3V3V3FFRHVpYlF0RWhkT2fSAeABQVVfeXFMTVFmMk1EWkYxQk1rWl8yNmNjUEFXeURhNFdSMEhvMDBRT0pyeGlmS0JvOWpYdVEzWVdNYzE2QWNBNlQ5TzZMV3NvcDBhZl9zSC12YWpUQmNnVnFMUGFPSHBteloyZThwb25mVmFqVm0xSW11VnBnS01VYnAxMWtPWWtZdmtXa1BIcXdYX0NjQU1Cbl9fMWYxaXU3UlpBRW9KNG1sSVNjYnlzeDk5WXFYc3hoYTNETGtKN3RZTGd6dXBnd05xaFRiSXJzeEhldU5peVhHWVZ1cUdSM0NOd0t6NW0?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Norte: Retiran de subasta el Frida polémico",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vSkl0M3V3SE40Z0c5eWdqMHlSTVFaOWxkNDVBVUI2SnVJTFZVaU5xeHZXdE1aUlhONUlPb04waWdlUGRuanBjMWkyWVFCN3BReFF3aEp1OWNsWWlNYWN1cHJqekNnc2RzM1N0OHp3TmZFNWhhOFpLQXpR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Quiénes son los nuevos Granjeros de La Granja VIP que se integran HOY, domingo 22 de noviembre, y cambiarán TODO",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWDhPV0tuV1p2UjYtNm9Ba056cTZ5b0FjNGVXWld1TTltTG1YbHU4TXVFazUzbTNhYUJ5Y05MY0FIM25id09Td3pPUXNRR1Z4TC1pUGdIeFNZc0ZlM1ZKQmtfcXVPeTlPcnVxRjRoWWE2UmpXM2RPTE5RODJEY29uYnpiOTBCNUVNUFp3SHRNdGU1N1loZVRIdE5YbTVDekxPUFBFcjc4cHRfNHlwMmhWSTRmdmt1dTVvdHVtSGc5Rm9RQXVVa3R4UjZDZGVBNFFZenJIMFN2and2Nk9uRGlKMW5WWHROc1V5V3RLQmN2eXVyUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=eKnmQoPj7NE"
+  },
+  {
     "id": 1795405114201,
     "fecha": "2026-11-22",
     "categoria": "Noticias México",
