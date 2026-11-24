@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795482009792,
+    "fecha": "2026-11-23",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Seguridad, justicia y economía: el pulso del México institucional",
+    "descripcion": "La captura de El Chapo Isidro y las advertencias de la DEA, las investigaciones por corrupción en el INE, el crecimiento del PIB y los acuerdos comerciales con China marcan la agenda nacional.",
+    "narracion": "La operación que derivó en la captura de Ismael 'El Chapo Isidro' Zambada, en la que participaron 361 militares según reportes de El País, representa un golpe significativo a la estructura de los Beltrán Leyva. Sin embargo, la reacción de la DEA, que advirtió que expondrá a funcionarios vinculados con cárteles (El Universal), introduce un elemento de tensión institucional. La cooperación entre México y Estados Unidos en materia de seguridad exige transparencia y respeto a la soberanía; cualquier señalamiento debe ser investigado por las autoridades mexicanas con apego al debido proceso. La FGR tiene la oportunidad de demostrar que la justicia opera sin distingos y que la lucha contra la impunidad es una prioridad real.\n\nEn el ámbito electoral, la Fiscalía General de la República abrió 15 carpetas de investigación por presuntos actos de corrupción en el INE que involucran a la consejera presidenta Guadalupe Taddei y a otro funcionario (La Jornada). Este hecho es de máxima gravedad porque el INE es el pilar de la democracia mexicana. La autonomía del organismo y la credibilidad de sus procesos están en juego. La sociedad demanda una investigación exhaustiva, imparcial y expedita que deslinde responsabilidades y, en su caso, sancione a los culpables. No se trata de un asunto partidista, sino de la integridad de las instituciones que garantizan el voto libre y secreto.\n\nEn materia económica, el INEGI reportó un crecimiento del PIB de 3.3% anual en el tercer trimestre (El Economista), lo que refleja una recuperación sostenida, aunque persisten desafíos en materia de distribución del ingreso y empleo formal. Este dato, junto con el acuerdo México-China para ampliar exportaciones (La Jornada), sugiere que la política comercial diversifica mercados. No obstante, el desarrollo social exige que los beneficios lleguen a las regiones más pobres y que la inversión pública se traduzca en bienestar tangible.\n\nEn el plano político, la ratificación de Omar García Harfuch al frente de la Secretaría de Seguridad por parte de la presidenta Claudia Sheinbaum (El Financiero) envía un mensaje de continuidad en la estrategia de seguridad. La ciudadanía espera resultados concretos en la reducción de la violencia y el fortalecimiento de las policías locales. La renuncia del titular del Conalep-Morelos tras la polémica por la boda de su hija (Reforma) es un recordatorio de que la austeridad republicana debe ser congruente con el servicio público.\n\nFinalmente, la nacionalización de Jasmin Busgarín (Tiempo La Noticia Digital) es una decisión administrativa que, aunque menor, subraya la importancia de los procedimientos migratorios claros. En conjunto, estos hechos configuran un tablero donde la rendición de cuentas, la independencia institucional y el crecimiento incluyente son los ejes que deben guiar la discusión pública. Memexicanísimos reitera su compromiso con el periodismo riguroso y el análisis cívico.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "EL PAÍS: 361 militares operaron el ataque al búnker del Chapo Isidro",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTlpvUEVlcmt0NzU2Y2FrQ1ZwX0I3WlFaTUdveGE2TDlnVnpBVHUxR1FBTTU3aDZPYURmYWYyYUFKMUVfOHpjd1pzdHdkZklJZjVBdDlnQU5ndGRzSDh2TVZHSVFLaGhxSGk3eHM1TUZWWGpDbkhqRE95ZnBYMFB2aTNwUlp5R2pQdVUyREotUy1EOTZUUzhoVV9GM09RRlVjWGVZ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: FGR abre 15 carpetas de investigación por corrupción en el INE que involucran a Taddei y a Hernández Casillas",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMlBCaGQ4aEFKb3RNN0VRWlNCcktZODN6Tk56Z0VITUd3dm16eXI5YzVwUkJLenI3Y3U1LTlNclNhNVRjdjlmUFlVZ1hocmR4UGwzamhnNlNFMmhXa3ZrTXJ4VVhSYVVHUXdlTVJVcHkzRl9XbnpuWmM3OHVYWXpERGt0ajh1SEpSQ3NLRXkza1pmVDBGdmlTS1JlajFGSlFfUXV0QlVSV25KU1p0QWZVSFlzNUJoNlB1a1Etal9GaWRfLUZkc0JSaXhJU3JSanBpNW13LXZiVVdMUjVyLTFUYW1SNFEwdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: El PIB de México creció 3.3% anual durante el tercer trimestre: Inegi",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQzF6MXpqT09Cb0dNZWVSVU5fUEY2YTB0Qy1qR1JMSkNieFd2Q3JLR0NZRnRyU3BwMERvVDFieXgwUVgwc09Bd0o0b05mMVEyZ2YxOEJZVlRKMm82ZDg5TTVndHN0QkIxbVpLU212Q0k4MGx0NllReURsSHd1bGdLOWdBRUNfVTljNngyS1ZWdE5oTHpSeTJLaTd1Y1g1VHljaEI1Q1M2V09UTXRwVHczSDVB0gG3AUFVX3lxTFA1QjRUQTMxWW1SY3pQdWhDWEdiX3ktNWljSXZGVlVzR3F1SVRsZzZhZnNuUm5rdTM3ZmFFYnhZSEFmQ2RXT2tWU2hmaGZSekttbm1GVGZTcmp4WUszMWNmT1F1S04wdmM4Nk9CZUtYdktUeldBa1ItRUlrcTh1dXpFdHptdTJBSDU0dmNWQjhXWGhEYmlGSFVnYjhNcGNlOVE5a0RRQVllQXhvM0VFU2ZqLWwtbVNNZw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Tiempo La Noticia Digital: Oficial: Jasmin Busgarín ya sólo tiene nacionalidad mexicana🎦",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFlfWmZydkVrNUNoUTUxcW5hS0FZenFRaE80VXRqVjhYaDNLdENkXzJjZ2VuaWdkc1B6M0cyOENGY2J4aUE0S2VlZm1mbU5aZWNUeUJlT0EzNmNMWS1aQU5oUldzcExCMXJ1cHJrSTU2NUI4ZkdDbHJoODRaRTVCOFFoT19oYnQ2ZUZJNERfTjBfTGI4V0lxeUgtTGsxNjRWa0R4TnE4Y1ZZaGs?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Sheinbaum descarta remover a Harfuch de la Secretaría de Seguridad: ‘No hay ningún cambio en el Gabinete’",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZW8tS2kwLV93WlY4Mi1BMUE5NGN0RURoMWV3Zy00NEtsejdPeENWYUMtMnJYUGRrMWV3NVp0bXNpTU12cjQ1WUNPVERyQlZQRjFHY0dTTFJUVzJIMF82Z0c4dnRnek5STTN6TmQzTjNGRnhPbDhjSVZsN1Z6dEtIdm5PVGJlZXhFNmpfS2hkR0JJTmdtaVRQaWwxTU45ek1zckZsV3JaQ3ZiRk1JdjRHSWNLS2ZfNXd3VXFqQzdjaktQZHh2TU45TzE3U0N6V2piU0kybE0xcmVVYVp0VnZyMlVKdUIteDcwRHlj?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: México y China acuerdan mesa de trabajo que incluye aumentar exportaciones al país asiático",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdU01TU1xMGJqa2haWEltdUM0cXdHSFlaLVN0OTFvVXhOY2NQaXNLYjhrWVhwcTU4OEwwRk1qVkFMcTVwRFlVTEFQQlB3R0NQMGd3VHRtRTVYa1pDSkZ6NXlGWWF2SjgzZm4zM2hBRVdEcjk2c1l6Mk0zZWpOcGZILTlNaWt5cHhxUTBrMU1oQS1wR2xHdHROaURPRVlwXzRNWnVpNG9sUVRJSFV3UGp1S3ZUZDVJaGp3SDlYOXVndkEwM2xpckxkWlpDcXRpajREY1JtSTNrVGZxWmFsU1JR?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Tras caída de \"El Chapo Isidro\", DEA advierte que expondrá a funcionarios vinculados con cárteles",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOR2Iza05JT041MENZS01NZ21fQ3BTSE90MEJ1SFlKZ1d2ZWhWNmtObnJoT1FMZDZ3REJBSnU5SHBxYkxvcS1zQVVUcGRtclJJT1JSVjh1c1hOUUxiNVVPZGxoN3hzNXZ3MDJqZUdYSmx2dnJxTWlQT1RDNDQxcUVLdUpHbnVfUzQyV0hqeFRmbmgzM0pGdndKODZDNEN1eWd4dmRHTGVMSEdYNnFxUnNRblFVZXY1emdxMWJ6QTdkci1HRFE5SDRBaTFCLUtFOGdTZThvaUVPYlFZdThRT3QyRHhLTjZfUHF1MS1VNnVYUF9DdU1yU1E?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Renuncia Arredondo a Conalep-Morelos tras boda de hija",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQalRXeHNZNHJKY0dVUE1Nakk5Nzdla1psN3JoTXFESmJjSnZTN3d1WklhdFBsM214dDhnRG5yVzdWTjBiVXhZQ3ludllGSFF5Uy1rNTF1a3ZNcGdpMXcwNmF6U2xGOTNuTElyS280dVlPQXVRRnMzYS1oaHBNbkNWVTJTV3pBZ21aU2FYZHZuaDB3QQ?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1795474804861,
     "fecha": "2026-11-23",
     "categoria": "Gaming",
