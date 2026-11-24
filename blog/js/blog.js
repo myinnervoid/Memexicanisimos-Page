@@ -10,7 +10,7 @@ let availableDates = [];
 let currentDate = '';
 let currentCategory = 'all';
 
-const ASSET_VERSION = '20261104-rev2';
+const ASSET_VERSION = '20261104-rev3';
 
 const CATEGORY_MAP = {
   farandula: {

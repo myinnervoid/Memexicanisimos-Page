@@ -10,7 +10,8 @@
     "jest-environment-jsdom": "^30.5.2"
   },
   "scripts": {
-    "test": "NODE_OPTIONS=\"--experimental-vm-modules\" jest"
+    "test": "NODE_OPTIONS=\"--experimental-vm-modules\" jest",
+    "lint": "eslint app.js blog/js/blog.js contracts/errors.js tests/"
   },
   "type": "module"
 }

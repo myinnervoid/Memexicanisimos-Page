@@ -69,7 +69,12 @@ let mockDocument = {
         setAttribute: (k, v) => { elements[id].attrs = elements[id].attrs || {}; elements[id].attrs[k] = v; },
         getAttribute: (k) => { return (elements[id].attrs || {})[k] || null; },
         textContent: '',
-        querySelector: () => null,
+        querySelector: (sel) => {
+          if (sel === '#fb-iframe-slot' && elements[id].innerHTML.includes('fb-iframe-slot')) {
+            return elements[id];
+          }
+          return null;
+        },
         getBoundingClientRect: () => ({ top: 100 }),
         disabled: false
       };
@@ -282,39 +287,20 @@ if (windowListeners['hashchange']) {
 assert(tab1.classList.contains('active'), 'Tab 1 becomes active on hashchange');
 assert(section1.classList.contains('active'), 'Section 1 becomes active on hashchange');
 
-
-// ---------------------------------------------------------
-// initBurnerConsoleFSM tests
-// ---------------------------------------------------------
-console.log('\n--- initBurnerConsoleFSM ---');
-resetState();
-
-let consoleBody = createElementMock('burner-console-body', '');
-let btnRunConsole = createElementMock('btn-run-console', '');
-createElementMock('btn-reset-console', '');
-
-let progressBarMock = {
-    setAttribute: (k, v) => { progressBarMock[k] = v; },
-    textContent: ''
-};
-
-consoleBody.querySelector = (selector) => {
-    if (selector === '.progress-bar') return progressBarMock;
-    return null;
-};
-
+// Hash navigation for Suite de Apps anchors (including #sonidero-anchor)
+let tabPerfiles = createElementMock('tab-perfiles', 'tab-button');
+tabPerfiles.setAttribute('data-target', 'perfiles');
+let sectionPerfiles = createElementMock('perfiles', 'product-section');
+queries['.tab-button'] = [tab1, tab2, tabPerfiles];
+queries['.product-section'] = [section1, section2, sectionPerfiles];
 global.triggerDOMContentLoaded();
 
-assert(btnRunConsole.disabled === true, 'Run button should be disabled when processing');
-
-// Simulate the interval
-if (intervalCallbacks.length > 0) {
-    for (let i = 0; i < 20; i++) {
-        intervalCallbacks[0]();
-    }
+mockWindow.location.hash = '#sonidero-anchor';
+if (windowListeners['hashchange']) {
+  windowListeners['hashchange'][windowListeners['hashchange'].length - 1]();
 }
-assert(progressBarMock['data-progress'] >= 100, 'Progress bar reached 100');
-assert(btnRunConsole.disabled === false, 'Run button is enabled again after completion');
+assert(tabPerfiles.classList.contains('active'), 'Tab perfiles becomes active for #sonidero-anchor');
+assert(sectionPerfiles.classList.contains('active'), 'Section perfiles becomes active for #sonidero-anchor');
 
 
 // ---------------------------------------------------------

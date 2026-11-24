@@ -92,13 +92,6 @@ html {
   letter-spacing: -0.01em;
 }
 
-.logo-text {
-  font-family: var(--font-title);
-  letter-spacing: -0.02em;
-  font-size: 1.35rem;
-  font-weight: 800;
-}
-
 .tab-title {
   font-family: var(--font-title);
   letter-spacing: -0.015em;
@@ -110,16 +103,6 @@ html {
 .btn, h3, h4, h5, h6 {
   font-family: var(--font-title);
   letter-spacing: -0.015em;
-}
-
-.console-body {
-  font-family: var(--font-mono);
-  padding-top: 18px;
-  padding-right: 18px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-  font-size: 0.85rem;
-  line-height: 1.7;
 }
 
 .badge-product {
@@ -197,15 +180,15 @@ html {
   z-index: 102;
   background: linear-gradient(
     90deg,
-    var(--oro-charro) 0%,
-    var(--oro-charro) 33.33%,
+    var(--verde-patrio) 0%,
     var(--verde-patrio) 33.33%,
-    var(--verde-patrio) 66.66%,
+    var(--blanco-hueso) 33.33%,
+    var(--blanco-hueso) 66.66%,
     var(--rojo-patrio) 66.66%,
     var(--rojo-patrio) 100%
   );
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000000;
 }
 
 .main-header {
@@ -256,14 +239,6 @@ html {
 
 .logo-rotulo:hover .logo-rotulo-img {
   transform: scale(1.03);
-}
-
-.logo-emoji {
-  font-size: 1.6rem;
-}
-
-.logo-text span {
-  color: var(--oro-charro);
 }
 
 .header-center-socials {
@@ -531,48 +506,6 @@ html {
     2px 2px 0px #000000 !important;
 }
 
-.btn-taco {
-  color: rgb(17, 17, 17);
-  font-weight: 700;
-  border-top-width: medium;
-  border-right-width: medium;
-  border-bottom-width: medium;
-  border-left-width: medium;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-top-color: currentcolor;
-  border-right-color: currentcolor;
-  border-bottom-color: currentcolor;
-  border-left-color: currentcolor;
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  border-top-left-radius: 999px;
-  border-top-right-radius: 999px;
-  border-bottom-right-radius: 999px;
-  border-bottom-left-radius: 999px;
-  cursor: pointer;
-  box-shadow: 0 4px 12px var(--oro-glow);
-  display: inline-flex;
-  align-items: center;
-  row-gap: 8px;
-  column-gap: 8px;
-  font-size: 0.95rem;
-}
-
-.btn-taco:hover {
-  transform: translateY(-2px);
-  box-shadow: rgba(212, 175, 55, 0.5) 0px 6px 16px;
-}
-
 .hero-section {
   position: relative;
   padding-top: 48px;
@@ -625,27 +558,6 @@ html {
   font-family: var(--font-mono);
 }
 
-.pulse-patrio {
-  width: 8px;
-  height: 8px;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  box-shadow: 0 0 10px var(--rojo-patrio);
-  animation-duration: 1.8s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running;
-  animation-name: pulse;
-  animation-timeline: auto;
-  animation-range-start: normal;
-  animation-range-end: normal;
-}
-
 .hero-title {
   font-size: clamp(2.2rem, 4vw, 3.4rem);
   font-weight: 900;
@@ -654,11 +566,6 @@ html {
   color: #f5ecc2;
   background: transparent;
   text-shadow: 0 2px 12px rgba(0,0,0,0.8);
-}
-
-.hero-title span.patrio-gradient {
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .hero-subtitle {
@@ -958,9 +865,9 @@ html {
   border-color: var(--oro-charro);
 }
 
-/* 5. Creador & Contacto: Wada Killarney Green (#285f3e) -> Activa Diamine Green (#1a7444) */
+/* 5. Creador & Contacto: Wada Oil Green (#3b5c3f) -> Activa Diamine Green (#1a7444) */
 .tab-button[data-target="creador-contacto"] {
-  background-color: #285f3e;
+  background-color: #3b5c3f;
 }
 .tab-button[data-target="creador-contacto"]::before {
   border-color: #f99d1b;
@@ -1105,20 +1012,12 @@ html {
 
 .news-card-media {
   position: relative !important;
-  aspect-ratio: auto !important;
+  aspect-ratio: 1 / 1 !important;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
   background-color: #111314 !important;
   width: 100% !important;
-  height: 280px !important;
+  height: auto !important;
   overflow: hidden !important;
   border-bottom: 2px solid rgba(255, 117, 24, 0.35) !important;
 }
@@ -1132,7 +1031,7 @@ html {
   transition-timing-function: ease;
   transition-delay: 0s;
   transition-property: transform;
-  object-position: center 25% !important;
+  object-position: center !important;
   display: block !important;
   transition: transform 0.5s ease !important;
 }
@@ -1348,21 +1247,9 @@ html {
 }
 
 .badge-sonidero {
-  background-color: #0a2540 !important;
-  color: var(--oro-charro) !important;
-  border: 1.5px solid var(--azul-cobalto) !important;
-}
-
-.badge-burner {
-  background-color: #242f38 !important;
-  color: var(--oro-charro) !important;
-  border: 1.5px solid #f99d1b !important;
-}
-
-.badge-os {
-  background-color: #34454c !important;
-  color: var(--oro-brillante) !important;
-  border: 1.5px solid var(--oro-charro) !important;
+  background-color: #051230;
+  color: var(--oro-charro);
+  border: 1.5px solid var(--azul-cobalto);
 }
 
 .app-description {
@@ -1488,33 +1375,6 @@ html {
     2px 2px 0px #000000 !important;
 }
 
-.hardware-disclaimer {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(206, 17, 38, 0.12);
-  padding-top: 12px;
-  padding-right: 18px;
-  padding-bottom: 12px;
-  padding-left: 18px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  margin-top: 18px;
-  font-size: 0.85rem;
-  color: rgb(255, 164, 173);
-}
-
-.hardware-disclaimer strong {
-  color: rgb(255, 255, 255);
-}
-
 .shortcuts-wrapper {
   margin-top: 24px;
   border-radius: 6px !important;
@@ -1623,155 +1483,6 @@ html {
 
 .hidden {
   display: none !important;
-}
-
-.console-wrapper {
-  margin-top: 24px;
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: #111314 !important;
-  border-top-left-radius: 14px;
-  border-top-right-radius: 14px;
-  border-bottom-right-radius: 14px;
-  border-bottom-left-radius: 14px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.9), inset 0 2px 10px rgba(0, 0, 0, 0.8) !important;
-  border: 1.5px solid rgba(255, 117, 24, 0.45) !important;
-  border-radius: 14px !important;
-}
-
-.console-header {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: #181d22 !important;
-  padding-top: 10px;
-  padding-right: 18px;
-  padding-bottom: 10px;
-  padding-left: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgba(255, 255, 255, 0.06);
-  border-bottom: 1px solid rgba(255, 117, 24, 0.3) !important;
-}
-
-.console-dots {
-  display: flex;
-  row-gap: 8px;
-  column-gap: 8px;
-}
-
-.dot {
-  width: 11px;
-  height: 11px;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-}
-
-.dot.red {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(255, 95, 86);
-}
-
-.dot.yellow {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(255, 189, 46);
-}
-
-.dot.green {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(39, 201, 63);
-}
-
-.console-title {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: var(--texto-secundario);
-}
-
-.console-action-btns {
-  display: flex;
-  row-gap: 8px;
-  column-gap: 8px;
-}
-
-.btn-console-mini {
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgba(255, 255, 255, 0.08);
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgba(255, 255, 255, 0.15);
-  border-right-color: rgba(255, 255, 255, 0.15);
-  border-bottom-color: rgba(255, 255, 255, 0.15);
-  border-left-color: rgba(255, 255, 255, 0.15);
-  border-image-source: none;
-  border-image-slice: 100%;
-  border-image-width: 1;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
-  color: rgb(255, 255, 255);
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  padding-top: 4px;
-  padding-right: 10px;
-  padding-bottom: 4px;
-  padding-left: 10px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  cursor: pointer;
 }
 
 .file-explorer-mock {
@@ -3083,7 +2794,8 @@ html {
     margin-top: 16px;
   }
   .news-card-media {
-    height: 220px !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1 !important;
   }
   /* Suite de Apps Móvil (Huawei Y9 / Pantallas Angostas) */
   .sub-nav-container {
@@ -3512,99 +3224,9 @@ html {
   font-weight: 700;
 }
 
-.mt-12 {
-  margin-top: 12px;
-}
+/* ================= INDICADORES Y COMPONENTES DE TEMPORADA ================= */
 
-/* Progress bar dynamic styles */
-
-.progress-bar[data-progress="0"] {
-  width: 0%;
-}
-
-.progress-bar[data-progress="5"] {
-  width: 5%;
-}
-
-.progress-bar[data-progress="10"] {
-  width: 10%;
-}
-
-.progress-bar[data-progress="15"] {
-  width: 15%;
-}
-
-.progress-bar[data-progress="20"] {
-  width: 20%;
-}
-
-.progress-bar[data-progress="25"] {
-  width: 25%;
-}
-
-.progress-bar[data-progress="30"] {
-  width: 30%;
-}
-
-.progress-bar[data-progress="35"] {
-  width: 35%;
-}
-
-.progress-bar[data-progress="40"] {
-  width: 40%;
-}
-
-.progress-bar[data-progress="45"] {
-  width: 45%;
-}
-
-.progress-bar[data-progress="50"] {
-  width: 50%;
-}
-
-.progress-bar[data-progress="55"] {
-  width: 55%;
-}
-
-.progress-bar[data-progress="60"] {
-  width: 60%;
-}
-
-.progress-bar[data-progress="65"] {
-  width: 65%;
-}
-
-.progress-bar[data-progress="70"] {
-  width: 70%;
-}
-
-.progress-bar[data-progress="75"] {
-  width: 75%;
-}
-
-.progress-bar[data-progress="80"] {
-  width: 80%;
-}
-
-.progress-bar[data-progress="85"] {
-  width: 85%;
-}
-
-.progress-bar[data-progress="90"] {
-  width: 90%;
-}
-
-.progress-bar[data-progress="95"] {
-  width: 95%;
-}
-
-.progress-bar[data-progress="100"] {
-  width: 100%;
-}
-
-/* ================= TEMA DÍA DE MUERTOS, ALTAR Y PAPEL PICADO ================= */
-
-.pulse-muertos, .pulse-tiendita {
+.pulse-muertos {
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -3627,143 +3249,109 @@ html {
   box-shadow: 0 2px 8px var(--verde-glow);
 }
 
-/* Modal de bienvenida con marco de altar */
-
-/* ================= MARCOS Y VENTANAS TEMÁTICAS (DÍA DE MUERTOS) ================= */
-
-/* Marco y Showcase del Hero */
-
-/* Marcos y Ventanas de Tarjetas de Noticias (Encapsulado Limpio & Responsivo) */
-
-/* Marcos de la Suite de Aplicaciones */
-
-/* Ventana de Consola Burner CLI */
-
-/* Ventana de Explorador Files */
-
-/* Ventana de Redes Sociales y Facebook */
-
-/* Ventana y Marco de Apoyo (Tacos) */
-
-/* Ventana y Marco del Creador */
-
-/* Ventana de Atajos de Teclado */
-
-/* Marco del Cartel de Bienvenida */
-
-/* ================= BOTÓN Y COMPONENTES SONIDERO WEB ================= */
-
-
-
-.badge-sonidero {
-  background-color: rgba(243, 116, 32, 0.18);
-  color: #ffdd00;
-  border: 1px solid #f37420;
-}
-
 .app-icon-visual.icon-sonidero {
-  background: linear-gradient(135deg, #f37420, #cc1236);
-  color: #fff;
+  background: linear-gradient(135deg, #f37420, var(--rojo-patrio));
+  color: #ffffff;
 }
 
 /* ================= RECUADROS Y PLANTILLAS DE NOTICIAS (FRONTPAGE -> BLOG) ================= */
 
 .news-card-inner-link {
-  display: flex !important;
-  flex-direction: column !important;
-  height: 100% !important;
-  text-decoration: none !important;
-  color: inherit !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
 }
 
 .news-card-inner-link:hover .news-card-title {
-  color: #ffdd00 !important;
+  color: var(--oro-charro) !important;
 }
 
 .news-card-inner-link:hover .news-card-readmore {
-  color: #FFA000 !important;
+  color: var(--oro-brillante);
   transform: translateX(4px);
 }
 
 .news-card-readmore {
-  color: #ffdd00 !important;
-  font-weight: 700 !important;
-  font-size: 0.82rem !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 6px !important;
-  transition: transform 0.2s ease, color 0.2s ease !important;
+  color: var(--oro-charro);
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .tag-farandula {
-  background-color: rgba(224, 17, 95, 0.95) !important;
-  color: #FFF !important;
-  box-shadow: 0 2px 8px rgba(224, 17, 95, 0.45) !important;
+  background-color: var(--wada-pomegranate);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(183, 31, 87, 0.45);
 }
 
 .tag-tecnologia {
-  background-color: rgba(0, 168, 107, 0.95) !important;
-  color: #FFF !important;
-  box-shadow: 0 2px 8px rgba(0, 168, 107, 0.45) !important;
+  background-color: var(--azul-maya);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 147, 165, 0.45);
 }
 
 .tag-gaming {
-  background-color: rgba(0, 110, 184, 0.95) !important;
-  color: #FFF !important;
-  box-shadow: 0 2px 8px rgba(0, 110, 184, 0.45) !important;
+  background-color: var(--azul-cobalto);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 110, 184, 0.45);
 }
 
 .tag-noticias {
-  background-color: rgba(206, 17, 38, 0.95) !important;
-  color: #FFF !important;
-  box-shadow: 0 2px 8px rgba(206, 17, 38, 0.45) !important;
+  background-color: var(--rojo-patrio);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(204, 18, 54, 0.45);
 }
 
 /* Banner de redirección a /blog */
 
 .news-blog-cta-banner {
-  margin-top: 32px !important;
-  background: linear-gradient(135deg, #051230 0%, #12354e 100%) !important;
-  border: 1.5px solid var(--border-patrio) !important;
-  border-radius: 18px !important;
-  padding: 24px 28px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  gap: 20px !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6) !important;
+  margin-top: 32px;
+  background: linear-gradient(135deg, #051230 0%, #12354e 100%);
+  border: 1.5px solid var(--border-patrio);
+  border-radius: 18px;
+  padding: 24px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .blog-cta-badge {
-  font-family: var(--font-mono) !important;
-  font-size: 0.78rem !important;
-  color: #ffdd00 !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.05em !important;
-  margin-bottom: 6px !important;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--oro-charro);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
 }
 
 .news-blog-cta-banner h3 {
-  color: #FFFFFF !important;
-  font-family: var(--font-display) !important;
-  font-size: 1.25rem !important;
-  margin: 0 0 6px 0 !important;
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin: 0 0 6px 0;
 }
 
 .news-blog-cta-banner p {
-  color: var(--texto-secundario) !important;
-  font-size: 0.92rem !important;
-  margin: 0 !important;
+  color: var(--texto-secundario);
+  font-size: 0.92rem;
+  margin: 0;
 }
 
 .blog-cta-btn {
-  white-space: nowrap !important;
-  flex-shrink: 0 !important;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 @media (max-width: 768px) {
   .news-blog-cta-banner {
-    flex-direction: column !important;
-    align-items: flex-start !important;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

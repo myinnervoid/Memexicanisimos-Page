@@ -1,5 +1,5 @@
-// Service Worker — Sonidero Memexicanisimos PWA v6
-const CACHE_NAME = 'sonidero-memexicanisimos-v6';
+// Service Worker — Sonidero Memexicanisimos PWA v7
+const CACHE_NAME = 'sonidero-memexicanisimos-v7';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -8,16 +8,6 @@ const ASSETS_TO_CACHE = [
   './css/sonidero.css',
   './js/sounds-b64.js',
   './js/sonidero-bundle.js',
-  './js/main.js',
-  './js/audio-engine.js',
-  './js/ui.js',
-  './js/presets.js',
-  './js/pad.js',
-  './js/recorder.js',
-  './js/fx.js',
-  './js/mic-selector.js',
-  './js/visualizer.js',
-  './js/wav-encoder.js',
   './worklets/noise-gate.js',
   './worklets/pitch-shifter.js',
   './assets/banner_sonidero_rotulo_horizontal.jpg',

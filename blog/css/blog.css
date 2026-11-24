@@ -15,7 +15,7 @@
   --wada-slate: #34454c;
   --wada-cal-white: #f5ecc2;
   --wada-amate-cream: #ffefae;
-  --wada-ivory-buff: #ebd999;
+  --wada-ivory-buff: #ebd3a2;
 
   /* ── COMBO #313 REVOLUCIÓN MEXICANA & RÓTULO POPULAR (30% & 10% Acentos) ── */
   --verde-patrio: #1a7444;
@@ -25,12 +25,14 @@
   --wada-orange: #f37420;
   --wada-yellow-orange: #f99d1b;
   --wada-apricot-yellow: #ffdd00;
-  --wada-raw-sienna: #ae5224;
-  --wada-cinnamon: #c79a6b;
+  --wada-burnt-sienna: #ae5224;
+  --wada-raw-sienna: #bb7125;
+  --wada-cinnamon: #c59f6b;
 
   /* ── FAMILIA III & IV: JADE, NOPAL Y TALAVERA ── */
   --wada-benzol-green: #00978d;
-  --wada-cerulian-blue: #007190;
+  --wada-antwerp-blue: #007190;
+  --wada-cerulian-blue: #0093a5;
   --wada-forest-nopal: #1a7444;
   --wada-cobalto: #006eb8;
 
@@ -59,11 +61,11 @@
   --oro-maiz: var(--wada-ivory-buff);
   --verde-nopal: var(--verde-patrio);
   --rojo-patrio: var(--wada-carmine);
-  --adobe-siena: var(--wada-raw-sienna);
+  --adobe-siena: var(--wada-burnt-sienna);
   --blanco-cal: var(--wada-cal-white);
   --amate: var(--wada-amate-cream);
   --texto-prensa: #f5ecc2;
-  --texto-atenuado: #ebd999;
+  --texto-atenuado: var(--wada-ivory-buff);
 
   --font-rotulo: 'Oswald', 'Space Grotesk', sans-serif;
   --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
@@ -103,9 +105,12 @@ a:hover {
 
 /* LÍNEA TRICOLOR BANDERA DE MÉXICO (IDÉNTICA A PORTADA PRINCIPAL) */
 .bandera-tri-line {
-  height: 6px;
+  height: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 102;
   background: linear-gradient(
-    to right,
+    90deg,
     var(--verde-patrio) 0%,
     var(--verde-patrio) 33.33%,
     var(--blanco-cal) 33.33%,
@@ -115,6 +120,7 @@ a:hover {
   );
   width: 100%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
+  border-bottom: 1px solid #000000;
 }
 
 /* CONTENEDOR PRINCIPAL DEL PERIÓDICO DIGITAL */

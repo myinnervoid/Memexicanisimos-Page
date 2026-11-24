@@ -4,14 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aviso de Privacidad y Términos Legales — Memexicanisimos</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:;" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   
   <!-- Tipografías de Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600..900;1,9..144,600&amp;family=Space+Grotesk:wght@500;600;700;800&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600;700;800&amp;family=Oswald:wght@600;700&amp;display=swap" rel="stylesheet" />
   
   <!-- Iconos de FontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <!-- Hojas de Estilos Locales -->
   <link rel="stylesheet" href="style.css?v=20261117-wada" />
@@ -24,7 +26,7 @@
       padding: 0 24px;
     }
     .legal-card {
-      background-color: #111519;
+      background-color: var(--bg-card);
       border: 2px solid var(--slate-ferrocarril);
       border-top: 4px solid var(--rojo-patrio);
       border-radius: 8px;
@@ -98,7 +100,7 @@
     }
     .legal-section-block code {
       font-family: var(--font-mono);
-      background-color: #182026;
+      background-color: var(--bg-card-hover);
       border: 1px solid var(--slate-ferrocarril);
       padding: 2px 6px;
       border-radius: 4px;
@@ -245,7 +247,7 @@
       <div class="footer-socials">
         <a href="https://facebook.com/Memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-facebook"></i> fb.com/Memexicanisimos</a>
         <span>·</span>
-        <a href="https://x.com/memexicanisim0s" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-x-twitter"></i> @memexicanisim0s</a>
+        <a href="https://x.com/memexicanisimos" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-x-twitter"></i> @memexicanisimos</a>
       </div>
     </div>
   </footer>
