@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795633206166,
+    "fecha": "2026-11-25",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Megacable supera a Televisa en internet fijo por 369 clientes",
+    "descripcion": "Megacable se convierte en el segundo operador de internet fijo en México tras superar a Televisa por solo 369 suscriptores, mientras la Suprema Corte eleva pensiones para padres dependientes y el gas LP mantiene reservas críticas de cinco días.",
+    "narracion": "La Comisión Reguladora de Telecomunicaciones (CRT) confirmó un ajuste histórico en el mercado de internet fijo en México: Megacable superó a Televisa como segundo operador, con una diferencia de apenas 369 clientes. Telmex conserva el liderato con 12.1 millones de suscriptores, mientras que la brecha entre el segundo y tercer lugar representa menos del 0.01% de la base de Televisa. Este movimiento, aunque mínimo en cifras absolutas, refleja una recomposición del sector tras años de crecimiento sostenido de Megacable y una presión competitiva que podría incidir en precios y calidad del servicio. La ironía no es menor: Televisa quiso comprar Megacable en el pasado, y hoy la desplaza al tercer sitio. El dato duro proviene de la propia CRT y evidencia la fragilidad de las posiciones en un mercado donde la infraestructura de fibra óptica y la cobertura regional marcan la diferencia. Para los usuarios mexicanos, especialmente en zonas urbanas y semiurbanas, la competencia entre estos operadores es clave para la adopción de servicios digitales, teletrabajo y educación en línea. Sin embargo, la concentración en pocos jugadores sigue siendo un riesgo para la soberanía digital y la neutralidad de la red.\n\nEn paralelo, la Segunda Sala de la Suprema Corte de Justicia de la Nación aprobó por unanimidad el amparo en revisión 252/2023, elevando del 20% al 90% la pensión para padres dependientes de trabajadores fallecidos bajo la Ley del Seguro Social de 1973. La medida beneficia a ascendientes económicamente dependientes y representa un incremento de 4.5 veces en el monto mensual. Según Xataka México, este fallo corrige una desigualdad histórica en el sistema pensionario y tendrá un impacto directo en miles de familias que dependían de una pensión mínima. La resolución, aunque no es tecnológica, se vincula con la digitalización de trámites del IMSS, donde la constancia de vigencia de derechos es fundamental para acceder a estos beneficios.\n\nEn el ámbito energético, México enfrenta una vulnerabilidad estratégica: la infraestructura de gas licuado de petróleo (LP) solo puede almacenar el equivalente a cinco días de consumo nacional, según distribuidores, pese a que el 79% de los hogares lo usa para cocinar. Esta dependencia crítica expone al país a riesgos de desabasto ante interrupciones logísticas o geopolíticas. La falta de inversión en almacenamiento y la regulación pendiente en el sector son factores que limitan la resiliencia energética. Para las PyMEs, especialmente las dedicadas a alimentos y servicios, el gas LP es insumo esencial; una crisis de suministro afectaría directamente su operación. La combinación de estos tres hechos —telecomunicaciones, pensiones y energía— dibuja un panorama donde la infraestructura y la regulación determinan la competitividad y el bienestar social en México.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Pensión IMSS de Ley 73: padres dependientes de un trabajador fallecido pueden recibir 4.5 veces más dinero mensual tras fallo de la Suprema Corte",
+        "url": "https://www.xataka.com.mx/legislacion-y-derechos/pension-imss-ley-73-padres-dependientes-trabajador-fallecido-pueden-recibir-4-5-veces-dinero-mensual-fallo-suprema-corte",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Un productor uruguayo inventó un bozal para que las ovejas poden la maleza sin comerse los árboles frutales: ya se vende en 38 países",
+        "url": "https://www.xataka.com.mx/ecologia-y-naturaleza/productor-uruguayo-invento-bozal-ovejas-poden-maleza-comerse-arboles-frutales-se-vende-38-paises",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: IMSS Digital: cómo obtener la constancia de vigencia de derechos y para qué sirve",
+        "url": "https://www.xataka.com.mx/basics/imss-digital-como-obtener-constancia-vigencia-derechos-sirve-1",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Amazon está rematando la pantalla ideal para la cocina, el cuarto o la oficina: Xiaomi TV de 32 pulgadas con Google TV",
+        "url": "https://www.xataka.com.mx/seleccion/amazon-esta-rematando-pantalla-ideal-para-cocina-cuarto-oficina-xiaomi-tv-32-pulgadas-google-tv",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Megacable ya es el segundo operador de internet fijo en México. Superó a la misma Televisa que quiso comprarla",
+        "url": "https://www.xataka.com.mx/telecomunicaciones/megacable-segundo-operador-internet-fijo-mexico-supero-a-televisa-que-quiso-comprarla",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Millones de hogares en México dependen del gas LP, pero el país solo tiene reservas para cinco días",
+        "url": "https://www.xataka.com.mx/empresas-y-economia/millones-hogares-mexico-dependen-gas-lp-pais-solo-tiene-reservas-para-cinco-dias",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: El Grinch regresa a los cines en México después de 26 años. Así serán los \"Miércoles de clásicos navideños\" en Cinépolis",
+        "url": "https://www.xataka.com.mx/cine-y-tv/grinch-regresa-a-cines-mexico-despues-26-anos-asi-seran-miercoles-clasicos-navidenos-cinepolis",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Hay una función de seguridad en tu Samsung que conviene activar antes de instalar cualquier aplicación",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/hay-funcion-seguridad-tu-samsung-que-conviene-activar-antes-instalar-cualquier-aplicacion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Disney y la película de ciencia ficción espacial que tiene solo 25% de aprobación, pero que en Europa es una obra maestra",
+        "url": "https://www.xataka.com.mx/cine-y-tv/hoy-disney-pelicula-ciencia-ficcion-que-estados-unidos-odio-que-francia-llamaron-obra-maestra",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Parece un palacio flotante, pero esconde cuatro pisos bajo el agua: así es el Jal Mahal de India",
+        "url": "https://www.xataka.com.mx/otros-1/parece-palacio-flotante-esconde-cuatro-pisos-agua-asi-jal-mahal-india",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: México lleva ocho años subiendo el salario mínimo al menos 10%. Los empresarios quieren romper la racha en 2027",
+        "url": "https://www.xataka.com.mx/empresas-y-economia/mexico-lleva-ocho-anos-subiendo-salario-minimo-al-10-empresarios-quieren-romper-racha-2027",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: One UI 9 Watch empieza a llegar a los Galaxy Watch8: nuevas funciones de salud, sueño y brújula mejorada",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/one-ui-9-watch-empieza-a-llegar-a-galaxy-watch8-nuevas-funciones-salud-sueno-brujula-mejorada",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Un exinvestigador de la NASA quiere que tu próximo Nissan entienda el tráfico urbano y hasta decida cuándo prender la luz de tu casa",
+        "url": "https://www.xataka.com.mx/automovil/exinvestigador-nasa-quiere-que-tu-proximo-nissan-entienda-trafico-urbano-decida-cuando-prender-luz-tu-casa",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Durante un proyecto de construcción en Hungría, encontraron un tesoro con más de 200 monedas de plata que tienen 2,200 años",
+        "url": "https://www.xataka.com.mx/otros-1/durante-proyecto-construccion-hungria-encontraron-tesoro-200-monedas-plata-que-tienen-2-200-anos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Tiempo La Noticia Digital: Declara Microsoft \"código rojo\" tras falla histórica🎦",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSUlaSlF1TUJXQUJhYlJTc2x4a193cHNGaEFtQ1VGeFpha3RSZ3RVQ29oUkN6T0FlT3VzYmF3Z19yTXBmY0R5Tl8xci1zSXlYc2RpYTloZ0oxX2FwN3hMUlRQYzNUal8xQ1Vzd2F0MzFvcVhsOTdHb3N4dkJsdm1NLUNacw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: ¿Cómo hacer stickers con audio en WhatsApp?",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdl95eVVDR0lnYzBnc0JVR213bUdOemE0SGpvZHdZaW9HcWJ1Qm9wMDVBSVdvMy1Yb0VMN2ttZ1JYeDBpV0F4LWtLbGFCS19LVUJlVExjazVONkc1UGNodDRON1gyZVlBR3BLZ0k0Z1pnOXBiZ3MzaV9yTm9ORkpTUTZhM25Nck0x0gGcAUFVX3lxTFBRTmk3SEtXZjlrQnUwcnM5U0dRVnkyLW1ZUTRHM080MTRkZ2RaMmhRM1FEV2p5T0UxZE1tdW9fLXRYYTBndWE4UFd5Y29mbzNRd1JfaG9wX1lSN2NHTFNEcFRvZXVJLXN4bUFYUnM2Q1pIcDVDbmVhVW52V2pIV3ZEblVCTlVzTHRRYmlUbTFBZUc4SmViM0xxZTV0ag?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: \"500.000 muertos\": la filtración de datos que revela las abrumadoras cifras de soldados rusos fallecidos en la guerra de Ucrania",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83elFhNXh3Z21nalBrdEhzaEdHSUdET2xIN3V6Q1lEMGtlcjVFTTVyN1VpS2VlN3VzNGdxd0pMSWt0NVNHZXNNNHFXWjBCWjNDZjdjR1diaXBycThv0gFiQVVfeXFMUHdGTFh3MFVRZU85U2U1QjhYTmRuMVVBNzYtd0NZX3ZZMVBfMm54dFZqcDhHV09RbDFNSzNZZEFUV0cxS0FtYXZ1ODhEVDhaSlhQTFFsQW8ydDdVYnJyNF9xZVE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "CNN en Español: Los republicanos se distancian de Trump por la reincorporación de Jensen Huang a Nvidia",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX1VfLUxvQ2hJYjdlNzZpejR0SF9NVXBHbFZFbjFlU2s3MEZjTExyU1lRWjlUb045bUVMd1Q3MU9XcWR3bmJIWDNSeTE3SjlOaElvNmZ1dzBlcll3LU9lTnlGaG1wdk5Kbl9OTDZyYmE4UXc2b25OczU1b200dHBrbWE1WkNqQmJuUVA2Yy1Cbw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: GTA 6 para PC da sus primeras señales de vida y ya muestra las Pantallas de Carga y Configuración",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwOWFYWlJuTDl5eElFS1ZpY1ZqMGJxTmJISXg5ZGJ5N3hoN1IwcXF3cHZfTjc1Y3FCdDBMNTQ1bjJpLWdHX0RJU3Q0V25uVDFvV1NROE10NVRFdXNxbkkwckRoS0JSTmY4ekVsUHN1UFhKOU94NUZ3UGdLMS1oeDQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Inteligencia artificial: cómo una disputa entre matemáticos aviva el temor de que la IA pueda socavar la ciencia",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Operaciones contra grupos criminales en Sinaloa serán permanentes: García Harfuch",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY2NyM2tfRDlqZVBKZW1RVEs1UjYzbWlVcEt5ZkVsaFNCOTAxNVJTT1FfSGxvMXVpc2RWd1FOSGdvUy0zQTRsYXVEZzRvbVhPaDZWQ25DN29FLTRJdmF6b0c3cy1vOW5ZalhPUF8xWWpOeDdXSmFTcmpmTndWQTZhWFVQYWZrWURVRUR0NHNXSkJLRUw2TmJ1bjU5THBHQndrMW5pSVNqMy0yQVlHZkdUZTlIZjBkanU4NWhmVXoxLWZHZVJFbm9qM09qRHZfQjFT?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: El miedo del gobierno a la IA y a las plataformas digitales, escribe Javier Tejado Dondé",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTXB1eVAzaThpVFFKdnVSdGxMWmZZWk1qQlpqRTVscnE2Q090ZWJrR1R0UHJnOERrNzhNT0JjMXZENEc2emdzM0dseE9DUEwtSUhIRVJLM05QNTRDN1c1Z3N1dFJhZGIwS1oyemhZRG1JaDF4emtFci16M05DR3M5WXdVUm1zWFdCcUJDOUVVUHU4WDVod0NBRGtQM1Zoc0NXZGRTUDg4dk90Mm1TYi1lQi05SmtPZ1N3T2NJ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=KrinGhRjOeA"
+  },
+  {
     "id": 1795629605044,
     "fecha": "2026-11-25",
     "categoria": "Farándula",
