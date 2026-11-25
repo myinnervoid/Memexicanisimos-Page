@@ -72,7 +72,8 @@ window.MEMEX_NOTAS = [
         "tipo": "Prensa Gaming"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=b-qwZkumZCc"
   },
   {
     "id": 1795575084169,
