@@ -1,5 +1,81 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795647610323,
+    "fecha": "2026-11-25",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Dragon Quest XI S llega a Switch 2: Square Enix apuesta por el catálogo de lanzamiento",
+    "descripcion": "Square Enix confirma la Definitive Edition de Dragon Quest XI S para Nintendo Switch 2 con mejoras técnicas y contenido adicional, a un precio de 60 euros en formato digital. La compañía busca impulsar el catálogo de la nueva consola con uno de sus RPG más aclamados, que vendió más de seis millones de copias globalmente.",
+    "narracion": "Square Enix ha confirmado oficialmente el lanzamiento de Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition para Nintendo Switch 2, según el tráiler de lanzamiento publicado por 3DJuegos [VF2]. Esta versión incluye mejoras gráficas sustanciales, tiempos de carga reducidos y todo el contenido descargable previamente publicado, además de la banda sonora orquestal, modos de dificultad extra y la posibilidad de alternar entre gráficos en dos y tres dimensiones. El juego original vendió más de seis millones de copias globalmente, según datos de la propia Square Enix, lo que lo convierte en un título de peso para el catálogo de la nueva consola híbrida.\n\nEl movimiento estratégico de Square Enix responde a la demanda de los jugadores que exigían la llegada del título a hardware de nueva generación. Nintendo Switch 2 busca consolidarse con títulos de peso, y este lanzamiento refuerza su estrategia de retrocompatibilidad y optimización. La decisión corporativa se produce en un contexto donde las consolas híbridas ganan terreno frente a las tradicionales, y donde la industria sigue apostando por remasterizaciones y versiones definitivas para maximizar el retorno de inversión en franquicias consolidadas.\n\nEl precio confirmado es de sesenta euros en formato digital, aunque la compañía no ha revelado aún si habrá una edición física especial. Este lanzamiento se suma a otros anuncios recientes como el tráiler de Well Dweller [VF1] y el remake de Profesor Layton y la Villa Misteriosa [VF4], que también buscan captar la atención de los usuarios de Switch 2. La estrategia de Nintendo parece clara: rodear a la nueva consola de franquicias reconocidas y remasterizaciones que aseguren un flujo constante de lanzamientos mientras se desarrollan nuevos títulos.\n\nPara los jugadores en México y Latinoamérica, la llegada de Dragon Quest XI S a Switch 2 representa una oportunidad de acceder a uno de los RPG más aclamados de la última década en una versión mejorada. Sin embargo, el precio de sesenta euros en formato digital, que probablemente se traduzca en un precio similar en dólares o pesos, supone un desembolso considerable para el mercado latinoamericano, donde los precios de los videojuegos suelen ser más elevados debido a impuestos y tipos de cambio. Además, la ausencia de una edición física confirmada podría decepcionar a los coleccionistas de la región, que valoran especialmente los formatos tangibles.\n\nLa industria del videojuego sigue apostando por las versiones definitivas como modelo de negocio rentable. Square Enix, como otras compañías, busca exprimir sus franquicias más exitosas con relanzamientos que incluyen mejoras técnicas y contenido adicional, atrayendo tanto a nuevos jugadores como a aquellos que ya disfrutaron del título en generaciones anteriores. Este enfoque, aunque criticado por algunos sectores que lo consideran una falta de innovación, garantiza ingresos estables y permite financiar nuevos proyectos. En el caso de Switch 2, la retrocompatibilidad y la optimización de títulos anteriores se perfilan como pilares fundamentales para asegurar una transición generacional fluida y mantener el interés de los usuarios.\n\nEl lanzamiento de Dragon Quest XI S en Switch 2 no solo refuerza el catálogo de la consola, sino que también envía una señal a la industria: las consolas híbridas son un mercado viable para los grandes RPG japoneses. Habrá que ver cómo responde el público latinoamericano, especialmente en un contexto económico donde el poder adquisitivo de los gamers se ve limitado por la inflación y la volatilidad cambiaria. La decisión de Square Enix de no confirmar aún una edición física podría ser un factor disuasorio para algunos, pero la calidad del título y las mejoras incorporadas probablemente inclinen la balanza a favor de la compra digital.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos: Tráiler de lanzamiento de Well Dweller",
+        "url": "https://www.3djuegos.com/48814f60602/video/trailer-lanzamiento-well-dweller/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: DRAGON QUEST XI S Echoes of an Elusive Age - Definitive Editionï½œTráiler de lanzamiento en Nintendo Switch 2",
+        "url": "https://www.3djuegos.com/48803f60600/video/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-editionitrailer-lanzamiento-nintendo-switch-2/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de anuncio y lanzamiento de Dimraeth",
+        "url": "https://www.3djuegos.com/48788f60596/video/trailer-anuncio-lanzamiento-dimraeth/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de presentación del remake de Profesor Layton y la Villa Misteriosa Remake",
+        "url": "https://www.3djuegos.com/48777f60589/video/trailer-presentacion-remake-profesor-layton-villa-misteriosa/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Juegos mensuales de PlayStation Plus de diciembre: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2, Amnesia: The Bunker",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPaHZDRHBjLTUxV2MyTm0teXVmbS1sYS03TzlfWXF6cFVzazZSTmZnY214X3FlNFVEOWNkQzhfNDRXanhtaDJEWFg4WGFzMXFOUHhQa095YXNuY1UxWUhIdVM1ajFTRVJNVzBrWXlyaVZjV3RzcGVMcDlCTjNlbG9YaDl1YzNMUnhMOTFsRWFqTWtWNXVFZTM2eTRCazlWc3Jscm9lUGVfZkZJODcwWWNaY3REWFR0X3ItM0V0amgxTF9WclBIeW9aR3U1Z3VYR3NZMXU2bG1oM3V0OEkwWFU5am1iNEdhLUxfRTk5X0EwYlhla3R4QVAw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: PlayStation Plus: confirmados los juegos gratis de diciembre de 2026 para PS5 y PS4",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSHRhUEc2ZTNGdG03MUJFNkVWdkpKZ19nN0RSSHBfU0hHRHFoWm5zUFFSQ3ZNNE16YzRnc1ZESTkzV0lwTVpvaEdvNkJ5OXdiVjJmTno3VUhHajhtT0lacklLZjN1aWhKODJSb2FST3V1Z3ZFcFlidkU1TVVrMWl6REEwUm9RZExaRUZISkNvWWdETkpFSk5WczFpTGxmSDR0dXc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "DiarioBitcoin: Nintendo patenta una posible segunda pantalla para Switch 2 con ayuda del primer Switch",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbnczazF5YWd5ckY5dWg0dC1UeFp2U21ibmdLcEJtRm5DWGRTdTNydEE0c3dPWnc2bVRndUhtS0lGYVcyVEFiTUh5TnRVN3VOTzdYLUhiVmZYcTdadTRxdmE1X2xCUWNaRm43N2lQbE1PTUN5Z2ZDZV9YN2NNcEQ4R3ppNjNrdkpEbzdRTHAzOEd1YzVtR1VZQ0ZvazBVUG1hSkhWZUg4UXg0NU9QOXlsa19Ha2tCYTF5MnBQS21KZlp1ZjlFV29Seg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Universidad Veracruzana: Historiadoras analizaron el cine y los videojuegos del siglo XXI",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObG91Rno5Qm9oZzV2WkZ0NEw2OHp5dlJpTF9ELXJ5YWZGZ05HSm1TSUUxZ1JhYXp6RnE2MFhNc01VMVNNRUFvOXBUbnFiV0ZKYVFIeXpFdDdCSElOOHhuN2tuUy1FSG13WXlyWXlRZ3NXbklDeDVBY2JFRjNibC0xLW1EaHRLZkN3ajBid1dwRkVZOHEwS0dQSXFpUTVPOEU?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintenderos: Nintendo registra nuevas patentes que permitirían usar Switch como segunda pantalla de Switch 2 para juegos de DS o 3DS",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT1RRRF9SSXFyekpJMi1mM25waXZjSlFvb2JKR0EzSzNvRTE5aXlxczkwYktrVHRubEhlNDN1RVg0UEIzOTVtbG9YMGRKUUtoZGpENTI0akNlUFdmbnRLbGZCM19Xb3hIeVd4VExXWHFIeG1WcmJLQTNMX0dRWnZuRjRFTVczazlGdEhBRVpQa0FRaXdBbDB5bU9adFZwQTZfRnIxNGp0STd1S0d0S0MyRzZmaTZyLVhYZDNSNGhvaE83RElDN3BMTVF3cUtaR2lmUTNHMHpFS0s2WWRVa1dPSWhFR3cxOE9rSU9mUDFvTms5bmRMYno4el9n?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: ¡Ya está disponible la actualización a la versión 1.9.0 de Mario Kart World!",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbDVlUzFBdkc0UTdvYlhsbUd2Tm9UOXJSQTdFbHk3UWJPa3BYcFFCRFFOVG5YbFY2Y3NwaV9CUW5EX2RxUUNFSzZwR3RkeERtc1BHSHQ4TjRwYzFad2p5eWlMTmhpT3dfSWNwel9rZGRqN3NURmlHVnNlcTJGU2s2eW1oaVB1Mm13bUtUbGw1eklvS2lwM0tOQllQMHQwTFhaT3hPZXo3VmdfbnptRFVqMUd3MWxQVXpCcXBrNEhlZnpSZ0FucjlRRXJoLWl2RnJaSVRjdzdJZVpTWHNQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Milenio: Attack on Titan 3 confirma su lanzamiento en Switch 2, PS5, Xbox y PC: fecha y todo lo que incluye",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMTNYVDI2X2lCcFNBM0x4UktWM3BLREktTEQyUWhPNkpEZzNwWjlqR2Fya0U0eEJsM0w5UXJscHA4NFhFUHl3UlNVTVlFekFJWERISTJ6NVJBUzZmUVlMZnJMSFF6bUNlX2NOVVZwaVhyVU0zbU95UE53dnNrODl3MU9wUV9SS2NSdUNROWdnMmo3MEV5c1Q1ejNPT1c1dXFKSGZr0gGjAUFVX3lxTE9sQmd1c25ScnJtanlKNFRNOVZtdlB5TXlBZDlLNkMycVY0UmVCZEJLWExTbjdlaTBrUm1LeDFpLWRKb1QzWVlRQlhjNWswUGJhNm1yLU01MExNT3I3SlRhcVlTU0ktbjl6dTZRZ0dubUFHcUd2OG5xbnNLOEtBUWc0ZUl5NEoxdGhuMFFqTlhGWEpOekh0TE15V1RiQS1Ma2ItcUk?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: XBOX necesitaba buenas noticias sobre sus ventas y acaba de recibir una en su mercado más importante",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckd3UzA3eE9nQjAwaGFraVU0MHdNT1NYTmFxOXRBZlhmU0lkaVMzaUtHXzdhbzI2ZlY4R0hFcWUyZE56SkpDQVVNbHV1bk52ay0wMmpNVVktbHZGQmJrcmlGb2tXMTN1dTNxdzRma1d4Mk1mNGdUUkJVVjVPWjExM3JTQ2F5QXJNYWJDZzRhUTF2QVBNbFB1Z243a1poV1hSbmczVTRCSmxXamJhUnB0dHk2N3R5Wmh6ODNxQlI0Wm5PLVJtSmfSAcsBQVVfeXFMT1ZPSkFjdDVqeV9OUmR3R01SM3FHUTJsYlJWUkpFc3IwdDgzaVFaVHloQjZiN3hoS1VmUWxHdy1GOW8yVkEzX0E1UnZMZHZWY00tRGJ4X3gwN0lZVDRpSG5MZ1hqeFR5a0JnQ1RZVnQyaktPdWNLVTY2QWlWYUJmTEJKRmZlcjlGN3RFWmFuaDNReGk4MmluWkw2MGRqRldUdnlUWkJwZkRmM25jUmdLUWhVQ0xWM0FvaHhVeDdGQnVHR1JueEk1dGpCZFk?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=JZDPkCYIRto"
+  },
+  {
     "id": 1795633206166,
     "fecha": "2026-11-25",
     "categoria": "Tecnología",
