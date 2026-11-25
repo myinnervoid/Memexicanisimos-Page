@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795629605044,
+    "fecha": "2026-11-25",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Antoine Fuqua y su hijo enfrentan demanda por presunto ataque con arma de fuego",
+    "descripcion": "El director de 'Michael' y su hijo son señalados en una demanda presentada en Los Ángeles que exige más de 50,000 dólares por daños emocionales y médicos; la producción del biopic de Michael Jackson continúa sin cambios.",
+    "narracion": "El director Antoine Fuqua, conocido por cintas como 'Training Day' y 'The Equalizer', enfrenta una demanda civil en un tribunal de Los Ángeles por un presunto ataque con arma de fuego ocurrido durante una reunión privada. Según la acusación, en el incidente se exhibió un arma de fuego y su hijo también está señalado en el mismo expediente. El demandante exige una indemnización superior a los 50,000 dólares por daños emocionales y médicos, cifra que podría escalar si el caso llega a juicio. La demanda fue presentada hace veintiún horas y la primera audiencia está programada para dentro de tres semanas.\n\nEl caso adquiere relevancia porque Fuqua se encuentra en la postproducción de 'Michael', el biopic sobre Michael Jackson producido por Lionsgate y Universal Pictures, cuyo calendario de estreno no ha sido modificado. La industria del entretenimiento observa con atención las posibles consecuencias contractuales para el cineasta, quien no ha emitido declaración pública. Sus abogados preparan la defensa y se espera una respuesta formal en los próximos días.\n\nDe acuerdo con la información difundida por El Universal, el expediente detalla que el incidente ocurrió durante una reunión privada en la que presuntamente se exhibió un arma de fuego. El monto reclamado supera los 50,000 dólares, una cifra que podría incrementarse si el asunto llega a juicio. El equipo legal del demandante busca una compensación por daños emocionales y médicos, mientras que la producción de 'Michael' mantiene su calendario sin alteraciones.\n\nEste caso se suma a una serie de controversias legales que han afectado a grandes producciones de Hollywood en los últimos meses. Para la industria cultural, el episodio subraya la importancia de los protocolos de seguridad en reuniones privadas y los riesgos reputacionales que pueden incidir en la comercialización de una película. En México, donde el biopic de Michael Jackson tiene una audiencia potencial significativa, los distribuidores siguen de cerca la evolución del litigio, pues una eventual sentencia podría influir en la promoción y en la percepción del público.\n\nLa demanda fue interpuesta en un tribunal de Los Ángeles y la primera audiencia se realizará en tres semanas. El impacto en la carrera de Fuqua dependerá de cómo evolucione el proceso judicial. Mientras tanto, la producción de 'Michael' continúa en postproducción y no ha modificado su fecha de estreno. La industria del entretenimiento permanece atenta a las consecuencias contractuales que podría enfrentar el director, así como a las implicaciones legales para su hijo, también señalado en el expediente.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: El director de \"Michael\", Antoine Fuqua, enfrenta demanda por presunto ataque con arma de fuego; su hijo también es acusado",
+        "url": "https://www.eluniversal.com.mx/espectaculos/antoine-fuqua-director-de-michael-y-su-hijo-enfrentan-demanda-los-acusan-de-un-presunto-ataque-con-arma-de-fuego/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Robert Pattinson hasta en la sopa: todas las películas y franquicias en las que está involucrado",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/robert-pattinson-hasta-en-la-sopa-todas-las-peliculas-y-franquicias-en-las-que-esta-involucrado",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Silvana Prince, mamá de Vadhir Derbez, lanza contundentes mensajes tras las denuncias contra su hijo",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/silvana-prince-mama-de-vadhir-derbez-lanza-contundentes-mensajes-tras-las-denuncias-contra-su-hijo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Leonardo Aguilar se compromete con Adriana Caballero: quién es la modelo que llegará al altar con el cantante",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/leonardo-aguilar-se-compromete-con-adriana-caballero-quien-es-la-modelo-que-llegara-al-altar-con-el-cantante",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Diego Góngora: el arquero quintanarroense que cumplió su sueño olímpico gracias al apoyo familiar",
+        "url": "https://lachispa.mx/diego-gongora-el-arquero-quintanarroense-que-cumplio-su-sueno-olimpico-gracias-al-apoyo-familiar/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Abogado de la presunta víctima de Vadhir Derbez rompe el silencio",
+        "url": "https://lachispa.mx/abogado-de-la-presunta-victima-de-vadhir-derbez-rompe-el-silencio/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Laura Zapata, molesta por cambios en la sentencia de la enfermera que atendió a su abuela; podría cumplir su condena fuera de prisión",
+        "url": "https://www.eluniversal.com.mx/espectaculos/laura-zapata-molesta-por-cambios-en-la-sentencia-de-la-enfermera-que-atendio-a-su-abuela-podria-cumplir-su-condena-fuera-de-prision/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Delfina Guzmán, actriz que desafió la dictadura de Pinochet desde la cultura, muere a los 98 años",
+        "url": "https://www.eluniversal.com.mx/espectaculos/delfina-guzman-actriz-que-desafio-la-dictadura-de-pinochet-desde-la-cultura-muere-a-los-98-anos/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Fortuna de Hayden Panettiere asciende a más de 6 mdd; la actriz murió sin testamento",
+        "url": "https://www.eluniversal.com.mx/espectaculos/fortuna-de-hayden-panettiere-asciende-a-mas-de-6-mdd-la-actriz-murio-sin-testamento/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: La exprimera dama Carla Bruni irá a juicio en Francia por una acusación relacionada con el caso de Nicolas Sarkozy",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/la-exprimera-dama-carla-bruni-ira-a-juicio-en-francia-por-una-acusacion-relacionada-con-el-caso-de-nicolas-sarkozy",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: ¿Quién es realmente Taylor Swift? ‘The Mastermind’ expone el lado más polémico de la cantante",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/quien-es-realmente-taylor-swift-the-mastermind-expone-el-lado-mas-polemico-de-la-cantante",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Maite Perroni regresa a las telenovelas después de 10 años: protagonizará 'Para volver a verte' con Camil",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/maite-perroni-regresa-a-las-telenovelas-despues-de-10-anos-y-protagonizara-para-volver-a-verte",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Hannah, la Tik Toker de la familia Azcárraga",
+        "url": "https://www.quien.com/espectaculos/2026/11/23/hannah-la-tik-toker-de-la-familia-azcarraga",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Miley Cyrus se casa en Saint Laurent: todos los detalles de su vestido de novia",
+        "url": "https://www.quien.com/moda/2026/11/23/miley-cyrus-se-casa-en-saint-laurent-todos-los-detalles-de-su-vestido-de-novia",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Telemundo Las Vegas: ¿Quién es Jennifer Barreto, la primera madre en coronarse Miss Universo?",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSkFkVmdaYTBaSHM4N2pQNGJZNm5oRFM4WW9sem9RZXgtQWZ2eEY1SXRDUnlyU0NlT0t5RkdtRHpqaHpqajhpakI2dGRnM1RoeW5RRWZYZjV4VldraFlnQUw0LThKVUhCUUdrbTVvWmxrN21JSUpZRXJBdUFHUV9LNnluZW13YUc5RjNPRC1wdHg4cUhDZXFDa0tFWUxQUjFEOFFKUkd5QXhWa3hxQl9WZl9zeGNlTGtpWWlzLWRzMjJaVWx5QmxySDRZc01NZTVpT2FV0gHbAUFVX3lxTE0xaUdLWVVVNFRJNkR0OTN4dEQzN2l3OUZrZmw0NWRIbG8zWHRacmwzTWc2UlFxV1VSYXNrbXJzN2pPU3J0dWs0M2NMR0REQXp2MnpEWExyakhTN1BkQmRrbmt1VWctd3QwUXlkOUVTcmd1WFgyTmJiQ01Dem5SYlBYLTVJanJBUU1Hal9jR3plLUdZQWtwRXZCTk91T3JYQ1hoMWtXNW0tV0JycFNRRGQtMXFpT2lxZWFEZGdSb0RaRXh2NVhncE1NSFRKajNWUjNTM1pnTllRV2NrYw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: Fiscalía responde por caso Vadhir Derbez y confirma que la investigación sigue abierta",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTmNjNU9qbWFWWFBvN3V2Vl9fMEkzalFkOEVUcTlVYmhHcGdhb2U5TXdFMmUtWkltUVdWeHpuYWVTTnI5VnllNnIwZFdHT0R2VEZYd1ZtekdoWFR6VUFESHFzNE96czFWaTdnVTFJdlRrakc2U1JvR1hnVklHT2pxUEJWUy1UYThaOVV0em93LXlSVXZjLXY1dHBDbEFnZHNJdEhUUUhHMHVmaG4xMW5ySGZpY3I2ZGRSbEVRb2VnT2Rldjg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: ¡Encuentro de bellezas! Fátima Bosch recibe el respaldo de cuatro Miss Universe en la recta final de su reinado",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOblkxM3FGdTB5bGxXM3kydWJ6RzZ4LUtwdGVOVHVmNEZHY3ozWmZNVm5meFJrTDNSQ012OHdQRmJER1hZRWJ5X1VnZ2JDc1JKTVNlbHVuek4wNGhWRVkyRmFNSGo2VHYyRXhMY254ZXR0TjhrNUVtWG9rQUtQOHRBMGRxSkNpUXVKZUFBUDUtbld5VkM1MFJUUFFXOVVZSnFobnlMQmJZaXQzcDhtRlpXS0hPM1dsTDZlNThvUzJ4ZGxZTXhYRkRxcGVLb3EtOUE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Aseguran que Mariana BO se queda sola tras comida con José Eduardo Derbez; él habría escapado por la cocina",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNU2x6RnZTb1pTMFo1bnprNkh3ZjdBSnV3QUowd0pzZmRUeXo2OERhQnlsY1c4SHBLR0xZTHVlNk10OFdBSTlNYlFDUkhHUGc3TDFNZXdKUl9INVFyMXNJS1NrY3RKODVXTGFLNS1pUnJEX2QyYXI2UGhTTHd3UTJCelpBcUlWV3pwaExEb0lpUFVxYTg3djFKMWNuVmpKV0pKMkQ3RlNNMUo1V0k3dmppQ2FkV09VWHo4Z0xac0lXMUc2bERWSzNkRUNsRXB2Q2ZULUEyeVQtalVKWkc1bEtNVkFjTdIB_gFBVV95cUxQak1IbVNLcHdoZFEwRFFwTTFKZUc2MUdsQ0VvVUJxSk10bldLdEc5aGJ3QUtSM3dUR3Y5THV2TGJ5Zzg0dWZBdlJUc1NlLXdiNnFNelFaUUNGZEU0VmxjWjJPaW9nYktxeVdnaVBfNkVKdTJnVk5LU1AtM0NDVU5zWVgwazIxdVdNV3JiUko1aFVUZExsblFlamZMdV9GeFBPX3E0U0RmMVZpdHlPWUMzTmNhckZrSEhSb3VKWWl5akMxNWF0YnFXd0w1SVVRaGpzZTFvSmxWWHpfUV92LTlkM25UV1JZMk5KV1llS0pRVVlqcEpBeTVVUTlzV0RZdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: Acusan en EE.UU. al padre de Meghan Markle, esposa del príncipe Harry, de posesión de imágenes de abuso sexual infantil",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BVXRmcnVsMnRjLWJlWHMyQkVhUklVN2JZWTROY1pBTHI5UnpUYXJhWGotZXJfRVlaWVhoLWNCdV9yRXloeU9nV3NSM1NpQXVsdGFVNjM4dU8zSUZU0gFiQVVfeXFMTXJPclhzaVZ5V3BCMWw5MUtrYjB5ZTNwZmdBSDBKMDdLM09BSjNRUTJZM19vbXktaklRLVRvYnZoYkN5bUxDU1k1aDBxRFVoeDFtbUdRVW1CM1hvMDhhX3NTLXc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: La Granja VIP nominados: Quién nominó a qué Granjero en La Asamblea de la semana 11",
+        "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcDVheGZjTDFjQnhhNXg4QmlCZUxuaGZjX2dwQS1CVUdoeTJ1anNGQkFBN0Ywb09jU185NTA5LVdWT2V6RDAtTTF1d1BKZTNuYnk1TG1UMU84MTNkYXRRczVMNGpUOUhvWFBPLWpVSXJjME5lcjh6VHQxZVhlSnVidFJnWUlXblM5Tl9CY0UzSTVRMlMtYWNmUEx2WTJMdkhoN211QWhtVWlCZl9zM3ExV2NOQmV6SWwtdDNLR1pvWlgtRFlLclJEajdOeVQ0RW5QaWt4eWttUkhvZTQ3c0lKTEVkS0lUWG5yNnhJZERIV0NxeEVIbjQwVWN0aWxzLTNyVGJmVHlQZEcxVWZ3Z192OFppTmRtaXF5TDN0UHhKZ2hES2UwZkltOFFtbFhQQlltTFZMYmwwbW5KZ3o5LV9jWV9PZUQ4aEdyQ0c4cUxUbEhSYU93TFJwYndiSG1fejVUWXdnZXZ3YWh2cVJBMWFNZXVYSy0tcGdpRnBnN1pUT2d2WGRHYk4zelF6SGhaalVL?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Tiempo La Noticia Digital: Recibe 74 latigazos cantante iraní Parastu Ahmadi 🎦",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaUZtSEJrVXNqdGhjc21FX1FHNVVpdEo5Y3pfaVVSLVdHWHRYQi1mTjlJaENNRWZiR3IzZWRDb0U3NDY2YWM5U3JQcmRtOEY2c0xEbVljamJhelhleFFNT3BmdTA2WGctR1AxdVRaTi1mVzdoR253OWdyZjY0bVZKZThoRQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "MILENIO: ¿Cuál fue su error? Éste habría sido el DESCUIDO de María Vargas que DESCALIFICÓ a México de Miss Universo 202",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSXVkSGotR1gzcUdaRWRIQ3liUy13RmZxQXUxNHBxNWx5bC1WSC1RUHo4VTRGeGpGbTVfSXlvOFpIX2pDN2t3VHJfOW41WGQyRXF4dDk0QzFISXVJUFBNMjVOSkl1dFJDT3N0WENSTFZNZ0V5MnZEbDExSjM5MG1HNE04QkpMaTJQeTRwbC14dUFIdk5XSVQ4d1Y3WUV4MlEwQ3Vr0gGjAUFVX3lxTE1TNWJ2c0lPRU9FT1F2amJ2aS0tTW9hdTFDLVEySnlJaWJWdmRqTmZ2Q0NpbHVURmFSSndjQmxMTjl3SU1pbWMyOHoyVmZHV05fZDc0WjJ6OW00TmpoYmFnR2M1QzZNZS16MDVKVHcyNzUybllUdG82QWJQd2NuTU1FdHlnX0N4aUVoZkhwR1B6TG1ubkprNFRhS2FkYkJQc0xueGs?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=AUjBDegUwYg"
+  },
+  {
     "id": 1795575087087,
     "fecha": "2026-11-24",
     "categoria": "Gaming",
