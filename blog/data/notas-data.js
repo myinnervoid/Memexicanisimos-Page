@@ -1,5 +1,60 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795568405393,
+    "fecha": "2026-11-24",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Seguridad, justicia y economía: el pulso de México",
+    "descripcion": "Sinaloa bajo operativo federal, inflación al 3.96% y tensiones institucionales marcan la agenda. El gobierno enfrenta desafíos en seguridad, justicia y bienestar social.",
+    "narracion": "El tablero nacional de México presenta una compleja interacción de factores en materia de seguridad, justicia, economía y desarrollo social. En Sinaloa, el secretario de Seguridad y Protección Ciudadana, Omar García Harfuch, anunció que las fuerzas federales permanecerán en la entidad hasta que retorne la paz, en respuesta a los recientes episodios de violencia. Esta decisión subraya el enfoque del gobierno en restaurar el orden público, aunque persisten cuestionamientos sobre la efectividad de la estrategia y el respeto a los derechos humanos. En paralelo, la justicia mexicana enfrenta casos de alto perfil. La detención en Estados Unidos de Inés Gómez Mont, tras tres semanas en prisión migratoria, y la esperada extradición de Fausto Isidro Meza Flores, 'El Chapo Isidro', evidencian la cooperación bilateral en materia de justicia, pero también los desafíos de los procesos legales y la protección de garantías. En el ámbito económico, la inflación repuntó a 3.96% en la primera quincena de noviembre, impulsada por el aumento en los precios del jitomate y el tomate, según datos del INEGI. Este indicador, aunque dentro del rango objetivo del Banco de México, refleja presiones en la canasta básica que afectan el poder adquisitivo de los hogares. El secretario de Economía, Marcelo Ebrard, informó sobre el análisis con China para aumentar las exportaciones mexicanas, una medida que busca diversificar mercados y fortalecer la balanza comercial. En el plano social, la renuncia del exalcalde de Cuautla tras la polémica por la boda de lujo de su hija pone de relieve la exigencia ciudadana de austeridad y probidad en el servicio público. Asimismo, el abandono de una bebé de seis meses cerca de la Basílica de Guadalupe y las marchas de trabajadores del IMSS en la CDMX y el Edomex reflejan problemáticas de vulnerabilidad social y demandas laborales en el sector salud. Estos hechos configuran un escenario donde las instituciones enfrentan el reto de responder con eficacia y transparencia, garantizando derechos y promoviendo el bienestar colectivo. La ciudadanía observa con atención la capacidad del Estado para gestionar estos desafíos de manera integral.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "EL PAÍS: Washington aguarda al Chapo Isidro con una lista de antiguos cómplices dispuestos a hundirlo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSFZYcEFHTW03T0JZRjV3N0ZNOTdwb1doekxGQm10QWNTbVNjb2hkZnJqV1NTMEo2eHRXQmNGR3B6Rmp3ekpPVXBaSk9NemczZTFWT0VQak1tanY5d3NrWG56ckZMaXYxMExEN1RpTEhOVnlkNk93dEdheUxQd3FiZGV3VC1nX19McTJzUlI3NlNsakpNS2NxdmhsN2doY0VfR2dUaWh6aG9rSGJfUE5VS1ptMmo4cV8wVThwc3BZQUk5YXNlc3dpMWhB0gHeAUFVX3lxTE9WR2d3SXFHQmV0WkZWNGxZY2VWbWdJbmhHLWpMb2YxZUtrQUI0WEYtRWpXb2laN0VleHJweDhfNEQ4Um9ZWHVZWlRBZFZCdnJEVi1sOGxqQm4zWUZoRUFtblFmSXdpWlJ6M203cnVnQ2FsRlpNLTN2d3QzMWJWMUwyQ1NLVGZRMTZLZVdDRlIyVS1LZmN6N2N2dW13blA5VGhNT3RYWlVTRWZnTFJlZ2VQU0o3T1gxMmhWaGt1MXk1azd4SG9xRHdHV09IaG4zWjk2eEtneGJNQU1RVGdmZw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Inés Gómez Mont deja la prisión migratoria después de tres semanas de arresto en EE UU",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNmVsUlRzYkhoQ2Myd3Z6bHJsbW1neWNfV1U2MGZWeG9LMW1ueXlfTEZSTXlKdkFZbWt4RHpELXRsX1ZjdlprdlBjQlU0R0d5cHJjQjlOQS1qejc4STFPTVFWbnpFWGw0Uno4S3B1Mm01SVpJQnlDM3dLVFlkRnBGdTNFVkZVbGNJZUEzX0QzWWJVWjAyN1hPRF90Znc3Tl80N2RCNUdpallVeTdpUWw0V0JpekNYWGl1bWpCa04zUUJ3Uks5?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Boda de lujo le cuesta el puesto: Exalcalde de Cuautla renuncia tras polémica por la fiesta de su hija",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbHFXV1d0SUdiZmJZaTBXMms2bHhlMWxvNGEtNkJhamNyYlM1ZGdTT29wa081d21EbVFudTIxZnZtUjdTcnV3X2FuNE1WWjNZeU1QWTd5bV92WERjczBZVEtocWdQbGNRRFpqS2ZmUGdMTmQ0RDhfLVRpWWRFS2VqSDVZa3lHS3dfbmVnTmduOW1aNGZKR1hiRUh1WFd0ZzZQcjctclpLeDdzTmNZcTZwQ1VWdFdTdU5fLV93eTFaUmZyalJWSWUwMXM0UUltX09nMTZNYTRPa1o3dVgyVjNaUk5LY2ZKenV2?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Inflación repuntó a 3.96% en primera quincena de noviembre; presionan jitomate y tomate",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYVJtQTNxbTJnNGhrMnJpY3JZNW9vUk9SdlQ0aDF3OV8zeXNJTGZILXN0V0pMVVlSNG9qMGQ0YTJxaWxwLWVtckZNMjB4T0ExbEpubllzWEhTbVhTSHpYYjFsWWd1WDhKVlhnLVFBTW1TS1lFTnBqVi1UVlk4S1ZsOUJBcWI1VkVpRWFrOFU2cVBYdDdONmoxSFdCYkFYTWRTMTdwUUpHUGZwSS0zcmZHTW1MelBuUHJnbHdseVVPZVplbDdRSnFVbHJ6VzhreTRtVDk0a0Vn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Se analizará con China aumentar exportaciones mexicanas: Ebrard",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdU01TU1xMGJqa2haWEltdUM0cXdHSFlaLVN0OTFvVXhOY2NQaXNLYjhrWVhwcTU4OEwwRk1qVkFMcTVwRFlVTEFQQlB3R0NQMGd3VHRtRTVYa1pDSkZ6NXlGWWF2SjgzZm4zM2hBRVdEcjk2c1l6Mk0zZWpOcGZILTlNaWt5cHhxUTBrMU1oQS1wR2xHdHROaURPRVlwXzRNWnVpNG9sUVRJSFV3UGp1S3ZUZDVJaGp3SDlYOXVndkEwM2xpckxkWlpDcXRpajREY1JtSTNrVGZxWmFsU1JR?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Fuerzas federales van a permanecer en Sinaloa hasta que retorne la paz, asegura Harfuch",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZFc0eko2MkZ5RURDS0l2ME45Wnp0ZEtnRUdtS3JPb2MzTmRpZHVMNlVUQk81eVdNNmU1QUV3SHRLRnNVN182WUZRcXlRVVl2dkk1MUg4N3hPY3RUSHBGcmc1MS1TWm1Ed1VOVXpha3EyTWVQRW5WNExTaWxkYTB4aElLUlRjVHlsZjVDWFpCamR3WmZaN0V5Ym00cXhpTDN4bElGdkxIWTAzQjRxSENibFpJU09FVnp1N1p0UUF4VGxSQ2w5eWVZQXZuX2pQUl95U2hvTU16WWxrckpjREZaUG10OFI4U3JNT2JCalduM2VFdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Milenio: VIDEO registra el momento exacto en el que fue abandonada una bebé de 6 meses a unas calles de la Basílica de",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc0M5SjYxRVo2cEFfX2dETEhzUFZuTTd4Q1h2dEZVN1ZLWnpuM2lnU0IwY1czVVo0R0M0bXJ3OW5OZnZ5V2VrMXJLWW5HdmxVZ0gwV1NCQUJ1ZHVTTFNGMzRXMjVoLU4wUHZRa0NQQUlkZmJOME9Vb2RtWUdjM25fWElNQi1fUGFLbFBBOdIBjAFBVV95cUxNMG1SYTRTZGVtblBGZVFDRWRNTV8wcFRBbDRmLVMtbWpOcWlwOFZjT2xxWG5wTmVKTlR5YjgyQnBaVlIxdUJhazhWQjJkeDlKdjlENUtYRWJTd3c3MG9fSFF0NDk1WGQyRHdpT29MZlUtVG53OVloUVpzT1NoU1RBVnZLM3BXUnhKR1c5SQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Nuevas marchas de trabajadores del IMSS en CDMX y Edomex: fechas y lista de demandas",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMWxDVFZpYWJSRkU1U1BZcy04RXd1V1gwbFNCLXFvMGt2VV9ZdG1vTk03RHhMZm0zVzdXeUpDTC1QbFdtczRaS2FwRGVwck96UkxFTTVTUDdLalBBUTZqQ2U0REJkZEU1cHFqRkhKVmdMeWo1dUNpSEx4aGMyRnVueFRxc09lOTFCOXhUQmhsTldnU0JpTDFhdll2djJKT3Z1ZlZTZjFKZFdlQ2Nwb2txTXVTWHhuZlpXazRrWmc2Z0EtNUVuaHFDNDJ6STNBMXFQUUJFTkxXLUNVbVRZaVlJWlBheVFYbEtsTzJMR1FUS0pzR3QzU1Q3eGNUMTdKUQ?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1795482009792,
     "fecha": "2026-11-23",
     "categoria": "Noticias México",
