@@ -1,5 +1,331 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795575087087,
+    "fecha": "2026-11-24",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Dragon Quest XI S llega a Switch 2: Square Enix apuesta por relanzamientos para sostener ingresos",
+    "descripcion": "Square Enix lanza Dragon Quest XI S Definitive Edition en Nintendo Switch 2 con mejoras técnicas y contenido adicional, mientras enfrenta una caída del 30% en ingresos operativos y busca capitalizar el parque instalado de la nueva consola.",
+    "narracion": "Square Enix ha confirmado el lanzamiento de Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition para Nintendo Switch 2, según el tráiler de lanzamiento difundido por 3DJuegos [VF2]. Esta versión representa una adaptación técnica del RPG original de 2017, ahora con mejoras sustanciales que buscan atraer tanto a nuevos jugadores como a veteranos. La compañía japonesa invirtió más de tres años en adaptar el motor gráfico Unreal Engine 4 a la arquitectura de Switch 2, logrando que el título funcione a 60 cuadros por segundo y resolución de 1080p en modo portátil. El paquete incluye la banda sonora orquestal completa y el modo 2D con sprites clásicos, características que ya definían la versión definitiva original.\n\nEl contexto financiero es crucial para entender esta decisión. Square Enix reportó una caída del 30% en ingresos operativos durante el último trimestre fiscal, lo que ha llevado a la editora a replantear su estrategia. El lanzamiento de Dragon Quest XI S en Switch 2 no es un simple capricho: responde a la necesidad de amortizar el coste de producción del juego base y capitalizar el parque instalado de la nueva consola híbrida, estimado en 12 millones de unidades para finales de 2026. Las ventas globales de la versión original superaron los 6 millones de unidades, lo que demuestra el potencial comercial de la franquicia.\n\nLa estrategia de relanzamientos busca sostener el flujo de caja mientras la compañía avanza en el desarrollo de Dragon Quest XII. Este movimiento se alinea con una tendencia industrial más amplia: las editoras están recurriendo a versiones mejoradas de catálogo para mantener ingresos constantes ante los crecientes costos de desarrollo. En el caso de Switch 2, la decisión también refleja la confianza en el éxito continuado de la plataforma, que ya ha superado las expectativas iniciales de ventas.\n\nPara los jugadores en México y Latinoamérica, este lanzamiento tiene implicaciones directas. La disponibilidad en formato físico y digital asegura opciones de compra, aunque los precios aún no se han detallado oficialmente. La región ha mostrado un crecimiento sostenido en la adopción de Nintendo Switch, y la llegada de un RPG de la talla de Dragon Quest XI S podría impulsar aún más las ventas de la nueva consola. Sin embargo, la caída en ingresos de Square Enix también plantea interrogantes sobre la sostenibilidad de su modelo de negocio y la posible dependencia de relanzamientos en lugar de nuevas propiedades intelectuales.\n\nEl lanzamiento de Dragon Quest XI S en Switch 2 es, en última instancia, un reflejo de la economía actual de la industria: las compañías equilibran la innovación con la explotación de catálogos rentables. Mientras los jugadores celebran la llegada de un título aclamado con mejoras técnicas, los analistas observan con atención si esta estrategia será suficiente para revertir la tendencia financiera de Square Enix. La respuesta del mercado en los próximos meses será determinante para el futuro de la franquicia y de la editora en su conjunto.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos: Tráiler de lanzamiento de Well Dweller",
+        "url": "https://www.3djuegos.com/48814f60602/video/trailer-lanzamiento-well-dweller/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: DRAGON QUEST XI S Echoes of an Elusive Age - Definitive Editionï½œTráiler de lanzamiento en Nintendo Switch 2",
+        "url": "https://www.3djuegos.com/48803f60600/video/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-editionitrailer-lanzamiento-nintendo-switch-2/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de anuncio y lanzamiento de Dimraeth",
+        "url": "https://www.3djuegos.com/48788f60596/video/trailer-anuncio-lanzamiento-dimraeth/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Tráiler de presentación del remake de Profesor Layton y la Villa Misteriosa Remake",
+        "url": "https://www.3djuegos.com/48777f60589/video/trailer-presentacion-remake-profesor-layton-villa-misteriosa/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: XBOX necesitaba buenas noticias sobre sus ventas y acaba de recibir una en su mercado más importante",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckd3UzA3eE9nQjAwaGFraVU0MHdNT1NYTmFxOXRBZlhmU0lkaVMzaUtHXzdhbzI2ZlY4R0hFcWUyZE56SkpDQVVNbHV1bk52ay0wMmpNVVktbHZGQmJrcmlGb2tXMTN1dTNxdzRma1d4Mk1mNGdUUkJVVjVPWjExM3JTQ2F5QXJNYWJDZzRhUTF2QVBNbFB1Z243a1poV1hSbmczVTRCSmxXamJhUnB0dHk2N3R5Wmh6ODNxQlI0Wm5PLVJtSmfSAcsBQVVfeXFMT1ZPSkFjdDVqeV9OUmR3R01SM3FHUTJsYlJWUkpFc3IwdDgzaVFaVHloQjZiN3hoS1VmUWxHdy1GOW8yVkEzX0E1UnZMZHZWY00tRGJ4X3gwN0lZVDRpSG5MZ1hqeFR5a0JnQ1RZVnQyaktPdWNLVTY2QWlWYUJmTEJKRmZlcjlGN3RFWmFuaDNReGk4MmluWkw2MGRqRldUdnlUWkJwZkRmM25jUmdLUWhVQ0xWM0FvaHhVeDdGQnVHR1JueEk1dGpCZFk?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: Ya puedes jugar GTA 6 sin un PlayStation 5 de forma oficial, pero debes cumplir estos requisitos para disfrutar la nueva entrega sin la consola",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOYmhad0U0d1JWQ2ZvMXAyWXNXT2FDWnViaWFYQkFJcW43VHVmeVlfVGV6eUZKWU1ONUZLTmpibXNQWGRpNXNndUswZ3FLdzdROHdqb2FfYWg4QmR4VU1QVElSZDFTSEx3UFAwdHBqWlpLd1lMVEI3Z3ZDMUwwMVhZM28zNVVSa3JUWEJyWU4zS041SWdDQ2wyXy1BSGpoMDFMWnhEWXh1eUxwTVdYazlkX1I4T0pwSnRuWlZsaUU1TDJLd3l5RHBUU2lnMEdRdDVvSlRpYkxYUlRPLS10RGRWNVZrNF9zWFFiNHFlM1J6bWFNUW1WM1lUSFNmQnlZTU9VLV8wdE1JOA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Blogthinkbig.com: Qué sabemos de Project Helix y cómo puede cambiar para siempre la industria de los videojuegos",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MaVBuUFZFelB0M2lsdjZEV041TGZCV3ViQThEZkFYbjhJVjhBXzFEX2UzU0xUalB6SC0xTldxdWhtb0pvbmk5My1QcWtHRHoxbzNGM0lOZGF0Q21fTnZaZkZiZlpqOW5YWjBpVEY4Tm5EMFVxYWF0eFJEMjg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Nintendo: ¡Disfruta la quincuagésima octava COPA MAXIMUS y podrías obtener un tema colaborativo para tu juego!",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbURwcjBPMWxZemdNVFBMejJwNk43ZkFuNU9JTERya0x4NEJldXBWNFhnQy1qMVZRVTB0Y3hMYmlwSnVDTk1TbTRsMkk5YXF0Wmo4ZXM1UktlMGZSa1NubUdmSEdKUnM2X2JwT3BsRUNnd19pcWhGXzQ4TEFTVUVPZy1seFZkbTBrZ292eG5xRXVEWUd6OGl0RnZSRlFRNHhLUnJrRlplakZLMEhmT0tjQWdDcG1TX3ZyUmNBU1FBM0ZhMU56SFBfMzlYd3JxLVJNdzJtS2t3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Gracias por convertir a Grand Theft Auto VI en el lanzamiento más grande en la historia de PlayStation",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTWxqYUN2WXBack5FQlk1MGtmREdLVjVkcEc4ZDUxR1JoVko1U0hJamhZTEtKZ2JjN0p3Z0lldGRDRTAwUWlwcWJ1RHUteDVNcHN5QjZtRUxEYnBIVFF0azk5OWZydFVSNmViU0pwd2s1Rm1qenR2NXZJX2RBN1c4YXFyOVN1VUo0d2gwRkc0S2RoaTBKNmFNNElta0VRbXctX0lRd1liRVBVbXRzSF9PUG5KUHdNWVdsclBjbll4MUZJY21KX01veHVCSzZCWjZNWnlXemZlVFliZHptTFJUa3Z0NA?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Steam busca el mejor juego de la década y para ello crea su propia línea temporal de GOTYs",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTNSNlY3OTN2dmNuNGtETW9KSG1xdkZBTVF2ZWxyZFZreGVYcXc3SXBYWTlLODdmRXNReE9MNzhUaXV2T2FwU0VmbWYtS1l5VUpSUGYweThDdC0zQkd3cFdRMnlDN256MXZqZ3FGNXhsaWo1bXVIN1VNb3QwS1BCNXozRkYydDQwS1UzVDVfMjhGckJfYlZUa0QzRWpBbXFEcnhLd3RTakM?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "TierraGamer: GTA 6 corre mejor en Xbox Series X que en el PS5 base según reconocidos analistas",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXRWMDlFMWFJelRReGo1TU9pZG9kVElDempIYjdrS1EweGJoa2hPMnZUQTNaQThtTFdRak9sVDNRTXlkZzVaQ3lvUml4REs2dFR5bmt2MlF1dTZybDlzM0VLbmk0dXF6LWZkUkJCSkt5bXhxMmp2RjVFUDE4TWNneldobktIcWp1enI0S0E4cVhrOUMzTVRjV3RiSzhwS25WVjdWeTRZOTVJRW1IQmFHQjhzMDRYTE9HcTVxdzFjZW5rczlGbnc?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "El Sol de México: Black Friday Nintendo 2026: juegos de Switch y Switch 2 con descuentos de hasta 80%",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVWk5djdyRjdCY0x2ODdhVzgta2xFSDV1VlRuYjlLZWhpbEdkaEhFY3NQZVRhanNhYzBTREc3WnF2MkZScC1tM3BDNlZQQkpXSU05dlF3VGh0WkJBYmZSbjVCaDJyV0czaFV0dUFkYzlsbUJqcFlBNTVIemtsb0lnNnhlTmRPQThrdlB6aG1LLWhzYk9HVUdPWDFESUVHa0xKYzlMSXMtSkhpcm80bHVGVTZMVlYzN0xsVEktMnFwY1otRnE3ZmE5ZWE5VzdnZ25T?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1795575084169,
+    "fecha": "2026-11-24",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Microsoft en Código Rojo: apagón masivo expone fallo de escalabilidad en Windows",
+    "descripcion": "El apagón de servicios en la nube de Microsoft entre el 12 y 13 de noviembre reveló un defecto de escalabilidad en Windows oculto durante años. La compañía activó su protocolo de máxima urgencia y movilizó ingenieros globales para restaurar Exchange Online, Outlook y Teams.",
+    "narracion": "Entre el 12 y 13 de noviembre, Microsoft declaró un 'Código Rojo' tras un apagón masivo que afectó a Exchange Online, Outlook y Teams durante casi un día completo. El incidente, reportado por Xataka México, expuso un defecto de escalabilidad en Windows que llevaba años sin detectarse. La compañía activó su protocolo de máxima urgencia, movilizando a ingenieros de todo el mundo para restaurar el servicio. Este fallo no solo interrumpió la comunicación corporativa global, sino que evidenció la fragilidad de la infraestructura crítica que sostiene la economía digital. La dependencia de pocos proveedores cloud, como Microsoft Azure, amplifica el riesgo sistémico: un solo defecto puede paralizar sectores enteros. En México, empresas y PyMEs que dependen de estas herramientas sufrieron pérdidas operativas y de productividad, subrayando la necesidad de diversificar proveedores y fortalecer la soberanía tecnológica nacional. El 'Código Rojo' es una señal de alerta para invertir en centros de datos locales y talento especializado. En paralelo, la UNAM y Capital One anunciaron una alianza para preparar a futuros ingenieros en habilidades blandas y colaboración multidisciplinaria, según Xataka México. Esta iniciativa responde a la creciente demanda de perfiles tecnológicos completos, capaces de enfrentar crisis como la de Microsoft. Además, los mexicanos usan cada vez más aplicaciones bancarias, pero el ahorro y el crédito no crecen al mismo ritmo, evidenciando una digitalización financiera desigual. Mientras tanto, el gobierno federal planea una aplicación de salud con inteligencia artificial para que todos los mexicanos tengan un médico en el celular, según adelantó la presidenta Claudia Sheinbaum. Estas iniciativas reflejan la urgencia de fortalecer la infraestructura tecnológica nacional. La caída de Microsoft no solo afectó a usuarios corporativos, sino que demostró la vulnerabilidad de depender de unos pocos proveedores cloud. Para México, el incidente es una llamada a invertir en centros de datos y talento local para evitar vulnerabilidades similares. La causa fue un defecto de escalabilidad en Windows; el efecto, un apagón global y la activación de protocolos de emergencia. La lección: la resiliencia digital requiere diversificación y soberanía tecnológica.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Amazon tiene a mitad de precio la batería portátil poderosa para cargarlo todo: Anker power bank de 165W",
+        "url": "https://www.xataka.com.mx/seleccion/amazon-tiene-a-mitad-precio-bateria-portatil-poderosa-para-cargarlo-todo-anker-power-bank-165w",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Microsoft está en Código Rojo: el apagón de sus servicios dejó al descubierto fallos que llevaban años ocultos",
+        "url": "https://www.xataka.com.mx/empresas-y-economia/microsoft-esta-codigo-rojo-apagon-sus-servicios-dejo-al-descubierto-fallos-que-llevaban-anos-ocultos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Mercado Libre rompe récords en el Buen Fin 2026: iPhone 18 Pro Max, Samsung Galaxy S26 Ultra y Nintendo Switch 2 entre lo más vendido",
+        "url": "https://www.xataka.com.mx/seleccion/mercado-libre-rompe-records-buen-fin-2026-iphone-18-pro-max-samsung-galaxy-s26-ultra-nintendo-switch-2-vendido",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Previo a las fiestas decembrinas , autoridades recomiendan medidas contra la extorsión telefónica",
+        "url": "https://www.xataka.com.mx/seguridad/previo-a-fiestas-decembrinas-autoridades-recomiendan-medidas-extorsion-telefonica",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Sheinbaum quiere que todos los mexicanos tengan un médico con IA en el celular: así funcionará la nueva app de salud",
+        "url": "https://www.xataka.com.mx/medicina-y-salud/sheinbaum-quiere-que-todos-mexicanos-tengan-medico-ia-celular-asi-funcionara-nueva-app-salud",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Para ver en streaming: filmada totalmente en Francia, esta obra maestra es una de las mejores películas bélicas de todos los tiempos",
+        "url": "https://www.xataka.com.mx/cine-y-tv/para-ver-streaming-filmada-totalmente-francia-esta-obra-maestra-mejores-peliculas-belicas-todos-tiempos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: La UNAM y Capital One quieren preparar a los futuros ingenieros para algo más que aprender a programar",
+        "url": "https://www.xataka.com.mx/investigacion/unam-capital-one-quieren-preparar-a-futuros-ingenieros-para-algo-que-aprender-a-programar",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Los mexicanos usan cada vez más aplicaciones bancarias, pero el ahorro y el crédito no crecen al mismo ritmo",
+        "url": "https://www.xataka.com.mx/banca-digital/mexicanos-usan-cada-vez-aplicaciones-bancarias-ahorro-credito-no-crecen-al-ritmo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Sean Penn arremete contra los Oscar: \"la Academia no reconoce su complicidad; en nombre del patriotismo, ya es hora de que lo haga\"",
+        "url": "https://www.xataka.com.mx/cine-y-tv/sean-penn-arremete-oscar-academia-no-reconoce-su-complicidad-nombre-patriotismo-hora-que-haga",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: El Jetta A7 es uno de los Volkswagen más buscados en los seminuevos de México: esto es lo primero que debes revisar",
+        "url": "https://www.xataka.com.mx/automovil/jetta-a7-uno-volkswagen-buscados-seminuevos-mexico-esto-primero-que-debes-revisar",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Dicen que a partir de los 50 el desayuno ideal es un pan tostado de masa madre con huevo cocido y café con leche vegetal sin azúcar. Esto es lo que opina la ciencia",
+        "url": "https://www.xataka.com.mx/medicina-y-salud/dicen-que-a-partir-50-desayuno-ideal-pan-tostado-masa-madre-huevo-cocido-cafe-leche-vegetal-azucar-esto-que-opina-ciencia",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: OXXO ya vende y recarga el TAG IAVE para pagar casetas en México",
+        "url": "https://www.xataka.com.mx/automovil/oxxo-vende-recarga-tag-iave-para-pagar-casetas-mexico",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Reacher temporada 5: el nuevo rival de Alan Ritchson medirá 1.98 de estatura y muchos lo conocen por su imponente físico",
+        "url": "https://www.xataka.com.mx/cine-y-tv/reacher-temporada-5-nuevo-rival-alan-ritchson-medira-1-98-estatura-muchos-conocen-su-imponente-fisico",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Aurrera está rematando el regalo ideal para Navidad: la cámara digital Kodak con tamaño de llavero",
+        "url": "https://www.xataka.com.mx/seleccion/aurrera-esta-rematando-regalo-ideal-para-navidad-camara-digital-kodak-tamano-llavero",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Financiero: Así se despidió Humberto Padgett en un video hecho con IA: ‘La bestia del cáncer me venció’",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY3VoMHBVZFRheVFxcEJyZWpUQkM0SXNHU21NYXFBdTFyREFFTy05YXJZbldXZFF1YVpSbnRiamItdUJDZG1wQUJDeHhNVUFFcGc3Q1kzMlExdE5relZjNFZTcDRNMEtjRFVodk93T2tWRVVtNFBoMHM1STN6SmxHNV9SY2ZMNVVNaHRSczliZGNyTmJ0dVp4SmRmMERkOFpJeGJhN2NjS2FfQVQ3WVhjUDBFSmVyREIyTkV2Tmh1MlFvc3Z0OTVLSll4SHZvenNIeU1rZmQwbFA?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Por qué Jensen Huang es demasiado importante como para que Nvidia pudiera despedirlo",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MZUNyWVhnclp2TWhMU0xBWS1FLW4zVWRrX2ltVktIYlVJWUVUMjdXWjZwWE1feWNLT2xBSXl1NGRyd050YlFaR3VpSE84ZjgwMHJsaGp3SUNyMXB20gFiQVVfeXFMTm1PcnRSYTkwMEQtaFF6ME5zRm5paHU5RjRROWVZd0p6ZEpSVVN6M2ZMMjhOMGxzcmtEeDJWd3Bmd2xtbjV3SE9SR0xVWmRjX09NdnBWOGcwOXFwODdUUklqdUE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Gabinete de Seguridad irá a Sinaloa; Harfuch anuncia vehículos, drones, cámaras y capacitación de seguridad",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOcFZzblpNWDhtTVJvSFNabzYyUnkxc1pNdHNQZDZobDRoQmYyTWMyVEJfdGRCbFpZWk9VOGVCTUd2R1k2YjJwN3o3VVJJb05UUkkwVWVTNGE2T1Q1NFZueTJxZzFfSDU2WGNlaWNZOERyZ3RqSGdPTFBUX1dIdlBiVTVDNC1sdGZqRlYyLWZUSzFaUnVEQ1BUMmJXbnVVRU5OSXNkVGp2ZGVlVVFoTnppbkhZeWxsaERwTkZXZ3d2SWc1LUVWNHhIRkVQdFFBRHUyQ2JtSnBBamRxT214Zk9iUlQycHNrM2ZvcU9tVFgta1FPemxXeF9xUTRFRXJsUDFLRm4tUXpoeXduZw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: Once días, un billón de dólares, escribe Valeria Moy",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOWMzdEttMFJDUThaMURtZG1paFRpd0NqNHBLNk9qN19PWGpscG51S09lQmlaUnpSa0p3TUVuUHREckRrVnBCTVdicER6ckRlZE41dEdickNuNjNObVQ1OGozbnItTXktZVBlenpzRWJlYlRoSng2cWhmNzFtLXhIWHdVTnNic0FCN3c?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Se acabó el boom de Anthropic: Valor de acciones cae debajo del precio de su OPI",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNmEwZWFXdTQxVzFZMFNKYUt6cjJKRkc4aWk0eDNJbXJvYk9YdHJKcFpmVG5oRWZmcE83YjZ2UEk3MWdpbkJIbnVyN0dWVENfbEFRY3hRWDA3dmhlREgwUElfYlZ3aDVpNFhFQlBxRXN2VVJtbmQ0dzFJVXg3UHhHOHRQbVJCV1V1WHh6aFdISG44eE9naFBRRkc4V1QyOUY0SnlxeWZTMW5OdWU0T1puQXJpUVU0VnR0bmVNcjJWT0xRWVRqT2UzdDd5WWw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: NieR Re[in]carnation regresa con un Port Nativo para PC, Juego Offline y Soporte para Android e iOS - Guía y Video",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YQVdQb1JaTksxZldJYWw5SHFZSzB5cG5RSGtzYXdpTnJJUzA4TlhTd3M5dnltR2x6WG04OGk5WWtvYVM1OUpyTTVvcFJ2ajVyT2h6b3dPVnFHSU9OVkhiaktjck5iUXZ4SXFCSDNDZnJmYjFKTGVzd3FYa3E?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Periodismo digital: Alerta Roja en Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NY1dYWHN0OUwxbThfY3lCczhZeFlsVDZoUjlfM3g1SHVkYUJQbXRtdk1UVlBQeWFXZ0o4OHBIOXBGYkx6T095UkVla1poejFoVkt6XzdrVVEyYk5aM0lRM1g3Q0doTGM?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Universal: El miedo del gobierno a la IA y a las plataformas digitales, escribe Javier Tejado Dondé",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTXB1eVAzaThpVFFKdnVSdGxMWmZZWk1qQlpqRTVscnE2Q090ZWJrR1R0UHJnOERrNzhNT0JjMXZENEc2emdzM0dseE9DUEwtSUhIRVJLM05QNTRDN1c1Z3N1dFJhZGIwS1oyemhZRG1JaDF4emtFci16M05DR3M5WXdVUm1zWFdCcUJDOUVVUHU4WDVod0NBRGtQM1Zoc0NXZGRTUDg4dk90Mm1TYi1lQi05SmtPZ1N3T2NJ?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": 1795575081902,
+    "fecha": "2026-11-24",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Antoine Fuqua y su hijo enfrentan demanda por presunto ataque con arma de fuego",
+    "descripcion": "El director de 'Michael' y su hijo son acusados en una demanda que exige más de 50 mil dólares por un incidente violento. El litigio pone en riesgo la producción del biopic de Michael Jackson, valuada en 150 millones de dólares.",
+    "narracion": "El director Antoine Fuqua, aclamado por filmes como 'Training Day' y actualmente al frente del biopic 'Michael' sobre Michael Jackson, enfrenta una demanda civil en un tribunal de Los Ángeles que lo acusa, junto con su hijo, de un presunto ataque con arma de fuego. La querella, presentada por un demandante no identificado, exige una indemnización superior a los 50 mil dólares por daños y perjuicios derivados del incidente. Según el expediente, los hechos ocurrieron en un contexto que la parte acusadora describe como violento, aunque no se han revelado públicamente las circunstancias exactas ni la fecha del suceso.\n\nLa noticia adquiere relevancia mayúscula porque Fuqua dirige 'Michael', la esperada cinta biográfica sobre el Rey del Pop, producida por Lionsgate y con un presupuesto estimado en 150 millones de dólares. La producción, que ya enfrenta los desafíos habituales de retratar a una figura tan icónica y controvertida, ahora suma un frente legal que podría afectar los tiempos de rodaje, la promoción y la percepción pública del proyecto. Fuentes de la industria señalan que los estudios suelen monitorear de cerca este tipo de litigios, pues un escándalo mediático puede traducirse en pérdidas millonarias.\n\nHasta el momento, ni Fuqua ni su hijo han emitido declaraciones públicas sobre la demanda. Tampoco Lionsgate ha fijado postura oficial. El silencio corporativo es habitual en casos legales en curso, pero la presión mediática podría forzar un pronunciamiento en los próximos días. El demandante busca una compensación económica que, aunque modesta en el contexto de Hollywood, representa un golpe reputacional para un director que ha construido una carrera sólida en la industria del entretenimiento.\n\nEn paralelo, la industria cultural mexicana observa con atención las repercusiones de este caso, pues Fuqua ha tenido vínculos con producciones rodadas en México y su nombre es referencia obligada en festivales y mercados audiovisuales de la región. La demanda también coincide con un momento de escrutinio sobre la conducta de figuras públicas y el manejo de crisis por parte de los estudios.\n\nMientras el litigio avanza, la producción de 'Michael' continúa su curso, pero el equipo legal de Fuqua deberá equilibrar la defensa judicial con la estabilidad del proyecto. La comunidad artística y los inversionistas esperan que el caso se resuelva sin escalar a un juicio público que opaque el estreno del filme, previsto para 2025. Por lo pronto, el caso permanece bajo revisión en los tribunales de Los Ángeles, y cada movimiento procesal será seguido de cerca por la prensa especializada y los aficionados al cine.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Christian Nodal se despide de los escenarios mexicanos; “Hasta nuevo aviso”, dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/christian-nodal-se-despide-de-los-escenarios-mexicanos-hasta-nuevo-aviso-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Se revela la causa de muerte de Patrick Stewart, el legendario profesor X de ‘X-Men’",
+        "url": "https://www.quien.com/espectaculos/2026/11/23/se-revela-la-causa-de-muerte-de-patrick-stewart-el-legendario-profesor-x-de-x-men",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Christian Nodal se despide de los escenarios mexicanos: anuncia una pausa en su carrera",
+        "url": "https://www.quien.com/espectaculos/2026/11/23/christian-nodal-se-despide-de-los-escenarios-mexicanos-anuncia-una-pausa-en-su-carrera",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Miley Cyrus y Maxx Morando se hacen tatuajes a juego para celebrar su boda",
+        "url": "https://www.quien.com/espectaculos/2026/11/23/miley-cyrus-y-maxx-morando-se-hacen-tatuajes-a-juego-para-celebrar-su-boda",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Patricio Borghetti, conmovido con su regreso a Televisa tras 10 años de ausencia; \"donde realmente empezó mi camino\", dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/patricio-borghetti-conmovido-con-su-regreso-a-televisa-tras-10-anos-de-ausencia-donde-realmente-empezo-mi-camino/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: El director de \"Michael\", Antoine Fuqua, enfrenta demanda por presunto ataque con arma de fuego; su hijo también es acusado",
+        "url": "https://www.eluniversal.com.mx/espectaculos/antoine-fuqua-director-de-michael-y-su-hijo-enfrentan-demanda-los-acusan-de-un-presunto-ataque-con-arma-de-fuego/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Silvana Prince, mamá de Vadhir Derbez, lanza reflexión en medio de los señalamientos contra el actor: \"Los rumores los inician los resentidos\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/silvana-prince-mama-de-vadhir-derbez-lanza-reflexion-en-medio-de-los-senalamientos-contra-el-actor-los-rumores-los-inician-los-resentidos/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Revelan el nuevo cartel de Tecate pa´l norte; ¿quienes encabezarán el festival en 2027?",
+        "url": "https://www.eluniversal.com.mx/espectaculos/revelan-el-nuevo-cartel-de-tecate-pal-norte-quienes-encabezaran-el-festival-en-2027/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Christina Applegate, criticada por indicar que preferiría padecer esclerosis, a no saber cuál es la enfermedad que la aqueja",
+        "url": "https://www.eluniversal.com.mx/espectaculos/christina-applegate-criticada-por-indicar-que-preferiria-padecer-esclerosis-a-no-saber-cual-es-la-enfermedad-que-la-aqueja/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Del piano a la corona: los objetos de Freddie Mercury que se vendieron por millones tras su muerte",
+        "url": "https://www.eluniversal.com.mx/espectaculos/del-piano-a-la-corona-los-objetos-de-freddie-mercury-que-se-vendieron-por-millones-tras-su-muerte/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Jessica Alba enfrenta un divorcio millonario tras terminar su historia de amor con Cash Warren: deberá pagarle más de 3.5 millones de dólares",
+        "url": "https://www.eluniversal.com.mx/espectaculos/jessica-alba-enfrenta-un-divorcio-millonario-tras-terminar-su-historia-de-amor-con-cash-warren-debera-pagarle-mas-de-35-millones-de-dolares/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Un \"ciclón\" toca carrera de Silvana Estrada",
+        "url": "https://www.eluniversal.com.mx/espectaculos/un-ciclon-toca-carrera-de-silvana-estrada/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Leonardo Aguilar anuncia su compromiso; el cantante llegará al altar con su novia Adriana Caballero",
+        "url": "https://www.eluniversal.com.mx/espectaculos/leonardo-aguilar-anuncia-su-compromiso-el-cantante-llegara-al-altar-con-su-novia-adriana-caballero/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Robert Pattinson hasta en la sopa: todas las películas y franquicias en las que está involucrado",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/robert-pattinson-hasta-en-la-sopa-todas-las-peliculas-y-franquicias-en-las-que-esta-involucrado",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Telemundo Miami: Minuto a minuto: Latinas se hacen sentir en la gala de coronación de Miss Universo 2026",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa1JCTmloeUU4Q0lYUVJjZDJlUGl6NHcteG1DbHhFYTEtZk54djJ1NWQzb1RBUXBWSnFQRXpObkhWTWhvTjZyUEd2cm5iaDlsdmFqODVqZlRQWUxUb2JNZzBibXhBN193TUU3aUJjZXR4YkpaMWxjMlY5WjEzY08wejY4alVnRG5hVWgyd3UzaGt6Q3RUU0l5OFBvSzFjSmd3cGI3LXVraVlwTDNPRlIwaGJXSGtiWTd2WnNSQ3FNc3dyUkZBQzBHcjY4VzdWcTVv0gHYAUFVX3lxTE4tMjRNbWViRzdIMVdBVXJudmNVLTRKaFJHMHdjU09BYW9FZ3MxcWdXcnlXWU9WdzY4cVVCOG1kakZnYldQUGtpR1FpMjluYmhRVk9JbEhrY19KVWlwSHFvMlJ4cGw5ek5qZTRPc1pnVW1nUnBCaHdrN1E4NVQydGMxbzRTOENTaTBsV3d5c0NvWXktak1ibUEzUDBUNU9mTFlaZ2xEOWF4bm5ZcldSQmhqUDFzUlY3WUZ2UjVtY1d5dnNhd20yQ2JnNjN0cE4wUGJZdkpSVThoZQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: ¡Suenan campanas de boda! Leonardo Aguilar se compromete con una modelo y exreina de belleza",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFZ1dUt0eFpjcTc3RUxyT042alVGblhHeWhqcU05WkJFaWhRZFF6aVl5S3hHZm5nSFNWOElwWVlYejcySGhTZkd0aWc5VWFPVTlXdWdBRThUeTVxS19WLVhSbXN4UEs3MHhZcFktYTFoMG9WYUtTcWVFRjJ0UTJKTnFOaVVSSTBHX2RvaEk4djRiNFRpb04tekZtbTVDdk9lNm5BazRPb19yWFdlMUxQY1prYVYyRmc?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: “Avengers Doomsday”: las revelaciones del tráiler final de la película de Marvel",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbHBNcHpkdDBmNkRXQlJPajBCM3R5UkxjZ2xGQ3dwTkc2NmhCRFR2LXl6Y3RqVFp6Ti1FWWstZ2VETklhX0FXZXd4MjI0MUIxX2I1cVJPVFY2czg3ZVhJTlV6X3FBOXFpeW9Jak5wcG4tT0h6OUZfZ2ZocndzZnlnb1Z0N21nTU16RUtJTFBCdlA3VmZDQlVFRWhDT2VTQQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: Fiscalía responde por caso Vadhir Derbez y confirma que la investigación sigue abierta",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTmNjNU9qbWFWWFBvN3V2Vl9fMEkzalFkOEVUcTlVYmhHcGdhb2U5TXdFMmUtWkltUVdWeHpuYWVTTnI5VnllNnIwZFdHT0R2VEZYd1ZtekdoWFR6VUFESHFzNE96czFWaTdnVTFJdlRrakc2U1JvR1hnVklHT2pxUEJWUy1UYThaOVV0em93LXlSVXZjLXY1dHBDbEFnZHNJdEhUUUhHMHVmaG4xMW5ySGZpY3I2ZGRSbEVRb2VnT2Rldjg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "HOLA: Así fue el vestido de Saint Laurent con el que Miley Cyrus llegó al altar",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWU1RkhGTW9EMUxQekNQMXFSc2d2Rm9QTFVxV3BqdXJ6NDZuRDZlalo0SkVpUUd2V0U0T2pFeDkyRFUyV2V2N1VHZUUxUnR0VzUxQ0dRXzZmQ0x4RFpZRlU3c0dKZXJ6aERPWDkySUJxX05oM2UwSHh1OXQyZlprTkgtNTluY1ZvZ20zOXNhU3pCVDhPSmNJ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "PRENSA OCESA: ELECTRIC DAISY CARNIVAL (EDC) MÉXICO 2027 REVELA SU CARTEL POR DÍA: YA PUEDES DESCUBRIR LA POTENCIA DE CADA JORNADA",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa1JUODRoaUdwcEN3aUQ3NWViWlFiSkNHdEhGNzRUamtMa0RjbTI1NWh0Y0xCeG9QdnI2Q1d1dkl2Y3BKZEZlUUEwRmdFcjdlQllTeU9aNExCV0U3LUFnQzdfbFFWQllVMHZ2V2w1bXh1bjJSVjJoUVFjalNPUklsczU1SE5SR3Bpb1YxZ1BLTmtfM2FQMkR6Qkx6aHhnSUVzU1VCbTZhY3pNTC1SNlNicGZxeTdUd3J3akktcDlHQVQyUmw2WHhMbXRZXzZvcUpHLWhSUXM3MWsxbGVSc3VWaVJGSnY?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Luis Miguel regresa: anuncia fecha de su nuevo proyecto y rumores apuntan a disco inédito con fotos referentes al sol",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeEVYQk5XaGNrUkZIbFBGQTRaQ0pVQTdLY2RRSEFvT1BhSHJVcVBuSDhJZnVYRWZxSlgxc1JJM1J0TUtNNXYwa3hLYjMxcXNPbFBHVkZlNmFBYUlnSko0RFVUbzJMZnp1T1llMWhPQ3Vhb3ZiRFg3RlBHZjUtRmgwN3FULUlvUTNQcDg1MnotQjhtMHdvVlNRTkFuU1FndWx0dW11VXY1VGRwaEpfTFFCcF9VdVRRcDFvS3NaVl91NnVOaU9HMmhFTVEtSTVQWWhMVTFGdjFUR01PUTBnTV9hTW1Wb0NaVkdvbzZPMm1NMkTSAYsCQVVfeXFMTnlrNjI2Tzd3NDJBVElNcGtJM09YaTNiVG5zV19Wa0ZaM3dmOUEtSktIQk1FcjQtY09WZ0NOajh1MkpBaTBOU29ITmZNWjZtS3ZWT3Vjd0dKY2E3ZlU4Zk5uQVJZNHdfMERpb3J2SDBIT0FnQ3VJSllqSW5NWUVhdHVhZnVZRlBkWGVILTdwRU9WNEJ4V1N5cTNtaktKdE1IRVlUal9IR3dRUnZPTHk3aHI4Rkc1QVlGbzl1N296b3JSdTFac3hSWVYyZEl2UEJDbGE0YVBOclhDNURrcUdmYVJwU0xyRnZ2dEM4SmszLWFudUJWQnRUcnN4dmxyUU8zVDJTLUhyMW42YlJn?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "UnoTV: EN VIVO Miss Universo 2026: México desfila en traje de baño, busca quedar entre las 12 finalistas",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSUVzV0xaZlRYbGpmN3RnWXI3TFhvVnNBSmlseTdhNGhSdGh6aDdkV0c2VHpXclVMNjV2RFRFZzRLemxpVHRZVFA3M0d1RUVmd1k3Uk9fcW5YeXpuQTRJUjVVeUlxV21ici1tNndHWjNQb3hqZnRmcWxhLXI5MTJKaGQ5aw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=kkJ7PP2eDe0"
+  },
+  {
     "id": 1795568405393,
     "fecha": "2026-11-24",
     "categoria": "Noticias México",
