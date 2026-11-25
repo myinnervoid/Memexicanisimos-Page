@@ -197,7 +197,8 @@ window.MEMEX_NOTAS = [
         "tipo": "Prensa Especializada"
       }
     ],
-    "estado": "publicado"
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=hUiqtZjOQlQ"
   },
   {
     "id": 1795575081902,
