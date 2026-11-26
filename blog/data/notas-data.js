@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795719607210,
+    "fecha": "2026-11-26",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Televisa y Fintech compran AT&T México por 2,000 mdd: el reto será financiar la red 5G",
+    "descripcion": "El consorcio Televisa-Fintech adquiere el negocio móvil de AT&T México por 2,000 millones de dólares, convirtiéndose en el tercer operador con 23.3 millones de líneas. El desafío: invertir en frecuencias y antenas 5G para competir con Telcel, que lidera con 81.8 millones.",
+    "narracion": "La operación que reconfigura el mercado de telecomunicaciones mexicano avanza: Televisa y Fintech acordaron pagar 2,000 millones de dólares por el negocio móvil de AT&T México. Si las autoridades regulatorias aprueban la compra, el consorcio se convertirá en el tercer operador móvil del país, con una base de 23.3 millones de líneas al cierre de septiembre, según cifras oficiales. Del otro lado, Telcel, filial de América Móvil, mantiene un dominio abrumador con 81.8 millones de líneas, lo que evidencia la asimetría competitiva que persiste en el sector.\n\nEl reto financiero va más allá de la adquisición. Ernesto Piedras, director de The CIU, advierte que para recortar la distancia con Telcel, Televisa tendrá que financiar algo más que la compra: llevar su señal 5G a más lugares. \"El reto será pagar por más frecuencias y antenas para desplegar la tecnología\", señala el experto. La red de AT&T México, aunque operativa, requiere inversiones adicionales en espectro radioeléctrico y infraestructura de antenas para soportar la quinta generación móvil. Sin ese despliegue, el consorcio difícilmente podrá competir en velocidad y cobertura frente al líder.\n\nEl contexto técnico es complejo. La industria enfrenta presión regulatoria y una competencia intensa. El Instituto Federal de Telecomunicaciones (IFT) deberá evaluar la concentración de mercado y las condiciones de competencia efectiva. Además, la operación ocurre mientras el gobierno mexicano impulsa subastas de frecuencias 5G y promueve la soberanía tecnológica. La compra de AT&T México por parte de Televisa y Fintech podría interpretarse como un movimiento estratégico para fortalecer la infraestructura nacional, pero también plantea riesgos: la dependencia de proveedores extranjeros de equipos y la necesidad de capital fresco para mantener la red actualizada.\n\nEn paralelo, el video destaca dos temas clave para la comunidad digital y financiera. Primero, más de 14,000 gasolineras en México tienen luz verde para instalar cargadores eléctricos y vender biocombustibles, una medida que amplía la infraestructura de carga y reduce emisiones, aunque requiere inversiones significativas en redes eléctricas y puntos de recarga. Segundo, en diciembre varios registros de deudas serán eliminados del Buró de Crédito al cumplirse su plazo legal, conforme a la Ley para Regular las Sociedades de Información Crediticia. Los registros negativos se borran automáticamente entre uno y seis años, según el monto, pero no significa que la deuda se perdone: solo desaparece del historial. Este alivio financiero para millones de mexicanos tendrá efectos en el acceso al crédito y en la salud financiera de las PyMEs.\n\nLa causa y efecto son verificables: la compra de AT&T México por Televisa y Fintech no solo redefine el mapa de operadores móviles, sino que exige una inversión sostenida en espectro y antenas 5G para evitar que la brecha digital se amplíe. El éxito dependerá de la capacidad de financiamiento y de la aprobación regulatoria. Mientras tanto, los usuarios mexicanos y las empresas deberán estar atentos a las condiciones que imponga el IFT y a la evolución de la cobertura 5G en el país.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Más de 14,000 gasolineras en México tienen luz verde para instalar cargadores eléctricos y vender biocombustibles",
+        "url": "https://www.xataka.com.mx/automovil/14-000-gasolineras-mexico-tienen-luz-verde-para-instalar-cargadores-electricos-vender-biocombustibles",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: En diciembre, varios registros de deudas serán eliminados del Buró de Crédito al cumplirse su plazo legal: cuáles son y qué significa",
+        "url": "https://www.xataka.com.mx/otros-1/dicembre-varios-registros-deudas-seran-eliminados-buro-credito-al-cumplirse-su-plazo-legal-cuales-que-significa",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Multa por llevar a tu perro en el carro en México: para quienes aplica y cuánto debes pagar",
+        "url": "https://www.xataka.com.mx/automovil/multa-llevar-a-tu-perro-carro-mexico-para-quienes-aplica-cuanto-debes-pagar",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Este Motorola quiere enamorarte con su diseño premium y con su cámara. Ya lo puedes comprar en México",
+        "url": "https://www.xataka.com.mx/celulares-y-smartphones/motorola-signature-27-lanzamiento-precio-mexico-caracteristicas-especificaciones-ficha-tecnica",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Televisa podría convertirse en el tercer gran operador móvil de México: el reto será pagar por más frecuencias y antenas 5G",
+        "url": "https://www.xataka.com.mx/telecomunicaciones/televisa-podria-convertirse-tercer-gran-operador-movil-mexico-reto-sera-pagar-frecuencias-antenas-5g",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Preventa disponible: los nuevos controles DualSense para PS5 con carátula transparente ya se pueden apartar en Amazon México",
+        "url": "https://www.xataka.com.mx/seleccion/preventa-disponible-nuevos-controles-dualsense-para-ps5-caratula-transparente-se-pueden-apartar-amazon-mexico",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: México quiere mejores salarios y una jornada laboral de 40 horas, pero las maquiladoras de la frontera advierten que podrían cerrar",
+        "url": "https://www.xataka.com.mx/empresas-y-economia/mexico-quiere-mejores-salarios-jornada-laboral-40-horas-maquiladoras-frontera-advierten-que-podrian-cerrar",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Samsung tiene una función para quitar las barras de estado y navegación de tus capturas",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/samsung-tiene-funcion-para-quitar-barras-estado-navegacion-tus-capturas",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tiene 90% de aprobación y acaba de estrenar su temporada final: la serie de horror y canibalismo que rompió récords",
+        "url": "https://www.xataka.com.mx/cine-y-tv/tiene-90-aprobacion-acaba-estrenar-su-temporada-final-serie-horror-canibalismo-que-rompio-records",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Así puedes mover un carro automático apagado y sin batería usando la ranura secreta junto a la palanca sin dañar la transmisión",
+        "url": "https://www.xataka.com.mx/automovil/boton-oculto-a-palanca-automatica-que-pocos-conocen-sirve-shift-lock",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Si pagas varias plataformas de streaming, quizá estás gastando de más: Profeco explica cómo elegir",
+        "url": "https://www.xataka.com.mx/streaming/tener-netflix-disney-prime-video-al-tiempo-puede-salir-caro-profeco-explica-como-elegir-mejor",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Mientras en México aman beber refresco a la hora de la comida, en Corea del Sur la acompañan de otra manera",
+        "url": "https://www.xataka.com.mx/otros-1/mexico-aman-beber-refresco-a-hora-comida-corea-sur-acompanan-otra-manera",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Estos son los audífonos de Samsung en 2026. Características, funciones y cuáles se adaptan a tu estilo",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/estos-audifonos-samsung-2026-caracteristicas-funciones-cuales-se-adaptan-a-tu-estilo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Si tu galería está llena de capturas inútiles, tu Samsung tiene una solución automática",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/tu-galeria-esta-llena-capturas-inutiles-tu-samsung-tiene-solucion-automatica",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "UnoTV: Telcel bonificará a usuarios afectados por falla del 20 de noviembre",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVkhYWll0a3FRQVFuWUlhYzRtelZVSDhEUXpTWGE5S1VXYlhtQy1SMmdWcWZ1ajhfTGliNjVSLWYzUTV3b1plM1lpem54Ynpka2oxSVFMZHVuUWZmd3ZBaHpWMHNOV1VoTUEzaHVKSksyd1BReGU3VkZYdndhZ3RYSnZneEVsa1p5TXdFZHA4bnk2ODBrOF9POG9Td0VpbTBMLVhsYlduOTY3bWUwYTF4cUZn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Milenio: ¿Cómo hacer STICKERS con audio en WhatsApp para Android y Apple? Guía paso a paso",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGRZMGxqTGFGVU45R1ZOdjVpdFhvMGJfeUFKWEVpVFBIdF96a3c1VDZHTEJ5aExob2h1WGtrTjNyR3hwSVdFeWFPYzJrNlVVQ0hEU19Ya3Z6RXhxdDV0cEZhQ29OZVh6dmdUNFpqNDNFTFFQcUhNd0MtcXdHcnFQQUx1N0VBbEhva2N1Um9ZLVkxYWlpa2hTMUdpY0RSS0It0gGgAUFVX3lxTE9MNE52MVJuUXNXUDU0TTN5bUt0dzZneUpvanhCbXFjaEhBSVozb0wwd2dRM1hhVjU2M3hxa2Jqc1JVYlZFUmpfakszaWY5ejRPdFdycDRDRThlbVhqUnJ4UWJQbTFtd0pFdE9sSG83LWg1YU9mN3ZBRHV0ZkhFNFJTT080SlBNWnQxc2R6V0dXRm5aQ05CcWxpX2NabFptMEQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: \"500.000 muertos\": la filtración de datos que revela las abrumadoras cifras de soldados rusos fallecidos en la guerra de Ucrania",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83elFhNXh3Z21nalBrdEhzaEdHSUdET2xIN3V6Q1lEMGtlcjVFTTVyN1VpS2VlN3VzNGdxd0pMSWt0NVNHZXNNNHFXWjBCWjNDZjdjR1diaXBycThv0gFiQVVfeXFMUHdGTFh3MFVRZU85U2U1QjhYTmRuMVVBNzYtd0NZX3ZZMVBfMm54dFZqcDhHV09RbDFNSzNZZEFUV0cxS0FtYXZ1ODhEVDhaSlhQTFFsQW8ydDdVYnJyNF9xZVE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Reaparece Inés Gómez Mont en Instagram tras dejar EU; comparte supuesto detector de mentiras con IA",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRDRldUhtUmNudG9qUEVMMUc1aEpxTHVSSXhCVHhidEtIUWRVWkZjTm5YbEMzUU5QaG01WlhaVk5idUM4b2s0ZUJjR1ZmZktTYVR2ZDhRWVJxY2l3amFtM05URGZZUFJnZ0NOMjFFNkxqMXVyZloyOU5sODVkaFBsa24yMXBmc1EtaUJqTlJNV1JCVVBNTEZ4TlhXeC1ZN2Y1RHhFSkdrNkRpSkFodWZhQ0lkeEVDZklyakVNcEktODgyOFFTQ1lJbzdRczFfdTNPcGFtVDJkYnk3MDhndGZ0blhR?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "BBC: Inteligencia artificial: cómo una disputa entre matemáticos aviva el temor de que la IA pueda socavar la ciencia",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "EL PAÍS: Múltiples investigaciones, rebelión interna y financiación circular: los riesgos del regreso de Huang a Nvidia",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZXFsdUp4eEh5WnkzakF6WTZLUGhBN01fRVpib1FBU2t4aHU4OThiYTJRZFhvaFgwcDVaeER3ZHVQQWJlOW0wdzBhTjE3dmtXbmF0ZTZfZWJxQnBUNlhBazV5cDRtY2xCdVlmZjJUS05zVkZhZWlwdWlLbzVCdFY4S1VQZUdKdDgtSXBERHljMHU5dXRWQkgybWhGRUdsZFRnREJFOWNQMXZVdlc3T1F1d1VQMmg1ZWd1N1haZ2RHUEdFSC1tQlU5ZFpOUkNVMFlyd0dURU14NWY3b01CRTJ1ME1SckpxQmPSAfsBQVVfeXFMT1dsWVljXzFBT1JCeHNySWFTWER0a1h5STdTYzdBYW9sQ0NoQng2WlkweTcyUDcwUnRkZkp5N2VIamhmU0NnUVVBLVFEQmhkWE42bzNGVmx0Q2Fabkl1Q3lVeEpXZlowQ1pERHR6NUJFb2Nla2w1aFlZUlpJcUVrLTJuYTdaRVpEVFk3dnZENExPSTlhcW0xMkNpUE8zSGJCSVBqdkdDMllKRUNiSmwwTExiUV85bXc5cHNuVkJBQWJhSGZjSGhsZ1NrQ2FzUi1jcklMRlF5Qy1WWmZDMWtZdzdqbHhyTF9ScE9PVlNxaVpENllHUktHWTBLNE0?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: Colombia: carrobomba, ataque con drones y 30 rehenes en Cartagena agravan la crisis de seguridad",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVlRVeEE2dkhZZmFxM1ZSVFZSbmRkSHJZTUQ4Y2tkVVkwOVd2dTZYSzVlSWNWckdYUGhRSXhRSzB0Z2FkbHhzaGV2Z0ZFT1lkRWRXaXNPZzloUkJ6V1NkRFJjTzlGc09QOGJBNWhhSmtPNzh4R0FhU2JuT0t1UzBJenRpblNKaVZQQklIWkFILUxJUzdBYlRpbEE4c0RZeFplT0VlVUNsWFB0bHdPejRCdTVJaFkxX3NONVhURDU3aGZOcko3b1F2T0FULTkxVTVNYllqNlR0QllfajlWQ2o1YUVR?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Soko conquista CDMX",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVJYR1FSY3ZCMTNnLTJLbGlGSHVxTm1uZUVmZFJ4a1RDX1I4OWRwYmphWXVwN2U0Y0NQalBRR0ZXbmozaDRWbW5CWDFJX3JBdXRydmdud0FmZnVtOWhZWUJwZzVWb3lVcTVZODFYRnNyQXBKNUlfU19Ld1ZMVWliZC1mTGNEZGs?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=cYFxQzLpKGg"
+  },
+  {
     "id": 1795716005358,
     "fecha": "2026-11-26",
     "categoria": "Farándula",
