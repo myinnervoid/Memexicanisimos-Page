@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795734005816,
+    "fecha": "2026-11-26",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Terraria activa crossplay tras 14 años y GTA VI rompe récord en PlayStation",
+    "descripcion": "Re-Logic implementa crossplay sorpresa en la actualización 1.4.6 de Terraria, mientras GTA VI establece un nuevo récord histórico de ingresos en PlayStation con más de 500 millones de dólares en 24 horas.",
+    "narracion": "La industria de los videojuegos vivió una jornada de contrastes entre la superación de una deuda técnica histórica y la consolidación de un modelo comercial sin precedentes. Por un lado, Re-Logic anunció la llegada del tan esperado crossplay a Terraria mediante la actualización 1.4.6, una función que la comunidad solicitaba desde hace más de catorce años. Según 3DJuegos México, esta implementación llega después de años de limitaciones técnicas y decisiones de diseño que mantenían separados a los jugadores de PC, consolas y dispositivos móviles. Con esta actualización, Terraria iguala un estándar que Minecraft, de Mojang, ya ofrecía desde hace años, y busca revitalizar una base de jugadores que supera los 44 millones de copias vendidas. La noticia fue recibida con entusiasmo por la comunidad latinoamericana, que durante años exigió la unificación de servidores. Re-Logic, estudio independiente liderado por Andrew Spinks, ha mantenido un ritmo constante de actualizaciones gratuitas, lo que contrasta con las prácticas de monetización de otras compañías. La actualización 1.4.6 no solo incorpora crossplay, sino que también ajusta el balance de armas y añade nuevos objetos, demostrando el compromiso del estudio con su base de jugadores.\n\nEn el otro extremo del espectro, Rockstar Games confirmó que GTA VI ha establecido un nuevo récord histórico en PlayStation. De acuerdo con Milenio, el lanzamiento más grande en la historia de la plataforma ha generado ingresos superiores a los 500 millones de dólares en sus primeras 24 horas, superando cualquier estreno previo en la consola. Este desempeño consolida la estrategia comercial de Rockstar, que además firmó un acuerdo con Panini para lanzar tarjetas coleccionables de GTA VI, según Atomix. La compañía también ha generado expectativas con decisiones técnicas como la exclusión de motosierras y katanas como armas en el juego, explicada por Rockstar a IGN Latinoamérica. El impacto económico de GTA VI ha revitalizado la venta de consolas a pesar de los precios, según Atomix, y ha provocado fenómenos inesperados como la afectación al sitio de Pornhub durante su lanzamiento. En México, el lanzamiento ha tenido un componente especial: un artista veracruzano formó parte del desarrollo del juego en Rockstar, según 3DJuegos México, lo que evidencia la participación de talento latinoamericano en producciones de alto perfil. La combinación de crossplay en Terraria y el éxito financiero de GTA VI demuestra que las decisiones técnicas y comerciales siguen definiendo el rumbo de la industria, con impactos directos en los consumidores de la región, quienes enfrentan precios elevados pero también acceden a experiencias más conectadas y a una mayor representación en los créditos de los grandes estudios.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos México: 14 años después, el competidor histórico de Minecraft recibe la función más solicitada por su comunidad: el crossplay de Terraria es diferente",
+        "url": "https://www.3djuegos.com.mx/sandbox/14-anos-despues-competidor-historico-minecraft-recibe-funcion-solicitada-su-comunidad-crossplay-terraria-diferente",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: El sitio de Pornhub se ve afectado por el lanzamiento de GTA VI",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUlvbXUxa0xxOXhCNTVFbG5aQW5HbVpESUg0Rmc4SEozOXljU0lJSmozSkM2QWpoM19KRUFIV2xKS3dONkRmOTRoeW5GVnhYaW9hRkpMbkJ6UlZZejd2QWRVTzFvRHVjN2lSOUhXdjloS0p2ZHJ5UzZmRE5Ud19RMGYwbTg0YWU1?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Dave Callaham confirma que el guión de la secuela de 'Shang-Chi' está en desarrollo activo",
+        "url": "https://latam.ign.com/shang-chi-and-the-legend-of-the-ten-rings-sequel/115494/shang-chi-secuela-guion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Yahoo: ¿XBOX existe gracias a PlayStation? Ken Kutaragi asegura que evitó la asociación con Microsoft para motivarlos a hacer su propia consola",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWlpvN1E0cmNLbEc2VXV4WDdMNDVqRkZmbWQzODVmdUZVeHdMblNOWmhPcUpPcFdTdzBEWUZ5clY5MkpRbmx6MF8wczBVOW54cWsya1NxRFZ3YkpmeHVwWWpXRE0yQjVuUldxZWZDU0VqQkMzZjdwSk12TExfeTB6TlpKNll0WTlGTkZqN0NB?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Este fue el primer juego que Rockstar sacó con el motor gráfico que usa GTA VI: pocos lo recuerdan y es una de las sagas menos conocidas del estudio",
+        "url": "https://www.3djuegos.com.mx/deportes/este-fue-primer-juego-que-rockstar-saco-motor-grafico-que-usa-gta-vi-pocos-recuerdan-sagas-conocidas-estudio",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: Rockstar Games se alía con Panini para sacar tarjetas coleccionables de GTA VI",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1VEMmI1T0lsZ2djM1pSWl84MG1pTHh5YzIwcEgzYnVYLWRVeHNuVnhSR3dZVXhyX3JzWUZZeFcwZWFIQTBUTHNycVcxNlI0dVVfVk0xdGJnQ21FZWExY0NCNFhkbmNuVXZBTXhsa0c4clhIVF8zYVNfeTdsREtvdjZIdl9BaEpmRENtM1dCTVBLZnZ2bVk2a2FCT0E?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Por qué las motosierras y katanas no son armas en GTA 6 según Rockstar Games",
+        "url": "https://latam.ign.com/grand-theft-auto-vi/115492/por-que-motosierras-y-katanas-no-son-armas-en-gta-6-rockstar",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Milenio: GTA VI ROMPE récord: las cifras que dejó el lanzamiento más grande en la historia de PlayStation",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQODNRakpCWmxDTmpBdDBDdHVtSzNrMVFkc0Racm5aM2tRUTBlQUU1dmw3NWZGNG9XZWVKcHRBWDRmUnAxR3pwR3lYNURxMEMxTkkyYXdvRHl1NEFWeDFaaS1vNGZfaDh4dEhWbDZBUHFXalVyQ09McGZ1VV9QZV9iM1UwWkVmVEZoSFMxQ2p3c9IBjwFBVV95cUxPU3VtaEtaVFZjZVpXcEdISUN1TkdHcG81TVpMRmRKamxEYmo1YkhfLXJaX2xNd3I2WHJFd1V4MWdQZzVrWExZM0s0WmhMY0ZNazZJYXB5Q1licmZVcFExMUU2Z3cxQi15TTAyU3NTaG53SlUyU3Q4TnhJakhsYVdSaVJ5eVoxVC1XZFZCQnB5cw?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: De México para el mundo: este artista veracruzano formó parte del desarrollo de GTA VI y así fue su trabajo dentro de Rockstar",
+        "url": "https://www.3djuegos.com.mx/sandbox/veracruz-para-mundo-este-mexicano-formo-parte-desarrollo-gta-vi-asi-fue-su-trabajo-dentro-rockstar",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: GTA VI provoca que la venta de consolas reviva a pesar de los precios",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWDNsaFZkQjFHMFJ6cG0xYUU5SjMwNDVXa3FNblYwbWlMY1RxYzJqdHJCcjN4WG9MZHlMUnoyd0JFWDdWT1NLd2NqWHlzd3RxODJRNFNVWlRQQzMyX1lqaTFLUjlvWEdEOTZNYjI3NW1XWnRXOEc4a2ZIbnVHeWRaMWpHNXJIS3NFREtJU3lQakE?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: El tráfico de un popular sitio de contenido para adultos cayó 15.5 % una hora después del estreno de Grand Theft Auto VI",
+        "url": "https://latam.ign.com/grand-theft-auto-vi/115491/el-trafico-de-un-popular-sitio-de-contenido-para-adultos-cayo-155-una-hora-despues-del-estreno-de-gr",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Confirmado el siguiente juego de muestra que pueden jugar gratis los usuarios de Nintendo Switch Online en Europa: Absolum",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQ0YySzUwTGd4M3pUaENTREhKcDl3b3Y1U2wyb24wZFhMNlFBaXN3dHM4S0hSZjNDUWctdDFGb00xdnB0Yy02c0E4dXhuVEd5TXRBam43bVowb0VvcjhKdmhyczF5cVY5YlpmbFAxak5yM2dGckZVck03bTdIVVFacHJYUGJCNk53dzdib0wzSURlTXN0bUFYdU81RVZuWmhfSDZxejFURmZZRmgtZ0JSdmUzMjdpT3NGTEk2Y3dNcW1hZUxVT18yeEZWYnFXUlRDWG5uZm1WX2RVX2tNSHh1ZlhWdDFRRXd0OHpXVXh1V2xGSlg0bHdTcFlHVG4?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Zelda: Ocarina of Time para Switch 2 recibe actualización para corregir el bug que impedía pasar una misión importante",
+        "url": "https://www.3djuegos.com.mx/accion/zelda-ocarina-of-time-para-switch-2-recibe-actualizacion-para-corregir-bug-que-impedia-pasar-mision-importante",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Análisis técnico revela que GTA 6 tiene más caídas de cuadros por segundo en PS5 que en Xbox Series X",
+        "url": "https://latam.ign.com/grand-theft-auto-vi/115473/analisis-tecnico-revela-que-gta-6-tiene-mas-caidas-de-cuadros-por-segundo-en-ps5-que-en-xbox-series",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintenderos: Confirmado el siguiente juego de muestra que pueden jugar gratis los usuarios de Nintendo Switch Online en Europa: Absolum",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQ0YySzUwTGd4M3pUaENTREhKcDl3b3Y1U2wyb24wZFhMNlFBaXN3dHM4S0hSZjNDUWctdDFGb00xdnB0Yy02c0E4dXhuVEd5TXRBam43bVowb0VvcjhKdmhyczF5cVY5YlpmbFAxak5yM2dGckZVck03bTdIVVFacHJYUGJCNk53dzdib0wzSURlTXN0bUFYdU81RVZuWmhfSDZxejFURmZZRmgtZ0JSdmUzMjdpT3NGTEk2Y3dNcW1hZUxVT18yeEZWYnFXUlRDWG5uZm1WX2RVX2tNSHh1ZlhWdDFRRXd0OHpXVXh1V2xGSlg0bHdTcFlHVG4?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Ken Kutaragi, padre de PlayStation: \"Quería que Microsoft hiciera XBOX y amo a Nintendo\"",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazhDN0RNUUNLSTF4Nndxdm8tQXh3YmdTZC1OMXVVdS13aFRXZ0FDaE52YlFWTXllUTAxaWl0T29Qa2lrTWVIUFpid3dVbXh0TGZjUGs4YmYzSjZWX0MtbzZ3VWxtZXlMMFhoWUxEeVpZbG9hdFVHM2w0QWVHV282eENoV3hUZVhjU2YtbXl3ai1JMm1ZZlR6R2JUcm5BeXZLRWVrSndnem5BbE5kUXN0WXFvMkN0Zw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Yahoo: ¿XBOX existe gracias a PlayStation? Ken Kutaragi asegura que evitó la asociación con Microsoft para motivarlos a hacer su propia consola",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWlpvN1E0cmNLbEc2VXV4WDdMNDVqRkZmbWQzODVmdUZVeHdMblNOWmhPcUpPcFdTdzBEWUZ5clY5MkpRbmx6MF8wczBVOW54cWsya1NxRFZ3YkpmeHVwWWpXRE0yQjVuUldxZWZDU0VqQkMzZjdwSk12TExfeTB6TlpKNll0WTlGTkZqN0NB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Xataka: Chollo en Nintendo Switch 2 justo antes del Black Friday 2026: aquí, ya con descuentazo a pocas horas de la medianoche del viernes 27",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaUlFTFhERkJYQlpCZjFWZjk2NVdQaHVTSzBWSkM1NFdzcVZoVWluanUtbXdNVUFZR0hMLWk1eVJiVjR3dHBudng5N2FudlQ0Q3FUdWtpYWx4ZW9aUUJkZnNSQjl5MkM4WUZvZjdseVNaTGZaM3pxUkpnMGJxMVdHenJCRXJNNXpIcnhsVEVVNnAtcjNxdXhvaThHTGtxaXJVOFNyZ2pJWmxJNVVYMlFlU2hmMHpUV0NyRmJjZ1drbzBzTkx0UUZCOE93Vi1NNnhjSHhxdXhINNIB3AFBVV95cUxORFhNYmk0OEpGRXZfUVk5S2lnSEs0MmxrcERiT3l0ZXRUaUxtaVp0VTY5Q3ZNSWM5Q1dNUGp6NWRQd0V3RFhPdUQtT1RXbFp2c191eUpRM0sxa3BKcFRCMHpETzFSSGtMYkg1TnlCRDVSdmEtRGp6N0c2WTZVcjdra0wtSG5pdGFfQnBoaHpZNWZ5N2JMWFAySW5DczF6c2VQNGI3cEF3VjZJcGRRNHlWRFQtdmVXeDFWN2U1dkR1RC16b24wQmZFQW9nRTB1d3JSZVVmcmxlVXY3V3JB?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Crunchyroll: Xenoblade Chronicles 3 - Nintendo Switch 2 Edition estrena tráiler general en español",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQktiYU1rWk13TFRrZDJ4R05VdThJQkpZb3RyNFVGb2h6U19qNnoxYkVWQWkwOWdYcTk3X0tJYndLRmxQd3JKd0JoVFpBbXBWX09YaVlacGFOUVdhM3VJeVR4QjM2U3pzTy1lam5wV3RMUzFXV1otZFZFX0JLZkhRbW9fNlVZWVNjSFM1NjU5MWVSU29hZlRRMnVkOUZfLThNRU5iN2VBSVREZTBZSk1CTmNlV2pLaGs1aW5Lcnh3?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Milenio: GTA VI ROMPE récord: las cifras que dejó el lanzamiento más grande en la historia de PlayStation",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQODNRakpCWmxDTmpBdDBDdHVtSzNrMVFkc0Racm5aM2tRUTBlQUU1dmw3NWZGNG9XZWVKcHRBWDRmUnAxR3pwR3lYNURxMEMxTkkyYXdvRHl1NEFWeDFaaS1vNGZfaDh4dEhWbDZBUHFXalVyQ09McGZ1VV9QZV9iM1UwWkVmVEZoSFMxQ2p3c9IBjwFBVV95cUxPU3VtaEtaVFZjZVpXcEdISUN1TkdHcG81TVpMRmRKamxEYmo1YkhfLXJaX2xNd3I2WHJFd1V4MWdQZzVrWExZM0s0WmhMY0ZNazZJYXB5Q1licmZVcFExMUU2Z3cxQi15TTAyU3NTaG53SlUyU3Q4TnhJakhsYVdSaVJ5eVoxVC1XZFZCQnB5cw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Revista Merca2.0: PlayStation Plus revela sus juegos de diciembre 2026, estos son los títulos disponibles",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWFZQ0d6TE9jNXltMWpmVVJueGpiZW1zdmV5TlRIblNmMzhPR3NBSjI4M0JReHJzdFZuMjVxc28zSXl3R2tVM2ZIaTBSaDlTMGh4Vll4aWhVMWFxdGpwNXBNR2phSk5TYVI2MEE4cnQ4Z0x1Wm9CVE9wbE4yMkhjby1VczVvbVpfM1ZhUGNENElEeXhXQXdCaVRuR2ZNMmRFNFUtRmk3VnRIQndaTHFGYg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "PlayStation.Blog LATAM: Juegos mensuales de PlayStation Plus de diciembre: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2, Amnesia: The Bunker",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPaHZDRHBjLTUxV2MyTm0teXVmbS1sYS03TzlfWXF6cFVzazZSTmZnY214X3FlNFVEOWNkQzhfNDRXanhtaDJEWFg4WGFzMXFOUHhQa095YXNuY1UxWUhIdVM1ajFTRVJNVzBrWXlyaVZjV3RzcGVMcDlCTjNlbG9YaDl1YzNMUnhMOTFsRWFqTWtWNXVFZTM2eTRCazlWc3Jscm9lUGVfZkZJODcwWWNaY3REWFR0X3ItM0V0amgxTF9WclBIeW9aR3U1Z3VYR3NZMXU2bG1oM3V0OEkwWFU5am1iNEdhLUxfRTk5X0EwYlhla3R4QVAw?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=1m-ct3je0MQ"
+  },
+  {
     "id": 1795719607210,
     "fecha": "2026-11-26",
     "categoria": "Tecnología",
