@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795654808104,
+    "fecha": "2026-11-25",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Senado protege a mujeres migrantes; IMSS-Bienestar y fentanilo marcan la agenda",
+    "descripcion": "El Senado avala reforma histórica para mujeres y niñas migrantes y desplazadas. San Lázaro recibe la iniciativa presidencial para la Ley de Servicios de Salud del IMSS-Bienestar. La FGR destruye más de 900 kilos de fentanilo en Baja California. Coparmex exige recursos extraordinarios para recuperar la paz en Sinaloa. Diputados blindan San Lázaro ante manifestación de jubilados.",
+    "narracion": "El Senado de la República aprobó una reforma para proteger a mujeres y niñas migrantes y desplazadas, minuta turnada a la Cámara de Diputados. La reforma busca garantizar atención integral y refugio seguro, alineada con tratados internacionales. Según datos oficiales, más de 30 mil mujeres migrantes transitan por México cada año; también contempla a desplazadas internas por violencia. Organizaciones civiles celebraron el avance pero exigieron presupuesto etiquetado. En San Lázaro, la Mesa Directiva recibió la iniciativa presidencial para expedir la Ley de Servicios de Salud del IMSS-Bienestar, que reforma, adiciona y deroga disposiciones de la Ley General de Salud. El objetivo es consolidar un sistema universal y gratuito; el IMSS-Bienestar atiende a más de 50 millones de personas sin seguridad social. La ley busca garantizar medicamentos y personal médico en zonas rurales, con un presupuesto requerido superior a 100 mil millones de pesos anuales. La oposición advirtió que se debe asegurar transparencia en el ejercicio de los recursos. La Fiscalía General de la República destruyó más de 900 kilos de sustancia con fentanilo en Baja California, incinerada en un horno industrial en Ensenada. La droga fue asegurada en operativos previos y el proceso cumplió con la cadena de custodia. Según la DEA, un solo kilo puede generar hasta 500 mil dosis letales; la destrucción representa un golpe al crimen organizado. La Confederación Patronal de la República Mexicana exigió recursos extraordinarios para recuperar la paz en Sinaloa y certeza económica. Solicitó fortalecer inteligencia, investigación y prevención. Sinaloa registra más de 500 homicidios dolosos en lo que va del año; la inseguridad afecta la inversión y el empleo, con pérdidas estimadas en más de mil millones de pesos. La Coparmex propuso una mesa de coordinación con los tres niveles de gobierno; el gobierno federal anunció el despliegue de fuerzas federales. La Cámara de Diputados mantiene el blindaje en San Lázaro para evitar la manifestación de jubilados. El presidente de la Mesa Directiva, Raúl Bolaños-Cacho, informó que los manifestantes aceptaron retomar el diálogo. Los jubilados exigen el pago de pensiones y mejores condiciones de retiro; el blindaje incluyó vallas metálicas y un operativo de seguridad. La Cámara analiza una contrapropuesta; datos oficiales indican que más de un millón de jubilados reciben pensiones del ISSSTE y el adeudo asciende a más de 10 mil millones de pesos. Los diputados se comprometieron a revisar el presupuesto para el próximo año. El diálogo continuará en los próximos días.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Senado avala reforma para proteger a mujeres y niña migrantes, así como desplazadas; turnan iniciativa a San Lázaro",
+        "url": "https://www.eluniversal.com.mx/nacion/senado-avala-reforma-para-proteger-a-mujeres-y-nina-migrantes-asi-como-desplazadas-turnan-iniciativa-a-san-lazaro/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Salud descarta influenza aviar en 26 personas de Guanajuato; estuvieron en contacto con animales que murieron en zoológico de León",
+        "url": "https://www.eluniversal.com.mx/nacion/salud-descarta-influenza-aviar-en-26-personas-de-guanajuato-estuvieron-en-contacto-con-animales-que-murieron-en-zoologico-de-leon/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: San Lázaro recibe iniciativa presidencial para expedir Ley de Servicios de Salud del IMSS-Bienestar; será turnada a comisiones",
+        "url": "https://www.eluniversal.com.mx/nacion/san-lazaro-recibe-iniciativa-presidencial-para-expedir-ley-de-servicios-de-salud-del-imss-bienestar-sera-turnada-a-comisiones/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Coparmex exige recursos extraordinarios para recuperar la paz en Sinaloa; pide certeza económica en la entidad",
+        "url": "https://www.eluniversal.com.mx/nacion/coparmex-exige-recursos-extraordinarios-para-recuperar-la-paz-en-sinaloa-pide-certeza-economica-en-la-entidad/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Cámara de Diputados mantiene blindaje para evitar manifestación de jubilados; analiza contrapropuesta",
+        "url": "https://www.eluniversal.com.mx/nacion/camara-de-diputados-mantiene-dialogo-con-jubilados-para-evitar-nueva-manifestacion-analiza-contrapropuesta/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Diputados avalan colocar en muro de honor a heroínas mexicanas sin el apellido de casadas; incluyen a Josefa Ortiz y Margarita Maza",
+        "url": "https://www.eluniversal.com.mx/nacion/diputados-avalan-colocar-en-muro-de-honor-a-heroinas-mexicanas-sin-el-apellido-de-casadas-incluyen-a-josefa-ortiz-y-margarita-maza/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: FGR destruye más de 900 kilos de sustancia con fentanilo en Baja California; fue incinerada en un horno industrial",
+        "url": "https://www.eluniversal.com.mx/nacion/fgr-destruye-mas-de-900-kilos-de-sustancia-con-fentanilo-en-baja-california-fue-incinerada-en-un-horno-industrial/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum corrige a asistente de la mañanera por felicitarla en el 25N; conmemora Día Internacional contra la Violencia a la Mujer",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-corrige-a-asistente-de-la-mananera-por-felicitarla-en-el-25n-conmemora-dia-internacional-contra-la-violencia-a-la-mujer/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Congreso reconoce urgencia de resolver contradicción en relevo de la SCJN; diputados alistan reunión con Hugo Aguilar",
+        "url": "https://www.eluniversal.com.mx/nacion/congreso-reconoce-urgencia-de-resolver-contradiccion-en-relevo-de-la-scjn-diputados-alistan-reunion-con-hugo-aguilar/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Aseguran más de 18 millones de cigarros apócrifos en aduana de Michoacán; cargamento era procedente de Singapur",
+        "url": "https://www.eluniversal.com.mx/nacion/aseguran-mas-de-18-millones-de-cigarros-apocrifos-en-aduana-de-michoacan-cargamento-era-procedente-de-singapur/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Diputados rinden minuto de silencio por militares fallecidos en captura de “Chapo” Isidro; reconocen su entrega",
+        "url": "https://www.eluniversal.com.mx/nacion/diputados-rinden-minuto-de-silencio-por-militares-fallecidos-en-captura-de-chapo-isidro-reconocen-su-entrega/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Ricardo Anaya exige extraditar a “Chapo Isidro” a EU; advierte conflicto de interés con gobiernos de Morena",
+        "url": "https://www.eluniversal.com.mx/nacion/ricardo-anaya-exige-extraditar-a-chapo-isidro-a-eu-advierte-conflicto-de-interes-con-gobiernos-de-morena/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: IMSS aplica 4.8 millones de dosis contra influenza y 1.1 millones contra COVID-19; dispone de 8 mil puntos de vacunación",
+        "url": "https://www.eluniversal.com.mx/nacion/imss-aplica-48-millones-de-dosis-contra-influenza-y-11-millones-contra-covid-19-dispone-de-8-mil-puntos-de-vacunacion/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Vuelve Sheinbaum a criticar duopolio en el INE; “no hicieron lo que tenían que hacer en su momento”, acusa",
+        "url": "https://www.eluniversal.com.mx/nacion/vuelve-sheinbaum-a-criticar-duopolio-en-el-ine-no-hicieron-lo-que-tenian-que-hacer-en-su-momento-acusa/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Financiero: Marcha del 25N y protesta de gaseros ‘colapsarán’ a CDMX: ¿Qué carreteras y calles serán bloqueadas HOY?",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdXQweERPeHFTTHJQTUhxNVoxVXRnWHFrUWYzOEl4WDloclFvMjluMkhWLTFFOFFzSm9aV0E2NHQ3aXV1VHVMMklIdGZJckNNRjFYclVyN0pqek1XUWJwSkZIRkhILXoyR3pxTXNkdXF2cXg5Nzl1azgwSjRaZTZWOF9ua05TR0p1OVYzdGd5VTRJQVBOeVE5NGdYMGdTV2d5NmtTa2hmakY5THBndVJiS3gwa2JQTFpPVGRpc2VaN2ZSVnZSVm1xZ3ZMQ1diWVhjbkl4VnlLT2t5Q0xaRHNiemd3?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum discrepa de la pretensión de EU para equiparar al crimen organizado con terrorismo",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORGZNRlJyaW14TlEtMV9wZENMTlRiQ2hhd1BYb1pscTNBOXNFQU1QZ25DcURaZmdPODZSTEVwTDMxVi1pZUFQWGJ2YWkyanVvVDBqQnFBS0xUMWJtS042YTRlOGZ3bUtmSDB3cFZ0WlBNMll4NC1zTmVmX3Y3NW5OTHFPXzZVN2E3VlB1UENFTUpnT052T1dTQ1oxWDVhT2hSdWlmcm5MSVQwNUVCOWEtSGdjUXpIOXRURDl1LWd2WVNHb3JqYjUyY2NtNkZlNWJBMGlWYlczNXcxZFZoazZLMA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Claudia Sheinbaum confirma que Inés Gómez Mont fue deportada a España y pide su extradición a México",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYWdvSEpRRW0yOFkwVWFob05wdG5BSFVZRlhtc3lwMERPdkJBQlk2Wk5NU195VC01bGk2bzlBMjc1WXVXQ0VGbEFwdG93OEs4NjN6NURPQjRSRHRPUC1XMml0eC1NQjRxVk9XS3hIYkNLYTc5TlRLRVQwaURBcDZ6V1JpamFGdkFYVzQtbHlRRFlJLUZ1LWl3VXNReEJuOWRETHNxNW9BdUlSekVrSGx1dExnM05WalVtWGdnWTctekhkQmJyd0Z3MjdvMGh5NGYzZHlRMlcya25DQdIB7gFBVV95cUxQMUJGVm9vSjl5dWtEdDNYTUJ1NHVrUHczbEthclBIVmhPNjBuNDhPS08tdGt3dmtVR0N2MVlod2d5Vmp1T00yUE8xN0ZicFdRLVJ1R3lqVmdjZ2VWNkJaUnFzUUREckg1ckJmWjFrSmFYZzBoejB6Y2VFdEV6RW1sbk5mOXBjQ0tNSTczVkZXQ2F5SWZPbFlZc19IX3Y3WHBpVW51X2Zhb2lKMzdIWGk2czc5b1RJdEV0OVBhVk1JWlJkWHFsSFBUNkpTTlBfaVRvMVlDTkdGOUl3STRmTGI1Y0x6R21LRmNjWklXVzhB?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Aristegui Noticias: FGR abre la puerta a entregar a 'Chapo Isidro' a Estados Unidos",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQclgxcTNRTG5PR2tZOEtKOVBBcmFlYmN5bUM5VS1uOTZhby1jZDY4dmFNVWlmXzdXakpGUWRlX0RsLU9IRXY1NnJ1RFpMV1dFbTFXYmxqcHJJa0h2bGdOX3FnMV9KNklUWGVQQmJGYXJCeTZZWmQyZXYtZi1kb1JCTUFiVnVMekhESGd2dVo5Mm5IaHpGNDFNTHNOck9EbHU2M3ByX21BeTV1VUUwZnppNlEyY1dxYVRUNG42UkhDSQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: Guillermo Zuany habría beneficiado a la gobernadora Maru Campos con dinero del narco para su campaña de 2021, destapa NYT",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPR2d4MlVwMzNLQnY4NVBZLUR5d2Y4bkl3RHJfeTRaNnFJRVVERWJsdEYwZ1lZbjVnRlBlTUp1ZENxdWF5bTFIa2NXeVRFOWl3M25OWnZldWk2Y2dFejluWUJLMDZrYXVTNVZOeXloRWtpZE1DRHhTU1FucmlDX3VvU2d0bmthOXZPbXllaFZoNXJuT05DZ0dHaHhxTV9WeHgzYmNsWENRLU1TMThLZGZUZlRyZER1NUhuMEFzZFVqUWhKTjlhS3pKeEhCdmtrbUNSeDFoTEk4aE8zckZDaXRyTTFha19fb1ZxckVfRGZoTVdBTkoxMEHSAZACQVVfeXFMTzZJWENqSzhNdWNtLU1ySnF5VUtlamZtYWYtYUpkZFN4T3hWYjBBZFlySlFoaWxkbWdLRmhVV1c1emVjOThuRmVNWDlIOWlQdVhEWGF3YUk1WnRjb1hMNVM5RllzOE9oYVhjWTV0SFo1b0JOdWowNTdOdnBtOUJMdnR3VjBqUUJvbk5ialNlRTA4Q3ZtdFhxNFM3WERJUjhPb3hvVGl3YkZ6aFAxU0pBdmFJdXdFVDZUa0o1OE5weGMwWVRBTWU5UnE2WG1Qd18yQ0pBWktzVnBMb0tOWTJFRW1kb1pKOTdoczl4TnRiYWxPdnF5Ny1ZRF8xS2h2RktGclVNOEJJb3VFa29IWm5Zc28?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Universal: Nueve de cada 10 mujeres que sufren violencia física o sexual en México no denuncian, alerta la ONU",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeFhEc0RIQ1cwZnNvWVhaZWRWekx1MDdfdGJ2T1FuRlZJZTRXeUlqclRNWUc5Z2xzc19TU05aS0hJYUo1azF1anZqZ1NVYVZrbTdEXzJNcGlxZjlPZGFULWxJMjU0Z2Y3TFVPc3pteFNKcmxhVUVFWWsxNWhNaTVIVm02UF9Ua21YOVRQeEh0WUNISTkwMEpoYWlWVkIwWm5xZlAxOGpyUXNKTl8zZzROSnBjeER2N0U3Q2J3YmZCZ0taQjBINGlDTDYxcWZKRXBTOTlJYy1vR2o0NmExZC1xZ1JrMDNVaV9jVFk5Wjd6WmVMWWYzSDJtcw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Sheinbaum explica qué pasó con las cuentas de Rubén Rocha: ‘Nunca se descongelaron’",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNmdDRE9xRkdxbjdHR2ZTbUdSWXM0dmNmdy14aUVMeUFVYmxJVGlIY0lhTkNGN3dDdlRKSFU0cldsbUI2Sk1vZVctWEJmazNpYlo2eWpjYXppekVwTUtLREFfdFJrTkRDSjFzY3JpeGNhaTZiMGVsXzNpVHlDbDZUSFNhdkZoMFhkTm82QWdTSUUxd21TLUdrQmQ1MGk5VGhsbWxlbncwV1ZuS1JOZGRTdzVoMF9VUXVnOFhDOGZn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Reforma: Ordenan a INE admitir denuncia de Montiel contra Campos",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb0t1QzFOYUc0a3hLaU1XNTNiSUt5N3NWTUtZWUxUSWZadld5c0VDUm82bnZQY191X0NWQTV1VExxYjdxdXZmX1Z0TVM4ci1Uc0N2OHhRNFFpT0UzSHNFMk52T1RiSXRkNXl6Si13endKUm1VWG9DOGlrWmJ5dllvZk9XcEJxaktBYlpqazFtazF2aGc?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=VKl0b8zXtBA"
+  },
+  {
     "id": 1795647610323,
     "fecha": "2026-11-25",
     "categoria": "Gaming",
