@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795716005358,
+    "fecha": "2026-11-26",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Carla Bruni a juicio en 2027 por financiamiento ilegal de campaña de Sarkozy",
+    "descripcion": "La exprimera dama francesa enfrentará junto a Nicolas Sarkozy un proceso por el presunto financiamiento libio de su campaña presidencial de 2007, en un caso que involucra pagos millonarios en efectivo y una red de intermediarios.",
+    "narracion": "La justicia francesa ha programado para 2027 el juicio contra Carla Bruni y Nicolas Sarkozy por el presunto financiamiento ilegal de la campaña presidencial de 2007 con fondos provenientes de Libia. La investigación, que se extendió por más de una década, sostiene que se canalizaron millones de euros en efectivo desde el régimen de Muamar Gadafi hacia la campaña del entonces candidato Sarkozy. Según la acusación, se habrían entregado bolsas con hasta cinco millones de euros en efectivo en el Ministerio del Interior francés, involucrando a intermediarios y empresarios. La exprimera dama enfrenta imputaciones por ocultamiento de pruebas y asociación ilícita, delitos que podrían costarle hasta diez años de prisión y multas millonarias. El caso también salpica a la llamada 'reina de los paparazzi', quien habría participado en la trama de encubrimiento. Este proceso sienta un precedente sobre la transparencia en el financiamiento político y las consecuencias legales para las celebridades que ocupan cargos públicos o se vinculan a ellos. En paralelo, la actriz Laura Zapata denunció que la enfermera condenada por negligencia en el cuidado de su abuela podría cumplir su condena fuera de prisión. Zapata exigió que se revise la sentencia y advirtió que no descansará hasta que la responsable pise la cárcel. El caso de Bruni y Sarkozy, que se ventilará en los tribunales franceses, promete revelar la anatomía de una red de financiamiento que involucra a intermediarios y empresarios, y que podría tener repercusiones en la percepción pública de la clase política y del espectáculo. La industria cultural mexicana observa con atención estos desarrollos legales, pues marcan un precedente sobre la responsabilidad de las figuras públicas y la transparencia en el financiamiento de campañas, temas que resuenan en el ámbito local. La crónica de farándula de Memexicanísimos seguirá de cerca este caso, que combina elementos de poder, celebridad y justicia, y que sin duda tendrá un impacto en la opinión pública internacional.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Laura Zapata, molesta por cambios en la sentencia de la enfermera que atendió a su abuela; podría cumplir su condena fuera de prisión",
+        "url": "https://www.eluniversal.com.mx/espectaculos/laura-zapata-molesta-por-cambios-en-la-sentencia-de-la-enfermera-que-atendio-a-su-abuela-podria-cumplir-su-condena-fuera-de-prision/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: José Eduardo Derbez se burla de los rumores sobre su vida amorosa y confirma que está soltero",
+        "url": "https://www.quien.com/espectaculos/2026/11/26/jose-eduardo-derbez-se-burla-de-los-rumores-sobre-su-vida-amorosa-y-confirma-que-esta-soltero",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: La exprimera dama Carla Bruni irá a juicio en Francia por una acusación relacionada con el caso de Nicolas Sarkozy",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/la-exprimera-dama-carla-bruni-ira-a-juicio-en-francia-por-una-acusacion-relacionada-con-el-caso-de-nicolas-sarkozy",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Robert Pattinson hasta en la sopa: todas las películas y franquicias en las que está involucrado",
+        "url": "https://www.quien.com/espectaculos/2026/11/24/robert-pattinson-hasta-en-la-sopa-todas-las-peliculas-y-franquicias-en-las-que-esta-involucrado",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: ¡Pirata y el Ron deja derrama de 23.8 mdp en Campeche!",
+        "url": "https://lachispa.mx/pirata-y-el-ron-deja-derrama-de-23-8-mdp-en-campeche/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Inmigrante gana la lotería y luego ICE lo arresta en Boston",
+        "url": "https://lachispa.mx/inmigrante-gana-la-loteria-y-luego-ice-lo-arresta-en-boston/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Jesús Zavala tan buen actor como mentiroso",
+        "url": "https://www.eluniversal.com.mx/espectaculos/jesus-zavala-tan-buen-actor-como-mentiroso/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Carín León: \"Sigo conectado con el chamaco que fui\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/carin-leon-sigo-conectado-con-el-chamaco-que-fui/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ¿Qué películas debes ver antes del estreno de Avengers: Doomsday?; Disney+ hace su selección",
+        "url": "https://www.eluniversal.com.mx/espectaculos/que-peliculas-debes-ver-antes-del-estreno-de-avengers-doomsday-disney-hace-su-seleccion/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Excuñado de Hayden Panettiere revela cómo fueron los últimos momentos de la actriz; \"tenía el rostro pálido y los labios morados\", dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/excunado-de-hayden-panettiere-revela-como-fueron-los-ultimos-momentos-de-la-actriz-tenia-el-rostro-palido-y-los-labios-morados-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Eiza González experimentó la adrenalina del Gran Premio de Las Vegas; así reaccionó al subir a un auto deportivo",
+        "url": "https://www.eluniversal.com.mx/espectaculos/eiza-gonzalez-experimento-la-adrenalina-del-gran-premio-de-las-vegas-asi-reacciono-al-subir-a-un-auto-deportivo/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Muere Steven Hack, actor de \"Mentes Criminales\" y \"American Horror Story\"; revelan la causa de su fallecimiento",
+        "url": "https://www.eluniversal.com.mx/espectaculos/muere-steven-hack-actor-de-mentes-criminales-y-american-horror-story-revelan-la-causa-de-su-fallecimiento/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Raquel Garza, actriz de \"Tere, la secretaria\", está de luto; su padre murió a los 90 años",
+        "url": "https://www.eluniversal.com.mx/espectaculos/raquel-garza-actriz-de-tere-la-secretaria-esta-de-luto-su-padre-murio-a-los-90-anos/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Ella es Kailey, la hija de William Levy que debuta como actriz y conquista el orgullo de su papá",
+        "url": "https://www.eluniversal.com.mx/espectaculos/ella-es-kailey-la-hija-de-william-levy-que-debuta-como-actriz-y-conquista-el-orgullo-de-su-papa/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "TV Azteca: AL MINUTO: Ya puedes VOTAR para salvar a los 4 NOMINADOS de La Granja VIP, tras La Asamblea",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRmpYR2pqQUswTWJIZldlZXk3UFVpdlBxUkU5Xy1PZGhKblZqREtqdVIwZTBOMEJCTVJXcnVnaEVNSW1yMVhkRzI4aGtvdVVteWxLb0ZJaTBuWnItV1ZFRUs4SjVCYktlU19RTWx6SkxzU3lMU1FTeFhxTmtna2EzaG9HRXNfNkdtOXBnWWFEazE1T0xfa0paeUZLNGdDOE16WF9xR1VmOHBoQWtjaGlNSmQzcG1pLVAxZHZ1a1lXd3pTRGpuQ1RWRWlCWC1JMk15aWNUZkxB?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "BBC: Andy Taylor: muere a los 65 años el guitarrista de la banda de pop Duran Duran",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hNlZvdjJTOUFweTJZQ3BJLU92OUNHc3B3TEI3NFh4NkluQUJaekhsbnZfay1CX245WlowbFcxMUZObkFHbEtyZERXTF9jWk5qU1lUZDlEQnlTaGlW0gFiQVVfeXFMTlNVbmJ4YnY3dTBQZE9UVFpWM0hYR1I4cG1fdlQ5UzF5Z0tlSEFnWFFaZm5OcGQwaGROTlJjdkJGejh3Wm9yNGhyRzVFaFJfRERaRjVBek50LUNkaVNlaEJIbFE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: A Perfect Circle y Dogstar de Keanu Reeves, de vuelta al rock alternativo en la CDMX",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUEs3MjZNdGlzNjQta0pybE5nQThrZXAxQmE1UmR6MkZKVEVmR2Y0WFI4bnctcWdrd1dnRnEteW92N1FEc3VaSGFGLW1kYW05S3lmblNqc3kwWjlPNEpvbU9QR2lNeThnUVo1SWJwZklneXpaNUF6b0dwU1RtZ1RZUWxheWp1d0Z1dklSZmM0a1pKSXkwQlREWUc4QjVSb0Nvc3VmNkZDd3VKejBFYWkybHppZElodGxCTy15UmxEVHg0b2otVmFUZGg3Uk1yR0pOcTVrdUctVW9WUQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: Angelina Jolie y Brad Pitt resuelven una batalla legal de años por una bodega francesa",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZDRkLVhNaGRVM3lIX191UnhhdDNIeXBTZlVFbmpDTlNIQVdjaEFWOTExUmVzaEtMVmFGenhZRnY4eWxZckdaQUNxMnp2YjBNN3FJQUNUSlVVclZTWmNMNmFrR2lNTFdYejUzYVVXMHRsRGdfQlNsSEZIRmNkVUlyNEkzQ19XdndoRVM4SUNNbHZ2X0NGZkN5cDh0amg?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: Fátima Bosch presume a su novio tras dejar la corona de Miss Universo: él es Alejandro Canahuati",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUXBEbTlkNkhoSXNBR2hFNUNlTHpfTjJZNG9tUlc3Wm5YNGRSa3NfWW1HNHBIZ3hLQzFpMHRuWWRzblFpR19tRDJCanowX0xJb1hqdS1GaTE2bnc4eFFVd1dLcmE3V0tDeW5NTkxRYmxYNnNjeFItaURZLThlZHEwbENCQ3htcmdNNURqaGJ0cFJtUDJjWkRpZUdHUjRuVy1ONFlGanU5RlJ3azdTU2swbVNQeFFfeWlIbVZRc2VlOGxaaVRnX0RpblVGTFBTbHQwS19ZWdIB7wFBVV95cUxQajJ2LTR5bDRfd1NoYUltcHNfaDZ1NWtDN0VQQTY1QUtpbkJ4SWFTY3hxWUwyN195dTRKdDVEbVYwRkdiRko3Z25mYVpEN0I5RUgxZ2lKX1hqa2pYNWRScUlfbnV3OFhHd1ZUVEFwYTVCX2p5YVdDWlljdW10d3A5MDJpaW5UdHRUYlI4V1JjU3E0OEV3cFdGcDZZTWh4MEY0akxlVGQtNUMwUnhVcjV5QmlyVUVmSG5iT3VXS1lzNnoxX2dTMnpHTE1FeEhNQlM3RE9iMHJFYkZxUTJ0X3J0Q0tqQVFkTDJRTm91UFBXYw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Un gran jurado de EE UU acusa formalmente de posesión de pornografía infantil a Thomas Markle, padre de Meghan Markle",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUnc1amlkR1N0TkJhWDhZcGwydW5ndWJIZERpTzFaNGlIajlCNGF1Y1liek9CV3N2UHJTek44R2k5THN3VndYLUhPbE1aLUNtWXVxdW1LemdMX2V4OHJkTFVBUWlTZ1U1UDhJWF9McVBBbnN6ZzFxWW9qZjlDd3ktcXZQUEFGcGlFQTNoVDdFcWp6OW9FVktZazNfZzU1bUdQRDNrWXhhVkotYmF2dU1LNGNKYlY0NEdRQTZQX1UwUTFud25ZTTQxUUxpNFphdkJpN0hweWNZYXlpUmpjdUVCN1FZWDV2bDhocUhsMHZ30gGCAkFVX3lxTE9lLXNXbGhQV1h2cDRFLUJ0LWF5N0pXUExKRlRXSHJWUkFyS0tiY3hsZzltc2plMnZsSDY3SDB3NEd3akY3N2tPd3BjU0lBQXNNLXVZdFhwQllmUEtRaE9IY2JDNWs1VjZBWHI0U2gyUkRwLWJsNjM3OUx4U3NzNllxYklzY3ZhMDBkYzBWSU1ISDhyT19ETGJXZDhOWi01a2hVbWoxa2tqU3FFdjZ6NWc1emRwaV9iMlRoX1dGNUVHYjlMbzQ3Q09lOGlDV1lST0c2bXpra2E0SFFZNW1Wa1F3Q0d1d1Z2cFRaMW1WMDdFMXZDMWpqaTNpaExyel9IUzE0UQ?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Cultura",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OYnNmc1Zvb091UEVkSHpneFlkY2tMclJHVjlVaUUwZVB1V2FaaFY0eTN3SWplS2hqN0Vjb1ZIc1pUSlFPTUNwZ0VvTmJtUUhtM0tfTlR1Ml8?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: “Buena Vista Social Club, el musical” revive en México la historia de las leyendas cubanas",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNWhOQWdhNjV6N3RkU0x5UkswbUhzZ1oyQXRlQlVHNEJKa0xWUGdTSm80Q2QyM1JJT0pnbTRuVldLSVlZV2UyNk1Udmx0Q0ZPSTNXZGxpSG1fQnVBSmlKZFlicExBdllQeFFTVERWX3dvT2tidHZXQXJPRWdTZEVQeVZzb2RERmZWTWJldFNaZXNTaFVpZHpKRXRpMjA0X1BDLWo2c3hTMzlVQnlJbU44ZTlyNU5MdDlxZmdR?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=1qWSZs1Z9lI"
+  },
+  {
     "id": 1795654808104,
     "fecha": "2026-11-25",
     "categoria": "Noticias México",
