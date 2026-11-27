@@ -1,5 +1,130 @@
 [
   {
+    "id": 1795741207967,
+    "fecha": "2026-11-26",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Sheinbaum Formaliza IMSS-Bienestar y Blinda Soberanía Frente a China",
+    "descripcion": "La presidenta envía a San Lázaro la ley del IMSS-Bienestar para dar certidumbre financiera a 50 millones de mexicanos sin seguridad social. En paralelo, diputados consensúan regular seguros de gastos médicos y el embajador chino llama a defender la soberanía nacional.",
+    "narracion": "La presidenta Claudia Sheinbaum envió a la Cámara de Diputados una iniciativa de ley para reglamentar el IMSS-Bienestar, con el objetivo de que su operación no dependa solo de decreto sino de una legislación propia. Esta ley regulará el mecanismo de aportaciones federales y estatales para la prestación de servicios de salud a personas sin seguridad social. Actualmente, el IMSS-Bienestar atiende a más de cincuenta millones de mexicanos sin afiliación. La iniciativa busca dar certidumbre jurídica y financiera al organismo, evitar recortes o desabasto en estados con alta marginación y establecer criterios de transparencia en el ejercicio de los recursos. El antecedente inmediato es el decreto de creación del organismo en dos mil veintidós; ahora se busca que el Congreso lo ratifique y asigne responsabilidades claras. La repercusión económica es directa: los estados deberán aportar cuotas específicas, lo que podría generar tensiones fiscales con entidades que ya enfrentan déficit. El debate se centrará en la distribución de cargas y la calidad del servicio. Es un paso hacia la formalización del sistema de salud pública más grande del país.\n\nEn paralelo, la Cámara de Diputados presentó una reforma por consenso para regular los seguros de gastos médicos mayores. La iniciativa fue respaldada por los coordinadores de Morena, PAN, PVEM, PRI, PT y MC. Busca frenar abusos de aseguradoras, transparentar cobros hospitalarios y permitir cambiar de compañía sin perder antigüedad. Se prevén multas de hasta seiscientos treinta mil pesos para las empresas que incurran en prácticas indebidas. El antecedente es el creciente número de quejas por aumentos desmedidos en primas y negativas de cobertura. Datos de la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros indican que los reclamos contra aseguradoras aumentaron un treinta por ciento en el último año. La reforma también obligará a las aseguradoras a informar con claridad los costos de procedimientos. Esto impactará en el bolsillo de miles de familias que contratan estos seguros. La medida busca equilibrar la relación entre usuarios y compañías, sin sofocar al sector. El dictamen podría votarse en el próximo periodo ordinario de sesiones.\n\nEn el ámbito diplomático, el embajador de China en México, Chen Daojiang, afirmó que la relación bilateral no debe ser objeto de interferencias externas. Llamó a defender la soberanía nacional y destacó la participación de la presidenta Sheinbaum en el Foro de Cooperación China-América Latina. El diplomático subrayó que ambos países comparten intereses comerciales y tecnológicos. En dos mil veinticuatro, el intercambio comercial entre México y China superó los ciento veinte mil millones de dólares. China es el segundo socio comercial de México, después de Estados Unidos. La inversión china en México se concentra en sectores como autopartes, electrónica y energía. El embajador enfatizó que la relación debe basarse en el respeto mutuo y la no injerencia. Sus declaraciones ocurren en un contexto de tensiones comerciales entre Washington y Pekín. México ha sido presionado para alinearse con Estados Unidos en la revisión del tratado comercial. La postura china busca mantener su influencia en la región. El gobierno mexicano no ha fijado una posición oficial sobre estas declaraciones. El tema es relevante porque la soberanía energética y comercial está en juego.\n\nFinalmente, la presidenta Sheinbaum presentó una reforma al Código Nacional de Procedimientos Civiles y Familiares para agilizar adopciones y divorcios. La iniciativa busca proteger a infancias y víctimas de violencia vicaria. Se plantea reducir los plazos procesales y eliminar trámites innecesarios. Actualmente, un divorcio puede tardar hasta dos años en resolverse; con la reforma, se pretende que los casos se resuelvan en un máximo de seis meses. En materia de adopciones, se establecerán plazos máximos de noventa días para la resolución judicial. La violencia vicaria, que afecta principalmente a mujeres, será reconocida como causal de divorcio inmediato. El antecedente es la creciente demanda de justicia rápida en tribunales familiares. Según el Instituto Nacional de Estadística y Geografía, en dos mil veinticuatro se registraron más de ciento cincuenta mil divorcios en el país. La reforma también busca evitar la revictimización de menores en procesos legales. La medida requerirá la capacitación de jueces y personal judicial. El impacto social es significativo porque fortalece la protección de los derechos de la infancia y de las mujeres víctimas de violencia.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "La Jornada: Envía Presidencia a San Lázaro iniciativa de ley del IMSS-Bienestar",
+        "url": "https://www.jornada.com.mx/2026/11/26/politica/010n2pol?partner=rss",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Relación China-México no debe ser objeto de interferencias, dice embajador Chen Daojiang; llama a defender la soberanía",
+        "url": "https://www.eluniversal.com.mx/nacion/relacion-china-mexico-no-debe-ser-objeto-de-interferencias-dice-embajador-chen-daojiang-llama-a-defender-la-soberania/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Diputados alistan reforma para regular seguros de gastos médicos mayores; buscan frenar abusos de aseguradoras",
+        "url": "https://www.eluniversal.com.mx/nacion/diputados-alistan-reforma-para-regular-seguros-de-gastos-medicos-mayores-buscan-frenar-abusos-de-aseguradoras/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Diputados presentan reforma por consenso para regular seguros de gastos médicos mayores; prevén multas de hasta 630 mil pesos",
+        "url": "https://www.eluniversal.com.mx/nacion/diputados-presentan-reforma-por-consenso-para-regular-seguros-de-gastos-medicos-mayores-plantean-multas-de-hasta-630-mil-pesos/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: SNTE reporta avance de 95% en nueva ley para sustituir a Usicamm; destaca participación de 700 mil docentes",
+        "url": "https://www.eluniversal.com.mx/nacion/snte-reporta-avance-de-95-en-nueva-ley-para-sustituir-a-usicamm-destaca-participacion-de-700-mil-docentes/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum destaca votación en proceso para elegir director del IPN; “participen en este ejercicio democrático”, pide",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-destaca-votacion-en-proceso-para-elegir-director-del-ipn-participen-en-este-ejercicio-democratico-pide/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum presenta reforma para agilizar adopciones y divorcios; busca proteger a infancias y víctimas de violencia vicaria",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-presenta-reforma-para-agilizar-adopciones-y-divorcios-busca-proteger-a-infancias-y-victimas-de-violencia-vicaria/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum convocará a industria gráfica para revisar contratos de material electoral; “los vamos a incorporar”, garantiza",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-convocara-a-industria-grafica-para-revisar-contratos-de-material-electoral-los-vamos-a-incorporar-garantiza/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum se solidariza con escritora Ximena Santaolalla tras denuncia de abuso; le ofrece “todo el apoyo del gobierno”",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-se-solidariza-con-escritora-ximena-santaolalla-tras-denuncia-de-abuso-le-ofrece-todo-el-apoyo-del-gobierno/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum celebra apertura de oficina de Amexcid en Cuba; destaca envío de alimentos",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-celebra-apertura-de-oficina-de-amexcid-en-cuba-destaca-envio-de-alimentos/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Gabinete de Seguridad rechaza líneas de denuncia de la DEA para cárteles; “México no acepta injerencia en su territorio”, dice",
+        "url": "https://www.eluniversal.com.mx/nacion/gabinete-de-seguridad-rechaza-lineas-de-denuncia-de-la-dea-para-carteles-mexico-no-acepta-injerencia-en-su-territorio-dice/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum pide a España extradición de Inés Gómez Mont; “es relevante por la impunidad que representa”, señala",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-pide-a-espana-extradicion-de-ines-gomez-mont-es-relevante-por-la-impunidad-que-representa-senala/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum destaca “extraordinaria relación” con España tras diferencias por la Conquista; reconoce acercamiento diplomático",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-destaca-extraordinaria-relacion-con-espana-tras-diferencias-por-la-conquista-reconoce-acercamiento-diplomatico/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum pide reunión con EU para regular vuelos de SpaceX en espacio aéreo mexicano; busca coordinación bilateral",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-pide-reunion-con-eu-para-regular-vuelos-de-spacex-en-espacio-aereo-mexicano-busca-coordinacion-bilateral/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Morena exige respetar reglas electorales vigentes ante amago del PAN y PRI por asignación de pluris",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeVBhMHhTQTFPM09Oc19ZaXBYSDBpNlRFVHJsbjR6Qy1WYWRuLWwtd0U4dmV4RFZTNV84R3UwaENEbzNnVnZxM0dPNlY0RWtuUDJvR2ozT2ZFbGN4TG5iM1J5WXFwVlkzcGNjMDRqamdSeldNWXhvMGNIZDhzUTFHdUJJUXhIYjIyNEgyb0ZSU0JWeFhKNjdhV1FiWjAzR2lTMHprRTJraHA1MEVGbldtTGttZkRtQjVWU2FEdjdJSjkxVDFwOVZMRW9KUFAyRmlyMEE2UXNWQ09xT0lKV2JkYjVTVE1USmF5ekE?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Atrapan a otro líder de La Mayiza: Detienen al ‘Chapo Félix’ en la sierra de Durango",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWGZsa3laMkRwSGVaVWd5U2tUQUdBUlVVTFNmcHpIZHlpSHBOSXNYbkhjTzNCUE80VkxlcGVTcXlaVFpqQW1KQ21UR2R0ZE1tc1VtY2R2U0RBQmFxOVVBTmZnME1TWDVYSmo4ZlJJNFBPcm10UGpfclBFZWdaXy1XRDltOXF4cjBCUlFXSHFfalB2WVVvZENqMkVpT3JtWWVwb3pyUzRQUG8tYndNX0s0VlA0NVQ4aUtzODFGRUgzdTcyNWVtaDVIcGZHU210MDQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: Sheinbaum, sobre el caso de Ximena Santaolalla: “El Gobierno de México está con ella, ojalá presente la denuncia”",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPekJXRk9UYml6NHlud2xRdlBfMC1ab2NwVHZSZk1CNGxSUjFQSXVYUjRnZldBTVltNnh0STR0Z21SUWx0TjdGRTlJV0dHNloxTy1vZjJyRUxhY2ZENHI0VjlJTklLWkFaWG1jOUl3aTVPV05wZVFSUDA4ajJXcEZ6bE9ObTF6Wl9rOGFTSWZsU015WEhRamlEeHdNSHBya0tvN3dkbldndWJIUjhJYVROZzBLS3J6LUpZOTFnekhzZXFLRVNxUVZpS2NiT0J3OXhVQmVnODVfTHB2TkNRRXJ1R1BvOWzSAfgBQVVfeXFMTTFGeTBpYzByZV9jTjRfLUVhbmkwaXdhd3hpd0x1bDZuRTdnVGh4YTVRLXhVbmYxQzEya3FUUmEtaWh3NVFVU293X2xXanRHVTZnSGxsdkhBWnJCRzZlejdaUUlSRXZqYlVFa2lKMVcxZGJzMmFSNlpIUUdUeTc3NzhraVBYRTl3SHBHYkxMal94LU9iZGlNbjVEV0tYNjZ2cmJ1ck4yVG1zNUFScENuQlpBVVhaVGZPdkE2dGdJeHV6RUZaUlJWZTFiaWI0N3FDdllxS2tuZUJDdUZVLTRzYlBLOXUyTG4xRU1FTExYTDFUWnROQjZxa3Y?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: \"Es injerencismo\": Sheinbaum condena pretensión de teléfono de denuncias de la DEA sobre corrupción en México",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPU3RmOF9YdzUwTjRjYVdfclIxMGRGLUdrVXpGbU9TRmxDeTFQcEFtQ0RhOEcya3RHSU91ak9yVVNBbDZ0X25mazR6V3BHbTZlRHFJY3pqdDlFeDE2YnpLc2o1a180NGZ0bUFOTUJlMzRVNGNVYkZ1NzA3MXZ5b2xXQTg3dGZTdkZCUnFlaGpIOFg3QUVyTGtNMUk3am40NG81X21kbFVRN0ZWMUNaRjlWMFFKS08tT3ZrYlJzUzZlQ21kVl9LSWc2S2NEQUV6VG9qOXBpYzd1V21jMV9nbkFENU1jdFMyX0YzamlWaklqNFhneVZKRzRBMTZvVVJfZjdm?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Operativo Enjambre detiene al alcalde de Atzitzintla, Eduardo Velázquez, por presuntos nexos con 'Los Zúñiga'",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQdUZucU1UWkMtYnhua1hVNGp4M2o3enZXOW80MmNaNV9hd1hZWGEyN3Z1bTJVVE8wQ3BpdW11SHBMNFY0RE50bW9YYzQ1ZVRROXlLSUczaEw5d0hkOUFLNHk3U1RmRVZXR3NEY0ZFUzN0YUtIREJoR3VKa0I1My13SEozWGFidGdwazhINzZ5R3IzcWQ0NUdvM2t0YnFleXZ3MEhhcG02MURpcGF3cnp1WnAybVFtSE9aQnVVOXhXZ0VJYTZWZ043OHZRcHI5a0hhZENVcTNIeTFLNkJVMGJ1b0N3clpZZDNLRUhlbW56QzlLMnRWNTJhQUJ3QUNlZk5GOTRfNl9Wdw?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "BBC: Inés Gómez Mont, la exestrella de TV mexicana prófuga de la justicia cuya huida a España causó un roce diplomático entre los gobiernos de Trump y Sheinbaum",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUNXlfVXNWdThjZVFFeHd4ZFV4NkRMc0FFa3Q5VGtjYVdHVXNqU2VVX0dSbkxfVDB3QnhfZWhrVU0xcENpemtIWHFRRXpfUG9wS0w4c3BPRmlER3JH0gFiQVVfeXFMT3NrTE9OOEZsMnpKa2pSUTVmT2tfUG1ramw1SUVpcjNWZlUwRXFiSjY5R0NReTZTOUNzOEN1b2JWS3pvcFg3RC1FTUo3U29VUE9LVEdSalozU1FzMFh3VEFLLXc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "vanguardia.com.mx: Se aproxima la primera tormenta invernal a México... Masa de Aire Frío generará heladas de -10 grados, caída de aguanieve, lluvias y fuertes ráfagas de viento de hasta 100 km/h",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPZ2pBZVV0VjNEZHFFYzRuR09waXdpc0ZWdDd4anFjdXFBa29lcWVzekthTVpZY3U4VmJPSjlhY182Wk9idWlqWTZPamFsSFFkWjFYWlZwYnMteHVOeGRYWDVFUkNKU1BVRzFyN3FPWUZuLXlyRzdRb2dUSkd0dVJuRDVMS3VsMXNnQmk1X0F0bUN6Sktxa1pmYXRYaGs2cDhsVG1Ba1BLR3FFOEw2U2hKVmNXX0lWYWd1M2dZdFAyQ1Uyci1fNGVXYnR1cnBMdi1jYVAyUkVrVVJYNmN2VHFGSHpFOG1CWktUWlM4WS1BZ3praGs3VXdJaE9fSldDMW5VV3JtS2IyUnFfRnA2RzZDUmZhdVk3a29oRnZPRVBB?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Financiero: Por no echarle la firma: Desechan solicitud de amparo del ‘Chapo Isidro’ contra extradición a EU",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbFpMVldMR1FEdVprNXlDc01HQzBCaGZPVVRwMzVwZkVVaHY5dU5ZWDdCX0I3ZUR0R0RXZnR3RVl6ZDBEdmFreGpzMjdBbnl6QkdmcTZhZV9SdXBOUjQ2TmpKWEd4amFnZDNabDU4c1BJRmk3ZWZNbGNtckpYNFE2WlpDaTVlTkJ5OE5Hb2dKY3BiVE9EQllDWExoaGx1Vkl2cFBqS1VBN3lrT2ZDMGJMQVMtdGV4WDZHeXp3RXR6ZXh2bkRJemc?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
     "id": 1795734005816,
     "fecha": "2026-11-26",
     "categoria": "Gaming",
