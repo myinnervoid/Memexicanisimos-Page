@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795820405250,
+    "fecha": "2026-11-27",
+    "categoria": "Gaming",
+    "edicion": "Zona Gamer",
+    "titulo": "Call of Duty salta al cine con Capitán Price y Peter Berg",
+    "descripcion": "Peter Berg confirma que el Capitán Price estará en la adaptación cinematográfica de Call of Duty, basada en Modern Warfare y producida por Paramount y Activision. El proyecto avanza sin fecha ni reparto confirmado, mientras la industria apuesta por franquicias cruzadas.",
+    "narracion": "La franquicia Call of Duty, uno de los pilares económicos de Activision Blizzard, prepara su asalto a la pantalla grande con una adaptación cinematográfica que ya tiene confirmado a su personaje más icónico: el Capitán Price. El director y coguionista Peter Berg reveló que la película se basará en el universo de Modern Warfare, la subserie más popular y rentable de la saga, según confirmó IGN Latinoamérica [VF3]. Paramount y Activision producen el filme, que busca trasladar la intensidad bélica del videojuego a una narrativa cinematográfica. Aunque no hay fecha de estreno ni reparto confirmado, el proyecto avanza con Berg al frente, conocido por cintas de acción como Friday Night Lights y Deepwater Horizon. La presencia de Price, un ícono para la base de jugadores, asegura conexión con los fans y establece un puente entre el videojuego y el cine.\n\nEl movimiento responde a una tendencia industrial clara: las adaptaciones de videojuegos han demostrado ser negocios rentables tras éxitos como The Last of Us y Super Mario Bros. La película de Call of Duty podría definir una nueva era de franquicias cruzadas, donde las propiedades intelectuales de los videojuegos se explotan en múltiples medios. Sin embargo, el contexto del mercado muestra una tensión: mientras las grandes producciones apuestan por gráficos realistas y alto presupuesto, un estudio reciente de una asociación estadounidense, citado por 3DJuegos México [VF1], señala que parte de la comunidad prefiere juegos más económicos y con jugabilidad sólida antes que producciones costosas. El informe indica que los desarrolladores deberían priorizar jugabilidad y precios accesibles sobre tecnología costosa. Ejemplos como Alan Wake 2 y Black Myth: Wukong muestran avances gráficos, pero no todos los jugadores los exigen. Esta tendencia podría influir en futuras decisiones corporativas, incluyendo las adaptaciones cinematográficas, que buscan maximizar audiencia sin depender exclusivamente de la espectacularidad visual.\n\nPara los jugadores en México y Latinoamérica, el anuncio representa una oportunidad de ver materializado un universo que consume masivamente, pero también plantea interrogantes sobre el modelo de negocio. La región es un mercado clave para Call of Duty, con una comunidad activa en plataformas como PlayStation, Xbox y PC. La película podría impulsar ventas cruzadas y promociones, pero también generar expectativas sobre la fidelidad al material original. La industria cinematográfica observa de cerca el desempeño de estas adaptaciones, pues marcan la pauta para futuras inversiones. Mientras tanto, el debate sobre precios y jugabilidad sigue vigente: los jugadores latinoamericanos, sensibles a los costos, podrían inclinarse por experiencias más accesibles, lo que presiona a las desarrolladoras a equilibrar innovación técnica con propuestas económicas. La película de Call of Duty, producida por Paramount y Activision, aún no tiene fecha, pero su avance confirma que las franquicias de videojuegos son el nuevo terreno de disputa en el entretenimiento global.",
+    "personaje": "El Mashukita Gaming",
+    "personaje_rol": "Reporte de Videojuegos",
+    "imagen_plantilla": "assets/personajes/plantilla_gaming_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "3DJuegos México: Según este estudio, los desarrolladores deben dejar de crear videojuegos con gráficos impresionantes y una buena jugabilidad; simplemente deben crear juegos más baratos",
+        "url": "https://www.3djuegos.com.mx/accion/este-estudio-desarrolladores-deben-dejar-crear-videojuegos-graficos-impresionantes-buena-jugabilidad-simplemente-deben-crear-juegos-baratos",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: GTA VI: un mundo que todavía guarda demasiados secretos",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tbU5tUkl2RUswbkQ4amlidjlKTFRjLVRYY0VBVkxweHIyWWJNcmZuM2FBWlJkNWNoWEg0QzFPOWUxSTN0blRNQTVaZXNOMnpkcDVEcVFJU0JfY0htWXFUNmZFeUpGcmJzUnVxd2R4d2xkYTgya0tyM0ZsSEI?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Director la cinta de Call of Duty adelanta la llegada del Capitán Price en la adaptación para cines",
+        "url": "https://latam.ign.com/call-of-duty-theater/115511/call-of-duty-pelicula-capitan-price",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos: Termina el Black Friday con todas estas ofertas gaming: hay PC gaming rebajados, Nintendo Switch 2, portátiles y más",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1ZOUThxR2FpbzhZVks3ZFBDVEFYVDZ3UnY3Tk0wTTU5SVBTQUxTX0FBdkJvTnRPZkpFRjczZ1JHQUVtTWk4cGwwOFVheWVCWUtYVlN3WnRTM2xuOWFjU2F3RUdKeWpQYVNvdTdZZV9OZHdUQnRnSnRpbGpYNE1oSVc2aWZ5dkVUeWdYYXJkUnZhZnEtcTZITDA2cHpibkxUQllZOU91azVLQmwtU0Zrc3hzVkE1UHFvYTdiZlV5WGlMWXZVWUQycmln0gHPAUFVX3lxTE5JR2lWMTNaVFpGNEM3Zi1QaUZSSjdRMDVSRy0wWWotanU0V2tydmRuQ0l4Z19rS1R4bTJMSHF5ZG9GVFc0R3k3cEVRb0pSUlN5MTlSZ0lsNVhoZ3RSbGtBRjAzcEJ4dkRkZXRfVXlIeDdrNFpFSzVleFV3RmlpMEVlaGRjck53RlJJR0ZlUHJ3cXZPNDhYVGo2UnZQdGRhejY4UWRhdVZJazVRY2hjYWl5SUF6Tk9uT256LUpFYW10cGhDeV9xdUF3bXljNDhEaw?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: GTA VI pierde una función que muchos fans llevan años disfrutando, y Rockstar acaba de explicar por qué no volverá",
+        "url": "https://www.3djuegos.com.mx/sandbox/gta-vi-pierde-funcion-que-muchos-fans-llevan-anos-disfrutando-rockstar-acaba-explicar-que-no-volvera",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: Tags > GTA Ventas",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZZEVxMGdKY2hqOWZVZ1MxSzFWeUVnYVZrVDZWRnpYam5FQW0xV0F6dTM2UWNWV1p4a2NQUFBGOFhiZkp1S2c3TDFfYVhOLUE?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Actor de Michael en GTA 5 defiende a Lucia y responde a quienes llaman \"woke\" a GTA 6",
+        "url": "https://latam.ign.com/grand-theft-auto-vi/115510/actor-de-michael-en-gta-5-defiende-a-lucia-y-responde-a-quienes-llaman-woke-a-gta-6",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Vandal: Amazon rebaja todos estos videojuegos físicos de PlayStation, Nintendo Switch y XBOX en el Black Friday 2026",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY2RhU18yMFpCSGFOdndJYzM3QWRJeFJfeEJjTGN4UEx4YXJLdDdaOEdtUnI1ci16UVNXWmRKMzRQeVR3YW13bkpueXBWYVA5aGdDaG1RU3RTNVZ0TXowWmtiSy0xSUNPQWdnd3pmMmYzLVlaWUwycHlRMTd2bUhTN3dpakV3RjhLUzNYM0MzNzVfSUo0TGFZcGI0VDBsakM0ZTVlZUZZZlhSVnFKamRzczlQUU9wMnh4Z1h5Q0ZldGNhYktrcmFvYWRoUFJWelV3d09zSXczZGhLSkhKenpHMjBUeXo4U0hIYlFFTUgwY9IB9AFBVV95cUxPMm1ZeGx3RXl1b0xUdjA2ZXByb1d1cFd6dkJVbUtTSXdMRFpzVjkwQkdtNjhNSmdhYWJXeGF6Rk45OFQtX3ZHQURUYkVqNEJRc0liQVRsWVY4N1lLaVVnNXBGYVZGb1E5M29TU1Rsb042dVFCeldzNS1ieEFQQnJuN1JlRGt6RXZaX3hScnB4cXg1LW9OUFpFZElQQ1o2R0xoODkzWU1XbXlnMTlpdmhDbkhCWW14X3MyeTBEZUhXMTFNaGRxY1lGQTBRNHFSMVU5MWpEWGs5X1k4cFhBQTZCa2t3NC11R0FjalY1a1NfV1g5UHN2?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: PUBG quiere hacerle frente a CS2 y Valorant con un nuevo modo de juego: Demolition lleva el combate competitivo a un FPS táctico",
+        "url": "https://www.3djuegos.com.mx/shooters/pubg-quiere-hacerle-frente-a-cs2-valorant-nuevo-modo-juego-demolition-lleva-combate-competitivo-a-fps-tactico",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Atomix: Tags > Rockstar Sindicato",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HUXZtWGVDdGszSTJNZV9wUzM3aXVkcWdRTm9EeGFYaFBkUHNiSlNHQjQ5dlFZbkpZS01LTkZNY3JfZE5RWFpiQXM4bXhKdUN5LVJndVduX3dFQQ?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "IGN Latinoamérica: Consolas no bajarían de precio hasta 2028 debido a la alta demanda de memoria DRAM para inteligencia artificial",
+        "url": "https://latam.ign.com/videojuegos/115509/consolas-no-bajarian-de-precio-hasta-2028-debido-a-la-alta-demanda-de-memoria-dram-para-inteligencia",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Infobae: Square Enix triplica sus ventas con el apoyo a Nintendo Switch 2 y su catálogo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNURuNUNYemdjdzFBWlh2UzdCM0tVeFdPc0ZWZ3RaS2hMRmZhRFVLUlNLTUNhTEt2RnN4SmFWdXAwOUZxekk5RXhCWTZ3Sm95T1dBM0Vzc1h3S1htRVpaazhodDZXTlJfNXc0MHdWWk5ZLWowT1lIWS1sU0tQVHpZLWZHZmxueXFfbFJiNG1peWhRa3RKYzJVaHlQV0JFaXdBb2RLZ2R6V0Z4UU94R0dGVzlqNUNTVTc2dVNDQW9NNjlycE9LbjhhR9IB4wFBVV95cUxQdlBvVWpqb21uMGlxblVzVHVYOHdKVnNBdmRBYjIzc3c3elhncW8zcGFWemFoVWpDX3FEVC1VbTNBbFFZZVFsdzhyRUp5TEFBOTdta2JnR3Mxang0UEhtZWdfaU1leUo0eFFDZklBeVUwR2NlZ21iX2xUUkUxY0kyaGRJUE9zdDRzR2FoSHNXSWswNnZWeHA1VldmWlZMRklXdm14cHowQ25tRjkwNF9panFxMEtjOU1iMHZWMTJod3JpYjd4emM3el9MNXIzZ0tGUkZfV0lZcGloa0l2RXdCNDlpVQ?oc=5",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: CD Projekt lo deja claro: The Witcher 4 será multiplataforma pese al acuerdo comercial con PlayStation",
+        "url": "https://www.3djuegos.com.mx/rpg/cd-projekt-deja-claro-the-witcher-4-sera-multiplataforma-pese-al-acuerdo-comercial-playstation",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "3DJuegos México: Rockstar revela las funciones y actividades que fueron eliminadas de GTA VI: compra de casas, tenis y crafteo",
+        "url": "https://www.3djuegos.com.mx/sandbox/rockstar-revela-funciones-actividades-que-fueron-eliminadas-gta-vi-compra-casas-tenis-crafteo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Nintendo: NBA 2K27 Edición Vice City",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbElzM2tjWUladmpfdm95XzJEbUpzYWMzenc2UFczTGFsOWlkaU1GaFBBNjllaXMxTGdYUnAwV0JMSDl4UVhhb1pybWhoTjg5d1dOUHhJQjE4RWVXMzloWnUyNEJRVl9ZNUNRX21zbEQ4NWZXU08xOGY4OE9JMHF4SWh2TTRaSnkxc2c?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "3DJuegos: Termina el Black Friday con todas estas ofertas gaming: hay PC gaming rebajados, Nintendo Switch 2, portátiles y más",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1ZOUThxR2FpbzhZVks3ZFBDVEFYVDZ3UnY3Tk0wTTU5SVBTQUxTX0FBdkJvTnRPZkpFRjczZ1JHQUVtTWk4cGwwOFVheWVCWUtYVlN3WnRTM2xuOWFjU2F3RUdKeWpQYVNvdTdZZV9OZHdUQnRnSnRpbGpYNE1oSVc2aWZ5dkVUeWdYYXJkUnZhZnEtcTZITDA2cHpibkxUQllZOU91azVLQmwtU0Zrc3hzVkE1UHFvYTdiZlV5WGlMWXZVWUQycmln0gHPAUFVX3lxTE5JR2lWMTNaVFpGNEM3Zi1QaUZSSjdRMDVSRy0wWWotanU0V2tydmRuQ0l4Z19rS1R4bTJMSHF5ZG9GVFc0R3k3cEVRb0pSUlN5MTlSZ0lsNVhoZ3RSbGtBRjAzcEJ4dkRkZXRfVXlIeDdrNFpFSzVleFV3RmlpMEVlaGRjck53RlJJR0ZlUHJ3cXZPNDhYVGo2UnZQdGRhejY4UWRhdVZJazVRY2hjYWl5SUF6Tk9uT256LUpFYW10cGhDeV9xdUF3bXljNDhEaw?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Vandal: Amazon rebaja todos estos videojuegos físicos de PlayStation, Nintendo Switch y XBOX en el Black Friday 2026",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY2RhU18yMFpCSGFOdndJYzM3QWRJeFJfeEJjTGN4UEx4YXJLdDdaOEdtUnI1ci16UVNXWmRKMzRQeVR3YW13bkpueXBWYVA5aGdDaG1RU3RTNVZ0TXowWmtiSy0xSUNPQWdnd3pmMmYzLVlaWUwycHlRMTd2bUhTN3dpakV3RjhLUzNYM0MzNzVfSUo0TGFZcGI0VDBsakM0ZTVlZUZZZlhSVnFKamRzczlQUU9wMnh4Z1h5Q0ZldGNhYktrcmFvYWRoUFJWelV3d09zSXczZGhLSkhKenpHMjBUeXo4U0hIYlFFTUgwY9IB9AFBVV95cUxPMm1ZeGx3RXl1b0xUdjA2ZXByb1d1cFd6dkJVbUtTSXdMRFpzVjkwQkdtNjhNSmdhYWJXeGF6Rk45OFQtX3ZHQURUYkVqNEJRc0liQVRsWVY4N1lLaVVnNXBGYVZGb1E5M29TU1Rsb042dVFCeldzNS1ieEFQQnJuN1JlRGt6RXZaX3hScnB4cXg1LW9OUFpFZElQQ1o2R0xoODkzWU1XbXlnMTlpdmhDbkhCWW14X3MyeTBEZUhXMTFNaGRxY1lGQTBRNHFSMVU5MWpEWGs5X1k4cFhBQTZCa2t3NC11R0FjalY1a1NfV1g5UHN2?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Infobae: Square Enix triplica sus ventas con el apoyo a Nintendo Switch 2 y su catálogo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNURuNUNYemdjdzFBWlh2UzdCM0tVeFdPc0ZWZ3RaS2hMRmZhRFVLUlNLTUNhTEt2RnN4SmFWdXAwOUZxekk5RXhCWTZ3Sm95T1dBM0Vzc1h3S1htRVpaazhodDZXTlJfNXc0MHdWWk5ZLWowT1lIWS1sU0tQVHpZLWZHZmxueXFfbFJiNG1peWhRa3RKYzJVaHlQV0JFaXdBb2RLZ2R6V0Z4UU94R0dGVzlqNUNTVTc2dVNDQW9NNjlycE9LbjhhR9IB4wFBVV95cUxQdlBvVWpqb21uMGlxblVzVHVYOHdKVnNBdmRBYjIzc3c3elhncW8zcGFWemFoVWpDX3FEVC1VbTNBbFFZZVFsdzhyRUp5TEFBOTdta2JnR3Mxang0UEhtZWdfaU1leUo0eFFDZklBeVUwR2NlZ21iX2xUUkUxY0kyaGRJUE9zdDRzR2FoSHNXSWswNnZWeHA1VldmWlZMRklXdm14cHowQ25tRjkwNF9panFxMEtjOU1iMHZWMTJod3JpYjd4emM3el9MNXIzZ0tGUkZfV0lZcGloa0l2RXdCNDlpVQ?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "UnoTV: Black Friday: qué tiendas en EE. UU. ofrecen descuentos por las consolas para jugar GTA 6",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUnFKMkpUSjRyT0NhMmRfZTFHY2RSUzNuM0xMNjlHVlNFR3BzWlJxUnh0N2JhY2JpUW91VFFmRUlBREl5Y3VTTUtrLS0zZ3d4ZlBWazNGRndjeFdieTBxSkk1YXlzbGg0UXU5VkFHYzBIb2I4cW9jWFdYdDU2OXhmYXQ1dnQtMDZBNC1fYWxiQ3BiMnU2bHdtV3Y4SGlCVDR5TXYyYmJibFJlYUJKQTVORHgwNENKZ05fVWpaNTFqMl9QeEJE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "VidaExtra: Hoy es Black Friday y estas son algunas de las mejores ofertas en Nintendo Switch 2, PC, portátiles y más que puedes aprovechar",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZGVwU21FRmhZTGxJYjE2dUtNT1JFbV9PTHl6SzRnWTcycXc3cnp4WmZ0ZzhGSmNHMGlUcWdybllueGF4YnhPZTAyT1BLeERHNVYxUndLWVM4ajRqWU5rY2huSl9Cb0hDUDdPOGtvT0JBQlJnazFaeWdCc2M4NXVPWTlHUVpCRDB0Z2ZETXFralpPM0F3S3ZrU2t5Rmk2dzdOMmNyYS1ONldFVmlnTzFLcFdIM1VRdVR1cElZLTNCa3BvdTduenFiS0ozeE1zQkdEYVE?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "Sopitas.com: ¿Qué pasa con los videojuegos cuando cierran sus servidores?",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZEFfZVljYjJ4TGlxTXRwX3ZnekRmdi1Zc2E0RGZJZ3lvUVozQVBOZkZNS0swZG9LNU1xNGo5ejdXNHhzTlZ5ZHdyUmMwQzEzLTZ2bEF4TFVYbG1lS21lZ0lyQUhrR01lRF81S19sN18tUEFkWmd4TlBaSkpzM0k0R0Nka2dBMDg?oc=5",
+        "tipo": "Prensa Gaming"
+      },
+      {
+        "nombre": "LEVELUP: Nuevo estreno de día 1 de XBOX Game Pass permite que 3 personas jueguen con una sola suscripción: es el nuevo título online de exveteranos de Blizzard",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPU09tNjQ3cjlfWklUdnJrR1NWRk5MMDd2c0l1bkRxNTBGSnZpcktOTWNXOTNkMWw2NFh3SXpyeFJMZjRSd3JsUEpFaEVlMHFsRmtKTkdWaHVTYmh5MFQ5cG9OS3pOSE00VGNKY2ExZDBCRmNNN29wUHFlV3Z4SGh1bUZsRTZPbFBXQUZkSm96SjFNOHVKa0lWQlVJWVdLb0NxZmE2aWpQcjgtRHZwYXVGTWtzLVZLX2RQVDgtTmo1Ukw4QnVDUXlicTRMWVB3SEkwcFNNbHdMY2cycTk5U081dDhPdTE1YWNYc3NQZWVrMFRXYWdMaWIzbDk2X3dEQnlrN0JQS3c3VW9sVDlRU1dvbA?oc=5",
+        "tipo": "Prensa Gaming"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=z4HKmscNYwI"
+  },
+  {
     "id": 1795806004695,
     "fecha": "2026-11-27",
     "categoria": "Tecnología",
