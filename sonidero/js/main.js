@@ -15,6 +15,11 @@ let currentVisAnalyser = null;
 const powerBtn       = $('powerBtn');
 const statusEl       = $('status');
 const monitorBtn     = $('monitorBtn');
+const modeHeadphonesBtn = $('modeHeadphonesBtn');
+const modeSpeakersBtn   = $('modeSpeakersBtn');
+const autoDuckBtn    = $('autoDuckBtn');
+const cumbiaLoopBtn  = $('cumbiaLoopBtn');
+const duckBadge      = $('duckBadge');
 const pitchSlider    = $('pitchSlider');
 const timeSlider     = $('timeSlider');
 const feedbackSlider = $('feedbackSlider');
@@ -46,7 +51,7 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
 // ── Encendido ──────────────────────────────────────────────────────────────
 powerBtn.addEventListener('click', async () => {
   if (!isRunning) {
-    if (!engine.ctx) {
+    if (!engine.ctx || !engine.micInputGain) {
       setStatus(statusEl, 'Conectando micrófono...');
       try {
         await enumerateMics();
@@ -55,7 +60,7 @@ powerBtn.addEventListener('click', async () => {
       }
       try {
         const ok = await engine.init(getSelectedMicId());
-        if (!ok && !engine.ctx) {
+        if (!ok || !engine.ctx || !engine.micInputGain) {
           throw new Error('No se pudo conectar el micrófono');
         }
       } catch (err) {
@@ -73,7 +78,11 @@ powerBtn.addEventListener('click', async () => {
       }
       ensureVisualizerRunning();
     }
-    await engine.resume();
+    const resumed = await engine.resume();
+    if (!resumed) {
+      setStatus(statusEl, 'Micrófono no disponible. Verifica permisos y conexión.', 'warn');
+      return;
+    }
     powerBtn.textContent = '⏹ Apagar Micrófono';
     powerBtn.classList.add('on');
     setStatus(statusEl, '¡En vivo! Manda tu saludo desde la cabina 🎙️🔥', 'active');
@@ -129,14 +138,14 @@ function handlePresetApplied(p) {
 
 document.querySelectorAll('.preset').forEach((btn) => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.preset').forEach((b) => {
-      b.setAttribute('aria-pressed', 'false');
-    });
-    btn.setAttribute('aria-pressed', 'true');
-
     const applied = applyPreset(btn.dataset.preset, { onApply: handlePresetApplied });
-    if (applied && !isRunning) {
-      setStatus(statusEl, `Preset cargado: ${applied.label} (${applied.desc})`, 'active');
+    if (applied) {
+      document.querySelectorAll('.preset').forEach((b) => {
+        b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+      });
+      if (!isRunning) {
+        setStatus(statusEl, `Preset cargado: ${applied.label} (${applied.desc})`, 'active');
+      }
     }
   });
 });
@@ -175,11 +184,10 @@ allSliders.forEach((sl) => {
   });
 });
 
-// ── Monitor ───────────────────────────────────────────────────────────────
-monitorBtn.addEventListener('click', () => {
-  const next = !engine.isMonitorOn;
-  engine.setMonitor(next);
-  if (next) {
+// ── Monitor & Modo Tornamesa (Auto-Ducking 25% + Anti-Acople) ─────────────
+function syncMonitorButtonUI(isOn) {
+  if (!monitorBtn) return;
+  if (isOn) {
     monitorBtn.textContent = '🔊 Monitor: ON';
     monitorBtn.classList.add('btn-patrio-green-outline');
     monitorBtn.classList.remove('btn-monitor-muted');
@@ -194,7 +202,107 @@ monitorBtn.addEventListener('click', () => {
     monitorBtn.style.color       = 'var(--color-carmine)';
     monitorBtn.setAttribute('aria-label', 'Monitor silenciado — pulsa para activar');
   }
+}
+
+function syncDuckingUI({ isSpeaking = engine.isVoiceSpeaking, isAutoDuckOn = engine.isAutoDuckOn, outputMode = engine.outputMode } = {}) {
+  const targetPct = outputMode === 'speakers' ? 18 : 25;
+  if (autoDuckBtn) {
+    autoDuckBtn.classList.toggle('active', isAutoDuckOn);
+    autoDuckBtn.setAttribute('aria-pressed', isAutoDuckOn ? 'true' : 'false');
+    autoDuckBtn.textContent = isAutoDuckOn
+      ? `📉 Auto-Ducking ${targetPct}%: ON`
+      : '📉 Auto-Ducking: OFF';
+  }
+  if (duckBadge) {
+    if (!isAutoDuckOn) {
+      duckBadge.textContent = 'DUCKING OFF';
+      duckBadge.className = 'duck-badge';
+    } else if (isSpeaking) {
+      duckBadge.textContent = `VOZ ACTIVA · MÚSICA AL ${targetPct}%`;
+      duckBadge.className = 'duck-badge duck-active';
+    } else {
+      duckBadge.textContent = `DUCKING ${targetPct}% LISTO`;
+      duckBadge.className = 'duck-badge duck-ready';
+    }
+  }
+}
+
+function syncOutputModeUI(mode) {
+  const isSpeakers = mode === 'speakers';
+  if (modeHeadphonesBtn) {
+    modeHeadphonesBtn.classList.toggle('active', !isSpeakers);
+    modeHeadphonesBtn.setAttribute('aria-pressed', !isSpeakers ? 'true' : 'false');
+  }
+  if (modeSpeakersBtn) {
+    modeSpeakersBtn.classList.toggle('active', isSpeakers);
+    modeSpeakersBtn.setAttribute('aria-pressed', isSpeakers ? 'true' : 'false');
+  }
+  syncMonitorButtonUI(engine.isMonitorOn);
+  syncDuckingUI({ outputMode: mode });
+}
+
+engine.onDuckStateChange = (state) => {
+  syncDuckingUI(state);
+};
+
+monitorBtn.addEventListener('click', () => {
+  const next = !engine.isMonitorOn;
+  engine.setMonitor(next);
+  syncMonitorButtonUI(next);
 });
+
+if (modeHeadphonesBtn) {
+  modeHeadphonesBtn.addEventListener('click', async () => {
+    await engine.setOutputMode('headphones', getSelectedMicId());
+    syncOutputModeUI('headphones');
+    setStatus(statusEl, '🎧 Modo Audífonos activo: Monitor de voz ON + Auto-Ducking al 25%', 'active');
+  });
+}
+
+if (modeSpeakersBtn) {
+  modeSpeakersBtn.addEventListener('click', async () => {
+    await engine.setOutputMode('speakers', getSelectedMicId());
+    syncOutputModeUI('speakers');
+    setStatus(
+      statusEl,
+      '🔊 Modo Bocinas Anti-Acople: Retorno de voz en MUTE + Cancelación de eco + Ducking profundo (18%)',
+      'active'
+    );
+  });
+}
+
+if (autoDuckBtn) {
+  autoDuckBtn.addEventListener('click', () => {
+    const next = !engine.isAutoDuckOn;
+    engine.setAutoDuck(next);
+    syncDuckingUI({ isAutoDuckOn: next });
+    const pct = engine.outputMode === 'speakers' ? 18 : 25;
+    setStatus(
+      statusEl,
+      next
+        ? `📉 Auto-Ducking Sonidero ON: La música baja al ${pct}% automáticamente cuando hablas`
+        : '📉 Auto-Ducking Sonidero desactivado (música al 100% fijo)',
+      'active'
+    );
+  });
+}
+
+if (cumbiaLoopBtn) {
+  cumbiaLoopBtn.addEventListener('click', async () => {
+    const playing = await engine.toggleCumbiaLoop();
+    ensureVisualizerRunning();
+    cumbiaLoopBtn.classList.toggle('active', playing);
+    cumbiaLoopBtn.setAttribute('aria-pressed', playing ? 'true' : 'false');
+    cumbiaLoopBtn.textContent = playing ? '🪘 Base Cumbia: ON' : '🪘 Base Cumbia: OFF';
+    setStatus(
+      statusEl,
+      playing
+        ? '🪘 Base Cumbia Sonidera en vivo (100% sintetizada local): ¡Habla al micro y escucha el Auto-Ducking!'
+        : '🪘 Base Cumbia detenida',
+      'active'
+    );
+  });
+}
 
 // ── FX ────────────────────────────────────────────────────────────────────
 setupFxButtons({

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sonidero Memexicanisimos — Procesador de voz DSP en tiempo real. Pitch Shift, eco de cinta, grabador WAV y FX sonideros. 100% local, sin nube.">
   <meta name="theme-color" content="#111314">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self' blob:; worker-src 'self' blob:; connect-src 'self' blob: data:;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' blob:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self' blob:; worker-src 'self' blob:; connect-src 'self' blob: data:;">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Sonidero Memexicanisimos · Cabina &amp; DSP en Vivo</title>
 
@@ -90,6 +90,41 @@
                 aria-label="Activar o desactivar monitoreo local">
           🔊 Monitor: ON
         </button>
+      </div>
+
+      <!-- ── MODO TORNAMESA: AUTO-DUCKING SONIDERO & ANTI-ACOPLE ── -->
+      <div class="turntable-box" role="region" aria-label="Modo Tornamesa, Auto-Ducking y Anti-Acople">
+        <div class="turntable-header">
+          <span class="turntable-title">🎧 MODO TORNAMESA &amp; ANTI-ACOPLE</span>
+          <span id="duckBadge" class="duck-badge duck-ready" aria-live="polite">DUCKING 25% LISTO</span>
+        </div>
+        <p class="turntable-tip">
+          Usa <b>audífonos</b> para la mejor experiencia sonidera, o activa <b>Bocinas</b> para silenciar el retorno de voz (sin eco) mientras hablas sobre tu música.
+        </p>
+
+        <!-- Selector Anti-Acople: Audífonos vs Bocinas -->
+        <div class="anti-acople-row" role="group" aria-label="Modo Anti-Acople: Audífonos o Bocinas">
+          <button id="modeHeadphonesBtn" class="fx-btn mode-btn active" aria-pressed="true"
+                  title="Con Audífonos: Monitor de voz encendido (ON) + música en audífonos">
+            🎧 Con Audífonos<br><small class="pad-subtitle">Monitor ON</small>
+          </button>
+          <button id="modeSpeakersBtn" class="fx-btn mode-btn" aria-pressed="false"
+                  title="Con Bocinas: Silencia retorno de voz (Monitor: MUTE), activa ducking profundo + cancelación de eco">
+            🔊 Con Bocinas<br><small class="pad-subtitle">Anti-Acople MUTE</small>
+          </button>
+        </div>
+
+        <!-- Switch de Ducking Sonidero Automático + Base Cumbia Sintetizada 100% Local -->
+        <div class="ducking-controls-row">
+          <button id="autoDuckBtn" class="fx-btn duck-toggle-btn active" aria-pressed="true"
+                  title="Baja la música automáticamente al 25% cuando detecta que hablas al micrófono y la sube al 100% cuando callas">
+            📉 Auto-Ducking 25%: ON
+          </button>
+          <button id="cumbiaLoopBtn" class="fx-btn cumbia-loop-btn" aria-pressed="false"
+                  title="Base rítmica de Cumbia Sonidera 100% sintetizada en navegador (cero archivos externos, cero cookies)">
+            🪘 Base Cumbia: OFF
+          </button>
+        </div>
       </div>
 
       <!-- Selector de micrófono (oculto si hay 1 solo, visible si hay múltiples) -->
@@ -204,7 +239,11 @@
           </div>
           <div class="xy-pad" id="pad"
                role="slider"
-               aria-label="Pad XY táctil — arrastra para ajustar tono y eco en vivo"
+               aria-label="Pad XY táctil — arrastra o usa las flechas para ajustar tono y eco en vivo"
+               aria-valuemin="-8"
+               aria-valuemax="4"
+               aria-valuenow="-3"
+               aria-valuetext="Tono -3.0 semitonos, Eco 300 milisegundos"
                tabindex="0">
             <div class="grid" aria-hidden="true"></div>
             <div class="center-v" aria-hidden="true"></div>
@@ -374,12 +413,18 @@
         </article>
 
         <article class="faq-card">
-          <h4>¿Para qué sirve el botón "Monitor"?</h4>
+          <h4>¿Para qué sirve el botón "Monitor" y el Modo Anti-Acople (Audífonos vs Bocinas)?</h4>
           <p>
-            El <strong>Monitor</strong> reproduce en tiempo real tu voz con los efectos a través de tus audífonos o bocinas.
-            Si utilizas <strong>bocinas abiertas</strong>, siléncialo (<strong>MUTE</strong>) para evitar acoples (feedback);
-            tus efectos, alarmas y la grabación seguirán funcionando con normalidad.
-            Con <strong>audífonos</strong>, déjalo encendido para escucharte en vivo como locutor de cabina.
+            El <strong>Monitor</strong> reproduce en tiempo real tu voz con efectos. El <strong>Modo Anti-Acople</strong> te permite elegir con un clic cómo estás escuchando:<br>
+            • <strong>🎧 Con Audífonos:</strong> Activa <em>Monitor: ON</em> para escucharte en vivo como locutor de cabina junto con la música y efectos.<br>
+            • <strong>🔊 Con Bocinas:</strong> Silencia automáticamente el retorno de tu voz (<em>Monitor: MUTE</em>) para eliminar acoples, activa la cancelación de eco acústico (<code>echoCancellation</code>) + <strong>ducking profundo (18%)</strong> para que la música no se duplique por el micrófono, y graba en el <strong>.WAV</strong> la mezcla limpia de música + saludo con efectos + sirenas.
+          </p>
+        </article>
+
+        <article class="faq-card">
+          <h4>¿Cómo funciona el Modo Tornamesa y el Auto-Ducking Sonidero (25%)?</h4>
+          <p>
+            El switch <strong>📉 Auto-Ducking 25%</strong> detecta automáticamente cuando hablas frente al micrófono: en ese instante <strong>baja la música al 25%</strong> (o al <strong>18%</strong> en modo Bocinas), aplica un realce vocal de presencia (<code>+4.5 dB</code> en <code>2.4 kHz</code>) para que tu saludo corte con claridad, y <strong>vuelve a subir la música al 100%</strong> cuando callas. Puedes probarlo y grabar con la <strong>🪘 Base Cumbia</strong> integrada (100% sintetizada en tu navegador, cero archivos externos y cero cookies) o mientras reproduces tu música favorita en tu reproductor local con audífonos.
           </p>
         </article>
 
@@ -462,7 +507,7 @@
     </div>
   </footer>
 
-  <script src="js/sounds-b64.js"></script>
-  <script src="js/sonidero-bundle.js"></script>
+  <script src="js/sounds-b64.js?v=10"></script>
+  <script src="js/sonidero-bundle.js?v=10"></script>
 </body>
 </html>

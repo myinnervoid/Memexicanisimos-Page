@@ -1,13 +1,13 @@
-// Service Worker — Sonidero Memexicanisimos PWA v7
-const CACHE_NAME = 'sonidero-memexicanisimos-v7';
+// Service Worker — Sonidero Memexicanisimos PWA v10
+const CACHE_NAME = 'sonidero-memexicanisimos-v10';
 
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
   './css/sonidero.css',
-  './js/sounds-b64.js',
-  './js/sonidero-bundle.js',
+  './js/sounds-b64.js?v=10',
+  './js/sonidero-bundle.js?v=10',
   './worklets/noise-gate.js',
   './worklets/pitch-shifter.js',
   './assets/banner_sonidero_rotulo_horizontal.jpg',
@@ -50,7 +50,7 @@ self.addEventListener('fetch', (event) => {
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
         // Devolver caché pero refrescar en segundo plano si hay red (stale-while-revalidate)
-        fetch(event.request).then((networkResponse) => {
+        fetch(event.request, { cache: 'no-cache' }).then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse));
           }
@@ -58,7 +58,7 @@ self.addEventListener('fetch', (event) => {
         return cachedResponse;
       }
 
-      return fetch(event.request).then((response) => {
+      return fetch(event.request, { cache: 'no-cache' }).then((response) => {
         if (!response || response.status !== 200 || (response.type !== 'basic' && response.type !== 'default' && response.type !== 'cors')) {
           return response;
         }

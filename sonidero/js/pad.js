@@ -6,6 +6,12 @@ export function setupPad({ padEl, puckEl, engine, onUpdate }) {
   let currentPitch = -3.0;
   let currentTime = 0.30;
 
+  function syncAria(pitch, time) {
+    if (!padEl) return;
+    padEl.setAttribute('aria-valuenow', String(pitch));
+    padEl.setAttribute('aria-valuetext', `Tono ${pitch.toFixed(1)} semitonos, Eco ${Math.round(time * 1000)} milisegundos`);
+  }
+
   function applyNormalized(x, y) {
     const clampedX = Math.max(0, Math.min(1, x));
     const clampedY = Math.max(0, Math.min(1, y));
@@ -18,6 +24,7 @@ export function setupPad({ padEl, puckEl, engine, onUpdate }) {
 
     currentTime = targetTime;
     currentPitch = targetPitch;
+    syncAria(targetPitch, targetTime);
 
     if (engine?.ctx) {
       engine.setTime(targetTime);
@@ -106,6 +113,7 @@ export function setupPad({ padEl, puckEl, engine, onUpdate }) {
     movePuck: (pitch, time) => {
       currentPitch = pitch;
       currentTime = time;
+      syncAria(pitch, time);
       movePuck(puckEl, pitch, time);
     }
   };

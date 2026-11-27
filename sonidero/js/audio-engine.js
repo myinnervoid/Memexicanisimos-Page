@@ -26,20 +26,37 @@ class NoiseGateProcessor extends AudioWorkletProcessor {
   constructor() {
     super();
     this.gain = 0.0;
-    this.attackCoeff = 0.15;
-    this.releaseCoeff = 0.003;
+    this.env = 0.0;
+    this.isOpen = false;
+    this.envAttack = 1 - Math.exp(-1 / (sampleRate * 0.005));
+    this.envRelease = 1 - Math.exp(-1 / (sampleRate * 0.080));
+    this.gainAttack = 1 - Math.exp(-1 / (sampleRate * 0.004));
+    this.gainRelease = 1 - Math.exp(-1 / (sampleRate * 0.090));
+    this._frameCount = 0;
   }
   process(inputs, outputs, parameters) {
     const input = inputs[0][0];
     const output = outputs[0][0];
     if (!input) return true;
-    const threshLin = Math.pow(10, parameters.threshold[0] / 20);
+    const threshOpen = Math.pow(10, parameters.threshold[0] / 20);
+    const threshClose = threshOpen * 0.5;
     for (let i = 0; i < input.length; i++) {
-      const env = Math.abs(input[i]);
-      const targetGain = env > threshLin ? 1.0 : 0.0;
-      const coeff = targetGain > this.gain ? this.attackCoeff : this.releaseCoeff;
-      this.gain += (targetGain - this.gain) * coeff;
+      const absSample = Math.abs(input[i]);
+      const envCoeff = absSample > this.env ? this.envAttack : this.envRelease;
+      this.env += (absSample - this.env) * envCoeff;
+      if (!this.isOpen && this.env > threshOpen) {
+        this.isOpen = true;
+      } else if (this.isOpen && this.env < threshClose) {
+        this.isOpen = false;
+      }
+      const targetGain = this.isOpen ? 1.0 : 0.0;
+      const gainCoeff = targetGain > this.gain ? this.gainAttack : this.gainRelease;
+      this.gain += (targetGain - this.gain) * gainCoeff;
       output[i] = input[i] * this.gain;
+    }
+    this._frameCount++;
+    if (this._frameCount % 6 === 0) {
+      this.port.postMessage({ isOpen: this.isOpen, env: this.env });
     }
     return true;
   }
@@ -132,12 +149,26 @@ export class SonideroEngine {
     // Buses, limitadores, medidor y salidas
     this.voiceBus       = null;
     this.fxBus          = null;
+    this.musicBus       = null;
+    this.musicDuckGain  = null;
+    this.presenceFilter = null;
     this.limiter        = null;
     this.speakerLimiter = null;
     this.analyser       = null;
     this.recDest        = null;
     this.monitorGain    = null;
     this.isMonitorOn    = true;
+
+    // Modo Tornamesa: Auto-Ducking Sonidero (25%) & Anti-Acople (Audífonos vs Bocinas)
+    this.isAutoDuckOn   = true;
+    this.outputMode     = 'headphones'; // 'headphones' | 'speakers'
+    this.isVoiceSpeaking = false;
+    this.onDuckStateChange = null;
+    this.isCumbiaPlaying = false;
+    this._cumbiaTimer    = null;
+    this._cumbiaStep     = 0;
+    this._vadTimer       = null;
+    this._voiceAnalyser  = null;
 
     // Parámetros iniciales calibrados (La Changa)
     this.params = {
@@ -173,9 +204,16 @@ export class SonideroEngine {
   // ════════════════════════════════════════════════════════════════════
 
   async _ensureFx() {
-    if (this.ctx && this.ctx.state !== 'closed') {
+    if (this.ctx && this.ctx.state !== 'closed' && (this.fxBus || this.limiter)) {
       if (this.ctx.state === 'suspended') {
-        await this.ctx.resume();
+        try {
+          await Promise.race([
+            this.ctx.resume(),
+            new Promise((r) => setTimeout(r, 400))
+          ]);
+        } catch (e) {
+          // continue
+        }
       }
       return {
         ctx: this.ctx,
@@ -204,7 +242,14 @@ export class SonideroEngine {
     }
 
     if (this._fxCtx.state === 'suspended') {
-      await this._fxCtx.resume();
+      try {
+        await Promise.race([
+          this._fxCtx.resume(),
+          new Promise((r) => setTimeout(r, 400))
+        ]);
+      } catch (e) {
+        // continue
+      }
     }
 
     return {
@@ -336,45 +381,56 @@ export class SonideroEngine {
 
   async init(deviceId) {
     const AudioCtx = window.AudioContext || window.webkitAudioContext;
-    this.ctx = new AudioCtx({ latencyHint: 'interactive' });
+    const ctx = new AudioCtx({ latencyHint: 'interactive' });
 
-    let hasGate = false;
-    let hasPitch = false;
+    try {
+      const useEchoCancel = this.outputMode === 'speakers';
+      const constraints = {
+        echoCancellation: useEchoCancel,
+        noiseSuppression: useEchoCancel,
+        autoGainControl:  false,
+        channelCount: 1,
+        ...(deviceId ? { deviceId: { exact: deviceId } } : {})
+      };
 
-    if (this.ctx.audioWorklet) {
-      try {
-        const gateBlob = new Blob([NOISE_GATE_WORKLET_CODE], { type: 'application/javascript' });
-        const gateUrl = URL.createObjectURL(gateBlob);
-        await this.ctx.audioWorklet.addModule(gateUrl);
-        hasGate = true;
-      } catch (workletErr) {
-        console.warn('AudioWorklet noise-gate no disponible, aplicando bypass:', workletErr);
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        throw new Error('Navegador sin soporte de getUserMedia en este entorno');
       }
 
-      try {
-        const pitchBlob = new Blob([PITCH_SHIFTER_WORKLET_CODE], { type: 'application/javascript' });
-        const pitchUrl = URL.createObjectURL(pitchBlob);
-        await this.ctx.audioWorklet.addModule(pitchUrl);
-        hasPitch = true;
-      } catch (workletErr) {
-        console.warn('AudioWorklet pitch-shifter no disponible, aplicando bypass:', workletErr);
+      const micStream = await navigator.mediaDevices.getUserMedia({ audio: constraints });
+
+      let hasGate = false;
+      let hasPitch = false;
+
+      if (ctx.audioWorklet) {
+        let gateUrl = null;
+        try {
+          const gateBlob = new Blob([NOISE_GATE_WORKLET_CODE], { type: 'application/javascript' });
+          gateUrl = URL.createObjectURL(gateBlob);
+          await ctx.audioWorklet.addModule(gateUrl);
+          hasGate = true;
+        } catch (workletErr) {
+          console.warn('AudioWorklet noise-gate no disponible, aplicando bypass:', workletErr);
+        } finally {
+          if (gateUrl) URL.revokeObjectURL(gateUrl);
+        }
+
+        let pitchUrl = null;
+        try {
+          const pitchBlob = new Blob([PITCH_SHIFTER_WORKLET_CODE], { type: 'application/javascript' });
+          pitchUrl = URL.createObjectURL(pitchBlob);
+          await ctx.audioWorklet.addModule(pitchUrl);
+          hasPitch = true;
+        } catch (workletErr) {
+          console.warn('AudioWorklet pitch-shifter no disponible, aplicando bypass:', workletErr);
+        } finally {
+          if (pitchUrl) URL.revokeObjectURL(pitchUrl);
+        }
       }
-    }
 
-    const constraints = {
-      echoCancellation: false,
-      noiseSuppression: false,
-      autoGainControl:  false,
-      channelCount: 1,
-      ...(deviceId ? { deviceId: { exact: deviceId } } : {})
-    };
-
-    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      throw new Error('Navegador sin soporte de getUserMedia en este entorno');
-    }
-
-    this.micStream  = await navigator.mediaDevices.getUserMedia({ audio: constraints });
-    const micSource = this.ctx.createMediaStreamSource(this.micStream);
+      this.ctx       = ctx;
+      this.micStream = micStream;
+      const micSource = this.ctx.createMediaStreamSource(this.micStream);
 
     // Control de corte de entrada del micrófono (permite pausar el mic sin congelar los FX)
     this.micInputGain = this.ctx.createGain();
@@ -440,12 +496,26 @@ export class SonideroEngine {
     this.reverbFeedback = this.ctx.createGain();
     this.reverbGain     = this.ctx.createGain();
 
-    // 7. Buses separados (Voz vs FX) y Limitadores brickwall (-1.0 dBFS)
-    this.voiceBus = this.ctx.createGain();
-    this.fxBus    = this.ctx.createGain();
+    // 7. Buses separados (Voz vs FX vs Música) y Limitadores brickwall (-1.0 dBFS)
+    this.voiceBus      = this.ctx.createGain();
+    this.fxBus         = this.ctx.createGain();
+    this.musicBus      = this.ctx.createGain();
+    this.musicDuckGain = this.ctx.createGain();
+    this.musicDuckGain.gain.value = 1.0;
+
+    // Filtro de presencia vocal (+4.5 dB en 2.4 kHz para cortar sobre música externa/interna)
+    this.presenceFilter = this.ctx.createBiquadFilter();
+    this.presenceFilter.type = 'peaking';
+    this.presenceFilter.frequency.value = 2400;
+    this.presenceFilter.Q.value = 1.1;
+    this.presenceFilter.gain.value = this.isAutoDuckOn ? 4.5 : 0.0;
 
     this.monitorGain = this.ctx.createGain();
     this.monitorGain.gain.value = this.isMonitorOn ? 1.0 : 0.0;
+
+    // Analizador dedicado a la entrada de voz (respaldo de Auto-Ducking si AudioWorklet no está activo)
+    this._voiceAnalyser = this.ctx.createAnalyser();
+    this._voiceAnalyser.fftSize = 256;
 
     // Limitador de grabación y análisis (recDest + analyser)
     this.limiter = this.ctx.createDynamicsCompressor();
@@ -469,19 +539,32 @@ export class SonideroEngine {
 
     // ── Ruteo Resistente a Fallos en Cadena ───────────────────────────
     micSource.connect(this.micInputGain);
+    this.micInputGain.connect(this._voiceAnalyser);
     let signalHead = this.micInputGain;
 
     if (this.gateNode) {
       try {
         signalHead.connect(this.gateNode);
         signalHead = this.gateNode;
+        this.gateNode.port.onmessage = (e) => {
+          if (e.data && typeof e.data.isOpen === 'boolean') {
+            this._handleVoiceActivity(e.data.isOpen);
+          }
+        };
       } catch (e) {
         this.gateNode = null;
       }
     }
 
+    if (!this.gateNode) {
+      this._startFallbackVad();
+    }
+
     signalHead.connect(comp);
     signalHead = comp;
+
+    signalHead.connect(this.presenceFilter);
+    signalHead = this.presenceFilter;
 
     if (this.pitchNode) {
       try {
@@ -516,18 +599,22 @@ export class SonideroEngine {
     this.reverbFilter.connect(this.reverbGain);
     this.reverbGain.connect(this.voiceBus);
 
-    // Salida de Grabación y Vúmetro (recibe tanto Voz como FX siempre)
+    // Salida de Grabación y Vúmetro (recibe Voz, FX y Música con Auto-Ducking)
     this.voiceBus.connect(this.limiter);
     this.fxBus.connect(this.limiter);
+    this.musicBus.connect(this.musicDuckGain);
+    this.musicDuckGain.connect(this.limiter);
     this.limiter.connect(this.recDest);
     this.limiter.connect(this.analyser);
 
-    // Salida de Altavoces / Audífonos (Monitor controla Voz; FX siempre suenan)
+    // Salida de Altavoces / Audífonos (Monitor controla únicamente Voz; FX y Música suenan sin eco de voz)
     this.voiceBus.connect(this.monitorGain);
     this.monitorGain.connect(this.speakerLimiter);
     this.fxBus.connect(this.speakerLimiter);
+    this.musicDuckGain.connect(this.speakerLimiter);
     this.speakerLimiter.connect(this.ctx.destination);
 
+    const wasCumbiaPlaying = this.isCumbiaPlaying;
     // Transferir caché al nuevo contexto
     if (this._fxCtx && this._fxCtx.state !== 'closed') {
       try {
@@ -543,17 +630,36 @@ export class SonideroEngine {
     this._preloadAll(this.ctx);
 
     this.applyAll(this.params);
+    if (wasCumbiaPlaying) {
+      this.isCumbiaPlaying = false;
+      await this.startCumbiaLoop();
+    }
     return true;
+    } catch (err) {
+      try {
+        await ctx.close();
+      } catch (closeErr) {
+        // ignore
+      }
+      this.ctx          = null;
+      this.micStream    = null;
+      this.micInputGain = null;
+      this.delayNode    = null;
+      this.fxBus        = null;
+      this.limiter      = null;
+      this.isMicActive  = false;
+      throw err;
+    }
   }
 
   async resume() {
-    if (this.ctx?.state === 'suspended') {
+    if (!this.ctx || !this.micInputGain) return false;
+    if (this.ctx.state === 'suspended') {
       await this.ctx.resume();
     }
-    if (this.micInputGain && this.ctx) {
-      this.micInputGain.gain.setTargetAtTime(1.0, this.ctx.currentTime, 0.015);
-    }
+    this.micInputGain.gain.setTargetAtTime(1.0, this.ctx.currentTime, 0.015);
     this.isMicActive = true;
+    return true;
   }
 
   async suspend() {
@@ -561,9 +667,12 @@ export class SonideroEngine {
       this.micInputGain.gain.setTargetAtTime(0.0, this.ctx.currentTime, 0.015);
     }
     this.isMicActive = false;
+    this._handleVoiceActivity(false);
   }
 
   async dispose() {
+    this.stopCumbiaLoop();
+    this._stopFallbackVad();
     if (this.micStream) {
       this.micStream.getTracks().forEach((t) => {
         t.stop();
@@ -576,14 +685,37 @@ export class SonideroEngine {
         // Ignorar posibles errores si el contexto ya cerró por otras vías
       }
     }
-    this.ctx = null;
-    this.micStream = null;
-    this.isMicActive = false;
+    this.ctx            = null;
+    this.micStream      = null;
+    this.micInputGain   = null;
+    this.delayNode      = null;
+    this.feedbackGain   = null;
+    this.dryGain        = null;
+    this.wetGain        = null;
+    this.preDriveGain   = null;
+    this.driveNode      = null;
+    this.reverbNode     = null;
+    this.reverbFilter   = null;
+    this.reverbFeedback = null;
+    this.reverbGain     = null;
+    this.voiceBus       = null;
+    this.fxBus          = null;
+    this.musicBus       = null;
+    this.musicDuckGain  = null;
+    this.presenceFilter = null;
+    this._voiceAnalyser = null;
+    this.limiter        = null;
+    this.speakerLimiter = null;
+    this.analyser       = null;
+    this.recDest        = null;
+    this.monitorGain    = null;
+    this.isMicActive    = false;
+    this.isVoiceSpeaking = false;
   }
 
   applyAll(params) {
-    if (!this.ctx) return;
     this.params = { ...this.params, ...params };
+    if (!this.ctx || !this.delayNode || !this.feedbackGain || !this.dryGain || !this.wetGain) return;
     const t = this.ctx.currentTime;
 
     // Pitch & Gate
@@ -663,6 +795,282 @@ export class SonideroEngine {
     if (this.monitorGain && this.ctx && this.isMonitorOn) {
       this.monitorGain.gain.setTargetAtTime(1.0, this.ctx.currentTime, 0.02);
     }
+  }
+
+  // ════════════════════════════════════════════════════════════════════
+  // MODO TORNAMESA: AUTO-DUCKING SONIDERO (25%) & ANTI-ACOPLE
+  // ════════════════════════════════════════════════════════════════════
+
+  _getDuckTargetGain() {
+    if (!this.isAutoDuckOn || !this.isVoiceSpeaking || !this.isMicActive) {
+      return 1.0;
+    }
+    // Con Audífonos: 25% canónico. Con Bocinas (Anti-Acople): ducking profundo al 18%.
+    return this.outputMode === 'speakers' ? 0.18 : 0.25;
+  }
+
+  _applyDuckingGain(isSpeaking) {
+    const target = this._getDuckTargetGain();
+    const timeConst = isSpeaking ? 0.030 : 0.240;
+    if (this.musicDuckGain && this.ctx) {
+      this.musicDuckGain.gain.setTargetAtTime(target, this.ctx.currentTime, timeConst);
+    }
+    if (this._fxMusicDuckGain && this._fxCtx) {
+      this._fxMusicDuckGain.gain.setTargetAtTime(target, this._fxCtx.currentTime, timeConst);
+    }
+  }
+
+  _handleVoiceActivity(isOpen) {
+    const active = Boolean(isOpen && this.isMicActive);
+    if (this.isVoiceSpeaking === active) return;
+    this.isVoiceSpeaking = active;
+    this._applyDuckingGain(active);
+    if (typeof this.onDuckStateChange === 'function') {
+      this.onDuckStateChange({
+        isSpeaking: active,
+        isAutoDuckOn: this.isAutoDuckOn,
+        duckPercent: Math.round(this._getDuckTargetGain() * 100),
+        outputMode: this.outputMode
+      });
+    }
+  }
+
+  _startFallbackVad() {
+    this._stopFallbackVad();
+    this._vadTimer = setInterval(() => {
+      if (!this._voiceAnalyser || !this.isMicActive) {
+        this._handleVoiceActivity(false);
+        return;
+      }
+      const buf = new Float32Array(this._voiceAnalyser.fftSize);
+      this._voiceAnalyser.getFloatTimeDomainData(buf);
+      let peak = 0;
+      for (let i = 0; i < buf.length; i++) {
+        const a = Math.abs(buf[i]);
+        if (a > peak) peak = a;
+      }
+      const threshLin = Math.pow(10, (this.params.gate || -48) / 20);
+      const closeLin  = threshLin * 0.5;
+      if (!this.isVoiceSpeaking && peak > threshLin) {
+        this._handleVoiceActivity(true);
+      } else if (this.isVoiceSpeaking && peak < closeLin) {
+        this._handleVoiceActivity(false);
+      }
+    }, 45);
+  }
+
+  _stopFallbackVad() {
+    if (this._vadTimer) {
+      clearInterval(this._vadTimer);
+      this._vadTimer = null;
+    }
+  }
+
+  setAutoDuck(on) {
+    this.isAutoDuckOn = Boolean(on);
+    if (this.presenceFilter && this.ctx) {
+      this.presenceFilter.gain.setTargetAtTime(this.isAutoDuckOn ? 4.5 : 0.0, this.ctx.currentTime, 0.03);
+    }
+    this._applyDuckingGain(this.isVoiceSpeaking);
+    if (typeof this.onDuckStateChange === 'function') {
+      this.onDuckStateChange({
+        isSpeaking: this.isVoiceSpeaking,
+        isAutoDuckOn: this.isAutoDuckOn,
+        duckPercent: Math.round(this._getDuckTargetGain() * 100),
+        outputMode: this.outputMode
+      });
+    }
+  }
+
+  async setOutputMode(mode, deviceId = null) {
+    const nextMode = mode === 'speakers' ? 'speakers' : 'headphones';
+    const changed = this.outputMode !== nextMode;
+    this.outputMode = nextMode;
+
+    if (nextMode === 'speakers') {
+      // Con Bocinas: silencia automáticamente el retorno de voz (Monitor: MUTE) y activa ducking profundo
+      this.setMonitor(false);
+      this.setAutoDuck(true);
+    } else {
+      // Con Audífonos: Monitor de voz encendido (ON) + música en audífonos
+      this.setMonitor(true);
+    }
+
+    // Si el micrófono ya está activo y cambió el modo, aplicar echoCancellation en vivo o reinicializar stream
+    if (changed && this.micStream) {
+      const useEchoCancel = nextMode === 'speakers';
+      const track = this.micStream.getAudioTracks()[0];
+      let applied = false;
+      if (track && typeof track.applyConstraints === 'function') {
+        try {
+          await track.applyConstraints({
+            echoCancellation: useEchoCancel,
+            noiseSuppression: useEchoCancel,
+            autoGainControl: false
+          });
+          applied = true;
+        } catch (e) {
+          applied = false;
+        }
+      }
+      if (!applied && this.ctx && this.isMicActive) {
+        const wasCumbia = this.isCumbiaPlaying;
+        await this.suspend();
+        await this.dispose();
+        await this.init(deviceId);
+        await this.resume();
+        if (wasCumbia && !this.isCumbiaPlaying) {
+          await this.startCumbiaLoop();
+        }
+      }
+    }
+
+    this._applyDuckingGain(this.isVoiceSpeaking);
+    return this.outputMode;
+  }
+
+  async _getMusicTarget() {
+    if (this.ctx && this.ctx.state !== 'closed' && this.musicBus) {
+      if (this.ctx.state === 'suspended') {
+        try {
+          await Promise.race([this.ctx.resume(), new Promise((r) => setTimeout(r, 400))]);
+        } catch (e) {
+          // continue
+        }
+      }
+      return { ctx: this.ctx, bus: this.musicBus };
+    }
+    const { ctx, out } = await this._ensureFx();
+    if (!this._fxMusicDuckGain || this._fxMusicDuckGain.context !== ctx) {
+      this._fxMusicDuckGain = ctx.createGain();
+      this._fxMusicDuckGain.gain.value = this._getDuckTargetGain();
+      this._fxMusicDuckGain.connect(out);
+    }
+    return { ctx, bus: this._fxMusicDuckGain };
+  }
+
+  _triggerCumbiaStep(ctx, bus, step) {
+    const now = ctx.currentTime;
+    // Compás de 8 semicorcheas (94 BPM -> ~160 ms por paso)
+    // 1. Bombo y Tumbao de Bajo Cumbiero (Am -> G)
+    const bar = Math.floor(step / 8) % 2;
+    const bassNotes = bar === 0
+      ? [110.0, null, null, 130.81, 164.81, null, 130.81, null] // Am (A2 - C3 - E3)
+      : [98.0,  null, null, 123.47, 146.83, null, 123.47, null]; // G  (G2 - B2 - D3)
+
+    const s = step % 8;
+
+    // Bombo en tiempo 0 y 4
+    if (s === 0 || s === 4) {
+      const kickOsc = ctx.createOscillator();
+      const kickGain = ctx.createGain();
+      kickOsc.type = 'sine';
+      kickOsc.frequency.setValueAtTime(125, now);
+      kickOsc.frequency.exponentialRampToValueAtTime(46, now + 0.11);
+      kickGain.gain.setValueAtTime(0.38, now);
+      kickGain.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+      kickOsc.connect(kickGain);
+      kickGain.connect(bus);
+      kickOsc.start(now);
+      kickOsc.stop(now + 0.15);
+    }
+
+    // Bajo tumbao
+    const bassFreq = bassNotes[s];
+    if (bassFreq) {
+      const bassOsc = ctx.createOscillator();
+      const bassLP  = ctx.createBiquadFilter();
+      const bassGain = ctx.createGain();
+      bassOsc.type = 'triangle';
+      bassOsc.frequency.setValueAtTime(bassFreq, now);
+      bassLP.type = 'lowpass';
+      bassLP.frequency.value = 340;
+      bassGain.gain.setValueAtTime(0.30, now);
+      bassGain.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+      bassOsc.connect(bassLP);
+      bassLP.connect(bassGain);
+      bassGain.connect(bus);
+      bassOsc.start(now);
+      bassOsc.stop(now + 0.15);
+    }
+
+    // Güiro y Conga cumbiera ("chucu-chucu")
+    if (s % 2 === 1 || s === 2 || s === 6) {
+      const accent = (s === 2 || s === 6);
+      const dur = accent ? 0.085 : 0.045;
+      const noiseBuf = this._makeNoiseBuffer(ctx, dur);
+      const noiseSrc = ctx.createBufferSource();
+      const hp = ctx.createBiquadFilter();
+      const g  = ctx.createGain();
+      noiseSrc.buffer = noiseBuf;
+      hp.type = 'bandpass';
+      hp.frequency.value = accent ? 5800 : 7200;
+      hp.Q.value = 1.6;
+      g.gain.setValueAtTime(accent ? 0.15 : 0.07, now);
+      g.gain.exponentialRampToValueAtTime(0.001, now + dur);
+      noiseSrc.connect(hp);
+      hp.connect(g);
+      g.connect(bus);
+      noiseSrc.start(now);
+      noiseSrc.stop(now + dur + 0.01);
+    }
+
+    // Acordeón / Órgano Sonidero en contratiempo (pasos 2 y 6)
+    if (s === 2 || s === 6) {
+      const chord = bar === 0 ? [440, 523.25, 659.25] : [392, 493.88, 587.33];
+      chord.forEach((freq) => {
+        const osc = ctx.createOscillator();
+        const bp  = ctx.createBiquadFilter();
+        const g   = ctx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(freq, now);
+        bp.type = 'bandpass';
+        bp.frequency.value = 1400;
+        bp.Q.value = 0.9;
+        g.gain.setValueAtTime(0.055, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + 0.11);
+        osc.connect(bp);
+        bp.connect(g);
+        g.connect(bus);
+        osc.start(now);
+        osc.stop(now + 0.12);
+      });
+    }
+  }
+
+  async startCumbiaLoop() {
+    if (this.isCumbiaPlaying) return true;
+    const { ctx, bus } = await this._getMusicTarget();
+    this.isCumbiaPlaying = true;
+    this._cumbiaStep = 0;
+    this._applyDuckingGain(this.isVoiceSpeaking);
+
+    const stepMs = 160; // ~94 BPM
+    this._triggerCumbiaStep(ctx, bus, this._cumbiaStep++);
+    this._cumbiaTimer = setInterval(async () => {
+      if (!this.isCumbiaPlaying) return;
+      const target = await this._getMusicTarget();
+      this._triggerCumbiaStep(target.ctx, target.bus, this._cumbiaStep++);
+    }, stepMs);
+    return true;
+  }
+
+  stopCumbiaLoop() {
+    this.isCumbiaPlaying = false;
+    if (this._cumbiaTimer) {
+      clearInterval(this._cumbiaTimer);
+      this._cumbiaTimer = null;
+    }
+    return false;
+  }
+
+  async toggleCumbiaLoop() {
+    if (this.isCumbiaPlaying) {
+      this.stopCumbiaLoop();
+      return false;
+    }
+    await this.startCumbiaLoop();
+    return true;
   }
 
   // ════════════════════════════════════════════════════════════════════
