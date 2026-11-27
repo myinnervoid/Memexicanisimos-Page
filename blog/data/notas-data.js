@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795806004695,
+    "fecha": "2026-11-27",
+    "categoria": "Tecnología",
+    "edicion": "Búnker Tecnológico",
+    "titulo": "Desconfianza financiera limita pagos digitales en México: solo 4 de cada 10 los usan",
+    "descripcion": "El secretario de Hacienda, Édgar Amador Zamora, atribuye la baja adopción de pagos digitales a la desconfianza en las instituciones financieras. Ferrari Mexico City deja de aceptar efectivo y Uber facilita cuentas para adultos mayores, evidenciando una brecha estructural en la inclusión financiera digital.",
+    "narracion": "La adopción de servicios financieros digitales en México enfrenta un obstáculo estructural: la desconfianza en las instituciones bancarias. Según datos oficiales, solo cuatro de cada diez mexicanos con cuenta bancaria utilizan transferencias o tarjetas para pagar, y menos de un tercio de la población con cuenta la emplea para ahorrar. El secretario de Hacienda, Édgar Amador Zamora, reconoció que esta desconfianza persiste incluso entre quienes ya tienen algún producto financiero, lo que frena la modernización económica y la inclusión digital.\n\nEl fenómeno no es menor. La baja penetración de pagos digitales limita la eficiencia transaccional, encarece el acceso al crédito y dificulta la trazabilidad fiscal. En un país donde el efectivo sigue siendo el principal medio de pago, la brecha digital financiera se convierte en un cuello de botella para las PyMEs, que dependen de terminales punto de venta y transferencias para ampliar su mercado. La desconfianza se traduce en costos operativos y en una menor bancarización plena.\n\nEn contraste, sectores de alto poder adquisitivo avanzan hacia la digitalización total. Ferrari Mexico City confirmó que no acepta efectivo bajo ninguna circunstancia, ni para apartar un auto, pagar enganche o mantenimiento. La medida, aunque dirigida a un segmento específico, refleja una tendencia hacia la digitalización de pagos en ciertos nichos, pero también evidencia la segmentación del ecosistema financiero mexicano.\n\nMientras tanto, Uber México anunció que los adultos mayores ya pueden activar su propia cuenta y administrarla desde su teléfono, sin necesidad de invitación familiar. Esta actualización, disponible en todas las ciudades donde opera la plataforma, busca facilitar el acceso a la movilidad digital para ese grupo etario. La medida amplía la inclusión digital, pero no resuelve la raíz del problema: la falta de confianza en las instituciones financieras.\n\nLa combinación de desconfianza financiera y avances en servicios digitales plantea un desafío para la soberanía digital del país. Sin confianza, la infraestructura tecnológica por sí sola no basta para cerrar la brecha. Se requiere transparencia, educación financiera y marcos regulatorios que protejan al usuario y garanticen la seguridad de las transacciones. De lo contrario, México seguirá atrapado en un círculo donde la digitalización avanza a dos velocidades: rápida para unos pocos, lenta para la mayoría.",
+    "personaje": "El Mashukita Hacker",
+    "personaje_rol": "Búnker Tecnológico",
+    "imagen_plantilla": "assets/personajes/plantilla_tecnologia_hacker.jpg",
+    "fuentes": [
+      {
+        "nombre": "Xataka México: Esta la última película de Marvel que tienes que ver antes de Avengers: Doomsday, tiene 90% de aprobación",
+        "url": "https://www.xataka.com.mx/cine-y-tv/faltan-20-dias-para-avengers-doomsday-esta-ultima-pelicula-marvel-90-aprobacion-que-debes-ver-antes",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Ferrari lo confirma en México: nadie puede comprar uno de sus autos con dinero en efectivo",
+        "url": "https://www.xataka.com.mx/automovil/ferrari-confirma-mexico-nadie-puede-comprar-uno-sus-autos-dinero-efectivo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Rusia acaba de convertir una tranquila isla volcánica de Corea del Sur en una alerta de la Tercera Guerra Mundial",
+        "url": "https://www.xataka.com.mx/seguridad/rusia-acaba-convertir-tranquila-isla-volcanica-corea-sur-alerta-tercera-guerra-mundial",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Solo 4 de cada 10 personas en México pagan con tarjeta o con transferencia y la razón es clara: no confían en las instituciones",
+        "url": "https://www.xataka.com.mx/banca-digital/solo-4-cada-10-personas-mexico-pagan-tarjeta-transferencia-razon-clara-no-confian-instituciones",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: A mi, mis X-Men: Amazon y el Black Friday tienen con descuento el coleccionable perfecto los fans de Marvel",
+        "url": "https://www.xataka.com.mx/seleccion/a-mi-mis-x-men-amazon-black-friday-tienen-descuento-coleccionable-perfecto-fans-marvel",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Llega la primera tormenta invernal a México: provocará lluvias torrenciales, heladas y caída de aguanieve en varios estados",
+        "url": "https://www.xataka.com.mx/ecologia-y-naturaleza/llega-primera-tormenta-invernal-a-mexico-traera-lluvias-torrenciales-heladas-caida-aguanieve-varios-estados",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Ganó un millón de dólares y publicó su foto para celebrarlo: días después ICE lo arrestó",
+        "url": "https://www.xataka.com.mx/otros-1/gano-millon-dolares-publico-su-foto-para-celebrarlo-dias-despues-ice-arresto",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Uber cambia para los adultos mayores en México. Ahora pueden activar su propia cuenta y elegir cómo les avisa el conductor que llegó",
+        "url": "https://www.xataka.com.mx/aplicaciones/uber-cambia-para-adultos-mayores-mexico-ahora-pueden-activar-su-propia-cuenta-elegir-como-les-avisa-conductor-que-llego",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tu celular Samsung puede mostrar su pantalla en una tablet Galaxy: así funciona Samsung Flow",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/tu-celular-samsung-puede-mostrar-su-pantalla-tablet-galaxy-asi-funciona-samsung-flow",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Probé el vivo X500 Pro Max: ¿vale la pena?",
+        "url": "https://www.xataka.com.mx/analisis/vivo-x500-pro-max-analisis-review-experiencia-uso-mexico",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Tu Galaxy lleva un registro de las aplicaciones que consulta la IA y puedes revisarlo",
+        "url": "https://www.xataka.com.mx/territorio-samsung-mexico/tu-galaxy-lleva-registro-aplicaciones-que-consulta-ia-puedes-revisarlo",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: \"Me levanto a las 3:30 de la mañana\": a sus 55 años, Mark Wahlberg mantiene una rutina implacable para sus películas de acción",
+        "url": "https://www.xataka.com.mx/cine-y-tv/me-levanto-a-3-30-manana-a-sus-55-anos-mark-wahlberg-mantiene-rutina-implacable-para-sus-peliculas-accion",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: Se acabó la 'hora feliz': OpenAI corrige un fallo de facturación en GPT-6.2 y enfurece a sus suscriptores",
+        "url": "https://www.xataka.com.mx/robotica-e-ia/se-acabo-hora-feliz-openai-corrige-fallo-facturacion-gpt-6-2-enfurece-a-sus-suscriptores",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Xataka México: La SEP lo hace oficial: estudiantes de preparatoria podrán elegir entre falda o pantalón sin importar su género",
+        "url": "https://www.xataka.com.mx/educacion/sep-hace-oficial-estudiantes-preparatoria-podran-elegir-falda-pantalon-importar-su-genero",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Sol de México: WhatsApp incorpora stickers con audio: el paso a paso para crear los tuyos",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdlhzZms1d2hlWTBUUFhhQmdxUWZFNFF0S091RC1wMGRkQy12TzhvOWZ0Z2JTemIxVXNGNW5HTnRCS1JzellqM1h5SF9CMGhZTFA1RFhfemdvTUdHRHJVRDNpTVR4QWlORXBwWENpajJnaUVRSEotUTQwbzlJTnBMdkhaT3VNVk9Dbk4tN1BUSFNLNEJBYzFoUlNwdFhhVU9zX3MtVnpjb3dEejBXNEpISjFsTmw0U09ZZE40NHZ0TTBESF8t?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "UnoTV: Telcel bonificará a usuarios afectados por falla del 20 de noviembre",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVkhYWll0a3FRQVFuWUlhYzRtelZVSDhEUXpTWGE5S1VXYlhtQy1SMmdWcWZ1ajhfTGliNjVSLWYzUTV3b1plM1lpem54Ynpka2oxSVFMZHVuUWZmd3ZBaHpWMHNOV1VoTUEzaHVKSksyd1BReGU3VkZYdndhZ3RYSnZneEVsa1p5TXdFZHA4bnk2ODBrOF9POG9Td0VpbTBMLVhsYlduOTY3bWUwYTF4cUZn?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "La Jornada: El Golem perverso",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYUUFiVEtnTENSeUZCS3k0ejBfTUxPWDZmUE0tR3c3aDhKVWtwb3czRGZfTnEyT0ZKVFJ0b3NiS2RxeEVjTlh1U0NOTUl3T28xQ1I1aUdKVndOTHZoNEdKY0d6OHB3QQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "PC Master Race Latinoamérica: GTA 6 ya es jugable en PC a 25-30 FPS y el Jailbreak de PS5 permite desbloquear los 30 FPS - Requisitos Mínimos y Recomendados",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0Wk9TdXRHZjRVTHNxd2NtTGJibmZBdHVCWURCeDF5US1QZXZRc0ItdE5VaVlQOHE2TGwtbUNydC1XSnFzWGZhX1NNTF9ObnNOWDl1SHpibUJKM0x1eE9Ua2lLNmgzRTVOQkRXaVk5M28yTG9acDRmWFVwUGJzdw?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Nvidia, en ‘aprietos’: Hallan chips de IA restringidos en centro de datos ligado a Alice Huang",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYWV6Z3k3UFRkUHNQZFZwS2liMy1ORVBxeTd4bzR5X1l0T0c2Q2hsYWxrRG5XNC1KWkp5SW40SUR3YTdKVUg5eGJ5TDFiTDhNZVVqMjU3eVhmUk5PMFh5YUNCeWRjU2hZMVhUOGZaMi04aG5mQlpWVlNkZm9Ed0tWRzdaeENiS2E2V2dYSHV2bnV0ZHZWbXAtU0xWUVRLMUtlLVM3dHZrQ2lVaGI2Q1lsbmVwNzV0VWYtaUQzRWJrSkpnem50SjRmcU1WQUd5RTY4YzlDYktB?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "InformaBTL: Bodega Aurrera liquida pantalla LG de 75 pulgadas; tiene resolución 4K, colores de alta fidelidad y excelente sonido",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcEx0S01JLXY5NmdGZE9DcEVidUMySkF1UWlxamRCWFluNVFhMVNzbFlUOUtrWUJVSU5aRm1PUVBYdmQ3N1p6TkR0MUprQ2R5WUk0eVNreHh2LTlBc1lEWGpDTTMtODIyT0EtUWJySTh3SHZnNXpkck5YLXo1d05qQ0liM1NETkp0R2pEbGlWc2stOTFtTEg0ZVBOSUhudG51ZFNWeXhmZTB4NmlSeGRfN0thWGhSMlNFOVhLcTJqVmllVGxobTVaUmRtbFNuLUVWa1hSSFhpUGxtUQ?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "Xataka: Países Bajos se planta ante EEUU por las restricciones a las máquinas de ASML",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0czUC1wbGdtSXJCdVlWZkZyOU5NX1VBZmlycWdTbzMxel9EX3Fnc3RZUlY5RGRHanlOSGtxd3RRYkFUdE9VZ0pyaDJqNWVHQXdaQVk0Ny0xMnFkc3FzX01hMmtqVUYzTDcwU2lRSlJCNWFYZ0xjMUFGMkRWUHRMeW5CSEY5T0Jaekpoazl0YWZzQnUtY3FKNGVRVXlySzJYNWc?oc=5",
+        "tipo": "Prensa Especializada"
+      },
+      {
+        "nombre": "El Financiero: Soko conquista CDMX",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVJYR1FSY3ZCMTNnLTJLbGlGSHVxTm1uZUVmZFJ4a1RDX1I4OWRwYmphWXVwN2U0Y0NQalBRR0ZXbmozaDRWbW5CWDFJX3JBdXRydmdud0FmZnVtOWhZWUJwZzVWb3lVcTVZODFYRnNyQXBKNUlfU19Ld1ZMVWliZC1mTGNEZGs?oc=5",
+        "tipo": "Prensa Especializada"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=7M-Uw19PTrA"
+  },
+  {
     "id": 1795802406385,
     "fecha": "2026-11-27",
     "categoria": "Farándula",
