@@ -1,5 +1,131 @@
 [
   {
+    "id": 1795802406385,
+    "fecha": "2026-11-27",
+    "categoria": "Farándula",
+    "edicion": "Farándula y Espectáculos",
+    "titulo": "Disney+ impone catálogo obligatorio para Avengers: Doomsday y renegocia contratos de streaming",
+    "descripcion": "La plataforma activa una estrategia de retención con títulos clave del UCM antes del estreno, mientras los acuerdos de licencia y derechos de transmisión redefinen el tablero comercial. En paralelo, José Eduardo Derbez confirma su soltería y la taquilla mexicana repunta con Mesa de regalos.",
+    "narracion": "La industria del streaming atraviesa un ajuste estructural y Disney+ lo evidencia con una maniobra que trasciende la programación: la plataforma ha definido un catálogo obligatorio de películas del Universo Cinematográfico de Marvel (UCM) como requisito narrativo previo al estreno de Avengers: Doomsday. Según la selección difundida por El Universal (VF2), la medida no es una simple recomendación curatorial, sino una estrategia de retención de suscriptores que busca amortizar los costos de producción de la cinta, cuyo presupuesto estimado supera los doscientos millones de dólares, de acuerdo con la cápsula audiovisual oficial.\n\nEl antecedente contractual es claro: los acuerdos de licencia con terceros y los derechos de transmisión en mercados internacionales se renegociaron para garantizar ventanas de exclusividad. Esto implica cláusulas de confidencialidad y penalizaciones por filtraciones, consecuencias legales que ya perfilan un nuevo tablero comercial. La decisión de Disney+ de condicionar el entendimiento de Doomsday a un visionado previo de títulos clave del UCM responde a un modelo de negocio donde el catálogo propio se convierte en activo estratégico y no solo en oferta pasiva. En México, este movimiento presiona a las plataformas locales y a los exhibidores a replantear sus propias ventanas de exclusividad y a revisar los contratos de licencia con estudios extranjeros.\n\nEn paralelo, el segundo tema central de la jornada es la confirmación de soltería de José Eduardo Derbez. Mediante un comunicado en Instagram, el actor desmintió rumores sobre una novia secreta y bromeó sobre las ventajas de su situación, según recoge Quién (VF4). Derbez protagoniza Mesa de regalos, una de las veinte cintas más taquilleras del cine nacional, según El Universal (VF8). Este dato no es menor: la industria del entretenimiento mexicano registra un repunte en taquilla y streaming, con títulos locales que compiten directamente con producciones extranjeras. El fenómeno Derbez, sumado al desempeño de Mesa de regalos, ilustra cómo el star system nacional sigue siendo un motor de taquilla, aunque su visibilidad mediática se gestione cada vez más desde plataformas digitales y comunicados breves.\n\nLas consecuencias para la industria cultural son dobles. Por un lado, Disney+ marca pauta en la renegociación de derechos de transmisión y ventanas de exclusividad, lo que afecta a productoras, distribuidoras y plataformas en México. Por otro, el caso Derbez evidencia que la conversación pública sobre el espectáculo se desplaza hacia lo personal, pero con impacto directo en la taquilla. La combinación de ambos hechos —la estrategia de catálogo obligatorio y el repunte del cine nacional— define un tablero donde los contratos, las licencias y la retención de audiencias son las verdaderas estrellas.",
+    "personaje": "Dora el Axolote",
+    "personaje_rol": "Crónica de Farándula",
+    "imagen_plantilla": "assets/personajes/plantilla_farandula_dora.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Carín León: \"Sigo conectado con el chamaco que fui\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/carin-leon-sigo-conectado-con-el-chamaco-que-fui/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ¿Qué películas debes ver antes del estreno de Avengers: Doomsday?; Disney+ hace su selección",
+        "url": "https://www.eluniversal.com.mx/espectaculos/que-peliculas-debes-ver-antes-del-estreno-de-avengers-doomsday-disney-hace-su-seleccion/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Excuñado de Hayden Panettiere revela cómo fueron los últimos momentos de la actriz; \"tenía el rostro pálido y los labios morados\", dice",
+        "url": "https://www.eluniversal.com.mx/espectaculos/excunado-de-hayden-panettiere-revela-como-fueron-los-ultimos-momentos-de-la-actriz-tenia-el-rostro-palido-y-los-labios-morados-dice/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: José Eduardo Derbez se burla de los rumores sobre su vida amorosa y confirma que está soltero",
+        "url": "https://www.quien.com/espectaculos/2026/11/26/jose-eduardo-derbez-se-burla-de-los-rumores-sobre-su-vida-amorosa-y-confirma-que-esta-soltero",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Chispa: Leones de Yucatán anuncian calendario 2027: ¡Conoce sus fechas!",
+        "url": "https://lachispa.mx/leones-de-yucatan-anuncian-calendario-2027-conoce-sus-fechas/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Luz Elena González tuvo que callar a Luis Miguel para que no descubrieran su romance: \"¡No cantes!\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/luz-elena-gonzalez-tuvo-que-callar-a-luis-miguel-para-que-no-descubrieran-su-romance-no-cantes/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ¿Qué ver? \"Rob Lowe: The Outsider\", el documental sobre el actor al que le veían más futuro que a Tom Cruise",
+        "url": "https://www.eluniversal.com.mx/espectaculos/rob-lowe-the-outsider-documental-sobre-el-actor-al-que-le-veian-mas-futuro-que-a-tom-cruise/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ¿Qué ver?: \"Mesa de regalos\", el taquillazo de José Eduardo Derbez que estrenó cuando aún era feliz",
+        "url": "https://www.eluniversal.com.mx/espectaculos/que-ver-mesa-de-regalos-el-taquillazo-de-jose-eduardo-derbez-que-estreno-cuando-aun-era-feliz/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: ¿Qué ver?: Alfalfa Switzer, el niño romántico que marcó al actor que lo interpretó",
+        "url": "https://www.eluniversal.com.mx/espectaculos/que-ver-alfalfa-switzer-el-nino-romantico-que-marco-al-actor-que-lo-interpreto/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Mariana Bo le responde a José Eduardo Derbez luego de que negara su romance: \"Yo también estoy soltera\"",
+        "url": "https://www.eluniversal.com.mx/espectaculos/mariana-bo-le-responde-a-jose-eduardo-derbez-luego-de-que-negara-su-romance-yo-tambien-estoy-soltera/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: Rod Stewart y Duran Duran rinden homenaje a Andy Taylor tras su muerte; lo recuerdan como \"la chispa\" de la banda",
+        "url": "https://www.eluniversal.com.mx/espectaculos/rod-stewart-y-duran-duran-rinden-homenaje-a-andy-taylor-tras-su-muerte-lo-recuerdan-como-la-chispa-de-la-banda/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "El Universal: KATSEYE llega a México con tres integrantes; se preparan para sus conciertos en la Ciudad de México",
+        "url": "https://www.eluniversal.com.mx/espectaculos/katseye-llega-a-mexico-con-tres-integrantes-se-preparan-para-sus-conciertos-en-la-ciudad-de-mexico/",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Johnny Depp: una nueva biografía revela sus excesos, conflictos en Hollywood y su turbulenta vida fuera de cámaras",
+        "url": "https://www.quien.com/espectaculos/2026/11/27/johnny-depp-una-nueva-biografia-revela-sus-excesos-conflictos-en-hollywood-y-su-turbulenta-vida-fuera-de-camaras",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "Quién: Anulan orden de aprehensión contra Vadhir Derbez",
+        "url": "https://www.quien.com/espectaculos/2026/11/27/anulan-orden-de-aprehension-contra-vadhir-derbez",
+        "tipo": "Insumo Central del Video"
+      },
+      {
+        "nombre": "La Jornada: Tribunal colegiado frena orden de aprehensión contra Vadhir Derbez por denuncia de violación en Coyoacán",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPV3Bhc2xvOW03cVlqVXlOczlRRjc3OEVBVHI2bHFJVUEzZ2YybWdwckwtRWpvUzltZGVfSWktMFFZYTl5aTRjR2VLUTJIWUdIb1h4WTlFRTJwQ29SaDBkT01vaTg4MFR2ODhOXzlsTTlkOXlmdnJCRzNIX2owYlh2eFdQUUNZMDg5ZWl0TUhKc205QlF4NXE5MmhQemRxM1ExbWQxV0dpTEhLemJLMUpFYV9TeGVlM1c4Njd3dlFtZ05za0VFOEVpb3U2bDZ0b2NaaWY5Z0FLeXNyX0hfOGM2SmVkOHk0YWJZYlVBX1B3Sk8?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "MILENIO: Eugenio Derbez comparte irónico mensaje por Día de Acción de Gracias; llama la atención por su pausa al hablar",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQanB1RjJEVy1YWTk3VWpURkl4RGhJcmtVSzg4XzhvbGFaYmJuVXhTWHVHN3ptWmdGRkFxX1RaLTlkdzU2ZDlERkR1N0NTLXU2UWFvWlExS3BycElXY0ROcVhLenFJMTJxSFBsRUtwMXNYaFlWaXJfcy16ejN5Y0NCcVczcUhlSTVBbTMyZFhob3JFRXNBMkxDU2x1T29QX0FCaGRXSS1nVjRHQdIBqgFBVV95cUxQUGtaVTFyeWZVOTlpQ0U3U3pBbWhkc0Y5TzJ4dVd2WlNaZExIQW5DVzVCUXZ3QmQ0bGhsblFIR29ralNRTkljMnhka2t4TjVYTzkyZzlQVDBjMjRrUzByeFRwYUs4anVDMVlrR1ZySW1jLUZZUF9PcmxQUDJ2NXVzR0pEWG1fS2FsOWpZY2NJOTNhNzI0dnZHRVdKLWc2VVZBVldRNjF1a1dFdw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "La Jornada: Cultura",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mVHAxX0hmcU92Wm5waDF1WmJBTkZwMHNQeGNaN1Y3OUc3VWUzb0kycXF6d0kzWFFjS1h1a1YxazJvZDhRWlRsWU9OWEpiczNaVE45XzhOU04?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Minuto60: No viene solo Avengers Doomsday: Marvel estaría trabajando en ‘Deadpool 4’ junto a Spider Man",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ0M1QTZJT2RCTU5wbzBNLXdvZ3ZtZkNJRklMVW9vcXQyR3JJdVhJQ0xKUFppaVZ0QTFFQzZSQnUzbVpPXzc0Z1ZKUGdGdGJXOFgwUWU4dloxQjQyV0JwVFE5c0cxWXM3R3BWYW1qZjc5M2J5UnRMeHRRUEhnLTAxX2l1LTNOVTVfZUtoTldCazA1N0VxeFFHX0VFb2h2SFU2czlxb182ZWtKZjVzc3pJRw?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "Infobae: El mensaje de Mariana BO para José Eduardo Derbez tras dejarla sola en un restaurante",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeDRsMjMxdFBGQllzLVdrZmQ2ZDZQWjJkd2ZYcUE1dGpfWi0xWlZhcXBQZFZNY0pYZEtCN0hTSzdPeGdiQnlkV2MzWWJlVG5PNU14SlduR1FSUXB3UWgyV29Idk12Y1RIZU9WSXEtZm96NV9wRVJUR3NicTZjaHduRkVLeW5LbzMySENoZFd4ZVBNQnh4STM4cmdyS1hXeU5fN3A4c1JnRkRSdHdxZ05oVUp4eTJ5cEJYRloydFI0ZUdCaGFCamF30gHiAUFVX3lxTFB0eldGbWN2T1MzOVViN2pxeXVuMnBHaUpMRWhscTRTTTVLZ2RFMXRmcE43U09zSEt6MVp1OFlHd3VSLXlaOG9Oa2pQNlRYbGlRelRtdHk3RGVxWG93cEkzVHZ3WHpfaElDYkFqUDdXNExreVJ3R1RpRk9HREFORG1RNWhmeGU2bXRUUklzYlFWY3dWalVtQ1ZHaEotS3h1LWJLS3phd1ZZb0hQVFI4MnNXY1RPNDVVWnJGV3laZkhTcTBBQUVkeldwZ3Z3UlhWWF9ERFJwM2VlN2ROdkhGdUk1akE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "TV Azteca: Muere querida actriz de doblaje que participó en Paw Patrol y Ni Hao, Kai-Lan; así fue su trayectoria",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYnZMSFRkdW5GY1FYcExfWElnTXROUldQY0tYeEZBOWlvMnRxT25iZXVUU0dJTXg2OVFsdVpaazRYUWptVjQteWFJOXhtaWRER2V3X0hWa2JlbHl0Y1o1dTVuRlY3QXpPV1lKLWxjVlJlMVVpUmY4eHNSZzhXbEdPZVBEYl9Ld1N1X0R6RGRtM1d1X3oxS0tGYVZnXzBySVlaWFAxSHN6QTJ6Z1A2R2ZTUEV4OVlaelJ0eXk0c3Buc2NTLXAzcGJHa0M2VjhSLU1vOVl6c2JhaHE?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "El Sol de México: De Kenia Os a Grupo Firme y Los Tigres del Norte: estos son los conciertos gratuitos y de paga de la Feria de León 2027",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSjhoUGQ4blhpNVRpaFNDMHJzVjRSaHBLbWNjUUZCelNCNlJIMHAxNnY4NHVreVNVcTdGbC1ib1VTRnpNMjlGU0lGSjJYbFIzS056OVVDbEIzMDhqdEFsMkRUVW92Zzh1bjUzNzk1WjVKUlIwMDNkX1hoOXI0QzRHR0dtcjI0a3JIa1F5S2F1c0ZZcTJHbHhFRktrNlAtN2RZNXdJMVpubDJhbTlJN0QyNnFJcGFEV3AtZXFVcGttQk9ESUJUQUpNS0NCSlZOY1N1MG43TjFxOXhhdWVhTVU3Y0lORWExSDlSZlc0RzVGNDhyV2VxdVB3?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      },
+      {
+        "nombre": "CNN en Español: El actor francés Gérard Depardieu será juzgado por violación, según su abogado",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDdrYXZ0c2RoVUJRcU9zbVRoWWNiZktybWc2T21ReTFhTUt0Zk5JZFF1QWN1U01iRWxxdmQ4OFpRS2lDd1RUN3gtVnRnTUdxbXQwZDU5X3hNVy1DYlRXVjhlYmVieHE3Ui1nUzVyUHlDckU2djM5UTVoR0VSS29KZWhGS0xEUmpqUm1lWmdYaU5aRmFo?oc=5",
+        "tipo": "Prensa / Cobertura Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=fLPKPw4P_hU"
+  },
+  {
     "id": 1795741207967,
     "fecha": "2026-11-26",
     "categoria": "Noticias México",
