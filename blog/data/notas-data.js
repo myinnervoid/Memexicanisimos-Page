@@ -1,5 +1,131 @@
 window.MEMEX_NOTAS = [
   {
+    "id": 1795827605063,
+    "fecha": "2026-11-27",
+    "categoria": "Noticias México",
+    "edicion": "Noticiero Central · 5 Puntos Clave",
+    "titulo": "Sheinbaum Blinda Aranceles a China, Amplía Autos Chocolate y Alerta Tormenta Invernal",
+    "descripcion": "La presidenta descarta modificar aranceles a China pese a presión comercial; se extiende decreto de autos chocolate hasta 2027; Senado avanza en declaraciones patrimoniales obligatorias para candidatos; UNAM restringe acceso por conductas de riesgo; y se activa alerta por primera tormenta invernal en el occidente del país.",
+    "narracion": "La presidenta Claudia Sheinbaum descartó modificar los aranceles impuestos a China, pese a la solicitud formal del gobierno chino. La mandataria argumentó que la decisión busca proteger la producción nacional y el empleo mexicano. Actualmente, México aplica aranceles de hasta 25 por ciento a más de 500 productos chinos, incluyendo acero, textiles y calzado. Esta medida forma parte de la política de sustitución de importaciones impulsada desde el sexenio anterior. El intercambio comercial entre México y China superó los 120 mil millones de dólares en 2024, según la Secretaría de Economía. La negativa a modificar los aranceles ocurre en un contexto de revisión del T-MEC, donde Washington ha presionado para limitar la inversión china en territorio mexicano. Analistas económicos advierten que mantener los aranceles podría encarecer insumos para la industria manufacturera nacional, pero también proteger sectores estratégicos. La decisión presidencial se mantiene firme y no se vislumbra un cambio en el corto plazo.\n\nEn un segundo tema, el Senado de la República avanza en una iniciativa que obligaría a los candidatos registrados a presentar declaraciones patrimoniales y de intereses. La propuesta también contempla que los aspirantes a diputaciones federales y senadurías no sean deudores alimentarios morosos. La reforma busca transparentar la situación financiera de quienes buscan cargos de elección popular. Actualmente, la Ley General de Instituciones y Procedimientos Electorales no exige de manera obligatoria la declaración patrimonial para candidatos, solo para servidores públicos en funciones. Con esta medida, se cerraría un vacío legal que permitía que personas con conflictos de interés o adeudos familiares accedieran a puestos de representación. La iniciativa fue aprobada en comisiones y se espera su discusión en el pleno. Organizaciones civiles han celebrado el avance, aunque señalan que falta definir sanciones claras para quienes incumplan. El Instituto Nacional Electoral tendría un plazo de 60 días para adecuar los formatos de registro.\n\nEn el tercer punto, la Universidad Nacional Autónoma de México implementó nuevos lineamientos para restringir el acceso a estudiantes que representen un riesgo para la seguridad de la comunidad universitaria. Las medidas entraron en vigor el 24 de noviembre y no implican la suspensión de los estudios, sino la limitación de acceso a instalaciones específicas. La UNAM atiende así casos de conductas violentas o de riesgo detectadas por comités internos. Los lineamientos establecen protocolos de evaluación psicológica y seguimiento académico. La universidad cuenta con más de 360 mil estudiantes de licenciatura y posgrado. La medida ha generado debate entre la comunidad estudiantil, que exige claridad en los criterios de aplicación y respeto a los derechos humanos. La institución argumenta que busca prevenir tragedias como las ocurridas en años recientes en planteles de educación media superior.\n\nEn el cuarto tema, la presidenta Sheinbaum alertó por la primera tormenta invernal de la temporada, que afectará principalmente a Jalisco, Colima y Michoacán con caída de nieve y temperaturas bajo cero. El Servicio Meteorológico Nacional pronostica heladas en zonas altas y posibles cierres carreteros. La Coordinación Nacional de Protección Civil emitió recomendaciones para extremar precauciones y abrigarse. Las pérdidas económicas por fenómenos invernales en el sector agrícola pueden alcanzar los 500 millones de pesos, según estimaciones de la Secretaría de Agricultura. Se recomienda a la población evitar exposición prolongada al frío y mantenerse informada por canales oficiales.\n\nFinalmente, la Cámara de Diputados avaló en comisiones un reconocimiento a la Secretaría de Cultura por su labor en la protección y conservación de las Ciudades Mexicanas Patrimonio Mundial. El reconocimiento destaca la gestión de recursos para mantenimiento de sitios históricos. México cuenta con 35 sitios declarados Patrimonio Mundial por la UNESCO, de los cuales 11 son ciudades. La discusión en el pleno se realizará en los próximos días. Esta medida busca incentivar la inversión en conservación del patrimonio y fortalecer el turismo cultural, que representa el 16 por ciento del producto interno bruto turístico nacional.",
+    "personaje": "El Mashukita",
+    "personaje_rol": "Mesa Central de Noticias",
+    "imagen_plantilla": "assets/personajes/plantilla_noticias_mashukita.jpg",
+    "fuentes": [
+      {
+        "nombre": "El Universal: Amplían hasta 2027 decreto para importar “autos chocolate”; urgente y necesario para dar seguridad jurídica, aseguran",
+        "url": "https://www.eluniversal.com.mx/nacion/amplian-hasta-2027-decreto-para-importar-autos-chocolate-urgente-y-necesario-para-dar-seguridad-juridica-aseguran/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Buscan que candidatos registrados presenten declaraciones patrimoniales; avanza iniciativa en el Senado",
+        "url": "https://www.eluniversal.com.mx/nacion/buscan-que-candidatos-registrados-presenten-declaraciones-patrimoniales-avanza-iniciativa-en-el-senado/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: UNAM podrá restringir acceso a estudiantes por conductas de \"riesgo a la seguridad\"; no implica la suspensión de estudios",
+        "url": "https://www.eluniversal.com.mx/nacion/unam-podra-restringir-acceso-a-estudiantes-por-conductas-de-riesgo-a-la-seguridad-no-implica-la-suspension-de-estudios/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Diputados avalan en comisiones reconocer labor de la Secretaría de Cultura; alistan discusión en el pleno",
+        "url": "https://www.eluniversal.com.mx/nacion/diputados-avalan-en-comisiones-reconocer-labor-de-la-secretaria-de-cultura-alistan-discusion-en-el-pleno/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum cuestiona intervención de El Salvador en Haití; la califica como \"muy discutible\"",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-cuestiona-intervencion-de-el-salvador-en-haiti-la-califica-como-muy-discutible/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum descarta modificar aranceles para China; asegura que decisión es por el \"beneficio de México\"",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-descarta-modificar-aranceles-para-china-asegura-que-decision-es-por-el-beneficio-de-mexico/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum insiste en que la oposición busca deslegitimar elecciones del 27 por caso INE; cuestiona a Ugalde, Córdova y Woldenberg",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-insiste-en-que-la-oposicion-busca-deslegitimar-elecciones-del-27-por-caso-ine-cuestiona-a-ugalde-cordova-y-woldenberg/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum alerta por primera tormenta invernal en México; Jalisco, Colima y Michoacán esperan caída de nieve",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-alerta-por-primera-tormenta-invernal-en-mexico-jalisco-colima-y-michoacan-esperan-caida-de-nieve/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum descarta asistir a la FIL de Guadalajara; acudirá Claudia Curiel en su representación",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-descarta-asistir-a-la-fil-de-guadalajara-acudira-claudia-curiel-en-su-representacion/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum destaca 90 puntos resueltos con EU sobre barreras no arancelarias; destaca que algunas cuestiones no le convenían a México",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-destaca-90-puntos-resueltos-con-eu-sobre-barreras-no-arancelarias-destaca-que-algunas-cuestiones-no-le-convenian-a-mexico/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum celebra reconocimiento al Museo Nacional de Antropología como el mejor del mundo; destaca acervo",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-celebra-reconocimiento-al-museo-nacional-de-antropologia-como-el-mejor-del-mundo-destaca-acervo/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Secretaría de Agricultura dialoga con Nestlé y productores de café; apuesta por un precio justo",
+        "url": "https://www.eluniversal.com.mx/nacion/secretaria-de-agricultura-dialoga-con-nestle-y-productores-de-cafe-apuesta-por-un-precio-justo/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: México presenta queja formal ante EU por línea de denuncia de la DEA; \"tenemos que defender la soberanía\", dice Sheinbaum",
+        "url": "https://www.eluniversal.com.mx/nacion/mexico-presenta-queja-formal-ante-eu-por-linea-de-denuncia-de-la-dea-tenemos-que-defender-la-soberania-dice-sheinbaum/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "El Universal: Sheinbaum descarta que reunión con Trump en el G20 sea \"la última oportunidad\" para lograr acuerdo comercial; busca reducir aranceles",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-descarta-que-reunion-con-trump-en-el-g20-sea-la-ultima-oportunidad-para-lograr-acuerdo-comercial-busca-reducir-aranceles/",
+        "tipo": "Insumo Central del Noticiero"
+      },
+      {
+        "nombre": "La Jornada: Primera tormenta invernal de la temporada dejará temperaturas congelantes en al menos 21 estados",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNT3dJSldpZFJibGJDbDJMZ2JpbWllS0g4WGVCWnp1LXF2a0F1d1ZjVGFNSHAzVVQyVkVtS0pLdDlua3lBTlZESUk1bXZRVk9vS2FGbm5wWGxPMkgyakhTcFFwdjFYdmNLVGtEYTBYN1FBM1ZhdG5UNzFuYVZQbU1vZ0tYTUxpV01JS1Z1VWJfdzBXWXFRZFB5ZVNZeFJwV2RjTzdMenh0VmdWdHNRTGFQOWpmR21vdmhSOGRteUluVVBjVncweUJ0SGtrVm5uYzk1Nm45c1Jn?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "EL PAÍS: La Secretaría de Relaciones Exteriores emite una queja formal ante el embajador Ronald Johnson por las líneas de denuncia de la DEA",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQd2c1RkNVLTFpTmcyeHFXM21TaV92MmlGeVR3aFNFTldXemtHUVl5WE5kR1NSdUgxcTNFRVZzZXZNLUcwckoyMVRvZGM3LTZxR0xfYTh6U09pbzNmSWxlbm5adGNaTVI5LVFZMkJGaHN3VzF2d3F2ZE1FcnpyTDdZRDN2b3ZiRDV5bjJDX1VqendUa1BpcktvUS1qRHBLSUVwZXNuR3BJdldDdUlmR19lYW1uZlJGRmtnZHc0a05IYVdhblUxMi1QQnFRTXBPOEd6SkpxMXBjLVJQNlBNU2dJeldFLWtKWUFDSmtJMlRCcDlrM1ZXQXlNelUyVW52YVR1bmtZ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Infobae: ¿Quién es Francisco Aguirre Gómez, el empresario al que la escritora Ximena Santaolalla denunció por abuso sexual?",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOV09XaVRUeTFKSW10dWNvZ3AzTjVNeG05aUo4eExCd0dBS0JHRkJPRnZwS0NhQ2sxcXZlbnNEb0pmWC1lM2NRXzFtME5zaWdFTnl0TlBORlhOdXBYMVRudE5xd2dVYWlHTTZBTmVxT3BJcGlURjFqRkFNR3NnZUl1X2FsMXZKa3hWWGJwN1JOU0MtRmdGVTB3SUxQMnF1ejQ1cWF5Zi1mYnNqUU5XMHhhY3lKaWVlamM3R0hEbDZydVZ5WVFhWXR3ck9WM0JsX1JLMnZkTGNXLVNaVS1feERRc255U1RmRHU5N0HSAYQCQVVfeXFMTUNRY21UTG4yZ21iMkNzcHgzeEc1RlJxbjhvTk5wTXVaM0JLRUNKTVdTZHdJRVN6LUJ4SlEwdmRIRHI2Y0N1bUEybW16LUlWZF9wWHBsMGZ2aElfbDRmeTlhMVFpNDFxeXNwT1dtQ2hxMkVwWUpqTi1uQ1dDalV5LUF2dThfYnBaeUNDV0NKb2cxTTE5TllndVJ5cUROWklCcC1Kcl9SZTdHeFJlN3JBLTdmODl4Z2o3TTYwS1k2Q2dndGQ1XzlYTVQ5OFdQS2V1ZjlMbDFxSzR5MFFQalprTFZPQ0pxcm9qNWxhUlNtWWRENVloNkl0YnRwLVVteWVwdy1Zdjc?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "Milenio: EU ofrece a Rafael Caro Quintero un acuerdo de culpabilidad",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMF91cmFCR1JPX2J1V3Q2VWJmS1hROEF3NnZ3REJFYkFLUXFNaC1RSU00M0R1VWdrazN3QW5rUEloWEw0cFBHeUpFb2dhaVVHYm1wNkhMcmNjS2lBcVBhcGpPdm05T2p1WUhPMmd1c0ZlemJhOVJtVkVCRFpqLTQzZWN1MGRFbUtpa2QzamQ3RE1jUdIBkgFBVV95cUxPaVlmb0s0aVI4Zm8zckZhdWw2TDBEOGRPYXh0Tmk1Ukdld3FqYUpWS1l0ZVpOZlpOYVk4cGlqT3hXWVctU0JSd3ZaMFMyNTNYbThjZzVHb1NzYXoyTW9TQUhPTkNKeTBnc2w0T0ZSREZMcGJEV3NyTHJsTEZpQ2ZobEpCbnFQdnNUUWlxNUJGc0QwUQ?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Economista: Explicador: ¿Cuándo será obligatorio el pago con tarjeta en casetas y gasolineras en México?",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb1d2MGk2dVkxZGJJdlc4VWpUSHA2ZTJRd3JIWmw1ai1GSlAyQ1c2Rko4MGJXTHFnUFVjc3dnWjlDUFFmSkRpLXFmU3ZzTTlMak41UHdLUWl1MlFpdTJvZHZXalNMckYtaVFMNGlITllKZ3dGRDk0ank3djNObWo3ODhMbzhfWk5KOTBtZmljSkt2bllTSVpSeGZFYkoxRmJtbUh6VU5oM2lXa3RKcldJVzdB0gG3AUFVX3lxTE1yZVI4REJnYS1NazhvYVNVQkVnUXNiUmx1MU01Y0RBa2hXby1PUXlwaXZPbG5PUkxvZ0ZvbU9YYm1DZ0dKM1g0WDBtNXNid0xRdEYwdW1SeS16M2xSMnlXbmEwY3d0WU15NGU5UXU3dXBiTVhiRVpNOHJ1dzFiV2c2ZmtueGVuUVQtS1hpNjZjZmFnQmdZZzl4Wi1Cd1ZBTTk3bXFSMzRQZHNVZmNlUVkwOUNzaENENA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: \"Si quieren cambiar la ley electoral, espérense a después de la elección de 2027\", dice Sheinbaum a ex consejeros",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOaGdCSUwzUU5WVEQyQnd0cTZfVzVwU19sV2VvSnJ5ZmhpdklJVVp5ck1KeXRhT1N4VDRJWjE2UEstU3dWU0NCUHc4UlY1bGNGZGUzLVkxeWtlQWlneVRZQUd4cUpyRGVNWFdvYXlWc21pRnJvdGV1WlR0VTBxSHRXYU4zT3VzbTd1cmtDY1hxNDZZRThSU2t1bVFhYm8wc1JxZjh4Ri1WMldLWU9yN0RIOE1NSVpRaV83ZU1BVnZQbnR0SU5iRVNYajFXSWp4Vzh3blk3M3pXdmhocXoyTC1xbW5RZG1rWEhwWWJtVlFsb0lyYzBuQ3Ew?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "La Jornada: Sheinbaum descarta revisar política arancelaria con China; busca elevar exportaciones agrícolas a dicho país",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVlJyakg3Uk5peGxlcG5tLVJpYzNFT01PS2xrQy05N3llMGhMa25JNlpWaFctcUxnNkR6NHlTRWJjbHFDNm5CdWFEZTl0cVY3QjA4aVhseUdzZ3JLYTdvUkkwQXZHOUN3bE9tS250UFhPWWk5ekxtSVM1MHpSVjZhVDRZVXZqQkZ3TTZzN1I4TTNtaVZaS1I5NVhTVFY1LXpHR1dnQU1RWEFkVDN4Nl95eFk5TVJTeF82anhOUmp0QmZJS1NmcWNZVTFBaWRqN3BVMHRqNUN3MzVTZGpIc0ZLWVdja3RQT2dxei1NTDRVT1RKTi03a0dVUA?oc=5",
+        "tipo": "Prensa Nacional"
+      },
+      {
+        "nombre": "El Comentario: Plantea Sheinbaum discutir con EUA la posible reubicación de SpaceX en Texas",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RVkVxbmtleVktZHlkWDdPb19SYU43X3VqekNTNWIyUUpzV1VNMU1tT2FIUEVnTlFkREdWSTg3cFdxVjgwa2tYTGYyRnZiN0U?oc=5",
+        "tipo": "Prensa Nacional"
+      }
+    ],
+    "estado": "publicado",
+    "youtube_url": "https://www.youtube.com/watch?v=AStkLyD9_Nc"
+  },
+  {
     "id": 1795820405250,
     "fecha": "2026-11-27",
     "categoria": "Gaming",
